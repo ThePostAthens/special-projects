@@ -6,4 +6,4 @@ Links in descending order of appearance
 <br><a href="http://thepostathens.github.io/RavenBanner/ravenbanner.html">Raven Graphic carousel replacement</a>
 <br><a href="http://thepostathens.github.io/HalloweenPhotoGraphic.html">Halloween Photo Gallery GIF</a>
 <br><a href="http://thepostathens.github.io/activism.html">Activism Graphic carousel replacement</a>
-<br><a hef="thepostathens.github.io/OrientationGuide/index.html">Orientation Guide</a>
+<br><a href="thepostathens.github.io/OrientationGuide/index.html">Orientation Guide</a>

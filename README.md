@@ -2,8 +2,18 @@
 Graphics for The Post in Athens, Ohio
 
 Links in descending order of appearance
-<br><a href="http://thepostathens.github.io/Google%20Charts/PMmillenialSavings.html">Post Modern about Millenials and their saving habits</a>
-<br><a href="http://thepostathens.github.io/RavenBanner/ravenbanner.html">Raven Graphic carousel replacement</a>
-<br><a href="http://thepostathens.github.io/HalloweenPhotoGraphic.html">Halloween Photo Gallery GIF</a>
-<br><a href="http://thepostathens.github.io/activism.html">Activism Graphic carousel replacement</a>
-<br><a href="thepostathens.github.io/OrientationGuide/index.html">Orientation Guide</a>
+
+<h2>Interactive Graphics:</h2>
+<p>Activism Banner</p>
+<p>Emmy Interactive</p>
+<p><strong>Google Charts</strong></p>
+<p>   Millenial Savings</p>
+<p>Orientation Guide</p>
+<br>
+<h2>Static Graphics</h2>
+<p>Static Diptychs</p>
+<p>Halloween Banner: GIFs (post)</p>
+<p>Halloween Banner: Raven (pre)</p>
+<br>
+<h2>The Redesign</h2>
+<p>Initial Website Design</p>

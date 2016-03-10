@@ -16,7 +16,6 @@
 #navbar ul{
     color: #FFF;
     list-style: none;
-    float: right;
     padding: 0px;
     margin: 0px;
 }
@@ -77,11 +76,28 @@ h2 {
     font-weight: 700;
 }
 
+img:hover {
+    opacity: .7;
+}
+
 @media only screen and (min-width: 900px) {
    .content{
        padding: 0 15% 0 15%;
    }
     .onethird{
         width: 33%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #navbar li{
+        float: none;
+        background-color: #595959;
+        display: block;
+    }
+    
+    #navbar p{
+        display: block;
+        width: 100%;
     }
 }

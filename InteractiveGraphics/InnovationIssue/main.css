@@ -42,7 +42,9 @@ h1 {
 }
 
 #headertext {
-    text-shadow: 5px 5px #C9B22A;
+    text-shadow: 0 0;
+    color: #FFF;
+    font-size: 207%;
 }
 
 p{

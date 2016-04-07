@@ -1,6 +1,7 @@
 body {
     background-color: #000;
     max-width: 625px;
+    margin: 0;
 }
 
 .portrait {
@@ -28,6 +29,7 @@ body {
 .background{
     background-size:cover;
     height:100%;
+
 }
 
 h1 {
@@ -48,7 +50,7 @@ p{
     font-size: 100%;
     color: #FFF;
     font-weight: 400;
-    padding: 0 7px 0 7px;
+    padding: 10px 7px 0 7px;
     margin: 0;
 }
 
@@ -97,6 +99,7 @@ p{
 
 #one {
     background-image: url(images/one.jpg);
+    background-position: center;
 }
 
 #two {
@@ -106,6 +109,7 @@ p{
 
 #three {
     background-image: url(images/three.jpg);
+    background-position: center;
 }
 
 #four {
@@ -118,6 +122,7 @@ p{
 
 #six {
     background-image: url(images/six.jpg);
+    background-position: center;
 }
 
 #seven {
@@ -134,6 +139,7 @@ p{
 
 #ten {
     background-image: url(images/ten.jpg);
+    background-position: center;
 }
 
 #eleven {

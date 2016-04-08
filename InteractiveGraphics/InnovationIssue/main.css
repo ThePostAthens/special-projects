@@ -2,6 +2,7 @@ body {
     background-color: #000;
     max-width: 625px;
     margin: 0;
+    padding: 0;
 }
 
 .portrait {
@@ -45,6 +46,7 @@ h1 {
     text-shadow: 0 0;
     color: #FFF;
     font-size: 207%;
+    margin-top:0px;
 }
 
 p{

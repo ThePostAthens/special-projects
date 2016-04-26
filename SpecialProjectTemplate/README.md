@@ -1,10 +1,10 @@
 #Special Project How To
 
 This is a special project template for The Post.
-It is built off an <a href="https://html5boilerplate.com/">HTML 5 boilerplate</a>, which resets a lot of the browser defaults making it easier to start from scratch.
+It is built off an [HTML 5 Boilerplate](https://html5boilerplate.com/"), which resets a lot of the browser defaults making it easier to start from scratch.
 
 ##Getting Started
-1. (https://html5boilerplate.com/")[Download] HTML 5 Boilerplate
+1. [Download](https://html5boilerplate.com/") HTML 5 Boilerplate
 2. Rename the folder according to the project name
 3. Copy the start template.html and template.css files to get started
 4. Add in body copy, and images according to style guide below.
@@ -21,11 +21,41 @@ Example: oneimg_center will center a single image and pq_right will float a pull
 ###Element List
 
 Images
-    .oneimg_center (center column img)
-    .oneimg_right (floated right img)
-    .oneimg_left (floated left img)
-    .oneimg_full (full width img)
-    .twoimg_center (two images centered *goes on a div wrapping the two <img> tags*) 
-    .threeimg_full (three images spanning the full width of the page)
+
+        .oneimg_center
+        .oneimg_right
+        .oneimg_left
+        .oneimg_full
+        .twoimg_center *applied to wrapping <div>*
+        .threeimg_full
+        #heroimg
 
 Pull Quotes
+
+        .pq_center
+        .pq_right
+        .pq_left
+        .attribution *add to a wrapping <span>*
+
+Headlines
+
+        #headline
+        #arthed
+        .subhed
+
+Body Copy
+
+        p *wrap with a div and add .column20center class*
+        .dropcap *apply to wrapping <span>*
+        #byline
+
+Embeded Things
+*apply all to a wrapping <di> and change width atribute of embed to 100%*
+
+        .embed_center
+        .embed_right
+        .embed_left
+
+Advertisements
+
+        .bannerad

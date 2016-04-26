@@ -31,6 +31,7 @@ Images
         #heroimg
 
 Pull Quotes
+**add to a wrapping <blockquote>**
 
         .pq_center
         .pq_right
@@ -50,7 +51,7 @@ Body Copy
         #byline
 
 Embeded Things
-*apply all to a wrapping <di> and change width atribute of embed to 100%*
+**apply all to a wrapping <di> and change width atribute of embed to 100%**
 
         .embed_center
         .embed_right

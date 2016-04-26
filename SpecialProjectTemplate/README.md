@@ -31,7 +31,7 @@ Images
         #heroimg
 
 Pull Quotes
-**add to a wrapping <blockquote>**
+**add to a wrapping blockquote tag**
 
         .pq_center
         .pq_right

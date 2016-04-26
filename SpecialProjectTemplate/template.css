@@ -58,18 +58,26 @@ p {
 #nav_bar img {
     height: 30px;
     padding: 10px;
-    float: left;
+    display: inline-block;
 }
 
 #nav_bar li {
     list-style: none;
     display: inline-block;
-    padding: 15px;
+    padding: 14px;
     float: right;
 }
 
 #nav_bar ul {
     margin: 0;
+    padding: 0;
+    float: right;
+}
+
+#hamburger {
+    color: #FFF;
+    fill: #FFF;
+    visibility: hidden;
 }
 
 /*----- Hero Image -----*/
@@ -230,5 +238,105 @@ p {
     width: 60%;
     padding: 10px 20%;
 }
+
+/*----- Media Queries ------*/
+
+@media only screen and (max-width:773px){
+    
+/*----- Navigation toggle -----*/
+    li {
+        width: 100%;
+        text-align: center;
+        display: none;
+    }
+    
+    li:hover {
+        background-color: #404040;
+    }
+    
+    ul {
+        padding: 0;
+        width: 100%;
+        display: none;
+    }
+    
+    #hamburger {
+        visibility: visible;
+        position: absolute;
+        right: 0;
+    }
+    
+    #hamburger:hover {
+        opacity: .6;
+    }
+    
+/*----- Rest of stuff -----*/
+    
+    #arthed {
+        font-size: 25px;
+    }   
+    
+    #headline {
+        font-size: 25px;
+        width: 80%;
+        padding: 0 10%;
+    }
+    
+    #byline {
+        font-size: 12px;
+    }
+    
+    .column20center {
+        width: 80%;
+        padding: 0 10%;
+    }
+    
+    
+/*----- Img Things -----*/
+
+    .oneimg_center, .oneimg_right, .oneimg_left {
+        width: 100%;
+        padding: 0;
+    }
+
+    .twoimg_center {
+        width: 100%;
+        margin: 0;
+    }
+
+    .threeimg_full {
+        width: 100%;
+    }
+
+    /*----- Pullqute stuff -----*/
+
+    .pq_center, .pq_right, .pq_left {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .attribution {
+        width: 100%;
+        padding: 0;
+        margin: 0 -20px;
+    }
+
+    /*----- Embedding Things -----*/
+
+
+    .embed_center, .embed_left, .embed_right {
+        width: 100%;
+        padding: 0;
+    }
+
+    /*----- Banner Ads -----*/
+
+    .bannerad {
+        width: 100%;
+        padding: 10px 0;
+}
+}
+
+
 
 

@@ -1,0 +1,258 @@
+/* Template.css
+This is a template for special projects at the post. Things are written modularly.
+This means that The Post can deploy special projects that look nice and are responsive rapidly,
+and with only moderate HTML, CSS and Github training */
+
+/*----- Global Styles -----*/
+
+body {
+    font-family: montserrat, sans-serif;
+    background-color: black;
+    color: #FFF;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: .6;
+}
+
+.bold{
+    font-weight: 700;
+}/* for montserrat bolding things */
+
+p {
+    
+}
+
+/*-----Column stuff-----*/
+
+.column20center {
+    width: 60%;
+    padding: 0 20%;
+}
+
+.column10center {
+    width: 80%;
+    padding: 0 10%;
+}
+
+.column10left {
+    width: 40%;
+    padding-left: 10%;
+}
+
+.column10right {
+    width: 40%;
+    padding-right: 10%;
+}
+
+/*----- Nav Bar -----*/
+
+#nav_bar {
+    background: #292929;
+    color: #FFF;
+}
+
+#nav_bar img {
+    height: 30px;
+    padding: 10px;
+    float: left;
+}
+
+#nav_bar li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    float: right;
+}
+
+#nav_bar ul {
+    margin: 0;
+}
+
+/*----- Hero Image -----*/
+
+#heroimg {
+    width: 100%;
+    position: relative;
+}
+
+#heroimg img {
+    width: 100%;
+}
+
+#arthed {
+    color: #0099ff;
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    margin: 0;
+    font-size: 70px;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+    animation: neon 1s 3s infinite alternate;
+}
+
+/*----- Body Copy Things -----*/
+
+#headline {
+    margin: 20px 0 0 0;
+}
+
+#byline {
+    margin: 0;
+    font-weight: 400;
+}
+
+.credit {
+    font-size: 16px;
+    margin: 10px;
+}
+
+.subhed {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    color:#0099ff;
+    font-size: 40px;
+    animation: neon .5s  3s infinite alternate;
+}
+
+@keyframes neon {
+    0% {
+        text-shadow: 0 0 10px #0FF;
+    }
+    
+    100% {
+        text-shadow: none;
+    }
+    
+}
+
+.dropcap {
+    font-weight: 700;
+    float: left;
+    font-size: 4.6em;
+    line-height: .9em;
+}
+
+/*----- Img Things -----*/
+
+.oneimg_center {
+    width: 60%;
+    padding: 0 20%;
+}
+
+.oneimg_right {
+    width: 40%;
+    padding-right: 10%;
+    padding-left: 10px;
+    float: right;
+}
+
+.oneimg_left {
+    width: 40%;
+    padding-left: 10%;
+    padding-right: 10px;
+    float: left;
+}
+
+.twoimg_center {
+    width: 60%;
+    margin: 0 20%;
+}
+
+.twoimg_center img {
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+.threeimg_full {
+    width: 33%;
+}
+
+.oneimg_full {
+    width: 100%
+}
+
+/*----- Pullqute stuff -----*/
+
+.pq_center {
+    width: 60%;
+    padding: 0 20%;
+    margin: 0;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #ff3399;
+    animation: neon 1s 4s infinite alternate;
+}
+
+.pq_right {
+    width: 40%;
+    padding-right: 10%;
+    padding-left: 15px;
+    float: right;
+    margin: 0;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.pq_left {
+    width: 40%;
+    padding-left: 10%;
+    padding-right: 15px;
+    float: left;
+    margin: 0;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.attribution {
+    font-size: 20px;
+    text-transform: none;
+    display: block;
+    text-align: right;
+    font-weight: 400;
+}
+
+/*----- Embedding Things -----*/
+
+
+.embed_center {
+    width: 60%;
+    padding: 0 20%;
+}
+
+.embed_right {
+    width: 40%;
+    padding-right: 10%;
+    padding-left: 10px;
+    float: right;
+}
+
+.embed_left {
+    width: 40%;
+    padding-left: 10%;
+    padding-right: 10px;
+    float: left;
+}
+
+.embed_full {
+    width: 100%
+}
+
+/*----- Banner Ads -----*/
+
+.bannerad {
+    width: 60%;
+    padding: 10px 20%;
+}
+
+

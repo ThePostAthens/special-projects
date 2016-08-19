@@ -7,8 +7,8 @@ and with only moderate HTML, CSS and Github training */
 
 body {
     font-family: montserrat, sans-serif;
-    background-color: black;
-    color: #FFF;
+    background-color: #FFF;
+    color: #000;
 }
 
 a {
@@ -25,7 +25,8 @@ a:hover {
 }/* for montserrat bolding things */
 
 p {
-    
+    width: 60%;
+    padding: 0 20%;
 }
 
 /*-----Column stuff-----*/
@@ -86,7 +87,7 @@ p {
 }
 
 #arthed {
-    color: #0099ff;
+    color: #FFF;
     position: absolute;
     bottom: 0;
     padding: 20px;
@@ -95,7 +96,6 @@ p {
     font-weight: 700;
     text-align: center;
     width: 100%;
-    animation: neon 1s 3s infinite alternate;
 }
 
 /*----- Body Copy Things -----*/
@@ -117,20 +117,9 @@ p {
 .subhed {
     font-family: montserrat, sans-serif;
     font-weight: 700;
-    color:#0099ff;
+    color:#000;
+    color:#000;
     font-size: 40px;
-    animation: neon .5s  3s infinite alternate;
-}
-
-@keyframes neon {
-    0% {
-        text-shadow: 0 0 10px #0FF;
-    }
-    
-    100% {
-        text-shadow: none;
-    }
-    
 }
 
 .dropcap {
@@ -138,6 +127,7 @@ p {
     float: left;
     font-size: 4.6em;
     line-height: .9em;
+    padding-right: 5px;
 }
 
 /*----- Img Things -----*/
@@ -189,8 +179,7 @@ p {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #ff3399;
-    animation: neon 1s 4s infinite alternate;
+    color: #000;
 }
 
 .pq_right {

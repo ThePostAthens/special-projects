@@ -29,6 +29,16 @@ p {
     padding: 0 20%;
 }
 
+h2 {
+    padding: 0 15%;
+}
+
+h3 {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
 /*-----Column stuff-----*/
 
 .column20center {
@@ -90,7 +100,7 @@ p {
     color: #FFF;
     position: absolute;
     bottom: 0;
-    padding: 20px;
+    padding: 0;
     margin: 0;
     font-size: 70px;
     font-weight: 700;
@@ -104,22 +114,18 @@ p {
     margin: 20px 0 0 0;
 }
 
-#byline {
-    margin: 0;
-    font-weight: 400;
-}
-
 .credit {
-    font-size: 16px;
-    margin: 10px;
+    font-size: 14px;
+    font-weight: 100;
 }
 
 .subhed {
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
+    font-family: montserrat
+    , sans-serif;
+    font-weight: 400;
     color:#000;
     color:#000;
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .dropcap {
@@ -179,7 +185,8 @@ p {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #000;
+    color: #c85328;
+    font-weight: 800;
 }
 
 .pq_right {
@@ -190,6 +197,7 @@ p {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
+    color: #c85328;
 }
 
 .pq_left {
@@ -201,6 +209,7 @@ p {
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 700;
+    color: #c85328;
 }
 
 .attribution {

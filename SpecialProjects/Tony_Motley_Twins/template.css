@@ -56,7 +56,7 @@ p {
 /*----- Nav Bar -----*/
 
 #nav_bar {
-    position: fixed;
+    position: ;
     z-index: 500;
     width: 100%;
     background: #292929;
@@ -136,7 +136,7 @@ p {
 }
 
 .instory_link {
-    color: aqua;
+    color: #67b6e5;
 }
 
 .title {
@@ -151,7 +151,7 @@ p {
 }
 
 .oneimg_right {
-    width: 40%;
+    width: 30%;
     padding-right: 10%;
     padding-left: 10px;
     float: right;
@@ -168,7 +168,7 @@ p {
     width: 40%;
     margin: 0;
     float: left;
-    padding: 0 0 0 10%;
+    padding: 2% 0 2% 10%;
   
 }
 
@@ -176,7 +176,7 @@ p {
 .twoimg_right {
     width: 40%;
     margin: 0%;
-    padding: 0 10% 0 0;
+    padding: 2% 10% 2% 0;
     float: right;
     
 }
@@ -193,12 +193,23 @@ p {
 
 .pq_center {
     width: 100%;
-    padding: 0 20%;
+    padding: 0 10%;
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
     color: ;
-    font-weight: 800;
+    font-weight: 700;
+}
+
+.pq_left_real {
+    width: 30%;
+    padding-left: 10%;
+    padding-right: 10px;
+    float: left;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: ;
+    font-weight: 700;
 }
 
 .pq_right {
@@ -213,15 +224,16 @@ p {
 }
 
 .pq_left {
-    width: 40%;
+    width: 60%;
+    padding-right:0 20%;
     padding-left: 10%;
-    padding-right: 15px;
     float: left;
-    margin: 0;
+    margin-right: 100px;
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #c85328;
+    
+    color:;
 }
 
 .attribution {

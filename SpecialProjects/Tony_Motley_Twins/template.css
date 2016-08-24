@@ -10,7 +10,7 @@ body {
 }
 
 a {
-    color: #FFF;
+    color: #000;
     text-decoration: none;
 }
 
@@ -106,7 +106,7 @@ p {
     bottom: 0;
     padding: 0;
     margin: 0;
-    font-size: 75px;
+    font-size: 150px;
     font-weight: 700;
     text-align: center;
     width: 100%;
@@ -168,7 +168,7 @@ p {
     width: 40%;
     margin: 0;
     float: left;
-    padding: 2% 0 2% 10%;
+    padding: 2% 0 0 10%;
   
 }
 
@@ -188,6 +188,44 @@ p {
 .oneimg_full {
     width: 100%
 }
+
+
+.pcutprovided {
+    float:left;
+    text-align: left;
+    margin: 0;
+    font-weight: 100;
+    color: #808080;
+    font-size: 15px;
+    padding: 0;
+}
+
+.pcutprovidedright {
+    float:right;
+    text-align: right;
+    margin: 0;
+    font-weight: 100;
+    color: #808080;
+    font-size: 15px;
+    padding;
+}
+
+
+.provided {
+  
+    float:left;
+    text-align: left;
+    margin: 0;
+    font-weight: 100;
+    color: #808080;
+    font-size: 15px;
+    padding-bottom: -6%;
+}
+
+#need_space {
+    width:100%;
+}
+
 
 /*----- Pullqute stuff -----*/
 
@@ -278,107 +316,31 @@ p {
     padding: 10px 20%;
 }
 
-/*----- Media Queries ------*/
 
-@media only screen and (max-width:773px){
+
+@media screen and (max-width: 750px){
     
-/*----- Navigation toggle -----*/
-    li {
-        width: 100%;
-        text-align: center;
-        display: none;
+    .oneimg_right, .oneimg_left {
+        width: 80%;
+        padding: 0 10% 10px 10%;
     }
     
-    li:hover {
-        background-color: #404040;
+    .pq_center {
+        padding: 0 10%;
+        width: 80%
     }
     
-    ul {
-        padding: 0;
-        width: 100%;
-        display: none;
+    .column20center, p {
+        width: 80%;
+        padding: 0 10%;
     }
-    
-    #hamburger {
-        visibility: visible;
-        position: absolute;
-        right: 0;
-    }
-    
-    #hamburger:hover {
-        opacity: .6;
-    }
-    
-/*----- Rest of stuff -----*/
     
     #arthed {
-        font-size: 25px;
-    }   
-    
-    #headline {
-        font-size: 25px;
-        width: 80%;
-        padding: 0 10%;
+        font-size: 40px;
     }
     
-    #byline {
-        font-size: 12px;
-    }
-    
-    .column20center {
-        width: 80%;
-        padding: 0 10%;
-    }
-    
-    
-/*----- Img Things -----*/
-
-    .oneimg_center, .oneimg_right, .oneimg_left {
-        width: 100%;
-        padding: 0;
-        margin: 0;
-    }
-
-    .twoimg_center {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-
-    .threeimg_full {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-
-    /*----- Pullqute stuff -----*/
-
-    .pq_center, .pq_right, .pq_left {
-        width: 100%;
-        padding: 0px;
-        margin: 0;
-    }
-
-    .attribution {
-        width: 100%;
-        margin: 0 -20px;
-    }
-
-    /*----- Embedding Things -----*/
-
-
-    .embed_center, .embed_left, .embed_right {
-        width: 100%;
-        padding: 0;
-    }
-
-    /*----- Banner Ads -----*/
-
-    .bannerad {
-        width: 100%;
-        padding: 10px 0;
 }
-}
+Contact GitHub API Training Shop Blog About
 
 
 

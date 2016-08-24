@@ -23,7 +23,7 @@ a:hover {
 }/* for montserrat bolding things */
 
 p {
-    font-family: lora, serif;
+    font-family: montserrat, serif;
 }
 
 /*-----Column stuff-----*/
@@ -101,12 +101,12 @@ p {
 }
 
 #arthed {
-    color: #000;
+    color: #FFF;
     position: absolute;
     bottom: 0;
     padding: 0;
     margin: 0;
-    font-size: 150px;
+    font-size: 70px;
     font-weight: 700;
     text-align: center;
     width: 100%;
@@ -121,6 +121,7 @@ p {
 #byline {
     margin: 0;
     font-weight: 400;
+    padding-bottom: 10px;
 }
 
 .subhed {

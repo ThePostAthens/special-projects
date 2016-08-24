@@ -117,6 +117,7 @@ h3 {
 .credit {
     font-size: 16px;
     font-weight: 100;
+    padding-bottom: 10px;
 }
 
 .subhed {
@@ -134,6 +135,15 @@ h3 {
     font-size: 4.6em;
     line-height: .9em;
     padding-right: 5px;
+}
+
+.title {
+    color: #606060;
+}
+
+#byline {
+    margin: 0;
+    font-weight: 400;
 }
 
 /*----- Img Things -----*/
@@ -220,9 +230,24 @@ h3 {
     font-weight: 400;
 }
 
-.pcut {
+.pcutProvided {
     float: right;
     text-align: right;
+    margin:0;
+    font-weight: 100;
+    color: #808080;
+    font-size: 12px;
+    padding: 0;
+}
+
+.pcut{
+    float: right;
+    text-align: right;
+    margin:0;
+    font-weight: 100;
+    color: #808080;
+    font-size: 15px;
+    padding: 0 10%;
 }
 
 /*----- Embedding Things -----*/

@@ -282,9 +282,15 @@ p {
         padding: 0 10%;
     }
     
-    #byline {
-        font-size: 12px;
-    }
+#byline {
+    margin: 0;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.title {
+    color: #606060;
+}
     
     .column20center {
         width: 80%;
@@ -338,7 +344,27 @@ p {
     .bannerad {
         width: 100%;
         padding: 10px 0;
-}
+        }
+    
+      
+    .oneimg_right, .oneimg_left {
+        width: 80%;
+        padding: 0 10% 10px 10%;
+    }
+    
+    .pq_center {
+        padding: 0 10%;
+        width: 80%
+    }
+    
+    .column20center, p {
+        width: 80%;
+        padding: 0 10%;
+    }
+    
+    #arthed {
+        font-size: 40px;
+    }
 }
 
 

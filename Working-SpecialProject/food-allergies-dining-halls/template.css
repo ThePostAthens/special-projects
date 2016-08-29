@@ -41,6 +41,7 @@ p {
 .column10left {
     width: 40%;
     padding-left: 10%;
+    float: left;
 }
 
 .column10right {
@@ -146,6 +147,13 @@ p {
     padding-left: 10%;
     padding-right: 10px;
     float: left;
+}
+
+.icon {
+    width: 10%;
+    align-content: center;
+    position: relative;
+    display: inline-block;
 }
 
 .twoimg_center {

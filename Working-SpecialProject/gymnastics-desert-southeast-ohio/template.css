@@ -39,6 +39,22 @@ h3 {
     padding: 0;
 }
 
+.oneimg_left img{
+    width: 100%;
+}
+
+.oneimg_center img{
+    width: 100%;
+}
+
+.oneimg_right img{
+    width: 100%;
+}
+
+.oneimg_full img{
+    width: 100%;
+}
+
 /*-----Column stuff-----*/
 
 .column20center {
@@ -117,16 +133,14 @@ h3 {
 .credit {
     font-size: 16px;
     font-weight: 100;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
 }
 
 .subhed {
     font-family: montserrat
     , sans-serif;
     font-weight: 800;
-    color:#000;
-    color:#000;
-    font-size: 20px;
+    color:#5379c4;
 }
 
 .dropcap {
@@ -187,6 +201,11 @@ h3 {
     width: 100%
 }
 
+.oneimg_full p {
+    width: 100%;
+    text-align: center;
+}
+
 /*----- Pullqute stuff -----*/
 
 .pq_center {
@@ -195,7 +214,7 @@ h3 {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #c85328;
+    color: #5379c4;
     font-weight: 800;
 }
 
@@ -207,7 +226,7 @@ h3 {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #c85328;
+    color: #5379c4;
 }
 
 .pq_left {
@@ -219,7 +238,7 @@ h3 {
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #c85328;
+    color: #5379c4;
 }
 
 .attribution {
@@ -246,8 +265,9 @@ h3 {
     margin:0;
     font-weight: 100;
     color: #808080;
-    font-size: 15px;
-    padding: 0 10%;
+    font-size: 14px;
+    width: 100%;
+    padding: 0;
 }
 
 /*----- Embedding Things -----*/
@@ -286,9 +306,14 @@ h3 {
 
 @media screen and (max-width: 750px){
     
-    .oneimg_right, .oneimg_left {
+    .oneimg_right, .oneimg_left, .oneimg_center {
         width: 80%;
         padding: 0 10% 10px 10%;
+    }
+    
+    .oneimg_full p {
+        margin: 0 5%;
+        width: 90%;
     }
     
     .pq_center, .pq_right, .pq_left {
@@ -303,6 +328,10 @@ h3 {
     
     #arthed {
         font-size: 40px;
+    }
+    
+    .subhed{
+        padding: 0 10%;
     }
     
 }

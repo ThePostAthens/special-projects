@@ -82,6 +82,7 @@ h3 {
 #nav_bar {
     background: #292929;
     color: #FFF;
+    height: 50px;
 }
 
 #nav_bar img {
@@ -232,7 +233,7 @@ h3 {
 .pq_left {
     width: 40%;
     padding-left: 10%;
-    padding-right: 15px;
+    padding-right: 0;
     float: left;
     margin: 0;
     font-size: 25px;

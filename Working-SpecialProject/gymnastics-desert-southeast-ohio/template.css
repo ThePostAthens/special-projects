@@ -207,11 +207,6 @@ h3 {
     width: 100%
 }
 
-.oneimg_full p {
-    width: 100%;
-    text-align: center;
-}
-
 /*----- Pullqute stuff -----*/
 
 .pq_center {
@@ -277,18 +272,18 @@ h3 {
 }
 
 .galleryPcut{
-    float: right;
-    text-align: right;
+float: right;
+    text-align: left;
     margin:0;
     font-weight: 100;
     color: #808080;
-    font-size: 14px;
+    font-size: 12px;
     width: 100%;
     padding: 0;
     padding-bottom: 10px;
 }
 
-.cutline{
+.photog{
     float: right;
     text-align: right;
     margin:0;
@@ -297,6 +292,11 @@ h3 {
     font-size: 12px;
     width: 100%;
     padding: 0;
+}
+
+.oneimg_full p{
+    width:60%;
+    padding:0 20%;
 }
 
 /*----- Embedding Things -----*/
@@ -388,8 +388,9 @@ w3-col{
     }
     
     .oneimg_full p {
-        margin: 0 5%;
-        width: 90%;
+        padding: 0;
+        margin: 0 10%;
+        width: 80%;
     }
     
     .pq_center, .pq_right, .pq_left {

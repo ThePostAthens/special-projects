@@ -7,6 +7,8 @@ and with only moderate HTML, CSS and Github training */
 
 body {
     font-family: montserrat, sans-serif;
+    background-color: #FFF;
+    color: #000;
 }
 
 a {
@@ -27,7 +29,7 @@ a:hover {
 }/* for montserrat bolding things */
 
 p {
-    font-family: lora, serif;
+ 
 }
 
 #wrap {
@@ -39,6 +41,22 @@ p {
     float: right;
     width: 60%;
 }
+
+.footer {
+    height: 50px;
+    background-color: #292929;
+    width: 100%;
+    float: right;
+}
+
+.copyright{
+    color: #505050;
+    padding: 10px 0;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
 
 
 /*-------Sidebar-------*/
@@ -60,15 +78,17 @@ li a {
 }
 
 .icon {
-    width: 30%;
+    width: 50%;
+    height: 50%;
     position: relative;
     display: block;
-    padding: 50px 0 10px 35%
+    padding: 0px 0 0 30%
 }
 
 .icon_holder {
-    padding-bottom: 100px;
+    padding-bottom: 220px;
     padding-right: 20%;
+    padding-left: 20%;
     text-align: inherit;
     
 }
@@ -178,19 +198,19 @@ li a {
 /*----- Img Things -----*/
 
 .oneimg_center {
-    width: 60%;
-    padding: 0 20%;
+    width: 100%;
+    padding-left: -20%;
 }
 
 .oneimg_right {
-    width: 40%;
-    padding-right: 10%;
+    width: 50%;
+    padding-right: ;
     padding-left: 10px;
     float: right;
 }
 
 .oneimg_left {
-    width: 40%;
+    width: 50%;
     padding-left: 10%;
     padding-right: 10px;
     float: left;
@@ -215,26 +235,50 @@ li a {
 }
 
 .oneimg_full {
-    width: 100%
+    width: 40%
+}
+
+/*-----cutlines-------*/
+
+.photog{
+    float: right;
+    text-align: right;
+    margin:0;
+    font-weight: 800;
+    color: #000;
+    font-size: 12px;
+    width: 100%;
+    padding: 0;
+}
+
+.pcut{
+    float: right;
+    text-align: left;
+    margin:0;
+    font-weight: 100;
+    color: #808080;
+    font-size: 12px;
+    width: 100%;
+    padding-bottom: 10px;
 }
 
 /*----- Pullqute stuff -----*/
 
 .pq_center {
     width: 80%;
-    padding: 0 20%;
-    margin: 0;
+    padding: 0 0 0 20%;
+    margin: 5%  0;
     font-size: 25px;
     text-transform: uppercase;
     text-align: left;
 }
 
 .pq_right {
-    width: 40%;
+    width: 80%;
     padding-right: 10%;
-    padding-left: 15px;
+    padding-left: 0px;
     float: right;
-    margin: 0;
+    margin: 5% 0;
     font-size: 25px;
     text-transform: uppercase;
 }
@@ -294,121 +338,30 @@ li a {
 
 /*----- Media Queries ------*/
 
-@media only screen and (max-width:773px){
+@media screen and (max-width: 750px){
     
-/*----- Navigation toggle -----*/
-    li {
-        width: 100%;
-        text-align: center;
-        display: none;
-    }
-    
-    li:hover {
-        background-color: #404040;
-    }
-    
-    ul {
-        padding: 0;
-        width: 100%;
-        display: none;
-    }
-    
-    #hamburger {
-        visibility: visible;
-        position: absolute;
-        right: 0;
-    }
-    
-    #hamburger:hover {
-        opacity: .6;
-    }
-    
-/*----- Rest of stuff -----*/
-    
-    #arthed {
-        font-size: 25px;
-    }   
-    
-    #headline {
-        font-size: 25px;
-        width: 80%;
-        padding: 0 10%;
-    }
-    
-#byline {
-    margin: 0;
-    font-weight: 400;
-    padding-bottom: 10px;
-}
-
-.title {
-    color: #606060;
-}
-    
-    .column20center {
-        width: 80%;
-        padding: 0 10%;
-    }
-    
-    
-/*----- Img Things -----*/
-
-    .oneimg_center, .oneimg_right, .oneimg_left {
-        width: 100%;
-        padding: 0;
-        margin: 0;
-    }
-
-    .twoimg_center {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-
-    .threeimg_full {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-
-    /*----- Pullqute stuff -----*/
-
-    .pq_center, .pq_right, .pq_left {
-        width: 100%;
-        padding: 0px;
-        margin: 0;
-    }
-
-    .attribution {
-        width: 100%;
-        margin: 0 -20px;
-        
-    }
-
-    /*----- Embedding Things -----*/
-
-
-    .embed_center, .embed_left, .embed_right {
-        width: 100%;
-        padding: 0;
-    }
-
-    /*----- Banner Ads -----*/
-
-    .bannerad {
-        width: 100%;
-        padding: 10px 0;
-        }
-    
-      
-    .oneimg_right, .oneimg_left {
+    .oneimg_right, .oneimg_left, .oneimg_center {
         width: 80%;
         padding: 0 10% 10px 10%;
     }
     
-    .pq_center {
+    #sidebar {
+        display: none;
+    }
+    
+    #text {
+        width: 80%;
         padding: 0 10%;
-        width: 80%
+    }
+    
+    .oneimg_full p {
+        margin: 0 5%;
+        width: 90%;
+    }
+    
+    .pq_center, .pq_right, .pq_left {
+        padding: 0 5%;
+        width: 90%
     }
     
     .column20center, p {
@@ -419,8 +372,9 @@ li a {
     #arthed {
         font-size: 40px;
     }
+    
+    .subhed{
+        padding: 0 10%;
+    }
+    
 }
-
-
-
-

@@ -6,13 +6,13 @@ and with only moderate HTML, CSS and Github training */
 /*----- Global Styles -----*/
 
 body {
-    font-family: montserrat, sans-serif;
-    background-color: black;
-    color: #FFF;
+    font-family: lora, serif;
+    background-color: #FFF;
+    color: #000;
 }
 
 a {
-    color: #FFF;
+    color: #67b6e5;
     text-decoration: none;
 }
 
@@ -25,7 +25,40 @@ a:hover {
 }/* for montserrat bolding things */
 
 p {
-    
+    width: 60%;
+    padding: 0 20%;
+}
+
+h2 {
+    padding: 0 15%;
+} 
+
+h3 {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.date{
+    margin-top: 30px;
+    margin-bottom: -15px;
+    font-weight: 800;
+}
+
+.oneimg_left img{
+    width: 100%;
+}
+
+.oneimg_center img{
+    width: 100%;
+}
+
+.oneimg_right img{
+    width: 100%;
+}
+
+.oneimg_full img{
+    width: 100%;
 }
 
 /*-----Column stuff-----*/
@@ -55,6 +88,7 @@ p {
 #nav_bar {
     background: #292929;
     color: #FFF;
+    height: 50px;
 }
 
 #nav_bar img {
@@ -86,16 +120,14 @@ p {
 }
 
 #arthed {
-    color: #0099ff;
-    position: absolute;
-    bottom: 0;
-    padding: 20px;
-    margin: 0;
+    color: #000;
     font-size: 70px;
     font-weight: 700;
     text-align: center;
     width: 100%;
-    animation: neon 1s 3s infinite alternate;
+    font-family: lora;
+    margin-bottom: 0;
+    line-height: 60px;
 }
 
 /*----- Body Copy Things -----*/
@@ -104,33 +136,17 @@ p {
     margin: 20px 0 0 0;
 }
 
-#byline {
-    margin: 0;
-    font-weight: 400;
-}
-
 .credit {
     font-size: 16px;
-    margin: 10px;
+    font-weight: 100;
+    padding-bottom: 50px;
 }
 
 .subhed {
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    color:#0099ff;
-    font-size: 40px;
-    animation: neon .5s  3s infinite alternate;
-}
-
-@keyframes neon {
-    0% {
-        text-shadow: 0 0 10px #0FF;
-    }
-    
-    100% {
-        text-shadow: none;
-    }
-    
+    font-family: montserrat
+    , sans-serif;
+    font-weight: 800;
+    color:#5379c4;
 }
 
 .dropcap {
@@ -138,6 +154,21 @@ p {
     float: left;
     font-size: 4.6em;
     line-height: .9em;
+    padding-right: 5px;
+}
+
+.title {
+    color: #606060;
+}
+
+#byline {
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    color: #292929;
 }
 
 /*----- Img Things -----*/
@@ -183,14 +214,19 @@ p {
 
 /*----- Pullqute stuff -----*/
 
+blockquote {
+    padding: 0;
+    margin: 5px;
+}
+
 .pq_center {
     width: 60%;
     padding: 0 20%;
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #ff3399;
-    animation: neon 1s 4s infinite alternate;
+    color: #5379c4;
+    font-weight: 800;
 }
 
 .pq_right {
@@ -201,17 +237,19 @@ p {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
+    color: #5379c4;
 }
 
 .pq_left {
     width: 40%;
     padding-left: 10%;
-    padding-right: 15px;
+    padding-right: 0;
     float: left;
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 700;
+    color: #5379c4;
 }
 
 .attribution {
@@ -220,6 +258,59 @@ p {
     display: block;
     text-align: right;
     font-weight: 400;
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0 5%;
+    width: 90%;
+}
+
+.pcutProvided {
+    float: right;
+    text-align: right;
+    margin:0;
+    font-weight: 100;
+    color: #808080;
+    font-size: 12px;
+    padding: 0;
+}
+
+.pcut{
+    float: right;
+    text-align: left;
+    margin:0;
+    font-weight: 100;
+    color: #808080;
+    font-size: 12px;
+    width: 100%;
+    padding: 0;
+}
+
+.galleryPcut{
+float: right;
+    text-align: left;
+    margin:0;
+    font-weight: 100;
+    color: #808080;
+    font-size: 12px;
+    width: 100%;
+    padding: 0;
+    padding-bottom: 10px;
+}
+
+.photog{
+    float: right;
+    text-align: right;
+    margin:0;
+    font-weight: 800;
+    color: #000;
+    font-size: 12px;
+    width: 100%;
+    padding: 0;
+}
+
+.oneimg_full p{
+    width:60%;
+    padding:0 20%;
 }
 
 /*----- Embedding Things -----*/
@@ -255,4 +346,70 @@ p {
     padding: 10px 20%;
 }
 
+/*----- Gallery Stuff -----*/
 
+.gallery_bot {
+    padding: 0;
+    width: 20%;
+    float: left;
+}
+
+.w3-hover-shadow:hover {
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important
+}
+
+.mySlides {
+    display:none;
+}
+
+/*----- Footer -----*/
+
+.footer {
+    height: 50px;
+    background-color: #292929;
+    width: 100%;
+}
+
+.copyright{
+    color: #505050;
+    padding: 10px 0;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+@media screen and (max-width: 750px){
+    
+    .oneimg_right, .oneimg_left, .oneimg_center {
+        width: 80%;
+        padding: 0 10% 10px 10%;
+    }
+    
+    .oneimg_full p {
+        width: 80%;
+        padding: 0 10%;
+    }
+    
+    .pq_center, .pq_right, .pq_left {
+        padding: 0 5%;
+        width: 90%;
+    }
+    
+    .column20center, p {
+        width: 80%;
+        padding: 0 10%;
+    }
+    
+    #arthed {
+        font-size: 40px;
+    }
+    
+    .subhed{
+        padding: 0 10%;
+    }
+    
+    .credit{
+        padding-bottom: 20px;
+    }
+    
+}

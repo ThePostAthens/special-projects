@@ -7,12 +7,12 @@ and with only moderate HTML, CSS and Github training */
 
 body {
     font-family: montserrat, sans-serif;
-    background-color: #000;
+    background-color: #030406;
     color: #FFF;
 }
 
 a {
-    color: #67b6e5;
+    color: #e4b9f8;
     text-decoration: none;
 }
 
@@ -40,9 +40,11 @@ h3 {
 }
 
 .date{
-    margin-top: 30px;
+    padding-top: 40px; 
+    margin-top: 50px;
     margin-bottom: -15px;
     font-weight: 800;
+    color: #eed7fc;
 }
 
 .oneimg_left img{
@@ -86,7 +88,7 @@ h3 {
 /*----- Nav Bar -----*/
 
 #nav_bar {
-    background: #000;
+    background: #030406;
     color: #FFF;
     height: 50px;
 }
@@ -120,7 +122,7 @@ h3 {
 }
 
 #arthed {
-    color: #eed7fc;
+    color: #FFF;
     position: absolute;
     bottom: 0;
     padding: 0;
@@ -135,7 +137,7 @@ h3 {
 
 .headline {
     margin: 20px 0 0 0;
-    color: #9b28ac;
+    color: #FF;
 }
 
 .credit {
@@ -148,7 +150,7 @@ h3 {
     font-family: montserrat
     , sans-serif;
     font-weight: 800;
-    color:#9b28ac;
+    color: #eed7fc;
 }
 
 .dropcap {
@@ -166,6 +168,7 @@ h3 {
 #byline {
     margin: 0;
     font-weight: 400;
+    padding-top: 70px; 
 }
 
 /*----- Img Things -----*/
@@ -346,13 +349,23 @@ float: right;
 /*----- Animation -----*/
 
 .neon {
-    animation: flicker 1s infinite;
+    animation: flicker 1.5s infinite;
 }
 
 @keyframes flicker {
     0% {text-shadow: 2px 0px #000;}
-    50% {text-shadow: 0px 0px 4px #Ab38Bc;}
+    50% {text-shadow: 0px 0px 4px #eed7fc;}
     100% {text-shadow: 2px 0px #000;}
+}
+
+.red_blue {
+    animation: rnb 1.5s infinite;
+}
+
+@keyframes rnb {
+    0% {text-shadow: 0px 0px 7px #f69a1d;}
+    50% {text-shadow: 0px 0px 7px #45c6ec;}
+    100% {text-shadow: 0px 0px 7px #f69a1d;}
 }
 
 /*----- Gallery Stuff -----*/

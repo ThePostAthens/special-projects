@@ -448,3 +448,12 @@ float: right;
     }
     
 }
+
+
+#logo {
+    z-index: 1;
+    position: absolute;
+    float: left;
+    height: 4%;
+    padding: 7px;
+}

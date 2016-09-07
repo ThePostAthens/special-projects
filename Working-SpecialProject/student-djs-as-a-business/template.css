@@ -326,8 +326,20 @@ float: right;
     padding:0 20%;
 }
 
-/*----- Embedding Things -----*/
+.bobhed {
+    font-weight: 800;
+    font-size: 26px;
+    text-align: left;
+    text-align: center;
+    margin-bottom: 0;
+}
 
+.bob {
+    text-align: center;
+    list-style: none;
+}
+
+/*----- Embedding Things -----*/
 
 .embed_center {
     width: 60%;
@@ -413,6 +425,27 @@ float: right;
     width: 100%;
 }
 
+#logo {
+    z-index: 1;
+    position: absolute;
+    float: left;
+    height: 30px;
+    padding: 7px;
+}
+
+.fb-share-button {
+    background-color: #3b5998;
+    text-align: center;
+    padding: 10px 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+
+.fb-share-button a {
+    color: #FFF;
+}
+
 @media screen and (max-width: 750px){
     
     .oneimg_right, .oneimg_left, .oneimg_center {
@@ -447,13 +480,13 @@ float: right;
         padding-bottom: 20px;
     }
     
-}
-
-
-#logo {
-    z-index: 1;
-    position: absolute;
-    float: left;
-    height: 4%;
-    padding: 7px;
+    #logo {
+        height: 25px;
+    }
+    
+    .fb-share-button {
+        padding: 10px;
+        margin-bottom: 25px;
+    }
+    
 }

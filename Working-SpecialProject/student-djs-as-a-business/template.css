@@ -5,6 +5,8 @@ and with only moderate HTML, CSS and Github training */
 
 /*----- Global Styles -----*/
 
+@import 'https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i';
+
 body {
     font-family: montserrat, sans-serif;
     background-color: #FFF;
@@ -145,11 +147,10 @@ h3 {
     width: 60%;
     margin: 0;
     /* WHATEVER */
-    font-family: playfair;
-    font-size: 26px;
-    font-weight: 900;
+    font-family: 'Playfair Display';
+    font-size: 18px;
+    font-weight: 900i;
     text-align: center;
-    text-transform: 
 }
 
 .credit {
@@ -200,7 +201,7 @@ h3 {
 .oneimg_left {
     width: 40%;
     padding-left: 10%;
-    padding-right: 10px;
+    padding-right: 20px;
     float: left;
 }
 

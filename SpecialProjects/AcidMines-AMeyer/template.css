@@ -7,12 +7,12 @@ and with only moderate HTML, CSS and Github training */
 
 body {
     font-family: montserrat, sans-serif;
-    background-color: black;
-    color: #FFF;
+    background-color: #FFF;
+    color: #000;
 }
 
 a {
-    color: #FFF;
+    color: #67b6e5;
     text-decoration: none;
 }
 
@@ -25,7 +25,18 @@ a:hover {
 }/* for montserrat bolding things */
 
 p {
-    
+    width: 60%;
+    padding: 0 20%;
+}
+
+h2 {
+    padding: 0 15%;
+}
+
+h3 {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
 }
 
 /*-----Column stuff-----*/
@@ -86,16 +97,15 @@ p {
 }
 
 #arthed {
-    color: #0099ff;
+    color: #FFF;
     position: absolute;
     bottom: 0;
-    padding: 20px;
+    padding: 0;
     margin: 0;
     font-size: 70px;
     font-weight: 700;
     text-align: center;
     width: 100%;
-    animation: neon 1s 3s infinite alternate;
 }
 
 /*----- Body Copy Things -----*/
@@ -104,33 +114,19 @@ p {
     margin: 20px 0 0 0;
 }
 
-#byline {
-    margin: 0;
-    font-weight: 400;
-}
-
 .credit {
     font-size: 16px;
-    margin: 10px;
+    font-weight: 100;
+    padding-bottom: 10px;
 }
 
 .subhed {
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    color:#0099ff;
-    font-size: 40px;
-    animation: neon .5s  3s infinite alternate;
-}
-
-@keyframes neon {
-    0% {
-        text-shadow: 0 0 10px #0FF;
-    }
-    
-    100% {
-        text-shadow: none;
-    }
-    
+    font-family: montserrat
+    , sans-serif;
+    font-weight: 400;
+    color:#000;
+    color:#000;
+    font-size: 20px;
 }
 
 .dropcap {
@@ -138,6 +134,16 @@ p {
     float: left;
     font-size: 4.6em;
     line-height: .9em;
+    padding-right: 5px;
+}
+
+.title {
+    color: #606060;
+}
+
+#byline {
+    margin: 0;
+    font-weight: 400;
 }
 
 /*----- Img Things -----*/
@@ -189,8 +195,8 @@ p {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #ff3399;
-    animation: neon 1s 4s infinite alternate;
+    color: #c85328;
+    font-weight: 800;
 }
 
 .pq_right {
@@ -201,6 +207,7 @@ p {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
+    color: #c85328;
 }
 
 .pq_left {
@@ -212,6 +219,7 @@ p {
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 700;
+    color: #c85328;
 }
 
 .attribution {
@@ -220,6 +228,26 @@ p {
     display: block;
     text-align: right;
     font-weight: 400;
+}
+
+.pcutProvided {
+    float: right;
+    text-align: right;
+    margin:0;
+    font-weight: 100;
+    color: #808080;
+    font-size: 12px;
+    padding: 0;
+}
+
+.pcut{
+    float: right;
+    text-align: right;
+    margin:0;
+    font-weight: 100;
+    color: #808080;
+    font-size: 15px;
+    padding: 0 10%;
 }
 
 /*----- Embedding Things -----*/
@@ -256,3 +284,25 @@ p {
 }
 
 
+@media screen and (max-width: 750px){
+    
+    .oneimg_right, .oneimg_left {
+        width: 80%;
+        padding: 0 10% 10px 10%;
+    }
+    
+    .pq_center {
+        padding: 0 10%;
+        width: 80%
+    }
+    
+    .column20center, p {
+        width: 80%;
+        padding: 0 10%;
+    }
+    
+    #arthed {
+        font-size: 40px;
+    }
+    
+}

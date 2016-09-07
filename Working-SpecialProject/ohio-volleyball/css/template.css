@@ -56,8 +56,8 @@ h3 {
 /*-----Column stuff-----*/
 
 .column20center {
-    width: 60%;
-    padding: 0 20%;
+    width: 80%;
+    padding: 0 10%;
 }
 
 .column10center {
@@ -113,12 +113,13 @@ h3 {
 #arthed {
     color: #FFF;
     position: absolute;
-    top: 50px;
+    top: 1px;
+    right: 1px;
     float: right;
     text-align: right;
-    padding-right: 25px;
-    margin: 0;
-    font-size: 100px;
+    padding-right: px;
+    margin-right: 25px;
+    font-size: 115px;
     font-weight: 700;
     
     width: 100%;
@@ -235,7 +236,7 @@ h3 {
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #c85328;
+    color: #000;
 }
 
 .attribution {
@@ -246,27 +247,19 @@ h3 {
     font-weight: 400;
 }
 
-.photog{
-    float: right;
-    text-align: right;
-    margin:0;
-    font-weight: 800;
-    color: #000;
-    font-size: 12px;
-    width: 100%;
-    padding: 0;
-    font-family: montserrat;
-}
+
 
 .pcut{
-    float: right;
+    float:;
     text-align: right;
-    margin:0;
     font-weight: 100;
     color: #808080;
     font-size: 12px;
     width: 100%;
     padding-bottom: 10px;
+    padding-right:0px;
+    padding-left: 0;
+    
     
 }
 
@@ -316,6 +309,11 @@ h3 {
         width: 80%
     }
     
+    .pq_left {
+        padding: 0 10%;
+        width: 80%;
+    }
+    
     .column20center, p {
         width: 80%;
         padding: 0 10%;
@@ -323,6 +321,48 @@ h3 {
     
     #arthed {
         font-size: 40px;
+        text-align: center;
+        padding: 0;
+        right: 0;
+        margin: 0;
+        top: 150px;
     }
+    
+    
+    .threeimg_full {
+        width: 90%;
+        margin: 0;
+        padding-bottom: 5px;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    
+    .photog{
+    float:right;
+    text-align: right;
+    margin: 0;
+    font-weight: 800;
+    color: #000;
+    font-size: 12px;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 5%;
+
+}
+    
+    #photo {
+      
+    }
+}
+
+.photog{
+    float: right;
+    text-align: right;
+    margin:0;
+    font-weight: 800;
+    color: #000;
+    font-size: 12px;
+    width: 100%;
+    padding: 0;
     
 }

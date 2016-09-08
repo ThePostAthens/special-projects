@@ -121,14 +121,15 @@ h3 {
     margin-right: 25px;
     font-size: 115px;
     font-weight: 700;
-    
     width: 100%;
+    text-shadow: 2px 2px 8px #000;
 }
 
 /*----- Body Copy Things -----*/
 
 #headline {
     margin: 20px 0 0 0;
+    text-transform: uppercase;
 }
 
 .credit {
@@ -144,6 +145,7 @@ h3 {
     color:#000;
     color:#000;
     font-size: 20px;
+    text-transform: uppercase;
     
 }
 
@@ -181,7 +183,7 @@ h3 {
 .oneimg_left {
     width: 40%;
     padding-left: 10%;
-    padding-right: 10px;
+    padding-right: 20px;
     float: left;
 }
 
@@ -231,7 +233,7 @@ h3 {
 .pq_left {
     width: 40%;
     padding-left: 10%;
-    padding-right: 15px;
+    padding-right: 20px;
     float: left;
     margin: 0;
     font-size: 25px;
@@ -306,21 +308,18 @@ h3 {
     font-size: 12px;
     width: 100%;
     padding: 0;
-    
 }
 
-
 #photo{
-    float: right;
-    text-align: right;
+    text-align: center;
     margin:0;
-    font-weight: 800;
+    font-weight: 500;
     color: #000;
     font-size: 12px;
     width: 100%;
-    padding: 0;
-    
+    padding: 10px 0 10px 0;   
 }
+
 @media screen and (max-width: 750px){
     
     .oneimg_right, .oneimg_left {
@@ -375,15 +374,17 @@ h3 {
 }
     
     #photo {
-      float:right;
-    text-align: right;
     margin: 0;
-    font-weight: 800;
-    color: #000;
     font-size: 12px;
     width: 80%;
     padding-left: 10%;
     padding-right: 5%;
+    }
+    
+    #headline{
+        font-size: 18px;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 }
 

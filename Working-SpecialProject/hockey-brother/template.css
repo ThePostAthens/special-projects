@@ -406,6 +406,12 @@ float: right;
         margin: 0 10% 10px 10%;
     }
     
+    .oneimg_left, .oneimg_center {
+        width: 80%;
+        padding: 0 10% 10px 10%;
+        margin: 0;
+    }
+        
     .oneimg_full p {
         width: 80%;
         padding: 0 10%;

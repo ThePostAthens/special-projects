@@ -337,6 +337,7 @@ float: right;
 .bob {
     text-align: center;
     list-style: none;
+    padding-left: 0;
 }
 
 /*----- Embedding Things -----*/

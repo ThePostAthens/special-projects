@@ -406,7 +406,7 @@ float: right;
         margin: 0 10% 10px 10%;
     }
     
-    .oneimg_left, .oneimg_center {
+    .oneimg_left, .oneimg_right {
         width: 80%;
         padding: 0 10% 10px 10%;
         margin: 0;

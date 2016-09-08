@@ -164,7 +164,7 @@ h3 {
 #byline {
     font-weight: 400;
     width: 100%;
-    text-align: center;
+    text-align: center !important;
     margin: 0;
     padding: 17px 0 0 0;
     font-family: montserrat;

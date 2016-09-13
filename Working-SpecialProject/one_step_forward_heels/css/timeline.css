@@ -1,0 +1,23 @@
+.horizontal_timeline .heels_image {
+    position: relative;
+} 
+
+.horizontal_timeline .heels_image li {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    left: 0;
+    top: 0;
+    transform: translateX(-100%);
+    opacity: 0;
+    animation-duration: 0.4s;
+    animation-timing-function: ease-in-out;
+}
+
+.horizontal_timeline .heels_image li.selected {
+    position: relative;
+    z-index: 2;
+    opacity: 1;
+    transform: translateX(0);
+} 
+

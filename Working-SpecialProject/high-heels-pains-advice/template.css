@@ -478,6 +478,14 @@ h3 {
         display: none;
         
     }
+    
+    .photog_small {
+        display: none;
+    }
+    
+    .heel_info {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 400px) {

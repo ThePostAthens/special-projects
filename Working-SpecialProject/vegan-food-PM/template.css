@@ -14,7 +14,7 @@ body {
 }
 
 a {
-    color: #3876bc;
+    color: #7fc448;
     text-decoration: none;
 }
 
@@ -142,15 +142,14 @@ h3 {
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #FFF;
-    padding: 0 20% 40px 20%;
-    width: 60%;
+    color: #497425;
+    padding: 0 10% 0 10%;
+    width: 80%;
     margin: 0;
-    /* WHATEVER */
-    font-family: 'Playfair Display';
-    font-size: 18px;
+    font-family: Monserrat;
+    font-size: 40px;
     font-weight: 900i;
-    text-align: center;
+    text-transform: uppercase;
 }
 
 .credit {
@@ -163,13 +162,13 @@ h3 {
     font-family: montserrat
     , sans-serif;
     font-weight: 800;
-    color: #3876bc;
+    color: #7fc448;
 }
 
 .dropcap {
     font-weight: 700;
     float: left;
-    font-size: 4.6em;
+    font-size: 2.9em;
     line-height: .9em;
     padding-right: 5px;
 }
@@ -372,28 +371,6 @@ float: right;
     padding: 10px 20%;
 }
 
-/*----- Animation -----*/
-
-.neon {
-    animation: flicker 3s infinite;
-}
-
-@keyframes flicker {
-    0% {text-shadow: 2px 0px #FFF;}
-    50% {text-shadow: 0px 0px 2px #3876bc;}
-    100% {text-shadow: 2px 0px #FFF;}
-}
-
-.red_blue {
-    animation: rnb 1.5s infinite;
-}
-
-@keyframes rnb {
-    0% {text-shadow: 0px 0px 7px #f69a1d;}
-    50% {text-shadow: 0px 0px 7px #45c6ec;}
-    100% {text-shadow: 0px 0px 7px #f69a1d;}
-}
-
 /*----- Gallery Stuff -----*/
 
 .gallery_bot {
@@ -434,12 +411,13 @@ float: right;
     padding: 7px;
 }
 
+/*----- Parallax scrolling -----*/
+
 .parallax {
-    background-image: url("https://s3.amazonaws.com/media.ohi/15449_dj_02o.jpg");
     height: 800px;
     width: 100%;
     background-attachment: fixed;
-    background-position: center;
+    background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -480,6 +458,12 @@ float: right;
     
     #logo {
         height: 25px;
+    }
+
+    .headline {
+        width: 80%;
+        padding: 4% 10% 0 10%;
+        font-size: 25px;
     }
     
 }

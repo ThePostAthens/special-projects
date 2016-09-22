@@ -18,7 +18,7 @@ body {
 }
 
 a {
-    color: #67b6e5;
+    color: #000;
     text-decoration: none;
 }
 
@@ -42,11 +42,13 @@ p {
 #wrap {
     width: 100%;
     margin: 0 auto;
+    
 }
 
 #text {
     float: right;
-    width: 60%;
+    width: 70%;
+    
 }
 
 .footer {
@@ -68,55 +70,15 @@ p {
 
 #sidebar {
     float: left;
-    width: 40%;
-    padding-left: %; 
+    width: 30%;
+   
+    
    
 }
 
-.info {
-    text-align: inherit;
-    color: #67b6e5;
-}
 
-.info_1 {
-    text-align: inherit;
-    color: #67b6e5;
-    width: 120%;
-}
 
-ul {
-    color: #67b6e5;
-    font-family: monserrat_Light, sans-serif;
-}
 
-.icon {
-    width: 50%;
-    height: 50%;
-    position: relative;
-    display: block;
-    padding: 0px 0 0 30%;
-      
-}
-
-.icon_holder {
-    padding-bottom: 220px;
-    padding-right: 20%;
-    padding-left: 20%;
-    text-align: inherit;
-    
-}
-
-.icon_responsive{
-    width:40%;
-    
-    padding-bottom: px;
-    padding-right: 1%;
-    padding-left: 1%;
-    float: right;
-    text-align: inherit;
-    display: none;
-    
-}
 
 /*-----Column stuff-----*/
 
@@ -130,6 +92,11 @@ ul {
     padding: 0 10%;
 }
 
+.column30center {
+    width: 80%;
+    padding: 0 5%;
+}
+
 .column10left {
     width: 40%;
     padding-left: 10%;
@@ -139,7 +106,7 @@ ul {
 
 .column10right {
     width: 100%;
-    padding-right: 10%;
+    
     float: right;
 }
 
@@ -198,6 +165,13 @@ ul {
     width: 100%;
 }
 
+#logo {
+    z-index: 1;
+    position: absolute;
+    float: left;
+    width: 7%;
+    padding: 7px;
+}
 /*----- Body Copy Things -----*/
 
 #headline {
@@ -226,6 +200,7 @@ ul {
     float: left;
     font-size: 4.6em;
     line-height: .9em;
+    color: #10503d;
 }
 
 /*----- Img Things -----*/
@@ -266,7 +241,7 @@ ul {
 }
 
 .oneimg_full {
-    width: 40%
+    width: 100%
 }
 
 /*-----cutlines-------*/
@@ -307,13 +282,14 @@ ul {
 }
 
 .pq_right {
-    width: 80%;
+    width: 40%;
     padding-right: 10%;
-    padding-left: 0px;
+    padding-left: 15px;
     float: right;
     margin: 5% 0;
     font-size: 25px;
     text-transform: uppercase;
+    color: #10503d;
 }
 
 .pq_left {
@@ -388,14 +364,14 @@ ul {
     }
     
     #text {
-        width: 80%;
-        padding: 0 10%;
+        width: 100%;
+        padding: 
     }
     
-    .oneimg_full p {
-        margin: 0 5%;
-        width: 90%;
-        padding: 0 1% 10px 10%;
+    .oneimg_full  {
+        
+        width: 100%;
+        
     }
     
     .pq_center, .pq_right, .pq_left {
@@ -403,9 +379,9 @@ ul {
         width: 90%
     }
     
-    .column20center, p {
+    .column30center {
         width: 80%;
-        padding: 0 10% 0 20%;
+        padding: 0 10% 0 10%;
     }
     
     #arthed {
@@ -413,7 +389,7 @@ ul {
     }
     
     .subhed{
-        padding: 0 10%;
+        padding: 0;
     }
     
     .icon_responsive {
@@ -423,22 +399,52 @@ ul {
     }
     
     .pcut{
+    width: 100%;
+             
+    }
     
-    text-align: ;
-    margin:0 0 0 ;
-    font-weight: 100;
-    color: #808080;
-    font-size: 12px;
-    width: 90%;
-    padding-bottom: 10px;
-    padding-left: ;    
-}
+    .hold_response {
+        display: inline-block;
+        width: 80%;
+        padding-left: 10%
+        
+    }
     
-    .info {
-    text-align: inherit;
-    color: #67b6e5;
-    width: 120%;
+    .tupa_img {
+    width: 40%;
+    margin: auto;
+    padding-right: 23%;
+    padding-left: 20%;
+   
+  
+   
 }
+
+.hold_response .named {
+    text-align: center;
+    padding-top: px;
+    font-size: 20px;
+    margin: auto;
+    color: #10503d;
+}
+
+.hr {
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+    display: inline;
+    float: right;
+    margin: 2px 0;
+}
+   
+  
+.img_text {
+    text-align: center;
+    font-size: 18px;
+    color: #10503d;
+   
+}
+
     
     
 }

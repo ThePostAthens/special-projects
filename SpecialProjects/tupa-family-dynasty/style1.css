@@ -2,9 +2,6 @@
     width: 50%;
     float: right;
     padding: 10% 0 40% 10%;
-    
-        
-    
 }
 
 .tupa_img {
@@ -20,7 +17,8 @@
     padding-top: px;
     font-size: 20px;
     margin: auto;
-    color: #10503d;
+    color: #116e1e;
+    font-weight: 900;
 }
 
 .hr {
@@ -36,7 +34,7 @@
 .img_text {
     text-align: right;
     font-size: 18px;
-    color: #10503d;
+    color: #116e1e;
 }
 
 .hold_response {

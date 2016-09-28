@@ -11,8 +11,6 @@ body {
     font-family: montserrat, sans-serif;
     background-color: #FFF;
     color: #030406;
-    background-image: url(img/eeee4cf8.png);
-    background-repeat: repeat;
 }
 
 a {
@@ -403,6 +401,10 @@ float: right;
 
 .highlighted {
     box-shadow: inset 0 -13px 0 #f9ef20;
+}
+
+.shgif {
+    width: 40%;
 }
 
 /*----- Parallax scrolling -----*/

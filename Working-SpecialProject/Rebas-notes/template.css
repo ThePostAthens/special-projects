@@ -398,6 +398,19 @@ float: right;
     position: fixed;
     top: 0;
     z-index: 1;
+    filter: blur(.8px);
+}
+
+#redline1 {
+    width: 2px;
+    height: 1000px;
+    margin-left: 11%; 
+    background-color: #f73361;
+    opacity: .7;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    filter: blur(.8px);
 }
 
 .highlighted {
@@ -465,6 +478,22 @@ float: right;
     
     #redline {
         margin-left: 5%;
+        filter: blur(0);
+    }
+    
+    #redline1 {
+        margin-left: 5.5%;
+        filter: blur(0);
+    }
+    
+    #byline {
+        padding: 0 10%;
+        width: 80%;
+    }
+    
+    .date {
+        padding: 0 10% 10px;
+        width: 80%;
     }
     
 }

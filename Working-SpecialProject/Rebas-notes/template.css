@@ -561,4 +561,12 @@ float: right;
     .method2 {
         width: 100%;
     }
+    
+    .shgif {
+        width: 80%;
+    }
+    
+    #byline {
+        font-size: 18px;
+    }
 }

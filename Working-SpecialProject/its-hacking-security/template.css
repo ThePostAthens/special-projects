@@ -205,6 +205,15 @@ h3 {
     width: 100%
 }
 
+.parallax {
+    height: 800px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /*----- Pullqute stuff -----*/
 
 .pq_center {
@@ -311,7 +320,7 @@ h3 {
 }
 
 .photo{
-    text-align: center;
+    text-align: left;
     margin:0;
     font-weight: 500;
     color: #000;
@@ -327,12 +336,17 @@ h3 {
         padding: 0 10% 10px 10%;
     }
     
+    .oneimg_center {
+        width: 100%;
+        padding: 0;
+    }
+    
     .pq_center {
         padding: 0 10%;
         width: 80%
     }
     
-    .pq_left {
+    .pq_right {
         padding: 0 10% 15px ;
         width: 80%;
     }
@@ -391,6 +405,10 @@ h3 {
     p {
         padding: 0;
         width: 100%;
+    }
+    
+    .parallax{
+        background-position: 30% 50%;
     }
 }
 

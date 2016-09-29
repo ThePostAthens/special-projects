@@ -347,8 +347,9 @@ h3 {
     }
     
     .pq_right {
-        padding: 0 10% 15px ;
-        width: 80%;
+        padding: 0 0 15px 0 ;
+        width: 100%;
+        font-size: 18px;
     }
     
     .column20center, p {

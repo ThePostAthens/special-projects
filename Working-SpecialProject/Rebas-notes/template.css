@@ -36,7 +36,6 @@ h2 {
 } 
 
 h3 {
-    font-size: 16px;
     margin: 0;
     padding: 0;
 }
@@ -237,9 +236,9 @@ blockquote {
     width: 60%;
     padding: 0 20%;
     margin: 0;
-    font-size: 25px;
+    font-size: 30px;
     text-transform: uppercase;
-    color: #5379c4;
+    color: cornflowerblue;
     font-weight: 800;
 }
 
@@ -249,9 +248,9 @@ blockquote {
     padding-left: 15px;
     float: right;
     margin: 0;
-    font-size: 15px;
+    font-size: 20px;
     text-transform: uppercase;
-    color: #000;
+    color: cornflowerblue;
 }
 
 .pq_left {
@@ -260,10 +259,10 @@ blockquote {
     padding-right: 0;
     float: left;
     margin: 0;
-    font-size: 25px;
+    font-size: 30px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #5379c4;
+    color: cornflowerblue;
 }
 
 .attribution {
@@ -386,7 +385,8 @@ float: right;
     height: 2px;
     width: 100%;
     background-color: cornflowerblue;
-    opacity: .9;
+    opacity: .8;
+    filter: blur(.8px);
 }
 
 #redline {
@@ -419,6 +419,64 @@ float: right;
 
 .shgif {
     width: 40%;
+    padding-left: 15%;
+}
+
+/*----- Getting Structured -----*/
+
+#structured {
+    width: 70%;
+    margin: 0 15%;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+    float: left;
+    margin-bottom: 15px;
+}
+
+#structuredtitle {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.method {
+    width: 25%;
+    float: left;
+    display: inline-block;
+}
+
+.method h4 {
+    margin: 0 20%;
+    text-align: center;
+    box-shadow: inset 0 -13px 0 #f9ef20;
+    width: 60%;
+    text-transform: uppercase;
+}
+
+.method p {
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.method2 {
+    width: 33%;
+    float: left;
+    display: inline-block;
+}
+
+.method2 h4 {
+    margin: 0 20%;
+    text-align: center;
+    box-shadow: inset 0 -13px 0 #f9ef20;
+    width: 60%;
+    text-transform: uppercase;
+}
+
+.method2 p {
+    font-weight: 100;
+    font-size: 14px;
 }
 
 /*----- Parallax scrolling -----*/
@@ -445,8 +503,8 @@ float: right;
     }
     
     .pq_center, .pq_right, .pq_left {
-        padding: 0 5%;
-        width: 90%;
+        padding: 0 5% 0 10%;
+        width: 85%;
     }
     
     .column20center, p {
@@ -496,4 +554,11 @@ float: right;
         width: 80%;
     }
     
+    .method {
+        width: 100%;
+    }
+    
+    .method2 {
+        width: 100%;
+    }
 }

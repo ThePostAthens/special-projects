@@ -113,11 +113,15 @@ h3 {
 
 #arthed {
     color: #000;
+    position: absolute;
     text-align: center;
-    font-size: 80px;
+    font-size: 150px;
     font-weight: 700;
+    text-shadow: 1px 1px 1px #000;
+    bottom: 0px;
     width: 100%;
-    margin: auto;
+    margin: 0;
+    
     
 }
 
@@ -126,6 +130,7 @@ h3 {
 #headline {
     margin: 20px 0 0 0;
     text-transform: uppercase;
+    color: #bc0014;
 }
 
 .credit {
@@ -138,7 +143,7 @@ h3 {
     font-family: montserrat
     , sans-serif;
     font-weight: 1000;
-    color:#206192;
+    color:#bc0014;
     font-size: 20px;
     text-transform: uppercase;
     
@@ -150,7 +155,7 @@ h3 {
     font-size: 4.6em;
     line-height: .9em;
     padding-right: 5px;
-    color: #206192;
+    color: #264da3;
 }
 
 .title {
@@ -160,6 +165,7 @@ h3 {
 #byline {
     margin: 0;
     font-weight: 400;
+    color: #264da3;
 }
 
 /*----- Img Things -----*/
@@ -204,13 +210,15 @@ h3 {
 }
 
 .parallax {
-    height: 800px;
+    height: 900px;
     width: 100%;
     background-attachment: fixed;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
+
+
 
 /*----- Pullqute stuff -----*/
 
@@ -233,11 +241,20 @@ h3 {
     font-size: 25px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #206192;
+    color: #264da3;
+
+    z-index: 1;
+    opacity: 1;
+    
 }
 
+.stripes {
+    text-shadow: 1.5px 1px 0px rgba(188, 0, 20, 0.7), 1px 1px 1px #fff;
+}
+
+
 .pq_left {
-    width: 30%;
+    width: 40%;
     padding-left: 10%;
     padding-right: 20px;
     padding-bottom: 10px;
@@ -246,7 +263,7 @@ h3 {
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #000;
+    color: #264da3;
 }
 
 .attribution {
@@ -255,6 +272,7 @@ h3 {
     display: block;
     text-align: right;
     font-weight: 400;
+    color: #264da3;
 }
 
 
@@ -350,6 +368,13 @@ h3 {
         font-size: 18px;
     }
     
+    
+    .pq_left {
+        padding: 0 0 15px 0 ;
+        width: 100%;
+        font-size: 18px;
+    }
+    
     .column20center, p {
         width: 80%;
         padding: 0 10%;
@@ -359,6 +384,7 @@ h3 {
         font-size: 50px;
         text-align: center;
         line-height: 60px;
+        bottom: 0;
     }
     
     
@@ -407,7 +433,10 @@ h3 {
     }
     
     .parallax{
-        background-position: 30% 50%;
+        background-position: 50% 50%;
+        height: 500px;
     }
+    
+    
 }
 

@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #FFF;
     text-decoration: none;
 }
 
@@ -115,6 +115,7 @@ h3 {
 #heroimg {
     width: 100%;
     position: relative;
+    display: none;
 }
 
 #heroimg img {
@@ -150,6 +151,11 @@ h3 {
     font-size: 16px;
     font-weight: 100;
     padding-bottom: 50px;
+    background-color: #292929;
+    color: #FFF;
+    font-family: montserrat;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .subhed {
@@ -408,7 +414,7 @@ float: right;
 /*----- Parallax scrolling -----*/
 
 .parallax {
-    height: 600px;
+    height: 900px;
     width: 100%;
     background-attachment: fixed;
     background-position: 50% 50%;
@@ -422,14 +428,12 @@ float: right;
     width: 50%;
     background-size: cover;
     display: inline-block;
-    float: left;
     position: relative;
 }
 
 .onecolumn {
     width: 25%;
     display: inline-block;
-    float: left;
     position: relative;
 }
 
@@ -444,6 +448,14 @@ float: right;
     background: linear-gradient(rgba(256,256,256,.0),rgba(0,0,0,.8));
 }
 
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
 .columnimg {
     width: 100%;
 }
@@ -456,12 +468,63 @@ float: right;
     font-family: "Alfa Slab One";
     color: #FFF;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 14px;
     background: linear-gradient(rgba(256,256,256,.0),rgba(0,0,0,.8));
 }
 
+.timeline {
+    height: 300px;
+    width: 100%;
+    background-color: #292929;
+}
 
+.timeline h2 {
+    color: #fff;
+    padding: 50px;;
+    margin: 0;
+    text-align: center;
+}
 
+.others {
+    width: 100%;
+    height: 300px;
+}
+
+.other {
+    width: 50%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+.other h2 {
+    font-family: alfa slab one;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 2px;
+    height: 70%;
+    padding: 5%;
+    margin: 0;
+}
+
+.other h3 {
+    font-family: alfa slab one;
+    color: #fff;
+    padding: 20px 0 0 20px;
+    letter-spacing: 1.5px;
+}
+
+.other:hover {
+    opacity: .7;
+}
+
+.signature {
+    width: 40%;
+    padding: 0 40% 30px 20%;
+}
 
 /*--- Media Queries ---*/
 
@@ -506,7 +569,7 @@ float: right;
     .headline {
         width: 80%;
         padding: 4% 10% 0 10%;
-        font-size: 25px;
+        font-size: 30px;
     }
     
     .onecolumn {
@@ -515,6 +578,40 @@ float: right;
     
     .twocolumn {
         width: 100%;
+    }
+    
+    .other h3 {
+        text-align: center;
+        padding: 10px;
+        margin: 0;
+    }
+    
+    .other h2 {
+        font-size: 20px;
+    }
+    
+    .credit {
+        padding-top: 10px;
+        text-align: center;
+    }
+    
+    .parallax {
+        height: 500px;
+        background-position: 0 0;
+        background-size: inherit 100%;
+    }
+    
+    .signature {
+        width: 80%;
+        padding: 0 10% 20px;
+    }
+    
+    #phero {
+        display: none;
+    }
+    
+    #heroimg {
+        display: inline-block;
     }
     
 }

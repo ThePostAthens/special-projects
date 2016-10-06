@@ -473,16 +473,8 @@ float: right;
 }
 
 .timeline {
-    height: 300px;
+    height: 400px;
     width: 100%;
-    background-color: #292929;
-}
-
-.timeline h2 {
-    color: #fff;
-    padding: 50px;;
-    margin: 0;
-    text-align: center;
 }
 
 .others {
@@ -580,6 +572,10 @@ float: right;
         width: 100%;
     }
     
+    .others {
+        height: 250px
+    }
+    
     .other h3 {
         text-align: center;
         padding: 10px;
@@ -587,7 +583,7 @@ float: right;
     }
     
     .other h2 {
-        font-size: 20px;
+        font-size: 15px;
     }
     
     .credit {
@@ -597,7 +593,7 @@ float: right;
     
     .parallax {
         height: 500px;
-        background-position: 0 0;
+        background-position: -100px 0;
         background-size: inherit 100%;
     }
     
@@ -612,6 +608,10 @@ float: right;
     
     #heroimg {
         display: inline-block;
+    }
+    
+    #perform {
+        font-size: 13px;
     }
     
 }

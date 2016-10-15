@@ -135,7 +135,7 @@ h3 {
 
 #arthed {
     font-family: 'doublefeature';
-    color: #fff;
+    color: #8e021a;
     position: absolute;
     bottom: 0;
     padding: 0;
@@ -169,7 +169,7 @@ h3 {
     font-family: montserrat
     , sans-serif;
     font-weight: 800;
-    color: #3e5f96;
+    color: #8e021a;
 }
 
 .dropcap {
@@ -440,6 +440,46 @@ float: right;
     padding: 0 10%;
     width: 80%;
 }
+
+/*-- Rocky Stuff ---*/
+
+#callbacks {
+    background-color: #292929;
+    color: #FFF;
+}
+
+.callback_left {
+    width: 40%;
+    margin: 0;
+    margin-left: 20%;
+    margin-top: 20px;
+    border: 1px solid #898989;
+    border-radius: 5px;
+    background-color: #898989;
+    padding: 3px;
+}
+
+.callback_right {
+    width: 40%;
+    margin: 0;
+    margin-left: 40%;
+    margin-top: 20px;
+    border: 1px solid #494949;
+    border-radius: 5px;
+    background-color: #494949;
+    padding: 3px;
+}
+
+.callback_right p, .callback_left p {
+    margin: 0;
+    width: 100%;
+}
+
+.messages {
+    padding-bottom: 30px;
+}
+
+/*---- Media Query ----*/
 
 @media screen and (max-width: 750px){
     

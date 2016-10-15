@@ -1,0 +1,16 @@
+
+.container {
+    height: 1200px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url(https://s3.amazonaws.com/media.ohi/16096__mg_0016f.png);
+    z-index: -10;
+
+}
+
+.image_staic{
+    background-image: url(https://s3.amazonaws.com/media.ohi/16097__mg_0023f.png);
+}
+

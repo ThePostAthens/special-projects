@@ -525,9 +525,17 @@ float: right;
         font-size: 35px;
     }
     
-    #linechart_material {
-        height: 300;
-        margin: 0 10%;
+    .callback_left {
+        width: 60%;
+        margin: 25px 10%;
+    }
+    
+    .callback_right {
+        width: 60%;
+        margin: 25px 30%;
+    }
+    
+    .callback_right p {
         width: 80%;
     }
     

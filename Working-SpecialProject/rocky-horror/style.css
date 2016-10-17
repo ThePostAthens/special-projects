@@ -1,5 +1,5 @@
 
-.container {
+#container {
     height: 1200px;
     width: 100%;
     background-attachment: fixed;
@@ -10,7 +10,4 @@
 
 }
 
-.image_staic{
-    background-image: url(https://s3.amazonaws.com/media.ohi/16097__mg_0023f.png);
-}
 

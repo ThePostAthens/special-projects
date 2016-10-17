@@ -35,7 +35,7 @@ THE
         
         <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
         
-        <script src="js/vendor/jquery-1.12.0.min.js"></script>
+        
         
         <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
         <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
@@ -80,9 +80,8 @@ THE
 
         <p>There are no expectations. There is not really a dress code. It is $5 at the door and a night in The Union Bar &amp; Grill,<strong> West Union Street, </strong>with 300 newly-made friends. </p>
         
-        <div class="container">
-           <div class="image_static"></div>
-            
+        <div id="container">
+      
             
         </div>
 
@@ -145,10 +144,37 @@ THE
     
         <h3 class="column20center credit"><strong>Development by:</strong> <a href="https://twitter.com/SethPArcher">Seth Archer</a> / Digital Managing Editor</h3>  
         
+        
+        
+        
+        
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>     
+        
+        <script>
+                $(function(){
+                    var scrolldiv = $('#container');
+                    
+                    $(scrolldiv).scroll(function() {
+                        if($(this).scrollTop() > 400) {
+                            $(scrolldiv).css('background-image', 'url(https://s3.amazonaws.com/media.ohi/16095__mg_0012f.png)');
+                        }
+                        else if($(this).scrollTop > 800) {
+                            $(scrolldiv).css('background-image', 'url(https://s3.amazonaws.com/media.ohi/16097__mg_0023f.png)'); 
+                        } 
+                        else {
+                            $(scrolldiv).css('background-image', 'url(https://s3.amazonaws.com/media.ohi/16096__mg_0016f.png)');
+                        }
+                                    
+                                    
+                    })
+                
+                });
+                  
+            </script>
+        
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         
         <script>

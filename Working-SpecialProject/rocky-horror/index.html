@@ -157,11 +157,11 @@ THE
                 $(function(){
                     var scrolldiv = $('#container');
                     
-                    $(scrolldiv).scroll(function() {
-                        if($(this).scrollTop() > 400) {
+                    $(window).scroll(function() {
+                        if($(this).scrollTop() > ($(scrolldiv).offset().top + 400)) {
                             $(scrolldiv).css('background-image', 'url(https://s3.amazonaws.com/media.ohi/16095__mg_0012f.png)');
                         }
-                        else if($(this).scrollTop > 800) {
+                        else if($(this).scrollTop > ($(scrolldiv).offset().top + 800)) {
                             $(scrolldiv).css('background-image', 'url(https://s3.amazonaws.com/media.ohi/16097__mg_0023f.png)'); 
                         } 
                         else {

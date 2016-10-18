@@ -3,10 +3,30 @@
     height: 1200px;
     width: 100%;
     background-attachment: fixed;
-    background-position: 50% 50%;
+    background-position: 90% 40%;
     background-repeat: no-repeat;
-    background-image: url(https://s3.amazonaws.com/media.ohi/16096__mg_0016f.png);
-    z-index: -10;
+    background-size: 600px;
+
+}
+
+
+@media screen and (max-width: 750px){
+
+
+    #container {
+        height: 600px;
+        background-size: 200px;
+    }
+
+
+
+
+
+
+
+
+
+
 
 }
 

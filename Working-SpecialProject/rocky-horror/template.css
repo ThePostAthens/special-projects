@@ -169,7 +169,7 @@ h3 {
     font-family: montserrat
     , sans-serif;
     font-weight: 800;
-    color: #3e5f96;
+    color: red;
 }
 
 .dropcap {
@@ -484,9 +484,6 @@ float: right;
 
 }
 
-
-
-
 .rocky_imgs {
     float: left;
     width: 40%;
@@ -500,7 +497,10 @@ float: right;
     
 }
 
-
+.fukuhannah {
+    padding: 0 30%;
+    width: 40%; 
+}
 
 #callbacks {
     background-color: #292929;
@@ -606,18 +606,27 @@ float: right;
     }
      .character_left {
     width: 100%;
+         padding:0;
+         margin: 0;
 
 }
 
-.rocky_imgs {
+.rocky_imgs, .fuckuhannah {
     width: 60%;
-    padding: 0 20%;
+    margin: 0 20%;;
 }
+  
 
 .info_left {
     width: 100%;
-    
+    margin: 0;
+    padding: 0;   
 }
+    
+    .info_left p {
+        width:80%;
+        padding: 0 10%;
+    }
     
      .callback_left {
         width: 60%;
@@ -631,6 +640,10 @@ float: right;
     
     .callback_right p {
         width: 80%;
+    }
+    
+    iframe {
+        height: 250px;
     }
     
 }

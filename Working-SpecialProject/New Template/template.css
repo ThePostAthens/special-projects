@@ -1,11 +1,9 @@
 /* Template.css
-This is a template for special projects at the post. Things are written modularly.
-This means that The Post can deploy special projects that look nice and are responsive rapidly,
-and with only moderate HTML, CSS and Github training */
+This is a template for special projects at The Post.
+Template originally coded by Seth Archer, digital managing editor at The Post.
+Please contact at SethPArcher@gmail.com with questions.*/
 
 /*----- Global Styles -----*/
-
-@import 'https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i';
 
 body {
     font-family: montserrat, sans-serif;
@@ -22,10 +20,6 @@ a:hover {
     opacity: .6;
 }
 
-.bold{
-    font-weight: 700;
-}/* for montserrat bolding things */
-
 p {
     width: 60%;
     padding: 0 20%;
@@ -33,7 +27,7 @@ p {
 
 h2 {
     padding: 0 15%;
-} 
+}
 
 h3 {
     font-size: 16px;
@@ -45,36 +39,16 @@ h3 {
     font-weight: 800;
     color: #eed7fc;
     width: 60%;
-    padding: 3% 20% 0 20%;
+    padding: 0% 20% 0 20%;
     margin: 0;
-}
-
-.oneimg_left img{
-    width: 100%;
-}
-
-.oneimg_center img{
-    width: 100%;
-}
-
-.oneimg_right img{
-    width: 100%;
-}
-
-.oneimg_full img{
-    width: 100%;
-}
-
-.blkbg {
-    background-color: #030406;
-}
+}/*apply to p tag*/
 
 /*-----Column stuff-----*/
 
 .column20center {
     width: 60%;
     padding: 0 20%;
-}
+}/*do not apply to p tags, they automatically have a simmilar styling*/
 
 .column10center {
     width: 80%;
@@ -92,6 +66,7 @@ h3 {
 }
 
 /*----- Nav Bar -----*/
+/*we don't use this section as often. delete if not used in the project*/
 
 #nav_bar {
     background: #030406;
@@ -121,7 +96,7 @@ h3 {
 #heroimg {
     width: 100%;
     position: relative;
-}
+}/*apply to wrapping div with an img tag within*/
 
 #heroimg img {
     width: 100%;
@@ -137,7 +112,8 @@ h3 {
     font-weight: 700;
     text-align: center;
     width: 100%;
-}
+    text-shadow: 2px 2px 3px #000;
+}/*apply to h1 within the heroimg div*/
 
 /*----- Body Copy Things -----*/
 
@@ -146,24 +122,23 @@ h3 {
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
-    font-family: Monserrat;
     font-size: 40px;
     font-weight: 900i;
     text-transform: uppercase;
-}
+}/*apply to h1, not the art hed*/
 
 .credit {
     font-size: 16px;
     font-weight: 100;
     padding-bottom: 50px;
-}
+}/*apply to h4 with developer's name and title*/
 
 .subhed {
     font-family: montserrat
     , sans-serif;
     font-weight: 800;
     color: #7fc448;
-}
+}/*apply to h2 tags*/
 
 .dropcap {
     font-weight: 700;
@@ -171,38 +146,38 @@ h3 {
     font-size: 2.9em;
     line-height: .9em;
     padding-right: 5px;
-}
+}/*apply to wrapping span tag*/
 
 .title {
     color: #606060;
-}
+}/*should be in same p tag as the author name*/
 
 #byline {
     margin: 0;
     font-weight: 400;
     padding-top: 10px;
-}
+}/*applies to entire byline, with title. bold the author name. put on h4 tag*/
 
 /*----- Img Things -----*/
 
 .oneimg_center {
     width: 60%;
     padding: 0 20%;
-}
+}/*Apply to a wrapping div*/
 
 .oneimg_right {
     width: 40%;
     padding-right: 10%;
     padding-left: 10px;
     float: right;
-}
+}/*Apply to a wrapping div*/
 
 .oneimg_left {
     width: 40%;
     padding-left: 10%;
     padding-right: 20px;
     float: left;
-}
+}/*Apply to a wrapping div*/
 
 .twoimg_center {
     width: 60%;
@@ -220,7 +195,7 @@ h3 {
     width: 33%;
 }
 
-.oneimg_full {
+.oneimg_full, .oneimg_center img, .oneimg_right img, .oneimg_left img {
     width: 100%
 }
 

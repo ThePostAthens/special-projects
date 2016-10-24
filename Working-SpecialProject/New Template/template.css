@@ -23,7 +23,7 @@ a:hover {
 p {
     width: 60%;
     padding: 0 20%;
-}
+}/*these have a style simmilar to column20center, do not add column20center to p tags*/
 
 h2 {
     padding: 0 15%;
@@ -204,7 +204,7 @@ h3 {
 blockquote {
     padding: 0;
     margin: 5px;
-}
+}/*should be the text of the pull quote*/
 
 .pq_center {
     width: 60%;
@@ -214,7 +214,7 @@ blockquote {
     text-transform: uppercase;
     color: #5379c4;
     font-weight: 800;
-}
+}/*add to wrapping div*/
 
 .pq_right {
     width: 40%;
@@ -225,7 +225,7 @@ blockquote {
     font-size: 25px;
     text-transform: uppercase;
     color: #5379c4;
-}
+}/*add to wrapping div*/
 
 .pq_left {
     width: 40%;
@@ -237,7 +237,7 @@ blockquote {
     text-transform: uppercase;
     font-weight: 700;
     color: #5379c4;
-}
+}/*add to wrapping div*/
 
 .attribution {
     font-size: 20px;
@@ -249,17 +249,10 @@ blockquote {
     margin-bottom: 5px;
     padding: 0 5%;
     width: 90%;
-}
+}/*add to p tag within the wrapping div*/
 
-.pcutProvided {
-    float: right;
-    text-align: right;
-    margin:0;
-    font-weight: 100;
-    color: #808080;
-    font-size: 12px;
-    padding: 0;
-}
+/*----- Image stuff -----
+also use these tags to move iframes, graphics etc.. anything that would behave like a photo*/
 
 .pcut{
     float: right;
@@ -270,7 +263,7 @@ blockquote {
     font-size: 12px;
     width: 100%;
     padding: 0;
-}
+}/*add p tag, should be after the photog p tag*/
 
 .galleryPcut{
 float: right;
@@ -293,58 +286,13 @@ float: right;
     font-size: 12px;
     width: 100%;
     padding: 0;
-}
+}/*add to p tag, should be before the pcut p tag*/
 
 .oneimg_full p{
     width:60%;
     padding:0 20%;
 }
 
-.bobhed {
-    font-weight: 800;
-    font-size: 26px;
-    text-align: left;
-    text-align: center;
-    margin-bottom: 0;
-}
-
-.bob {
-    text-align: center;
-    list-style: none;
-    padding-left: 0;
-}
-
-/*----- Embedding Things -----*/
-
-.embed_center {
-    width: 60%;
-    padding: 0 20%;
-}
-
-.embed_right {
-    width: 40%;
-    padding-right: 10%;
-    padding-left: 10px;
-    float: right;
-}
-
-.embed_left {
-    width: 40%;
-    padding-left: 10%;
-    padding-right: 10px;
-    float: left;
-}
-
-.embed_full {
-    width: 100%
-}
-
-/*----- Banner Ads -----*/
-
-.bannerad {
-    width: 60%;
-    padding: 10px 20%;
-}
 
 /*----- Gallery Stuff -----*/
 
@@ -362,21 +310,7 @@ float: right;
     display:none;
 }
 
-/*----- Footer -----*/
-
-.footer {
-    height: 50px;
-    background-color: #292929;
-    width: 100%;
-}
-
-.copyright{
-    color: #505050;
-    padding: 10px 0;
-    margin: 0;
-    text-align: center;
-    width: 100%;
-}
+/*----- Other -----*/
 
 #logo {
     z-index: 1;
@@ -384,9 +318,7 @@ float: right;
     float: left;
     height: 30px;
     padding: 7px;
-}
-
-/*----- Parallax scrolling -----*/
+}/*effects the post logo in the top left of the page*/
 
 .parallax {
     height: 800px;
@@ -395,7 +327,7 @@ float: right;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
-}
+}/* add to the wrapping div, give the div an inline style with the photo you want to be parallax*/
 
 @media screen and (max-width: 750px){
     

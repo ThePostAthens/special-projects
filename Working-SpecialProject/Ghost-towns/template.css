@@ -36,10 +36,10 @@ h3 {
 }
 
 .date{
-    font-weight: 800;
+    font-weight: 100;
     color: #000;
     width: 60%;
-    padding: 0% 20% 0 20%;
+    padding: 0 20% 0 20%;
     margin: 0;
 }/*apply to p tag*/
 
@@ -137,7 +137,7 @@ h3 {
     font-family: montserrat
     , sans-serif;
     font-weight: 800;
-    color: #7fc448;
+    color: #292929;
 }/*apply to h2 tags*/
 
 .dropcap {
@@ -156,7 +156,7 @@ h3 {
 #byline {
     margin: 0;
     font-weight: 400;
-    padding-top: 10px;
+    padding-top: 5px;
 }/*applies to entire byline, with title. bold the author name. put on h4 tag*/
 
 /*----- Img Things -----*/
@@ -180,6 +180,10 @@ h3 {
     float: left;
 }/*Apply to a wrapping div*/
 
+.oneimg_full {
+    width: 100%;
+}
+
 .twoimg_center {
     width: 60%;
     margin: 0 20%;
@@ -196,7 +200,7 @@ h3 {
     width: 33%;
 }
 
-.oneimg_full, .oneimg_center img, .oneimg_right img, .oneimg_left img {
+.oneimg_full img, .oneimg_center img, .oneimg_right img, .oneimg_left img {
     width: 100%
 }
 
@@ -287,6 +291,7 @@ float: right;
     font-size: 12px;
     width: 100%;
     padding: 0;
+    text-transform: uppercase;
 }/*add to p tag, should be before the pcut p tag*/
 
 .oneimg_full p{
@@ -374,4 +379,8 @@ float: right;
         font-size: 25px;
     }
     
+    .date {
+        width: 80%;
+        padding: 0 10%;
+    }
 }

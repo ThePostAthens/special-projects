@@ -103,16 +103,16 @@ h3 {
 }
 
 #arthed {
-    color: #FFF;
+    color: #000;
     position: absolute;
     bottom: 0;
     padding: 0;
     margin: 0;
-    font-size: 70px;
+    font-size: 100px;
     font-weight: 700;
     text-align: center;
     width: 100%;
-    text-shadow: 2px 2px 3px #000;
+    
 }/*apply to h1 within the heroimg div*/
 
 /*----- Body Copy Things -----*/
@@ -337,22 +337,41 @@ float: right;
 
 .bob {
     width: 60%;
-    height: 250px;
-    margin: 5px 20%;
+    height: 200px;
+    margin: 0 20%;
+    background: #a660d8;
     
-   
 
 }
 
 .resource{
     width: 50%;
-    background-color: #fff;
 
     float: left;
-    font-size: 25px;
-    color: #e149af;
+    font-size: 18px;
+    color: #fff;
 }
 
+.endnote {
+    width: 60%;
+    margin: 0 20%;
+    padding-bottom: 0;
+    background-color: #575dee;
+    padding: 5px 0;
+    color: #fff;
+}
+
+.endnote a {
+    color: #fff;
+
+}
+
+.resource_head{
+    background-color: #e149af;
+    width: 60%;
+    height: 50px;
+    margin: 0 20%;
+}
 /* Javascript stuff */
 
 .hideme {
@@ -365,6 +384,10 @@ float: right;
     .oneimg_right, .oneimg_left, .oneimg_center {
         width: 80%;
         padding: 0 10% 10px 10%;
+    }
+    
+    oneimg_center p {
+        padding-bottom: 10px;
     }
     
     .oneimg_full p {
@@ -404,4 +427,31 @@ float: right;
         font-size: 25px;
     }
     
+    .bob {
+        width: 100%;
+        margin: auto;
+        height: 280px
+    }
+    
+    .resource {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .resource_head {
+        width: 100%;
+        margin: auto;
+    
+    }
+    
+    .endnote {
+        width: 100%;
+        margin: auto;
+    }
+    
+    iframe {
+        width: 100%;
+        
+    }
+
 }

@@ -409,8 +409,13 @@ float: right;
     }
     
     .critter {
-        width:80%;
-        padding: 0 10%;
+        width:96%;
+        padding: 0 2%;
+        font-size: 13px;
+    }
+    
+    .heyoo {
+        font-size: 12px;
     }
 
     .date {

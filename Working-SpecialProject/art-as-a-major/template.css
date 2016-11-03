@@ -413,9 +413,9 @@ section{
     section {
         -moz-background-size: auto;
         -webkit-background-size: auto;
-        background-attachment: scroll;
-        background-position: top;
-        background-size: auto;
+        background-attachment: fixed;
+        background-position: 50% 50%;
+        background-size: contain;
         
     }
 }

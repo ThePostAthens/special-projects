@@ -411,8 +411,8 @@ section{
     }
     
     section {
-        -moz-background-size: auto;
-        -webkit-background-size: auto;
+        -moz-background-size: contain;
+        -webkit-background-size: contain;
         background-attachment: fixed;
         background-position: 50% 50%;
         background-size: contain;

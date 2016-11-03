@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #41799a;
     text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #eed7fc;
+    color: #41799a;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -105,24 +105,24 @@ h3 {
 #arthed {
     color: #FFF;
     position: absolute;
-    bottom: 0;
-    padding: 0;
+    top: 0;
+    padding: 15% 25%;
     margin: 0;
-    font-size: 70px;
+    font-size: 80px;
     font-weight: 700;
     text-align: center;
-    width: 100%;
+    width: 50%;
     text-shadow: 2px 2px 3px #000;
 }/*apply to h1 within the heroimg div*/
 
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
+    color: #68a942;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
-    font-size: 40px;
+    font-size: 25px;
     font-weight: 900i;
     text-transform: uppercase;
 }/*apply to h1, not the art hed*/
@@ -195,7 +195,7 @@ h3 {
     width: 33%;
 }
 
-.oneimg_full, .oneimg_center img, .oneimg_right img, .oneimg_left img {
+.oneimg_full, .oneimg_center img, .oneimg_right img, .oneimg_left img, .oneimg_full img {
     width: 100%
 }
 
@@ -354,8 +354,14 @@ float: right;
 }
 
 .critter_bar div{
-    background-color: red;
+    background-color: #2d9c9d;
     color: #FFF;
+}
+
+.critter_bar p{
+    padding: 0;
+    margin: 0;
+    padding-left: 10px;
 }
 
 @media screen and (max-width: 750px){
@@ -399,11 +405,15 @@ float: right;
     .headline {
         width: 80%;
         padding: 4% 10% 0 10%;
-        font-size: 25px;
+        font-size: 20px;
     }
     
     .critter {
         width:80%;
+        padding: 0 10%;
+    }
+
+    .date {
         padding: 0 10%;
     }
     

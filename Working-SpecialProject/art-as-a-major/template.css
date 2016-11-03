@@ -404,9 +404,18 @@ section{
         font-size: 25px;
     }
     
-    section {
+    sectionzz {
         background-position: 50% 50%;
         height: 1000px;
+        
+    }
+    
+    section {
+        -moz-background-size: auto;
+        -webkit-background-size: auto;
+        background-attachment: scroll;
+        background-position: top;
+        background-size: auto;
         
     }
 }

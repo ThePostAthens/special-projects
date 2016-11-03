@@ -187,9 +187,9 @@ h3 {
 
 .oneimg_left {
     width: 40%;
-    padding-left: 10%;
-    padding-right: 20px;
-    float: left;
+    padding-left: 30%;
+    padding-right: 30%;
+    
 }/*Apply to a wrapping div*/
 
 .twoimg_center {

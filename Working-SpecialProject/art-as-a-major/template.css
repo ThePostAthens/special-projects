@@ -104,7 +104,7 @@ h3 {
 
 #arthed {
     color: #FFF;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     padding: 0;
     margin: 0;
@@ -161,8 +161,8 @@ h3 {
 /*----- Img Things -----*/
 
 .oneimg_center {
-    width: 60%;
-    padding: 0 20% 2% 20%;
+    width: 30%;
+    padding: 0 35% 2% 35%;
 }/*Apply to a wrapping div*/
 
 .oneimg_right {
@@ -342,19 +342,19 @@ hr {
 
 section{
 	width: 100%; 
-	height: 800px; 
+	height: 1000px; 
 	background-position: 50% 50%; 
 	background-attachment: fixed; 
 	background-repeat: no-repeat;
+    background-size:contain;
 	}
 
-#hero1{background-color: #fff; background-image: url(https://s3.amazonaws.com/media.ohi/16374_artmajorsequence_2f.jpg); }
-#hero2{background-color: #fff; background-image: url(https://s3.amazonaws.com/media.ohi/16376_artmajorsequence_1f.jpg);}
-#hero3{background-color: #fff; background-image: url(https://s3.amazonaws.com/media.ohi/16375_artmajorsequence_3f.jpg);}
-#hero4{background-color: #fff; background-image: url(https://s3.amazonaws.com/media.ohi/16374_artmajorsequence_2f.jpg);}
-#hero5{background-color: #fff; background-image: url(https://s3.amazonaws.com/media.ohi/16376_artmajorsequence_1f.jpg);}
-#hero6{background-color: #fff; background-image: url(https://s3.amazonaws.com/media.ohi/16375_artmajorsequence_3f.jpg);}
-#hero7{background-color: #fff; background-image: url(https://s3.amazonaws.com/media.ohi/16374_artmajorsequence_2f.jpg);}
+#hero1{background-color: #fff; background-image: url(https://s3.amazonaws.com/media.ohi/16425_16376_artmajorsequence_1ff.jpg); }
+#hero2{background-color: #fff; background-image: url(https://s3.amazonaws.com/media.ohi/16429_16396_artmajors_3ff.jpg);}
+#hero3{background-color: #fff; background-image: url(https://s3.amazonaws.com/media.ohi/16426_16401_artmajors_9ff.jpg);}
+#hero4{background-color: #fff; background-image: url(https://s3.amazonaws.com/media.ohi/16428_16424_artmajors_14ff.jpg);}
+#hero5{background-color: #fff; background-image: url(https://s3.amazonaws.com/media.ohi/16427_16422_artmajors_7ff.jpg);}
+
 
 
 
@@ -404,4 +404,9 @@ section{
         font-size: 25px;
     }
     
+    section {
+        background-position: 50% 50%;
+        height: 1000px;
+        
+    }
 }

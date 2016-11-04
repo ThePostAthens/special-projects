@@ -45,16 +45,17 @@ h3 {
 }
 
 .arace {
-    width: 50%;
+    width: 40%;
     margin: 0;
     float: left;
-    padding-top: 5%; 
+    padding: 5%; 
 }
 
 .arace h3 {
     width: 100%;
     text-align: center;
     font-size: 25px;
+    text-transform: uppercase;
 }
 
 .arace h4 {
@@ -62,26 +63,31 @@ h3 {
 }
 
 .arace img {
-    width: 15%;
-    padding: 0 42%;
+    width: 50%;
+    padding: 0 25%;
 }
 
 .aracehead {
     float: left;
-    width: 30%;
+    width: 25%;
 }
 
 .racebar {
     height: 30px;
-    width: 70%;
-    margin: 0 10%;
-    background-color: #BBB;
+    width: 55%;
+    margin: 8% 5%;
+    background-color: #EEE;
     color: #FFF;
     float: left;
 }
 
 .racebar div {
     height: 100%;
+}
+
+.decidehed {
+    width: 50%;
+    padding: 0 20%;
 }
 
 /*-----Column stuff-----*/
@@ -463,4 +469,7 @@ float: right;
         font-size: 25px;
     }
     
+    .arace {
+    width: 90%;
+    }
 }

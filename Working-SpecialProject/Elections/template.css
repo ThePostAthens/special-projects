@@ -454,16 +454,27 @@ float: right;
     display: table;
 }
 
-.story img {
-    width: 30%;
+.story_img {
+    width: 50%;
     float: left;
     display: table-cell;
     border-top: 1px solid #FFF;
+    background-position: center center;
+    background-size: cover;
+    height: 250px;
+}
+
+#img1 {
+    background-image: url("https://s3.amazonaws.com/media.ohi/16458_slack_for_ios_upload3p.jpg");
+}
+
+#img2 {
+    background-image: url("https://s3.amazonaws.com/media.ohi/16457_dsc_0608_1p.jpg");
 }
 
 .story_text {
     float: left;
-    width: 70%;
+    width: 50%;
     display: table-cell;
     border-top: 1px solid #000; 
 }

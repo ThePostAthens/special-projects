@@ -12,8 +12,8 @@ body {
 }
 
 a {
-    color: #7fc448;
     text-decoration: none;
+    color: #007acc;
 }
 
 a:hover {
@@ -426,6 +426,10 @@ float: right;
     display: table-cell;
 }
 
+.map iframe {
+    padding: 10%
+}
+
 .underohio {
     width: 100%;
     padding: 0 5%;
@@ -454,6 +458,10 @@ float: right;
 .story {
     width: 100%;
     display: table;
+}
+
+.story a {
+    color: #000;
 }
 
 .story_img {

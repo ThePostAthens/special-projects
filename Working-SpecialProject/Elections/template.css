@@ -48,7 +48,7 @@ h3 {
     width: 40%;
     margin: 0;
     float: left;
-    padding: 5%; 
+    padding: 5%;
 }
 
 .arace h3 {
@@ -69,20 +69,27 @@ h3 {
 
 .aracehead {
     float: left;
-    width: 25%;
+    width: 30%;
 }
 
 .racebar {
-    height: 30px;
-    width: 55%;
-    margin: 8% 5%;
+    height: 50px;
+    width: 50%;
+    margin: 5% 5%;
     background-color: #EEE;
     color: #FFF;
     float: left;
+    background:repeating-linear-gradient(45deg,
+                #EEE,
+                #EEE 5px,
+                #FFF 5px,
+                #FFF 10px);
 }
 
 .racebar div {
-    height: 100%;
+    height: calc(100% - 15px);
+    text-align: center;
+    padding-top: 15px;
 }
 
 .decidehed {
@@ -419,11 +426,6 @@ float: right;
     display: table-cell;
 }
 
-.map {
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
 .underohio {
     width: 100%;
     padding: 0 5%;
@@ -484,7 +486,6 @@ float: right;
     padding: 0 10%;
     margin: 0;
 }
-
 
 .story_text p {
     padding: 10px 10%;
@@ -547,4 +548,34 @@ float: right;
     .arace {
     width: 90%;
     }
+        
+    .half {
+        width: 100%;
+        float: none;
+        display: inline-block;
+    }
+    
+    .bar_ohio div{
+        padding: 5% 0;
+        font-size: 12px;
+    }
+    
+    .oh_explainer {
+        padding-top: 30px;
+    }
+    
+    .story_img {
+        width: 100%;
+    }
+    
+    .story_text {
+        width: 100%;
+    }
+    
+    .decidehed {
+        width: 80%;
+        padding: 0 10%;
+        margin-right: 0;
+    }
+    
 }

@@ -424,6 +424,8 @@ float: right;
 .half {
     width: 50%;
     display: table-cell;
+    vertical-align: middle;
+    
 }
 
 .map iframe {

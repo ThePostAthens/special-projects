@@ -425,7 +425,6 @@ float: right;
     width: 50%;
     display: table-cell;
     vertical-align: middle;
-    
 }
 
 .map iframe {
@@ -433,7 +432,7 @@ float: right;
 }
 
 .underohio {
-    width: 100%;
+    width: 90%;
     padding: 0 5%;
 }
 

@@ -104,7 +104,7 @@ h3 {
 }
 
 #arthed {
-    color: #FFF;
+    color: #1f471f;
     position: absolute;
     bottom: 0;
     padding: 0;
@@ -112,7 +112,6 @@ h3 {
     font-size: 70px;
     text-align: center;
     width: 100%;
-    text-shadow: 2px 1px 6px #1f471f;
     text-transform: uppercase;
     font-family: 'playfair display';
     font-weight: 900;

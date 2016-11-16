@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #000;
     text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #eed7fc;
+    color: #808080;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -108,7 +108,7 @@ h3 {
     bottom: 0;
     padding: 0;
     margin: 0;
-    font-size: 70px;
+    font-size: 100px;
     font-weight: 700;
     text-align: center;
     width: 100%;
@@ -118,7 +118,7 @@ h3 {
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
+    color: #000;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
@@ -137,13 +137,14 @@ h3 {
     font-family: montserrat
     , sans-serif;
     font-weight: 800;
-    color: #7fc448;
+    color: #1f5247;
 }/*apply to h2 tags*/
 
 .dropcap {
+    color: #1f5247;
     font-weight: 700;
     float: left;
-    font-size: 2.9em;
+    font-size: 3.1em;
     line-height: .9em;
     padding-right: 5px;
 }/*apply to wrapping span tag*/
@@ -162,7 +163,7 @@ h3 {
 
 .oneimg_center {
     width: 60%;
-    padding: 0 20%;
+    padding: 0 20% 3% 20%;
 }/*Apply to a wrapping div*/
 
 .oneimg_right {
@@ -192,7 +193,26 @@ h3 {
 }
 
 .threeimg_full {
+    width: 90%;
+    padding: 0 5%;
+}
+
+.threeimg_full img{
     width: 33%;
+    float: left;
+    padding: 0 2.5px
+}
+
+.threeimg_vertical {
+    width: 28%;
+    padding: 10px 10px 10px 15%;
+    float: left;
+}
+
+.threeimg_vertical img {
+    width: 100%;
+    padding: 0 0 3px 0;
+    float: left;
 }
 
 .oneimg_full img, .oneimg_center img, .oneimg_right img, .oneimg_left img {

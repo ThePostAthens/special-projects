@@ -13,7 +13,7 @@ body {
 }
 
 a {
-    color: #408E2F;
+    color: #28794B;
     text-decoration: none;
 }
 
@@ -109,7 +109,7 @@ h3 {
     bottom: 0;
     padding: 0;
     margin: 0;
-    font-size: 70px;
+    font-size: 90px;
     font-weight: 700;
     text-align: center;
     width: 100%;
@@ -121,7 +121,7 @@ h3 {
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #2D4671;
+    color: #27556C;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
@@ -139,7 +139,7 @@ h3 {
     font-family: montserrat
     , sans-serif;
     font-weight: 800;
-    color: #7fc448;
+    color: #AA7539;
 }/*apply to h2 tags*/
 
 .dropcap {
@@ -214,6 +214,10 @@ blockquote {
     color: #2D4671;
     font-weight: 900;
     margin: 0;
+}
+
+.pq_center a, .pq_right a, .pq_left a {
+    color: #27556C;
 }
 
 .pq_center {
@@ -327,7 +331,7 @@ float: right;
 }/* add to the wrapping div, give the div an inline style with the photo you want to be parallax*/
 
 .fancynums {
-    color: #2D5924;
+    color: #AA5139;
 }
 
 @media screen and (max-width: 750px){

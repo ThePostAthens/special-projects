@@ -99,12 +99,9 @@ THE
 
         <p>Entering the 2010-11 season, Ohio was seven years removed from a ten year stretch that saw it make the ACHA national championship game six times, resulting in four titles, including three in a row from 1995-97. Even though the team hadn&rsquo;t reached that final game of the season since, interest in the program was growing every year, with more than 80 potential players showing up to tryouts hoping to make a roster that typically holds about 28 players, most of whom are recruited and guaranteed a spot before tryouts even begin.</p>
 
-           <div class="threeimg_vertical">
-            <img src="https://s3.amazonaws.com/media.ohi/16614_hockey_5f.jpg">
-            <img src="https://s3.amazonaws.com/media.ohi/16615_hockey_3f.jpg">
-            <img src="https://s3.amazonaws.com/media.ohi/16617_hockey_4f.jpg">
-            <p class="photog">Blake Nissen</p><p class="pcut">Top: Ohio's Connor Hoarty dribbles down the ice during a game against Virginia Tech at Bird Arena on Nov. 11. Middle: Pat Daniels looks for a pass during the game against Virginia Tech. Bottom: Jacob Bloomfield defends the goal during the game against Virginia Tech.</p>
-        </div>
+          
+        
+        
         
         <p>With such a surplus of talent interested in joining Ohio hockey, former Division I players Sean Roach and Nick Frasse approached then-D1 head coach Dan Morris with the goal of establishing a second team and placing it in the ACHA&rsquo;s second division.</p>
 
@@ -121,6 +118,43 @@ THE
         <p>&ldquo;What really attracted me to Ohio University was my brother playing hockey here,&rdquo; sophomore forward Matty Geither, a Lakewood native and brother of a former-D1 forward, said. &ldquo;I knew realistically, (D1) was a tough team to make, so I didn&rsquo;t have the highest expectations. But I&rsquo;m glad it all worked out. D2 is awesome and I&rsquo;m having a lot of fun doing it.&rdquo;</p>
 
         <p>Narrowly missing that cut to play at the D1 level instead of D2 bears serious financial weight for players. Because of D1&rsquo;s consistent ticket sales and alumni backing, players on the team have all expenses covered for them. D2 players, meanwhile, are responsible for covering all of their own transportation, hotels, equipment and other costs that come with playing for the team.</p>
+        
+            <div class="oneimg_center clearfix">
+            
+            <div class="mySlides">
+                <img src="https://s3.amazonaws.com/media.ohi/16614_hockey_5f.jpg">
+                <p class="photog">Blake Nissen</p>
+                <p class="galleryPcut">Ohio's Connor Hoarty dribbles down the ice during a game against Virginia Tech at Bird Arena on Nov. 11.</p>
+            </div>
+            <div class="mySlides">
+                <img src="https://s3.amazonaws.com/media.ohi/16615_hockey_3f.jpg">
+                <p class="photog">Blake Nissen</p>
+                <p class="galleryPcut">Pat Daniels looks for a pass during the game against Virginia Tech.</p>
+            </div>
+            <div class="mySlides">
+                <img src="https://s3.amazonaws.com/media.ohi/16617_hockey_4f.jpg">
+                <p class="photog">Blake Nissen</p>
+                <p class="galleryPcut">Jacob Bloomfield defends the goal during the game against Virginia Tech.</p>
+            </div>
+         
+            <div class="gallery_wrap">
+            <div class="w3-row-padding w3-section">
+                <div class="gallery_bot">
+                    <img class="demo w3-border w3-hover-shadow" src="https://s3.amazonaws.com/media.ohi/16614_hockey_5f.jpg" style="width:100%" onclick="currentDiv(1)">
+                </div>
+                <div class="gallery_bot">
+                    <img class="demo w3-border w3-hover-shadow" src="https://s3.amazonaws.com/media.ohi/16615_hockey_3f.jpg" style="width:100%" onclick="currentDiv(2)">
+                </div>
+                <div class="gallery_bot">
+                    <img class="demo w3-border w3-hover-shadow" src="https://s3.amazonaws.com/media.ohi/16617_hockey_4f.jpg" style="width:100%" onclick="currentDiv(3)">
+                </div>
+                
+            </div>
+            </div>
+        </div>
+        
+        
+        
 
         <p>First-time players pay $2,500 in fees, while returning players pay $2,100, with the extra $400 from newcomers used to cover helmets, jerseys, gloves and other apparel.</p>
 
@@ -166,7 +200,7 @@ THE
         <p>&ldquo;We&rsquo;re doing pretty well right now,&rdquo; Geither said. &ldquo;I think people are starting to get the idea that we&rsquo;re a fun team to watch.&rdquo;</p>
 
     
-        <h3 class="column20center credit"><strong>Development by:</strong> <a href="https://twitter.com/SethPArcher">Hannah Debenham</a> / Digital Production Editor</h3>  
+        <h3 class="column20center credit"><strong>Development by:</strong> <a href="https://twitter.com/han_nahdebs">Hannah Debenham</a> / Digital Production Editor</h3>  
         
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
@@ -181,6 +215,32 @@ THE
             e.src='https://www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-54093688-1','auto');ga('send','pageview');
+        </script>
+        
+         <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+            function currentDiv(n) {
+              showDivs(slideIndex = n);
+            }
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("demo");
+              if (n > x.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                 x[i].style.display = "none";
+              }
+              for (i = 0; i < dots.length; i++) {
+                 dots[i].className = dots[i].className.replace(" w3-border-red", "");
+              }
+              x[slideIndex-1].style.display = "block";
+              dots[slideIndex-1].className += " w3-border-red";
+            }
         </script>
         
     </body>

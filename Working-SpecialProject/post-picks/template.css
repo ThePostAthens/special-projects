@@ -25,6 +25,8 @@ p {
     padding: 0 20%;
 }/*these have a style simmilar to column20center, do not add column20center to p tags*/
 
+
+
 h2 {
     padding: 0 15%;
 }
@@ -118,12 +120,12 @@ h3 {
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
-    padding: 0 10% 0 10%;
-    width: 80%;
+    color: #000;
+    padding: 0 0 0 10%;
+    width: 100%;
     margin: 0;
-    font-size: 40px;
-    font-weight: 900i;
+    font-size: 100px;
+    font-weight: 900;
     text-transform: uppercase;
 }/*apply to h1, not the art hed*/
 

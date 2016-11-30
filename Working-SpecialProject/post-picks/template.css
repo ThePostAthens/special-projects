@@ -348,6 +348,7 @@ float: right;
 .full_column {
     width: 100%;
     height: 700px;
+    position: relative;
 }
 
 .left {
@@ -373,9 +374,25 @@ float: right;
 .half_column h2 {
     position: absolute;
     bottom: 0;
-    font-size: 150px;
+    font-size: 80px;
+    text-shadow: 1px 2px 1px #000;
+    text-align: center;
     color: white;
-    padding: 0 14.6%;
+    padding: 2%;
+    margin: 0;
+    
+}
+
+
+.quarter_column h2 {
+    position: absolute;
+    width: 96%;
+    bottom: 0;
+    font-size: 25px;
+    text-shadow: 1px 2px 1px #000;
+    text-align: center;
+    color: white;
+    padding: 2%;
     margin: 0;
     
 }
@@ -427,5 +444,29 @@ a:hover, a:active {
         padding: 4% 10% 0 10%;
         font-size: 25px;
     }
+    
+    
+    /*----Post Picks----*/
+    
+    .half_column {
+        width: 100%;
+        height: 300px;
+    }
+    
+    .quarter_column{
+        width: 50%;
+        height: 150px;
+    }
+    
+    .full_column {
+        width: 100%;
+        height: 300px;
+    }
+    
+    .half_column h2 {
+        font-size: 30px;
+        width: 100%;
+    }
+    
     
 }

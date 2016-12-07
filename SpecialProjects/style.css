@@ -1,0 +1,82 @@
+body {
+    font-family: Playfair Display; 
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+}
+
+a {
+    color: #FFF;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+p {
+    font-family: lora;
+    font-size: 14;
+}
+
+.header {
+    text-align: center;
+    background-color: #292929;
+}
+
+.header h1 {
+    font-size: 50px;
+    margin-top: 0;
+    line-height: 40px;
+}
+
+.header h2 {
+    margin: 0;
+    padding-top: 5%;
+}
+
+.header p {
+    width: 60%;
+    padding: 0 20% 3%;
+    margin: 0;
+}
+
+/*-- Story --*/
+
+.story {
+    width: 100%;
+    height: 400px;
+    background-size: 100%;
+    background-position: center;
+    transition: all .5s ease;
+}
+
+.box_hed {
+    position: relative;
+    width: 80%;
+    padding: 0 10%;
+    top: 33%;
+}
+
+.box_hed h2 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.box_hed p {
+    font-size: 14px;
+    font-family: montserrat;
+    margin: 0;
+    text-decoration: none;
+}
+
+.box_hed h3 {
+    font-size: 16px;
+    font-family: montserrat;
+    margin: 0;
+    text-decoration: none;
+}
+
+.story:hover {
+    background-size: 110%;
+    opacity: .85;
+}

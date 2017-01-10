@@ -343,6 +343,13 @@ float: right;
 .sign_bob h3 {
     font-size: 20px;
     text-transform: uppercase;
+    font-family: playfair display;
+    font-weight: 900;
+    
+}
+
+.sign_bob {
+    line-height: 15px;
 }
 
 @media screen and (max-width: 750px){

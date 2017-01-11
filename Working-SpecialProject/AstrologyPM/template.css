@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #0b2e8e;
     text-decoration: none;
 }
 
@@ -37,9 +37,9 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #eed7fc;
+    color: #292929;
     width: 60%;
-    padding: 0% 20% 0 20%;
+    padding: 0% 10%;
     margin: 0;
 }/*apply to p tag*/
 
@@ -105,24 +105,26 @@ h3 {
 #arthed {
     color: #FFF;
     position: absolute;
-    bottom: 0;
+    bottom: 100px;
     padding: 0;
     margin: 0;
-    font-size: 70px;
-    font-weight: 700;
+    font-size: 120px;
+    font-weight: 900;
     text-align: center;
     width: 100%;
     text-shadow: 2px 2px 3px #000;
+    font-family: playfair display;
 }/*apply to h1 within the heroimg div*/
 
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
+    color: #0b2e8e;
+    padding: 0;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 900i;
     text-transform: uppercase;
 }/*apply to h1, not the art hed*/
@@ -137,7 +139,7 @@ h3 {
     font-family: montserrat
     , sans-serif;
     font-weight: 800;
-    color: #7fc448;
+    color: #b87614;
 }/*apply to h2 tags*/
 
 .dropcap {
@@ -330,10 +332,11 @@ float: right;
 }/* add to the wrapping div, give the div an inline style with the photo you want to be parallax*/
 
 .sign_bob {
-    width: 30%;
+    width: 200px;
     float: left;
-    margin-right: 10px;
-    padding-left: 10%;
+    height: 100%;
+    display: inline-block;
+    padding-right: 10px;
 }
 
 .sign_bob img {
@@ -345,11 +348,26 @@ float: right;
     text-transform: uppercase;
     font-family: playfair display;
     font-weight: 900;
-    
 }
 
 .sign_bob {
     line-height: 15px;
+}
+
+.sign_bob p{
+    padding: 0;
+    width: 100%
+}
+
+.scrolling {
+    width: 100%;
+    height: 350px;
+    overflow-y: scroll
+}
+
+.scrolling_inside {
+    height: 100%;
+    width: 2530px;
 }
 
 @media screen and (max-width: 750px){
@@ -375,7 +393,7 @@ float: right;
     }
     
     #arthed {
-        font-size: 40px;
+        font-size: 80px;
     }
     
     .subhed{
@@ -399,13 +417,7 @@ float: right;
 }
 
 @media screen and (max-width: 500px) {
-       
-    .sign_bob {
-        width:90%;
-        padding: 0;
-        margin: 0;
-        padding: 5%;
-    }
+
 }
 
     

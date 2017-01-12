@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #8e7c27;
     text-decoration: none;
 }
 
@@ -97,7 +97,7 @@ h3 {
 
 #heroimg {
     width: 100%;
-    height: 1000px;
+    height: 900px;
     position: relative;
     background-color: black;
     
@@ -105,30 +105,36 @@ h3 {
 
 #heroimg img {
     width: 100%;
+    
 }
 
 #arthed {
-    background-image: url(https://s3.amazonaws.com/media.ohi/16783_fracking_2f.jpg);
+    background-image: url(https://s3.amazonaws.com/media.ohi/16824_dsc_3435f.jpg);
     background-position: 50% 50%;
-    background-size: cover;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     position: absolute;
     color: white;
-    bottom: 350px;
+    bottom: 30%;
     padding: 0;
     margin: 0;
-    font-size: 90px;
+    font-size: 120px;
     font-weight: 700;
     text-align: center;
     width: 100%;
+    line-height: 150px
+    
    
 }/*apply to h1 within the heroimg div*/
+
+#tall_text {
+    font-size: 150px;
+}
 
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
+    color: #000;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
@@ -147,7 +153,7 @@ h3 {
     font-family: montserrat
     , sans-serif;
     font-weight: 800;
-    color: #7fc448;
+    color: #8e7c27;
 }/*apply to h2 tags*/
 
 .dropcap {
@@ -182,6 +188,13 @@ h3 {
     float: right;
 }/*Apply to a wrapping div*/
 
+.oneimg_right1 {
+    width: 20%;
+    padding-right: 10%;
+    padding-left: 10px;
+    float: right;
+}
+
 .oneimg_left {
     width: 40%;
     padding-left: 10%;
@@ -205,7 +218,7 @@ h3 {
     width: 33%;
 }
 
-.oneimg_full img, .oneimg_center img, .oneimg_right img, .oneimg_left img {
+.oneimg_full img, .oneimg_center img, .oneimg_right img, .oneimg_right1 img, .oneimg_left img {
     width: 100%
 }
 
@@ -341,7 +354,7 @@ float: right;
 
 @media screen and (max-width: 750px){
     
-    .oneimg_right, .oneimg_left, .oneimg_center {
+    .oneimg_right, .oneimg_right1, .oneimg_left, .oneimg_center {
         width: 80%;
         padding: 0 10% 10px 10%;
     }
@@ -361,8 +374,17 @@ float: right;
         padding: 0 10%;
     }
     
+    #heroimg {
+        height: 400px;
+    }
+    
     #arthed {
         font-size: 40px;
+        line-height: normal;
+    }
+    
+    #tall_text {
+        font-size: 60px;
     }
     
     .subhed{

@@ -155,7 +155,6 @@ h3 {
 #byline {
     margin: 0;
     font-weight: 400;
-    padding-top: 10px;
 }/*applies to entire byline, with title. bold the author name. put on h4 tag*/
 
 /*----- Img Things -----*/
@@ -369,8 +368,13 @@ float: right;
 
     .headline {
         width: 80%;
-        padding: 4% 10% 0 10%;
+        padding: 0% 10% 0 10%;
         font-size: 25px;
+    }
+    
+    .date {
+        padding: 0 10%;
+        width: 80%;
     }
     
 }

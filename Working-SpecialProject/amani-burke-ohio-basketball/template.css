@@ -460,14 +460,14 @@ float: right;
     
     #amani_stats {
         font-size: 11px;
-        line-height: 14px;
+        line-height: 1px;
     }
 }
 
 
 @media screen 
 and (min-width: 751px) 
-and (max-width : 1024px)
+and (max-width: 1024px)
 {
     
     .oneimg_center {
@@ -498,5 +498,19 @@ and (max-width : 1024px)
     
     
     
+}
+
+@media screen and (max-width: 568px)
+{
+    #trey_stats {
+        font-size: 10px;
+        line-height: 13px;
+    }
+    
+    #amani_stats {
+        font-size: 10px;
+        line-height: 13px;
+        color: #000;
+    }
     
 }

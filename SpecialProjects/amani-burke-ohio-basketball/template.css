@@ -109,7 +109,7 @@ h3 {
     bottom: 0;
     padding: 0;
     margin: 0;
-    font-size: 70px;
+    font-size: 120px;
     font-weight: 700;
     text-align: center;
     width: 100%;
@@ -495,8 +495,10 @@ and (max-width: 1024px)
         font-size: 19px;
         line-height: 24px;
     }
-    
-    
+     
+    #arthed {
+        font-size: 100px;
+    }
     
 }
 
@@ -504,13 +506,12 @@ and (max-width: 1024px)
 {
     #trey_stats {
         font-size: 10px;
-        line-height: 13px;
+        line-height: 12px;
     }
     
     #amani_stats {
         font-size: 10px;
-        line-height: 13px;
-        color: #000;
+        line-height: 12px;
     }
     
 }

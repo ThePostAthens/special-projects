@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: #FF0000;
+    color: #f7ea3b;
     text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #eed7fc;
+    color: #f7ea3b;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -118,13 +118,15 @@ h3 {
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #FF0000;
-    padding: 0 10% 0 10%;
+    color: #FFF;
+    padding: 0 10% 20px 10%;
     width: 80%;
     margin: 0;
-    font-size: 40px;
+    font-size: 50px;
+    line-height: 45px;
     font-weight: 900i;
     text-transform: uppercase;
+    text-shadow: 4px 4px 7px #ddd;
 }/*apply to h1, not the art hed*/
 
 .credit {
@@ -137,13 +139,15 @@ h3 {
     font-family: montserrat
     , sans-serif;
     font-weight: 800;
-    color: #ff0000;
+    color: #FFF;
+    text-shadow: 2px 2px 5px #ccc;
+    text-transform: uppercase;
 }/*apply to h2 tags*/
 
 .dropcap {
     font-weight: 700;
     float: left;
-    font-size: 2.9em;
+    font-size: 4.5em;
     line-height: .9em;
     padding-right: 5px;
 }/*apply to wrapping span tag*/
@@ -330,7 +334,9 @@ float: right;
 
 .consent {
     width: 40%;
+    max-width: 300px;
     box-shadow: 2px 2px 6px #bbb;
+    margin: 15px;
 }
 
 .consent h3{
@@ -382,9 +388,16 @@ float: right;
         padding: 0 10%;
     }
     
-    .consent_left p{
+    .left, .right {
+        max-width: none;
+        width: 80%;
+        float: none;
+    }
+    
+    .right {
+        margin: 10%;
         padding: 0;
-        margin: 0;
+        margin-left: 10%;
     }
     
     #arthed {

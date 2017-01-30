@@ -5,6 +5,9 @@ Please contact at SethPArcher@gmail.com with questions.*/
 
 /*----- Global Styles -----*/
 
+@import 'https://fonts.googleapis.com/css?family=Playfair+Display:400i,700i';
+
+
 body {
     font-family: montserrat, sans-serif;
     background-color: #FFF;
@@ -12,7 +15,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #cc0000;
     text-decoration: none;
 }
 
@@ -39,7 +42,7 @@ h3 {
     font-weight: 800;
     color: #eed7fc;
     width: 60%;
-    padding: 0% 20% 0 20%;
+    padding: 0% 35% 0 15%;
     margin: 0;
 }/*apply to p tag*/
 
@@ -47,7 +50,7 @@ h3 {
 
 .column20center {
     width: 60%;
-    padding: 0 20%;
+    padding: 0 25% 0 15%;
 }/*do not apply to p tags, they automatically have a simmilar styling*/
 
 .column10center {
@@ -63,6 +66,11 @@ h3 {
 .column10right {
     width: 40%;
     padding-right: 10%;
+}
+
+#facebook {
+    width: 60%;
+    padding: 0 25% 0 15%;
 }
 
 /*----- Nav Bar -----*/
@@ -93,6 +101,8 @@ h3 {
 
 /*----- Hero Image -----*/
 
+
+
 #heroimg {
     width: 70%;
     position: relative;
@@ -101,29 +111,34 @@ h3 {
 
 #heroimg img {
     width: 100%;
+    filter: grayscale(100%);
 }
 
 #arthed {
-    color: #000;
+    color: #cc0000;
     padding: 0;
     margin: 0;
-    font-size: 70px;
-    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    font-size: 100px;
+    font-weight: 900;
     text-align: center;
     width: 100%;
-    text-shadow: 2px 2px 3px #000;
+    text-shadow: 1px 1px 3px #000;
+    line-height: 100%;
+    
 }/*apply to h1 within the heroimg div*/
 
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
+    color: #000;
     padding: 0 15%;
     width: 70%;
     margin: 0;
     font-size: 40px;
     font-weight: 900i;
     text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
 }/*apply to h1, not the art hed*/
 
 .credit {
@@ -133,10 +148,9 @@ h3 {
 }/*apply to h4 with developer's name and title*/
 
 .subhed {
-    font-family: montserrat
-    , sans-serif;
+    font-family: 'Playfair Dislay', serif;
     font-weight: 800;
-    color: #7fc448;
+    color: #cc0000;
 }/*apply to h2 tags*/
 
 .dropcap {
@@ -154,6 +168,8 @@ h3 {
 #byline {
     margin: 0;
     font-weight: 400;
+    width: 60%;
+    padding: 0 25% 0 15%;
 }/*applies to entire byline, with title. bold the author name. put on h4 tag*/
 
 /*----- Img Things -----*/
@@ -170,12 +186,7 @@ h3 {
     float: right;
 }/*Apply to a wrapping div*/
 
-.oneimg_left {
-    width: 40%;
-    padding-left: 10%;
-    padding-right: 20px;
-    float: left;
-}/*Apply to a wrapping div*/
+
 
 .twoimg_center {
     width: 60%;
@@ -194,7 +205,9 @@ h3 {
 }
 
 .oneimg_full img, .oneimg_center img, .oneimg_right img, .oneimg_left img {
-    width: 100%
+    width: 100%;
+    filter: grayscale(100%);
+        
 }
 
 /*----- Pullqute stuff -----*/
@@ -222,20 +235,10 @@ blockquote {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #5379c4;
+    color: #000;
 }/*add to wrapping div*/
 
-.pq_left {
-    width: 40%;
-    padding-left: 10%;
-    padding-right: 0;
-    float: left;
-    margin: 0;
-    font-size: 25px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #5379c4;
-}/*add to wrapping div*/
+
 
 .attribution {
     font-size: 20px;
@@ -325,6 +328,7 @@ float: right;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
+    filter: grayscale(100%);
 }/* add to the wrapping div, give the div an inline style with the photo you want to be parallax*/
 
 @media screen and (max-width: 750px){

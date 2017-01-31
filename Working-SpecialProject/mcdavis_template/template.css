@@ -172,6 +172,42 @@ h3 {
     padding: 0 25% 0 15%;
 }/*applies to entire byline, with title. bold the author name. put on h4 tag*/
 
+.next {
+    width: 50%;
+    float: left;
+    height: 200px;
+    background-color: #606060;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.next1 {
+    width: 50%;
+    float: left;
+    height: 200px;
+    background-color: #707070;
+    padding: 0;
+    margin: 0;
+    
+}
+.next_story {
+    width: 50%;
+    padding: 0 25%;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+.next_story h4 {
+    font-size: 40px;
+    padding: 0;
+    line-height: 10px;
+}
+
+.next_story p {
+    padding: 0;
+}
+
 /*----- Img Things -----*/
 
 .oneimg_center {

@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #f4801f;
     text-decoration: none;
 }
 
@@ -37,10 +37,10 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #eed7fc;
+    color: #f4801f;
     width: 60%;
-    padding: 0% 20% 0 20%;
-    margin: 0;
+    padding: 0 20% 0 20%;
+    margin: 60px 0 0 0;
 }/*apply to p tag*/
 
 /*-----Column stuff-----*/
@@ -109,22 +109,23 @@ h3 {
     padding: 0;
     margin: 0;
     font-size: 70px;
-    font-weight: 700;
+    font-weight: 100;
     text-align: center;
     width: 100%;
-    text-shadow: 2px 2px 3px #000;
+    text-shadow: 3px 3px 4px #000;
+    font-family: alfa slab one;
+    
 }/*apply to h1 within the heroimg div*/
 
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
+    color: #ca4c35;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
     font-size: 40px;
-    font-weight: 900i;
-    text-transform: uppercase;
+    font-weight: 900;
 }/*apply to h1, not the art hed*/
 
 .credit {
@@ -137,7 +138,7 @@ h3 {
     font-family: montserrat
     , sans-serif;
     font-weight: 800;
-    color: #7fc448;
+    color: #ca4c35;
 }/*apply to h2 tags*/
 
 .dropcap {
@@ -146,6 +147,7 @@ h3 {
     font-size: 2.9em;
     line-height: .9em;
     padding-right: 5px;
+    font-family: alfa slab one;
 }/*apply to wrapping span tag*/
 
 .title {

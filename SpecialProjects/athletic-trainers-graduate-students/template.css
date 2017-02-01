@@ -139,6 +139,7 @@ h3 {
     , sans-serif;
     font-weight: 800;
     color: #ca4c35;
+    text-transform: capitalize;
 }/*apply to h2 tags*/
 
 .dropcap {

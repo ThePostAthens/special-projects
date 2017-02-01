@@ -93,9 +93,17 @@ h3 {
 
 /*----- Hero Image -----*/
 
+#newimage{
+    height: 600px;
+}
+
 #heroimg {
     width: 100%;
     position: relative;
+    background-image:url(https://s3.amazonaws.com/media.ohi/17103_trainers_4f.jpg);
+    height:600px;
+    background-position:bottom center;
+    background-size: cover;
 }/*apply to wrapping div with an img tag within*/
 
 #heroimg img {
@@ -418,5 +426,13 @@ float: right;
     
     .story {
         height: 300px;
+    }
+    
+    #heroimg {
+        height: 400px;
+    }
+    
+    #newimage {
+        height: 400px;
     }
 }

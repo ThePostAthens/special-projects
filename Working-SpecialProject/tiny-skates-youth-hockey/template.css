@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #115237;
     text-decoration: none;
 }
 
@@ -109,9 +109,10 @@ h3 {
     bottom: 0;
     padding: 0;
     margin: 0;
-    font-size: 70px;
+    font-size: 100px;
     font-weight: 700;
     text-align: center;
+    font-family: alfa slab one;
     width: 100%;
     text-shadow: 2px 2px 3px #000;
 }/*apply to h1 within the heroimg div*/
@@ -119,7 +120,7 @@ h3 {
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
+    color: #115237;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
@@ -138,7 +139,7 @@ h3 {
     font-family: montserrat
     , sans-serif;
     font-weight: 800;
-    color: #7fc448;
+    color: #115237;
 
 }/*apply to h2 tags*/
 
@@ -165,6 +166,11 @@ h3 {
     width: 90%;
     padding: 0 5%;
 }/*Apply to a wrapping div*/
+
+.oneimg {
+    width: 50%;
+    padding: 0 25%;
+}
 
 .oneimg_right {
     width: 40%;
@@ -299,7 +305,7 @@ float: right;
 
 .gallery_bot {
     padding: 0;
-    width: 16.66%;
+    width: 25%;
     float: left;
 }
 
@@ -314,20 +320,76 @@ float: right;
 .frame{
     width: 70%;
     margin: 0 15%;
-    background-color:#292929;
-    padding: 3% 0;
+    background-color:#c3b073;
+    padding: 1% 0;
 }
 
+.slide_hed {
+    width: 100%;
+    text-align: center;
+    font-family: alfa slab one;
+    font-size: 70px;
+    padding: 0;
+    margin: 0;
+}
+
+#fill {
+    padding: 0;
+    margin: 0 15%;
+    background-color:#115237; 
+    width: 70%;
+}
 /*---SIDEBAR----*/
 
 .hr {
-    height: 300px;
     width: 20%;
     padding: 0;
-    margin: 0% 2% 0 2%;
+    margin: 0% 0% 0 3%;
     float: left;
-    border: 1px;
-    border-color: red;
+    background-color:#c3b073;
+}
+
+.hr_mobile {
+    display: none;
+}
+
+.hr2 {
+    width: 20%;
+    padding: 0;
+    margin: 0% 0% 0 3%;
+    float: left;
+    background-color:#c3b073;
+}
+
+.hr2_mobile {
+    display: none;
+}
+
+.hr p{
+    width: 90%;
+    padding: 0 9% 0 10px;
+    font-size: 18px;
+    text-shadow: .3px .3px 0px #000;
+}
+
+.hr2 p{
+    width: 90%;
+    padding: 0 9% 0 10px;
+    font-size: 18px;
+    text-shadow: .3px .3px 0px #000;
+}
+
+.hr2 li{
+    width: 90%;
+    padding: 0 5%;
+    font-size: 18px;
+    
+}
+
+.highlight {
+    background-color: #115237;
+    color: #c3b073;
+    text-shadow: 0px 1px 0px #000;
 }
 
 /*----- Other -----*/
@@ -384,8 +446,9 @@ float: right;
 @media screen and (max-width: 750px){
     
     .oneimg_right, .oneimg_left, .oneimg_center {
-        width: 80%;
-        padding: 0 10% 10px 10%;
+        width: 90%;
+        padding: 0 5%;
+        
     }
     
     .oneimg_full p {
@@ -437,4 +500,69 @@ float: right;
     .story {
         height: 300px;
     }
+    
+    .frame {
+        width: 90%;
+        margin: 0 5%;
+        
+    }
+    
+    .hr_mobile {
+    display: block;
+    width: 90%;
+    padding: 0;
+    margin: 0 5%;
+    float: left;
+    background-color:#c3b073;
+    }
+    
+    .hr2_mobile {
+    display: block;
+    width: 90%;
+    padding: 0;
+    margin: 0 5% 1% 5%;
+    float: left;
+    background-color:#c3b073;
+    }
+    
+    .hr_mobile p{
+    width: 90%;
+    padding: 0 9% 0 10px;
+    font-size: 18px;
+    text-shadow: .3px .3px 0px #000;
+    }
+
+    .hr2_mobile p{
+    width: 90%;
+    padding: 0 9% 0 10px;
+    font-size: 18px;
+    text-shadow: .3px .3px 0px #000;
+    }
+
+    .hr2_mobile li{
+    width: 90%;
+    padding: 0 5%;
+    font-size: 18px;
+    
+    }
+    
+    .hr2 {
+        display: none;
+    }
+    
+    .hr {
+        display: none;
+    }
+    
+    #fill {
+        margin: 90;
+        width: %
+    }
+    
+    .slide_hed {
+        width: 100%;
+        padding:0;
+        font-size: 25px;
+    }
 }
+

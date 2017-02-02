@@ -50,10 +50,11 @@ h3 {
     height: 150px;
     float: left;
     padding: 0;
+    position: relative;
 }
 
 .brick_row:hover {
-    filter: grayscale(100%;)
+    filter: grayscale(100%);
 }
 
 .half_row {
@@ -74,6 +75,29 @@ h3 {
 
 .tan {
     background-color: saddlebrown;
+}
+
+/*---- Love Stories ------*/
+
+.wrap {
+    width: 100%;
+}
+
+.love_story {
+    margin: 20% 20%;
+    background-color:white;
+    font-size: 30px;
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); /* Yep! */
+    width: 48%;
+    height: 59%;
+}
+
+.hide {
+
 }
 
 

@@ -451,6 +451,11 @@ float: right;
         
     }
     
+    .oneimg {
+     width: 100%;
+     padding: 0;
+    }
+    
     .oneimg_full p {
         width: 80%;
         padding: 0 10%;

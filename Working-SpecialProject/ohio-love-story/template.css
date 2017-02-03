@@ -50,12 +50,8 @@ h3 {
     height: 150px;
     float: left;
     padding: 0;
-    position: relative;
 }
 
-.brick_row:hover {
-    filter: grayscale(100%);
-}
 
 .half_row {
     width: 12.5%;
@@ -81,23 +77,43 @@ h3 {
 
 .wrap {
     width: 100%;
+    position: relative;
 }
 
-.love_story {
-    margin: 20% 20%;
-    background-color:white;
-    font-size: 30px;
+#love_story1 {
+    width: 50%;
+    margin: 7% 0;
+    padding: 10px;
+    border: 2px solid white;
     display: none;
     position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%); /* Yep! */
-    width: 48%;
-    height: 59%;
+    left: 25%;
+    top: 0%;
 }
 
-.hide {
+#story_text1{
+    font-size: 30px;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
 
+#love_story2 {
+    width: 50%;
+    margin: 7% 0;
+    padding: 10px;
+    border: 2px solid white;
+    display: none;
+    position: absolute;
+    left: 25%;
+    top: 0%;
+}
+
+#story_text2{
+    font-size: 30px;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
 }
 
 

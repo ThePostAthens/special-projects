@@ -255,6 +255,11 @@ h3 {
     padding: 10px 15% 0 15%;
 }
 
+.top_links {
+    text-align: center;
+    text-transform: uppercase;
+}
+
 @media screen and (max-width: 750px){
     
     .column20center, p {
@@ -263,19 +268,37 @@ h3 {
     }
     
     #arthed {
-        font-size: 80px;
+        font-size: 40px;
     }
     
     #logo {
         height: 25px;
     }
     
-    #exit_interview {
-        height: 500px;
-        background-size: cover;
-    }
-    
     .half_tile {
         width: 100%;
     }
+    
+}
+
+@media screen and (max-width: 500px){
+
+    #exit_interview {
+        height: 400px;
+        background-size: cover;
+    }
+    
+    #exit_hed {
+        width: 100%;
+        padding: 40% 0;
+    }
+    
+    #exit_hed h2{
+        font-size: 60px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    
+
 }

@@ -73,14 +73,33 @@ h3 {
     background-color: saddlebrown;
 }
 
+/*----- hero slides ----*/
+
+.hero {
+    
+}
+
+.slide1 {
+    
+}
+
+.slide2 {
+    
+}
+
+.slide3 {
+    
+}
+
 /*---- Love Stories ------*/
+
 
 .wrap {
     width: 100%;
     position: relative;
 }
 
-#love_story1 {
+.love_story {
     width: 50%;
     margin: 7% 0;
     padding: 10px;
@@ -91,30 +110,14 @@ h3 {
     top: 0%;
 }
 
-#story_text1{
+.story_text{
     font-size: 30px;
     background-color: #fff;
     margin: 0;
     padding: 0;
 }
 
-#love_story2 {
-    width: 50%;
-    margin: 7% 0;
-    padding: 10px;
-    border: 2px solid white;
-    display: none;
-    position: absolute;
-    left: 25%;
-    top: 0%;
-}
 
-#story_text2{
-    font-size: 30px;
-    background-color: #fff;
-    margin: 0;
-    padding: 0;
-}
 
 
 /*----- Nav Bar -----*/

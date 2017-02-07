@@ -1,19 +1,19 @@
 
 $(document).ready(function () {
     "use strict";
-    $('#brick1').click(function () {
-        $('#love_story1').show('fast');
+    $(document).on('click', '#brick1', function () {
+        $('#1').show('fast');
     });
     
-    $('#love_story1').click(function () {
-        $('#love_story1').remove();
+    $('#1').click(function () {
+        $('#1').hide();
     });
     
-    $('#brick2').click(function () {
-        $('#love_story2').show('fast');
+    $(document).on('click', '#brick2', function () {
+        $('#2').show('fast');
     });
     
-    $('#love_story2').click(function () {
-        $('#love_story2').remove();
+    $('#2').click(function () {
+        $('#2').hide();
     });
 });

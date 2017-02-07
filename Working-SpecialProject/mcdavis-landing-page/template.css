@@ -13,7 +13,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #CA4235;
     text-decoration: none;
 }
 
@@ -35,6 +35,8 @@ h2 {
 
 h3 {
     font-family: playfair display;
+    color: #FFF;
+    text-align: center;
 }
 
 /*-----Column stuff-----*/
@@ -61,7 +63,7 @@ h3 {
 }
 
 #arthed {
-    color: #FFDD38;
+    color: #CA4235;
     padding: 0;
     margin: 0;
     font-size: 90px;
@@ -89,6 +91,9 @@ h3 {
     font-size: 16px;
     font-weight: 100;
     padding-bottom: 50px;
+    color: #FFF;
+    width: 100%;
+    text-align: center;
 }/*apply to h4 with developer's name and title*/
 
 .subhed {
@@ -183,9 +188,10 @@ h3 {
     position: relative;
     float: left;
     height: 300px;
+    transition: all .6s ease;
 }
 
-.half_tile h2 {
+.half_tile h2, .full_tile h2{
     position: absolute;
     width: calc(100% - 20px);
     bottom: 0;
@@ -195,16 +201,58 @@ h3 {
     color: #FFF;
     font-weight: 900;
     text-transform: uppercase;
+    font-size: 40px;
     background: linear-gradient(rgba(256,256,256,.0),rgba(0,0,0,.8));  
 }
 
-.half_tile p {
+.half_tile p, .full_tile p {
     position: absolute;
     bottom: 0;
     padding: 20px 10px 10px 10px;
     margin: 0;
     font-family: "playfair display";
     color: #FFF;
+}
+
+.full_tile {
+    color: #FFF;
+    background: linear-gradient(rgba(256,256,256,.0),rgba(0,0,0,.8));
+    float: left;
+    width: 100%;
+    position: relative;
+    height: 300px;
+    background-position: center center;
+    transition: all .6s ease;
+}
+
+.story {
+    color: #FFF;
+    font-family: playfair display;
+    width: 100%;
+    height: 200px;
+    text-shadow: 2px 2px 5px #000;
+    background-color: #292929;
+    display: table;
+}
+
+.story_inside{
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.story h2{
+    font-size: 40px;
+    width: 70%;
+    padding: 0 15%;
+    margin: 0;
+    line-height: 35px;
+}
+
+.story p{
+    font-family: montserrat;
+    margin: 0;
+    width: 70%;
+    padding: 10px 15% 0 15%;
 }
 
 @media screen and (max-width: 750px){

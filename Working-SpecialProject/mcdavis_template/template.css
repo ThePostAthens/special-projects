@@ -42,7 +42,7 @@ h3 {
     font-weight: 800;
     color: #eed7fc;
     width: 60%;
-    padding: 0% 35% 0 15%;
+    padding: 0% 0 0 15%;
     margin: 0;
 }/*apply to p tag*/
 
@@ -171,6 +171,11 @@ h3 {
     width: 60%;
     padding: 0 25% 0 15%;
 }/*applies to entire byline, with title. bold the author name. put on h4 tag*/
+
+#story_wrap {
+    width: 100%;
+    margin: 0;
+}
 
 .next {
     width: 50%;

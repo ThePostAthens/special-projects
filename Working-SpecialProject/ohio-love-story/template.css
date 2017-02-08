@@ -29,11 +29,7 @@ h2 {
     padding: 0 15%;
 }
 
-h3 {
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
-}
+
 
 .date{
     font-weight: 800;
@@ -42,6 +38,56 @@ h3 {
     padding: 0% 20% 0 20%;
     margin: 0;
 }/*apply to p tag*/
+
+/* Reba intro ----*/
+
+.mobile {
+    display: none;
+}
+
+#intro {
+    width: 100%;
+    padding: 0;
+    border: 5px solid #fffff1;
+}
+
+#intro div {
+    background-color: #fffff1;
+    margin: 0 3%;
+}
+
+#intro div p {
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    width: 80%;
+    padding: 1px 10%;
+    
+}
+
+.container {
+    width: 45%;
+    position: absolute;
+    right: 15%;
+    bottom: 0;
+    top: 10%;
+    margin: 10% 0;
+}
+
+.container h1{
+    width: 100%;
+    position: relative;
+    font-size: 130px;
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    line-height: normal;
+    font-family: 'Playfair Display', serif;
+    color: #fffff1;
+    text-align: center;
+    
+}
+
 
 /*------ bricks -----*/
 
@@ -69,34 +115,39 @@ h3 {
 
 .red {
     background-image:url(img/brick1.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
    
 }
 
 .brown {
     background-image:url(img/brick2.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
 }
 
 .tan {
-    background-image:url(img/brick3.png);
+    background-image:url(img/brick4.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
 }
 
-/*----- hero slides ----*/
-
-.hero {
-    
+.couple {
+    width: 54%;
+    text-align: center;
+    margin: 12% 23%;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    color: #fffff1;
+    border-width: 2px 0 2px 0;
+    border-color: #fffff1;
+    border-style: solid;
+    cursor: pointer;
 }
 
-.slide1 {
-    
-}
-
-.slide2 {
-    
-}
-
-.slide3 {
-    
-}
 
 /*---- Love Stories ------*/
 
@@ -115,6 +166,7 @@ h3 {
     position: absolute;
     left: 25%;
     top: 0%;
+    cursor: pointer;
 }
 
 .story_text{
@@ -164,7 +216,7 @@ h3 {
     width: 100%;
 }
 
-#arthed {
+/*#arthed {
     color: #FFF;
     position: absolute;
     bottom: 0;
@@ -478,4 +530,29 @@ float: right;
     .story {
         height: 300px;
     }
+    
+    .container {
+        display: none;
+    }
+    
+    .mobile {
+        display: block;
+        background-color: #6f1007;
+        width: 90%;
+        padding: 5%;
+        
+    }
+    
+    .mobile h1{
+    width: 100%;
+    font-size: 60px;
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    line-height: normal;
+    font-family: 'Playfair Display', serif;
+    color: #fffff1;
+    text-align: center; 
+}
+
 }

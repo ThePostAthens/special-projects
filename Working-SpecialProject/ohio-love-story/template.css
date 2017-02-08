@@ -52,6 +52,9 @@ h3 {
     padding: 0;
 }
 
+.brick_row img {
+    width: 100%;
+}
 
 .half_row {
     width: 12.5%;
@@ -60,17 +63,21 @@ h3 {
     padding: 0;
 }
 
+.half_row img{
+    width: 100%;
+}
+
 .red {
-    background-color: red;
+    background-image:url(img/brick1.png);
    
 }
 
 .brown {
-    background-color: brown;
+    background-image:url(img/brick2.png);
 }
 
 .tan {
-    background-color: saddlebrown;
+    background-image:url(img/brick3.png);
 }
 
 /*----- hero slides ----*/

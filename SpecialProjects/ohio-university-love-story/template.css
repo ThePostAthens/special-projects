@@ -590,7 +590,7 @@ float: right;
 
 @media screen and (max-width: 750px){
     
-    .oneimg_right, .oneimg_left, .oneimg_center {
+    .oneimg_right, .oneimg_left, .oneimg_center, .oneimg_left_real {
         width: 80%;
         padding: 0 10% 10px 10%;
     }

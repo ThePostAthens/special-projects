@@ -7,19 +7,36 @@ Please contact at SethPArcher@gmail.com with questions.*/
 
 body {
     font-family: montserrat, sans-serif;
-    background-color: #FFF;
+    background-color: #6f1007;
     color: #030406;
     padding: 0;
     margin: 0;
 }
 
-a {
-    color: #7fc448;
-    text-decoration: none;
+#story_body {
+    background-color: #6f1007;
 }
 
-a:hover {
-    opacity: .6;
+#story_outline {
+    border: 5px solid #fffff1;
+    width: 90%;
+    margin: 5%;
+}
+
+#story_wrap {
+    width: 90%;
+    background-color: #fffff1;
+    padding: 0 2%;
+    margin: 3%;
+}
+
+#story_wrap p {
+    width: 60%;
+    padding: 0 20% 0 20%;
+}
+a {
+    text-decoration: none;
+    color: #fffff1;
 }
 
 p {
@@ -29,6 +46,11 @@ p {
 
 h2 {
     padding: 0 15%;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -51,6 +73,7 @@ h2 {
     width: 100%;
     padding: 0;
     border: 5px solid #fffff1;
+    bottom:0;
 }
 
 #intro div {
@@ -72,14 +95,14 @@ h2 {
     position: absolute;
     right: 15%;
     bottom: 0;
-    top: 10%;
+    top: 0;
     margin: 10% 0;
 }
 
 .container h1{
     width: 100%;
     position: relative;
-    font-size: 130px;
+    font-size: 100px;
     padding: 0;
     margin: 0;
     vertical-align: baseline;
@@ -87,8 +110,10 @@ h2 {
     font-family: 'Playfair Display', serif;
     color: #fffff1;
     text-align: center;
-    
+    bottom: 0;
 }
+
+
 
 
 /*------ bricks -----*/
@@ -135,9 +160,9 @@ h2 {
 }
 
 .couple {
-    width: 54%;
+    width: 80%;
     text-align: center;
-    margin: 12% 23%;
+    margin: 12% 10%;;
     font-family: 'Playfair Display', serif;
     font-size: 30px;
     color: #fffff1;
@@ -173,7 +198,10 @@ h2 {
     background-color: #fffff1;
     margin: 20px 0;
     padding-bottom: 10px;
+    font-weight: 400;
+    
 }
+
 
 .story_text h3 {
     width: 60%;
@@ -184,9 +212,14 @@ h2 {
     line-height: 1;
     margin: 0;
 }
+.noimg h3 {
+    width: 50%;
+    text-align: center;
+    
+}
 
-.story_text {
-    font-weight: 400;
+.noimg h5 {
+    padding: 0 10%;
 }
 
 h5 {
@@ -250,26 +283,30 @@ h5 {
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
-    padding: 0 10% 0 10%;
-    width: 80%;
+    color: #000;
+    padding: 0 20% 0 20%;
+    width: 60%;
     margin: 0;
     font-size: 40px;
     font-weight: 900i;
     text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
 }/*apply to h1, not the art hed*/
 
 .credit {
     font-size: 16px;
     font-weight: 100;
-    padding-bottom: 50px;
+    padding-bottom: 5px;
+    color: #fffff1;
+    width: 100%;
+    text-align: center;
 }/*apply to h4 with developer's name and title*/
 
 .subhed {
-    font-family: montserrat
-    , sans-serif;
-    font-weight: 800;
-    color: #7fc448;
+    font-family: 'Playfair Display', serif;
+    color: #000;
+    width: 60%;
+    padding: 0 20%;
 }/*apply to h2 tags*/
 
 .dropcap {
@@ -286,20 +323,32 @@ h5 {
 
 #byline {
     margin: 0;
+    width: 60%;
+    padding: 0 20%;
     font-weight: 400;
+    font-family:'Playfair Display', serif;
+    text-transform: small-caps;
 }/*applies to entire byline, with title. bold the author name. put on h4 tag*/
 
 /*----- Img Things -----*/
 
+iframe {
+    width: 60%;
+    padding: 0 20%;
+}
+
+.oneimg_full {
+    width: 80%;
+    padding: 2% 10% 0 10%;
+}
 .oneimg_center {
     width: 60%;
     padding: 0 20%;
 }/*Apply to a wrapping div*/
 
 .oneimg_right {
-    width: 50%;
-    padding-right: 10%;
-    padding-left: 10px;
+    width: 30%;
+    padding: 1% 5% 1% 1%;
     float: right;
 }/*Apply to a wrapping div*/
 
@@ -309,6 +358,13 @@ h5 {
     padding-right: 20px;
     float: left;
 }/*Apply to a wrapping div*/
+
+.oneimg_left_real {
+    width: 30%;
+    padding: 1% 1% 1% 5%;
+    padding-right: 20px;
+    float: left;
+}
 
 .twoimg_center {
     width: 60%;
@@ -492,6 +548,46 @@ float: right;
     padding: 10px 15% 0 15%;
 }
 
+@media screen and (max-width: 1269px){
+    .container h1 {
+        font-size: 80px;
+    }
+    #intro div p {
+        font-size: 16px;
+        width: 90%;
+        padding: 0 5%;
+    }
+    
+    .container {
+        margin: 3% 0;
+    }
+    
+}
+
+@media screen and (max-width: 1009px){
+    .container h1 { 
+        font-size: 60px;
+    }
+    
+    .container {
+        margin: 1%;
+    }
+
+    #intro div p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    .container h1 {
+        font-size: 45px
+    }
+    
+    .container {
+        margin: 0;
+    }
+}
+
 @media screen and (max-width: 750px){
     
     .oneimg_right, .oneimg_left, .oneimg_center {
@@ -519,7 +615,9 @@ float: right;
     }
     
     .subhed{
-        padding: 0 10%;
+        width: 90%;
+        margin: 0;
+        padding: 0 5%;
     }
     
     .credit{
@@ -571,6 +669,44 @@ float: right;
     font-family: 'Playfair Display', serif;
     color: #fffff1;
     text-align: center; 
+    }
+    
+    #story_wrap p{
+        width: 90%;
+        padding: 0 5%;
+    }
+    
+    .brick_row {
+    width: 50%;
+    height: 150px;
+    float: left;
+    padding: 0;
+    }
+    .half_row {
+        display: none;
+    }
+    
+    .love_story {
+    width: 80%;
+    padding: 0 8.8%;    
+    left: 0;
+    }
+    
+    .story_text{
+    font-size: 16px;
+    background-color: #fffff1;
+    margin: 20px 0;
+    padding-bottom: 10px;
+    font-weight: 400;
+    }
+    
+    h5 {
+        padding: 0 10%
+    }
+    
+    #hidden {
+        display: none;
+    }
+    
 }
 
-}

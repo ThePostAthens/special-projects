@@ -382,7 +382,7 @@ iframe {
     width: 33%;
 }
 
-.oneimg_full img, .oneimg_center img, .oneimg_right img, .oneimg_left img {
+.oneimg_full img, .oneimg_center img, .oneimg_right img, .oneimg_left img, .oneimg_left_real img {
     width: 100%
 }
 

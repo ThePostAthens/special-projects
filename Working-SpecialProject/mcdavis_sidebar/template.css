@@ -247,7 +247,6 @@ h3 {
 
 .oneimg_full img, .oneimg_center img, .oneimg_right img, .oneimg_left img {
     width: 100%;
-    filter: grayscale(100%);
         
 }
 

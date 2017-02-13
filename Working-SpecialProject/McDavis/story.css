@@ -70,7 +70,8 @@ h3 {
 
 #facebook {
     width: 60%;
-    padding: 0 25% 0 15%;
+    padding: 0 15% 0 15%;
+    margin: 0;
 }
 
 /*----- Nav Bar -----*/
@@ -456,7 +457,7 @@ float: right;
 /*------ DAYS -----*/
 
 .sunday {
-    display: inline-block;
+
 }
 
 .monday {
@@ -552,6 +553,14 @@ float: right;
     .notsidebar {
         width: 100%;
         padding: 0;
+    }
+    
+    #facebook {
+        padding: 0 10% 0 10%;
+    }
+    
+    #byline {
+        padding: 0 10% 0 10%;
     }
 }
 

@@ -112,7 +112,6 @@ h3 {
 
 #heroimg img {
     width: 100%;
-    filter: grayscale(100%);
 }
 
 #arthed {
@@ -170,7 +169,7 @@ h3 {
     margin: 0;
     font-weight: 400;
     width: 60%;
-    padding: 0 25% 0 15%;
+    padding: 0 15% 0 25%;
 }/*applies to entire byline, with title. bold the author name. put on h4 tag*/
 
 #story_wrap {

@@ -70,7 +70,8 @@ h3 {
 
 #facebook {
     width: 60%;
-    padding: 0 25% 0 15%;
+    padding: 0 15% 0 15%;
+    margin: 0;
 }
 
 /*----- Nav Bar -----*/
@@ -473,7 +474,7 @@ button {
 /*------ DAYS -----*/
 
 .sunday {
-    display: inline-block;
+
 }
 
 .monday {
@@ -570,7 +571,19 @@ button {
     .notsidebar {
         width: 100%;
         padding: 0;
+<<<<<<< HEAD
     } 
+=======
+    }
+    
+    #facebook {
+        padding: 0 10% 0 10%;
+    }
+    
+    #byline {
+        padding: 0 10% 0 10%;
+    }
+>>>>>>> origin/master
 }
 
 @media screen and (max-width: 400px){

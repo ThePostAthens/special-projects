@@ -595,6 +595,15 @@ float: right;
         padding: 0 10% 10px 10%;
     }
     
+    .oneimg {
+        width: 100%;
+    }
+    
+    iframe {
+        width: 100%;
+        padding: 0;
+    }
+    
     .oneimg_full p {
         width: 80%;
         padding: 0 10%;

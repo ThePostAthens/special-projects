@@ -5,6 +5,9 @@ Please contact at SethPArcher@gmail.com with questions.*/
 
 /*----- Global Styles -----*/
 
+@import 'https://fonts.googleapis.com/css?family=Playfair+Display:400i,700i';
+
+
 body {
     font-family: montserrat, sans-serif;
     background-color: #FFF;
@@ -12,7 +15,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #cc0000;
     text-decoration: none;
 }
 
@@ -21,8 +24,8 @@ a:hover {
 }
 
 p {
-    width: 60%;
-    padding: 0 20%;
+    width: 50%;
+    padding: 0 35% 0 15%;
 }/*these have a style simmilar to column20center, do not add column20center to p tags*/
 
 h2 {
@@ -37,9 +40,9 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #eed7fc;
+    color: #cc0000;
     width: 60%;
-    padding: 0% 20% 0 20%;
+    padding: 0% 0 0 15%;
     margin: 0;
 }/*apply to p tag*/
 
@@ -47,7 +50,7 @@ h3 {
 
 .column20center {
     width: 60%;
-    padding: 0 20%;
+    padding: 0 25% 0 15%;
 }/*do not apply to p tags, they automatically have a simmilar styling*/
 
 .column10center {
@@ -63,6 +66,11 @@ h3 {
 .column10right {
     width: 40%;
     padding-right: 10%;
+}
+
+#facebook {
+    width: 60%;
+    padding: 0 25% 0 15%;
 }
 
 /*----- Nav Bar -----*/
@@ -93,38 +101,44 @@ h3 {
 
 /*----- Hero Image -----*/
 
+
+
 #heroimg {
-    width: 100%;
+    width: 70%;
     position: relative;
+    padding: 2% 15%;
 }/*apply to wrapping div with an img tag within*/
 
 #heroimg img {
     width: 100%;
+    filter: grayscale(100%);
 }
 
 #arthed {
-    color: #FFF;
-    position: absolute;
-    bottom: 0;
+    color: #cc0000;
     padding: 0;
     margin: 0;
-    font-size: 70px;
-    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    font-size: 100px;
+    font-weight: 900;
     text-align: center;
     width: 100%;
-    text-shadow: 2px 2px 3px #000;
+    text-shadow: 1px 1px 3px #000;
+    line-height: 100%;
+    
 }/*apply to h1 within the heroimg div*/
 
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
-    padding: 0 10% 0 10%;
-    width: 80%;
+    color: #000;
+    padding: 0 15%;
+    width: 70%;
     margin: 0;
     font-size: 40px;
     font-weight: 900i;
     text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
 }/*apply to h1, not the art hed*/
 
 .credit {
@@ -134,10 +148,9 @@ h3 {
 }/*apply to h4 with developer's name and title*/
 
 .subhed {
-    font-family: montserrat
-    , sans-serif;
+    font-family: 'Playfair Dislay', serif;
     font-weight: 800;
-    color: #7fc448;
+    color: #cc0000;
 }/*apply to h2 tags*/
 
 .dropcap {
@@ -155,7 +168,50 @@ h3 {
 #byline {
     margin: 0;
     font-weight: 400;
+    width: 60%;
+    padding: 0 25% 0 15%;
 }/*applies to entire byline, with title. bold the author name. put on h4 tag*/
+
+#story_wrap {
+    width: 100%;
+    margin: 0;
+}
+
+.next {
+    width: 50%;
+    float: left;
+    height: 200px;
+    background-color: #606060;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.next1 {
+    width: 50%;
+    float: left;
+    height: 200px;
+    background-color: #707070;
+    padding: 0;
+    margin: 0;
+    
+}
+.next_story {
+    width: 50%;
+    padding: 0 25%;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+.next_story h4 {
+    font-size: 40px;
+    padding: 0;
+    line-height: 10px;
+}
+
+.next_story p {
+    padding: 0;
+}
 
 /*----- Img Things -----*/
 
@@ -171,12 +227,7 @@ h3 {
     float: right;
 }/*Apply to a wrapping div*/
 
-.oneimg_left {
-    width: 40%;
-    padding-left: 10%;
-    padding-right: 20px;
-    float: left;
-}/*Apply to a wrapping div*/
+
 
 .twoimg_center {
     width: 60%;
@@ -195,7 +246,8 @@ h3 {
 }
 
 .oneimg_full img, .oneimg_center img, .oneimg_right img, .oneimg_left img {
-    width: 100%
+    width: 100%;
+        
 }
 
 /*----- Pullqute stuff -----*/
@@ -223,20 +275,10 @@ blockquote {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #5379c4;
+    color: #000;
 }/*add to wrapping div*/
 
-.pq_left {
-    width: 40%;
-    padding-left: 10%;
-    padding-right: 0;
-    float: left;
-    margin: 0;
-    font-size: 25px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #5379c4;
-}/*add to wrapping div*/
+
 
 .attribution {
     font-size: 20px;
@@ -316,7 +358,8 @@ float: right;
     position: absolute;
     float: left;
     height: 30px;
-    padding: 7px;
+    width: 80px;
+    padding: calc((150px - 80px) / 2)
 }/*effects the post logo in the top left of the page*/
 
 .parallax {
@@ -326,7 +369,107 @@ float: right;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
+    filter: grayscale(100%);
 }/* add to the wrapping div, give the div an inline style with the photo you want to be parallax*/
+
+/* SIDEBAR THINGS */
+
+.sidebar {
+    background-color: #292929;
+    height: 1200px;
+    position: fixed;
+    width: 150px;
+    display: table;
+}
+
+.sidebar img {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.sidebar a {
+    color: #FFF;
+}
+
+.sidebar ul {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 10px;
+}
+
+.sidebar li {
+    list-style: none;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.sidebar li:hover {
+    opacity: .4;
+}
+
+#list_hed:hover {
+    opacity: 1;
+}
+
+.notsidebar {
+    float: left;
+    width: calc(100% - 150px);
+    padding-left: 150px;
+}
+
+#list_hed {
+    color: #fff;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.story {
+    color: #FFF;
+    font-family: playfair display;
+    width: 100%;
+    height: 200px;
+    text-shadow: 2px 2px 5px #000;
+    background-color: #292929;
+    display: table;
+}
+
+.story_inside{
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.story h2{
+    font-size: 40px;
+    width: 70%;
+    padding: 0 15%;
+    margin: 0;
+    line-height: 35px;
+}
+
+.story p{
+    font-family: montserrat;
+    margin: 0;
+    width: 70%;
+    padding: 10px 15% 0 15%;
+}
+
+/*------ DAYS -----*/
+
+.sunday {
+    display: inline-block;
+}
+
+.monday {
+    visibility: visible;
+}
+
+.tuesday {
+    visibility: hidden;
+}
+
+.wednesday {
+    visibility: hidden;
+}
 
 @media screen and (max-width: 750px){
     
@@ -370,6 +513,7 @@ float: right;
         width: 80%;
         padding: 0% 10% 0 10%;
         font-size: 25px;
+        color: #cc0000;
     }
     
     .date {
@@ -377,9 +521,53 @@ float: right;
         width: 80%;
     }
     
-    #banner {
-        font-size: 50px;
-        color: #000;
+    #logowrap {
+        width: 100%;
     }
     
+    #logo {
+        width: auto;
+        padding: 30px 35px;
+    }
+    
+    .sidebar {
+        display: table;
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .sidebar ul {
+        width: 80%;
+        padding: 15px;
+        display: table-cell;
+        vertical-align: middle;
+    }
+    
+    .sidebar li {
+        float: left;
+        padding-left:10px;
+    }
+    
+    .notsidebar {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 400px){
+ 
+    .sidebar ul {
+        display: none;
+    }
+    
+    #logowrap {
+        width: 100%;
+        background-color: #292929;
+        height: 40px;
+    }
+    
+    #logo {
+        padding: 7px;
+    }
 }

@@ -374,6 +374,23 @@ float: right;
 
 /* SIDEBAR THINGS */
 
+.mobile {
+    display: none;
+    width: 100%;
+    top: 0;
+    background-color: #292929;
+}
+
+button {
+    display: none;
+    color: white;
+    padding-right: 0;
+    float: right;
+    position: relative;
+    margin: 0;
+    padding-top: 0;
+}
+
 .sidebar {
     background-color: #292929;
     height: 1200px;
@@ -530,6 +547,7 @@ float: right;
         padding: 30px 35px;
     }
     
+    
     .sidebar {
         display: table;
         position: relative;
@@ -537,7 +555,7 @@ float: right;
         height: 100%;
     }
     
-    .sidebar ul {
+   .sidebar ul {
         width: 80%;
         padding: 15px;
         display: table-cell;
@@ -552,7 +570,7 @@ float: right;
     .notsidebar {
         width: 100%;
         padding: 0;
-    }
+    } 
 }
 
 @media screen and (max-width: 400px){

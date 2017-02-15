@@ -1,0 +1,156 @@
+div {
+    width: 100%;
+}
+
+body {
+    font-family: montserrat;
+}
+
+#top h1{
+    font-family: playfair display;
+    text-align: center;
+    padding: 170px 0;
+    font-size: 50px;
+    margin: 0;
+    color: #FFF;
+    text-shadow: 2px 2px 5px #000;
+}
+
+#top {
+    background-image: url("https://s-media-cache-ak0.pinimg.com/736x/d5/d4/7a/d5d47a16a04c6b7a0cc76777c8d13bff.jpg");
+    height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#intro p{
+    width: 60%;
+    padding: 0 20%;
+}
+
+.dropcap {
+    font-weight: 700;
+    float: left;
+    font-size: 3.3em;
+    line-height: .8em;
+    padding-right: 5px;
+}
+
+.photog{
+    text-align: right;
+    margin:0;
+    padding: 0;
+    font-weight: 800;
+    color: #292929;
+    font-size: 12px;
+    width: 100%;
+    right: 0;
+}
+
+#exit {
+    width: 100%;
+    margin: 0;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    transition: all .3s ease;
+}
+
+#exit:hover {
+    opacity: .6;
+}
+
+h2 {
+    font-family: playfair display;
+    padding-bottom: 0;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+    text-align: center;
+}
+
+#exit h2 {
+    font-size: 50px;
+    margin-top: 60px;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 3px #000;
+}
+
+#others {
+    width: 100%;
+}
+
+#stories {
+    padding: 0 10%;
+    width: 80%;
+}
+
+.story {
+    display: inline-block;
+    width: calc(30% - 3px);
+    padding: 0 10%;
+    margin: 0;
+    height: 200px;
+    color: #000;
+    margin-top: 3px;
+    background-position: center center;
+    background-size: cover;    
+    transition: all .3s ease;
+}
+
+.story h2{
+    margin-top: 70px;
+}
+
+.story h3{
+    font-size: 15px;
+}
+
+.story:hover {
+    opacity: .6;
+    transition: all .3s ease;
+}
+
+@media screen and (max-width: 750px){
+    
+    #stories {
+        width: 90%;
+        margin: 0 5%;
+        padding: 0;
+    }
+    
+    #exit {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    
+    #others {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+}
+
+@media screen and (max-width: 450px){
+    
+    .story {
+        width: 80%;
+    }
+}
+
+
+

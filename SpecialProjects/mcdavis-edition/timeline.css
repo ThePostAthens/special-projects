@@ -1,8 +1,59 @@
 body {
-    background-color: #292929;
+
 }
 
 #timeline {
+    overflow: hidden;
+    position: relative;
+}
+
+#vr_line {
+    width: 1%;
+    height: 100%;
+    background-color:#292929;
+    float: left;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     
 }
 
+.tl_img {
+    float: left;
+}
+.full_right {
+    width: 45%;
+    padding: 1% 4% 0 1%;
+}
+
+.full_left {
+    width: 45%;
+    padding: 1% 1% 0 4%;
+}
+
+.half_right {
+    width: 30%;
+    padding: 1% 1% 0 1%;
+}
+
+.half_left {
+    width: 30%;
+    padding: 1% 1% 0 4%;
+}
+
+.mid_left{
+    width: 40%;
+    padding: 1% 1% 0 1%;
+}
+
+.mid_right {
+    width: 40%;
+    padding: 1% 1% 0 1%;
+}
+
+.tl_img img{
+    width: 100%;
+}

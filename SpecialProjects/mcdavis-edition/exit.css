@@ -36,11 +36,12 @@ a:hover {
     padding-left: 10%;
     padding-right: 10px;
     float: left;
+    max-height: 500px;
+    overflow: hidden;
 }
 
 .oneimg_left img, .oneimg_right img {
     width: 100%;
-    max-width: 400px;
 }
 
 #logo {
@@ -80,6 +81,7 @@ p {
     font-size: 12px;
     width: 100%;
     padding: 0;
+    background-color: #000;
 }
 
 .story {
@@ -150,9 +152,80 @@ h1 {
     padding: 30px 0;
 }
 
+blockquote {
+    font-family: playfair display;
+    font-weight: 900;
+    float: left;
+    width: 40%;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    margin-right: 15px;
+    margin-left: 5%;
+}
+
+.credit {
+    text-align: center;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+
+.mobile_see {
+        display: none;
+    }
+
 @media screen and (max-width: 750px){
     
     #logo {
         height: 25px;
     }
+    
+    blockquote {
+        font-size: 25px;
+        text-align: center;
+        padding: 20px 2%;
+        width: 96%;
+        margin: 0;
+    }
+    
+    .mobile_see {
+        display: inline-block;
+    }
+    
+    .mobile_hide {
+        display: none;
+    }
+    
+    .headline {
+        background-color: #000;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        font-size: 70px;
+        display: block;
+        position: relative;
+    }
+    
+    .reversetype {
+        padding-top: 5px;
+    }
+    
+    .oneimg_left {
+        width: 100%;
+        padding: 0;
+        padding: 10%;
+        margin: 0;
+    }
+    
+    .oneimg_right {
+        width: 80%;
+        padding: 0;
+        padding: 10%;
+        margin: 0;
+    }
+    
+    .oneimg_left, .oneimg_right {
+        width: 80%;
+    }
+    
 }

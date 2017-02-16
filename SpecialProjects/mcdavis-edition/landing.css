@@ -53,7 +53,7 @@ body {
 #exit {
     width: 100%;
     margin: 0;
-    height: 250px;
+    height: 300px;
     overflow: hidden;
     position: relative;
     background-position: center center;
@@ -76,8 +76,21 @@ h2 {
 }
 
 #exit h2 {
-    font-size: 50px;
-    margin-top: 60px;
+    font-size: 70px;
+    margin-top: 30px;
+    width: 50%;
+    line-height: .9;
+    padding-left: 40px;
+}
+
+#the {
+    font-size: 30px;
+}
+
+#exit h3{
+    text-align: center;
+    width: 50%;
+    padding-left: 40px;
 }
 
 h3 {

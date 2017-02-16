@@ -220,6 +220,20 @@ h3 {
     padding: 0 20%;
 }/*Apply to a wrapping div*/
 
+.oneimg_left {
+    width: 40%;
+    padding-left: 10%;
+    padding-right: 10px;
+    float: left;
+}
+
+.oneimg_mug {
+    width: 10%;
+    padding-left: 10%;
+    padding-right: 10px;
+    float: left;
+}
+
 .oneimg_right {
     width: 40%;
     padding-right: 10%;
@@ -245,7 +259,7 @@ h3 {
     width: 33%;
 }
 
-.oneimg_full img, .oneimg_center img, .oneimg_right img, .oneimg_left img {
+.oneimg_full img, .oneimg_center img, .oneimg_right img, .oneimg_left img, .oneimg_mug img {
     width: 100%;
         
 }
@@ -495,6 +509,10 @@ button {
         padding: 0 10% 10px 10%;
     }
     
+     .oneimg_mug {
+        width: 20%;
+    }
+    
     .oneimg_full p {
         width: 80%;
         padding: 0 10%;
@@ -581,6 +599,7 @@ button {
     #byline {
         padding: 0 10% 0 10%;
     }
+
 }
 
 @media screen and (max-width: 400px){

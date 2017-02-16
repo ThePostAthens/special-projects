@@ -99,6 +99,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right center;
+    overflow: hidden;
 }
 
 .dropcap {

@@ -10,17 +10,17 @@ body {
     font-family: playfair display;
     text-align: center;
     padding: 170px 0;
-    font-size: 50px;
+    font-size: 80px;
     margin: 0;
     color: #FFF;
-    text-shadow: 2px 2px 5px #000;
+    text-shadow: 2px 2px 3px #000;
 }
 
 #top {
-    background-image: url("https://s-media-cache-ak0.pinimg.com/736x/d5/d4/7a/d5d47a16a04c6b7a0cc76777c8d13bff.jpg");
-    height: 500px; 
+    background-image: url("https://s3.amazonaws.com/media.ohi/17413_coverf.jpg");
+    height: 600px; 
     background-attachment: fixed;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -150,18 +150,38 @@ h3 {
         margin: 0;
     }
     
+    #exit h2 {
+        font-size: 60px;
+        width: 100%;
+        padding: 0
+    }
+    
+    #exit h3 {
+        width: 100%;
+        padding: 0;
+    }
+    
     #others {
         width: 100%;
         margin: 0;
         padding: 0;
     }
     
+    #intro p {
+        padding: 0 5%;
+        width: 90%;
+    }   
 }
 
 @media screen and (max-width: 450px){
     
     .story {
         width: 80%;
+    }
+    
+        #intro p {
+        padding: 0 5%;
+        width: 90%;
     }
 }
 

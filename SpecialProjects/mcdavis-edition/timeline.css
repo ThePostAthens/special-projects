@@ -75,6 +75,10 @@ div img{
     width: 100%;
 }
 
+.caption_below{
+    display: none;
+}
+
 .caption {
     background: #292929;
     background: -webkit-linear-gradient(rgba(41,41,41,0), rgba(41,41,41,1));
@@ -94,6 +98,7 @@ div img{
     padding: 0 2% 0 8%;
     margin: 0;
     text-align: right;
+    ;
 }
 
 
@@ -102,25 +107,27 @@ div img{
     text-transform: uppercase;
     font-size: 14px;
 }
-<<<<<<< HEAD
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
->>>>>>> origin/master
+@media screen and (max-width: 750px) {
+    .caption{
+        display: none;
+    }
+    
+    .caption_below {
+        display: block;
+        width: 100%;
+        
+    }
+    
+    .caption_below p {
+        font-size: 10px;
+        width: 95%;
+        text-align: right;
+        padding: 0;
+        
+    }
+    
+    .full_left, .full_right, .mid_left, .mid_right, .half_left, .half_right {
+        width: 100%;
+    }
+}

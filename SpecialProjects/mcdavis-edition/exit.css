@@ -1,0 +1,158 @@
+@import 'https://fonts.googleapis.com/css?family=Playfair+Display:400i,700i';
+
+
+body {
+    font-family: montserrat, sans-serif;
+    background-color: #FFF;
+    color: #030406;
+}
+
+a:hover {
+    opacity: .6;
+}
+
+#heroimg {
+    width: 100%;
+    position: relative;
+}
+
+#heroimg img {
+    width: 100%;
+}
+
+.oneimg_full {
+    width: 100%;
+}
+
+.oneimg_right {
+    width: 40%;
+    padding-right: 10%;
+    padding-left: 10px;
+    float: right;
+}
+
+.oneimg_left {
+    width: 40%;
+    padding-left: 10%;
+    padding-right: 10px;
+    float: left;
+}
+
+.oneimg_left img, .oneimg_right img {
+    width: 100%;
+    max-width: 400px;
+}
+
+#logo {
+    z-index: 1;
+    position: absolute;
+    float: left;
+    height: 30px;
+    padding: 7px;
+}
+
+.subhed {
+    font-family: 'Playfair Dislay', san-serif;
+    font-weight: 900;
+    width: 80%;
+    padding: 30px 10% 0;
+    margin: 0;
+    font-size: 35px;
+}
+
+a {
+    text-decoration: none;
+    color: #eee176;
+}
+
+p {
+    width: 70%;
+    font-family: montserrat;
+    padding: 0 15%;
+}
+
+.photog{
+    float: right;
+    text-align: right;
+    margin:0;
+    font-weight: 800;
+    color: #000;
+    font-size: 12px;
+    width: 100%;
+    padding: 0;
+}
+
+.story {
+    color: #FFF;
+    font-family: playfair display;
+    width: 100%;
+    height: 200px;
+    text-shadow: 2px 2px 5px #000;
+    background-color: #292929;
+}
+
+.parallax {
+    height: 500px; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+}
+
+.dropcap {
+    font-weight: 700;
+    float: left;
+    font-size: 2.9em;
+    line-height: .9em;
+    padding-right: 5px;
+    font-family: lora;
+}
+
+h1 {
+    font-family: playfair display;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    font-size: 80px;
+    width: 50%;
+    line-height: .9;
+    text-align: center;
+    padding-left: 20px;
+}
+
+#the {
+    font-size: 40px;
+}
+
+.story_inside{
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.story h2{
+    font-size: 40px;
+    width: 70%;
+    padding: 0 15%;
+    margin: 0;
+    line-height: 35px;
+}
+
+.story p{
+    font-family: montserrat;
+    margin: 0;
+    width: 70%;
+    padding: 10px 15% 0 15%;
+}
+
+.reversetype {
+    color: #fff;
+    background-color: #000;
+    padding: 30px 0;
+}
+
+@media screen and (max-width: 750px){
+    
+    #logo {
+        height: 25px;
+    }
+}

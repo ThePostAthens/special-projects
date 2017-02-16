@@ -136,6 +136,10 @@ h3 {
     transition: all .3s ease;
 }
 
+a {
+    text-decoration: none;
+}
+
 @media screen and (max-width: 750px){
     
     #stories {

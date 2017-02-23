@@ -96,6 +96,9 @@ h3 {
 #heroimg {
     width: 100%;
     position: relative;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
 }/*apply to wrapping div with an img tag within*/
 
 #heroimg img {
@@ -169,6 +172,7 @@ h3 {
     padding-right: 10%;
     padding-left: 10px;
     float: right;
+    max-width: 300px;
 }/*Apply to a wrapping div*/
 
 .oneimg_left {
@@ -402,10 +406,10 @@ float: right;
  
 .moon_individual {
     width: 17%;
-    padding: 1%;
+    padding: 1.5%;
     color: #FFF;
     float: left;
-    height: 200px;
+    height: 300px;
     display: table;
 }
 
@@ -443,7 +447,7 @@ float: right;
 
 .book h1 {
     bottom: 0;
-    font-size: 40px;
+    font-size: 30px;
     width: 45%;
     display: table-cell;
     vertical-align: middle;
@@ -457,6 +461,21 @@ float: right;
     line-height: .95;
 }
 
+@media screen and (max-width: 1430px){
+
+    .moon_individual {
+        height: 180px;
+    }
+
+}
+
+@media screen and (max-width: 800px){
+
+    .moon_individual {
+        height: 150px;
+    }
+
+}
 
 @media screen and (max-width: 750px){
     
@@ -514,4 +533,31 @@ float: right;
     .story {
         height: 300px;
     }
+    
+    .moon_individual {
+        width: 100%;
+        height: 220px;
+    }
+    
+    .moon_individual img {
+        width: 50%;
+        padding-left: 25%;
+        z-index: 0;
+    }
+    
+    .moon_individual p{
+        z-index: 1;
+        text-shadow: 2px 2px 2px #000;
+        text-align: center;
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 400px){
+    
+    .moon_individual {
+        height: 180px;
+    }
+    
 }

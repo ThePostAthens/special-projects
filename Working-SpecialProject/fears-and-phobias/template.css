@@ -561,6 +561,30 @@ float: right;
         width: 100%;
         padding: 0;
     }
+    
+    .thefive {
+        width: 40%;
+        padding: 0 30% 30px;
+        margin: 0;
+    }
+    
+    #top5 ol {
+        width: 80%;
+        margin: 0;
+        padding: 0 10%;
+        float: left;
+    }
+    
+    .book img {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .book h1 {
+        width: 100%;
+        float: left;
+    }
 }
 
 @media screen and (max-width: 400px){

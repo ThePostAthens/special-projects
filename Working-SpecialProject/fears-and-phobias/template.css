@@ -461,7 +461,16 @@ float: right;
     line-height: .95;
 }
 
-@media screen and (max-width: 1430px){
+.sidebar {
+    color: #d7041b;
+    float: left;
+    width: 40%;
+    padding: 0 10px 0 10%;
+    margin: 5px 0;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1000px){
 
     .moon_individual {
         height: 180px;

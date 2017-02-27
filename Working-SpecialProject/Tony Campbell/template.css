@@ -96,6 +96,7 @@ h3 {
 #heroimg {
     width: 100%;
     position: relative;
+    text-transform: capitalize
 }/*apply to wrapping div with an img tag within*/
 
 #heroimg img {
@@ -124,7 +125,7 @@ h3 {
     margin: 0;
     font-size: 40px;
     font-weight: 900i;
-    text-transform: uppercase;
+    text-transform:
 }/*apply to h1, not the art hed*/
 
 .credit {

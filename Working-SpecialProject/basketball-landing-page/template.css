@@ -149,21 +149,44 @@ h3 {
     position: relative;
 }
 
+.row-2 {
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+.row-1 {
+    width: 100%;
+    position: relative;
+}
+
 .header {
+    background: #292929;
+    background: -webkit-linear-gradient(rgba(41,41,41,0), rgba(41,41,41,1));
+    background: -o-linear-gradient(rgba(41,41,41,0), rgba(41,41,41,1));
+    background: -moz-linear-gradient(rgba(41,41,41,0), rgba(41,41,41,1));
+    background: linear-gradient(rgba(41,41,41,0), rgba(41,41,41,1));
+    color: #fff;
     position: absolute;
     bottom: 0;
     padding: 0;
     margin: 0;
+    width: 100%;
 }
 
 .header h2{
-    padding: 0 10%;
+    padding: 0 5%;
+    font-family: "Alfa Slab One";
+    text-shadow: -1px 1px 2px #000;
+    letter-spacing: 1px;
+    margin: 0;
+    text-align: right;
 }
 
 .header p {
     text-align: right;
-    padding: 0 2%;
-    width: 96%;
+    padding: 0 5% 0 0;
+    width: 95%;
 }
 
 .row-3 img, .row-2 img, .row-1 img {
@@ -334,5 +357,22 @@ float: right;
     
     .story {
         height: 300px;
+    }
+    
+    .row-3 {
+        width: 90%;
+        padding: 1% 5%;
+    }
+    .row-2 {
+        width: 90%;
+        padding: 1% 5%;
+    }
+    .row-1 {
+        width: 90%;
+        padding: 1% 5%;
+    }
+    
+    .header {
+        width: 90%;
     }
 }

@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #15681d;
     text-decoration: none;
 }
 
@@ -118,7 +118,7 @@ h3 {
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
+    color: #31353a;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
@@ -137,7 +137,7 @@ h3 {
     font-family: montserrat
     , sans-serif;
     font-weight: 800;
-    color: #7fc448;
+    color: #15501d;
 }/*apply to h2 tags*/
 
 .dropcap {

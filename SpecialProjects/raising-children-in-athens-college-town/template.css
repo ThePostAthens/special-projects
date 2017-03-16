@@ -370,6 +370,15 @@ float: right;
     padding: 0 10%;
 }
 
+.sectionbreak {
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    font-family: plarfair display;
+}
+
 @media screen and (max-width: 750px){
     
     .oneimg_right, .oneimg_left, .oneimg_center {

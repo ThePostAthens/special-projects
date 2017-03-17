@@ -88,3 +88,39 @@ p {
     width: 100%;
     text-align: center;
 }
+
+.seth {
+    display: ;
+}
+
+.hannah {
+    display: ;
+}
+
+.developers {
+    background-color: #292929;
+    text-align: center;
+    padding: 10px;
+}
+
+button {
+	background-color:#e6e6e6;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	display:inline-block;
+	color:#545454;
+	font-size:14px;
+	font-weight:bold;
+	padding:5px 50px;
+	text-decoration:none;
+	text-shadow:0px 1px 4px #ffffff;
+    border: 0;
+}
+button:hover {
+	background-color:#cccccc;
+}
+button:active {
+	position:relative;
+	top:1px;
+}

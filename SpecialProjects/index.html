@@ -5,6 +5,24 @@
     <link rel="stylesheet" href="/SpecialProjectTemplate/css/normalize.css">
         <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Lora|Montserrat:700|Playfair+Display:900" rel="stylesheet">
+    
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#sethstory").click(function(){
+                    $(".story").toggle(500);
+                    $(".story").style.height(0);
+                });
+            });
+    </script>
+            <script>
+            $(document).ready(function(){
+                $("#hannahstory").click(function(){
+                    $(".seth").toggle(500);
+                });
+            });
+    </script>
 </head>
 <body>
 
@@ -16,10 +34,15 @@
     <div class="term">
     <h2>Spring 2017</h2>
     </div>
+    
+   <!-- <div class="developers">
+        <button id="sethstory">Stories by Seth</button>
+        <button id="hannahstory">Stories by Hannah</button>
+    </div>-->
    
     
     <a href="http://projects.thepostathens.com/SpecialProjects/astrology-science-truth-stars-horoscopes/"><div class="story" style="background-image:url(https://s3.amazonaws.com/media.ohi/16777_astrology_1f.jpg);">
-        <div class="box_hed" style="text-shadow: 2px 2px 5px #000;">
+        <div class="box_hed seth" style="text-shadow: 2px 2px 5px #000;">
             <p>Week One</p>
             <h2>In the stars</h2>
             <h3>Astrology has its roots in ancient practices, but some people see the truth in reading the stars.</h3>
@@ -27,7 +50,7 @@
         </div></a>
     
     <a href="http://projects.thepostathens.com/SpecialProjects/ohios-fractured-lands"><div class="story" style="background-image:url(https://s3.amazonaws.com/media.ohi/16782_fracking_3f.jpg);">
-        <div class="box_hed" style="text-shadow: 2px 2px 5px #000;">
+        <div class="box_hed hannah" style="text-shadow: 2px 2px 5px #000;">
             <p>Week One</p>
             <h2>Ohio's fractured lands</h2>
             <h3>Effects of fracking could be far-reaching.</h3>
@@ -109,7 +132,39 @@
         <div class="box_hed" style="text-shadow: 2px 2px 5px #000;">
             <p>Week Six</p>
             <h2>The McDavis Exit Interview</h2>
-            <h3>Senior writer, Tony Wolfe</h3>
+            <h3>Senior writer, Tony Wolfe, sat down with former OU President Roderick McDavis for his last interview in office.</h3>
+        </div>
+        </div></a>
+    
+    <a href="/top-fears-and-phobias-ohio-university/index.html"><div class="story" style="background-image:url(https://s3.amazonaws.com/media.ohi/17511_webcoverf.jpg);">
+        <div class="box_hed" style="text-shadow: 2px 2px 5px #000;">
+            <p>Week Seven</p>
+            <h2>Fears and Phobias</h2>
+            <h3>The Post conducted an online survey and recorded OU students’ fears.  The answers from OU students are a particular mix of personal fears, fear of illness and death, and economic fears.</h3>
+        </div>
+        </div></a>
+    
+    <a href="/casting-for-change/index.html"><div class="story" style="background-image:url(https://s3.amazonaws.com/media.ohi/17477_web_pmf.jpg);">
+        <div class="box_hed" style="text-shadow: 2px 2px 5px #000;">
+            <p>Week Seven</p>
+            <h2>Casting for Change</h2>
+            <h3>This year’s Academy Awards are said to be the most diverse in its history. Despite that observation, there are improvements to be made in American cinema when diversifying roles performed for the big screen.</h3>
+        </div>
+        </div></a>
+    
+    <a href="/basketball-tab-landing-page/index.html"><div class="story" style="background-image:url(https://s3.amazonaws.com/media.ohi/17621_cover3f.jpg);">
+        <div class="box_hed" style="text-shadow: 2px 2px 5px #000;">
+            <p>Week Eight</p>
+            <h2>The Basketball Edition</h2>
+            <h3>A landing page for all of the content contained in the special basketball edition.</h3>
+        </div>
+        </div></a> 
+    
+    <a href="/raising-children-in-athens-college-town/index.html"><div class="story" style="background-image:url(https://s3.amazonaws.com/media.ohi/17712_headerf.png);">
+        <div class="box_hed" style="text-shadow: 2px 2px 5px #000;">
+            <p>Week Ten</p>
+            <h2>Raising Children in Athens</h2>
+            <h3>In a town that is interwoven with the university, the two feed off each other to create an atmosphere that can be a bit different for raising a family. </h3>
         </div>
         </div></a>
     
@@ -370,6 +425,7 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-54093688-1','auto');ga('send','pageview');
         </script>
+
     
 </body>
 </html>

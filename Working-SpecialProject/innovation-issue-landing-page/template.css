@@ -43,26 +43,24 @@ h3 {
 
 .header {
     width: 100%;
-    height: 500px;
+    height: 550px;
     background-color: #000;
 }
 
 .head_wrap {
     width: 50%;
-    height: 500px;
     position: absolute;
     right: 0;
     left: 0;
     padding-top: 15%;
-    margin-left: 12%;
-    
+    margin-left: 12%;    
 }
 
 #top_left{
     color: #FFFF00;
     position: relative;
-    top: .5em;
-    right:2em;
+    top: 0em;
+    right:1.95em;
     font-size: 8vw;
     line-height: 0px;
     padding: 0;
@@ -73,7 +71,7 @@ h3 {
 #bottom_left {
     color: #FF00FF;
     position: relative;
-    top: 1.25em;
+    top: .77em;
     right: 1.65em;
     font-size: 8vw;
     line-height: 0px;
@@ -85,19 +83,20 @@ h3 {
 #right {
     color: #00FFFF;
     position: relative;
-    top: .41em;
-    right: -1.57em;
-    font-size: 16.9vw;
+    top: .18em;
+    right: -1.37em;
+    font-size: 16.8vw;
     line-height: 0px;
     padding:0;
     margin: 0;
     text-align: right;
+    letter-spacing: -.9vw;
 }
 
 #middle_left {
     color: #fff;
     position: relative;
-    top: 11.95em;
+    top: 10.5em;
     right: 1.1em;
     font-size: 2.7vw;
     line-height: 0px;
@@ -111,6 +110,34 @@ h3 {
 }
 
 /* ---- end of arthed ---- */
+
+/* ---- BODY ----*/
+
+.wrap {
+    width: 100%;
+}
+
+#two {
+    width: 70%;
+    float: right;
+}
+
+#two h2 {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-size: 9.3vw;
+    line-height: 8vw;
+}
+
+#two p {
+    width: 100%;
+    padding: 0 0 0 1%;
+    margin: 0;
+    font-size: 1vw;
+    word-spacing: 11px;
+    line-height: 11px
+}
 
 .credit {
     font-size: 16px;
@@ -160,12 +187,23 @@ h3 {
     padding: 10px 15% 0 15%;
 }
 
+@media screen and (max-width: 1275px)
+{
+    .header {
+        height: 350px;
+    }
+}
+
 @media screen and (max-width: 750px){
     
     .column20center, p {
         width: 80%;
         padding: 0 10%;
     } 
+    
+    .header {
+        height: 200px;
+    }
     
     .credit{
         padding-bottom: 20px;
@@ -183,5 +221,12 @@ h3 {
     
     .story {
         height: 300px;
+    }
+}
+
+@media screen and (max-width: 750px)
+{
+    .header {
+        height: 130px;
     }
 }

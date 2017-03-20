@@ -132,10 +132,10 @@ h3 {
 
 #two p {
     width: 100%;
-    padding: 0 0 0 1%;
+    padding: 0 0 0 0;
     margin: 0;
     font-size: 1vw;
-    word-spacing: 11px;
+    word-spacing: 10px;
     line-height: 11px
 }
 

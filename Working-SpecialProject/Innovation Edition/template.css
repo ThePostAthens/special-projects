@@ -102,6 +102,25 @@ h2 {
     padding: 0 5%;
 }
 
+.oneimg_left {
+    width: 50%;
+    padding-left: 5%;
+    float: left;
+    padding-right: 10px;
+}
+
+.oneimg_right {
+    width: 50%;
+    padding-right: 5%;
+    float: right;
+    padding-left: 10px;
+}
+
+.oneimg_center {
+    width: 90%;
+    padding: 0 5%;
+}
+
 .grey {
     color: #777;
 }
@@ -122,7 +141,7 @@ h2 {
     
     h1 {
         color: #000;
-        font-size: 90px;
+        font-size: 50vw;
         letter-spacing: normal;
         width: 95%;
         margin-top: 0;
@@ -132,7 +151,7 @@ h2 {
         width: 90%;
         display: block;
         padding: 0;
-        font-size: 50px;
+        font-size: 10vw;
         float: right;
         line-height: 40px;
     }

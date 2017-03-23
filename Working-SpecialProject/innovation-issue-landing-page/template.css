@@ -16,7 +16,6 @@ a {
 }
 
 a:hover {
-    opacity: .6;
 }
 
 p {
@@ -114,52 +113,578 @@ h3 {
 /* ---- BODY ----*/
 
 .wrap {
-    width: 100%;
+    width: 96%;
+    padding: 0 2%;
+    overflow: hidden;
 }
 
+#one {
+    width: 19%;
+    float: left;
+}
+
+#one h3{
+    color: #ff00ff;
+    margin-top: 42vw;
+    margin-right: 13vw;
+    font-size: 6vw;
+    line-height: 0vw;
+    text-align: center;
+    text-shadow: 0px 0px 3px #aaa;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+}
+
+#one h2{
+    color: #ff00ff;
+    margin-bottom: 1vw;
+    margin-top: -6.3vw;
+    margin-right: 0vw;
+    padding: 0;
+    text-align: center;
+    font-size: 10vw;
+    line-height: 0vw;
+    text-shadow: 0px 0px 3px #aaa;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+}
+
+#one p { 
+    color: #ff00ff;
+    margin-bottom: 21.5vw;
+    margin-top: -15.5vw;
+    margin-left: -6vw;
+    width: 42vw;
+    padding: 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 1px #aaa;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+}
+
+#one:hover {
+    background-color:#000;
+}
 #two {
-    width: 50%;
-    float: right;
-    background-color: ;
+    width: 31%;
+    float: left;
+    background-color:#;
 }
 
 #two h2 {
     padding: 0;
     margin: 0;
-    font-size: 17vw;
-    line-height: 15vw;
+    font-size: 10vw;
+    line-height: 10vw;
     color: #FFFF00;
+    text-shadow: 0px 0px 3px #bbb;
+    font-stretch: expanded;
 }
 
 #two h3 {
     padding: 0 0 0 .4vw;
     margin: 0;
-    font-size: 11vw;
-    line-height: 6vw;
+    font-size: 6.3vw;
+    line-height: 5vw;
     letter-spacing: .1vw;
+    text-shadow: 0px 0px 3px #bbb;
     color: #FFFF00;
     
 }
 
 #two p {
-    width: 97%;
+    width: 95.5%;
     padding: 3% 0 0 0%;
-    margin: 0 0 0 2%;
+    margin: 0 0 0 2.2%;
     font-size: 16px;
     word-spacing: 3px;
     line-height: 16px;
     color: #FFFF00;
+    text-shadow: 0px 0px 1px #000;
     text-align: justify;
+    text-transform: uppercase;
 }
 
 #two:hover {
     background-color: #000;
 }
 
+#three {
+    width: 50%;
+    float: left;
+    background-color: ;
+}
+
+#three h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 14vw;
+    line-height: 13vw;
+    text-shadow: 0px 0px 3px #aaa;
+    color: #00FFFF;
+    letter-spacing: 3vw;
+}
+
+#three h3 {
+    padding: 0 0 0 .4vw;
+    margin: 0;
+    font-size: 5vw;
+    line-height: 2.6vw;
+    text-shadow: 0px 0px 3px #aaa;
+    letter-spacing: 1.5vw;
+    color: #00FFFF;
+    
+}
+
+#three p {
+    width: 95.5%;
+    padding: 3% 0 0 0%;
+    margin: 0 0 0 2.2%;
+    font-size: 16px;
+    word-spacing: 3px;
+    line-height: 16px;
+    color: #00FFFF;
+    text-shadow: 0px 0px 1px #aaa;
+    text-align: justify;
+    text-transform: uppercase;
+}
+
+#three:hover {
+    background-color: #000;
+}
+
+#four {
+    width: 55%;
+    float: left;
+    margin-bottom: 1.5vw
+}
+
+#four h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 11.3vw;
+    line-height: 11vw;
+    text-shadow: 0px 0px 3px #aaa;
+    color: #00FFFF;
+    letter-spacing: 0vw;
+}
+
+#four h3 {
+    padding: 0 0 0 .4vw;
+    margin: 0;
+    font-size: 10vw;
+    line-height: 9vw;
+    text-shadow: 0px 0px 3px #aaa;
+    letter-spacing: 1.3vw;
+    color: #00FFFF;
+    
+}
+
+#four p {
+    width: 95.5%;
+    padding: 1% 0 0 0%;
+    margin: 0 0 0 2.2%;
+    font-size: 16px;
+    word-spacing: 3px;
+    line-height: 16px;
+    color: #00FFFF;
+    text-shadow: 0px 0px 1px #aaa;
+    text-align: justify;
+    text-transform: uppercase;
+}
+
+#four:hover {
+    background-color: #000;
+}
+
+#five {
+    width: 26%;
+    float: right;
+}
+
+#five h2{
+    color: #ff00ff;
+    margin-top: 1.9vw;
+    margin-left: 15vw;
+    font-size: 10vw;
+    line-height: 0vw;
+    text-align: center;
+    letter-spacing: .9vw;
+    text-shadow: 0px 0px 3px #aaa;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}
+
+#five h3{
+    color: #ff00ff;
+    margin-bottom: 20.1vw;
+    margin-top: 13.7vw;
+    margin-left: -6vw;
+    padding: 0;
+    font-size: 17vw;
+    line-height: 0vw;
+    text-shadow: 0px 0px 3px #aaa;
+    letter-spacing: 1.5vw;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}
+
+#five p { 
+    color: #ff00ff;
+    margin-bottom: 22vw;
+    margin-top: -17.5vw;
+    margin-left: -16vw;
+    width: 35vw;
+    padding: 0;
+    font-size: 16px;
+    text-align: justify;
+    text-shadow: 0px 0px 1px #aaa;
+    text-transform: uppercase;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}
+
+#five:hover{
+    background-color: #000;
+}
+
+#six {
+    width: 74%;
+    float: left;
+}
+
+#six h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 7vw;
+    line-height: 7vw;
+    text-shadow: 0px 0px 3px #aaa;
+    color: #ffff00;
+    letter-spacing: 1.56vw;
+}
+
+#six h3 {
+    padding: 0 0 0 .4vw;
+    margin: 0;
+    font-size: 10vw;
+    text-shadow: 0px 0px 3px #aaa;
+    line-height: 7vw;
+    letter-spacing: 5.45vw;
+    color: #ffff00;
+    
+}
+
+#six p {
+    width: 95.5%;
+    padding: 1% 0 0 0%;
+    margin: 0 0 0 2.2%;
+    font-size: 16px;
+    word-spacing: 3px;
+    line-height: 16px;
+    color: #ffff00;
+    text-shadow: 0px 0px 1px #000;
+    text-align: justify;
+    text-transform: uppercase;
+}
+
+#six:hover {
+    background-color: #000;
+}
+
+#seven {
+    width: 77%;
+    float: left;
+    background-color: ;
+}
+
+#seven h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 13.7vw;
+    line-height: 11.5vw;
+    text-shadow: 0px 0px 3px #aaa;
+    color: #ffff00;
+    letter-spacing: 3.2vw;
+}
+
+#seven h3 {
+    padding: 0 0 0 0;
+    margin: 0;
+    font-size: 11vw;
+    line-height: 10vw;
+    text-shadow: 0px 0px 3px #aaa;
+    letter-spacing: 3.2vw;
+    color: #ffff00;
+    
+}
+
+#seven p {
+    width: 95.5%;
+    padding: 1% 0 0 0%;
+    margin: 0 0 0 2.2%;
+    font-size: 16px;
+    word-spacing: 3px;
+    line-height: 16px;
+    color: #ffff00;
+    text-shadow: 0px 0px 1px #000;
+    text-align: justify;
+    text-transform: uppercase;
+}
+
+#seven:hover {
+    background-color: #000;
+}
+
+#eight {
+    width: 50%;
+    float: left;
+    background-color:;
+}
+
+#eight h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 8.7vw;
+    text-shadow: 0px 0px 3px #aaa;
+    line-height: 8vw;
+    color: #00ffff;
+    letter-spacing: .8vw;
+}
+
+#eight h3 {
+    padding: 0 0 0 0;
+    margin: 0;
+    font-size: 10vw;
+    text-shadow: 0px 0px 3px #aaa;
+    line-height: 8.1vw;
+    letter-spacing: 2.25vw;
+    color: #00ffff;
+    
+}
+
+#eight p {
+    width: 95.5%;
+    padding: 1% 0 0 0%;
+    margin: 0 0 0 2.2%;
+    font-size: 16px;
+    word-spacing: 3px;
+    line-height: 16px;
+    color: #00ffff;
+    text-shadow: 0px 0px 1px #aaa;
+    text-align: justify;
+    text-transform: uppercase;
+}
+
+#eight:hover {
+    background-color: #000;
+}
+
+#nine {
+    width: 50%;
+    float: left;
+    background-color:#;
+}
+
+#nine h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 12vw;
+    text-shadow: 0px 0px 3px #aaa;
+    line-height: 10vw;
+    color: #ff00ff;
+    letter-spacing: 5.9vw;
+}
+
+#nine h3 {
+    padding: 0 0 0 0;
+    margin: 0;
+    font-size: 5.7vw;
+    text-shadow: 0px 0px 3px #aaa;
+    line-height: 6.1vw;
+    letter-spacing: 7vw;
+    color: #ff00ff;
+    
+}
+
+#nine p {
+    width: 95.5%;
+    padding: 1% 0 0 0%;
+    margin: 0 0 0 2.2%;
+    font-size: 16px;
+    word-spacing: 3px;
+    line-height: 16px;
+    color: #ff00ff;
+    text-shadow: 0px 0px 1px #aaa;
+    text-align: justify;
+    text-transform: uppercase;
+}
+
+#nine:hover {
+    background-color: #000;
+}
+
+#ten {
+    width: 23%;
+    float: left;
+    background-color:;
+}
+
+#ten h2{
+    color: #ff00ff;
+    margin-top: 31vw;
+    margin-left: -10vw;
+    font-size: 16vw;
+    line-height: 0vw;
+    text-shadow: 0px 0px 3px #aaa;
+    text-align: center;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+}
+
+#ten h3{
+    color: #ff00ff;
+    margin-bottom: 13vw;
+    margin-top: -16.5vw;
+    margin-right: -10vw;
+    padding: 0;
+    text-shadow: 0px 0px 3px #aaa;
+    font-size: 6.5vw;
+    line-height: 0vw;
+    letter-spacing: .32vw;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+}
+
+#ten p { 
+    color: #ff00ff;
+    margin-bottom: 21.5vw;
+    margin-top: -19vw;
+    margin-left: -1vw;
+    width: 43vw;
+    padding: 0;
+    font-size: 16px;
+    text-shadow: 0px 0px 1px #aaa;
+    text-transform: uppercase;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+}
+
+#ten:hover {
+    background-color:#000;
+}
+
+#eleven {
+    width: 38.5%;
+    float: left;
+}
+
+#eleven h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 9vw;
+    text-shadow: 0px 0px 3px #aaa;
+    line-height: 9vw;
+    color: #00ffff;
+    letter-spacing: 1vw;
+}
+
+#eleven h3 {
+    padding: 0 0 0 0;
+    margin: 0;
+    font-size: 8vw;
+    text-shadow: 0px 0px 3px #aaa;
+    line-height: 8vw;
+    letter-spacing: -.2vw;
+    color: #00ffff;
+    
+}
+
+#eleven p {
+    width: 95.5%;
+    padding: 1% 0 0 0%;
+    margin: 0 0 0 2.2%;
+    font-size: 16px;
+    word-spacing: 3px;
+    text-shadow: 0px 0px 1px #aaa;
+    line-height: 16px;
+    color: #00ffff;
+    text-align: justify;
+    text-transform: uppercase;
+}
+
+#eleven:hover {
+    background-color: #000;
+}
+
+#twelve {
+    width: 38.5%;
+    float: left;
+}
+
+#twelve h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 9vw;
+    line-height: 9vw;
+    color: #ff00ff;
+    text-shadow: 0px 0px 3px #aaa;
+    letter-spacing: .9vw;
+}
+
+#twelve h3 {
+    padding: 0 0 0 0;
+    margin: 0;
+    font-size: 8vw;
+    line-height: 8vw;
+    letter-spacing: -.3vw;
+    text-shadow: 0px 0px 3px #aaa;
+    color: #ff00ff;
+    
+}
+
+#twelve p {
+    width: 95.5%;
+    padding: 1% 0 0 0%;
+    margin: 0 0 0 2.2%;
+    font-size: 16px;
+    word-spacing: 3px;
+    line-height: 16px;
+    text-shadow: 0px 0px 1px #aaa;
+    color: #ff00ff;
+    text-align: justify;
+    text-transform: uppercase;
+}
+
+#twelve:hover {
+    background-color: #000;
+}
 .credit {
     font-size: 16px;
     font-weight: 100;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
 }/*apply to h4 with developer's name and title*/
 
 /*----- Other -----*/
@@ -209,8 +734,15 @@ h3 {
     .header {
         height: 350px;
     }
-}
+    
 
+}
+@media screen and (max-width: 1000px){
+    
+    #one p, #two p, #three p, #four p, #five p, #six p, #seven p, #eight p, #nine p, #ten p, #eleven p, #twelve p{
+        font-size: 12px;
+    }
+}
 @media screen and (max-width: 750px){
     
     .column20center, p {
@@ -230,7 +762,6 @@ h3 {
         height: 25px;
     }
 
-    
   
     #banner {
         font-size: 50px;
@@ -239,11 +770,128 @@ h3 {
     .story {
         height: 300px;
     }
+    
+    .wrap {
+        width: 100%;
+        padding: 0;
+    }
+    
+    #one p, #two p, #three p, #four p, #five p, #six p, #seven p, #eight p, #nine p, #ten p, #eleven p, #twelve p {
+        font-size: 10px;
+    }
 }
 
-@media screen and (max-width: 750px)
+@media screen and (max-width: 721px)
 {
-    .header {
-        height: 130px;
+    #one p, #two p, #three p, #four p, #five p, #six p, #seven p, #eight p, #nine p, #ten p, #eleven p, #twelve p {
+        display: none;
+    }
+    
+    #one{
+        width: 15%
+    }
+    
+    #one h2{
+        margin-bottom: 10vw;
+        margin-right: -4vw;
+    }
+    
+    #one h3{
+        margin-right: 9vw;
+        margin-top: 41vw;
+    }
+    
+    #two{
+        width: 35%
+    }
+    
+    #two h2{
+        font-size: 12vw;
+        line-height: 12vw;
+    }
+    
+    #two h3{
+        font-size: 7vw;
+        letter-spacing: .6vw;
+        line-height: 7vw;
+    }
+    
+    #three {
+        width: 50%;
+    }
+    
+    #three h2{
+        letter-spacing: 4vw;
+        line-height: 13.8vw;
+    }
+    
+    #three h3{
+        font-size: 6vw;
+        letter-spacing: 1.1vw;
+        line-height: 6vw;
+    }
+    
+    #four{
+        width: 59%;
+    }
+    
+    #four h2{
+        font-size: 13vw;
+        letter-spacing: 0vw;
+        line-height: 13vw;
+    }
+    
+    #four h3{
+        font-size: 12vw;
+        letter-spacing: 1.1vw;
+        line-height: 12vw;
+    }
+    
+    #five h3{
+        margin-bottom: 26vw;
+    }
+    
+    #six h2{
+        font-size: 8vw;
+        letter-spacing: 1.35vw;
+        line-height: 8vw;
+    }
+    
+    #six h3{
+        letter-spacing: 6.3vw;
+        line-height: 9vw;
+    }
+    
+    #ten h3{
+        margin-bottom: 17vw;
+    }
+    
+    #seven h2{
+        font-size: 15vw;
+        letter-spacing: 2.5vw;
+        line-height: 14vw;
+    }
+    
+    #seven h3{
+        font-size: 11.4vw;
+    }
+    
+    #eleven h2{
+        font-size: 10vw;
+        letter-spacing: .5vw;
+        line-height: 10vw;
+    }
+    #eleven h3{
+        letter-spacing: 0;
+    }
+    
+    #twelve h2{
+        font-size: 9.6vw;
+        letter-spacing: .5vw;
+        line-height: 10vw;
+    }
+    
+    #twelve h3{
+        letter-spacing: -.2vw;
     }
 }

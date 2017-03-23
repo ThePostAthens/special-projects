@@ -10,6 +10,15 @@
     z-index: -1;
 }
 
+a {
+    text-decoration: none;
+    color: #999;
+}
+
+a:hover {
+    color: goldenrod;
+}
+
 .fixed p {
     position: fixed;
     text-align: right;

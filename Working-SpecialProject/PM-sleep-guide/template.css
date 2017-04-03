@@ -113,7 +113,89 @@ h3 {
     text-align: center;
     width: 100%;
     text-shadow: 2px 2px 3px #000;
-}/*apply to h1 within the heroimg div*/
+}
+
+.flash1  {
+    color: #FFF;
+    position: absolute;
+    top:660px;
+    right:-420px;
+    bottom:0;
+    padding:0;
+    margin: 0;
+    font-size: 65px;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+    text-shadow: 2px 2px 3px #000;
+   animation-name: flash;
+    animation-duration: 0.9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+@keyframes flash {
+    from {color: white;}
+    to {color: transparent;}
+    
+}
+
+.flash2  {
+    color: #FFF;
+    position: absolute;
+    top:625px;
+    right:-460px;
+    bottom:0;
+    padding:0;
+    margin: 0;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+    text-shadow: 2px 2px 3px #000;
+    animation-duration: 0.9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+    
+}
+
+@keyframes flash {
+    from {color: white;}
+    to {color:transparent;}
+    
+}
+
+.flash3  {
+    color: #FFF;
+    position: absolute;
+    top:600px;
+    right:-490px;
+    bottom:0;
+    padding:0;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+    text-shadow: 2px 2px 3px #000;
+     animation-duration: 0.9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+    
+}
+
+@keyframes flash {
+    from {color: white;}
+    to {color:transparent;}
+    
+}
+    /*apply to h1 within the heroimg div*/
 
 /*----- Body Copy Things -----*/
 

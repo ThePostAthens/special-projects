@@ -237,6 +237,9 @@ h3 {
 #byline {
     margin: 0;
     font-weight: 400;
+    
+
+
 }/*applies to entire byline, with title. bold the author name. put on h4 tag*/
 
 /*----- Img Things -----*/
@@ -408,7 +411,35 @@ float: right;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
+    
+}
+.box {
+    width: 40%;
+    max-width: 500px;
+    border-left-style:solid;
+    border-right-style:solid;
+    border-top-style:dotted;
+    border-bottom-style:dotted;
+    right:500px;
+}
+
+.box h3{
+    width:500px;
+    background-color:transparent;
+    color: darkblue;
+    padding:0px;
+    font-size:20px
+}
+
+.box p{
+    width:500px;
+    padding: 0px;
+   
+    
+    
 }/* add to the wrapping div, give the div an inline style with the photo you want to be parallax*/
+
+
 
 /* Landing page clicky box at bottom.*/
 

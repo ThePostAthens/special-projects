@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: slategray;
+    color: skyblue;
     text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #eed7fc;
+    color: rebeccapurple;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -200,7 +200,7 @@ h3 {
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: rebeccapurple;
+    color: darkblue;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
@@ -420,13 +420,12 @@ float: right;
     border-top-style:dotted;
     border-bottom-style:dotted;
     right:500px;
-    color:slategray;
 }
 
 .box h3{
     width:500px;
     background-color:transparent;
-    color: darkblue;
+    color: rebeccapurple;
     padding:0px;
     font-size:20px
 }
@@ -434,7 +433,6 @@ float: right;
 .box p{
     width:500px;
     padding: 0px;
-    color: black;
    
     
     

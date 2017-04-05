@@ -96,6 +96,9 @@ h3 {
 #heroimg {
     width: 100%;
     position: relative;
+    height: 68vw;
+    background-color: black;
+    overflow: hidden;
 }/*apply to wrapping div with an img tag within*/
 
 #heroimg img {

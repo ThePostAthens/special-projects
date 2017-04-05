@@ -108,14 +108,14 @@ h3 {
     bottom: 0;
     padding: 0;
     margin: 0;
-    font-size: 100px;
+    font-size: 6vw;
     font-weight: 700;
     text-align: center;
     width: 100%;
     text-shadow: 2px 2px 3px #000;
 }
 
-.flash1  {
+/*.flash1  {
     color: #FFF;
     position: absolute;
     top:660px;
@@ -134,6 +134,24 @@ h3 {
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-play-state: running;
+} */
+
+.flash1  {
+    color: #FFF;
+    position: absolute;
+    top: 52vw;
+    left: 70vw;
+    padding:0;
+    font-size: 65px;
+    font-weight: 700;
+    text-align: center;
+    width: 10%;
+   animation-name: flash;
+    animation-duration: .9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
 }
 
 @keyframes flash {
@@ -145,17 +163,17 @@ h3 {
 .flash2  {
     color: #FFF;
     position: absolute;
-    top:625px;
-    right:-460px;
+    top:54vw;
+    right: 19vw;
     bottom:0;
     padding:0;
     margin: 0;
     font-size: 40px;
     font-weight: 700;
     text-align: center;
-    width: 100%;
-    text-shadow: 2px 2px 3px #000;
-    animation-duration: 0.9s;
+    width: 8%;
+    animation-name: flash;
+    animation-duration: 1s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -172,17 +190,17 @@ h3 {
 .flash3  {
     color: #FFF;
     position: absolute;
-    top:600px;
-    right:-490px;
+    top:53vw;
+    right:16.5vw;
     bottom:0;
     padding:0;
     margin: 0;
     font-size: 20px;
     font-weight: 700;
     text-align: center;
-    width: 100%;
-    text-shadow: 2px 2px 3px #000;
-     animation-duration: 0.9s;
+    width: 10%;
+    animation-name: flash;
+    animation-duration: 1.2s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -414,6 +432,7 @@ float: right;
 }
 .box {
     width: 40%;
+    margin: 0% 30%;
     max-width: 500px;
     border-left-style:solid;
     border-right-style:solid;
@@ -423,7 +442,8 @@ float: right;
 }
 
 .box h3{
-    width:500px;
+    width:98%;
+    margin-left: 2%;
     background-color:transparent;
     color: rebeccapurple;
     padding:0px;
@@ -431,12 +451,15 @@ float: right;
 }
 
 .box p{
-    width:500px;
-    padding: 0px;
-   
-    
+    width:98%;
+    padding: 0;
+    margin-left: 2%;  
     
 }/* add to the wrapping div, give the div an inline style with the photo you want to be parallax*/
+
+b{
+    color: rebeccapurple;
+}
 
 
 
@@ -472,8 +495,112 @@ float: right;
     padding: 10px 15% 0 15%;
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 1516px){
+    .flash1{
+    top: 50vw;
+    left: 70vw;
+    }
     
+    .flash2{
+        top:52vw;
+        right: 19vw;
+    }
+    
+    .flash3{
+        top:50vw;
+        right: 16.5vw;
+    }
+}
+
+@media screen and (max-width: 1260px){
+    .flash1{
+    top: 48vw;
+    left: 70vw;
+    }
+    
+    .flash2{
+        top:49vw;
+        right: 19vw;
+    }
+    
+    .flash3{
+        top:47vw;
+        right: 16vw;
+    }
+}
+
+@media screen and (max-width: 1049px){
+    .flash1{
+    top: 46vw;
+    left: 70vw;
+    }
+    
+    .flash2{
+        top:46vw;
+        right: 19vw;
+    }
+    
+    .flash3{
+        top:44vw;
+        right: 16vw;
+    }
+}
+
+@media screen and (max-width: 912px){
+      .flash1{
+    top: 44vw;
+    left: 70vw;
+    }
+    
+    .flash2{
+        top:43vw;
+        right: 19vw;
+    }
+    
+    .flash3{
+        top:41vw;
+        right: 16vw;
+    } 
+}
+
+@media screen and (max-width: 809px){
+    .flash1{
+    top: 42vw;
+    left: 70vw;
+    }
+    
+    .flash2{
+        top:44vw;
+        right: 19vw;
+    }
+    
+    .flash3{
+        top:40vw;
+        right: 16vw;
+    }
+}
+
+
+
+@media screen and (max-width: 750px){
+      .flash1{
+    top: 38vw;
+    left: 70vw;
+    font-size:30px
+    }
+    
+    .flash2{
+        top:40vw;
+        right: 19vw;
+        font-size: 20px
+    }
+    
+    .flash3{
+        top:34vw;
+        right: 16vw;
+        font-size: 15px
+    }
+
     .oneimg_right, .oneimg_left, .oneimg_center {
         width: 80%;
         padding: 0 10% 10px 10%;
@@ -495,7 +622,7 @@ float: right;
     }
     
     #arthed {
-        font-size: 40px;
+        font-size: 6vw;
     }
     
     .subhed{
@@ -527,5 +654,79 @@ float: right;
     
     .story {
         height: 300px;
+    }
+    
+    .box{
+        width: 80%;
+        margin: 0 0 0 10%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 744px){
+      .flash1{
+    top: 51vw;
+    left: 68vw;
+    }
+    
+    .flash2{
+        top:51vw;
+        right: 20vw;
+    }
+    
+    .flash3{
+        top:48vw;
+        right: 17vw;
+    }
+}
+
+@media screen and (max-width: 644px){
+      .flash1{
+    top: 48vw;
+    left: 71vw;
+    }
+    
+    .flash2{
+        top:48vw;
+        right: 17vw;
+    }
+    
+    .flash3{
+        top:45vw;
+        right: 14vw;
+    }
+}
+
+@media screen and (max-width: 487px){
+      .flash1{
+    top: 45vw;
+    left: 71vw;
+    }
+    
+    .flash2{
+        top:45vw;
+        right: 17vw;
+    }
+    
+    .flash3{
+        top:40vw;
+        right: 14vw;
+    }
+}
+
+@media screen and (max-width: 401px){
+      .flash1{
+    top: 40vw;
+    left: 71vw;
+    }
+    
+    .flash2{
+        top:40vw;
+        right: 17vw;
+    }
+    
+    .flash3{
+        top:33vw;
+        right: 14vw;
     }
 }

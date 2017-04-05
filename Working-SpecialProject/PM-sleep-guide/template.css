@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: skyblue;
+    color: #34a5d5;
     text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: rebeccapurple;
+    color: lightblue;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -239,7 +239,7 @@ h3 {
     font-family: montserrat
     , sans-serif;
     font-weight: 800;
-    color: #4498c7;
+    color: lightblue;
 }/*apply to h2 tags*/
 
 .dropcap {
@@ -448,7 +448,7 @@ float: right;
     width:98%;
     margin-left: 2%;
     background-color:transparent;
-    color: rebeccapurple;
+    color: #00008b;
     padding:0px;
     font-size:20px
 }
@@ -461,7 +461,7 @@ float: right;
 }/* add to the wrapping div, give the div an inline style with the photo you want to be parallax*/
 
 b{
-    color: rebeccapurple;
+    color: #00008b;
 }
 
 

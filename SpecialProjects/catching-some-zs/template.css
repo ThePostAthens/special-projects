@@ -96,9 +96,6 @@ h3 {
 #heroimg {
     width: 100%;
     position: relative;
-    height: 68vw;
-    background-color: black;
-    overflow: hidden;
 }/*apply to wrapping div with an img tag within*/
 
 #heroimg img {
@@ -142,7 +139,7 @@ h3 {
 .flash1  {
     color: #FFF;
     position: absolute;
-    top: 52vw;
+    top: 83vw;
     left: 70vw;
     padding:0;
     font-size: 65px;
@@ -166,7 +163,7 @@ h3 {
 .flash2  {
     color: #FFF;
     position: absolute;
-    top:54vw;
+    top:83vw;
     right: 19vw;
     bottom:0;
     padding:0;
@@ -193,7 +190,7 @@ h3 {
 .flash3  {
     color: #FFF;
     position: absolute;
-    top:53vw;
+    top:80vw;
     right:16.5vw;
     bottom:0;
     padding:0;
@@ -500,85 +497,85 @@ b{
 
 @media screen and (max-width: 1516px){
     .flash1{
-    top: 50vw;
+    top: 81vw;
     left: 70vw;
     }
     
     .flash2{
-        top:52vw;
+        top:81vw;
         right: 19vw;
     }
     
     .flash3{
-        top:50vw;
+        top:78vw;
         right: 16.5vw;
     }
 }
 
 @media screen and (max-width: 1260px){
     .flash1{
-    top: 48vw;
+    top: 78vw;
     left: 70vw;
     }
     
     .flash2{
-        top:49vw;
+        top:78vw;
         right: 19vw;
     }
     
     .flash3{
-        top:47vw;
+        top:73vw;
         right: 16vw;
     }
 }
 
 @media screen and (max-width: 1049px){
     .flash1{
-    top: 46vw;
+    top: 76vw;
     left: 70vw;
     }
     
     .flash2{
-        top:46vw;
+        top:76vw;
         right: 19vw;
     }
     
     .flash3{
-        top:44vw;
+        top:70vw;
         right: 16vw;
     }
 }
 
 @media screen and (max-width: 912px){
       .flash1{
-    top: 44vw;
+    top: 74vw;
     left: 70vw;
     }
     
     .flash2{
-        top:43vw;
+        top:74vw;
         right: 19vw;
     }
     
     .flash3{
-        top:41vw;
+        top:67vw;
         right: 16vw;
     } 
 }
 
 @media screen and (max-width: 809px){
     .flash1{
-    top: 42vw;
+    top: 72vw;
     left: 70vw;
     }
     
     .flash2{
-        top:44vw;
+        top:72vw;
         right: 19vw;
     }
     
     .flash3{
-        top:40vw;
+        top:67vw;
         right: 16vw;
     }
 }
@@ -668,68 +665,68 @@ b{
 
 @media screen and (max-width: 744px){
       .flash1{
-    top: 51vw;
-    left: 68vw;
+    top: 82vw;
+    left: 70vw;
     }
     
     .flash2{
-        top:51vw;
-        right: 20vw;
+        top:82vw;
+        right: 19vw;
     }
     
     .flash3{
-        top:48vw;
-        right: 17vw;
+        top:77vw;
+        right: 16vw;
     }
 }
 
 @media screen and (max-width: 644px){
       .flash1{
-    top: 48vw;
+    top: 79vw;
     left: 71vw;
     }
     
     .flash2{
-        top:48vw;
+        top:79vw;
         right: 17vw;
     }
     
     .flash3{
-        top:45vw;
+        top:74vw;
         right: 14vw;
     }
 }
 
 @media screen and (max-width: 487px){
       .flash1{
-    top: 45vw;
+    top: 78vw;
     left: 71vw;
     }
     
     .flash2{
-        top:45vw;
+        top:78vw;
         right: 17vw;
     }
     
     .flash3{
-        top:40vw;
+        top:73vw;
         right: 14vw;
     }
 }
 
 @media screen and (max-width: 401px){
       .flash1{
-    top: 40vw;
+    top: 76vw;
     left: 71vw;
     }
     
     .flash2{
-        top:40vw;
+        top:76vw;
         right: 17vw;
     }
     
     .flash3{
-        top:33vw;
+        top:70vw;
         right: 14vw;
     }
 }

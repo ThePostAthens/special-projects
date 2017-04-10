@@ -65,37 +65,71 @@ THE
         
 <!-- Navigation Bar -->
         <div id="nav_bar">
-            <a href="http://www.thepostathens.com"><img src="img/logo.png"></a>
+            <a href="http://www.thepostathens.com"><img class="wordmark" src="img/logo.png"></a>
+            
+            <img class="hamclick" src="img/hammenu.png">
+            
+            <ul class="hamburger">
+                <li>Big Picture</li>
+                <li>Healthcare</li>
+                <li>Historical Context</li>
+                <li>Editor's Desk</li>
+                <li>Rural Women's Recover</li>
+                <li>Children</li>
+                <li>Teacher's Impact</li>
+                <li>Doctor Impact</li>
+                <li>Pill Mills</li>
+                <li>Local Administration</li>
+                <li>Available Resources</li>
+                <li>Solutions Editorial</li>
+                <li>Tell Your Story</li>
+            </ul>
+            
         </div>
         
 <!-- Hero Image -->
         
         <div id="heroimg">
-           <img src="img/Screenshot_1.png">
+           <img src="img/Screenshot_1.jpg">
             
             <h1 class="crisis">OHIO IN CRISIS</h1>
             
             <div class="buttons">
-                <button>Story One</button>   
-                <button>Story One</button>               
-                <button>Story One</button>               
-                <button>Story One</button>                
-                <button>Story One</button>
-                <button>Story One</button>                
-                <button>Story One</button>  
-                <button>Story One</button>  
-                <button>Story One</button>
+                <button>Big Picture</button>   
+                <button>Healthcare</button>               
+                <button>Historical Context</button>      
+                <button>Editor's Desk</button>
+                <button>Rural Women's Recovery</button>
+                <button>Children</button>                
+                <button>Teacher Impact</button>  
+                <button>Doctor Impact</button>             
+                <button>Pill Mills</button>
+                <button>Local Administration</button>
+                <button>Available Resources</button>
+                <button>Solutions Editorial</button>
+                <button>Tell Us Your Story</button>
             </div>
             
             <p class="photog" style="padding-right:10px;">Satelite Image from Google Earth</p>
 
-            
         </div>
         
 <!-- Body Copy Stuff -->
         
-        <p><span class="dropcap">L</span>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>        
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>        
+        <p><span class="dropcap">L</span>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>  
+        
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
+        
+        <h2 class="bigsubhed">Where it began</h2>
+        
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>     
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>     
+        
+        <div class="breakoutbox bob_r">
+            <h3>Gerrymandering</h3>
+            <p>Here is a bunch of text to put in the box thee is a bunch of text and some of it is spelling wrong but that is ok it is only filler ithink there is a fitness class happening outside of the window here isn't that weird.</p>
+        </div>
+        
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         
         
@@ -112,6 +146,15 @@ THE
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        
+        <script>
+        $(document).ready(function(){
+                $(".hamclick").click(function(){
+                    $("li").toggleClass('expand');
+                });
+            });
+        
+        </script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

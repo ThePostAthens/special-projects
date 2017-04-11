@@ -111,7 +111,6 @@ p {
 
 .buttons {
     width: 80%;
-    padding: 0 10%;
     bottom: 10vw;
     position: absolute;
     display: table;
@@ -155,6 +154,29 @@ button:hover {
 button:active {
 	position:relative;
 	top:1px;
+}
+
+.buttons a {
+    color: #000;
+}
+
+.b1 {
+    margin-left: 13.5%;
+}
+
+.b2 {
+    top: 34%;
+    margin-left: 18%;
+}
+
+.b3 {
+    top: 38%;
+    margin-left: 14%;
+}
+
+.b4 {
+    top: 42%;
+    margin-left: 30.5%;
 }
 
 

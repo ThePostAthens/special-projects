@@ -100,21 +100,19 @@ p {
 }
 
 .crisis {
-    top: 5%;
-    text-align: center;
-    width: 100%;
-    font-size: 10vw;
-    color: #fff;
-    font-weight: 900;
     position: absolute;
+    top: 0;
+    width: 80%;
+    padding: 0;
+    margin: 0;
+    background-color: #000;
 }
 
 .buttons {
     width: 80%;
-    bottom: 10vw;
     position: absolute;
     display: table;
-    top: 30%;
+    top: 39vw;
 }
 
 button {
@@ -165,17 +163,17 @@ button:active {
 }
 
 .b2 {
-    top: 34%;
+    top: 44vw;
     margin-left: 18%;
 }
 
 .b3 {
-    top: 38%;
+    top: 49vw;
     margin-left: 14%;
 }
 
 .b4 {
-    top: 42%;
+    top: 54vw;
     margin-left: 30.5%;
 }
 

@@ -123,17 +123,6 @@ p {
     top: 20vw;
 }
 
-.crisis_img{
-    width: 20%;
-    position: absolute;
-    top: 18%;
-    margin-left: 11%;
-}
-
-.crisis_img img{
-    width: 100%;
-}
-
 .crisis_hed {
     top: 14%;
     text-align: center;
@@ -496,7 +485,6 @@ float: right;
     
 }
 
-<<<<<<< HEAD
 .overdoses {
     border-top: 2px solid #000;
 }
@@ -521,51 +509,13 @@ float: right;
 .ochart img {
     width: 80%;
     margin-left: 10%;
-=======
-/********** PHOTO STORY *******/
-
-.photo_wrap{
-    width: 100%;
-    overflow: hidden;
-    position: relative;
 }
 
-.vertical{
-    width: 35%;
-    margin-left: 10%;
-    float: left;
+.credit {
+    padding-left: 10%;
 }
 
-.vertical img, .horizontal img{
-    width: 100%
-}
-
-.caption{
-    width: 49%;
-    position: absolute;
-    margin-left: 3%;
-    padding-left: 1%;
-    bottom: 0;
-    left: 45%;
-    border-left-color: #665a83;
-    border-left-width: 2px;
-    border-left-style: solid;
-}
-
-.caption p{
-    margin: 0;
-    padding: 2% 0 0 0;
-    width: 80%;
-}
-
-@media screen and (max-width: 1052px){
-    .crisis_img{
-        top: 14%;
-    }
->>>>>>> origin/master
-}
-
-@media screen and (max-width: 750px){
+@media screen and (max-width: 700px){
     
     .oneimg_right, .oneimg_left, .oneimg_center {
         width: 80%;
@@ -602,6 +552,7 @@ float: right;
     
     .credit{
         padding-bottom: 20px;
+        padding-left: 10%;
     }
     
     #logo {
@@ -639,36 +590,5 @@ float: right;
     .ochart {
         width: 100%;
         display: block;
-    }
-    
-    .crisis_img{
-        top: 14%;
-    }
-    
-    .vertical{
-        width: 80%;
-        padding: 0;
-        float: none;
-    }
-    
-    .caption{
-        position: relative;
-        width: 80%;
-        margin: 0;
-        padding: 1%;
-        bottom: 0;
-        left: 10%;
-        border-left-width:0;
-        border-bottom-width: 2px;
-        border-bottom-style: solid;
-        border-bottom-color: #665a83;
-    }
-    
-    .caption p {
-        width: 95%;
-    }
-    
-    .photo_wrap{
-        width: 100%;
     }
 }

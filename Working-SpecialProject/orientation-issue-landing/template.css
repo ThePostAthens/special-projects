@@ -114,7 +114,10 @@ h3 {
     width: 100%;
     text-shadow: 2px 2px 3px #000;
 }/*apply to h1 within the heroimg div*/
-
+* {
+    margin: 0;
+    padding: 0;
+}
 #hexGrid {
   display: flex;
   flex-wrap: wrap;
@@ -135,7 +138,23 @@ h3 {
   content:'';
   display:block;
   padding-bottom: 86.602%;  /* =  100 / tan(60) * 1.5 */
-    
+}
+.hexIn{
+  position: absolute;
+  width:96%;
+  padding-bottom: 110.851%; /* =  width / sin(60) */
+  margin:0 2%;
+  overflow: hidden;
+  visibility: hidden;
+  outline:1px solid transparent; /* fix for jagged edges in FF on hover transition */
+  -webkit-transform: rotate3d(0,0,1,-60deg) skewY(30deg);
+      -ms-transform: rotate3d(0,0,1,-60deg) skewY(30deg);
+          transform: rotate3d(0,0,1,-60deg) skewY(30deg);
+}
+.hexIn * {
+  position: absolute;
+  visibility: visible;
+  outline:1px solid transparent; /* fix for jagged edges in FF on hover transition */
 }
 .hexLink {
     display:block;
@@ -194,8 +213,8 @@ h3 {
   -webkit-transform:translate3d(0,100%,0);
       -ms-transform:translate3d(0,100%,0);
           transform:translate3d(0,100%,0);
-
 }
+
 
 /*** HEXAGON SIZING AND EVEN ROW INDENTATION *****************************************************************/
 @media (min-width:1201px) { /* <- 5-4  hexagons per row */

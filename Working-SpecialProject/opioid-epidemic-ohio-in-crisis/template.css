@@ -124,7 +124,7 @@ p {
 }
 
 .crisis_hed {
-    top: 14%;
+    top: 2%;
     text-align: center;
     width: 100%;
     font-size: 9vw;
@@ -272,7 +272,7 @@ button:active {
 
 blockquote {
     padding: 0;
-    margin: 5px;
+    margin: 5px 0 0 0;
 }/*should be the text of the pull quote*/
 
 .pq_center {
@@ -590,5 +590,9 @@ float: right;
     .ochart {
         width: 100%;
         display: block;
+    }
+    
+    .crisis_hed {
+        top: 10%;
     }
 }

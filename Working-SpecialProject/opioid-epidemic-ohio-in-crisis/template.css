@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #732fc4;
     text-decoration: none;
 }
 
@@ -101,11 +101,11 @@ p {
 
 .crisis {
     position: absolute;
-    top: 0;
     width: 80%;
     padding: 0;
     margin: 0;
-    background-color: #000;
+    margin-left: 10%;
+    top: 20vw;
 }
 
 .crisis_hed {
@@ -421,11 +421,15 @@ float: right;
 }
 
 .breakoutbox {
-    background-color: darkslateblue;
+    background-color: #665a83;
     color: #fff;
     width: 40%;
     padding: 0;
     margin: 0;
+}
+
+.breakoutbox a{
+    color: #999;
 }
 
 .breakoutbox h3 {

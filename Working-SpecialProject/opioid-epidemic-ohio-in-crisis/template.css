@@ -132,6 +132,7 @@ p {
     font-weight: 900;
     position: absolute;
     line-height: 9vw;
+    text-transform: uppercase;
 }
 
 .buttons {

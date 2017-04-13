@@ -123,6 +123,7 @@ p {
     top: 20vw;
 }
 
+
 .crisis_hed {
     top: 2%;
     text-align: center;
@@ -382,6 +383,60 @@ float: right;
 
 /*----- Other -----*/
 
+/*----- photo story do not delete------*/
+
+.photo_wrap {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.vertical{
+    width: 35%;
+    margin-left: 5%;
+    margin-top: 15%;
+    float: left;
+}
+
+.horizontal{
+    width: 60%;
+    margin-left: 5%;
+    margin-top: 15%;
+    float: left;
+}
+
+.caption_vertical{
+    width: 50%;
+    float: left;
+    position: absolute;
+    bottom: 0;
+    left: 41%;
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-left-color: #665a83;
+}
+
+.caption_horizontal{
+    width: 35%;
+    float: left;
+    position: absolute;
+    bottom: 0;
+    left: 66%;
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-left-color: #665a83;
+}
+
+.caption_horizontal p, .caption_vertical p{
+    width: 90%;
+    padding-left: 1%;
+    margin: 0;
+}
+
+.vertical img, .horizontal img{
+    width: 100%;
+}
+
 #logo {
     z-index: 1;
     position: absolute;
@@ -516,11 +571,49 @@ float: right;
     padding-left: 10%;
 }
 
+.small_subhed{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 20px;
+    padding: 0;
+    margin-left: 20%;
+    line-height: 1.9vw;
+}
+
+
+
+.small_subhed span{
+    background-color: #000;
+    padding: 0;
+    margin: 0;
+}
+
+.list{
+    padding-left: 25%;
+}
+
+@media screen and (max-width: 1032px){
+    .caption_horizontal p{
+        font-size: 13px;
+    }
+}
+
 @media screen and (max-width: 700px){
     
     .oneimg_right, .oneimg_left, .oneimg_center {
         width: 80%;
         padding: 0 10% 10px 10%;
+    }
+    
+    .small_subhed{
+        margin-left: 10%;
+        line-height: 20px
+    }
+    
+    .list{
+        width: 80%;
+        padding-left: 15%;
     }
     
     .oneimg_full p {
@@ -595,5 +688,26 @@ float: right;
     
     .crisis_hed {
         top: 10%;
+    }
+    
+    .vertical, .horizontal {
+        width: 90%;
+    }
+    
+    .caption_horizontal, .caption_vertical {
+        width: 90%;
+        position: relative;
+        left: 5%;
+        border-left-width: 0px;
+        border-bottom-width: 2px;
+        border-bottom-color: #665a83;
+        border-bottom-style: solid;
+        margin-top: 1%;
+    }
+    
+    .caption_horizontal p, .caption_vertical p{
+        margin-left: 5%;
+        padding: 0;
+        font-size: 13px;
     }
 }

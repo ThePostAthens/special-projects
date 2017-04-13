@@ -394,14 +394,14 @@ float: right;
 .vertical{
     width: 35%;
     margin-left: 5%;
-    margin-top: 15%;
+    margin-top: 20%;
     float: left;
 }
 
 .horizontal{
     width: 60%;
     margin-left: 5%;
-    margin-top: 15%;
+    margin-top: 20%;
     float: left;
 }
 

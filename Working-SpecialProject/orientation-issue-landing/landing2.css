@@ -125,48 +125,51 @@ h3 {
 
 }
 .hexagon {
-  position: relative;
-  width: 225px; 
-  height: 129.90px;
-  background-color: #000000;
-  margin: 64.95px 0;
+ position: relative;
+ width: 225px;
+ height: 129.90px;
+ background-color: #64C7CC ;
+ margin: 64.95px 0;
+border-left: solid 15px #66ccff;
+    border-right: solid 15px #66ccff;
+ float: left;
+ margin: 10px;
 }
 
 .hexagon:before,
 .hexagon:after {
-  content: "";
-  position: absolute;
-  width: 0;
-  border-left: 112.5px solid transparent;
-  border-right: 112.5px solid transparent;
+ content: "";
+ position: absolute;
+ width: 0;
+ border-left: 150px solid transparent;
+ border-right: 150px solid transparent;
 }
 
 .hexagon:before {
-  bottom: 100%;
-  border-bottom: 64.95px solid #000000;
+ bottom: 100%;
+ border-bottom: 86.60px solid #64C7CC ;
 }
 
 .hexagon:after {
-  top: 100%;
-  width: 0;
-  border-top: 64.95px solid #000000;
+ top: 100%;
+ width: 0;
+ border-top: 86.60px solid #64C7CC ;
 }
 
 .short{
    overflow: hidden;
-   width: 80%;
-   padding-left: 12.6vw;
+   width: 100%;
+   padding-left: 10.25vw;
    margin-top: -6.5vw;
-   padding-top: 75px;
-   padding-bottom:300px;
+   padding-top: 100px;
+   padding-bottom: 100px;
    
 }
 
 .wide{
    overflow: hidden;
    width: 100%;
-   padding:400px 0px 90px px;
-    margin-top: -8vw;
+   padding: 100px 0 90px 10px;
 }
 /*----- Img Things -----*/
 

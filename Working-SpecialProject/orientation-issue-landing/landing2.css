@@ -122,55 +122,84 @@ h3 {
 * {
     margin: 0;
     padding: 0;
-
+    
 }
-.hexagon {
- position: relative;
- width: 225px;
- height: 129.90px;
- background-color: #64C7CC ;
- margin: 64.95px 0;
-border-left: solid 15px #66ccff;
-    border-right: solid 15px #66ccff;
- float: left;
- margin: 10px;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.hexagon:before,
-.hexagon:after {
- content: "";
- position: absolute;
- width: 0;
- border-left: 150px solid transparent;
- border-right: 150px solid transparent;
+#categories {
+  overflow: hidden;
+  width: 90%;
+  margin: 0 auto;
 }
 
-.hexagon:before {
- bottom: 100%;
- border-bottom: 86.60px solid #64C7CC ;
+.clr:after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
-.hexagon:after {
- top: 100%;
- width: 0;
- border-top: 86.60px solid #64C7CC ;
+#categories li {
+  position: relative;
+  list-style-type: none;
+  width: 27.85714285714286%;
+  /* = (100-2.5) / 3.5 */
+  padding-bottom: 32.16760145166612%;
+  /* =  width /0.866 */
+  float: left;
+  overflow: hidden;
+  visibility: hidden;
+  -webkit-transform: rotate(-60deg) skewY(30deg);
+  -ms-transform: rotate(-60deg) skewY(30deg);
+  transform: rotate(-60deg) skewY(30deg);
+  background: red;
 }
 
-.short{
-   overflow: hidden;
-   width: 100%;
-   padding-left: 10.25vw;
-   margin-top: -6.5vw;
-   padding-top: 100px;
-   padding-bottom: 100px;
-   
+#categories li:nth-child(3n+2) {
+  margin: 0 1%;
 }
 
-.wide{
-   overflow: hidden;
-   width: 100%;
-   padding: 100px 0 90px 10px;
+#categories li:nth-child(6n+4) {
+  margin-left: 0.5%;
 }
+
+#categories li:nth-child(6n+4),
+#categories li:nth-child(6n+5),
+#categories li:nth-child(6n+6) {
+  margin-top: -6.9285714285%;
+  margin-bottom: -6.9285714285%;
+  -webkit-transform: translateX(50%) rotate(-60deg) skewY(30deg);
+  -ms-transform: translateX(50%) rotate(-60deg) skewY(30deg);
+  transform: translateX(50%) rotate(-60deg) skewY(30deg);
+}
+
+#categories li:nth-child(6n+4):last-child,
+#categories li:nth-child(6n+5):last-child,
+#categories li:nth-child(6n+6):last-child {
+  margin-bottom: 0%;
+}
+
+#categories li * {
+  position: absolute;
+  visibility: visible;
+}
+
+#categories li>div {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  overflow: hidden;
+  -webkit-transform: skewY(-30deg) rotate(60deg);
+  -ms-transform: skewY(-30deg) rotate(60deg);
+  transform: skewY(-30deg) rotate(60deg);
+  background: red;
+  -webkit-backface-visibility: hidden;
+}
+
+
 /*----- Img Things -----*/
 
 .oneimg_center {

@@ -176,7 +176,7 @@ h3 {
   height: 100%;
   text-align: center;
   overflow: hidden;
-  background: turquoise;
+  background: gray;
   -webkit-transform: skewY(-30deg) rotate3d(0, 0, 1, 60deg);
   -ms-transform: skewY(-30deg) rotate3d(0, 0, 1, 60deg);
   transform: skewY(-30deg) rotate3d(0, 0, 1, 60deg);

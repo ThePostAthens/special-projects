@@ -182,24 +182,18 @@ h3 {
   transform: skewY(-30deg) rotate3d(0, 0, 1, 60deg);
 }
 
-#hextext h2 {
+.hextext {
     color: white;
     font-family: Montserrat;
-    font-size: 40px;
+    font-size: 3vw;
     font-weight: bold;
     text-shadow: 2px 2px 5px #000;
+    position: relative;
     display: inline-block;
-    width: calc (30% - 3px);
-    padding: 0 10%;
-    margin: 0;
-    height: 200px;
-    margin-top: 75px;
-    background-position: center center;
-    
-
-
+    width: 100%;
+    line-height: 0;
+    padding: 55% 0;    
 }
-
 
 /* sizing and row indents */
 

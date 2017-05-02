@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #67b6e5;
     text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #eed7fc;
+    color: #67b6e5;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -64,34 +64,6 @@ h3 {
     width: 40%;
     padding-right: 10%;
 }
-
-/*----- Nav Bar -----*/
-/*we don't use this section as often. delete if not used in the project*/
-
-#nav_bar {
-    background: #030406;
-    color: #FFF;
-    height: 50px;
-}
-
-#nav_bar img {
-    height: 30px;
-    padding: 10px;
-    float: left;
-}
-
-#nav_bar li {
-    list-style: none;
-    display: inline-block;
-    padding: 15px;
-    float: right;
-}
-
-#nav_bar ul {
-    margin: 0;
-}
-
-
 
 /*----- Hero Image -----*/
 

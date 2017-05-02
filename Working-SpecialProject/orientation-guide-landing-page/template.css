@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: #67b6e5;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -183,6 +183,12 @@ h3 {
 	color:#fff;
 
 }
+
+ul {
+    list-style-image: url(img/google%20map%20pin.png)
+    
+}
+
 /*----- Img Things -----*/
 
 .oneimg_center {

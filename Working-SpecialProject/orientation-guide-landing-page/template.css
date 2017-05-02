@@ -37,7 +37,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #67b6e5;
+    color: #FFF;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -92,7 +92,7 @@ h3 {
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
+    color: #FFF;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
@@ -110,7 +110,7 @@ h3 {
     font-family: montserrat
     , sans-serif;
     font-weight: 800;
-    color: #7fc448;
+    color: #FFF;
 }/*apply to h2 tags*/
 
 .dropcap {
@@ -148,11 +148,11 @@ h3 {
 	height:27px;
   z-index: -1;
 }
-.button{ color: #67b6e5; }
+.button{ color: #606060; }
 
 /* Button Border Style */
 .button:before,.button:after {
-	border: 3px solid #67b6e5;
+	border: 3px solid #606060;
 }
 
 .button:before{
@@ -175,7 +175,7 @@ h3 {
 
 /* Button Hover Style */
 .button:hover:before, .button:hover:after {
-	background: #67b6e5;
+	background: #606060;
 }
 
 

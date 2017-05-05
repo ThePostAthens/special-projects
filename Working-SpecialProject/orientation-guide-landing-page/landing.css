@@ -155,20 +155,34 @@ h3 {
   -ms-transform: skewY(-30deg) rotate3d(0, 0, 1, 60deg);
   transform: skewY(-30deg) rotate3d(0, 0, 1, 60deg);
 
-
 }
 
-.hextext {
-    color: white;
-    font-family: Montserrat;
-    font-size: 3vw;
-    font-weight: bold;
-    text-shadow: 2px 2px 5px #000;
-    position: relative;
-    display: inline-block;
-    width: 100%;
-    line-height: 0;
-    padding: 55% 0;    
+.hexagon img {
+  left: -100%;
+  right: -100%;
+  width: auto;
+  margin: 0 auto;
+  -webkit-transform: rotate3d(0,0,0,0deg);
+      -ms-transform: rotate3d(0,0,0,0deg);
+          transform: rotate3d(0,0,0,0deg);
+}
+
+.hexagon h1, .hex p {
+  width: 100%;
+}
+.hexagon h1 {
+  bottom: 25%;
+  font-size: 1.85em;
+}
+.hexagon h1::after {
+  position: absolute;
+  left: 45%;
+  width: 10%;
+  text-align: center;
+}
+.hexagon p {
+  top: 70%;
+  padding-bottom:50%;
 }
 
 

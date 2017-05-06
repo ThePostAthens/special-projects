@@ -172,10 +172,11 @@ h3 {
 }
 .hexagon h1 {
   bottom: 25%;
-  font-size: 1.85em;
+  font-size: 1.8em;
+    color:white;
 }
 .hexagon h1::after {
-  position: absolute;
+  position:relative;
   left: 45%;
   width: 10%;
   text-align: center;

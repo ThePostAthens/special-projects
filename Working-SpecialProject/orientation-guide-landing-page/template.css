@@ -183,16 +183,58 @@ h3 {
 
 .button:hover{
 	color:#fff;
-
-}
-
-ul {
-    list-style-image: url(img/google%20map%20pin.png)
     
 }
 
 .instagram-media{
   margin: 15px auto !important;
+}
+
+/*-----BOB Stuff-----*/
+
+.bob {
+    width: 100%;
+    margin: 1% 19%;
+    padding: 0;
+    overflow: hidden;
+    position: relative;   
+}
+
+#vertical_line {
+    width: .5%;
+    background-color: lightgray;
+    position: absolute;
+    right: 58.5%;
+    height: 100%;
+    float: right;
+}
+
+.left {
+    width: 40%;
+    float: left;
+    top: 0
+    position: absolute;
+}
+
+.right {
+    width: 55%;
+    float: right;
+    margin: 0 3% 0 0;
+}
+
+.left div {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.right p {
+    padding: 0;
+    margin: 0;
+}
+
+.right span {
+    font-weight: 700;
 }
 
 /*----- Img Things -----*/
@@ -400,6 +442,34 @@ float: right;
     padding: 10px 15% 0 15%;
 }
 
+@media screen and (max-width: 1178px)
+{
+    .bob {
+       width: 80%;
+       margin: 1% 10%;    
+    }
+    
+    .left {
+        width: 50%;
+    }
+    
+    
+    .right {
+        width: 40%;
+        margin: 0 7% 0 0;
+        padding: 0 0 0;
+        
+    }
+    
+    .right p {
+        width: 100%;
+    }
+    #vertical_line {
+        right: 48%;
+    }
+}
+
+
 @media screen and (max-width: 750px){
     
     .oneimg_right, .oneimg_left, .oneimg_center {
@@ -461,5 +531,38 @@ float: right;
     
     .story {
         height: 300px;
+    }
+    
+    #vertical_line {
+        display: none;
+    }
+    
+    .bob {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .left, .right {
+        width: 100%;
+    }
+    
+    .left {
+        position: relative;
+        padding-bottom: 1%;
+    }
+    
+    .right {
+        text-align: left;
+        float: none;
+    }
+    
+    .right p {
+        width: 80%;
+        padding: 0 10%;
+    }
+    
+    .none {
+        display: none;
     }
 }

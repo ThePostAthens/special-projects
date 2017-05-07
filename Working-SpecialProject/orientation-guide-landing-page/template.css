@@ -191,6 +191,10 @@ ul {
     
 }
 
+.instagram-media{
+  margin: 15px auto !important;
+}
+
 /*----- Img Things -----*/
 
 .oneimg_center {
@@ -212,6 +216,14 @@ ul {
     float: left;
 }/*Apply to a wrapping div*/
 
+.oneimg_mug {
+    width: 20%;
+    padding-left: 10%;
+    padding-right: 20px;
+    padding-top: 20px;
+    float: left;
+}
+
 .twoimg_center {
     width: 60%;
     margin: 0 20%;
@@ -228,11 +240,11 @@ ul {
     width: 33%;
 }
 
-.oneimg_full img, .oneimg_center img, .oneimg_right img, .oneimg_left img {
-    width: 100%
+.oneimg_full img, .oneimg_center img, .oneimg_right img, .oneimg_left img, .oneimg_mug img {
+    width: 100%;
 }
 
-/*----- Pullqute stuff -----*/
+/*----- Pullquote stuff -----*/
 
 blockquote {
     padding: 0;
@@ -244,8 +256,6 @@ blockquote {
     padding: 0 20%;
     margin: 0;
     font-size: 25px;
-    text-transform: uppercase;
-    color: #5379c4;
     font-weight: 800;
 }/*add to wrapping div*/
 
@@ -256,8 +266,6 @@ blockquote {
     float: right;
     margin: 0;
     font-size: 25px;
-    text-transform: uppercase;
-    color: #5379c4;
 }/*add to wrapping div*/
 
 .pq_left {
@@ -267,9 +275,7 @@ blockquote {
     float: left;
     margin: 0;
     font-size: 25px;
-    text-transform: uppercase;
     font-weight: 700;
-    color: #5379c4;
 }/*add to wrapping div*/
 
 .attribution {
@@ -281,7 +287,7 @@ blockquote {
     margin: 0;
     margin-bottom: 5px;
     padding: 0 5%;
-    width: 90%;
+    width: 80%;
 }/*add to p tag within the wrapping div*/
 
 /*----- Image stuff -----
@@ -399,6 +405,12 @@ float: right;
     .oneimg_right, .oneimg_left, .oneimg_center {
         width: 80%;
         padding: 0 10% 10px 10%;
+    }
+    
+    
+     .oneimg_mug {
+        width: 20%;
+         
     }
     
     .oneimg_full p {

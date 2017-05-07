@@ -193,7 +193,7 @@ h3 {
 /*-----BOB Stuff-----*/
 
 .bob {
-    width: 100%;
+    width: 70%;
     margin: 1% 19%;
     padding: 0;
     overflow: hidden;
@@ -224,7 +224,6 @@ h3 {
 
 .left div {
     width: 100%;
-    margin: 0;
     padding: 0;
 }
 

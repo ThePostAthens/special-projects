@@ -43,8 +43,6 @@ h3 {
     margin: 0;
 }/*apply to p tag*/
 
-
-
 /*-----Column stuff-----*/
 
 .column20center {
@@ -190,7 +188,6 @@ h3 {
   margin: 15px auto !important;
 }
 
-
 /*-----BOB Stuff-----*/
 
 .bob {
@@ -249,6 +246,12 @@ h3 {
     padding-right: 10%;
     padding-left: 10px;
     float: right;
+}
+.oneimg_right2 {
+    width: 18%;
+    padding-right: 20%;
+    padding-left: 10px;
+    float: right;
 }/*Apply to a wrapping div*/
 
 .oneimg_left {
@@ -282,7 +285,7 @@ h3 {
     width: 33%;
 }
 
-.oneimg_full img, .oneimg_center img, .oneimg_right img, .oneimg_left img, .oneimg_mug img {
+.oneimg_full img, .oneimg_center img, .oneimg_right img, .oneimg_left img, .oneimg_mug img, .oneimg_right2 img {
     width: 100%;
 }
 
@@ -481,6 +484,11 @@ float: right;
      .oneimg_mug {
         width: 20%;
          
+    }
+    
+    .oneimg_right2 {
+        width: 30%;
+        
     }
     
     .oneimg_full p {

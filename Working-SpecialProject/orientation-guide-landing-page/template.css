@@ -233,28 +233,22 @@ h3 {
 .right span {
     font-weight: 700;
 }
-.box {
-    width: 60%;
-    margin: 0% 30%;
-    max-width: 900px;
-    border-left-style:double;
-    border-right-style:double;
-    border-top-style:double;
-    border-bottom-style:double;
-    right:500px;
+
+.myimg {
+  float: left;
+  margin: 10px 20px 0 0;
+    height: 200px;
+    
 }
 
-.box p{
-    width:98%;
-    padding: 0;
-    margin-left: 1%;
+.wrapper {
+    width: 50%;
+    margin: 0% 25%
+    
 }
 
-.box imgleft{
-  width: 40%;
-    padding-left: 10%;
-    padding-right: 20px;
-    float: left;
+.content {
+  margin: 10px;
 }
 
 /*----- Img Things -----*/
@@ -595,5 +589,10 @@ float: right;
     
     .none {
         display: none;
+    }
+    .myimg{
+        width: auto;
+        max-width: 100%;
+        height: auto;
     }
 }

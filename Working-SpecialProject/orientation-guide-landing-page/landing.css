@@ -171,9 +171,11 @@ h3 {
   width: 100%;
 }
 .hexagon h1 {
-  bottom: 25%;
-  font-size: 1.8em;
-    color:white;
+    font-size: 1.8em;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .hexagon h1::after {
   position:relative;
@@ -182,8 +184,9 @@ h3 {
   text-align: center;
 }
 .hexagon p {
-  top: 70%;
-  padding-bottom:50%;
+    bottom: 25%;
+    left: 50%;
+    transform: translate(-50%, 50%);
 }
 
 

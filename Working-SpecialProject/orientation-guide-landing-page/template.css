@@ -249,7 +249,32 @@ h3 {
   margin: 10px;
 }
 
+.box {
+    width: 40%;
+    margin: 0% 35%;
+    max-width: 500px;
+    border-left-style:double;
+    border-right-style:double;
+    border-top-style:double;
+    border-bottom-style:double;
+    right:500px;
+    border-width: 6px;
+}
 
+.box h3{
+    width:98%;
+    margin-left: 2%;
+    background-color:transparent;
+    padding:0px;
+    font-size:20px
+}
+
+.box p{
+    width:98%;
+    padding: 0;
+    margin-left: 2%; 
+
+}
 /*----- Img Things -----*/
 
 .oneimg_center {

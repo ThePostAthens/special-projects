@@ -237,7 +237,7 @@ h3 {
 .myimg {
   float: left;
   margin: 10px 20px 0 0;
-    height: 200px;
+height: 200px;
 }
 .wrapper {
     width: 50%;

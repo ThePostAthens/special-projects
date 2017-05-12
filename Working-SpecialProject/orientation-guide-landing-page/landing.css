@@ -161,6 +161,7 @@ h3 {
   left: -100%;
   right: -100%;
   width: auto;
+    height: 100%;
   margin: 0 auto;
   -webkit-transform: rotate3d(0,0,0,0deg);
       -ms-transform: rotate3d(0,0,0,0deg);
@@ -170,13 +171,15 @@ h3 {
 .inner-content {
   top: 49%;
   left: 49%;
-  transform: translate(-50%, -50%);
+  transform: translate(-49%, -49%);
 }
 
 .hexagon h1,
 .hexagon p {
-  position: static;
+  position:relative;
   white-space: normal;
+    color: white;
+    font-size: 0.92em;
 }
 
 .hexagon h1 {

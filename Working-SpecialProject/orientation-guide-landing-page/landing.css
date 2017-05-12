@@ -167,26 +167,29 @@ h3 {
           transform: rotate3d(0,0,0,0deg);
 }
 
-.hexagon h1, .hex p {
-  width: 100%;
+.inner-content {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
+
+.hexagon h1,
+.hexagon p {
+  position: static;
+  white-space: nowrap;
+}
+
 .hexagon h1 {
-    font-size: 1.8em;
-    color: white;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  font-size: 1.8em;
+  color: white;
 }
+
+
 .hexagon h1::after {
-  position:relative;
+  position: relative;
   left: 45%;
   width: 10%;
   text-align: center;
-}
-.hexagon p {
-    bottom: 25%;
-    left: 50%;
-    transform: translate(-50%, 50%);
 }
 
 

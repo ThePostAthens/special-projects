@@ -191,7 +191,7 @@ h3 {
 /*-----BOB Stuff-----*/
 
 .bob {
-    width: 80%;
+    width: 40%;
     margin: 1% 19%;
     padding: 0;
     overflow: hidden;
@@ -250,15 +250,16 @@ h3 {
 }
 
 .box {
+    margin: auto;
     width: 40%;
-    margin: 0% 35%;
-    max-width: 500px;
+    padding: 10px;
     border-left-style:double;
     border-right-style:double;
     border-top-style:double;
     border-bottom-style:double;
-    right:500px;
     border-width: 6px;
+    text-align: center;
+    
 }
 
 .box h3{

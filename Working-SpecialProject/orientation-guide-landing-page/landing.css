@@ -103,6 +103,13 @@ h3 {
   padding: 0;
 }
 
+.hexagon:nth-child(5n + 1) h1 { color: red; }    /* every fifth starting at 1 */
+.hexagon:nth-child(5n + 2) h1 { color: blue; }   /* every fifth starting at 2 */
+.hexagon:nth-child(5n + 3) h1 { color: yellow; }
+.hexagon:nth-child(5n + 4) h1 { color: green; }
+.hexagon:nth-child(5n + 5) h1 { color: orange; }
+
+
 #grid {
   display: flex;
   flex-wrap: wrap;

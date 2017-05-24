@@ -104,57 +104,64 @@ h3 {
 }
 
 .hexagon:nth-child(1) h1 { text-shadow: 2px 2px #67b6e5; }  
-.hexagon:nth-child(2) h1 { text-shadow: 2px 2px #ca4c35; }
-.hexagon:nth-child(3) h1 { text-shadow: 2px 2px #67b6e5; }
-.hexagon:nth-child(4) h1 { text-shadow: 2px 2px #ca4c35; }
-.hexagon:nth-child(5) h1 { text-shadow: 2px 2px #67b6e5; }
+.hexagon:nth-child(2) h1 { text-shadow: 2px 2px #000; }
+.hexagon:nth-child(3) h1 { text-shadow: 2px 2px #ca4c35; }
+.hexagon:nth-child(4) h1 { text-shadow: 2px 2px #67b6e5; }
+.hexagon:nth-child(5) h1 { text-shadow: 2px 2px #ca4c35; }
 
-.hexagon:nth-child(6) h1 { text-shadow: 2px 2px #f4801f; }
-.hexagon:nth-child(7) h1 { text-shadow: 2px 2px #d9be2f; }
-.hexagon:nth-child(8) h1 { text-shadow: 2px 2px #a12f5e; }
-.hexagon:nth-child(9) h1 { text-shadow: 2px 2px #ca4c35; }
-.hexagon:nth-child(10) h1 { text-shadow: 2px 2px #67b6e5; }
+.hexagon:nth-child(6) h1 { text-shadow: 2px 2px #67b6e5; }
+.hexagon:nth-child(7) h1 { text-shadow: 2px 2px #F4801F; }
+.hexagon:nth-child(8) h1 { text-shadow: 2px 2px #D9BE2F; }
+.hexagon:nth-child(9) h1 { text-shadow: 2px 2px #a12f5e; }
+.hexagon:nth-child(10) h1 { text-shadow: 2px 2px #ca4c35; }
 
-.hexagon:nth-child(11) h1 { text-shadow: 2px 2px #a12f5e; }
-.hexagon:nth-child(12) h1 { text-shadow: 2px 2px #67b6e5; }
+.hexagon:nth-child(11) h1 { text-shadow: 2px 2px #67b6e5; }
+.hexagon:nth-child(12) h1 { text-shadow: 2px 2px #a12f5e; }
 .hexagon:nth-child(13) h1 { text-shadow: 2px 2px #67b6e5; }
-.hexagon:nth-child(14) h1 { text-shadow: 2px 2px #a12f5e; }
+.hexagon:nth-child(14) h1 { text-shadow: 2px 2px #000; }
 .hexagon:nth-child(15) h1 { text-shadow: 2px 2px #67b6e5; }
 
-.hexagon:nth-child(16) h1 { text-shadow: 2px 2px #67b6e5; }
+.hexagon:nth-child(16) h1 { text-shadow: 2px 2px #a12f5e; }
 .hexagon:nth-child(17) h1 { text-shadow: 2px 2px #67b6e5; }
-.hexagon:nth-child(18) h1 { text-shadow: 2px 2px #d9be2f; }
-.hexagon:nth-child(18) h1 { text-shadow: 2px 2px #d9be2f; }
+.hexagon:nth-child(18) h1 { text-shadow: 2px 2px #67b6e5; }
 .hexagon:nth-child(19) h1 { text-shadow: 2px 2px #67b6e5; }
-.hexagon:nth-child(20) h1 { text-shadow: 2px 2px #ca4c35; }
+.hexagon:nth-child(20) h1 { text-shadow: 2px 2px #000; }
 
-.hexagon:nth-child(21) h1 { text-shadow: 2px 2px #f4801f; }
-.hexagon:nth-child(22) h1 { text-shadow: 2px 2px #d9be2f; }
-.hexagon:nth-child(23) h1 { text-shadow: 2px 2px #67b6e5; }
-.hexagon:nth-child(24) h1 { text-shadow: 2px 2px #ca4c35; }
-.hexagon:nth-child(25) h1 { text-shadow: 2px 2px #f4801f; }
+.hexagon:nth-child(21) h1 { text-shadow: 2px 2px #D9BE2F; }
+.hexagon:nth-child(22) h1 { text-shadow: 2px 2px #67b6e5; }
+.hexagon:nth-child(23) h1 { text-shadow: 2px 2px #ca4c35; }
+.hexagon:nth-child(24) h1 { text-shadow: 2px 2px #F4801F; }
+.hexagon:nth-child(25) h1 { text-shadow: 2px 2px #D9BE2F; }
 
-.hexagon:nth-child(26) h1 { text-shadow: 2px 2px #a12f5e; }
+.hexagon:nth-child(26) h1 { text-shadow: 2px 2px #67b6e5; }
 .hexagon:nth-child(27) h1 { text-shadow: 2px 2px #ca4c35; }
-.hexagon:nth-child(28) h1 { text-shadow: 2px 2px #67b6e5; }
-.hexagon:nth-child(29) h1 { text-shadow: 2px 2px #ca4c35; }
-.hexagon:nth-child(30) h1 { text-shadow: 2px 2px #67b6e5; }
+.hexagon:nth-child(28) h1 { text-shadow: 2px 2px #F4801F; }
+.hexagon:nth-child(29) h1 { text-shadow: 2px 2px #a12f5e; }
+.hexagon:nth-child(30) h1 { text-shadow: 2px 2px #ca4c35; }
 
-.hexagon:nth-child(31) h1 { text-shadow: 2px 2px #a12f5e; }
-.hexagon:nth-child(32) h1 { text-shadow: 2px 2px #67b6e5; }
-.hexagon:nth-child(33) h1 { text-shadow: 2px 2px #f4801f; }
+.hexagon:nth-child(31) h1 { text-shadow: 2px 2px #67b6e5; }
+.hexagon:nth-child(32) h1 { text-shadow: 2px 2px #000; }
+.hexagon:nth-child(33) h1 { text-shadow: 2px 2px #ca4c35; }
 .hexagon:nth-child(34) h1 { text-shadow: 2px 2px #67b6e5; }
 .hexagon:nth-child(35) h1 { text-shadow: 2px 2px #a12f5e; }
 
-.hexagon:nth-child(36) h1 { text-shadow: 2px 2px #ca4c35; }
-.hexagon:nth-child(37) h1 { text-shadow: 2px 2px #67b6e5; }
-.hexagon:nth-child(38) h1 { text-shadow: 2px 2px #ca4c35; }
-.hexagon:nth-child(39) h1 { text-shadow: 2px 2px #a12f5e; }
-.hexagon:nth-child(40) h1 { text-shadow: 2px 2px #67b6e5; }
+.hexagon:nth-child(36) h1 { text-shadow: 2px 2px #67b6e5; }
+.hexagon:nth-child(37) h1 { text-shadow: 2px 2px #F4801F; }
+.hexagon:nth-child(38) h1 { text-shadow: 2px 2px #67b6e5; }
+.hexagon:nth-child(39) h1 { text-shadow: 2px 2px #000; }
+.hexagon:nth-child(40) h1 { text-shadow: 2px 2px #a12f5e; }
 
-.hexagon:nth-child(41) h1 { text-shadow: 2px 2px #f4801f; }
+.hexagon:nth-child(41) h1 { text-shadow: 2px 2px #ca4c35; }
 .hexagon:nth-child(42) h1 { text-shadow: 2px 2px #67b6e5; }
-.hexagon:nth-child(43) h1 { text-shadow: 2px 2px #a12f5e; }
+.hexagon:nth-child(43) h1 { text-shadow: 2px 2px #ca4c35; }
+.hexagon:nth-child(44) h1 { text-shadow: 2px 2px #a12f5e; }
+.hexagon:nth-child(45) h1 { text-shadow: 2px 2px #67b6e5; }
+
+.hexagon:nth-child(46) h1 { text-shadow: 2px 2px #F4801F; }
+.hexagon:nth-child(47) h1 { text-shadow: 2px 2px #67b6e5; }
+.hexagon:nth-child(48) h1 { text-shadow: 2px 2px #a12f5e; }
+
+
 
 #grid {
   display: flex;

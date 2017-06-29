@@ -7,7 +7,7 @@ Please contact at SethPArcher@gmail.com with questions.*/
 
 body {
     font-family: montserrat, sans-serif;
-    background-color: #FFF;
+    background-color: darkgray;
     color: #030406;
 }
 
@@ -363,113 +363,70 @@ float: right;
 
 
 /* LANDING PAGE */
-body {
+
+div.grid {
+  font-size: 0;
+  width: 95%;
+  margin: 30px auto;
+  font-family: sans-serif;
+}
+
+a.grid {
   font-size: 16px;
-  line-height: 1.5;
-  background: #fff;
+  overflow: hidden;
+  display: inline-block;
+  margin-bottom: 8px;
+  width: calc(50% - 4px);
+  margin-right: 8px;
+    clip: 
+}
+
+a.grid:nth-of-type(2n) {
+  margin-right: 0;
+}
+
+@media screen and (min-width: 50em) {
+  a.grid {
+    width: calc(25% - 6px);
+  }
+  
+  a.grid:nth-of-type(2n) {
+    margin-right: 8px;
+  }
+  
+  a.grid:nth-of-type(4n) {
+    margin-right: 0;
+  }
+}
+
+a.grid:hover img {
+  
+}
+
+figure {
   margin: 0;
-  padding: 0;
 }
 
-p {
-  margin: 0 0 10px 0;
+img.grid {
+  border: none;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  background: #ccc;
+  transition: transform .2s ease-in-out;
 }
 
-.clip-svg {
-  width: 0;
-  height: 0;
+.p a {
+  display: inline;
+  font-size: 13px;
+  margin: 0;
 }
 
-.img-clip-block {
-  font-family: 'Cuprum', sans-serif;
-  margin: 20px 0;
-}
-
-.img-clip-row {
+.p {
   text-align: center;
+  font-size: 13px;
+  padding-top: 100px;
 }
-
-.img-clip-row:first-of-type .img-clip-wrap {
-  background-position: top;
-}
-
-.img-clip-row:nth-of-type(2) .img-clip-wrap:nth-of-type(odd) {
-  background-position: left;
-}
-
-.img-clip-row:nth-of-type(2) .img-clip-wrap:nth-of-type(even) {
-  background-position: right;
-}
-
-.img-clip-row:last-of-type .img-clip-wrap {
-  background-position: bottom;
-}
-
-.img-clip-wrap {
-  width: 300px; 
-  height: 300px; 
-  background-image: 'img/nellisbkgrd.jpeg'
-  background-repeat: no-repeat;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  position: relative;
-  -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-  clip-path: url("#clip-diamond-demo");
-}
-
-.overlay {
-  background: rgba(171, 147, 116, 0.8);
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  pointer-events: none;
-  -webkit-transition: all 0.3s linear;
-  transition: all 0.3s linear;
-}
-
-.overlay-content {
-  color: rgba(255, 255, 255, 0.4);
-  font-weight: 400;
-  font-size: 180%;
-  text-transform: uppercase;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
-}
-
-.img-clip-wrap:hover .overlay {
-  -webkit-transition: all 0.4s ease-in;
-  transition: all 0.4s ease-in;
-  background: none;
-}
-
-.img-clip-img {
-  display: block;
-}
-
-@media only screen and (min-width: 650px) {
-  .img-clip-row {
-    margin-top: -154px;
-  }
-
-  .img-clip-row:first-of-type {
-    margin-top: auto;
-  }
-
-  .img-clip-wrap {
-    display: inline-block;
-  }
-}
-
-
 @media screen and (max-width: 750px){
     
     .oneimg_right, .oneimg_left, .oneimg_center {

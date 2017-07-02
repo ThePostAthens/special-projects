@@ -7,7 +7,7 @@ Please contact at SethPArcher@gmail.com with questions.*/
 
 body {
     font-family: montserrat, sans-serif;
-    background-color: darkgray;
+    background-color: #FFF;
     color: #030406;
 }
 
@@ -360,73 +360,6 @@ float: right;
     padding: 10px 15% 0 15%;
 }
 
-
-
-/* LANDING PAGE */
-
-div.grid {
-  font-size: 0;
-  width: 95%;
-  margin: 30px auto;
-  font-family: sans-serif;
-}
-
-a.grid {
-  font-size: 16px;
-  overflow: hidden;
-  display: inline-block;
-  margin-bottom: 8px;
-  width: calc(50% - 4px);
-  margin-right: 8px;
-
-}
-
-a.grid:nth-of-type(2n) {
-  margin-right: 0;
-}
-
-@media screen and (min-width: 50em) {
-  a.grid {
-    width: calc(25% - 6px);
-  }
-  
-  a.grid:nth-of-type(2n) {
-    margin-right: 8px;
-  }
-  
-  a.grid:nth-of-type(4n) {
-    margin-right: 0;
-  }
-}
-
-a.grid:hover img {
-  
-}
-
-figure {
-  margin: 0;
-}
-
-img.grid {
-  border: none;
-  max-width: 100%;
-  height: auto;
-  display: block;
-  background: #ccc;
-  transition: transform .2s ease-in-out;
-}
-
-.p a {
-  display: inline;
-  font-size: 13px;
-  margin: 0;
-}
-
-.p {
-  text-align: center;
-  font-size: 13px;
-  padding-top: 100px;
-}
 @media screen and (max-width: 750px){
     
     .oneimg_right, .oneimg_left, .oneimg_center {

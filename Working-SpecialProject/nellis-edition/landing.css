@@ -7,12 +7,12 @@ Please contact at SethPArcher@gmail.com with questions.*/
 
 body {
     font-family: montserrat, sans-serif;
-    background-color: #FFF;
+    background-color: gainsboro;
     color: #030406;
 }
 
 a {
-    color: #7fc448;
+    color: navy;
     text-decoration: none;
 }
 
@@ -91,24 +91,11 @@ h3 {
     margin: 0;
 }
 
-/*----- Header -----*/
-.postpic {
-    height: 50px;
-    background-color: black;
-}
-.header {
-    width: 100%;
-    height: 200px;
-    background-color: transparent;
-}
+/*----- Hero Image -----*/
 
-.head_wrap {
-    position: absolute;
-    right: 0px;
-    left: 0;
-    padding-top: 12%;    
-}
 
+
+}/*apply to h1 within the heroimg div*/
 
 /*----- Body Copy Things -----*/
 
@@ -152,6 +139,54 @@ h3 {
     font-weight: 400;
 }/*applies to entire byline, with title. bold the author name. put on h4 tag*/
 
+
+.grid{
+  width:calc(95vw + 10px);
+  display:inline-block;
+  position:relative;
+  background-color:transparent;
+  perspective:1000px;
+    padding-left: 55px;
+    
+}
+.griditem{
+  display:block;
+  width:15vw;
+  margin:5px;
+  height:15vw;
+  float:left;
+}
+.front{
+  width:100%;
+  height:100%;
+  background: url('https://s3.amazonaws.com/media.ohi/17481_nellis_3f.jpg') no-repeat;
+  background-attachment:fixed;
+  background-position: center;
+  background-size:cover;
+  transform:rotateY(0deg);
+  transition:.4s ease-in-out;
+  cursor:pointer;
+}
+.back{
+  width:100%;
+  height:100%;
+  transform:rotateY(180deg);
+  background:#fff url('http://www.dentoncorkermarshall.com/wp-content/uploads/2013/12/Asia-Square-06.jpg?x92178') no-repeat;
+  background-size:cover;
+  backface-visibility:hidden;
+  transition:.4s ease-in-out;
+  position:absolute;
+  top:0;
+  z-index:2;
+}
+.griditem:hover .front{
+  transform:rotateY(180deg);
+  transition:.4s ease-in-out;
+}
+.griditem:hover .back{
+  transform:rotateY(0deg);
+  transition:.4s ease-in-out;
+}
 /*----- Img Things -----*/
 
 .oneimg_center {
@@ -193,41 +228,7 @@ h3 {
     width: 100%
 }
 
-#container{
-height: 1000%;
-width: 100%;
-}
-
-ul {
-width:97%;
-height:100%;
-
-}
-
-li.small {
-float: left;
-margin: 12px;
-overflow: hidden;
-width:200px;
-height:200px;
-background-color:palegreen;
-border-radius: 50%
-}
-
-li.big {
-float: left;
-margin: 10px;
-overflow: hidden;
-width:440px;
-height:440px;
-background-color:black;
-border-radius: 50%
-}
-
-
-
-
-/*----- Pullquote stuff -----*/
+/*----- Pullqute stuff -----*/
 
 blockquote {
     padding: 0;
@@ -388,14 +389,7 @@ float: right;
     width: 70%;
     padding: 10px 15% 0 15%;
 }
-    
 
-@media screen and (max-width: 1275px)
-{
-    .header {
-        height: 350px;
-    }
-    
 @media screen and (max-width: 750px){
     
     .oneimg_right, .oneimg_left, .oneimg_center {
@@ -418,8 +412,8 @@ float: right;
         padding: 0 10%;
     }
     
-    .header {
-        height: 200px;
+    #arthed {
+        font-size: 40px;
     }
     
     .subhed{

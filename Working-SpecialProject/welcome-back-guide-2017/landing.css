@@ -7,7 +7,7 @@ Please contact at SethPArcher@gmail.com with questions.*/
 
 body {
     font-family: montserrat, sans-serif;
-    background-color: #CAC5C3;
+    background-color: #e7e7e7;
     color: #030406;
 }
 
@@ -261,7 +261,7 @@ justify-content: center;
 
 .do-info .do-info-back {
   transform: rotate3d(0, 1, 0, 180deg);
-  background: darkgray;
+  background: #acca88;
 }
 
 .do-info h3 {
@@ -353,7 +353,7 @@ justify-content: center;
 
 .do-info2 .do-info-back2 {
   transform: rotate3d(0, 1, 0, 180deg);
-  background: darkgray;
+  background: #acca88;
 }
 
 .do-info2 h3 {

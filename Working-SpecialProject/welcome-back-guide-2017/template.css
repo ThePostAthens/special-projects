@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #996d69;
     text-decoration: none;
 }
 
@@ -26,7 +26,7 @@ p {
 }/*these have a style simmilar to column20center, do not add column20center to p tags*/
 
 h2 {
-    padding: 0 15%;
+    padding: 0 20%;
 }
 
 h3 {
@@ -126,7 +126,6 @@ h3 {
     margin: 0;
     font-size: 40px;
     font-weight: 900i;
-    text-transform: uppercase;
 }/*apply to h1, not the art hed*/
 
 .credit {

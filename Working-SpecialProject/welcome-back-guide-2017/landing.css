@@ -278,6 +278,12 @@ justify-content: center;
 
 }
 
+img.do-item1 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
 /* SECOND EFFECT - NOT BY ME -@mrjones on Codepen.io*/
 
 .do-circle2 {
@@ -360,6 +366,13 @@ justify-content: center;
 
 .do-item2:hover .do-info2 {
   transform: rotate3d(0, 1, 0, -180deg);
+}
+
+img.do-item2 {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+
 }
 
 /*----- Img Things -----*/

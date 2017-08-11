@@ -412,6 +412,10 @@ img.do-item2 {
     width: 33%;
 }
 
+.oneimg_full {
+    width: 100%
+}
+
 .oneimg_full img, .oneimg_center img, .oneimg_right img, .oneimg_left img {
     width: 100%
 }

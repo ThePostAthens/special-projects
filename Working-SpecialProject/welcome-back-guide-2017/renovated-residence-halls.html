@@ -90,7 +90,47 @@ THE
         
         <!-- CONTENT GOES BELOW HERE -->
        <br>
-    <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 8pt; background-color: #ffffff;">Some Ohio University students will be the first to sleep in a newly renovated residence hall on East Green, but other students who lived on South Green will never again see the residence hall they once called home. </p>
+<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 8pt; background-color: #ffffff;">Some Ohio University students will be the first to sleep in a newly renovated residence hall on East Green, but other students who lived on South Green will never again see the residence hall they once called home. </p>
+
+    
+    <!------ GALLERY STUFF --------->
+        
+        <div class="oneimg_right clearfix">
+            
+            <div class="mySlides">
+                <img src="https://s3.amazonaws.com/media.ohi/18420_rezren1f.jpg">
+                <p class="photog">Meagan Hall / For The Post</p>
+                <p class="galleryPcut">Construction on South Green continues after the demolition of Fenzel, Martzolff and O’Bleness resident halls over the summer.</p>
+            </div>
+            <div class="mySlides">
+                <img src="https://s3.amazonaws.com/media.ohi/18419_rezren2f.jpg">
+                <p class="photog">Meagan Hall / For The Post</p>
+                <p class="galleryPcut">Construction on South Green continues after the demolition of Fenzel, Martzolff and O’Bleness resident halls over the summer.</p>
+            </div>
+            <div class="mySlides">
+                <img src="https://s3.amazonaws.com/media.ohi/18418_rezren3f.jpg">
+                <p class="photog">Meagan Hall / For The Post</p>
+                <p class="galleryPcut">Construction on South Green continues after the demolition of Fenzel, Martzolff and O’Bleness resident halls over the summer. </p>
+            </div>
+            
+
+            <div class="w3-row-padding w3-section">
+                <div class="gallery_bot">
+                    <img class="demo w3-border w3-hover-shadow" src="https://s3.amazonaws.com/media.ohi/18420_rezren1f.jpg" style="width:100%" onclick="currentDiv(1)">
+                </div>
+                <div class="gallery_bot">
+                    <img class="demo w3-border w3-hover-shadow" src="https://s3.amazonaws.com/media.ohi/18419_rezren2f.jpg" style="width:100%" onclick="currentDiv(2)">
+                </div>
+                <div class="gallery_bot">
+                    <img class="demo w3-border w3-hover-shadow" src="https://s3.amazonaws.com/media.ohi/18418_rezren3f.jpg" style="width:100%" onclick="currentDiv(3)">
+                </div>
+            </div>
+        </div>
+
+<!-- END OF GALLERY STUFF -->
+        
+    <br>
+    
 <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 8pt; background-color: #ffffff;">Jefferson Hall reopened and three residence halls on South Green were torn down as part of projects that were completed this summer. Altogether, the projects cost Housing and Residence Life more than $53 million. </p>
 <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 8pt; background-color: #ffffff;">The most expensive project, making up $39.1 million of that total, was Jefferson Hall, whose renovations started in fall 2015. </p>
 <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 8pt; background-color: #ffffff;">The renovations included updated rooms, various campus commons and a Living Learning Center for East Green residents. Jefferson Hall will be a first-year residence hall.</p>
@@ -133,6 +173,35 @@ THE
             e.src='https://www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-54093688-1','auto');ga('send','pageview');
+        </script>
+    
+     <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+
+            function currentDiv(n) {
+              showDivs(slideIndex = n);
+            }
+
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("demo");
+              if (n > x.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                 x[i].style.display = "none";
+              }
+              for (i = 0; i < dots.length; i++) {
+                 dots[i].className = dots[i].className.replace(" w3-border-red", "");
+              }
+              x[slideIndex-1].style.display = "block";
+              dots[slideIndex-1].className += " w3-border-red";
+            }
         </script>
         
     </body>

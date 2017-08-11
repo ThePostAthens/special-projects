@@ -227,6 +227,9 @@ h3 {
     width: 100%
 }
 
+
+/*---TWITTER---*/
+
 /*----- Pullqute stuff -----*/
 
 blockquote {
@@ -322,6 +325,8 @@ float: right;
 }
 
 
+
+
 /*----- Gallery Stuff -----*/
 
 .gallery_bot {
@@ -337,6 +342,7 @@ float: right;
 .mySlides {
     display:none;
 }
+
 
 /*----- Other -----*/
 

@@ -49,13 +49,11 @@ h3 {
 
 
 #polaroid {
-width: 20%;
-height: 10px;
-    
+width: 20%;    
 }
 
 #gallery {
-  width: 200px;
+  width:200px;
   margin: auto;
 }
 
@@ -68,14 +66,15 @@ height: 10px;
 
 
 #polaroid figure {
-  float: left;
-  position: abs;
-  background-color: white;
-  text-align: center;
-  font-size: 15px;
-  padding: 10px;
-  margin:10px;
-  box-shadow: 1px 2px 3px black;
+float: left;
+position: relative;
+bottom: 175px;
+background-color: white;
+text-align: center;
+font-size: 15px;
+padding: 10px;
+margin:10px;
+box-shadow: 1px 2px 3px black;
 }
 
 
@@ -101,7 +100,7 @@ figure.pic4 {
 }
 
 figure.pic5 {
-  -webkit-transform : rotate(5deg);
+  -webkit-transform : rotate(-15deg);
   z-index:1;
 }
 

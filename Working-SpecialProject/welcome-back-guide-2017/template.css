@@ -43,6 +43,75 @@ h3 {
     margin: 0;
 }/*apply to p tag*/
 
+
+/*----- CODE PEN FROM @KOOBIETHEKOOLA ------*/
+
+
+
+#polaroid {
+width: 20%;
+height: 10px;
+    
+}
+
+#gallery {
+  width: 200px;
+  margin: auto;
+}
+
+
+#polaroid img {
+  height: 200px;
+  margin: 0px;
+}
+
+
+
+#polaroid figure {
+  float: left;
+  position: abs;
+  background-color: white;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  margin:10px;
+  box-shadow: 1px 2px 3px black;
+}
+
+
+
+figure.pic1 {
+  -webkit-transform : rotate(-10deg);
+  z-index: 1;
+}
+
+figure.pic2 {
+  -webkit-transform : rotate(15deg);
+  z-index: 2;
+}
+
+figure.pic3 {
+  -webkit-transform : rotate(-25deg);
+  z-index: 1;
+}
+
+figure.pic4 {
+  -webkit-transform : rotate(5deg);
+  z-index:1;
+}
+
+figure.pic5 {
+  -webkit-transform : rotate(5deg);
+  z-index:1;
+}
+
+#polaroid figure:hover {
+  box-shadow: 5px 10px 100px black;
+  -webkit-transform: scale(1.1,1.1);
+  z-index: 20;
+}
+
+
 /*-----Column stuff-----*/
 
 .column20center {
@@ -205,6 +274,9 @@ h3 {
     margin-left: 2%; 
    
 }
+
+
+
 /*----- Img Things -----*/
 
 .oneimg_center {
@@ -253,6 +325,7 @@ h3 {
 .oneimg_full img, .oneimg_center img, .oneimg_right img, .oneimg_left img, .oneimg_mug img {
     width: 100%
 }
+
 
 
 /*---TWITTER---*/
@@ -482,4 +555,15 @@ float: right;
     .story {
         height: 300px;
     }
+    
+    #polaroid {
+
+}
+    
+    @media only screen and (max-width:0px) and (min-width: 0px)
+{
+    #polaroid{ display:none; } // 12 px
+  
+}
+ 
 }

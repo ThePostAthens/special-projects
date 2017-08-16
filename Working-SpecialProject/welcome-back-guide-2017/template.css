@@ -91,7 +91,7 @@ figure.pic2 {
 }
 
 figure.pic3 {
-  -webkit-transform : rotate(-25deg);
+  -webkit-transform : rotate(-15deg);
   z-index: 1;
 }
 
@@ -560,10 +560,14 @@ float: right;
 
 }
     
-    @media only screen and (max-width:0px) and (min-width: 0px)
-{
-    #polaroid{ display:none; } // 12 px
-  
-}
+    @media screen and (max-width: 480px){
+        #polaroid {
+            display:none;
+        }  
+        
+        
+        
+    }
+
  
 }

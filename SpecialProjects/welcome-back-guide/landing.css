@@ -268,7 +268,7 @@ justify-content: center;
 
 .do-item:hover .do-info {
   transform: rotate3d(0, 1, 0, -180deg);
-    -webkit-user-select: none;
+     -webkit-user-select: none;
 -webkit-touch-callout: none;
 }
 
@@ -366,13 +366,13 @@ img.do-item1 {
 
 .do-item2:hover .do-info-wrap2 {
   box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.8), inset 0 0 3px rgba(255, 255, 255, 0.8);
-    -webkit-user-select: none;
+     -webkit-user-select: none;
 -webkit-touch-callout: none;
 }
 
 .do-item2:hover .do-info2 {
   transform: rotate3d(0, 1, 0, -180deg);
-    -webkit-user-select: none;
+     -webkit-user-select: none;
 -webkit-touch-callout: none;
 }
 

@@ -163,11 +163,11 @@ height:200px;
 border-radius: 50%;
 grid-row:auto / span 1;
 grid-column:auto / span 1;
-margin:0 auto;
+margin:10px 0;
 }
 
 li.big {
-margin:0 auto;
+margin:0;
 width:400px;
 height:400px;
 background-color:black;

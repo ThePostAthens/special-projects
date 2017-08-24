@@ -182,9 +182,7 @@ font-family: montserrat;
 
 #heroimg {
     width: 100%;
-    height: 450px;
     position: relative;
-    background-color: transparent;
 }/*apply to wrapping div with an img tag within*/
 
 #heroimg img {
@@ -194,7 +192,7 @@ font-family: montserrat;
 #arthed {
     color: white;
     position: absolute;
-    bottom: -60%;
+    bottom: -2%;
     padding: 0;
     margin: 0;
     font-size: 130px;

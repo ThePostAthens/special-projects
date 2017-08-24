@@ -68,10 +68,8 @@ h3 {
 /*----- Hero Image -----*/
 
 #heroimg {
-    width: 100%;
-    height: 450px;
+       width: 100%;
     position: relative;
-    background-color: transparent;
 }/*apply to wrapping div with an img tag within*/
 
 #heroimg img {

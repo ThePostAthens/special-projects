@@ -633,27 +633,11 @@ float: right;
 .parallax {
 background-attachment: scroll !important;
 }
-    
-    
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
- ul{  
-        padding:0;
-margin: -15%;
-display:grid;
-grid-template-rows: repeat(auto-fill, 220px);
-grid-template-columns: repeat(auto-fill, 220px);
-grid-gap:0px;
-padding-left: 100px;
-}
 
-    @media screen and (min-width:450px){
+    @media screen and (min-width:400px){
         ul{  
         padding:0;
-margin: -16%;
+margin: -25%;
 display:grid;
 grid-template-rows: repeat(auto-fill, 220px);
 grid-template-columns: repeat(auto-fill, 220px);

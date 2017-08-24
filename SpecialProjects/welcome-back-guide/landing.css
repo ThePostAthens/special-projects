@@ -638,7 +638,7 @@ background-attachment: scroll !important;
     @media screen and (min-width:400px){
         ul{  
         padding:0;
-margin: -4%;
+margin: -8%;
 display:grid;
 grid-template-rows: repeat(auto-fill, 220px);
 grid-template-columns: repeat(auto-fill, 220px);
@@ -646,5 +646,5 @@ grid-gap:0px;
 padding-left: 100px;
         }
         #heroimg img {
-    width:130%;
+    width:110%;
 }

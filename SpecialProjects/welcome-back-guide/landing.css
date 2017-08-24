@@ -73,7 +73,7 @@ h3 {
 }/*apply to wrapping div with an img tag within*/
 
 #heroimg img {
-    width: 100%;
+    width:100%;
 }
 
 #arthed {
@@ -155,6 +155,7 @@ grid-template-rows: repeat(auto-fill, 220px);
 grid-template-columns: repeat(auto-fill, 220px);
 grid-gap:0px;
     padding-left: 100px;
+    padding-bottom: 100px;
 }
 
 li.small {
@@ -643,8 +644,10 @@ grid-template-rows: repeat(auto-fill, 220px);
 grid-template-columns: repeat(auto-fill, 220px);
 grid-gap:0px;
 padding-left: 100px;
-        
         }
+        #heroimg img {
+    width:130%;
+}
 
 
     }

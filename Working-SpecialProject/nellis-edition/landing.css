@@ -146,7 +146,8 @@ h3 {
   position:relative;
   background-color:transparent;
   perspective:1000px;
-    padding-left: 55px;
+  padding-left: 35px;
+  padding-top: 10px;
     
 }
 .griditem{

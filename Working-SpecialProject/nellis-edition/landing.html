@@ -81,7 +81,8 @@ THE
         
         
         <!-- CONTENT GOES BELOW HERE -->
-       <div class="grid">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<div class="grid">
   <div class="griditem">
     <div class="front">
       <div class="back"></div>
@@ -94,7 +95,7 @@ THE
   </div>
   <div class="griditem">
     <div class="front">
-      <div class="back">olleh</div>
+      <div class="back"></div>
     </div>
   </div>
   <div class="griditem">
@@ -203,6 +204,26 @@ THE
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-54093688-1','auto');ga('send','pageview');
         </script>
+        <script>if (matchMedia) { // media query event handler
+    var mq = window.matchMedia("(max-width: 768px)"); // whatever your definition of mobile/tablet is
+    mq.addListener(WidthChange);
+    WidthChange(mq);
+  }
+
+  function WidthChange(mq) { // media query change
+    if (mq.matches) { // if screen is bigger than 768px (iPad)
+      $('.griditem').mouseenter(function(){ // user hovers on gridItem
+        $(this).addClass('is-flipped'); // add mod class
+      });
+      $('.griditem').mouseleave(function(){ // user stops hovering
+        $(this).removeClass('is-flipped'); // remove mod class
+      });
+    } else { // device bigger than iPad
+      $('.griditem').click(function(){ // user clicks/taps gridItem
+        $(this).toggleClass('is-flipped'); // toggle mod class
+      });
+    }
+  }</script>
         
     </body>
 </html>

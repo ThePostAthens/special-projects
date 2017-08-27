@@ -160,7 +160,7 @@ h3 {
 .front{
   width:100%;
   height:100%;
-  background: url('https://s3.amazonaws.com/media.ohi/17481_nellis_3f.jpg') no-repeat;
+  background: url('https://s3.amazonaws.com/media.ohi/18134_presidentialforumf.jpg') no-repeat;
   background-attachment:fixed;
   background-position: center;
   background-size:cover;
@@ -181,13 +181,16 @@ h3 {
   z-index:2;
   font-family: montserrat;
 }
-.griditem:hover .front{
+.griditem .front,
+.griditem .back {
+  transition: 0.4s ease-in-out;
+  }
+
+.griditem.is-flipped .front{
   transform:rotateY(180deg);
-  transition:.4s ease-in-out;
 }
-.griditem:hover .back{
+.griditem.is-flipped .back{
   transform:rotateY(0deg);
-  transition:.4s ease-in-out;
 }
 /*----- Img Things -----*/
 

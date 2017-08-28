@@ -140,57 +140,66 @@ h3 {
 }/*applies to entire byline, with title. bold the author name. put on h4 tag*/
 
 
-.grid{
-  width:calc(95vw + 10px);
-  display:inline-block;
-  position:relative;
-  background-color:transparent;
-  perspective:1000px;
+.grid {
+  width: calc(95vw + 10px);
+  display: inline-block;
+  position: relative;
+  background-color: transparent;
+  perspective: 1000px;
   padding-left: 35px;
   padding-top: 10px;
-    
 }
-.griditem{
-  display:block;
-  width:15vw;
-  margin:5px;
-  height:15vw;
-  float:left;
+
+.griditem {
+  display: block;
+  width: 15vw;
+  margin: 5px;
+  height: 15vw;
+  float: left;
+  position: relative;
 }
-.front{
-  width:100%;
-  height:100%;
-  background: url('https://s3.amazonaws.com/media.ohi/18134_presidentialforumf.jpg') no-repeat;
-  background-attachment:fixed;
+
+.front,
+.back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.4s ease-in-out;
+ }
+
+.front {
+  z-index: 1;
+  background: url('https://static.pexels.com/photos/279315/pexels-photo-279315.jpeg') no-repeat;
+  background-attachment: fixed;
   background-position: center;
-  background-size:cover;
-  transform:rotateY(0deg);
-  transition:.4s ease-in-out;
-  cursor:pointer;
+  background-size: cover;
+  cursor: pointer;
 }
-.back{
-  width:100%;
-  height:100%;
-  transform:rotateY(180deg);
-  background:#fff url('http://www.dentoncorkermarshall.com/wp-content/uploads/2013/12/Asia-Square-06.jpg?x92178') no-repeat;
-  background-size:cover;
-  backface-visibility:hidden;
-  transition:.4s ease-in-out;
-  position:absolute;
-  top:0;
-  z-index:2;
+
+.back {
+  transform: rotateY(-180deg); /* Negative value to make it spin the right way */
+  background: #fff url('http://www.dentoncorkermarshall.com/wp-content/uploads/2013/12/Asia-Square-06.jpg?x92178') no-repeat;
+  background-size: cover;
+  backface-visibility: hidden;
+  transition: .4s ease-in-out;
+  z-index: 0; /* position behind .front */
   font-family: montserrat;
 }
+
 .griditem .front,
 .griditem .back {
-  transition: 0.4s ease-in-out;
-  }
 
-.griditem.is-flipped .front{
-  transform:rotateY(180deg);
 }
-.griditem.is-flipped .back{
-  transform:rotateY(0deg);
+
+.griditem.is-flipped .front {
+  transform: rotateY(180deg);
+}
+
+.griditem.is-flipped .back {
+  transform: rotateY(0deg);
+  z-index: 2; /* Position in front of .front */
 }
 /*----- Img Things -----*/
 

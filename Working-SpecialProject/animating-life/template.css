@@ -5,9 +5,14 @@ Please contact at SethPArcher@gmail.com with questions.*/
 
 /*----- Global Styles -----*/
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     font-family: montserrat, sans-serif;
-    background-color: #000;
+    background-color: #797a79;
     color: #FFF;
 }
 
@@ -97,14 +102,14 @@ h3 {
 
 #textContainer {
   position: absolute;
-top: 100px;
-    left: 50%;
+  top: 100px;
+  left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
 }
 
 #myText {
-  text-align: center;
+  text-align:center;
 }
 
 #myText>span {
@@ -116,6 +121,32 @@ top: 100px;
   animation-direction: alternate;
 }
 
+.box {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border-style: double;
+    border-color: lightgray;
+    border-width: 6px;
+    text-align: center;
+    
+}
+
+.box h3{
+    width:98%;
+    margin-left: 2%;
+    background-color:transparent;
+    padding:0px;
+    font-size:20px;
+    color: #011a39;
+}
+
+.box p{
+    width:98%;
+    padding: 0;
+    margin-left: 2%; 
+   
+}
 
 
 /*----- Body Copy Things -----*/
@@ -148,56 +179,56 @@ top: 100px;
     @-webkit-keyframes colorchange {
       0% {
         
-        color: blue;
+        color: #011a39;
       }
       
       10% {
         
-        color: #8e44ad;
+        color: #29c3fd;
       }
       
       20% {
         
-        color: #1abc9c;
+        color: #011a39;
       }
       
       30% {
         
-        color: #d35400;
+        color: #29c3fd;
       }
       
       40% {
         
-        color: blue;
+        color: #011a39;
       }
       
       50% {
         
-        color: #34495e;
+        color: #29c3fd;
       }
       
       60% {
         
-        color: blue;
+        color: #011a39;
       }
       
       70% {
         
-        color: #2980b9;
+        color: #29c3fd;
       }
       80% {
      
-        color: #f1c40f;
+        color: #011a39;
       }
       
       90% {
      
-        color: #2980b9;
+        color: #29c3fd;
       }
       
       100% {
         
-        color: pink;
+        color: #011a39;
       }
     }
 }/*apply to h2 tags*/
@@ -211,7 +242,7 @@ top: 100px;
 }/*apply to wrapping span tag*/
 
 .title {
-    color: #606060;
+    color: black;
 }/*should be in same p tag as the author name*/
 
 #byline {
@@ -343,7 +374,7 @@ float: right;
     text-align: right;
     margin:0;
     font-weight: 800;
-    color: #000;
+    color: #FFF;
     font-size: 12px;
     width: 100%;
     padding: 0;

@@ -74,10 +74,13 @@ THE
         <a href="http://www.thepostathens.com"><div><img id="logo" src="img/logo.png"></div></a>
         
         <div id="heroimg">
-           <img src="https://s3.amazonaws.com/media.ohi/15700_15699_vegan_coveroo.jpg">
+           <img src="https://s3.amazonaws.com/media.ohi/15713_kittenf.jpg">
             <p class="photog" style="padding-right:10px;">ABBY GORDON</p>
-            <h1 id="arthed">Animating Life</h1>
         </div>
+        
+       <div id="textContainer">
+  <div id="myText">Animating Life</div>
+</div>
         
 <!-- Body Copy Stuff -->
         
@@ -99,7 +102,6 @@ THE
         
         <p>Test filler content. Filler content goes here becuase this is filler. I'm trying to make it have some different lengths to make it not repeat that badly. Different lenghts and filler content.</p>
         
-        <div class="parallax" style="background-img:url(img/logo.png)"></div>
         
         <p>Test filler content. Filler content goes here becuase this is filler. I'm trying to make it have some different lengths to make it not repeat that badly. Different lenghts and filler content.</p>
     
@@ -134,6 +136,23 @@ THE
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-54093688-1','auto');ga('send','pageview');
         </script>
+        <script>
+        // Menu Visual
+var myText = document.getElementById('myText');
+var tempText = "";
+
+for(let x in myText.textContent){
+  var rnd =  Math.floor(Math.random() * (2 - 0 +  1));
+  var rndBounce =  Math.floor(Math.random() * (11 - 5) + 5) / 10;
+  if(rnd === 0){
+    tempText += "<span style='color: navy; animation-duration: " + rndBounce + "s'>" + myText.textContent[x] + "</span>";
+  } else if (rnd === 1) {
+    tempText += "<span style='color: blue; animation-duration: " + rndBounce + "s'>" + myText.textContent[x] + "</span>";
+  } else {
+    tempText += "<span style='color: white; animation-duration: " + rndBounce + "s'>" + myText.textContent[x] + "</span>";
+  }
+}
+myText.innerHTML = tempText;</script>
         
     </body>
 </html>

@@ -115,6 +115,34 @@ h3 {
     text-shadow: 2px 2px 3px #000;
 }/*apply to h1 within the heroimg div*/
 
+
+@keyframes bounce {
+  from { top: 10px; }
+  to { top: 0; }
+}
+
+#textContainer {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+#myText {
+  text-align: center;
+}
+
+#myText>span {
+  position: relative;
+  font-size: 5em;
+  animation-name: bounce;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+
+
 /*----- Body Copy Things -----*/
 
 .headline {

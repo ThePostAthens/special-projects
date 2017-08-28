@@ -7,12 +7,12 @@ Please contact at SethPArcher@gmail.com with questions.*/
 
 body {
     font-family: montserrat, sans-serif;
-    background-color: #FFF;
-    color: #030406;
+    background-color: #000;
+    color: #FFF;
 }
 
 a {
-    color: #7fc448;
+    color: #29c3fd;
     text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #eed7fc;
+    color: #29c3fd;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -63,32 +63,6 @@ h3 {
 .column10right {
     width: 40%;
     padding-right: 10%;
-}
-
-/*----- Nav Bar -----*/
-/*we don't use this section as often. delete if not used in the project*/
-
-#nav_bar {
-    background: #030406;
-    color: #FFF;
-    height: 50px;
-}
-
-#nav_bar img {
-    height: 30px;
-    padding: 10px;
-    float: left;
-}
-
-#nav_bar li {
-    list-style: none;
-    display: inline-block;
-    padding: 15px;
-    float: right;
-}
-
-#nav_bar ul {
-    margin: 0;
 }
 
 /*----- Hero Image -----*/
@@ -136,7 +110,7 @@ top: 100px;
 #myText>span {
   position: relative;
   font-size: 5em;
-  font-family: montserrat; 
+  font-family: 'Baloo Bhaijaan', cursive; 
   animation-name: bounce;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -147,7 +121,7 @@ top: 100px;
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
+    color: #103868;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
@@ -162,16 +136,13 @@ top: 100px;
 }/*apply to h4 with developer's name and title*/
 
 .subhed {
-    font-family: montserrat
-    , sans-serif;
+    font-family: montserrat;
     font-weight: 800;
     color: #7fc448;
-    font-family: montserrat;
+    font-family: 'Baloo Bhaijaan', cursive;
     width:100%;
       color:#313131;
-      -webkit-animation:colorchange 20s infinite alternate;
-      
-      
+      -webkit-animation:colorchange 20s infinite alternate; 
     }
 
     @-webkit-keyframes colorchange {
@@ -519,7 +490,7 @@ float: right;
 
 #textContainer {
   position: relative;
-  top: -150px;
+  top: -160px;
   transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   width: 100%;
@@ -528,7 +499,7 @@ float: right;
 #myText>span {
   position: relative;
   font-size: 2em;
-  font-family: montserrat; 
+  font-family: 'Baloo Bhaijaan', cursive; 
   animation-name: bounce;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -543,7 +514,7 @@ float: right;
 
 #textContainer {
   position: relative;
-  top: -180px;
+  top: -230px;
   transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   width: 100%;
@@ -552,7 +523,7 @@ float: right;
 #myText>span {
   position: relative;
   font-size: 2.5em;
-  font-family: montserrat; 
+  font-family: 'Baloo Bhaijaan', cursive; 
   animation-name: bounce;
   animation-iteration-count: infinite;
   animation-direction: alternate;

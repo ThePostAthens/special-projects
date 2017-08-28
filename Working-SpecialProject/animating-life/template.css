@@ -138,7 +138,7 @@ h3 {
     background-color:transparent;
     padding:0px;
     font-size:20px;
-    color: #011a39;
+    color: #103868;
 }
 
 .box p{
@@ -544,7 +544,7 @@ float: right;
 
 #textContainer {
   position: relative;
-  top: -230px;
+  top: -60px;
   transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   width: 100%;

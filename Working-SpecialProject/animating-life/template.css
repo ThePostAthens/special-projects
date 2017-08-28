@@ -123,8 +123,8 @@ h3 {
 
 #textContainer {
   position: absolute;
-  top: 90%;
-  left: 50%;
+top: 700px;
+    left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
 }
@@ -153,7 +153,6 @@ h3 {
     margin: 0;
     font-size: 40px;
     font-weight: 900i;
-    text-transform: uppercase;
 }/*apply to h1, not the art hed*/
 
 .credit {
@@ -477,6 +476,7 @@ float: right;
     #arthed {
         font-size: 40px;
     }
+
     
     .subhed{
         padding: 0 10%;
@@ -508,4 +508,52 @@ float: right;
     .story {
         height: 300px;
     }
+}
+
+@media screen and (max-width: 750px){
+    
+@keyframes bounce {
+  from { top: 10px; }
+  to { top: 0; }
+}
+
+#textContainer {
+  position: relative;
+  top: -150px;
+  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+#myText>span {
+  position: relative;
+  font-size: 2em;
+  font-family: montserrat; 
+  animation-name: bounce;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+    
+@media screen and (max-width: 1500px){
+    
+@keyframes bounce {
+  from { top: 10px; }
+  to { top: 0; }
+}
+
+#textContainer {
+  position: relative;
+  top: -180px;
+  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+#myText>span {
+  position: relative;
+  font-size: 2em;
+  font-family: montserrat; 
+  animation-name: bounce;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }

@@ -136,6 +136,7 @@ h3 {
 #myText>span {
   position: relative;
   font-size: 5em;
+  font-family: montserrat; 
   animation-name: bounce;
   animation-iteration-count: infinite;
   animation-direction: alternate;

@@ -140,6 +140,10 @@ h3 {
 }/*applies to entire byline, with title. bold the author name. put on h4 tag*/
 
 
+* {
+  font-family: montserrat;
+}
+
 .grid {
   width: calc(95vw + 10px);
   display: inline-block;
@@ -167,11 +171,11 @@ h3 {
   top: 0;
   left: 0;
   transition: 0.4s ease-in-out;
- }
+}
 
 .front {
   z-index: 1;
-  background: url('https://static.pexels.com/photos/279315/pexels-photo-279315.jpeg') no-repeat;
+  background: url('https://s3.amazonaws.com/media.ohi/18185_dsc_8825f.jpg') no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -179,18 +183,16 @@ h3 {
 }
 
 .back {
-  transform: rotateY(-180deg); /* Negative value to make it spin the right way */
+  transform: rotateY(-180deg);
+  /* Negative value to make it spin the right way */
   background: #fff url('http://www.dentoncorkermarshall.com/wp-content/uploads/2013/12/Asia-Square-06.jpg?x92178') no-repeat;
   background-size: cover;
   backface-visibility: hidden;
   transition: .4s ease-in-out;
-  z-index: 0; /* position behind .front */
+  z-index: 0;
+  /* position behind .front */
   font-family: montserrat;
-}
-
-.griditem .front,
-.griditem .back {
-
+  text-align: center;
 }
 
 .griditem.is-flipped .front {
@@ -199,7 +201,17 @@ h3 {
 
 .griditem.is-flipped .back {
   transform: rotateY(0deg);
-  z-index: 2; /* Position in front of .front */
+  z-index: 2;
+  /* Position in front of .front */
+}
+
+.back span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
 }
 /*----- Img Things -----*/
 

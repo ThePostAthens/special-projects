@@ -85,78 +85,113 @@ THE
 <div class="grid">
   <div class="griditem">
     <div class="front"></div>
-    <div class="back">Hello</div>
+    <div class="back">
+      <span><a href="PM.html"><font size="15px" color="white">PM</font></a></span>
+    </div>
   </div>
   <div class="griditem">
     <div class="front"></div>
-    <div class="back">Hello</div>
+    <div class="back">
+      <span>Hello</span>
+    </div>
   </div>
   <div class="griditem">
     <div class="front"></div>
-    <div class="back">Hello</div>
+    <div class="back">
+      <span>Hello</span>
+    </div>
   </div>
   <div class="griditem">
     <div class="front"></div>
-    <div class="back">Hello</div>
+    <div class="back">
+      <span>Hello</span>
+    </div>
   </div>
   <div class="griditem">
     <div class="front"></div>
-    <div class="back">Hello</div>
+    <div class="back">
+      <span>Hello</span>
+    </div>
   </div>
   <div class="griditem">
     <div class="front"></div>
-    <div class="back">Hello</div>
+    <div class="back">
+      <span>Hello</span>
+    </div>
   </div>
   <div class="griditem">
     <div class="front"></div>
-    <div class="back">Hello</div>
+    <div class="back">
+      <span>Hello</span>
+    </div>
   </div>
   <div class="griditem">
     <div class="front"></div>
-    <div class="back">Hello</div>
+    <div class="back">
+      <span>Hello</span>
+    </div>
   </div>
   <div class="griditem">
     <div class="front"></div>
-    <div class="back">Hello</div>
+    <div class="back">
+      <span>Hello</span>
+    </div>
   </div>
   <div class="griditem">
     <div class="front"></div>
-    <div class="back">Hello</div>
+    <div class="back">
+      <span>Hello</span>
+    </div>
   </div>
   <div class="griditem">
     <div class="front"></div>
-    <div class="back">Hello</div>
+    <div class="back">
+      <span>Hello</span>
+    </div>
   </div>
   <div class="griditem">
     <div class="front"></div>
-    <div class="back">Hello</div>
+    <div class="back">
+      <span>Hello</span>
+    </div>
   </div>
   <div class="griditem">
     <div class="front"></div>
-    <div class="back">Hello</div>
+    <div class="back">
+      <span>Hello</span>
+    </div>
   </div>
   <div class="griditem">
     <div class="front"></div>
-    <div class="back">Hello</div>
+    <div class="back">
+      <span>Hello</span>
+    </div>
   </div>
   <div class="griditem">
     <div class="front"></div>
-    <div class="back">Hello</div>
+    <div class="back">
+      <span>Hello</span>
+    </div>
   </div>
   <div class="griditem">
     <div class="front"></div>
-    <div class="back">Hello</div>
+    <div class="back">
+      <span>Hello</span>
+    </div>
   </div>
   <div class="griditem">
     <div class="front"></div>
-    <div class="back">Hello</div>
+    <div class="back">
+      <span>Hello</span>
+    </div>
   </div>
   <div class="griditem">
     <div class="front"></div>
-    <div class="back">Hello</div>
+    <div class="back">
+      <span>Hello</span>
+    </div>
   </div>
 </div>
-    
         
         <!-- Developed By -->
         <h3 class="column20center credit"><strong>Development by:</strong> <a href="https://twitter.com/SethPArcher">Taylor Johnston</a> / Digital Production Editor</h3>  
@@ -187,25 +222,28 @@ THE
             ga('create','UA-54093688-1','auto');ga('send','pageview');
         </script>
         <script>if (matchMedia) { // media query event handler
-    var mq = window.matchMedia("(max-width: 768px)"); // whatever your definition of mobile/tablet is
-    mq.addListener(WidthChange);
-    WidthChange(mq);
-  }
+  var mq = window.matchMedia("(max-width: 768px)"); // whatever your definition of mobile/tablet is
+  mq.addListener(WidthChange);
+  WidthChange(mq);
+}
 
-  function WidthChange(mq) { // media query change
-    if (mq.matches) { // if screen is bigger than 768px (iPad)
-      $('.griditem').mouseenter(function(){ // user hovers on gridItem
-        $(this).addClass('is-flipped'); // add mod class
-      });
-      $('.griditem').mouseleave(function(){ // user stops hovering
-        $(this).removeClass('is-flipped'); // remove mod class
-      });
-    } else { // device bigger than iPad
-      $('.griditem').click(function(){ // user clicks/taps gridItem
-        $(this).toggleClass('is-flipped'); // toggle mod class
-      });
-    }
-  }</script>
+function WidthChange(mq) { // media query change
+
+  var $gridItem = $('.griditem');
+
+  if (mq.matches) { // if screen is bigger than 768px (iPad)
+    $gridItem.mouseenter(function() { // user hovers on gridItem
+      $(this).addClass('is-flipped'); // add mod class
+    });
+    $gridItem.mouseleave(function() { // user stops hovering
+      $(this).removeClass('is-flipped'); // remove mod class
+    });
+  } else { // device bigger than iPad
+    $gridItem.click(function() { // user clicks/taps gridItem
+      $(this).toggleClass('is-flipped'); // toggle mod class
+    });
+  }
+}</script>
         
     </body>
 </html>

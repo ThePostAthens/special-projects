@@ -124,7 +124,7 @@ h3 {
 .box {
     margin: auto;
     width: 50%;
-    padding: 10px;
+    padding: 2px;
     border-style: double;
     border-color: lightgray;
     border-width: 6px;
@@ -242,7 +242,7 @@ h3 {
 }/*apply to wrapping span tag*/
 
 .title {
-    color: black;
+    color: lightgray;
 }/*should be in same p tag as the author name*/
 
 #byline {

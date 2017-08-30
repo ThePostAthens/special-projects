@@ -43,6 +43,18 @@ h3 {
     margin: 0;
 }/*apply to p tag*/
 
+
+#arthed {
+    color: #FFF;
+    position: absolute;
+    bottom: 740px;
+    padding: 0;
+    margin: 0;
+    font-size: 70px;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+    text-shadow: 2px 2px 3px #000;}
 /*-----Column stuff-----*/
 
 .column20center {
@@ -212,6 +224,8 @@ h3 {
   transform: translate(-50%, -50%);
   color: #fff;
 }
+
+
 }
 /*----- Img Things -----*/
 

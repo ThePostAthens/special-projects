@@ -5,17 +5,14 @@ Please contact at SethPArcher@gmail.com with questions.*/
 
 /*----- Global Styles -----*/
 
-@import 'https://fonts.googleapis.com/css?family=Playfair+Display:400i,700i';
-
-
 body {
     font-family: montserrat, sans-serif;
-    background-color: #FFF;
+    background-color: gainsboro;
     color: #030406;
 }
 
 a {
-    color: #cc0000;
+    color: #7dafa1;
     text-decoration: none;
 }
 
@@ -24,8 +21,8 @@ a:hover {
 }
 
 p {
-    width: 50%;
-    padding: 0 35% 0 15%;
+    width: 60%;
+    padding: 0 20%;
 }/*these have a style simmilar to column20center, do not add column20center to p tags*/
 
 h2 {
@@ -40,9 +37,9 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #cc0000;
+    color: #7dafa1;
     width: 60%;
-    padding: 0% 0 0 15%;
+    padding: 0% 20% 0 20%;
     margin: 0;
 }/*apply to p tag*/
 
@@ -50,7 +47,7 @@ h3 {
 
 .column20center {
     width: 60%;
-    padding: 0 25% 0 15%;
+    padding: 0 20%;
 }/*do not apply to p tags, they automatically have a simmilar styling*/
 
 .column10center {
@@ -68,56 +65,37 @@ h3 {
     padding-right: 10%;
 }
 
-#facebook {
-    width: 60%;
-    padding: 0 15% 0 15%;
-    margin: 0;
-}
-
 /*----- Nav Bar -----*/
 /*we don't use this section as often. delete if not used in the project*/
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+#nav_bar {
+    background: #030406;
+    color: #FFF;
+    height: 70px;
 }
 
-li {
+#nav_bar img {
+    height: 50px;
+    padding: 10px;
     float: left;
-    border-right:1px solid #bbb;
 }
 
-li:last-child {
-    border-right: none;
+#nav_bar li {
+    list-style: none;
+    display: inline-block;
+    padding: 23px;
+    float: right;
 }
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover:not(.active) {
-    background-color: #111;
-}
-
-.active {
-    background-color: #4CAF50;
+#nav_bar ul {
+    margin: 0;
 }
 
 /*----- Hero Image -----*/
 
-
-
 #heroimg {
-    width: 70%;
+    width: 100%;
     position: relative;
-    padding: 2% 15%;
 }/*apply to wrapping div with an img tag within*/
 
 #heroimg img {
@@ -125,30 +103,28 @@ li a:hover:not(.active) {
 }
 
 #arthed {
-    color: #000;
+    color: #FFF;
+    position: absolute;
+    bottom: 0;
     padding: 0;
     margin: 0;
-    font-family: 'Playfair Display', serif;
-    font-size: 100px;
-    font-weight: 900;
+    font-size: 70px;
+    font-weight: 700;
     text-align: center;
     width: 100%;
-    text-shadow: 1px 1px 3px #000;
-    line-height: 100%;
-    
+    text-shadow: 2px 2px 3px #000;
 }/*apply to h1 within the heroimg div*/
 
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #000;
-    padding: 0 15%;
-    width: 70%;
+    color: white;
+    padding: 0 10% 0 10%;
+    width: 80%;
     margin: 0;
     font-size: 40px;
     font-weight: 900i;
     text-transform: uppercase;
-    font-family: 'Playfair Display', serif;
 }/*apply to h1, not the art hed*/
 
 .credit {
@@ -158,9 +134,10 @@ li a:hover:not(.active) {
 }/*apply to h4 with developer's name and title*/
 
 .subhed {
-    font-family: 'Playfair Dislay', serif;
+    font-family: montserrat
+    , sans-serif;
     font-weight: 800;
-    color: #cc0000;
+    color: #7dafa1;
 }/*apply to h2 tags*/
 
 .dropcap {
@@ -169,7 +146,6 @@ li a:hover:not(.active) {
     font-size: 2.9em;
     line-height: .9em;
     padding-right: 5px;
-    font-family: 'Playfair Display',serif;
 }/*apply to wrapping span tag*/
 
 .title {
@@ -179,15 +155,7 @@ li a:hover:not(.active) {
 #byline {
     margin: 0;
     font-weight: 400;
-    width: 60%;
-    padding: 0 15% 0 25%;
 }/*applies to entire byline, with title. bold the author name. put on h4 tag*/
-
-#story_wrap {
-    width: 100%;
-    margin: 0;
-}
-
 
 /*----- Img Things -----*/
 
@@ -196,20 +164,6 @@ li a:hover:not(.active) {
     padding: 0 20%;
 }/*Apply to a wrapping div*/
 
-.oneimg_left {
-    width: 40%;
-    padding-left: 10%;
-    padding-right: 10px;
-    float: left;
-}
-
-.oneimg_mug {
-    width: 10%;
-    padding-left: 10%;
-    padding-right: 10px;
-    float: left;
-}
-
 .oneimg_right {
     width: 40%;
     padding-right: 10%;
@@ -217,7 +171,12 @@ li a:hover:not(.active) {
     float: right;
 }/*Apply to a wrapping div*/
 
-
+.oneimg_left {
+    width: 40%;
+    padding-left: 10%;
+    padding-right: 20px;
+    float: left;
+}/*Apply to a wrapping div*/
 
 .twoimg_center {
     width: 60%;
@@ -235,9 +194,8 @@ li a:hover:not(.active) {
     width: 33%;
 }
 
-.oneimg_full img, .oneimg_center img, .oneimg_right img, .oneimg_left img, .oneimg_mug img {
-    width: 100%;
-        
+.oneimg_full img, .oneimg_center img, .oneimg_right img, .oneimg_left img {
+    width: 100%
 }
 
 /*----- Pullqute stuff -----*/
@@ -253,7 +211,7 @@ blockquote {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #5379c4;
+    color: white;
     font-weight: 800;
 }/*add to wrapping div*/
 
@@ -265,10 +223,20 @@ blockquote {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #000;
+    color: white;
 }/*add to wrapping div*/
 
-
+.pq_left {
+    width: 40%;
+    padding-left: 10%;
+    padding-right: 0;
+    float: left;
+    margin: 0;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+}/*add to wrapping div*/
 
 .attribution {
     font-size: 20px;
@@ -347,9 +315,8 @@ float: right;
     z-index: 1;
     position: absolute;
     float: left;
-    height: 30px;
-    width: 80px;
-    padding: calc((150px - 80px) / 2)
+    height: 60px;
+    padding: 7px;
 }/*effects the post logo in the top left of the page*/
 
 .parallax {
@@ -359,76 +326,9 @@ float: right;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    filter: grayscale(100%);
 }/* add to the wrapping div, give the div an inline style with the photo you want to be parallax*/
 
-/* SIDEBAR THINGS */
-
-.mobile {
-    display: none;
-    width: 100%;
-    top: 0;
-    background-color: #292929;
-}
-
-button {
-    display: none;
-    color: white;
-    padding-right: 0;
-    float: right;
-    position: relative;
-    margin: 0;
-    padding-top: 0;
-}
-
-.sidebar {
-    background-color: midnightblue;
-    height: 1000px;
-    position: fixed;
-    width: 200px;
-    display: table;
-}
-
-.sidebar img {
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.sidebar a {
-    color: #FFF;
-}
-
-.sidebar ul {
-    display: table-cell;
-    vertical-align: middle;
-    padding: 0 10px;
-}
-
-.sidebar li {
-    list-style: none;
-    text-align: center;
-    text-transform: capitalize;
-}
-
-.sidebar li:hover {
-    opacity: .4;
-}
-
-#list_hed:hover {
-    opacity: 1;
-}
-
-.notsidebar {
-    float: left;
-    width: calc(100% - 150px);
-    padding-left: 150px;
-}
-
-#list_hed {
-    color: #fff;
-    font-weight: 900;
-    text-transform: uppercase;
-}
+/* Landing page clicky box at bottom.*/
 
 .story {
     color: #FFF;
@@ -460,33 +360,11 @@ button {
     padding: 10px 15% 0 15%;
 }
 
-/*------ DAYS -----*/
-
-.sunday {
-
-}
-
-.monday {
-
-}
-
-.tuesday {
-
-}
-
-.wednesday {
-   ;
-}
-
 @media screen and (max-width: 750px){
     
     .oneimg_right, .oneimg_left, .oneimg_center {
         width: 80%;
         padding: 0 10% 10px 10%;
-    }
-    
-     .oneimg_mug {
-        width: 20%;
     }
     
     .oneimg_full p {
@@ -524,7 +402,6 @@ button {
         width: 80%;
         padding: 0% 10% 0 10%;
         font-size: 25px;
-        color: #000;
     }
     
     .date {
@@ -532,65 +409,11 @@ button {
         width: 80%;
     }
     
-    #logowrap {
-        width: 100%;
+    #banner {
+        font-size: 50px;
     }
     
-    #logo {
-        width: auto;
-        padding: 30px 35px;
-    }
-    
-    
-    .sidebar {
-        display: table;
-        position: relative;
-        width: 100%;
-        height: 100%;
-    }
-    
-   .sidebar ul {
-        width: 80%;
-        padding: 15px;
-        display: table-cell;
-        vertical-align: middle;
-    }
-    
-    .sidebar li {
-        float: left;
-        padding-left:10px;
-    }
-    
-    .notsidebar {
-        width: 100%;
-        padding: 0;
-    } 
-
-    }
-    
-    #facebook {
-        padding: 0 10% 0 10%;
-    }
-    
-    #byline {
-        padding: 0 10% 0 10%;
-    }
-
-}
-
-@media screen and (max-width: 400px){
- 
-    .sidebar ul {
-        display: none;
-    }
-    
-    #logowrap {
-        width: 100%;
-        background-color: #292929;
-        height: 40px;
-    }
-    
-    #logo {
-        padding: 7px;
+    .story {
+        height: 300px;
     }
 }

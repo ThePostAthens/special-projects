@@ -7,12 +7,12 @@ Please contact at SethPArcher@gmail.com with questions.*/
 
 body {
     font-family: montserrat, sans-serif;
-    background-color: #FFF;
+    background-color: gainsboro;
     color: #030406;
 }
 
 a {
-    color: #7fc448;
+    color: #7dafa1;
     text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #eed7fc;
+    color: #7dafa1;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -71,11 +71,11 @@ h3 {
 #nav_bar {
     background: #030406;
     color: #FFF;
-    height: 50px;
+    height: 70px;
 }
 
 #nav_bar img {
-    height: 30px;
+    height: 50px;
     padding: 10px;
     float: left;
 }
@@ -83,7 +83,7 @@ h3 {
 #nav_bar li {
     list-style: none;
     display: inline-block;
-    padding: 15px;
+    padding: 23px;
     float: right;
 }
 
@@ -118,7 +118,7 @@ h3 {
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
+    color: white;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
@@ -137,7 +137,7 @@ h3 {
     font-family: montserrat
     , sans-serif;
     font-weight: 800;
-    color: #7fc448;
+    color: #7dafa1;
 }/*apply to h2 tags*/
 
 .dropcap {
@@ -156,6 +156,8 @@ h3 {
     margin: 0;
     font-weight: 400;
 }/*applies to entire byline, with title. bold the author name. put on h4 tag*/
+
+
 
 /*----- Img Things -----*/
 
@@ -211,7 +213,7 @@ blockquote {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #5379c4;
+    color: white;
     font-weight: 800;
 }/*add to wrapping div*/
 
@@ -223,7 +225,7 @@ blockquote {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #5379c4;
+    color: white;
 }/*add to wrapping div*/
 
 .pq_left {
@@ -235,7 +237,7 @@ blockquote {
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #5379c4;
+    color: white;
 }/*add to wrapping div*/
 
 .attribution {
@@ -315,7 +317,7 @@ float: right;
     z-index: 1;
     position: absolute;
     float: left;
-    height: 30px;
+    height: 60px;
     padding: 7px;
 }/*effects the post logo in the top left of the page*/
 

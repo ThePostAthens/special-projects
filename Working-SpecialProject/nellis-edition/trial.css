@@ -7,12 +7,12 @@ Please contact at SethPArcher@gmail.com with questions.*/
 
 body {
     font-family: montserrat, sans-serif;
-    background-color: #FFF;
+    background-color: gainsboro;
     color: #030406;
 }
 
 a {
-    color: #7fc448;
+    color: #7dafa1;
     text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #eed7fc;
+    color: #7dafa1;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -99,7 +99,7 @@ h3 {
 }/*apply to wrapping div with an img tag within*/
 
 #heroimg img {
-    width: 200%;
+    width: 100%;
 }
 
 #arthed {
@@ -118,7 +118,7 @@ h3 {
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
+    color: white;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
@@ -137,7 +137,7 @@ h3 {
     font-family: montserrat
     , sans-serif;
     font-weight: 800;
-    color: #7fc448;
+    color: #7dafa1;
 }/*apply to h2 tags*/
 
 .dropcap {

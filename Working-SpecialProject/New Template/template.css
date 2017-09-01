@@ -99,7 +99,7 @@ h3 {
 }/*apply to wrapping div with an img tag within*/
 
 #heroimg img {
-    width: 200%;
+    width: 100%;
 }
 
 #arthed {

@@ -79,15 +79,14 @@ h3 {
 
 /*----- Nav Bar -----*/
 /*we don't use this section as often. delete if not used in the project*/
-
 #nav_bar {
     background: #030406;
     color: #FFF;
-    height: 50px;
+    height: 70px;
 }
 
 #nav_bar img {
-    height: 30px;
+    height: 50px;
     padding: 10px;
     float: left;
 }
@@ -95,7 +94,7 @@ h3 {
 #nav_bar li {
     list-style: none;
     display: inline-block;
-    padding: 15px;
+    padding: 23px;
     float: right;
 }
 
@@ -164,6 +163,16 @@ h3 {
   perspective: 1000px;
   padding-left: 35px;
   padding-top: 10px;
+}
+
+.grid h1 {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  color: white;
+  z-index: 2;
+  font-size: 4.2em;
+  pointer-events: none;
 }
 
 .griditem {

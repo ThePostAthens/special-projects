@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: #043A1A;
+    color: #535D8D;
     text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #043A1A;
+    color: #FFF;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -118,7 +118,7 @@ h3 {
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: white;
+    color: #043A1A;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
@@ -136,7 +136,7 @@ h3 {
     font-family: montserrat
     , sans-serif;
     font-weight: 800;
-    color: #7dafa1;
+    color: #043A1A;
 }/*apply to h2 tags*/
 
 .dropcap {
@@ -215,7 +215,7 @@ blockquote {
     padding: 0 20%;
     margin: 0;
     font-size: 25px;
-    color: #5379c4;
+    color: #043A1A;
     font-weight: 800;
 }/*add to wrapping div*/
 
@@ -226,7 +226,7 @@ blockquote {
     float: right;
     margin: 0;
     font-size: 25px;
-    color: #5379c4;
+    color: #043A1A;
 }/*add to wrapping div*/
 
 .pq_left {
@@ -236,9 +236,8 @@ blockquote {
     float: left;
     margin: 0;
     font-size: 25px;
-    text-transform: uppercase;
     font-weight: 700;
-    color: #5379c4;
+    color: #043A1A;
 }/*add to wrapping div*/
 
 .attribution {
@@ -284,7 +283,7 @@ float: right;
     text-align: right;
     margin:0;
     font-weight: 800;
-    color: #000;
+    color: #fff;
     font-size: 12px;
     width: 100%;
     padding: 0;

@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: navy;
+    color: #043A1A;
     text-decoration: none;
 }
 
@@ -80,7 +80,7 @@ h3 {
 /*----- Nav Bar -----*/
 /*we don't use this section as often. delete if not used in the project*/
 #nav_bar {
-    background: #030406;
+    background: gainsboro;
     color: #FFF;
     height: 90px;
 }
@@ -200,7 +200,7 @@ h3 {
 
 .front {
   z-index: 1;
-  background: url('https://s3.amazonaws.com/media.ohi/18185_dsc_8825f.jpg') no-repeat;
+  background: url('https://s3.amazonaws.com/media.ohi/18652_nelliscolor2f.jpg') no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -210,7 +210,7 @@ h3 {
 .back {
   transform: rotateY(-180deg);
   /* Negative value to make it spin the right way */
-  background: #fff url('http://www.dentoncorkermarshall.com/wp-content/uploads/2013/12/Asia-Square-06.jpg?x92178') no-repeat;
+  background: transparent  no-repeat;
   background-size: cover;
   backface-visibility: hidden;
   transition: .4s ease-in-out;
@@ -279,6 +279,14 @@ h3 {
 
 .oneimg_full img, .oneimg_center img, .oneimg_right img, .oneimg_left img {
     width: 100%
+}
+
+.oneimg_mug {
+    width: 20%;
+    padding-left: 10%;
+    padding-right: 20px;
+    padding-top: 20px;
+    float: left;
 }
 
 /*----- Pullqute stuff -----*/

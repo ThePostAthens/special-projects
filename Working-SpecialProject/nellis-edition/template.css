@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: #7dafa1;
+    color: #043A1A;
     text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #7dafa1;
+    color: #043A1A;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -69,7 +69,7 @@ h3 {
 /*we don't use this section as often. delete if not used in the project*/
 
 #nav_bar {
-    background: #030406;
+    background: gainsboro;
     color: #FFF;
     height: 70px;
 }
@@ -193,10 +193,16 @@ h3 {
     width: 33%;
 }
 
-.oneimg_full img, .oneimg_center img, .oneimg_right img, .oneimg_left img {
+.oneimg_full img, .oneimg_center img, .oneimg_right img, .oneimg_left img, .oneimg_mug img {
     width: 100%
 }
-
+.oneimg_mug {
+    width: 20%;
+    padding-left: 10%;
+    padding-right: 20px;
+    padding-top: 20px;
+    float: left;
+}
 /*----- Pullqute stuff -----*/
 
 blockquote {
@@ -372,6 +378,10 @@ float: right;
     .pq_center, .pq_right, .pq_left {
         padding: 0 5%;
         width: 90%;
+    }
+    
+     .oneimg_mug {
+        width: 20%;
     }
     
     .column20center, p {

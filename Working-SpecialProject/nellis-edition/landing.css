@@ -218,6 +218,8 @@ h3 {
   /* position behind .front */
   font-family: montserrat;
   text-align: center;
+        text-shadow: 2px 2px 5px #000;
+
 }
 
 .griditem.is-flipped .front {

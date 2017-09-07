@@ -147,6 +147,8 @@ h3 {
     padding: 0;
     margin: 0;
     line-height: 3vw;
+        text-shadow: 2px 2px 5px #000;
+
 }
 
 .bigsubhed2 {
@@ -157,6 +159,8 @@ h3 {
     padding: 0;
     margin: 0;
     line-height: 3vw;
+        text-shadow: 2px 2px 5px #000;
+
 }
 
 .bigsubhed3 {
@@ -167,6 +171,8 @@ h3 {
     padding: 0;
     margin: 0;
     line-height: 3vw;
+        text-shadow: 2px 2px 5px #000;
+
 }
 .bigsubhed4 {
     background-color: #cc0000;
@@ -176,6 +182,8 @@ h3 {
     padding: 0;
     margin: 0;
     line-height: 3vw;
+        text-shadow: 2px 2px 5px #000;
+
 }
 
 .bigsubhed5 {
@@ -186,6 +194,8 @@ h3 {
     padding: 0;
     margin: 0;
     line-height: 3vw;
+        text-shadow: 2px 2px 5px #000;
+
 }
 .dropcap {
     font-weight: 700;

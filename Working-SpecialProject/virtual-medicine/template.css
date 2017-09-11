@@ -113,6 +113,7 @@ h3 {
     text-align: center;
     width: 100%;
     text-shadow: 2px 2px 3px #000;
+    font-family: 'Orbitron', sans-serif;
 }/*apply to h1 within the heroimg div*/
 
 /*----- Body Copy Things -----*/
@@ -124,7 +125,8 @@ h3 {
     margin: 0;
     font-size: 40px;
     font-weight: 900i;
-    text-transform: uppercase;
+    font-family: 'Orbitron', sans-serif;
+
 }/*apply to h1, not the art hed*/
 
 .credit {
@@ -134,8 +136,7 @@ h3 {
 }/*apply to h4 with developer's name and title*/
 
 .subhed {
-    font-family: montserrat
-    , sans-serif;
+    font-family: 'Orbitron', sans-serif;
     font-weight: 800;
     color: #7fc448;
 }/*apply to h2 tags*/
@@ -402,6 +403,7 @@ float: right;
         width: 80%;
         padding: 0% 10% 0 10%;
         font-size: 25px;
+        
     }
     
     .date {

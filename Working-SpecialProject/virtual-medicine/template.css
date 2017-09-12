@@ -325,7 +325,7 @@ float: right;
 }/*effects the post logo in the top left of the page*/
 
 #home { 
-  background: url(https://s3.amazonaws.com/snwceomedia/ohi/af531a0d-f92d-41eb-add3-73f53957631f.sized-1000x1000.jpg) 50% 0 repeat fixed; min-height: 1000px; 
+  background: url(https://s3.amazonaws.com/snwceomedia/ohi/af531a0d-f92d-41eb-add3-73f53957631f.sized-1000x1000.jpg) 50% 0 no-repeat fixed; min-height: 1000px; 
   height: 1000px; 
   margin: 0 auto; 
   width: 100%; 
@@ -342,7 +342,7 @@ float: right;
 }
  
 #about { 
-  background: url(https://s3.amazonaws.com/snwceomedia/ohi/af531a0d-f92d-41eb-add3-73f53957631f.sized-1000x1000.jpg) 50% 0 repeat fixed; min-height: 1000px; 
+  background: url(https://s3.amazonaws.com/snwceomedia/ohi/af531a0d-f92d-41eb-add3-73f53957631f.sized-1000x1000.jpg) 50% 0 no-repeat fixed; min-height: 1000px; 
   height: 1000px; 
   margin: 0 auto; 
   width: 100%; 

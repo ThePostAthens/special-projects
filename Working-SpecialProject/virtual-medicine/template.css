@@ -324,38 +324,13 @@ float: right;
     padding: 7px;
 }/*effects the post logo in the top left of the page*/
 
-#home { 
-  background: url(https://s3.amazonaws.com/snwceomedia/ohi/af531a0d-f92d-41eb-add3-73f53957631f.sized-1000x1000.jpg) 50% 0 no-repeat fixed; min-height: 1000px; 
-  height: 1000px; 
-  margin: 0 auto; 
-  width: 100%; 
-  max-width: 1920px; 
-  position: relative; 
-}
- 
-#home article { 
-  height: 458px; 
-  position: absolute; 
-  text-align: center; 
-  top: 150px; 
-  width: 100%; 
-}
- 
-#about { 
-  background: url(https://s3.amazonaws.com/snwceomedia/ohi/af531a0d-f92d-41eb-add3-73f53957631f.sized-1000x1000.jpg) 50% 0 no-repeat fixed; min-height: 1000px; 
-  height: 1000px; 
-  margin: 0 auto; 
-  width: 100%; 
-  max-width: 1920px; 
-  position: relative; 
-}
- 
-#about article { 
-  height: 458px; 
-  position: absolute; 
-  text-align: center; 
-  top: 150px; 
-  width: 100%; 
+.parallax {
+    height: 800px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Landing page clicky box at bottom.*/
@@ -447,4 +422,8 @@ float: right;
     .story {
         height: 300px;
     }
+    
+    @media (min-width: 320px) and (max-width: 768px) {
+   background-attachment: scroll;
+}
 }

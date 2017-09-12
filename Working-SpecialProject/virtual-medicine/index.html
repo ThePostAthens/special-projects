@@ -55,7 +55,6 @@ THE
         <link rel="stylesheet" href="template.css">
         <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="/path/to/parallax.js"></script>
         
     </head>
     <body>        
@@ -106,16 +105,14 @@ THE
         
 <br>
 
- <section id="home" data-type="background" data-speed="10" class="pages">     
-    </section>   
+<div class="parallax" style="background-image: url('https://s3.amazonaws.com/media.ohi/15678_vegancooking_2o.jpg');">
+        <p class="photog" style="color:#FFF;">name here</p>
+        </div>
 
 
     
         <h2 style="font-family: 'Orbitron', sans-serif;" class="subhed">A booming industry</h2>
         
-        
-        <section id="about" data-type="background" data-speed="10" class="pages">
-</section>
 
         <h2 style="font-family: 'Orbitron', sans-serif;" class="subhed">Benefits of the technology</h2>
         
@@ -151,59 +148,7 @@ THE
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-54093688-1','auto');ga('send','pageview');
         </script>
-       <script>$( window ).resize(function() {
-$window = $(window);
-if( $window .width() > 800){
 
- $('section[data-type="background"]').each(function(){
- var $bgobj = $(this); // assigning the object
-
-  $(window).scroll(function() {
-
-    // Scroll the background at var speed
-    // the yPos is a negative value because we're scrolling it UP!                              
-    var yPos = -( ($window.scrollTop() - $bgobj.offset().top) / $bgobj.data('speed'));
-
-    // Put together our final background position
-    var coords = '50% '+ yPos + 'px';
-
-    // Move the background
-    $bgobj.css({ backgroundPosition: coords });
-
- }); // window scroll Ends
-
- });    
-}
-});
-
-
-
-$(document).ready(function(){
-$window = $(window);
-if( $window.width() > 800){
-// Cache the Window object
-
- $('section[data-type="background"]').each(function(){
- var $bgobj = $(this); // assigning the object
-
-  $(window).scroll(function() {
-
-    // Scroll the background at var speed
-    // the yPos is a negative value because we're scrolling it UP!                              
-    var yPos = -( ($window.scrollTop() - $bgobj.offset().top) / $bgobj.data('speed'));
-
-    // Put together our final background position
-    var coords = '50% '+ yPos + 'px';
-
-    // Move the background
-    $bgobj.css({ backgroundPosition: coords });
-
- }); // window scroll Ends
-
- });    
-}
-});
-</script>
         
         
     </body>

@@ -7,12 +7,12 @@ Please contact at SethPArcher@gmail.com with questions.*/
 
 body {
     font-family: montserrat, sans-serif;
-    background-color: #FFF;
+    background-color: #C9D7EB;
     color: #030406;
 }
 
 a {
-    color: #7fc448;
+    color: #233E6D;
     text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #eed7fc;
+    color: #233E6D;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -119,13 +119,15 @@ h3 {
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
+    color: #FFF;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
     font-size: 40px;
     font-weight: 900i;
     font-family: 'Orbitron', sans-serif;
+    text-shadow: 2px 2px 5px #000;
+
 
 }/*apply to h1, not the art hed*/
 
@@ -138,7 +140,9 @@ h3 {
 .subhed {
     font-family: 'Orbitron', sans-serif;
     font-weight: 800;
-    color: #7fc448;
+    color: #FFF;
+    text-shadow: 2px 2px 5px #000;
+
 }/*apply to h2 tags*/
 
 .dropcap {
@@ -282,7 +286,7 @@ float: right;
     text-align: right;
     margin:0;
     font-weight: 800;
-    color: #000;
+    color: #233E6D;
     font-size: 12px;
     width: 100%;
     padding: 0;
@@ -320,14 +324,39 @@ float: right;
     padding: 7px;
 }/*effects the post logo in the top left of the page*/
 
-.parallax {
-    height: 800px;
-    width: 100%;
-    background-attachment: fixed;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-}/* add to the wrapping div, give the div an inline style with the photo you want to be parallax*/
+#home { 
+  background: url(https://s3.amazonaws.com/snwceomedia/ohi/af531a0d-f92d-41eb-add3-73f53957631f.sized-1000x1000.jpg) 50% 0 repeat fixed; min-height: 1000px; 
+  height: 1000px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+}
+ 
+#home article { 
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 150px; 
+  width: 100%; 
+}
+ 
+#about { 
+  background: url(https://s3.amazonaws.com/snwceomedia/ohi/af531a0d-f92d-41eb-add3-73f53957631f.sized-1000x1000.jpg) 50% 0 repeat fixed; min-height: 1000px; 
+  height: 1000px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+}
+ 
+#about article { 
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 150px; 
+  width: 100%; 
+}
 
 /* Landing page clicky box at bottom.*/
 

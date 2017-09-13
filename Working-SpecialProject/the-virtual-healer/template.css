@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: #233E6D;
+    color: #486CAA;
     text-decoration: none;
 }
 
@@ -151,6 +151,10 @@ h3 {
     font-size: 2.9em;
     line-height: .9em;
     padding-right: 5px;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 5px #000;
+
 }/*apply to wrapping span tag*/
 
 .title {
@@ -215,8 +219,8 @@ blockquote {
     padding: 0 20%;
     margin: 0;
     font-size: 25px;
-    text-transform: uppercase;
-    color: #5379c4;
+    font-family: 'Orbitron', sans-serif;
+    color: #486CAA;
     font-weight: 800;
 }/*add to wrapping div*/
 
@@ -227,8 +231,8 @@ blockquote {
     float: right;
     margin: 0;
     font-size: 25px;
-    text-transform: uppercase;
-    color: #5379c4;
+    font-family: 'Orbitron', sans-serif;
+    color: #486CAA;
 }/*add to wrapping div*/
 
 .pq_left {

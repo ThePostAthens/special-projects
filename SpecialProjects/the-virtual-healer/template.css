@@ -375,12 +375,7 @@ float: right;
         width: 80%;
         padding: 0 10% 10px 10%;
     }
-    
-@media (min-width: 320px) and (max-width: 768px) {
-    .parallax {
-        background-attachment: scroll;
-        background-size: contain; 
-    }
+
     
     .oneimg_full p {
         width: 80%;
@@ -433,5 +428,10 @@ float: right;
         height: 300px;
     }
     
+@media only screen and (max-width:749px) {
+  .parallax {
+    background-attachment: inherit;
+  }
 }
+    
 }

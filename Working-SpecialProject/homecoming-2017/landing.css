@@ -7,7 +7,7 @@ Please contact at SethPArcher@gmail.com with questions.*/
 body, html {
   height: 100%;
   margin: 0;
-  font: 400 15px/1.8 "Lato", sans-serif;
+  font: 400 15px/1.8 montserrat, sans-serif;
   color: #777;
 }
 
@@ -34,19 +34,15 @@ body, html {
 }
 
 .caption span.border {
-  background-color: #111;
+  background-color: darkgreen;
   color: #fff;
   padding: 18px;
-  font-size: 25px;
-  letter-spacing: 10px;
+  font-size: 50px;
+  font-family: montserrat;
+  letter-spacing: 15px;
+ border: 5px solid rgba(255, 255, 255, .5);
 }
 
-h3 {
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  font: 20px "Lato", sans-serif;
-  color: #111;
-}
   
     
     

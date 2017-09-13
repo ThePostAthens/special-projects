@@ -379,7 +379,7 @@ float: right;
 @media (min-width: 320px) and (max-width: 768px) {
     .parallax {
         background-attachment: scroll;
-        background-size: 100% 100%; 
+        background-size: contain; 
     }
     
     .oneimg_full p {

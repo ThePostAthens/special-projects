@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #c4b27b;
     text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #eed7fc;
+    color: #414042;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -105,7 +105,7 @@ h3 {
 #arthed {
     color: #FFF;
     position: absolute;
-    bottom: 0;
+    bottom: 65px;
     padding: 0;
     margin: 0;
     font-size: 70px;
@@ -118,8 +118,9 @@ h3 {
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
+    color: #fbb040;
     padding: 0 10% 0 10%;
+    width: 80%;
     width: 80%;
     margin: 0;
     font-size: 40px;
@@ -164,6 +165,28 @@ h3 {
     font-size: 30px;
     font-family: montserrat
 }
+
+.box {
+    margin: auto;
+    width: 100%;
+    padding: 2px;
+    border-top-style:solid;
+    border-bottom-style:solid;
+    border-color: #c4b27b;
+    border-width: 3px;
+    text-align: center;
+    
+}
+
+.box p{
+    width:98%;
+    padding: 0;
+    margin-left: 2%; 
+    line-height: 30px;
+   
+}
+
+
 
 /*----- Img Things -----*/
 
@@ -289,7 +312,7 @@ float: right;
     text-align: right;
     margin:0;
     font-weight: 800;
-    color: #000;
+    color: #414042;
     font-size: 12px;
     width: 100%;
     padding: 0;
@@ -323,7 +346,7 @@ float: right;
     position: absolute;
     float: left;
     height: 30px;
-    padding: 7px;
+    padding: 20px;
 }/*effects the post logo in the top left of the page*/
 
 .parallax {

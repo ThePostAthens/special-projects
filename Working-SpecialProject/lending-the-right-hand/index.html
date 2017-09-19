@@ -91,6 +91,59 @@ THE
         <h4  id="byline" class="column20center"><strong><a href="https://twitter.com/_alexdarus">Alex Darus</a> /</strong> <span class="title">Blogs Editor</span></h4>
         
         <!-- CONTENT GOES BELOW HERE -->
+        
+            <!------ GALLERY STUFF --------->
+        
+        <div class="oneimg_center clearfix">
+            
+            <div class="mySlides">
+                <img src="https://s3.amazonaws.com/media.ohi/15236_driehaus_gymnastics_01f.JPG">
+                <p class="photog">Alex Driehaus / Director of Photography</p>
+                <p class="galleryPcut">Shawna Goody, 15, practices on the uneven bars at Southern Ohio Gymnastics Academy in Gallipolis.</p>
+            </div>
+            <div class="mySlides">
+                <img src="https://s3.amazonaws.com/media.ohi/15233_driehaus_gymnastics_02f.JPG">
+                <p class="photog">Alex Driehaus / Director of Photography</p>
+                <p class="galleryPcut">Natasha Woodgeard puts chalk on her hands before practicing on the uneven bars at Global Gymnastics Center in Athens.</p>
+            </div>
+            <div class="mySlides">
+                <img src="https://s3.amazonaws.com/media.ohi/15237_driehaus_gymnastics_06f.JPG">
+                <p class="photog">Alex Driehaus / Director of Photography</p>
+                <p class="galleryPcut">Gymnasts listen to instructions from their coach, Kim Runyon, before practice at Southern Ohio Gymnastics Academy in Gallipolis.</p>
+            </div>
+            <div class="mySlides">
+                <img src="https://s3.amazonaws.com/media.ohi/15239_driehaus_gymnastics_07f.JPG">
+                <p class="photog">Alex Driehaus / Director of Photography</p>
+                <p class="galleryPcut">Parents watch from a second floor window as their children practice at Southern Ohio Gymnastics Academy in Gallipolis.</p>
+            </div>
+            <div class="mySlides">
+                <img src="https://s3.amazonaws.com/media.ohi/15243_driehaus_gymnastics_12f.JPG">
+                <p class="photog">Alex Driehaus / Director of Photography</p>
+                <p class="galleryPcut">Eva Riley, center, does warmups with her teammates at the beginning of practice at Global Gymnastics Center in Athens.</p>
+            </div>
+
+            <div class="w3-row-padding w3-section">
+                <div class="gallery_bot">
+                    <img class="demo w3-border w3-hover-shadow" src="https://s3.amazonaws.com/media.ohi/15236_driehaus_gymnastics_01f.JPG" style="width:100%" onclick="currentDiv(1)">
+                </div>
+                <div class="gallery_bot">
+                    <img class="demo w3-border w3-hover-shadow" src="https://s3.amazonaws.com/media.ohi/15233_driehaus_gymnastics_02f.JPG" style="width:100%" onclick="currentDiv(2)">
+                </div>
+                <div class="gallery_bot">
+                    <img class="demo w3-border w3-hover-shadow" src="https://s3.amazonaws.com/media.ohi/15237_driehaus_gymnastics_06f.JPG" style="width:100%" onclick="currentDiv(3)">
+                </div>
+                <div class="gallery_bot">
+                    <img class="demo w3-border w3-hover-shadow" src="https://s3.amazonaws.com/media.ohi/15239_driehaus_gymnastics_07f.JPG" style="width:100%" onclick="currentDiv(4)">
+                </div>
+                <div class="gallery_bot">
+                    <img class="demo w3-border w3-hover-shadow" src="https://s3.amazonaws.com/media.ohi/15243_driehaus_gymnastics_12f.JPG" style="width:100%" onclick="currentDiv(5)">
+                </div>
+            </div>
+        </div>
+
+<!-- END OF GALLERY STUFF -->
+        
+        
 <p><span class="dropcap">R</span>uby Williams almost missed out on a life-changing experience because she was so skeptical about voluntourism. </p>
 <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">&ldquo;I put my payment down and I almost didn&rsquo;t go after reading about &hellip; voluntourism,&rdquo; Williams, a junior studying integrated social studies education, said. &ldquo;It was really surprising to see how (GIVE) won me over. I saw they were doing a lot of good.&rdquo; </p>
 <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><br />Williams spent three months over the summer in Laos teaching and interning with GIVE, short for <a style="text-decoration: none;" href="https://www.givevolunteers.org/">Growth International Volunteer Excursions</a>. She knew the name of every kid that she worked with. It&rsquo;s why when she sees photos of people working for orphanages with questionable volunteering companies, she is skeptical about the genuineness of it. </p>
@@ -173,13 +226,6 @@ THE
         
           <blockquote class="pq_right">“QUOTE HEREQUOTE HEREQUOTE HEREQUOTE HEREQUOTE HEREQUOTE HEREQUOTE HERE”<span class="attribution">name here</span></blockquote>
                 
-        <p>Test filler content. Filler content goes here because this is filler. I'm trying to make it have some different lengths to make it not repeat that badly. Different lenghts and filler content.</p>
-        
-        <div><h2 class="subhed">subhed here</h2></div>
-    
-
-        
-        <p>Test filler content. Filler content goes here becuase this is filler. I'm trying to make it have some different lengths to make it not repeat that badly. Different lenghts and filler content.</p>
     
         
         <!-- Developed By -->
@@ -209,6 +255,35 @@ THE
             e.src='https://www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-54093688-1','auto');ga('send','pageview');
+        </script>
+        
+         <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+
+            function currentDiv(n) {
+              showDivs(slideIndex = n);
+            }
+
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("demo");
+              if (n > x.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                 x[i].style.display = "none";
+              }
+              for (i = 0; i < dots.length; i++) {
+                 dots[i].className = dots[i].className.replace(" w3-border-red", "");
+              }
+              x[slideIndex-1].style.display = "block";
+              dots[slideIndex-1].className += " w3-border-red";
+            }
         </script>
         
     </body>

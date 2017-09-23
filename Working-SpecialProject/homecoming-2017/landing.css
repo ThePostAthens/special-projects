@@ -100,9 +100,9 @@ Please contact at SethPArcher@gmail.com with questions.*/
 }
 
 #showcase h1{
-  font-size:5vw;
+  font-size:6vw;
   color:#fff;
-  font-family: montserrat;
+  font-family: passion one;
   letter-spacing: 4vw;
   margin-left: 4vw;
   text-shadow: 2px 2px 3px #000;
@@ -113,7 +113,7 @@ Please contact at SethPArcher@gmail.com with questions.*/
   font-size:2.5vw;
   line-height:2vw;
   color:#fff;
-  font-family: montserrat;
+  font-family: passion one;
   text-shadow: 2px 2px 3px #000;
 }
 
@@ -139,7 +139,7 @@ Please contact at SethPArcher@gmail.com with questions.*/
     float: left;
     height: 30px;
     padding: 7px;
-}/*effects the post logo in the top left of the page*/   
+}/*effects the post logo in the top left of the page*/
 
 .hiddendiv{
 display:none;

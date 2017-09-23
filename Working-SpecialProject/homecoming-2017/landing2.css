@@ -157,6 +157,80 @@ h3 {
     font-weight: 400;
 }/*applies to entire byline, with title. bold the author name. put on h4 tag*/
 
+
+.gridcontainer {
+  -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+  font-family: 'Fira Sans', sans-serif;
+  text-align:center;
+  color: #fff;
+}
+
+h1 {
+  color: #222;
+  text-align:center;
+}
+
+.grid {
+  width: 100%;
+  display: table;
+  border-collapse:separate;
+  border-spacing:15px;
+}
+
+.grid-row {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+  margin:0 0 -15px 0;
+}
+
+.item {
+  display: table-cell;
+  background: darkgreen;
+  padding: 3%;
+}
+
+.item1 {
+  display: table-cell;
+  background: darkgreen;
+  padding: 6%;
+}
+
+.item2 {
+  display: table-cell;
+  background: darkgreen;
+  padding: 4%;
+}
+
+@media screen and (max-width: 480px) {
+
+ .grid-row {
+    display: block;
+    width: 100%;
+    margin:0;
+ }
+  
+ .item {
+  display: block;
+	width: 100%;
+  margin: 0 0 5px 0;
+ }  
+ 
+}
+
+.header {
+    background: white;
+    margin: 50px;
+    text-align: center;
+    font-family: passion one;
+    font-size:5vw;
+    letter-spacing: 3vw;
+    
+}
+
+
 /*----- Img Things -----*/
 
 .oneimg_center {

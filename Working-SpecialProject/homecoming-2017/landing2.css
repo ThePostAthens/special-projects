@@ -160,113 +160,46 @@ h3 {
 
 /*---- Landing Page Stuff ----*/
 
-.twocolumn {
-    width: 100%;
-    background-size: cover;
-    display: inline-block;
-    position: relative;
-}
-.twocolumn2 {
-    width: 50%;
-    background-size: cover;
-    display: inline-block;
-    position: relative;
+.wrapper {
+  max-width: 940px;
+  margin: 0 auto;
 }
 
-.onecolumn {
-    width: 25%;
-    display: inline-block;
-    position: relative;
+.wrapper > div {
+  background-color: darkgreen;
+  padding: 1em;
+  color: white;
+}.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.one {
+  grid-column: 1 / 3;
+  grid-row: 1;
+}
+.two { 
+  grid-column: 2 / 4;
+  grid-row: 1 / 3;
+}
+.three {
+  grid-column: 1;
+  grid-row: 2 / 5;
+}
+.four {
+  grid-column: 3;
+  grid-row: 3;
+}
+.five {
+  grid-column: 2;
+  grid-row: 4;
+}
+.six {
+  grid-column: 3;
+  grid-row: 4;
 }
 
-.twocolumn h2 {
-    position: absolute;
-    bottom: 0;
-    padding: 20px 10px 10px 10px;
-    margin: 0;
-    font-family: "Alfa Slab One";
-    color: #FFF;
-    text-transform: uppercase;
-    background: linear-gradient(rgba(256,256,256,.0),rgba(0,0,0,.8));
-}
-
-.twocolumn2  h2{
-    position: absolute;
-    bottom: 0;
-    padding: 20px 10px 10px 10px;
-    margin: 0;
-    font-family: "Alfa Slab One";
-    color: #FFF;
-    text-transform: uppercase;
-    background: linear-gradient(rgba(256,256,256,.0),rgba(0,0,0,.8));
-}
-
-
-.left {
-    float: left;
-}
-
-.right {
-    float: right;
-}
-
-.columnimg {
-    width: 100%;
-}
-
-.onecolumn h2 {
-    position: absolute;
-    bottom: 0;
-    padding: 20px 10px 10px 10px;
-    margin: 0;
-    font-family: "Alfa Slab One";
-    color: #FFF;
-    text-transform: uppercase;
-    font-size: 14px;
-    background: linear-gradient(rgba(256,256,256,.0),rgba(0,0,0,.8));
-}
-
-
-.others {
-    width: 100%;
-    height: 300px;
-}
-
-.other {
-    width: 50%;
-    height: 100%;
-    padding: 0;
-    margin: 0;
-    float: left;
-}
-
-.other h2 {
-    font-family: alfa slab one;
-    color: #fff;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 25px;
-    letter-spacing: 2px;
-    height: 70%;
-    padding: 5%;
-    margin: 0;
-}
-
-.other h3 {
-    font-family: alfa slab one;
-    color: #fff;
-    padding: 20px 0 0 20px;
-    letter-spacing: 1.5px;
-}
-
-.other:hover {
-    opacity: .7;
-}
-
-.signature {
-    width: 40%;
-    padding: 0 40% 30px 20%;
-}
 
 .header {
     background: white;

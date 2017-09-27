@@ -7,12 +7,12 @@ Please contact at SethPArcher@gmail.com with questions.*/
 
 body {
     font-family: montserrat, sans-serif;
-    background-color: #FFF;
+    background-color: #f3f5f4;
     color: #030406;
 }
 
 a {
-    color: #7fc448;
+    color: #439942;
     text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #eed7fc;
+    color: darkgrey;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -103,28 +103,30 @@ h3 {
 }
 
 #arthed {
-    color: #FFF;
+    color: #a1bf93;
     position: absolute;
     bottom: 0;
     padding: 0;
     margin: 0;
-    font-size: 70px;
+    font-size: 100px;
     font-weight: 700;
     text-align: center;
     width: 100%;
-    text-shadow: 2px 2px 3px #000;
+    text-shadow: 2px 2px 3px black;
+    font-family: playfair display;
+    font-style: italic;
 }/*apply to h1 within the heroimg div*/
 
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
+    color: #12561c;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
     font-size: 40px;
     font-weight: 900i;
-    text-transform: uppercase;
+    font-family: playfair display;
 }/*apply to h1, not the art hed*/
 
 .credit {
@@ -134,10 +136,9 @@ h3 {
 }/*apply to h4 with developer's name and title*/
 
 .subhed {
-    font-family: montserrat
-    , sans-serif;
+    font-family: playfair display;
     font-weight: 800;
-    color: #7fc448;
+    color: #12561c;
 }/*apply to h2 tags*/
 
 .dropcap {
@@ -146,6 +147,7 @@ h3 {
     font-size: 2.9em;
     line-height: .9em;
     padding-right: 5px;
+    font-family: Playfair display;
 }/*apply to wrapping span tag*/
 
 .title {
@@ -222,8 +224,9 @@ blockquote {
     float: right;
     margin: 0;
     font-size: 25px;
-    text-transform: uppercase;
-    color: #5379c4;
+    color: #a1bf93;
+    font-family: playfair display;
+    font-style: italic;
 }/*add to wrapping div*/
 
 .pq_left {
@@ -281,7 +284,7 @@ float: right;
     text-align: right;
     margin:0;
     font-weight: 800;
-    color: #000;
+    color: black;
     font-size: 12px;
     width: 100%;
     padding: 0;

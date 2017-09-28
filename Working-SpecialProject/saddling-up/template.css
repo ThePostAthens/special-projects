@@ -7,12 +7,12 @@ Please contact at SethPArcher@gmail.com with questions.*/
 
 body {
     font-family: montserrat, sans-serif;
-    background-color: #FFF;
+    background-color: white;
     color: #030406;
 }
 
 a {
-    color: #7fc448;
+    color: #676F3E;
     text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #eed7fc;
+    color: #CD5346;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -119,7 +119,7 @@ h3 {
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
+    color: #ABC9EF;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
@@ -133,12 +133,51 @@ h3 {
     padding-bottom: 50px;
 }/*apply to h4 with developer's name and title*/
 
+
+*:before, *:after { content: ''; }
+hr {
+  border: 0;
+  margin: 1.35em auto;
+  max-width: 100%;
+  background-position: 50%;
+  box-sizing: border-box;
+}
 .subhed {
     font-family: montserrat
     , sans-serif;
     font-weight: 800;
-    color: #7fc448;
+    color: #676F3E;
+    text-align: center;
 }/*apply to h2 tags*/
+
+.bookends {
+  position: relative;
+  border-width: 5px;
+  border-color: #D7CEC7 transparent;
+  height: 11px;
+  border-style: double;
+  width: 30%;
+}
+.bookends:before,
+.bookends:after {
+  position: absolute;
+  bottom: -3.536px;
+  width: 7.071px;
+  height: 7.071px;
+  display: block;
+  border-width: 0 7.071px 7.071px 0;
+  border-color: hsl(0, 0%, 50%);
+  border-style: double;
+  box-sizing: border-box;
+}
+.bookends:before {
+  transform: translateZ(0) rotate(-45deg);
+  left: -21px;
+}
+.bookends:after {
+  transform: translateZ(0) rotate(135deg);
+  right: -21px;
+}
 
 .dropcap {
     font-weight: 700;
@@ -222,8 +261,7 @@ blockquote {
     float: right;
     margin: 0;
     font-size: 25px;
-    text-transform: uppercase;
-    color: #5379c4;
+    color: #CD5346;
 }/*add to wrapping div*/
 
 .pq_left {

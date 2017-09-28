@@ -161,10 +161,10 @@ h3 {
 /*---- Landing Page Stuff ----*/
 
 .wrapper {
-  max-width: 900px;
+  max-width: 800px;
   margin: 0 auto;
 }
-
+s
 .wrapper > div {
   background-color: lightcoral;
   padding: 1em;
@@ -180,14 +180,10 @@ h3 {
 .one {
   grid-column: 1;
   grid-row: 1;
-
 }
-
 .one:hover {
     opacity: .6;
 }
-
-
 .two:hover {
     opacity: .6;
 }

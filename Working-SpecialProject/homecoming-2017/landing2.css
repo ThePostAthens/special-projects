@@ -165,7 +165,7 @@ h3 {
 }
 
 .wrapper > div {
-  background-color: lightcoral;
+  background-color: darkgreen;
   padding: 1em;
   color: white;
     
@@ -181,6 +181,8 @@ h3 {
 .one {
   grid-column: 1;
   grid-row: 1;
+  background-image: url('https://s3.amazonaws.com/media.ohi/16101_starkey16f.jpg');
+  background-position: 610px 500px;
 }
 .one:hover {
     opacity: .6;
@@ -244,7 +246,7 @@ h3 {
     display: block;
   }
   .margin-bot {
-    margin-bottom: 2px;
+    margin-bottom: 4px;
   }
 }
 

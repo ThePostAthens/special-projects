@@ -166,7 +166,7 @@ h3 {
 
 .wrapper > div {
   background-color: darkgreen;
-  padding: 1em;
+  padding: 4em;
   color: white;
     
 }
@@ -249,20 +249,14 @@ h3 {
     margin-bottom: 4px;
   }
 }
-
-
 .header {
     background: white;
     margin: 50px;
     text-align: center;
     font-family: passion one;
     font-size:5vw;
-    letter-spacing: 3vw;
-    
+    letter-spacing: 3vw;   
 }
-
-
-
 /*----- Other -----*/
 
 #logo {

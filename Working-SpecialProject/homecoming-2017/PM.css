@@ -157,65 +157,6 @@ h3 {
     font-weight: 400;
 }/*applies to entire byline, with title. bold the author name. put on h4 tag*/
 
-
-/*---- Landing Page Stuff ----*/
-
-.wrapper {
-  display: grid;
-  grid-template-rows: 200px 200px auto 200px;
-  grid-template-columns: 2fr 1fr 1fr;
-  grid-template-areas:
-    "logo top-left top-right"
-    "logo bottom-left bottom-right"
-    "main main main"
-    "bottom-row bottom-row bottom-row";
-  grid-column-gap: 6px;
-  grid-row-gap: 6px;
-}
-
-.logo {
-  grid-area: logo;
-  background-color: red;
-}
-.menu-top-left {
-  grid-area: top-left;
-  background-color: blue;
-}
-.menu-top-right {
-  grid-area: top-right;
-  background-color: blue;
-}
-.menu-bottom-left {
-  grid-area: bottom-left;
-  background-color: blue;
-}
-.menu-bottom-right {
-  grid-area: bottom-right;
-  background-color: blue;
-}
-.main {
-  grid-area: main;
-  background-color: green;
-  
-  height: 400px;
-}
-.bottom-row {
-  grid-area: bottom-row;
-  background-color: yellow;
-}
-
-
-.header {
-    background: white;
-    margin: 50px;
-    text-align: center;
-    font-family: passion one;
-    font-size:5vw;
-    letter-spacing: 3vw;
-    
-}
-
-
 /*----- Img Things -----*/
 
 .oneimg_center {

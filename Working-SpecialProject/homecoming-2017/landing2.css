@@ -159,23 +159,30 @@ h3 {
 
 
 /*---- Landing Page Stuff ----*/
+
+.header {
+    background: white;
+    margin: 50px;
+    text-align: center;
+    font-family: passion one;
+    font-size:5vw;
+    letter-spacing: 3vw; 
+}
 .wrapper {
   max-width: 900px;
   margin: 0 auto;
 }
 
 .wrapper > div {
-  background-color: darkgreen;
-  padding: 4em;
+  background-color: lightcoral;
+  padding: 3em;
   color: white;
     
-}
-
-.wrapper {
+}.wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
-  grid-auto-rows: minmax(200px, auto);
+  grid-gap: 15px;
+  grid-auto-rows: minmax(100px, auto);
 }
 
 .one {
@@ -184,6 +191,68 @@ h3 {
   background-image: url('https://s3.amazonaws.com/media.ohi/16101_starkey16f.jpg');
   background-position: 610px 500px;
 }
+.two { 
+  grid-column: 2;
+  grid-row: 1 /3;
+  background-image: url('https://s3.amazonaws.com/media.ohi/16101_starkey16f.jpg');
+}
+.three {
+  grid-column: 1;
+  grid-row: 2 /3;
+  background-image: url('https://s3.amazonaws.com/media.ohi/16101_starkey16f.jpg');
+}
+.four {
+  grid-column: 3;
+  grid-row: 1 / 4;
+  background-image: url('https://s3.amazonaws.com/media.ohi/16101_starkey16f.jpg');
+}
+.five {
+  grid-column: 1 /3;
+  grid-row: 3;
+  background-image: url('https://s3.amazonaws.com/media.ohi/16101_starkey16f.jpg');
+}
+.six {
+  grid-column: 1 / 4;
+  grid-row: 4 ;
+  background-image: url('https://s3.amazonaws.com/media.ohi/16101_starkey16f.jpg');
+}
+.seven {
+  grid-column: 1;
+  background-image: url('https://s3.amazonaws.com/media.ohi/16101_starkey16f.jpg');
+}
+
+.eight {
+  grid-column: 1;
+  grid-row: 8 / 5;
+  background-image: url('https://s3.amazonaws.com/media.ohi/16101_starkey16f.jpg');
+}
+
+.nine {
+  grid-column: 2;
+  grid-row: 7/5;
+  background-image: url('https://s3.amazonaws.com/media.ohi/16101_starkey16f.jpg');
+}
+
+.ten {
+  grid-column: 3;
+  background-image: url('https://s3.amazonaws.com/media.ohi/16101_starkey16f.jpg');
+}
+.eleven {
+  grid-column: 3;
+  grid-row: 7/6;
+  background-image: url('https://s3.amazonaws.com/media.ohi/16101_starkey16f.jpg');
+}
+.twelve {
+  grid-column: 2/4;
+  grid-row: 7;
+  background-image: url('https://s3.amazonaws.com/media.ohi/16101_starkey16f.jpg');
+}
+.thirteen {
+  grid-column: 1/4;
+  grid-row: 8 ;
+  background-image: url('https://s3.amazonaws.com/media.ohi/16101_starkey16f.jpg');
+}
+/*HOVER*/
 .one:hover {
     opacity: .6;
 }
@@ -193,75 +262,42 @@ h3 {
 .three:hover {
     opacity: .6;
 }
-.two { 
-  grid-column: 2;
-  grid-row: 1 /3;
-}
-.two:hover {
+.four:hover {
     opacity: .6;
 }
-.three {
-  grid-column: 1;
-  grid-row: 2 /3;
+.five:hover {
+    opacity: .6;
 }
-.four {
-  grid-column: 3;
-  grid-row: 1 / 4;
+.six:hover {
+    opacity: .6;
 }
-.five {
-  grid-column: 1 /3;
-  grid-row: 3;
+.eight:hover {
+    opacity: .6;
 }
-.six {
-  grid-column: 1 / 4;
-  grid-row: 4 ;
+.nine:hover {
+    opacity: .6;
 }
-.seven {
-  grid-column: 1;
+.ten:hover {
+    opacity: .6;
 }
-
-.eight {
-  grid-column: 1;
-  grid-row: 8 / 5;
+.eleven:hover {
+    opacity: .6;
 }
-
-.nine {
-  grid-column: 2;
-  grid-row: 7/5;
+.twelve:hover {
+    opacity: .6;
+}
+.thirteen:hover {
+    opacity: .6;
 }
 
-.ten {
-  grid-column: 3;
-}
-.eleven {
-  grid-column: 3;
-  grid-row: 7/6;
-}
-.twelve {
-  grid-column: 2/4;
-  grid-row: 7;  
-}
-
-.thirteen {
-  grid-column: 1/4;
-  grid-row: 8 ;
-}
-}
 @media only screen and (max-width: 768px) {
-  .wrapper {
-    display: block;
-  }
-  .margin-bot {
-    margin-bottom: 4px;
-  }
-}
-.header {
-    background: white;
-    margin: 50px;
-    text-align: center;
-    font-family: passion one;
-    font-size:5vw;
-    letter-spacing: 3vw;   
+ .wrapper {
+   display: block;
+ }
+ .margin-bot {
+   margin-bottom: 2px;
+ }
+
 }
 /*----- Other -----*/
 

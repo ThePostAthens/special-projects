@@ -141,7 +141,7 @@ h3 {
 }
 
 #arthed {
-    color: #FFF;
+    color: #000;
     position: relative;
     bottom: 0;
     padding-bottom: 1.5%;
@@ -151,29 +151,19 @@ h3 {
     text-align: center;
     width: 100%;
     letter-spacing: 3px;
+    font-family: passion one;
     
 }/*apply to h1 within the heroimg div*/
 
-#arthed span{
-    background-color: rgba(0, 0, 0, .8);
-}
-
-/*----- Body Copy Things -----*/
-
 .headline {
-    color: #fff;
-    padding: 0;
-    width: 100%;
-    text-align: center;
+    color: #497425;
+    padding: 0 10% 0 10%;
+    width: 80%;
     margin: 0;
     font-size: 40px;
     font-weight: 900i;
     text-transform: uppercase;
 }/*apply to h1, not the art hed*/
-
-.headline span{
-    background-color: rgba(0, 0, 0, .8);
-}
 
 .credit {
     font-size: 16px;
@@ -185,7 +175,7 @@ h3 {
     font-family: montserrat
     , sans-serif;
     font-weight: 800;
-    color: #000;
+    color: #7fc448;
 }/*apply to h2 tags*/
 
 .dropcap {
@@ -196,19 +186,26 @@ h3 {
     padding-right: 5px;
 }/*apply to wrapping span tag*/
 
-/*should be in same p tag as the author name*/
+.title {
+    color: #606060;
+}/*should be in same p tag as the author name*/
 
 #byline {
     margin: 0;
     font-weight: 400;
-    color:#fff;
-    width: 100%;
-    text-align: center;
 }/*applies to entire byline, with title. bold the author name. put on h4 tag*/
 
-#byline span{
-    background-color: rgba(0, 0, 0, .8);
-}
+
+/*----- Body Copy Things -----*/
+
+.title {
+    color: #606060;
+}/*should be in same p tag as the author name*/
+
+#byline {
+    margin: 0;
+    font-weight: 400;
+}/*applies to entire byline, with title. bold the author name. put on h4 tag*/
 
 /*----- Img Things -----*/
 
@@ -442,7 +439,7 @@ also use these tags to move iframes, graphics etc.. anything that would behave l
     .headline {
         width: 80%;
         padding: 0% 10% 0 10%;
-        font-size: 18px;
+        font-size: 25px;
     }
     
     .date {

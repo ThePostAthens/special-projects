@@ -180,7 +180,7 @@ h3 {
 
 .three {
 	grid-column: 1;
-	grid-row: 2 /3;
+	grid-row: 2 / 3;
 	background-image: url('http://www.extremetech.com/wp-content/uploads/2012/02/GreenBackground.png');
     position: relative;
 }

@@ -115,12 +115,6 @@ h3 {
 .none{
     display: none;
 }
-
-
-
-
-
-
 /*----- Hero Image -----*/
 
 #heroimg {
@@ -157,7 +151,7 @@ h3 {
 
 .headline {
     color: #497425;
-    padding: 0 10% 0 10%;
+    padding: 0 10% 0 6%;
     width: 80%;
     margin: 0;
     font-size: 40px;
@@ -176,6 +170,7 @@ h3 {
     , sans-serif;
     font-weight: 800;
     color: #7fc448;
+    font-size: 30px;
 }/*apply to h2 tags*/
 
 .dropcap {

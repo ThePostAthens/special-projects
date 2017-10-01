@@ -77,56 +77,6 @@ h3 {
     padding-right: 10%;
 }
 
-/*----- Nav Bar -----*/
-/*we don't use this section as often. delete if not used in the project*/
-
-#nav_bar {
-    background: #030406;
-    color: #FFF;
-    height: 50px;
-}
-
-#nav_bar img {
-    height: 30px;
-    padding: 10px;
-    float: left;
-}
-
-#nav_bar li {
-    list-style: none;
-    display: inline-block;
-    padding: 15px;
-    float: right;
-}
-
-#nav_bar ul {
-    margin: 0;
-}
-
-/*----- Hero Image -----*/
-
-#heroimg {
-    width: 100%;
-    position: relative;
-}/*apply to wrapping div with an img tag within*/
-
-#heroimg img {
-    width: 100%;
-}
-
-#arthed {
-    color: #FFF;
-    position: absolute;
-    bottom: 0;
-    padding: 0;
-    margin: 0;
-    font-size: 70px;
-    font-weight: 700;
-    text-align: center;
-    width: 100%;
-    text-shadow: 2px 2px 3px #000;
-}/*apply to h1 within the heroimg div*/
-
 /*----- Body Copy Things -----*/
 
 .headline {
@@ -144,13 +94,6 @@ h3 {
     font-weight: 100;
     padding-bottom: 50px;
 }/*apply to h4 with developer's name and title*/
-
-.subhed {
-    font-family: montserrat
-    , sans-serif;
-    font-weight: 800;
-    color: #7fc448;
-}/*apply to h2 tags*/
 
 .dropcap {
     font-weight: 700;
@@ -483,7 +426,3 @@ h3 {
     #logo {
         height: 25px;
     }
-    
-    
-
-

@@ -81,36 +81,79 @@ THE
          <a href="http://www.thepostathens.com"><div><img id="logo" src="img/logoblk.png"></div></a>
         
        <br>
-        <div class="header">HOMECOMING</div>
         
+        <h1 class="headline">title here</h1>
+        
+        <p><span class="dropcap">P</span>laceholdertext placeholdertext placeholdertext placeholdertext placeholdertext placeholdertext placeholdertext placeholdertext placeholdertext placeholdertext placeholdertext placeholdertext</p>
+        
+        <p>placeholdertext placeholdertext placeholdertext placeholdertext placeholdertext placeholdertext placeholdertext placeholdertext placeholdertext placeholdertext placeholdertext placeholdertext </p>
+       
+        <p>placeholdertext placeholdertext placeholdertext placeholdertext placeholdertext placeholdertext placeholdertext placeholdertext placeholdertext placeholdertext </p>
+      
+        <p>placeholdertext placeholdertext placeholdertext placeholdertext placeholdertext placeholdertext placeholdertext placeholdertext placeholdertext placeholdertext </p>
+       
+        <p>placeholdertext placeholdertext placeholdertext placeholdertext placeholdertext placeholdertext placeholdertext </p>
+        
+        <p>&mdash; Andrew Gillis, Sports Editor</p>
+        
+        <h3 class="sectionbreak">♦ ♦ ♦</h3>
+        <br>
 <div class="wrapper">
-    
-    <div onclick="location.href='landing.html';" style="cursor: pointer;" class="one margin-bot"></div>
-    
-    <div onclick="location.href='landing.html';" style="cursor: pointer;" class="two margin-bot"></div>
-    
-    <div onclick="location.href='landing.html';" style="cursor: pointer;" class="three margin-bot"></div>
-    
-    <div onclick="location.href='landing.html';" style="cursor: pointer;" class="three margin-bot"></div>
-    
-    <div onclick="location.href='landing.html';" style="cursor: pointer;" class="four margin-bot"></div>
-    
-    <div onclick="location.href='landing.html';" style="cursor: pointer;" class="five margin-bot"></div>
-    
-    <div onclick="location.href='landing.html';" style="cursor: pointer;" class="six margin-bot"></div>
-    
-    <div onclick="location.href='landing.html';" style="cursor: pointer;" class="eight margin-bot"></div>
-    
-    <div onclick="location.href='landing.html';" style="cursor: pointer;" class="nine margin-bot"></div>
-    
-    <div onclick="location.href='landing.html';" style="cursor: pointer;" class="ten margin-bot"></div>
-    
-    <div onclick="location.href='landing.html';" style="cursor: pointer;" class="eleven margin-bot"></div>
-    
-    <div onclick="location.href='landing.html';" style="cursor: pointer;" class="twelve margin-bot"></div>
-    
-    <div onclick="location.href='landing.html';" style="cursor: pointer;" class="thirteen margin-bot"></div>
-      </div> 
+
+	<div onclick="location.href='landing.html';" style="cursor: pointer;" class="one margin-bot">
+		<span>One</span>
+	</div>
+
+	<div onclick="location.href='landing.html';" style="cursor: pointer;" class="two margin-bot">
+        <span>One</span>
+    </div>
+
+	<div onclick="location.href='landing.html';" style="cursor: pointer;" class="three margin-bot">
+    <span>One</span>
+    </div>
+
+	<div onclick="location.href='landing.html';" style="cursor: pointer;" class="three margin-bot">
+    <span>One</span>
+    </div>
+
+	<div onclick="location.href='landing.html';" style="cursor: pointer;" class="four margin-bot">
+    <span>One</span>
+    </div>
+
+	<div onclick="location.href='landing.html';" style="cursor: pointer;" class="five margin-bot">
+    <span>One</span>
+    </div>
+
+	<div onclick="location.href='landing.html';" style="cursor: pointer;" class="six margin-bot">
+    <span>One</span>
+    </div>
+
+	<div onclick="location.href='landing.html';" style="cursor: pointer;" class="eight margin-bot">
+    <span>One</span>
+    </div>
+
+	<div onclick="location.href='landing.html';" style="cursor: pointer;" class="nine margin-bot">
+    <span>One</span>
+    </div>
+
+	<div onclick="location.href='landing.html';" style="cursor: pointer;" class="ten margin-bot">
+    <span>One</span>
+    </div>
+
+	<div onclick="location.href='landing.html';" style="cursor: pointer;" class="eleven margin-bot">
+    <span>One</span>
+    </div>
+
+	<div onclick="location.href='landing.html';" style="cursor: pointer;" class="twelve margin-bot">
+    <span>One</span>
+
+    </div>
+
+	<div onclick="location.href='landing.html';" style="cursor: pointer;" class="thirteen margin-bot">
+    <span>One</span>
+    </div>
+</div>
+
         
         
         <br>
@@ -144,6 +187,48 @@ THE
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-54093688-1','auto');ga('send','pageview');
         </script>
+        <script>
+        /**
+ * I prefer to style the border's `border-image`, and I avoid using pseudo
+ * elements when possible, so the styles may be applied to block level
+ * elements, for use where an <hr> would be non-semantic.
+ */
+
+/* Inline XML data URI fix */
+/* Some browsers (most browsers) don't render inline XML data URI's unless they are escaped. */
+(function() {
+
+if(!window.StyleFix) return;
+if(hasxmldatauri()) return;
+  
+// Test unescaped XML data uri
+function hasxmldatauri() {
+  var img = new Image();
+  datauri = 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0,0 1,1" fill="#000"></svg>';
+  img.src = datauri;
+  return (img.width == 1 && img.height == 1);
+}
+
+StyleFix.register(function(css) {
+
+  return css.replace(RegExp(/url\(\'data:image\/svg\+xml,(.*)\'\)/gi), function($0, svg) {
+		return "url('data:image/svg+xml," + escape(svg) + "')";
+	});
+  
+});
+
+})();
+
+/* Radial Gradient Syntax fix */
+StyleFix.register(function(css, raw) {
+	if (PrefixFree.functions.indexOf('radial-gradient') > -1) {
+		css = css.replace(/radial-gradient\(([a-z-\s]+\s+)?at ([^,]+)(?=,)/g, function($0, shape, center){
+			return 'radial-gradient(' + center + (shape? ', ' + shape : '');
+		});
+	}
+
+	return css;
+});</script>
         
     </body>
 </html>

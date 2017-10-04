@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #107e41;
     text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #eed7fc;
+    color: darkgray;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -104,14 +104,13 @@ h3 {
 }
 
 #arthed {
-    color: #000;
+    color: #31c533;
     padding: 0;
     margin: 0;
     font-family: passion one;
-    font-size: 70px;
+    font-size: 80px;
     text-align: center;
     width: 100%;
-    text-shadow: 1px 1px 3px #000;
     line-height: 100%;
     
 }/*apply to h1 within the heroimg div*/
@@ -119,12 +118,14 @@ h3 {
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
+    color: black;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
     font-size: 40px;
     font-weight: 900i;
+    font-family: passion one;
+    
 }/*apply to h1, not the art hed*/
 
 .credit {
@@ -134,10 +135,9 @@ h3 {
 }/*apply to h4 with developer's name and title*/
 
 .subhed {
-    font-family: montserrat
-    , sans-serif;
+    font-family: passion one;
     font-weight: 800;
-    color: #7fc448;
+    color: black
 }/*apply to h2 tags*/
 
 .dropcap {
@@ -162,7 +162,7 @@ h3 {
     background-color: #4CAF50;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 15px 30px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -171,7 +171,7 @@ h3 {
     cursor: pointer;
     position: relative;
     border-radius: 10px;
-    background-color: green;
+    background-color: #107E41;
     text-shadow: 2px 2px 2px black;
 }
 
@@ -238,9 +238,9 @@ blockquote {
     padding: 0 20%;
     margin: 0;
     font-size: 25px;
-    text-transform: uppercase;
-    color: #5379c4;
+    color: #31c533;
     font-weight: 800;
+    font-family: passion one;
 }/*add to wrapping div*/
 
 .pq_right {
@@ -250,8 +250,9 @@ blockquote {
     float: right;
     margin: 0;
     font-size: 25px;
-    text-transform: uppercase;
-    color: #5379c4;
+    color: #31c533;
+    font-family: passion one;
+
 }/*add to wrapping div*/
 
 .pq_left {
@@ -263,7 +264,8 @@ blockquote {
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #5379c4;
+    color: #31c533;
+    font-family: passion one;
 }/*add to wrapping div*/
 
 .attribution {

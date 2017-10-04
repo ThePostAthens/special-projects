@@ -139,7 +139,6 @@ h3 {
 }
 
 .wrapper>div {
-	background-color: lightcoral;
 	padding: 5em;
 	color: white;
 }
@@ -155,8 +154,10 @@ h3 {
 	grid-column: 1;
 	grid-row: 1;
 	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/35604047-47c9-4d88-8bd1-7cf2eb09d61e.sized-1000x1000.jpg');
-	background-position: -150px 700px;
 	position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -100px;
 }
 
 .one span {
@@ -181,8 +182,10 @@ h3 {
 .three {
 	grid-column: 1;
 	grid-row: 2 / 3;
-	background-image: url('http://www.extremetech.com/wp-content/uploads/2012/02/GreenBackground.png');
+	background-image: url('img/Homecoming%20double%20take.png');
     position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .three span {
@@ -260,8 +263,9 @@ h3 {
 	grid-row: 7/5;
 	background-image: url('http://snworksceo.imgix.net/ohi/3ea841f4-ca74-40a1-8db6-7e1607fe193c.sized-1000x1000.jpg');
     position: relative;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: -300px -130px;
+    background-position: center;
 }
 
 .nine span {

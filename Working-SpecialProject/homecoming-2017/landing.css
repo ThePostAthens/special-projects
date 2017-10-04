@@ -258,8 +258,10 @@ h3 {
 .nine {
 	grid-column: 2;
 	grid-row: 7/5;
-	background-image: url('https://www.cdc.gov/nchs/images/hp2000/hdspr/hdslide11.gif');
+	background-image: url('http://snworksceo.imgix.net/ohi/3ea841f4-ca74-40a1-8db6-7e1607fe193c.sized-1000x1000.jpg');
     position: relative;
+    background-repeat: no-repeat;
+    background-position: -300px -130px;
 }
 
 .nine span {

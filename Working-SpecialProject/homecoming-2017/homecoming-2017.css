@@ -87,7 +87,7 @@ Please contact at SethPArcher@gmail.com with questions.*/
 }
 
 #showcase{
-  background-image:url('https://s3.amazonaws.com/media.ohi/16101_starkey16f.jpg');
+  background-image:url('https://s3.amazonaws.com/snwceomedia/ohi/bca59d74-2f67-4c10-a819-952c484f92c3.sized-1000x1000.jpg');
   background-size:cover;
   background-position:center;
   height:100vh;
@@ -124,7 +124,7 @@ Please contact at SethPArcher@gmail.com with questions.*/
   padding: 10px 20px;
   border-radius:10px;
   margin-top:100px;
-  background-color: darkgreen;
+  background-color: #31c533;
   text-shadow: 2px 2px 3px #000;
 }
 

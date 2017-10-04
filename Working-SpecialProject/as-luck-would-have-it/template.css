@@ -152,11 +152,10 @@ h3 {
 .headline {
     color: #497425;
     padding: 0 10% 0 6%;
-    width: 80%;
+    width: 95%;
     margin: 0;
     font-size: 40px;
     font-weight: 900i;
-    text-transform: uppercase;
 }/*apply to h1, not the art hed*/
 
 .credit {

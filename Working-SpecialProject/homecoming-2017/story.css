@@ -125,7 +125,6 @@ h3 {
     margin: 0;
     font-size: 40px;
     font-weight: 900i;
-    text-transform: uppercase;
 }/*apply to h1, not the art hed*/
 
 .credit {
@@ -147,6 +146,7 @@ h3 {
     font-size: 2.9em;
     line-height: .9em;
     padding-right: 5px;
+    font-family: passion one;
 }/*apply to wrapping span tag*/
 
 .title {
@@ -215,8 +215,15 @@ h3 {
     width: 33%;
 }
 
-.oneimg_full img, .oneimg_center img, .oneimg_right img, .oneimg_left img {
+.oneimg_full img, .oneimg_center img, .oneimg_right img, .oneimg_left img, .oneimg_mug img {
     width: 100%
+}
+.oneimg_mug {
+    width: 20%;
+    padding-left: 10%;
+    padding-right: 20px;
+    padding-top: 20px;
+    float: left;
 }
 
 /*----- Pullqute stuff -----*/
@@ -396,6 +403,10 @@ float: right;
     .pq_center, .pq_right, .pq_left {
         padding: 0 5%;
         width: 90%;
+    }
+    
+     .oneimg_mug {
+        width: 20%;
     }
     
     .column20center, p {

@@ -12,8 +12,8 @@ body {
 }
 
 a {
+    color: #107e41;
     text-decoration: none;
-    color: #a9d0d6;
 }
 
 a:hover {
@@ -21,8 +21,8 @@ a:hover {
 }
 
 p {
-    width: 80%;
-    padding: 0 10%;
+    width: 60%;
+    padding: 0 20%;
 }/*these have a style simmilar to column20center, do not add column20center to p tags*/
 
 h2 {
@@ -32,22 +32,22 @@ h2 {
 h3 {
     font-size: 16px;
     margin: 0;
-    padding: 0 10%;
+    padding: 0;
 }
 
 .date{
     font-weight: 800;
-    color: #eed7fc;
-    width: 80%;
-    padding: 0 0 0 6%;
+    color: darkgray;
+    width: 60%;
+    padding: 0% 20% 0 20%;
     margin: 0;
 }/*apply to p tag*/
 
 /*-----Column stuff-----*/
 
 .column20center {
-    width: 80%;
-    padding: 0 6%;
+    width: 60%;
+    padding: 0 20%;
 }/*do not apply to p tags, they automatically have a simmilar styling*/
 
 .column10center {
@@ -91,31 +91,8 @@ h3 {
     margin: 0;
 }
 
-/*----Wraps---*/
-
-.wrap {
-    width: 100%;
-    overflow: hidden;
-}
-
-.left_wrap{
-    width: 60%;
-    float: left;
-    position: relative;
-    
-}
-
-.right_wrap{
-    width: 40%;
-    float: right;
-    position: relative;
-    display: block;
-}
-
-.none{
-    display: none;
-}
 /*----- Hero Image -----*/
+
 #heroimg {
     width: 70%;
     position: relative;
@@ -126,36 +103,29 @@ h3 {
     width: 100%;
 }
 
-#art{
-    position: absolute;
-    overflow: hidden;
-    bottom: 0;
-    width: 100%;
-    margin-bottom: 20%;
-}
-
 #arthed {
-    color: #000;
-    position: relative;
-    bottom: 0;
-    padding-bottom: 1.5%;
+    color: #31c533;
+    padding: 0;
     margin: 0;
-    font-size: 100px;
-    font-weight: 700;
+    font-family: passion one;
+    font-size: 80px;S
     text-align: center;
     width: 100%;
-    letter-spacing: 3px;
-    font-family: passion one;
+    line-height: 100%;
     
 }/*apply to h1 within the heroimg div*/
 
+/*----- Body Copy Things -----*/
+
 .headline {
-    color: #497425;
-    padding: 0 10% 0 6%;
-    width: 95%;
+    color: black;
+    padding: 0 10% 0 10%;
+    width: 80%;
     margin: 0;
     font-size: 40px;
     font-weight: 900i;
+    font-family: montserrat;
+    
 }/*apply to h1, not the art hed*/
 
 .credit {
@@ -165,11 +135,9 @@ h3 {
 }/*apply to h4 with developer's name and title*/
 
 .subhed {
-    font-family: montserrat
-    , sans-serif;
+    font-family: montserrat;
     font-weight: 800;
-    color: #7fc448;
-    font-size: 30px;
+    color: black
 }/*apply to h2 tags*/
 
 .dropcap {
@@ -178,6 +146,7 @@ h3 {
     font-size: 2.9em;
     line-height: .9em;
     padding-right: 5px;
+    font-family: montserrat;
 }/*apply to wrapping span tag*/
 
 .title {
@@ -189,23 +158,31 @@ h3 {
     font-weight: 400;
 }/*applies to entire byline, with title. bold the author name. put on h4 tag*/
 
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 10px;
+    background-color: #107E41;
+    text-shadow: 2px 2px 2px black;
+}
 
-/*----- Body Copy Things -----*/
-
-.title {
-    color: #606060;
-}/*should be in same p tag as the author name*/
-
-#byline {
-    margin: 0;
-    font-weight: 400;
-}/*applies to entire byline, with title. bold the author name. put on h4 tag*/
-
+.buttoncenter {
+    text-align: center;
+}
 /*----- Img Things -----*/
 
 .oneimg_center {
-    width: 85%;
-    padding: 15% 10% 0 5%;
+    width: 60%;
+    padding: 0 20%;
 }/*Apply to a wrapping div*/
 
 .oneimg_right {
@@ -238,11 +215,58 @@ h3 {
     width: 33%;
 }
 
-.oneimg_full img, .oneimg_center img, .oneimg_right img, .oneimg_left img {
+.oneimg_full img, .oneimg_center img, .oneimg_right img, .oneimg_left img, .oneimg_mug img {
     width: 100%
+}
+.oneimg_mug {
+    width: 20%;
+    padding-left: 10%;
+    padding-right: 20px;
+    padding-top: 20px;
+    float: left;
 }
 
 /*----- Pullqute stuff -----*/
+
+blockquote {
+    padding: 0;
+    margin: 5px;
+}/*should be the text of the pull quote*/
+
+.pq_center {
+    width: 60%;
+    padding: 0 20%;
+    margin: 0;
+    font-size: 25px;
+    color: #31c533;
+    font-weight: 800;
+    font-family: passion one;
+}/*add to wrapping div*/
+
+.pq_right {
+    width: 40%;
+    padding-right: 10%;
+    padding-left: 15px;
+    float: right;
+    margin: 0;
+    font-size: 25px;
+    color: #31c533;
+    font-family: passion one;
+
+}/*add to wrapping div*/
+
+.pq_left {
+    width: 40%;
+    padding-left: 10%;
+    padding-right: 0;
+    float: left;
+    margin: 0;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #31c533;
+    font-family: passion one;
+}/*add to wrapping div*/
 
 .attribution {
     font-size: 20px;
@@ -270,7 +294,6 @@ also use these tags to move iframes, graphics etc.. anything that would behave l
     padding: 0;
 }/*add p tag, should be after the photog p tag*/
 
-
 .photog{
     float: right;
     text-align: right;
@@ -290,6 +313,19 @@ also use these tags to move iframes, graphics etc.. anything that would behave l
 
 /*----- Gallery Stuff -----*/
 
+.gallery_bot {
+    padding: 0;
+    width: 20%;
+    float: left;
+}
+
+.w3-hover-shadow:hover {
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important
+}
+
+.mySlides {
+    display:none;
+}
 
 /*----- Other -----*/
 
@@ -301,6 +337,16 @@ also use these tags to move iframes, graphics etc.. anything that would behave l
     padding: 7px;
 }/*effects the post logo in the top left of the page*/
 
+.parallax {
+    height: 800px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}/* add to the wrapping div, give the div an inline style with the photo you want to be parallax*/
+
+/* Landing page clicky box at bottom.*/
 
 .story {
     color: #FFF;
@@ -332,68 +378,12 @@ also use these tags to move iframes, graphics etc.. anything that would behave l
     padding: 10px 15% 0 15%;
 }
 
-@media screen and (max-width: 1403px){
-    .oneimg_center{
-        padding-top: 25%;
-    }
-}
-
-@media screen and (max-width: 1269px){
-    .oneimg_center{
-        padding-bottom: 35%;
-    }
-}
-
-@media screen and (max-width: 1136px){
-    .oneimg_center{
-        padding-bottom: 65%;
-    }
-}
-
-@media screen and (max-width: 1055px){
-    .oneimg_center{
-        padding-bottom: 99%;
-        padding-top: 75%;
-    }
-}
-
-
-@media screen and (max-width: 869px){
-    .oneimg_center{
-        padding-bottom: 95%;
-        padding-top: 98%;
-    }
-}
-
-@media screen and (max-width: 809px){
-    #arthed{
-        font-size: 90px;
-    }
-}
-
-@media screen and (max-width: 800px){
-    
-    .right_wrap{
-        display: none;
-    }
-    
-    .left_wrap{
-        width: 100%;
-        width: 100%;
-    }
-    
-    .none{
-        display: block;
-    }
-    
-    .oneimg_center {
-    width: 80%;
-    padding: 1% 10%;
-}
-    
-}
 @media screen and (max-width: 750px){
     
+    .oneimg_right, .oneimg_left, .oneimg_center {
+        width: 80%;
+        padding: 0 10% 10px 10%;
+    }
     
     .oneimg_full p {
         width: 80%;
@@ -405,6 +395,10 @@ also use these tags to move iframes, graphics etc.. anything that would behave l
         width: 90%;
     }
     
+     .oneimg_mug {
+        width: 20%;
+    }
+    
     .column20center, p {
         width: 80%;
         padding: 0 10%;
@@ -412,10 +406,6 @@ also use these tags to move iframes, graphics etc.. anything that would behave l
     
     #arthed {
         font-size: 40px;
-    }
-    
-    #art{
-        margin-bottom: 5%
     }
     
     .subhed{
@@ -448,5 +438,25 @@ also use these tags to move iframes, graphics etc.. anything that would behave l
     .story {
         height: 300px;
     }
-    
+    .pcut{
+    float: right;
+    text-align: left;
+    margin:0;
+    font-weight: 100;
+    color: #808080;
+    font-size: 8px;
+    width: 100%;
+    padding: 0;
+}/*add p tag, should be after the photog p tag*/
+
+.photog{
+    float: right;
+    text-align: right;
+    margin:0;
+    font-weight: 800;
+    color: #000;
+    font-size: 8px;
+    width: 100%;
+    padding: 0;
+}/*add to p tag, should be before the pcut p tag*/
 }

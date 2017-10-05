@@ -383,7 +383,7 @@ h3 {
 }
 
 .fifteen {
-	grid-column: 2/4;
+	grid-column: 2;
 	grid-row: 9;
 	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/f1ccd180-6932-4b8e-89da-73afa384cd0f.sized-1000x1000.jpg');
     position: relative;
@@ -392,6 +392,22 @@ h3 {
 }
 
 .fifteen span {
+	position: absolute;
+	bottom: 2px;
+	left: 5px;
+    text-shadow: 2px 2px black;
+}
+
+.sixteen {
+	grid-column: 3;
+	grid-row: 9;
+	background-image: url('http://snworksceo.imgix.net/ohi/0e427783-91ea-45ed-bd6a-041eb0181706.sized-1000x1000.jpg');
+    position: relative;
+    background-position: center;
+    background-position: 700px 550px;
+}
+
+.sixteen span {
 	position: absolute;
 	bottom: 2px;
 	left: 5px;

@@ -23,6 +23,7 @@ a:hover {
 p {
     width: 65%;
     padding: 0 18%;
+    text-align: center;
 }/*these have a style simmilar to column20center, do not add column20center to p tags*/
 
 h2 {
@@ -173,13 +174,13 @@ h3 {
 	background-image: url('img/FonticellaCentralMichigan14_.jpg');
     position: relative;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: -50px 0px;
 }
 
 .two span {
 	position: absolute;
-    bottom: 310px;
+    bottom: 2px;
     left: 5px;
     color: white;
     text-shadow: 2px 2px black;
@@ -204,8 +205,11 @@ h3 {
 .four {
 	grid-column: 3;
 	grid-row: 1 / 4;
-	background-image: url('http://www.ledr.com/colours/grey.jpg');
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/f73c7528-8436-4f48-bc1b-61479bd9ede0.sized-1000x1000.jpg');
     position: relative;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: -340px 0px;
 }
 
 .four span {
@@ -218,8 +222,11 @@ h3 {
 .five {
 	grid-column: 1 /3;
 	grid-row: 3;
-	background-image: url('https://www.cdc.gov/nchs/images/hp2000/hdspr/hdslide11.gif');
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/e7afb622-9902-43c1-85e4-f3c836904fe2.sized-1000x1000.jpg');
     position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -70px;
 }
 
 .five span {
@@ -262,8 +269,11 @@ h3 {
 .eight {
 	grid-column: 1;
 	grid-row: 8 / 5;
-	background-image: url('https://i.ytimg.com/vi/3qlRNWBWr5o/maxresdefault.jpg');
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/f222bab1-ee1a-43fb-83ab-527e2b0c65a6.sized-1000x1000.jpg');
     position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: -500px 0px;
 }
 
 .eight span {
@@ -285,7 +295,7 @@ h3 {
 
 .nine span {
 	position: absolute;
-	bottom: 310px;
+	bottom: 2px;
 	left: 5px;
     text-shadow: 2px 2px black;
 }
@@ -301,7 +311,7 @@ h3 {
 
 .ten span {
 	position: absolute;
-	bottom: 136px;
+	bottom: 2px;
 	left: 5px;
     color: white;
     text-shadow: 2px 2px black;
@@ -310,8 +320,11 @@ h3 {
 .eleven {
 	grid-column: 3;
 	grid-row: 7/6;
-	background-image: url('http://www.solidbackgrounds.com/images/2560x1440/2560x1440-indigo-web-solid-color-background.jpg');
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/b5cd0e37-1377-4bf2-9335-5becf600e28a.sized-1000x1000.jpg');
     position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: -500px -150px;
 }
 
 .eleven span {
@@ -324,8 +337,10 @@ h3 {
 .twelve {
 	grid-column: 2/4;
 	grid-row: 7;
-	background-image: url('http://www.extremetech.com/wp-content/uploads/2012/02/GreenBackground.png');
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/25ed2d7b-3195-41a1-8521-58475d700f1d.sized-1000x1000.jpg');
     position: relative;
+    background-position: center;
+    background-position: 800px -180px;
 }
 
 .twelve span {
@@ -338,7 +353,7 @@ h3 {
 .thirteen {
 	grid-column: 1/4;
 	grid-row: 8;
-	background-image: url('https://i.ytimg.com/vi/3qlRNWBWr5o/maxresdefault.jpg');
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/2f29eda4-4950-41e3-afd5-30efc1e3da44.sized-1000x1000.jpg');
     position: relative;
 }
 

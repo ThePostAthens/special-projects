@@ -353,8 +353,10 @@ h3 {
 .thirteen {
 	grid-column: 1/4;
 	grid-row: 8;
-	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/2f29eda4-4950-41e3-afd5-30efc1e3da44.sized-1000x1000.jpg');
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/4ac7e24b-b35f-4e83-9ae0-4086ce1d807f.sized-1000x1000.jpg');
     position: relative;
+    background-position: center;
+    background-position: 880px -180px;
 }
 
 .thirteen span {

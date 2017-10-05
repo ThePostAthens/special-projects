@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: #107e41;
+    color: #2E6767;
     text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: darkgray;
+    color: #9EABB0;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -94,9 +94,8 @@ h3 {
 /*----- Hero Image -----*/
 
 #heroimg {
-    width: 70%;
+    width: 100%;
     position: relative;
-    padding: 2% 15%;
 }/*apply to wrapping div with an img tag within*/
 
 #heroimg img {
@@ -104,11 +103,11 @@ h3 {
 }
 
 #arthed {
-    color: #31c533;
+    color: #A15862;
     padding: 0;
     margin: 0;
     font-family: passion one;
-    font-size: 80px;S
+    font-size: 80px;
     text-align: center;
     width: 100%;
     line-height: 100%;
@@ -135,9 +134,11 @@ h3 {
 }/*apply to h4 with developer's name and title*/
 
 .subhed {
-    font-family: montserrat;
+    font-family: montserrat
+    , sans-serif;
     font-weight: 800;
-    color: black
+    color: black;
+    text-align: center;
 }/*apply to h2 tags*/
 
 .dropcap {
@@ -171,12 +172,28 @@ h3 {
     cursor: pointer;
     position: relative;
     border-radius: 10px;
-    background-color: #107E41;
+    background-color: #2E6767;
     text-shadow: 2px 2px 2px black;
 }
 
 .buttoncenter {
     text-align: center;
+}
+
+hr {
+  border: 0;
+  margin: 1.35em auto;
+  max-width: 100%;
+  background-position: 50%;
+  box-sizing: border-box;
+}
+
+.pill {
+  height:0px;
+  border-radius: 2px;
+  color: #2E6767;
+  border: 2px solid currentColor;
+  width: 80%;
 }
 /*----- Img Things -----*/
 
@@ -237,8 +254,8 @@ blockquote {
     width: 60%;
     padding: 0 20%;
     margin: 0;
-    font-size: 25px;
-    color: #31c533;
+    font-size: 35px;
+    color: #A15862;
     font-weight: 800;
     font-family: passion one;
 }/*add to wrapping div*/
@@ -250,7 +267,7 @@ blockquote {
     float: right;
     margin: 0;
     font-size: 25px;
-    color: #31c533;
+    color: #A15862;
     font-family: passion one;
 
 }/*add to wrapping div*/
@@ -264,7 +281,7 @@ blockquote {
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #31c533;
+    color: #A15862;
     font-family: passion one;
 }/*add to wrapping div*/
 
@@ -307,7 +324,7 @@ also use these tags to move iframes, graphics etc.. anything that would behave l
 
 .oneimg_full p{
     width:60%;
-    padding:0 20%;
+    padding:0 1%;
 }
 
 

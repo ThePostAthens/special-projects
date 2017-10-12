@@ -7,8 +7,8 @@ Please contact at SethPArcher@gmail.com with questions.*/
 
 body {
     font-family: montserrat, sans-serif;
-    background-color: #FFF;
-    color: #030406;
+    background-color: #170734;
+    color: white;
 }
 
 a {
@@ -109,10 +109,11 @@ h3 {
     padding: 0;
     margin: 0;
     font-size: 70px;
-    font-weight: 700;
     text-align: center;
     width: 100%;
-    text-shadow: 2px 2px 3px #000;
+    text-shadow: 2px 2px 3px white;
+    font-family: 'Holtwood One SC', serif;
+    letter-spacing: 6px;
 }/*apply to h1 within the heroimg div*/
 
 /*----- Body Copy Things -----*/
@@ -156,6 +157,104 @@ h3 {
     margin: 0;
     font-weight: 400;
 }/*applies to entire byline, with title. bold the author name. put on h4 tag*/
+
+/*---LANDING STUFF---*/
+/*
+ * Simple Responsive Grid
+ * A variation of Don't Overthink It Grids, but with
+ * unlimited number of cells per row.
+ * https://css-tricks.com/dont-overthink-it-grids/
+ */
+
+.grid [class*="col-"] {
+  margin-bottom: 4%;
+}
+
+.grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* tablet view */
+@media all and (min-width: 700px) {
+
+  .grid [class*="col-"] {
+    float: left;
+    margin-left: 5%;
+  }
+    
+  .grid .col-one-half {
+    width: 47.5%;
+  }
+
+  .grid .col-one-third {
+    width: 47.5%;
+  }
+
+  .grid .col-one-fourth {
+    width: 30%;
+  }
+    
+  /* 1st items per row */
+  .grid .col-one-half:nth-child(2n+1),
+  .grid .col-one-third:nth-child(2n+1),
+  .grid .col-one-fourth:nth-child(3n+1) {
+    margin-left: 0;
+    clear: left;
+  }
+}
+
+/* desktop view */
+@media all and (min-width: 1000px) {
+    
+  .grid [class*="col-"] {
+    float: left;
+    margin-left: 5%;
+  }
+    
+  .grid .col-one-half {
+    width: 47.5%;
+  }
+
+  .grid .col-one-third {
+    width: 30%;
+  }
+
+  .grid .col-one-fourth {
+    width: 21.25%;
+  }
+
+  /* reset tablet styles above */
+  .grid .col-one-third:nth-child(2n+1),
+  .grid .col-one-fourth:nth-child(3n+1) {
+    margin-left: 5%;
+    clear: none;
+  }
+    
+  /* 1st items per row */
+  .grid .col-one-half:nth-child(2n+1),
+  .grid .col-one-third:nth-child(3n+1),
+  .grid .col-one-fourth:nth-child(4n+1) {
+    margin-left: 0;
+    clear: left;
+  }
+}
+
+/* generic styles */
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 80%;
+  text-align: center;
+}
 
 /*----- Img Things -----*/
 
@@ -281,7 +380,7 @@ float: right;
     text-align: right;
     margin:0;
     font-weight: 800;
-    color: #000;
+    color: #fff;
     font-size: 12px;
     width: 100%;
     padding: 0;

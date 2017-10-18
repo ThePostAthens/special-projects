@@ -124,7 +124,6 @@ h3 {
     margin: 0;
     font-size: 40px;
     font-weight: 900i;
-    text-transform: uppercase;
 }/*apply to h1, not the art hed*/
 
 .credit {
@@ -156,6 +155,24 @@ h3 {
     margin: 0;
     font-weight: 400;
 }/*applies to entire byline, with title. bold the author name. put on h4 tag*/
+
+hr {
+  border: 0;
+  margin: 1.35em auto;
+  max-width: 100%;
+  background-position: 50%;
+  box-sizing: border-box;
+}
+
+.dots {
+  $color: orange;
+  color: $color;
+  // height: 8px;
+  border-width: 0 0 8px;
+  border-style: solid;
+  border-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2 1" width="8" height="4"><circle fill="#{$color}" cx="1" cy="0.5" r="0.5"/></svg>') 0 0 100% repeat;
+   width: 216px;
+}
 
 /*----- Img Things -----*/
 

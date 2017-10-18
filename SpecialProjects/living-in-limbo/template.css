@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #64B4A3;
     text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #eed7fc;
+    color: #F4A93E;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -103,27 +103,29 @@ h3 {
 }
 
 #arthed {
-    color: #FFF;
+    color: #000;
     position: absolute;
-    bottom: 0;
+    bottom:0;
     padding: 0;
     margin: 0;
-    font-size: 70px;
-    font-weight: 700;
+    font-size: 80px;
+    font-weight: 900;
     text-align: center;
     width: 100%;
-    text-shadow: 2px 2px 3px #000;
+    font-family: playfair display;
+    font-style: italic;
 }/*apply to h1 within the heroimg div*/
 
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
+    color: #818285;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
     font-size: 40px;
     font-weight: 900i;
+    font-family: playfair display;
 }/*apply to h1, not the art hed*/
 
 .credit {
@@ -165,9 +167,8 @@ hr {
 }
 
 .dots {
-  $color: orange;
-  color: $color;
-  // height: 8px;
+  color: #818285;
+ height: 8px;
   border-width: 0 0 8px;
   border-style: solid;
   border-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2 1" width="8" height="4"><circle fill="#{$color}" cx="1" cy="0.5" r="0.5"/></svg>') 0 0 100% repeat;
@@ -175,6 +176,11 @@ hr {
 }
 
 /*----- Img Things -----*/
+
+.imgframe{
+    border:14px double;
+    border-color: #818285;
+}
 
 .oneimg_center {
     width: 60%;
@@ -227,9 +233,10 @@ blockquote {
     padding: 0 20%;
     margin: 0;
     font-size: 25px;
-    text-transform: uppercase;
-    color: #5379c4;
+    color: #F4A93E;
     font-weight: 800;
+    font-family: playfair display;
+    font-style: italic;
 }/*add to wrapping div*/
 
 .pq_right {
@@ -239,8 +246,9 @@ blockquote {
     float: right;
     margin: 0;
     font-size: 25px;
-    text-transform: uppercase;
-    color: #5379c4;
+    color: #F4A93E;
+     font-family: playfair display;
+    font-style: italic;
 }/*add to wrapping div*/
 
 .pq_left {
@@ -400,7 +408,8 @@ float: right;
     }
     
     #arthed {
-        font-size: 40px;
+        font-size: 30px;
+    
     }
     
     .subhed{
@@ -434,3 +443,4 @@ float: right;
         height: 300px;
     }
 }
+

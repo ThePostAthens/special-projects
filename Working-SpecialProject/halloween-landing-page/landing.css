@@ -107,7 +107,7 @@ h3 {
 #the {
  color: #FFF;
     position: absolute;
-    bottom: 75%;
+    bottom: 65%;
     padding: 0;
     margin: 0;
     font-size: 4vw;
@@ -121,7 +121,7 @@ h3 {
 #halloween {
     color: #FFF;
     position: absolute;
-    bottom: 30%;
+    bottom: 20%;
     padding: 0;
     margin: 0;
     font-size: 15vw;
@@ -135,7 +135,7 @@ h3 {
     #edition {
     color: #FFF;
     position: absolute;
-    bottom: 25%;
+    bottom: 15%;
     padding: 0;
     margin: 0;
     font-size: 4vw;
@@ -147,113 +147,188 @@ h3 {
     }
 }/*apply to h1 within the heroimg div*/
 
-/*----- Body Copy Things -----*/
-/*
- * Simple Responsive Grid
- * A variation of Don't Overthink It Grids, but with
- * unlimited number of cells per row.
- * https://css-tricks.com/dont-overthink-it-grids/
- */
+/*---- Landing Page Stuff ----*/
 
-.grid [class*="col-"] {
-  margin-bottom: 4%;
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
 }
 
-.grid:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-/* tablet view */
-@media all and (min-width: 700px) {
-
-  .grid [class*="col-"] {
-    float: left;
-    margin-left: 5%;
-  }
-    
-  .grid .col-one-half {
-    width: 47.5%;
-  }
-
-  .grid .col-one-third {
-    width: 47.5%;
-  }
-
-  .grid .col-one-fourth {
-    width: 30%;
-  }
-    
-  /* 1st items per row */
-  .grid .col-one-half:nth-child(2n+1),
-  .grid .col-one-third:nth-child(2n+1),
-  .grid .col-one-fourth:nth-child(3n+1) {
-    margin-left: 0;
-    clear: left;
-  }
-}
-
-/* desktop view */
-@media all and (min-width: 1000px) {
-    
-  .grid [class*="col-"] {
-    float: left;
-    margin-left: 5%;
-  }
-    
-  .grid .col-one-half {
-    width: 47.5%;
-  }
-
-  .grid .col-one-third {
-    width: 30%;
-  }
-
-  .grid .col-one-fourth {
-    width: 21.25%;
-  }
-
-  /* reset tablet styles above */
-  .grid .col-one-third:nth-child(2n+1),
-  .grid .col-one-fourth:nth-child(3n+1) {
-    margin-left: 5%;
-    clear: none;
-  }
-    
-  /* 1st items per row */
-  .grid .col-one-half:nth-child(2n+1),
-  .grid .col-one-third:nth-child(3n+1),
-  .grid .col-one-fourth:nth-child(4n+1) {
-    margin-left: 0;
-    clear: left;
-  }
-}
-
-/* generic styles */
-
-
-
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin-bottom: 10px;
+.wrapper>div {
+	padding: 7em;
+	color: white;
 }
 
 .wrapper {
-  margin: 0 auto;
-  max-width: 80%;
-  text-align: center;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 30px;
+	grid-auto-rows: minmax(100px, auto);
 }
 
-hr {
-  border: 0;
-  margin: 1.35em auto;
-  max-width: 100%;
-  background-position: 50%;
-  box-sizing: border-box;
+.one {
+	grid-column: 1;
+	grid-row: 1;
+	background-image: url('http://via.placeholder.com/350x150');
+	position: relative;
+    background-size: cover;
+
+}
+
+.one span {
+	position: absolute;
+	bottom: 2px;
+	left: 5px;
+    text-shadow: 2px 2px black;
+}
+
+.two {
+	grid-column: 2;
+	grid-row: 1;
+	background-image: url('http://via.placeholder.com/350x150');
+    position: relative;
+    background-size: cover;
+
+}
+
+.two span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.three {
+	grid-column: 3;
+	grid-row: 1;
+	background-image: url('http://via.placeholder.com/350x150');
+    position: relative;
+    background-size: cover;
+    
+}
+
+.three span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+.four {
+	grid-column: 1;
+	grid-row: 2;
+	background-image: url('http://via.placeholder.com/350x150');
+	position: relative;
+    background-size: cover;
+
+}
+
+.four span {
+	position: absolute;
+	bottom: 2px;
+	left: 5px;
+    text-shadow: 2px 2px black;
+}
+
+.five {
+	grid-column: 2;
+	grid-row: 2;
+	background-image: url('http://via.placeholder.com/350x150');
+    position: relative;
+    background-size: cover;
+
+}
+
+.five span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.six {
+	grid-column: 3;
+	grid-row: 2;
+	background-image: url('http://via.placeholder.com/350x150');
+    position: relative;
+    background-size: cover;
+    
+}
+
+.six span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+/*HOVER*/
+.one:hover {
+	opacity: .6;
+}
+
+.two:hover {
+	opacity: .6;
+}
+
+.three:hover {
+	opacity: .6;
+}
+
+.four:hover {
+	opacity: .6;
+}
+
+.five:hover {
+	opacity: .6;
+}
+
+.six:hover {
+	opacity: .6;
+}
+
+.eight:hover {
+	opacity: .6;
+}
+
+.nine:hover {
+	opacity: .6;
+}
+
+.ten:hover {
+	opacity: .6;
+}
+
+.eleven:hover {
+	opacity: .6;
+}
+
+.twelve:hover {
+	opacity: .6;
+}
+
+.thirteen:hover {
+	opacity: .6;
+}
+
+.fourteen:hover {
+	opacity: .6;
+}
+
+.fifteen:hover {
+	opacity: .6;
+}
+
+@media only screen and (max-width: 768px) {
+	.wrapper {
+		display: block;
+	}
+	.margin-bot {
+		margin-bottom: 2px;
+	}
 }
 
 /*----- Gallery Stuff -----*/

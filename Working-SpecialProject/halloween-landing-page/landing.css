@@ -165,6 +165,7 @@ h3 {
   clear: both;
 }
 
+
 /* tablet view */
 @media all and (min-width: 700px) {
 
@@ -254,9 +255,6 @@ hr {
   background-position: 50%;
   box-sizing: border-box;
 }
-
-
-
 
 /*----- Gallery Stuff -----*/
 

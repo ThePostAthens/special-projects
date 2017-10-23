@@ -113,6 +113,7 @@ h3 {
     text-align: center;
     width: 100%;
     text-shadow: 2px 2px 3px #000;
+    font-family: Quantico, sans-serif;
 }/*apply to h1 within the heroimg div*/
 /*----- Accordian -----*/
 
@@ -140,7 +141,7 @@ img.right {
 /** ACCORDIAN **/
 .accordian {
   list-style:none;
-  margin:0 0 40px;
+  margin: 0 40px;
   padding:0;
   border:1px solid #ddd;
   border-top:0;
@@ -148,16 +149,20 @@ img.right {
 .accordian header {
   display:block;
   margin:0;
-  padding:1em;
+  padding:.5em;
   background:#eee;
   border-top:1px solid #ddd;
   cursor:pointer;
+  font-family: quantico, sans-serif;
+  font-size: 20px;
 }
 .accordian section {
   display:none;
-  padding:1em;
+  padding:.5em;
+  margin: 50px
   background:#fff;
   border-top:1px solid #ddd;
+  font-family: montserrat;
 }
 .accordian section.active {
   display:block;
@@ -168,11 +173,11 @@ img.right {
 .headline {
     color: #497425;
     padding: 0 10% 0 10%;
-    width: 80%;
+    width: 100%;
     margin: 0;
     font-size: 40px;
     font-weight: 900i;
-    text-transform: uppercase;
+    font-family: quantico, sans-serif;
 }/*apply to h1, not the art hed*/
 
 .credit {
@@ -182,8 +187,7 @@ img.right {
 }/*apply to h4 with developer's name and title*/
 
 .subhed {
-    font-family: montserrat
-    , sans-serif;
+    font-family: quantico, sans-serif;
     font-weight: 800;
     color: #7fc448;
 }/*apply to h2 tags*/
@@ -201,7 +205,7 @@ img.right {
 }/*should be in same p tag as the author name*/
 
 #byline {
-    margin: 0;
+    margin:0;
     font-weight: 400;
 }/*applies to entire byline, with title. bold the author name. put on h4 tag*/
 

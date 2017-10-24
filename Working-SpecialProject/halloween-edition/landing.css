@@ -169,7 +169,7 @@ h3 {
 .one {
 	grid-column: 1;
 	grid-row: 1;
-	background-image: url('http://via.placeholder.com/350x150');
+	background-image: url('http://snworksceo.imgix.net/ohi/cda37a40-850e-4d0b-8212-b6fee9ed4b17.sized-1000x1000.jpg');
 	position: relative;
     background-size: cover;
     border: 5px solid orange;
@@ -187,7 +187,7 @@ h3 {
 .two {
 	grid-column: 2;
 	grid-row: 1;
-	background-image: url('http://via.placeholder.com/350x150');
+	background-image: url('http://snworksceo.imgix.net/ohi/0ec94e23-7e01-43dd-a0ad-a077e86f461d.sized-1000x1000.jpg');
     position: relative;
     background-size: cover;
     border: 5px solid orange;
@@ -195,13 +195,17 @@ h3 {
 }
 
 .two span {
+    position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
     text-shadow: 2px 2px black;
 }
 
 .three {
 	grid-column: 3;
 	grid-row: 1;
-	background-image: url('http://via.placeholder.com/350x150');
+	background-image: url('http://snworksceo.imgix.net/ohi/79f37651-abb2-4bae-8bba-3fe3144ef288.sized-1000x1000.png');
     position: relative;
     background-size: cover;
     border: 5px solid orange;

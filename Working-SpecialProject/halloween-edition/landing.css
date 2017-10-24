@@ -222,7 +222,7 @@ h3 {
 .four {
 	grid-column: 1;
 	grid-row: 2;
-	background-image: url('http://via.placeholder.com/350x150');
+	background-image: url('http://snworksceo.imgix.net/ohi/31d45e22-46d6-4cee-bccf-32ba37bee50d.sized-1000x1000.jpg');
 	position: relative;
     background-size: cover;
     border: 5px solid orange;

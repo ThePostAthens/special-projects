@@ -234,22 +234,22 @@ h3 {
   transform: translate(-49%, -49%);
 }
 
-.wrapper h1,
-.wrapper p {
+.hexagon h1,
+.hexagon p {
   position:relative;
   white-space: normal;
     color: blue;
 
 }
 
-.wrapper h1 {
+.hexagon h1 {
   font-size: 1.4em;
   color: white;
     text-shadow: 2px 2px #000;
 }
 
 
-.wrapper h1::after {
+.hexagon h1::after {
   position: relative;
   left: 45%;
   width: 10%;

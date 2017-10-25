@@ -220,7 +220,7 @@ h3 {
     text-shadow: 2px 2px black;
 }
 .four {
-	grid-column: 1;
+	grid-column: 2;
 	grid-row: 2;
 	background-image: url('http://snworksceo.imgix.net/ohi/31d45e22-46d6-4cee-bccf-32ba37bee50d.sized-1000x1000.jpg');
 	position: relative;
@@ -237,9 +237,9 @@ h3 {
 }
 
 .five {
-	grid-column: 2;
+	grid-column: 3;
 	grid-row: 2;
-	background-image: url('http://via.placeholder.com/350x150');
+	background-image: url('http://snworksceo.imgix.net/ohi/1b05da81-40d4-488a-9a13-40c6628be07a.sized-1000x1000.png');
     position: relative;
     background-size: cover;
     border: 5px solid orange;
@@ -256,8 +256,8 @@ h3 {
 
 .six {
 	grid-column: 3;
-	grid-row: 2;
-	background-image: url('http://via.placeholder.com/350x150');
+	grid-row: 3;
+	background-image: url('http://snworksceo.imgix.net/ohi/ee0da52f-4fa8-43db-b03e-33a39e77a9d6.sized-1000x1000.JPG');
     position: relative;
     background-size: cover;
     border: 5px solid orange;
@@ -265,6 +265,60 @@ h3 {
 }
 
 .six span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.seven {
+	grid-column: 1;
+	grid-row: 2;
+	background-image: url('http://snworksceo.imgix.net/ohi/23fd5e76-372a-4914-9a9b-dc1639b0de2a.sized-1000x1000.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid orange;
+    
+}
+
+.seven span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.eight {
+	grid-column: 2;
+	grid-row: 3;
+	background-image: url('http://snworksceo.imgix.net/ohi/31d45e22-46d6-4cee-bccf-32ba37bee50d.sized-1000x1000.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid orange;
+    
+}
+
+.eight span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.nine {
+	grid-column: 1;
+	grid-row: 3;
+	background-image: url('http://snworksceo.imgix.net/ohi/660542bb-ae69-4299-8652-6da0c32c5dbd.sized-1000x1000.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid orange;
+    
+}
+
+.nine span {
 	position: absolute;
     bottom: 2px;
     left: 5px;
@@ -298,7 +352,6 @@ h3 {
 	opacity: .6;
 }
 
-/*
 .eight:hover {
 	opacity: .6;
 }
@@ -330,7 +383,6 @@ h3 {
 .fifteen:hover {
 	opacity: .6;
 }
-*/
 
 @media only screen and (max-width: 768px) {
 	.wrapper {

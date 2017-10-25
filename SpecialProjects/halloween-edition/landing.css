@@ -257,7 +257,7 @@ h3 {
 .six {
 	grid-column: 3;
 	grid-row: 3;
-	background-image: url('http://snworksceo.imgix.net/ohi/ee0da52f-4fa8-43db-b03e-33a39e77a9d6.sized-1000x1000.JPG');
+	background-image: url('http://snworksceo.imgix.net/ohi/23fd5e76-372a-4914-9a9b-dc1639b0de2a.sized-1000x1000.jpg');
     position: relative;
     background-size: cover;
     border: 5px solid orange;
@@ -275,7 +275,7 @@ h3 {
 .seven {
 	grid-column: 1;
 	grid-row: 2;
-	background-image: url('http://snworksceo.imgix.net/ohi/23fd5e76-372a-4914-9a9b-dc1639b0de2a.sized-1000x1000.jpg');
+	background-image: url('http://snworksceo.imgix.net/ohi/ee0da52f-4fa8-43db-b03e-33a39e77a9d6.sized-1000x1000.JPG');
     position: relative;
     background-size: cover;
     border: 5px solid orange;

@@ -437,6 +437,24 @@ h3 {
     text-shadow: 2px 2px black;
 }
 
+.sixteen {
+	grid-column: 1;
+	grid-row: 6;
+	background-image: url('http://snworksceo.imgix.net/ohi/d6224e4d-bda9-419c-ad56-befaff9668d3.sized-1000x1000.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid orange;
+    
+}
+
+.sixteen span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
 /*HOVER*/
 .one:hover {
 	opacity: .6;

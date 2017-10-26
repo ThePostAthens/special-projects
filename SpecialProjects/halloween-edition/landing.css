@@ -363,6 +363,79 @@ h3 {
     text-shadow: 2px 2px black;
 }
 
+.twelve {
+	grid-column: 3;
+	grid-row: 5;
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/35604047-47c9-4d88-8bd1-7cf2eb09d61e.sized-1000x1000.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid orange;
+    background-position: 20px;
+    
+}
+
+.twelve span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+
+}
+
+.thirteen {
+	grid-column: 2;
+	grid-row: 5;
+	background-image: url('http://snworksceo.imgix.net/ohi/7fbed7b0-8cfe-4a22-97b0-3397c7ad08df.sized-1000x1000.png');
+    position: relative;
+    background-size: cover;
+    border: 5px solid orange;
+    
+}
+
+.thirteen span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.fourteen {
+	grid-column: 1;
+	grid-row: 5;
+	background-image: url('http://snworksceo.imgix.net/ohi/8226e72c-d005-4030-9b6c-82a88c2c78ec.sized-1000x1000.png');
+    position: relative;
+    background-size: cover;
+    border: 5px solid orange;
+    
+}
+
+.fourteen span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.fifteen {
+	grid-column: 3;
+	grid-row: 4;
+	background-image: url('http://snworksceo.imgix.net/ohi/e7bb2086-76ed-4afd-a3af-c4a52372bc19.sized-1000x1000.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid orange;
+    
+}
+
+.fifteen span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
 
 /*HOVER*/
 .one:hover {

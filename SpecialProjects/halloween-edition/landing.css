@@ -455,6 +455,95 @@ h3 {
     text-shadow: 2px 2px black;
 }
 
+.seventeen {
+	grid-column: 1;
+	grid-row: 7;
+	background-image: url('http://snworksceo.imgix.net/ohi/f133f21f-6eb6-4b69-99f4-a805f4880d3c.sized-1000x1000.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid orange;
+    
+}
+
+.seventeen span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.eighteen {
+	grid-column: 2;
+	grid-row: 7;
+	background-image: url('http://snworksceo.imgix.net/ohi/3645840f-f354-4278-96ff-55c6706b576c.sized-1000x1000.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid orange;
+    
+}
+
+.eighteen span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.nineteen {
+	grid-column: 3;
+	grid-row: 7;
+	background-image: url('http://snworksceo.imgix.net/ohi/a7059b28-b74f-423d-acd7-252eeba3f4b3.sized-1000x1000.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid orange;
+    
+}
+
+.nineteen span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.twenty span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.twenty {
+	grid-column: 2;
+	grid-row: 6;
+	background-image: url('http://snworksceo.imgix.net/ohi/510d386a-7741-4efb-b512-0594a083e75b.sized-1000x1000.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid orange;
+    
+}
+
+.twentyone span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.twentyone {
+	grid-column: 3;
+	grid-row: 6;
+	background-image: url('http://snworksceo.imgix.net/ohi/64215b5c-7acf-4b87-bd2a-08133cb93dd3.sized-1000x1000.png');
+    position: relative;
+    background-size: cover;
+    border: 5px solid orange;
+    
+}
 /*HOVER*/
 .one:hover {
 	opacity: .6;

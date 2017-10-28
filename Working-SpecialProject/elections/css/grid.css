@@ -43,11 +43,11 @@ hr {
 }
 
 .btn {
-    background-color: pink;
+    background-color: darkgray;
 }
 
 .btn:hover {
-    background-color: magenta;
+    background-color: gray;
 }
 
 .column20center {
@@ -60,6 +60,17 @@ hr {
     font-weight: 100;
     padding-bottom: 50px;
 }/*apply to h4 with developer's name and title*/
+
+.bigsubhed {
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    line-height: 50px;
+    text-shadow: 2px 2px 5px #000;
+}
 
 /*----- Nav Bar -----*/
 /*we don't use this section as often. delete if not used in the project*/
@@ -90,9 +101,9 @@ hr {
 /*----- Hero Image -----*/
 
 #arthed {
-    color: #FFF;
+    color: navy;
     position: absolute;
-    bottom: 550px;
+    bottom: 580px;
     padding: 0;
     margin: 0;
     font-size: 70px;
@@ -133,6 +144,8 @@ hr {
     width: 70%;
     padding: 10px 15% 0 15%;
 }
+
+
 
 
 

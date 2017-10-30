@@ -27,6 +27,7 @@ a:hover {
     color: inherit;
 }
 
+
 .row {
   margin-bottom: 1rem;
 }
@@ -36,6 +37,8 @@ a:hover {
   background-color: rgba(86,61,124,.15);
   border: 1px solid rgba(86,61,124,.2);
 }
+
+
 
 hr {
   margin-top: 2rem;
@@ -71,6 +74,8 @@ hr {
     line-height: 50px;
     text-shadow: 2px 2px 5px #000;
 }
+
+
 
 /*----- Nav Bar -----*/
 /*we don't use this section as often. delete if not used in the project*/
@@ -145,7 +150,10 @@ hr {
     padding: 10px 15% 0 15%;
 }
 
-
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
 
 
 

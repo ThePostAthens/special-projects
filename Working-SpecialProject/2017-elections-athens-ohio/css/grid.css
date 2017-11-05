@@ -157,12 +157,12 @@ hr {
 #arthed {
     color: navy;
     position: absolute;
-    top: 56px;
-    padding: 0;
-    margin: 0;
-    font-size: 70px;
+    top: 80px;
+    padding: 30px;
+    margin: 60px;
+    font-size: 80px;
     font-weight: 700;
-    text-align: center;
+    text-align: left;
     width: 100%;
     text-shadow: 2px 2px 3px #000;
 }/*apply to h1 within the heroimg div*/
@@ -282,7 +282,16 @@ hr {
 
     
     #arthed {
-        font-size: 40px;
+         color: navy;
+    position: absolute;
+    top: 40px;
+    padding: 0;
+    margin: 0;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: left;
+    width: 100%;
+    text-shadow: 2px 2px 3px #000;
     }
     
     .story {

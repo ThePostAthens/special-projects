@@ -116,9 +116,6 @@ hr {
     line-height: 50px;
     text-shadow: 2px 2px 5px #000;
 }
-
-
-
 /*----- Nav Bar -----*/
 /*we don't use this section as often. delete if not used in the project*/
 
@@ -146,6 +143,14 @@ hr {
 }
 
 /*----- Hero Image -----*/
+#heroimg {
+    width: 100%;
+    position: relative;
+}/*apply to wrapping div with an img tag within*/
+
+#heroimg img {
+    width: 100%;
+}
 
 #arthed {
     color: navy;

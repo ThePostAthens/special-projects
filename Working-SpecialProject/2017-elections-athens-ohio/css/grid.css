@@ -92,6 +92,7 @@ hr {
 
 .btn:hover {
     background-color: gray;
+    text-decoration: none;
 }
 
 .column20center {

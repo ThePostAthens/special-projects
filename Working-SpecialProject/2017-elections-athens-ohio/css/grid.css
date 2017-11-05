@@ -197,6 +197,78 @@ hr {
     margin: 0 auto;
 }
 
+/*----Grid for other stories----*/
+
+
+.wrapper {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.wrapper>div {
+	padding: 5em;
+	color: white;
+}
+
+.wrapper {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 15px;
+	grid-auto-rows: minmax(100px, auto);
+}
+
+.one {
+	grid-column: 1/5;
+	grid-row: 1;
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/35604047-47c9-4d88-8bd1-7cf2eb09d61e.sized-1000x1000.jpg');
+	position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -100px;
+}
+
+.one span {
+	position: absolute;
+	bottom: 2px;
+	left: 5px;
+    text-shadow: 2px 2px black;
+}
+
+.two {
+	grid-column: 1/5;
+	grid-row: 2;
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/35604047-47c9-4d88-8bd1-7cf2eb09d61e.sized-1000x1000.jpg');
+	position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -100px;
+}
+
+.two span {
+	position: absolute;
+	bottom: 2px;
+	left: 5px;
+    text-shadow: 2px 2px black;
+}
+
+/*HOVER*/
+
+.one:hover {
+	opacity: .6;
+}
+
+.two:hover {
+	opacity: .6;
+}
+
+@media only screen and (max-width: 768px) {
+	.wrapper {
+		display: block;
+	}
+	.margin-bot {
+		margin-bottom: 2px;
+	}
+}
 
 
 @media screen and (max-width: 750px){

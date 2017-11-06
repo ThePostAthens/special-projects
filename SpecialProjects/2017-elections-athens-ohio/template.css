@@ -121,10 +121,11 @@ h3 {
 
 .headline {
     color: red;
-    padding: 0 60% 0 15%;
-    width: 71%;
+   padding: 0 10% 0 10%;
+    width: 80%;
     margin: 0;
     font-size: 40px;
+    font-weight: 900i;
     font-weight: 900i;
     
 }/*apply to h1, not the art hed*/

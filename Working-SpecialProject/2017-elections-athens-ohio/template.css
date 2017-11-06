@@ -105,17 +105,17 @@ h3 {
 }
 
 #arthed {
-    color: #FFF;
-    position: absolute;
-    bottom: 0;
+    color: #000;
     padding: 0;
     margin: 0;
-    font-size: 70px;
-    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    font-size: 80px;
+    font-weight: 900;
     text-align: center;
     width: 100%;
-    text-shadow: 2px 2px 3px #000;
-}/*apply to h1 within the heroimg div*/
+    text-shadow: 1px 1px 3px #000;
+    line-height: 100%;
+}
 
 /*----- Body Copy Things -----*/
 
@@ -211,7 +211,6 @@ blockquote {
     padding: 0 20%;
     margin: 0;
     font-size: 25px;
-    text-transform: uppercase;
     color: #5379c4;
     font-weight: 800;
 }/*add to wrapping div*/
@@ -233,7 +232,6 @@ blockquote {
     float: left;
     margin: 0;
     font-size: 25px;
-    text-transform: uppercase;
     font-weight: 700;
     color: #5379c4;
 }/*add to wrapping div*/

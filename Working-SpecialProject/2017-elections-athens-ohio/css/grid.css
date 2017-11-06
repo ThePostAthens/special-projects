@@ -15,8 +15,35 @@ h2 {
     padding: 0 15%;
 }
 
+.fancy {
+  line-height:0.5;
+  text-align: center;
+}
+.fancy span {
+  display: inline-block;
+  position: relative;  
+}
+.fancy span:before,
+.fancy span:after {
+  content: "";
+  position: absolute;
+  height: 10px;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  top: 20px;
+  width: 600px;
+}
+.fancy span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.fancy span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
 a {
-    color: blue;
+    color: white;
     text-decoration: none;
 
 }
@@ -24,7 +51,7 @@ a {
 a:hover {
     opacity: .6;
     text-decoration:none; 
-    color: inherit;
+    color: white;
 }
 
 
@@ -81,14 +108,15 @@ a:hover {
     top: 5px;
 }
 
-
 .btn {
-    background-color: darkgray;
+    background-color: red;
+    font-size: 15px;
 }
 
 .btn:hover {
-    background-color: gray;
+    background-color: darkred;
     text-decoration: none;
+    
 }
 
 .column20center {
@@ -156,7 +184,7 @@ a:hover {
     top: 80px;
     padding: 30px;
     margin: 60px;
-    font-size: 5vw;
+    font-size: 7vw;
     font-weight: 700;
     text-align: left;
     width: 100%;

@@ -9,7 +9,7 @@ body {
     font-family: montserrat, sans-serif;
     background-color: #FFF;
     color: #030406;
-    margin: -1px;
+    margin: 1px;
 }
 
 a {
@@ -94,7 +94,6 @@ h3 {
 
 /*----- Hero Image -----*/
 
-
 #heroimg {
     width: 70%;
     position: relative;
@@ -122,12 +121,11 @@ h3 {
 
 .headline {
     color: #497425;
-    padding: 0 10% 0 10%;
+    padding: 0 10% 0 15%;
     width: 80%;
     margin: 0;
     font-size: 40px;
     font-weight: 900i;
-    text-transform: uppercase;
 }/*apply to h1, not the art hed*/
 
 .credit {
@@ -225,7 +223,6 @@ blockquote {
     float: right;
     margin: 0;
     font-size: 25px;
-    text-transform: uppercase;
     color: #5379c4;
 }/*add to wrapping div*/
 

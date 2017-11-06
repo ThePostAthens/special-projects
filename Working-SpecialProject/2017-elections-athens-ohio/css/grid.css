@@ -160,7 +160,7 @@ hr {
     top: 80px;
     padding: 30px;
     margin: 60px;
-    font-size: 80px;
+    font-size: 5vw;
     font-weight: 700;
     text-align: left;
     width: 100%;
@@ -282,14 +282,11 @@ hr {
 
     
     #arthed {
-         color: navy;
+    color: navy;
     position: absolute;
-    top: 40px;
-    padding: 0;
-    margin: 0;
-    font-size: 28px;
+    top: -40px;
+    right: -50px;
     font-weight: 700;
-    text-align: left;
     width: 100%;
     text-shadow: 2px 2px 3px #000;
     }

@@ -227,11 +227,11 @@ hr {
 .one {
 	grid-column: 1/5;
 	grid-row: 1;
-	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/35604047-47c9-4d88-8bd1-7cf2eb09d61e.sized-1000x1000.jpg');
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/40e2c717-db6b-4c0d-9079-532728f3ac2c.sized-1000x1000.png');
 	position: relative;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 0px -100px;
+    background-position: 0px -150px;
 }
 
 .one span {
@@ -244,11 +244,11 @@ hr {
 .two {
 	grid-column: 1/5;
 	grid-row: 2;
-	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/35604047-47c9-4d88-8bd1-7cf2eb09d61e.sized-1000x1000.jpg');
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/5dfefcd6-047b-443a-8ce2-4cb8df5f18f1.sized-1000x1000.jpg');
 	position: relative;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 0px -100px;
+    background-position: 0px -60px;
 }
 
 .two span {

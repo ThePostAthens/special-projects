@@ -13,7 +13,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #0054B5;
     text-decoration: none;
 }
 
@@ -38,7 +38,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #eed7fc;
+    color: #0054B5;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -105,7 +105,7 @@ h3 {
 }
 
 #arthed {
-    color: #000;
+    color: black;
     padding: 0;
     margin: 0;
     font-family: 'Playfair Display', serif;
@@ -120,12 +120,13 @@ h3 {
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
+    color: red;
     padding: 0 60% 0 15%;
     width: 71%;
     margin: 0;
     font-size: 40px;
     font-weight: 900i;
+    
 }/*apply to h1, not the art hed*/
 
 .credit {
@@ -211,8 +212,8 @@ blockquote {
     padding: 0 20%;
     margin: 0;
     font-size: 25px;
-    color: #5379c4;
     font-weight: 800;
+    font-family: playfair display;
 }/*add to wrapping div*/
 
 .pq_right {
@@ -222,7 +223,9 @@ blockquote {
     float: right;
     margin: 0;
     font-size: 25px;
-    color: #5379c4;
+    color: red;
+    font-family: playfair display;
+    font-style: italic;
 }/*add to wrapping div*/
 
 .pq_left {
@@ -232,8 +235,9 @@ blockquote {
     float: left;
     margin: 0;
     font-size: 25px;
-    font-weight: 700;
-    color: #5379c4;
+    color: red;
+    font-family: playfair-display;
+    font-style: italic;
 }/*add to wrapping div*/
 
 .attribution {

@@ -81,10 +81,6 @@ a:hover {
     top: 5px;
 }
 
-hr {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
 
 .btn {
     background-color: darkgray;
@@ -107,7 +103,7 @@ hr {
 }/*apply to h4 with developer's name and title*/
 
 .bigsubhed {
-    background-color: red;
+    background-color: #0054B5;
     color: #fff;
     text-align: center;
     font-size: 30px;
@@ -155,7 +151,7 @@ hr {
 }
 
 #arthed {
-    color: navy;
+    color: black;
     position: absolute;
     top: 80px;
     padding: 30px;
@@ -165,6 +161,8 @@ hr {
     text-align: left;
     width: 100%;
     text-shadow: 2px 2px 3px #000;
+    font-family: playfair display;
+    font-weight: 900;
 }/*apply to h1 within the heroimg div*/
     
 /* Landing page clicky box at bottom.*/
@@ -282,7 +280,8 @@ hr {
 
     
     #arthed {
-    color: navy;
+    font-family: 'Playfair Display', serif;
+    color: #0054B5;
     position: absolute;
     top: -40px;
     right: -50px;

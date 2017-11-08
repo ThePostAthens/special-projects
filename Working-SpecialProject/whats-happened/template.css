@@ -7,12 +7,12 @@ Please contact at SethPArcher@gmail.com with questions.*/
 
 body {
     font-family: montserrat, sans-serif;
-    background-color: #FFF;
-    color: #030406;
+    background-color: #000;
+    color: #fff;
 }
 
 a {
-    color: #7fc448;
+    color: #a22634;
     text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #eed7fc;
+    color: #8d8ebc;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -92,40 +92,58 @@ h3 {
 }
 
 /*----- Hero Image -----*/
-
 #heroimg {
-    width: 100%;
+    width: 70%;
     position: relative;
+    padding: 2% 15%;
 }/*apply to wrapping div with an img tag within*/
 
 #heroimg img {
     width: 100%;
 }
 
-#arthed {
-    color: #FFF;
-    position: absolute;
-    bottom: 0;
+#arthed1 {
+    color: white;
     padding: 0;
-    margin: 0;
-    font-size: 70px;
-    font-weight: 700;
+    padding-bottom: 40px;
+    margin:0;
+    font-family: 'Playfair Display', serif;
+    font-size: 20vw;
+    font-weight: 900;
     text-align: center;
     width: 100%;
-    text-shadow: 2px 2px 3px #000;
-}/*apply to h1 within the heroimg div*/
+    text-shadow: 1px 1px 3px #000;
+    line-height: 100%;
+}
+
+#arthed2 {
+    color: white;
+    padding: 0;
+    padding-bottom: 40px;
+    margin:0;
+    font-family: 'Playfair Display', serif;
+    font-size: 10vw;
+    font-weight: 900;
+    text-align: center;
+    width: 100%;
+    text-shadow: 1px 1px 3px #000;
+    line-height: 100%;
+}
+
+.sectionbreak {
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    font-family: playfair display;
+    color: white;
+}
+
 
 /*----- Body Copy Things -----*/
 
-.headline {
-    color: #497425;
-    padding: 0 10% 0 10%;
-    width: 80%;
-    margin: 0;
-    font-size: 40px;
-    font-weight: 900i;
-    text-transform: uppercase;
-}/*apply to h1, not the art hed*/
+
 
 .credit {
     font-size: 16px;
@@ -145,8 +163,9 @@ h3 {
     font-weight: 700;
     float: left;
     font-size: 2.9em;
-    line-height: .9em;
-    padding-right: 5px;
+    line-height: .4em;
+    padding-right: 2px;
+    font-family: playfair display;
 }/*apply to wrapping span tag*/
 
 .title {
@@ -282,7 +301,7 @@ float: right;
     text-align: right;
     margin:0;
     font-weight: 800;
-    color: #000;
+    color: #fff;
     font-size: 12px;
     width: 100%;
     padding: 0;
@@ -291,6 +310,11 @@ float: right;
 .oneimg_full p{
     width:60%;
     padding:0 20%;
+}
+
+.imgframe{
+    border:14px double;
+    border-color: #8d8ebc;
 }
 
 

@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: darkgray;
     text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #eed7fc;
+    color: darkgray;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -198,13 +198,12 @@ h3 {
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
+    color: #5ac4b9;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
     font-size: 40px;
     font-weight: 900i;
-    text-transform: uppercase;
 }/*apply to h1, not the art hed*/
 
 .credit {
@@ -236,6 +235,96 @@ h3 {
     margin: 0;
     font-weight: 400;
 }/*applies to entire byline, with title. bold the author name. put on h4 tag*/
+
+
+.accordion { width: 100%; position: relative; }
+.accordian-chk { 
+  width: 100%;
+  position: absolute; 
+  left: 0px;
+  top: 0px;
+  height: 40px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  -khtml-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  padding: 0 20px;
+  z-index: 2;
+  margin: 0px;
+} 
+
+.accordion h3 { 
+  background: #3175c4 none; 
+  border: 1px solid #3175c4 !important; 
+  position: relative; 
+  padding: 10px; 
+  color: #fff; 
+  font-size: 16px; 
+  font-weight: normal; 
+  font-family: arial; 
+  margin: 0;
+  z-index: 1;
+}
+
+.accordion h3 .acc-icon { 
+  width: 0; 
+  height: 0; 
+  position: absolute; 
+  right: 10px; 
+  top: 15px; 
+  border-left: 5px solid transparent; 
+  border-right: 5px solid transparent; 
+  border-top: 5px solid #fff; 
+  border-bottom: 5px solid transparent; 
+}
+
+.accordion .accordian-chk:checked + h3 > .acc-icon { 
+  border-left: 5px solid transparent; 
+  border-right: 5px solid transparent; 
+  border-bottom: 5px solid #fff; 
+  border-top: 5px solid transparent; 
+  top: 10px; 
+}
+
+.accordion .accordian-chk:checked + h3 + div.accordian-content { 
+   opacity: 1;
+   -moz-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -moz-transition-timing-function: ease-in;
+    -webkit-transition-timing-function: ease-in;
+    -o-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+    max-height: 1000px;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.accordian-content { 
+   opacity: 0;
+    padding: 15px;
+    overflow: hidden;
+    max-height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    -moz-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -moz-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    -webkit-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    -o-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    border: 1px solid #3175c4;
+    margin-bottom: 2px;
+}
+
 
 /*----- Img Things -----*/
 

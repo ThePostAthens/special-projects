@@ -364,8 +364,7 @@ blockquote {
     padding: 0 20%;
     margin: 0;
     font-size: 25px;
-    text-transform: uppercase;
-    color: #5379c4;
+    color: #5ac4b9;
     font-weight: 800;
 }/*add to wrapping div*/
 
@@ -376,8 +375,8 @@ blockquote {
     float: right;
     margin: 0;
     font-size: 25px;
-    text-transform: uppercase;
-    color: #5379c4;
+    color: #5ac4b9;
+    font-weight: 800;
 }/*add to wrapping div*/
 
 .pq_left {

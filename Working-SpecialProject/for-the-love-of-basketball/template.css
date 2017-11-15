@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #95B05B;
     text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #eed7fc;
+    color: #28502F;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -94,8 +94,9 @@ h3 {
 /*----- Hero Image -----*/
 
 #heroimg {
-    width: 100%;
+    width: 50%;
     position: relative;
+    padding: 2% 25%;
 }/*apply to wrapping div with an img tag within*/
 
 #heroimg img {
@@ -103,29 +104,19 @@ h3 {
 }
 
 #arthed {
-    color: #FFF;
-    position: absolute;
-    bottom: 0;
+    color: black;
     padding: 0;
     margin: 0;
-    font-size: 70px;
-    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    font-size: 80px;
+    font-weight: 900;
     text-align: center;
     width: 100%;
-    text-shadow: 2px 2px 3px #000;
+    line-height: 100%;
+    font-style: italic;
 }/*apply to h1 within the heroimg div*/
 
 /*----- Body Copy Things -----*/
-
-.headline {
-    color: #497425;
-    padding: 0 10% 0 10%;
-    width: 80%;
-    margin: 0;
-    font-size: 40px;
-    font-weight: 900i;
-    text-transform: uppercase;
-}/*apply to h1, not the art hed*/
 
 .credit {
     font-size: 16px;
@@ -134,18 +125,21 @@ h3 {
 }/*apply to h4 with developer's name and title*/
 
 .subhed {
-    font-family: montserrat
+    font-family: playfair display
     , sans-serif;
     font-weight: 800;
-    color: #7fc448;
+    color: #28502F;
+    font-size: 30px;
 }/*apply to h2 tags*/
 
 .dropcap {
     font-weight: 700;
     float: left;
     font-size: 2.9em;
-    line-height: .9em;
+    line-height: .3em;
     padding-right: 5px;
+    font-family: playfair display;
+    font-weight: 900;
 }/*apply to wrapping span tag*/
 
 .title {
@@ -159,20 +153,25 @@ h3 {
 
 /*----- Img Things -----*/
 
+.imgframe{
+    border:14px double;
+    border-color: #000;
+}
+
 .oneimg_center {
     width: 60%;
     padding: 0 20%;
 }/*Apply to a wrapping div*/
 
 .oneimg_right {
-    width: 40%;
+    width: 20%;
     padding-right: 10%;
     padding-left: 10px;
     float: right;
 }/*Apply to a wrapping div*/
 
 .oneimg_left {
-    width: 40%;
+    width: 20%;
     padding-left: 10%;
     padding-right: 20px;
     float: left;
@@ -210,9 +209,8 @@ blockquote {
     padding: 0 20%;
     margin: 0;
     font-size: 25px;
-    text-transform: uppercase;
-    color: #5379c4;
-    font-weight: 800;
+    color: #95B05B;
+    font-family: playfair display, serif;
 }/*add to wrapping div*/
 
 .pq_right {
@@ -398,11 +396,6 @@ float: right;
         height: 25px;
     }
 
-    .headline {
-        width: 80%;
-        padding: 0% 10% 0 10%;
-        font-size: 25px;
-    }
     
     .date {
         padding: 0 10%;

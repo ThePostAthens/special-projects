@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #8118C0;
     text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #eed7fc;
+    color: #9FEFE3;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -94,35 +94,25 @@ h3 {
 /*----- Hero Image -----*/
 
 #heroimg {
-    width: 100%;
+    width: 70%;
     position: relative;
+    padding: 2% 15%;
 }/*apply to wrapping div with an img tag within*/
 
 #heroimg img {
     width: 100%;
 }
 
-#arthed {
-    color: #FFF;
-    position: absolute;
-    bottom: 0;
-    padding: 0;
-    margin: 0;
-    font-size: 70px;
-    font-weight: 700;
-    text-align: center;
-    width: 100%;
-    text-shadow: 2px 2px 3px #000;
-}/*apply to h1 within the heroimg div*/
+
 
 /*----- Body Copy Things -----*/
-
 .headline {
-    color: #497425;
-    padding: 0 10% 0 10%;
+    color: #36A23C;
+    padding: 0 10% 0 12%;
     width: 80%;
     margin: 0;
-    font-size: 40px;
+    font-size: 35px;
+    font-weight: 900i;
     font-weight: 900i;
 }/*apply to h1, not the art hed*/
 
@@ -136,17 +126,28 @@ h3 {
     font-family: montserrat
     , sans-serif;
     font-weight: 800;
-    color: #7fc448;
+    color: #36A23C;
 }/*apply to h2 tags*/
 
 .subhed2 {
     font-family: montserrat
     , sans-serif;
     font-weight: 800;
-    color: #7fc448;
+    color: #36A23C;
     font-size: 18px;
     line-height: 2em;
 }/*apply to h2 tags*/
+
+.bigsubhed {
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 10.6vw;
+    padding: 0;
+    margin: 0;
+    line-height: 7vw;
+}
 
 .dropcap {
     font-weight: 700;
@@ -181,7 +182,7 @@ h3 {
 
 .question {
   position: relative;
-  background: #444141;
+  background: #36A23C;
   margin: 0;
   padding: 10px 10px 10px 50px;
   display: block;
@@ -226,6 +227,7 @@ color: white;
   -moz-transition: .3s ease;
   -o-transition: .3s ease;
   transition: .3s ease;
+    color: white;
 }
 
 .questions:checked ~ .plus {
@@ -239,12 +241,7 @@ color: white;
   display: none;
 }
 
-header h1{
-  text-align: center;
-  font-weight: bold;
-  margin-top: 0;
-    font-size: 18px;
-}
+
 
 .hexa{
   border: 0px;
@@ -318,7 +315,7 @@ header h1{
   width: 16px;
   height: 10px;
   position: absolute;
-  background: #00c4f3;
+  background: #8118C0;
   z-index: 5;
   left: 0;
   right: 0;
@@ -329,7 +326,7 @@ header h1{
 }
 
 .timeline .hexa:before {
-  border-bottom: 4px solid #00c4f3;
+  border-bottom: 4px solid #8118C0;
   border-left-width: 8px;
   border-right-width: 8px;
   top: -4px;
@@ -338,7 +335,7 @@ header h1{
 .timeline .hexa:after {
   border-left-width: 8px;
   border-right-width: 8px;
-  border-top: 4px solid #00c4f3;
+  border-top: 4px solid #8118C0;
   bottom: -4px;
 }
 
@@ -379,7 +376,7 @@ header h1{
 }
 
 .time {
-  background: #00c4f3;
+  background: #8118C0;
   display: inline-block;
   padding: 8px;
 }
@@ -391,6 +388,10 @@ header h1{
   z-index: 10;
   font-size: 13px;
   background-color: white;
+}
+
+.desc a {
+    
 }
 
 .direction-l .desc,

@@ -1,419 +1,196 @@
-/* Template.css
-This is a template for special projects at The Post.
-Template originally coded by Seth Archer, digital managing editor at The Post.
-Please contact at SethPArcher@gmail.com with questions.*/
+.fixed {
+    z-index: -1;
+}
 
-/*----- Global Styles -----*/
-
-body {
-    font-family: montserrat, sans-serif;
-    background-color: #FFF;
-    color: #030406;
+.fixed img {
+    position: fixed;
+    width: 50%;
+    left: -5%;
+    z-index: -1;
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 71% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 71% 100%, 0% 100%);
 }
 
 a {
-    color: #7fc448;
     text-decoration: none;
+    color: #999;
 }
 
 a:hover {
-    opacity: .6;
+    color: goldenrod;
 }
 
-p {
-    width: 60%;
-    padding: 0 20%;
-}/*these have a style simmilar to column20center, do not add column20center to p tags*/
+.fixed p {
+    position: fixed;
+    text-align: right;
+    font-family: montserrat;
+    font-weight: 900;
+    left: 5%;
+    top: 40%;
+    z-index: -2;
+}
+
+h1 {
+    font-family: montserrat;
+    font-weight: 900;
+    font-size: 13vw;
+    padding: 0;
+    margin: 0;
+    line-height: 11vw;
+    margin-top: 10%;
+    letter-spacing: -1vw;
+}
+
+.firstwhite {
+    width: calc(100% - 7px);
+    text-align: right;
+    color: #fff;
+    padding-right: 10px;
+}
+
+.firstblack {
+
+}
 
 h2 {
-    padding: 0 15%;
-}
-
-h3 {
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
-}
-
-.date{
-    font-weight: 800;
-    color: #eed7fc;
-    width: 60%;
-    padding: 0% 20% 0 20%;
-    margin: 0;
-}/*apply to p tag*/
-
-/*-----Column stuff-----*/
-
-.column20center {
-    width: 60%;
-    padding: 0 20%;
-}/*do not apply to p tags, they automatically have a simmilar styling*/
-
-.column10center {
-    width: 80%;
-    padding: 0 10%;
-}
-
-.column10left {
-    width: 40%;
-    padding-left: 10%;
-}
-
-.column10right {
-    width: 40%;
-    padding-right: 10%;
-}
-
-/*----- Nav Bar -----*/
-/*we don't use this section as often. delete if not used in the project*/
-
-#nav_bar {
-    background: #030406;
-    color: #FFF;
-    height: 50px;
-}
-
-#nav_bar img {
-    height: 30px;
-    padding: 10px;
-    float: left;
-}
-
-#nav_bar li {
-    list-style: none;
-    display: inline-block;
-    padding: 15px;
-    float: right;
-}
-
-#nav_bar ul {
-    margin: 0;
-}
-
-/*----- Hero Image -----*/
-
-#heroimg {
-    width: 100%;
-    position: relative;
-}/*apply to wrapping div with an img tag within*/
-
-#heroimg img {
-    width: 100%;
-}
-
-#arthed {
-    color: #FFF;
-    position: absolute;
-    bottom: 0;
-    padding: 0;
-    margin: 0;
-    font-size: 70px;
-    font-weight: 700;
-    text-align: center;
-    width: 100%;
-    text-shadow: 2px 2px 3px #000;
-}/*apply to h1 within the heroimg div*/
-
-/*----- Body Copy Things -----*/
-
-.headline {
-    color: #497425;
-    padding: 0 10% 0 10%;
-    width: 80%;
-    margin: 0;
-    font-size: 40px;
-    font-weight: 900i;
+    font-family: montserrat;
+    font-weight: 900;
+    font-size: 13vw;
     text-transform: uppercase;
-}/*apply to h1, not the art hed*/
-
-.credit {
-    font-size: 16px;
-    font-weight: 100;
-    padding-bottom: 50px;
-}/*apply to h4 with developer's name and title*/
-
-.subhed {
-    font-family: montserrat
-    , sans-serif;
-    font-weight: 800;
-    color: #7fc448;
-}/*apply to h2 tags*/
-
-.dropcap {
-    font-weight: 700;
-    float: left;
-    font-size: 2.9em;
-    line-height: .9em;
-    padding-right: 5px;
-}/*apply to wrapping span tag*/
-
-.title {
-    color: #606060;
-}/*should be in same p tag as the author name*/
-
-#byline {
-    margin: 0;
-    font-weight: 400;
-}/*applies to entire byline, with title. bold the author name. put on h4 tag*/
-
-/*----- Img Things -----*/
-
-.oneimg_center {
-    width: 60%;
-    padding: 0 20%;
-}/*Apply to a wrapping div*/
-
-.oneimg_right {
-    width: 40%;
-    padding-right: 10%;
-    padding-left: 10px;
-    float: right;
-}/*Apply to a wrapping div*/
-
-.oneimg_left {
-    width: 40%;
-    padding-left: 10%;
-    padding-right: 20px;
-    float: left;
-}/*Apply to a wrapping div*/
-
-.twoimg_center {
-    width: 60%;
-    margin: 0 20%;
-}
-
-.twoimg_center img {
-    width: 50%;
-    padding: 0;
-    margin: 0;
-    float: left;
-}
-
-.threeimg_full {
-    width: 33%;
-}
-
-.oneimg_full img, .oneimg_center img, .oneimg_right img, .oneimg_left img {
-    width: 100%
-}
-
-/*----- Pullquote stuff -----*/
-
-blockquote {
-    padding: 0;
-    margin: 5px;
-}/*should be the text of the pull quote*/
-
-.pq_center {
-    width: 60%;
-    padding: 0 20%;
-    margin: 0;
-    font-size: 25px;
-    text-transform: uppercase;
-    color: #5379c4;
-    font-weight: 800;
-}/*add to wrapping div*/
-
-.pq_right {
-    width: 40%;
-    padding-right: 10%;
-    padding-left: 15px;
-    float: right;
-    margin: 0;
-    font-size: 25px;
-    text-transform: uppercase;
-    color: #5379c4;
-}/*add to wrapping div*/
-
-.pq_left {
-    width: 40%;
-    padding-left: 10%;
-    padding-right: 0;
-    float: left;
-    margin: 0;
-    font-size: 25px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #5379c4;
-}/*add to wrapping div*/
-
-.attribution {
-    font-size: 20px;
-    text-transform: none;
-    display: block;
+    font-weight: 900;
+    color: magenta;
     text-align: right;
-    font-weight: 400;
+    width: 2vw;
+    padding: 0;
     margin: 0;
-    margin-bottom: 5px;
-    padding: 0 5%;
-    width: 90%;
-}/*add to p tag within the wrapping div*/
-
-/*----- Image stuff -----
-also use these tags to move iframes, graphics etc.. anything that would behave like a photo*/
-
-.pcut{
     float: right;
-    text-align: left;
-    margin:0;
-    font-weight: 100;
-    color: #808080;
-    font-size: 12px;
-    width: 100%;
-    padding: 0;
-}/*add p tag, should be after the photog p tag*/
-
-.galleryPcut{
-float: right;
-    text-align: left;
-    margin:0;
-    font-weight: 100;
-    color: #808080;
-    font-size: 12px;
-    width: 100%;
-    padding: 0;
-    padding-bottom: 10px;
+    line-height: 0vw;
+    margin-top: 0vw;
+    margin-right: 3.56vw;
 }
 
-.photog{
-    float: right;
-    text-align: right;
-    margin:0;
-    font-weight: 800;
-    color: #000;
-    font-size: 12px;
+.rotate {
+    transform: rotate(90deg);
+}
+
+.tablerow {
+    display: table-row;
     width: 100%;
-    padding: 0;
-}/*add to p tag, should be before the pcut p tag*/
-
-.oneimg_full p{
-    width:60%;
-    padding:0 20%;
 }
 
-
-/*----- Gallery Stuff -----*/
-
-.gallery_bot {
-    padding: 0;
-    width: 20%;
-    float: left;
-}
-
-.w3-hover-shadow:hover {
-    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important
-}
-
-.mySlides {
-    display:none;
-}
-
-/*----- Other -----*/
-
-#logo {
-    z-index: 1;
-    position: absolute;
-    float: left;
-    height: 30px;
-    padding: 7px;
-}/*effects the post logo in the top left of the page*/
-
-.parallax {
-    height: 800px;
-    width: 100%;
-    background-attachment: fixed;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-}/* add to the wrapping div, give the div an inline style with the photo you want to be parallax*/
-
-/* Landing page clicky box at bottom.*/
-
-.story {
-    color: #FFF;
-    font-family: playfair display;
-    width: 100%;
-    height: 200px;
-    text-shadow: 2px 2px 5px #000;
-    background-color: #292929;
+.table {
     display: table;
 }
 
-.story_inside{
-    vertical-align: middle;
+.cell {
     display: table-cell;
 }
 
-.story h2{
-    font-size: 40px;
-    width: 70%;
-    padding: 0 15%;
-    margin: 0;
-    line-height: 35px;
+.right {
+    width: 50%;
 }
 
-.story p{
-    font-family: montserrat;
-    margin: 0;
-    width: 70%;
-    padding: 10px 15% 0 15%;
+.farright {
+    width: 10%;
 }
 
-@media screen and (max-width: 750px){
-    
-    .oneimg_right, .oneimg_left, .oneimg_center {
-        width: 80%;
-        padding: 0 10% 10px 10%;
+.farright h3 {
+    font-size: 16px;
+    width: 50px;
+    float: left;
+    transform: rotate(90deg);
+    position: fixed;
+    top: 5%;
+    text-transform: uppercase;
+}
+
+.left {
+    width: 40%;
+}
+
+
+.scrolling p {
+    width: 90%;
+    padding: 0 5%;
+}
+
+.oneimg_left {
+    width: 50%;
+    padding-left: 5%;
+    float: left;
+    padding-right: 10px;
+}
+
+.oneimg_right {
+    width: 50%;
+    padding-right: 5%;
+    float: right;
+    padding-left: 10px;
+}
+
+.oneimg_center {
+    width: 90%;
+    padding: 0 5%;
+}
+
+.grey {
+    color: #777;
+}
+
+.mobile {
+    display: none;
+}
+
+@media screen and (max-width: 800px){
+    .fixed img {
+        width: 100%;
+        position: relative;
+        padding: px 5% 0;
+        margin: 0;
+        top: 0;
+        left: 0; 
     }
     
-    .oneimg_full p {
-        width: 80%;
-        padding: 0 10%;
+    h1 {
+        color: #000;
+        letter-spacing: normal;
+        width: 95%;
+        margin-top: 0;
+        padding: 0;
+        margin: 0;
+        line-height: 10vw;
     }
     
-    .pq_center, .pq_right, .pq_left {
+    h2{
+        width: 90%;
+        display: block;
+        padding: 0;
+        font-size: 10vw;
+        float: right;
+        line-height: 8vw;
+    }
+    
+    .cell {
+        display: block;
+    }
+    
+    .desktop {
+        display: none;
+    }
+    
+    .mobile {
+        display: inherit;
+    }
+    
+    .right {
         padding: 0 5%;
         width: 90%;
+        margin: 0;
     }
     
-    .column20center, p {
-        width: 80%;
-        padding: 0 10%;
+    .farright {
+        width: 0;
     }
     
-    #arthed {
-        font-size: 40px;
-    }
-    
-    .subhed{
-        padding: 0 10%;
-    }
-    
-    .credit{
-        padding-bottom: 20px;
-    }
-    
-    #logo {
-        height: 25px;
-    }
-
-    .headline {
-        width: 80%;
-        padding: 0% 10% 0 10%;
-        font-size: 25px;
-    }
-    
-    .date {
-        padding: 0 10%;
-        width: 80%;
-    }
-    
-    #banner {
-        font-size: 50px;
-    }
-    
-    .story {
-        height: 300px;
-    }
 }
+

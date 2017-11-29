@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #f8ce52;
     text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #eed7fc;
+    color: darkgray;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -103,7 +103,7 @@ h3 {
 }
 
 #arthed {
-    color: #FFF;
+    color: #000;
     position: absolute;
     bottom: 0;
     padding: 0;
@@ -112,13 +112,12 @@ h3 {
     font-weight: 700;
     text-align: center;
     width: 100%;
-    text-shadow: 2px 2px 3px #000;
 }/*apply to h1 within the heroimg div*/
 
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
+    color: #81cfcb;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
@@ -136,7 +135,7 @@ h3 {
     font-family: montserrat
     , sans-serif;
     font-weight: 800;
-    color: #7fc448;
+    color: #81cfcb;
 }/*apply to h2 tags*/
 
 .dropcap {
@@ -217,15 +216,15 @@ li {
   width: calc(100% + 40px);
 }
 .window {      
-  height: 560px;
+  height: 650px;
   margin: 1em;
-  width: 100%;
+  width: 90%;
   padding: 5px;
 }
 .header {
-  background: #81CFCB;
+  background: #53aaa7;
   color: #FFF;
-  height: 380px;
+  height: 520px;
   left: 0;
   position: absolute;
   text-align: center;
@@ -233,7 +232,7 @@ li {
   width: 100%;
 }
 .header:before {
-  border: 2px solid rgba(161, 220, 255, 0.34);
+  border: 2px solid white;
   border-radius: 100%;
   content: "";
   height: 140px;
@@ -276,14 +275,22 @@ li {
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
   text-transform: uppercase;
 }
+
+.header p {
+  color: rgba(255, 255, 255, 0.75);
+  display: block;
+  font-size: 9px;
+  margin: 0 auto;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
 .footer {
-  background-color: #81CFCB;
+  background-color: #53aaa7;
   bottom: 0;
   color: #FFF;
   left: 0;
   position: absolute;
   text-align: center;
-  top: 380px;
+  top: 520px;
   width: 100%;
 }
 .footer ul {
@@ -300,7 +307,7 @@ li {
 }
 .footer li {
   border-left: 2px solid rgba(255, 255, 255, .15);
-  font-family: 'Quicksand', sans-serif;
+  font-family: montserrat, sans-serif;
   padding: 0 4px 0 6px;
   width: 100%;
 }
@@ -311,7 +318,7 @@ li {
   padding: 0 4px 0 0;
   vertical-align: middle;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 450px) {
     .window {      
       margin: 1%;
       width: 46%;
@@ -367,6 +374,31 @@ li {
     width: 100%
 }
 
+.bob {
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+    background-color: #f8ce52;
+    text-align: center;
+    
+}
+
+.bob h3{
+    width:98%;
+    margin-left: 2%;
+    background-color:transparent;
+    padding:0px;
+    font-size:20px
+}
+
+.bob p{
+    width:98%;
+    padding: 0;
+    margin-left: 2%; 
+    color: white;
+    font-size: 12px;
+
+}
 /*----- Pullquote stuff -----*/
 
 blockquote {

@@ -279,7 +279,7 @@ li {
 .header p {
   color: rgba(255, 255, 255, 0.75);
   display: block;
-  font-size: 9px;
+  font-size: 10px;
   margin: 0 auto;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
 }
@@ -318,20 +318,47 @@ li {
   padding: 0 4px 0 0;
   vertical-align: middle;
 }
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 410px) {
     .window {      
       margin: 1%;
       width: 46%;
       display: inline-block;
     }
+    .header p {
+  color: rgba(255, 255, 255, 0.75);
+  display: block;
+  font-size: 2px;
+  margin: 0 auto;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
 }
 @media screen and (min-width: 700px) {
     .window {      
       margin: 1%;
       width: 20%;
-      max-width: 300px;          
+      max-width: 300px;
     }
+    .header p {
+  color: rgba(255, 255, 255, 0.75);
+  display: block;
+  font-size: 6px;
+  margin: 0 auto;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
 }
+@media screen and (min-width: 730px) {
+    .window {      
+      margin: 1%;
+      width: 20%;
+      max-width: 300px;
+    }
+    .header p {
+  color: rgba(255, 255, 255, 0.75);
+  display: block;
+  font-size: 9px;
+  margin: 0 auto;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+    }}
 
 /*----- Img Things -----*/
 

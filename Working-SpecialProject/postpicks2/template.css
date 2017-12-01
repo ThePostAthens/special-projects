@@ -8,67 +8,166 @@ Please contact at SethPArcher@gmail.com with questions.*/
 body {
     font-family: montserrat, sans-serif;
     background-color: #FFF;
-    color: #fff;
+    color: #030406;
 }
 
-.box1 {
-  background: red;
+
+/*1st set*/
+.rrcontainer {
+    padding-bottom: 265px;
 }
-.box2 {
-  background-image: url(img/noisy_grid.png);
+.rr h2{
+    font-family: montserrat;
+    color: white;
+    font-size: 3vw;
+    text-align: center;
+     position: relative;
+     text-align: center;
 }
-.box3 {
-  background: yellow;
+.rr > div {
+  text-align: center;
 }
-.box4 {
-  background: blue;
-}
-.box5 {
+
+.rr {
+  position: relative;
+  height: 250px;
   background: purple;
 }
-.box6 {
+.rr.rr-left {
+  z-index: 1;
+  float: left;
+  width: 55%;
+  background-image: url(https://boygeniusreport.files.wordpress.com/2015/03/steve-jobs-sign.jpg?quality=98&strip=all&w=1200);
+  position: relative;
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: -50px 0px;
+}
+.rr.rr-right {
+  z-index: 2;
+  float: right;
+  width: 44%;
+}
+
+.rr:after,
+.rr:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 0;
+  height: 0;
+}
+
+.rr-left:after {
+  right: 0;
+  border-left: 100px solid transparent;
+  border-bottom: 250px solid white;
+}
+
+.rr-right:before {
+  left: -100px;
+  border-right: 100px solid purple;
+  border-top: 250px solid transparent;
+}
+
+.rr-left > div {
+  margin-right: 100px;
+  margin-left: 50px;
+}
+
+.rr-right > div {
+  margin-right: 50px;
+  margin-left: 25px;
+}
+
+.rr:hover {
   background: pink;
 }
-.box7 {
-  background: teal;
-}
-.box8 {
-  background: brown;
-}
-.box9 {
-  background: orange;
+
+.rr-left:hover:after {
+  border-left-color: pink;
 }
 
-
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  width: 80%;
-  margin: auto;
-  justify-content: space-around;
+.rr-right:hover:before {
+  border-right-color: pink;
 }
 
-.container--1 div {
-  width: 30%;
-  height: 300px;
-  margin: 10px 0;
-  transform: skewX(5deg);
-}
-.container--1 p {
-  margin-left: 30px;
-  transform: skewX(-5deg);
-  font-size: 20px;
+/*2nd set*/
+.llcontainer {
+    padding-bottom: 265px;
 }
 
-.container--2 div {
-  width: 30%;
-  height: 300px;
-  margin: 10px 0;
-  transform: skewX(-5deg);
+.ll h2{
+    font-family: montserrat;
+    color: white;
+    font-size: 3vw;
+    text-align: center;
+     position: relative;
+
+  text-align: center;
 }
-.container--2 p {
-  margin-left: 10px;
-  transform: skewX(5deg);
+}
+.ll > div {
+  text-align: center;
+}
+
+.ll {
+  position: relative;
+  height: 250px;
+  background: purple;
+}
+.ll.ll-left {
+  z-index: 1;
+  float: left;
+  width: 55%;
+}
+.ll.ll-right {
+  z-index: 2;
+  float: right;
+  width: 44%;
+}
+
+.ll:after,
+.ll:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 0;
+  height: 0;
+}
+
+.ll-left:after {
+  right: 0;
+  border-left: 100px solid purple;
+  border-bottom: 250px solid white;
+}
+
+.ll-right:before {
+  left: -100px;
+  border-right: 100px solid purple;
+  border-top: 250px solid transparent;
+}
+
+.ll-left > div {
+  margin-right: 100px;
+  margin-left: 50px;
+}
+
+.ll-right > div {
+  margin-right: 50px;
+  margin-left: 25px;
+}
+
+.ll:hover {
+  background: pink;
+}
+
+.ll-left:hover:after {
+  border-left-color: pink;
+}
+
+.ll-right:hover:before {
+  border-right-color: pink;
 }
 
 a {
@@ -81,7 +180,7 @@ a:hover {
 }
 
 p {
-    width: 100%;
+    width: 60%;
     padding: 0 20%;
 }/*these have a style simmilar to column20center, do not add column20center to p tags*/
 
@@ -106,7 +205,7 @@ h3 {
 /*-----Column stuff-----*/
 
 .column20center {
-    width: 100%;
+    width: 60%;
     padding: 0 20%;
 }/*do not apply to p tags, they automatically have a simmilar styling*/
 
@@ -216,20 +315,6 @@ h3 {
     margin: 0;
     font-weight: 400;
 }/*applies to entire byline, with title. bold the author name. put on h4 tag*/
-
-*, *:before, *:after {
-  transition: all .2s ease;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: black;
-  margin: 0;
-  color: white;
-}
-
 
 /*----- Img Things -----*/
 

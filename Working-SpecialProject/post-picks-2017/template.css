@@ -1,4 +1,7 @@
+/* Original HTML/CSS template created by Seth Archer, current designs by Taylor Johnston. Contact tj369915@ohio.edu for more information. */
 
+
+/*BODY STUFF HERE*/
 body {
     background-image: url(img/grey_@2X.png);
     background-attachment: fixed;
@@ -10,13 +13,67 @@ body {
     float: left;
     height: 30px;
     padding: 7px;
-}/*effects the post logo in the top left of the page*/
+}
+a {
+    text-decoration: none;
+    color: #999;
+}
 
-.fixed {
+a:hover {
+    color: indianred;
+}
+
+.title {
+    font-family: montserrat;
+    font-weight: 900;
+    font-size: 6vw;
+    position:relative;
+    width: 90%;
+    left: 200px;
+    margin-top: 0%;
+}
+
+.title2 {
+    font-family: montserrat;
+    font-weight: 900;
+    font-size: 1.10vw;
+    position:static;
+    width: 90%;
+    margin-left: 45%;
+}
+
+.scrollingtext p {
+    width: 100%;
+    padding: 0 10%;
+    font-size: 13px;
+}
+
+/* BODY IMAGE STUFF*/
+.oneimg_left {
+    width: 50%;
+    padding-left: 5%;
+    float: left;
+    padding-right: 10px;
+}
+
+.oneimg_right {
+    width: 50%;
+    padding-right: 5%;
+    float: right;
+    padding-left: 10px;
+}
+
+.oneimg_center {
+    width: 90%;
+    padding: 0 5%;
+}
+
+/*LEFT PROFILE IMAGE HERE*/
+.image {
     z-index: -1;
 }
 
-.fixed img {
+.image img {
     position: fixed;
     width: 50%;
     left: -3.5%;
@@ -25,8 +82,7 @@ body {
     clip-path: polygon(25% 0%, 100% 0%, 71% 100%, 0% 100%);
 }
 
-/* Landing page clicky box at bottom.*/
-
+/*FOOTER STUFF*/
 .story {
     color: #FFF;
     font-family: playfair display;
@@ -57,23 +113,7 @@ body {
     padding: 10px 15% 0 15%;
 }
 
-
-
-a {
-    text-decoration: none;
-    color: #999;
-}
-
-a:hover {
-    color: indianred;
-}
-
-
-
-.rotate {
-    transform: rotate(90deg);
-}
-
+/*CELL TABLE STUFF*/
 .tablerow {
     display: table-row;
     width: 100%;
@@ -91,62 +131,16 @@ a:hover {
     width: 50%;
 }
 
-.title {
-  font-size: 6vw;
-  font-weight: 800;
-  text-align: left;
-  width: 100%;
-}
-
-
-.byline {
-    font-size: 16px;
-    width: 100%;
-    right: 451%;
-    float: left;
-    position: relative;
-    width: 300%;
-    bottom: -140px;
-}
-
 .left {
     width: 40%;
 }
-
-
-.scrolling p {
-    width: 100%;
-    padding: 0 10%;
-    font-size: 13px;
-}
-
-/*IMAGE STUFF*/
-.oneimg_left {
-    width: 50%;
-    padding-left: 5%;
-    float: left;
-    padding-right: 10px;
-}
-
-.oneimg_right {
-    width: 50%;
-    padding-right: 5%;
-    float: right;
-    padding-left: 10px;
-}
-
-.oneimg_center {
-    width: 90%;
-    padding: 0 5%;
-}
-
 
 .mobile {
     display: none;
 }
 
 @media screen and (max-width: 1024px){
-    .fixed img {
+    .image img {
         width: 100%;
         position: relative;
         padding: px 5% 0;
@@ -208,12 +202,12 @@ a:hover {
     display: table;
 }
 
-.story_inside{
+    .story_inside{
     vertical-align: middle;
     display: table-cell;
 }
 
-.story h2{
+    .story h2{
     font-size: 40px;
     width: 60%;
     padding: 0 15%;
@@ -221,7 +215,7 @@ a:hover {
     line-height: 35px;
 }
 
-.story p{
+    .story p{
     font-family: montserrat;
     margin: 0;
     width: 70%;
@@ -248,8 +242,5 @@ a:hover {
         float: left;
         position: relative;
         width: 300%;
-        bottom: -150px;
+        bottom: -150px;   
 }
-    
-}
-

@@ -312,40 +312,6 @@ h3 {
   display: none;
 }
 
-/*BUTTON*/
-
-/* button div */
-#buttons {
-  padding-top: 50px;
-  text-align: center;
-}
-
-/* start da css for da buttons */
-.btn {
-  border-radius: 5px;
-  padding: 15px 15px;
-  font-size: 20px;
-  text-decoration: none;
-  margin: 20px;
-  color: #fff;
-  position: relative;
-  display: inline-block;
-}
-
-.btn:active {
-  transform: translate(0px, 5px);
-  -webkit-transform: translate(0px, 5px);
-  box-shadow: 0px 1px 0px 0px;
-}
-
-.blue {
-  background-color: black;
-}
-
-.blue:hover {
-  background-color: gray;
-}
-
 /*----- Img Things -----*/
 
 .oneimg_center {
@@ -498,6 +464,43 @@ float: right;
 }
 
 /*----- Other -----*/
+
+
+
+/*BUTTON*/
+
+/* button div */
+#buttons {
+  padding-top: 50px;
+  text-align: center;
+}
+
+/* start da css for da buttons */
+.btn {
+  border-radius: 5px;
+  padding: 15px 15px;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 20px;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+}
+
+.btn:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+
+.blue {
+  background-color: black;
+}
+
+.blue:hover {
+  background-color: gray;
+}
+
 
 #logo {
     z-index: 1;

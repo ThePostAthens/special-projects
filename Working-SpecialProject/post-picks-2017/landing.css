@@ -37,7 +37,6 @@ body {
   z-index: 1;
   float: left;
   width: 55%;
-  background-image: url(https://boygeniusreport.files.wordpress.com/2015/03/steve-jobs-sign.jpg?quality=98&strip=all&w=1200);
   position: relative;
   background-size: cover;
   background-repeat: repeat;
@@ -169,7 +168,6 @@ body {
 .ll-right:hover:before {
   border-right-color: pink;
 }
-
 a {
     color: #7fc448;
     text-decoration: none;

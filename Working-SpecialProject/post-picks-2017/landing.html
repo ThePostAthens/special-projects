@@ -52,7 +52,7 @@ THE
         <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
         <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
         <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="template.css">
+        <link rel="stylesheet" href="landing.css">
         
         
     </head>
@@ -84,25 +84,24 @@ THE
         
         <!-- CONTENT GOES BELOW HERE -->
 <div class="rrcontainer">
- <a href="http://www.google.com"><div class="rr rr-left">
+ <div class="rr rr-left">
 	<div>
 		<h2>TITLE HERE</h2>
 	</div>
-</div></a>
+</div>
 <div class="rr rr-right">
 	<div>
         <h2>TITLE HERE</h2>
 	</div>
 </div>
 </div>
-<!--     ----------------------------   -->
-<div class="llcontainer">
-<div class="ll ll-left">
+<div class="rrcontainer">
+ <div class="rr rr-left">
 	<div>
 		<h2>TITLE HERE</h2>
 	</div>
 </div>
-<div class="ll ll-right">
+<div class="rr rr-right">
 	<div>
         <h2>TITLE HERE</h2>
 	</div>
@@ -140,6 +139,12 @@ THE
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-54093688-1','auto');ga('send','pageview');
         </script>
+        <script>var images = ["https://boygeniusreport.files.wordpress.com/2015/03/steve-jobs-sign.jpg?quality=98&strip=all&w=1200", "https://beebom-redkapmedia.netdna-ssl.com/wp-content/uploads/2016/01/Reverse-Image-Search-Engines-Apps-And-Its-Uses-2016.jpg"]
+
+var lefts = document.getElementsByClassName("rr-left");
+for (let i =0; i< lefts.length; i++) {
+    lefts[i].style.backgroundImage = `url("${images[i]}")`
+}</script>
         
     </body>
 </html>

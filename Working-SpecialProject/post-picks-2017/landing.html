@@ -75,7 +75,7 @@ THE
         
         <div id="heroimg">
            <img src="https://www.wpfreeware.com/wp-content/uploads/2014/09/placeholder-images.jpg">
-            <p class="photog" style="padding-right:10px;">photographers name here</p>
+            <p class="photog" style="padding-right:10px;">ABIGAIL DAY</p>
             <h1 id="arthed">POST PICKS</h1>
         </div>
         
@@ -84,29 +84,45 @@ THE
         
         <!-- CONTENT GOES BELOW HERE -->
 <div class="rrcontainer">
- <div class="rr rr-left">
+ <a href="#"><div class="rr rr-left">
 	<div>
-		<h2>TITLE HERE</h2>
+		<h2>Thinking Global</h2>
 	</div>
-</div>
-<div class="rr rr-right">
+</div></a>
+<a href="#"><div class="rr rr-right">
 	<div>
-        <h2>TITLE HERE</h2>
+        <h2>Most Obscure Class</h2>
 	</div>
+    </div></a>
 </div>
-</div>
+        
 <div class="rrcontainer">
- <div class="rr rr-left">
+ <a href="#"><div class="rr rr-left">
 	<div>
-		<h2>TITLE HERE</h2>
+		<h2>Sustainable Salaam</h2>
 	</div>
-</div>
-<div class="rr rr-right">
+</div></a>
+<a href="#"><div class="rr rr-right">
 	<div>
-        <h2>TITLE HERE</h2>
+        <h2>post pick</h2>
 	</div>
+    </div></a>
 </div>
+        
+<div class="rrcontainer">
+ <a href="#"><div class="rr rr-left">
+	<div>
+		<h2>post pick</h2>
+	</div>
+</div></a>
+<a href="#"><div class="rr rr-right">
+	<div>
+        <h2>post pick</h2>
+	</div>
+    </div></a>
 </div>
+        
+    
         
         
         
@@ -139,9 +155,16 @@ THE
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-54093688-1','auto');ga('send','pageview');
         </script>
-        <script>var images = ["https://boygeniusreport.files.wordpress.com/2015/03/steve-jobs-sign.jpg?quality=98&strip=all&w=1200", "https://beebom-redkapmedia.netdna-ssl.com/wp-content/uploads/2016/01/Reverse-Image-Search-Engines-Apps-And-Its-Uses-2016.jpg"]
+<script>var images = ["https://boygeniusreport.files.wordpress.com/2015/03/steve-jobs-sign.jpg?quality=98&strip=all&w=1200", "https://beebom-redkapmedia.netdna-ssl.com/wp-content/uploads/2016/01/Reverse-Image-Search-Engines-Apps-And-Its-Uses-2016.jpg"]
 
 var lefts = document.getElementsByClassName("rr-left");
+for (let i =0; i< lefts.length; i++) {
+    lefts[i].style.backgroundImage = `url("${images[i]}")`
+}</script>
+        
+<script>var images = ["https://boygeniusreport.files.wordpress.com/2015/03/steve-jobs-sign.jpg?quality=98&strip=all&w=1200", "https://beebom-redkapmedia.netdna-ssl.com/wp-content/uploads/2016/01/Reverse-Image-Search-Engines-Apps-And-Its-Uses-2016.jpg"]
+
+var lefts = document.getElementsByClassName("rr-right");
 for (let i =0; i< lefts.length; i++) {
     lefts[i].style.backgroundImage = `url("${images[i]}")`
 }</script>

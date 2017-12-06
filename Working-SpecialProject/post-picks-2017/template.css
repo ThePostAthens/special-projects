@@ -3,7 +3,7 @@
 
 /*BODY STUFF HERE*/
 body {
-    background: WHITE;
+    background:white;
     background-attachment: fixed;
     font-family: montserrat;
 }
@@ -40,7 +40,7 @@ a:hover {
     font-size: 1vw;
     position:static;
     width: 40%;
-    margin-left: 45%;
+    margin-left: 44.5%;
 }
 
 .scrollingtext p {
@@ -48,6 +48,14 @@ a:hover {
     padding: 0 9%;
     font-size: 13px;
 }
+
+.dropcap {
+    font-weight: 700;
+    float: left;
+    font-size: 2.9em;
+    line-height: .9em;
+    padding-right: 5px;
+}/*apply to wrapping span tag*/
 
 /*BUTTON AT THE BOTTOM*/
 
@@ -155,10 +163,12 @@ blockquote {
 .image img {
     position: fixed;
     width: 50%;
+    top:-15%;
     left: -5.5%;
     z-index: -1;
     -webkit-clip-path: polygon(25% 0%, 100% 0%, 71% 100%, 0% 100%);
     clip-path: polygon(25% 0%, 100% 0%, 71% 100%, 0% 100%);
+     
 }
 
 /*FOOTER STUFF*/

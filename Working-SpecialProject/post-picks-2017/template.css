@@ -32,7 +32,9 @@ a:hover {
     left: 100px;
     margin-top: 0%;
     text-align-last: center;
-    color: #231F20;
+    color: #1DAEEC;
+    text-shadow: 2px 2px 5px #000;
+
 
     
 }

@@ -11,7 +11,7 @@ body {
     z-index: 1;
     position: fixed;
     float: left;
-    height: 25px;
+    height: 20px;
     padding: 7px;
 }
 a {
@@ -32,17 +32,16 @@ a:hover {
     left: 100px;
     margin-top: 0%;
     text-align-last: center;
-    color: #1DAEEC;
+    color: WHITE;
     text-shadow: 2px 2px 5px #000;
+     -webkit-text-stroke: 2px #1DAEEC;
 
-
-    
 }
 
 .title2 {
     font-family: montserrat;
     font-weight: 900;
-    font-size: 1vw;
+    font-size: 1.3vw;
     position:static;
     width: 40%;
     margin-left: 44.5%;
@@ -51,14 +50,14 @@ a:hover {
 .scrollingtext p {
     width: 100%;
     padding: 0 9%;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .dropcap {
     font-weight: 700;
     float: left;
     font-size: 2.9em;
-    line-height: .9em;
+    line-height: .3em;
     padding-right: 5px;
 }/*apply to wrapping span tag*/
 
@@ -167,7 +166,7 @@ blockquote {
 .image img {
     position: fixed;
     width: 50%;
-    top:-15%;
+    top:-6%;
     left: -5.5%;
     z-index: -1;
     -webkit-clip-path: polygon(25% 0%, 100% 0%, 71% 100%, 0% 100%);

@@ -37,23 +37,6 @@ h3 {
 }
 
 
-#arthed {
-    color: #000;
-    position: absolute;
-    top: 220px;
-    bottom: 0;
-    padding: 0;
-    margin: 0;
-    font-size: 10vw;
-    font-weight:900;
-    text-align: center;
-    width: 100%;
-}
-
-#arthed span {
-    background-color: white;
-}
-
 /*apply to h1 within the heroimg div*/
 /*-----Column stuff-----*/
 
@@ -80,7 +63,7 @@ h3 {
 .wrap {
   position: relative;
   width: 95vw;
-  height: 6vw;
+  height: 10vw;
   margin-right: auto;
   margin-left: auto;
   background: white;
@@ -128,7 +111,7 @@ h3 {
   display: inline-block;
   font-family: montserrat;
   color: white;
-  font-size: 1.6vw;
+  font-size: 2.3vw;
   text-shadow: 2px 2px 5px #000;
 }
 
@@ -140,7 +123,7 @@ h3 {
   display: inline-block;
   font-family: montserrat;
   color: white;
-  font-size: 1.6vw;
+  font-size: 2.3vw;
   text-shadow: 2px 2px 5px #000;
 }
 
@@ -217,6 +200,20 @@ h3 {
     width: 100%;
 }
 
+#arthed {
+    color: #000;
+    position: absolute;
+    top: 120px;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    font-size: 120px;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+}
+#arthed span {
+    background-color: white;
 }/*apply to h1 within the heroimg div*/
 
 /*----- Body Copy Things -----*/
@@ -341,6 +338,7 @@ h3 {
     
     #arthed {
         font-size: 40px;
+        top: 40px;
     }
     
     .subhed{
@@ -372,5 +370,29 @@ h3 {
     
     .story {
         height: 300px;
+    }
+    
+    .button-skewed .button .titleleft {
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: skewX(20deg) translate(-50%, -50%);
+  display: inline-block;
+  font-family: montserrat;
+  color: white;
+  font-size: 7px;
+  text-shadow: 2px 2px 5px #000;
+}
+
+.button-skewed .button .titleright {
+  position: absolute;
+  top: 50%;
+  left: 13%;
+  transform: skewX(20deg) translate(-50%, -50%);
+  display: inline-block;
+  font-family: montserrat;
+  color: white;
+  font-size: 7px;
+  text-shadow: 2px 2px 5px #000;
     }
 }

@@ -61,7 +61,7 @@ h3 {
 .wrap {
   position: relative;
   width: 95vw;
-  height: 20vw;
+  height: 6vw;
   margin-right: auto;
   margin-left: auto;
   background: white;
@@ -123,12 +123,6 @@ h3 {
   color: white;
   font-size: 2.6vw;
   text-shadow: 2px 2px 5px #000;
-}
-
-.button-skewed .button img {
-  transform: skewX(20deg);
-   left: 30px;
-    
 }
 
 .mask-outer-left {

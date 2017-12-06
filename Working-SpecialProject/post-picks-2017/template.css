@@ -231,7 +231,7 @@ blockquote {
     display: none;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1200px){
     .image img {
         width: 100%;
         position: relative;
@@ -251,6 +251,9 @@ blockquote {
         font-size: 70PX;
         text-align: center;
         font-style: montserrat;
+        color: WHITE;
+        text-shadow: 2px 2px 5px #000;
+        -webkit-text-stroke: 2px #1DAEEC;
     }
     
     .title {
@@ -327,6 +330,9 @@ blockquote {
         font-size: 40px;
         text-align: center;
         font-style: montserrat;
+        color: WHITE;
+    text-shadow: 2px 2px 5px #000;
+     -webkit-text-stroke: 1px #1DAEEC;
     }
         
     .pq_center, .pq_right, .pq_left {

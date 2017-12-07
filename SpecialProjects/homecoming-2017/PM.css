@@ -65,31 +65,7 @@ h3 {
     padding-right: 10%;
 }
 
-/*----- Nav Bar -----*/
-/*we don't use this section as often. delete if not used in the project*/
 
-#nav_bar {
-    background: #030406;
-    color: #FFF;
-    height: 50px;
-}
-
-#nav_bar img {
-    height: 30px;
-    padding: 10px;
-    float: left;
-}
-
-#nav_bar li {
-    list-style: none;
-    display: inline-block;
-    padding: 15px;
-    float: right;
-}
-
-#nav_bar ul {
-    margin: 0;
-}
 
 /*----- Hero Image -----*/
 

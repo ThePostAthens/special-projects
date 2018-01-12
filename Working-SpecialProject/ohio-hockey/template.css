@@ -65,31 +65,6 @@ h3 {
     padding-right: 10%;
 }
 
-/*----- Nav Bar -----*/
-/*we don't use this section as often. delete if not used in the project*/
-
-#nav_bar {
-    background: #030406;
-    color: #FFF;
-    height: 50px;
-}
-
-#nav_bar img {
-    height: 30px;
-    padding: 10px;
-    float: left;
-}
-
-#nav_bar li {
-    list-style: none;
-    display: inline-block;
-    padding: 15px;
-    float: right;
-}
-
-#nav_bar ul {
-    margin: 0;
-}
 
 /*----- Hero Image -----*/
 
@@ -103,19 +78,233 @@ h3 {
 }
 
 #arthed {
-    color: #FFF;
+    z-index: 99 !important;
+    color: darkseagreen;
     position: absolute;
-    bottom: 0;
+    bottom: 87%;
     padding: 0;
     margin: 0;
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 700;
     text-align: center;
     width: 100%;
     text-shadow: 2px 2px 3px #000;
 }/*apply to h1 within the heroimg div*/
 
-/*----- Body Copy Things -----*/
+/*---- Landing Page Stuff ----*/
+
+.wrapper {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.wrapper>div {
+	padding: 5em;
+	color: white;
+}
+
+.wrapper {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 15px;
+	grid-auto-rows: minmax(100px, auto);
+}
+
+.one {
+	grid-column: 1;
+	grid-row: 1;
+	background-image: url('http://via.placeholder.com/350x150/fssedc');
+	position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.one span {
+	position: absolute;
+	bottom: 2px;
+	left: 5px;
+    text-shadow: 2px 2px black;
+}
+
+.two {
+	grid-column:2;
+	grid-row: 1;
+	background-image: url('http://via.placeholder.com/350x150/gedfds');
+	position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.two span {
+	position: absolute;
+	bottom: 2px;
+	left: 5px;
+    text-shadow: 2px 2px black;
+}
+
+.three {
+	grid-column: 1;
+	grid-row: 2;
+	background-image: url('http://via.placeholder.com/350x150/fdsc');
+	position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.three span {
+	position: absolute;
+	bottom: 2px;
+	left: 5px;
+    text-shadow: 2px 2px black;
+}
+
+
+.four {
+	grid-column: 2;
+	grid-row: 2;
+	background-image: url('http://via.placeholder.com/350x150/ffec');
+	position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.four span {
+	position: absolute;
+	bottom: 2px;
+	left: 5px;
+    text-shadow: 2px 2px black;
+}
+
+.five {
+	grid-column: 1;
+	grid-row: 3;
+	background-image: url('http://via.placeholder.com/350x150/cgc');
+	position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.five span {
+	position: absolute;
+	bottom: 2px;
+	left: 5px;
+    text-shadow: 2px 2px black;
+}
+
+.six {
+	grid-column: 2;
+	grid-row: 3;
+	background-image: url('http://via.placeholder.com/350x150/cc');
+	position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.six span {
+	position: absolute;
+	bottom: 2px;
+	left: 5px;
+    text-shadow: 2px 2px black;
+}
+
+.seven {
+	grid-column: 3;
+	grid-row: 1 / 4;
+	background-image: url('http://via.placeholder.com/350x150/fdc');
+	position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.seven span {
+	position: absolute;
+	bottom: 2px;
+	left: 5px;
+    text-shadow: 2px 2px black;
+}
+
+
+/*HOVER*/
+
+.one:hover {
+	opacity: .6;
+}
+
+.two:hover {
+	opacity: .6;
+}
+
+.three:hover {
+	opacity: .6;
+}
+
+.four:hover {
+	opacity: .6;
+}
+
+.five:hover {
+	opacity: .6;
+}
+
+.six:hover {
+	opacity: .6;
+}
+
+.seven:hover {
+	opacity: .6;
+}
+
+@media only screen and (max-width: 768px) {
+	.wrapper {
+		display: block;
+	}
+	.margin-bot {
+		margin-bottom: 2px;
+	}
+}
+
+
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+.slider {
+  box-sizing: border-box;
+}
+ figure { 
+  margin: 0; background: #101010;
+  font-family: Istok Web, sans-serif;
+  font-weight: 100;
+}
+div#captioned-gallery { 
+  width: 100%; overflow: hidden; 
+}
+figure.slider { 
+  position: relative; width: 500%;
+  font-size: 0; animation: 30s slidy infinite; 
+}
+figure.slider figure { 
+  width: 20%; height: auto;
+  display: inline-block;  position: inherit; 
+}
+figure.slider img { width: 100%; height: auto; }
+figure.slider figure figcaption { 
+  position: absolute; bottom: 0;
+  background: rgba(0,0,0,0.4);
+  color: #fff; width: 100%;
+  font-size: 2rem; padding: .6rem; 
+}
+
+
+
+/*Body Copy Things*/
 
 .headline {
     color: #497425;
@@ -276,15 +465,7 @@ float: right;
     padding-bottom: 10px;
 }
 
-.photog{
-    float: right;
-    text-align: right;
-    margin:0;
-    font-weight: 800;
-    color: #000;
-    font-size: 12px;
-    width: 100%;
-    padding: 0;
+
 }/*add to p tag, should be before the pcut p tag*/
 
 .oneimg_full p{

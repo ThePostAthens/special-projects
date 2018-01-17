@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: darkgray;
     text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #eed7fc;
+    color: darkgray;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -103,9 +103,10 @@ h3 {
 }
 
 #arthed {
-    color: #FFF;
+    z-index: 100;
+    color: #0d6e54;
     position: absolute;
-    bottom: 0;
+    bottom:-90px;
     padding: 0;
     margin: 0;
     font-size: 70px;
@@ -113,18 +114,169 @@ h3 {
     text-align: center;
     width: 100%;
     text-shadow: 2px 2px 3px #000;
+    font-family: montserrat;
 }/*apply to h1 within the heroimg div*/
+
+/*----- Gallery Stuff -----*/
+#image-slider {
+  margin: 50px auto;
+  width: 900px;
+  height: 727px;
+  overflow: hidden;
+  position: relative;
+}
+
+#image-slider .image {
+  position: absolute;
+  top: 0;
+  left: -500px;
+  z-index: 1;
+  opacity: 0;
+  -webkit-transition: all linear 400ms;
+  -moz-transition: all linear 400ms;
+  -o-transition: all linear 400ms;
+  transition: all linear 400ms;
+    width: 100%;
+    height: auto;
+}
+
+#image-slider .caption {
+  position: absolute;
+  top: -50px;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  display: none;
+  z-index: 10;
+  -webkit-transition: all linear 400ms;
+  -moz-transition: all linear 400ms;
+  -o-transition: all linear 400ms;
+  transition: all linear 400ms;
+}
+
+#image-slider .navigation {
+  text-align: center;
+  z-index: 8;
+  bottom: -32px;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  padding: 5px 0;
+  -webkit-transition: all linear 400ms;
+  -moz-transition: all linear 400ms;
+  -o-transition: all linear 400ms;
+  transition: all linear 400ms;
+}
+
+#image-slider .navigation a,
+#image-slider .next,
+#image-slider .prev {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  display: inline-block;
+  line-height: 20px;
+  width: 20px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(48, 48, 48);
+  z-index: 10;
+}
+
+#image-slider .next,
+#image-slider .prev {
+  display: none;
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  -webkit-transition: left linear 400ms, right linear 400ms;
+  -moz-transition: left linear 400ms, right linear 400ms;
+  -o-transition: left linear 400ms, right linear 400ms;
+  transition: left linear 400ms, right linear 400ms;
+}
+
+#image-slider .next:hover,
+#image-slider .prev:hover {
+  background-color: rgb(192, 192, 192);
+}
+
+#image-slider .prev {
+  left: -27px;
+}
+
+#image-slider .next {
+  right: -27px;
+}
+
+#image-slider .navigation a:hover {
+  background-color: rgb(192, 192, 192);
+}
+
+#image-slider:hover .navigation {
+  bottom: 0;
+}
+
+#image-slider:hover .prev {
+  left: 5px;
+}
+
+#image-slider:hover .next {
+  right: 5px;
+}
+
+#image-slider:hover .caption {
+  top: 0;
+}
+
+#image-slider span {
+  display: none;
+  position: fixed;
+}
+
+#image-slider span:target + .image {
+  left: 0;
+  z-index: 5;
+  opacity: 1;
+}
+
+#image-slider span:target + .image + .caption,
+#image-slider span:target + .image + .caption + a,
+#image-slider span:target + .image + .caption + a + a,
+#image-slider .image.default + .caption,
+#image-slider .image.default + .caption + a,
+#image-slider .image.default + .caption + a + a {
+  display: block;
+}
+
+#image-slider span:target ~ .image.default + .caption,
+#image-slider span:target ~ .image.default + .caption + a,
+#image-slider span:target ~ .image.default + .caption + a + a {
+  display: none;
+}
+
+#image-slider .image.default {
+  left: 0;
+  z-index: 5;
+  opacity: 1;
+}
+
+#image-slider span:target ~ .image.default {
+  z-index: 1;
+  opacity: 0;
+  left: -500px;
+}
 
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
+    color: #0d6e54;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
     font-size: 40px;
     font-weight: 900i;
-    text-transform: uppercase;
 }/*apply to h1, not the art hed*/
 
 .credit {
@@ -137,7 +289,7 @@ h3 {
     font-family: montserrat
     , sans-serif;
     font-weight: 800;
-    color: #7fc448;
+    color: #0d6e54;
 }/*apply to h2 tags*/
 
 .dropcap {
@@ -172,7 +324,7 @@ h3 {
 }/*Apply to a wrapping div*/
 
 .oneimg_left {
-    width: 40%;
+    width: 20%;
     padding-left: 10%;
     padding-right: 20px;
     float: left;
@@ -196,6 +348,37 @@ h3 {
 
 .oneimg_full img, .oneimg_center img, .oneimg_right img, .oneimg_left img {
     width: 100%
+}
+
+.imgframe{
+    border:5px solid;
+    border-color: darkgray;
+}
+
+.bob {
+    margin: auto;
+    width: 45%;
+    padding: 10px;
+    background-color: darkgray;
+    text-align: center;
+    
+}
+
+.bob h3{
+    width:98%;
+    margin-left: 2%;
+    background-color:transparent;
+    padding:0px;
+    font-size:20px
+}
+
+.bob p{
+    width:98%;
+    padding: 0;
+    margin-left: 2%; 
+    color: white;
+    font-size: 15px;
+
 }
 
 /*----- Pullquote stuff -----*/
@@ -229,7 +412,7 @@ blockquote {
 .pq_left {
     width: 40%;
     padding-left: 10%;
-    padding-right: 0;
+    padding-right: 15px;
     float: left;
     margin: 0;
     font-size: 25px;
@@ -358,6 +541,42 @@ float: right;
     margin: 0;
     width: 70%;
     padding: 10px 15% 0 15%;
+}
+
+@media screen and (max-width: 900px){
+    
+    
+#image-slider {
+  margin: 50px auto;
+  width: 500px;
+  height: 375px;
+  overflow: hidden;
+  position: relative;
+}
+}
+
+@media screen and (max-width: 700px){
+    
+    
+#image-slider {
+  margin: 50px auto;
+  width: 550px;
+  height: 375px;
+  overflow: hidden;
+  position: relative;
+}
+}
+    
+@media screen and (max-width: 600px){
+    
+    
+#image-slider {
+  margin: 50px auto;
+  width: 350px;
+  height: 375px;
+  overflow: hidden;
+  position: relative;
+}
 }
 
 @media screen and (max-width: 750px){

@@ -602,7 +602,8 @@ float: right;
     }
     
     #arthed {
-        font-size: 40px;
+        font-size: 30px;
+        bottom: -60px;
     }
     
     .subhed{

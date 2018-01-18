@@ -35,13 +35,6 @@ h3 {
     padding: 0;
 }
 
-.date{
-    font-weight: 800;
-    color: #eed7fc;
-    width: 60%;
-    padding: 0% 20% 0 20%;
-    margin: 0;
-}/*apply to p tag*/
 
 /*----- Nav Bar -----*/
 /*we don't use this section as often. delete if not used in the project*/
@@ -93,20 +86,10 @@ h3 {
 }
 
 
-/*----- Hero Image -----*/
-
-#heroimg {
-    width: 100%;
-    position: relative;
-}/*apply to wrapping div with an img tag within*/
-
-#heroimg img {
-    width: 100%;
-}
 
 #arthed {
     z-index: 99 !important;
-    color: darkseagreen;
+    color:#0d6e54;
     position: absolute;
     bottom: 81%;
     padding: 0;
@@ -307,6 +290,7 @@ h3 {
 	bottom: 2px;
 	left: 5px;
     text-shadow: 2px 2px black;
+    font-size: 25px;
 }
 
 .two {
@@ -326,6 +310,7 @@ h3 {
 	bottom: 2px;
 	left: 5px;
     text-shadow: 2px 2px black;
+    font-size: 25px;
 }
 
 .three {
@@ -370,7 +355,7 @@ h3 {
 .five {
 	grid-column: 3;
 	grid-row: 1/5;
-	background-image: url('http://via.placeholder.com/350x150/cgc');
+	background-image: url('img/image3.png');
 	position: relative;
     background-size: cover;
     background-repeat: no-repeat;
@@ -382,8 +367,9 @@ h3 {
 .five span {
 	position: absolute;
 	bottom: 2px;
-	left: 5px;
+	left: 25px;
     text-shadow: 2px 2px black;
+    font-size: 30px;
 }
 
 

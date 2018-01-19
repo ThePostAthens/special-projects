@@ -282,7 +282,7 @@ h3 {
 .one {
 	grid-column: 1;
 	grid-row: 1/3;
-	background-image: url('http://via.placeholder.com/350x150/fssedc');
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/945e4750-e21b-423e-8c3d-c3da640fd8af.sized-1000x1000.jpg');
 	position: relative;
     background-size: cover;
     background-repeat: no-repeat;
@@ -302,7 +302,7 @@ h3 {
 .two {
 	grid-column:2;
 	grid-row: 1/3;
-	background-image: url('http://via.placeholder.com/350x150/gedfds');
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/22668807-e095-4114-a443-04619e88b7cc.sized-1000x1000.jpg');
 	position: relative;
     background-size: cover;
     background-repeat: no-repeat;
@@ -322,7 +322,7 @@ h3 {
 .three {
 	grid-column: 1;
 	grid-row: 3/5;
-	background-image: url('http://via.placeholder.com/350x150/fdsc');
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/7bee7eea-e2b6-4acc-bf54-ba20110ea2e6.sized-1000x1000.jpg');
 	position: relative;
     background-size: cover;
     background-repeat: no-repeat;
@@ -336,13 +336,14 @@ h3 {
 	bottom: 2px;
 	left: 5px;
     text-shadow: 2px 2px black;
+     font-size: 25px;
 }
 
 
 .four {
 	grid-column: 2;
 	grid-row: 3/5;
-	background-image: url('http://via.placeholder.com/350x150/ffec');
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/fdab2d6f-7e49-482a-8f4f-c331e0c3c63f.original.jpg');
 	position: relative;
     background-size: cover;
     background-repeat: no-repeat;
@@ -356,6 +357,7 @@ h3 {
 	bottom: 2px;
 	left: 5px;
     text-shadow: 2px 2px black;
+     font-size: 25px;
 }
 
 .five {

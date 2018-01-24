@@ -91,6 +91,176 @@ h3 {
     margin: 0;
 }
 
+/*LANDING PAGE STUFF*/
+.btn-primary {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 19px 72px;
+  border-radius: 25px;
+  font-weight: bold;
+  /*font-family freight sans pro*/
+  text-align: center;
+  display: inline-block;
+  background-color: #72c7a9;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  margin-bottom: 15px;
+}
+.btn-primary + .btn-primary {
+  margin-left: 15px;
+}
+.btn-primary:before {
+  background-color: #5eb697;
+  content: '';
+  position: absolute;
+  height: 20%;
+  left: 50%;
+  top: 50%;
+  width: 0;
+  display: block;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  z-index: -1;
+  opacity: .5;
+}
+.btn-primary:hover {
+  cursor: pointer;
+}
+.btn-primary:hover:before {
+  border-radius: 25px;
+  height: 100%;
+  width: 100%;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  opacity: 1;
+}
+
+.circle-grid-module {
+  background-color: #f4f4f4;
+}
+.circle-grid-module .circle-grid {
+  text-align: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  display: block;
+}
+.circle-grid-module .circle-grid:before, .circle-grid-module .circle-grid:after {
+  display: table;
+  content: "";
+}
+.circle-grid-module .circle-grid:after {
+  clear: both;
+}
+.circle-grid-module a.circle {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  border-radius: 100%;
+  background-color: #4175b5;
+  display: inline-block;
+  position: relative;
+  width: 260px;
+  height: 260px;
+  /*float: left;*/
+  /*placeholder bg image remove important when integrating*/
+  background-image: url("http://lorempixel.com/output/business-q-g-260-260-7.jpg") !important;
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+  overflow: hidden;
+}
+.circle-grid-module a.circle:before {
+  content: "";
+  background-color: #385d8a;
+  height: 100%;
+  display: block;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: relative;
+  z-index: -1;
+  opacity: 0;
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  border-radius: 100%;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.circle-grid-module a.circle:hover .title {
+  font-size: 30px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.circle-grid-module a.circle:hover .title:before {
+  width: 91px;
+}
+.circle-grid-module a.circle:hover:before {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  opacity: 1;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5f7999+0,3c608d+100 */
+  background: #5f7999;
+  /* Old browsers */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center, #5f7999 0%, #3c608d 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5f7999', endColorstr='#3c608d', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+.circle-grid-module .title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 1;
+  font-size: 25px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.circle-grid-module .title:before {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  background-color: #72c7a9;
+  height: 4px;
+  width: 0px;
+  margin-bottom: 12px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.circle-grid-module .upper-content {
+  text-align: center;
+}
+.circle-grid-module .lower-content {
+  margin-top: 56px;
+  /*phones*/
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+@media (min-width: 451px) {
+  .circle-grid-module .lower-content {
+    /*tablets*/
+    margin-top: 86px;
+  }
+}
+@media (min-width: 769px) {
+  .circle-grid-module .lower-content {
+    margin-top: 78px;
+  }
+}
+
+
 /*----- Hero Image -----*/
 
 #heroimg {

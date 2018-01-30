@@ -505,6 +505,24 @@ hr {
     text-shadow: 2px 2px black;
 }
 
+.nineteen {
+	grid-column: 2;
+	grid-row: 5;
+	background-image: url('http://snworksceo.imgix.net/ohi/9bb5a522-f4bc-4a73-b008-19411967fada.sized-1000x1000.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid maroon;
+    
+}
+
+.nineteen span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
 
 
 

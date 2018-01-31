@@ -162,14 +162,13 @@ h3 {
   color: #fff;
   text-align: center;
   border-radius: 100%;
-  background-color: #4175b5;
+  background-color: #f58234;
   display: inline-block;
   position: relative;
   width: 260px;
   height: 260px;
   /*float: left;*/
   /*placeholder bg image remove important when integrating*/
-  background-image: url("http://lorempixel.com/output/business-q-g-260-260-7.jpg") !important;
   background-position: center;
   background-size: cover;
   z-index: 1;
@@ -177,7 +176,7 @@ h3 {
 }
 .circle-grid-module a.circle:before {
   content: "";
-  background-color: #385d8a;
+  background-color: #e0742c;
   height: 100%;
   display: block;
   width: 100%;
@@ -207,11 +206,11 @@ h3 {
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5f7999+0,3c608d+100 */
-  background: #5f7999;
+  background: #e0742c;
   /* Old browsers */
   /* FF3.6-15 */
   /* Chrome10-25,Safari5.1-6 */
-  background: radial-gradient(ellipse at center, #5f7999 0%, #3c608d 100%);
+  background: radial-gradient(ellipse at center, #e0742c 0%, #e0742c 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5f7999', endColorstr='#3c608d', GradientType=1);
   /* IE6-9 fallback on horizontal gradient */

@@ -523,6 +523,24 @@ hr {
     text-shadow: 2px 2px black;
 }
 
+.twenty {
+	grid-column: 3;
+	grid-row: 5;
+	background-image: url('http://snworksceo.imgix.net/ohi/9db91185-d480-427c-aa6f-5623755e4df3.sized-1000x1000.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid maroon;
+    
+}
+
+.twenty span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
 
 
 
@@ -596,6 +614,16 @@ hr {
 .eighteen:hover {
 	opacity: .6;
 }
+
+.nineteen:hover {
+	opacity: .6;
+}
+
+
+.twenty:hover {
+	opacity: .6;
+}
+
 
 @media only screen and (max-width: 768px) {
 	.wrapper {

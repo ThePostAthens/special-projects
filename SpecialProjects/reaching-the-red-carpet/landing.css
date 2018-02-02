@@ -541,6 +541,24 @@ hr {
     text-shadow: 2px 2px black;
 }
 
+.twenty-one {
+	grid-column: 4;
+	grid-row: 5;
+	background-image: url('http://snworksceo.imgix.net/ohi/de834640-5ce1-4ab3-b294-582a4d2ca973.sized-1000x1000.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid maroon;
+    
+}
+
+.twenty-one span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
 
 
 
@@ -621,6 +639,10 @@ hr {
 
 
 .twenty:hover {
+	opacity: .6;
+}
+
+.twenty-one:hover {
 	opacity: .6;
 }
 

@@ -559,6 +559,24 @@ hr {
     text-shadow: 2px 2px black;
 }
 
+.twenty-two {
+	grid-column: 1;
+	grid-row: 6;
+	background-image: url('http://snworksceo.imgix.net/ohi/7fbe5405-a6d8-4113-92c5-a803853af5a2.sized-1000x1000.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid maroon;
+    
+}
+
+.twenty-two span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
 
 
 
@@ -643,6 +661,10 @@ hr {
 }
 
 .twenty-one:hover {
+	opacity: .6;
+}
+
+.twenty-two:hover {
 	opacity: .6;
 }
 

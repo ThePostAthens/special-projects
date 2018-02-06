@@ -577,6 +577,24 @@ hr {
     text-shadow: 2px 2px black;
 }
 
+.twenty-three {
+	grid-column: 2;
+	grid-row: 6;
+	background-image: url('http://snworksceo.imgix.net/ohi/90f5a8b9-f963-4ab0-846f-377ecb4e04be.sized-1000x1000.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid maroon;
+    
+}
+
+.twenty-three span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
 
 
 
@@ -668,6 +686,9 @@ hr {
 	opacity: .6;
 }
 
+.twenty-three:hover {
+	opacity: .6;
+}
 
 @media only screen and (max-width: 768px) {
 	.wrapper {

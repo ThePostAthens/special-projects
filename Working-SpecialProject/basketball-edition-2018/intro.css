@@ -102,7 +102,7 @@ Please contact at SethPArcher@gmail.com with questions.*/
 #showcase h1{
   font-size:7vw;
   color:#fff;
-  font-family: passion one;
+  font-family: montserrat;
   letter-spacing: 4vw;
   margin-left: 4vw;
   text-shadow: 2px 2px 3px #000;
@@ -113,26 +113,23 @@ Please contact at SethPArcher@gmail.com with questions.*/
   font-size:3.5vw;
   line-height:2vw;
   color:#fff;
-  font-family: passion one;
+  font-family: montserrat;
   text-shadow: 2px 2px 3px #000;
 }
 
-#showcase .button{
-  font-size:18px;
-  text-decoration:none;
-  color:white;
-  padding: 10px 20px;
-  border-radius:10px;
-  margin-top:100px;
-  background-color: #107E41;
-  text-shadow: 2px 2px 3px #000;
+#instagram {
+  font-size: 120px;
+  background: white;
+  /* For browsers that do not support gradients */
+  /* Standard syntax */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
 }
 
-#showcase .button:hover{
-  background-color: #0d6d36;
-  color:#fff;
-}
-  
+
 #logo {
     z-index: 1;
     position: absolute;

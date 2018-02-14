@@ -82,7 +82,7 @@ h3 {
 #arthed {
     color: #FFF;
     position: absolute;
-    bottom: 35%;
+    bottom: 40%;
     padding: 0;
     margin: 0;
     font-size: 100px;
@@ -434,7 +434,8 @@ float: right;
     }
     
     #arthed {
-        font-size: 40px;
+        font-size: 25px;
+        bottom: 40%
     }
     
     .subhed{

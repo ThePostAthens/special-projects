@@ -195,16 +195,6 @@ h3 {
     margin: 20px auto;
 }
 
-.sectionbreak {
-    text-align: center;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    font-size: 30px;
-    font-family: montserrat;
-    color: #e0742c;
-}
-
 /*----- Pullquote stuff -----*/
 
 blockquote {
@@ -271,6 +261,28 @@ also use these tags to move iframes, graphics etc.. anything that would behave l
     padding: 0;
 }/*add p tag, should be after the photog p tag*/
 
+.pcut2{
+    float: right;
+    text-align: center;
+    margin:0;
+    font-weight: 100;
+    color: #808080;
+    font-size: 12px;
+    width: 100%;
+    padding: 0;
+}/*add p tag, should be after the photog p tag*/
+
+.pcut2{
+    float: left;
+    text-align: center;
+    margin:0;
+    font-weight: 100;
+    color: #808080;
+    font-size: 12px;
+    width: 100%;
+    padding: 0;
+}/*add p tag, should be after the photog p tag*/
+
 .galleryPcut{
 float: right;
     text-align: left;
@@ -286,6 +298,17 @@ float: right;
 .photog{
     float: right;
     text-align: right;
+    margin:0;
+    font-weight: 800;
+    color: #000;
+    font-size: 12px;
+    width: 100%;
+    padding: 0;
+}/*add to p tag, should be before the pcut p tag*/
+
+.photog2{
+    float: right;
+    text-align:center ;
     margin:0;
     font-weight: 800;
     color: #000;

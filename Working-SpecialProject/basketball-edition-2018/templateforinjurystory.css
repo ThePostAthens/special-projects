@@ -262,7 +262,7 @@ also use these tags to move iframes, graphics etc.. anything that would behave l
 
 .pcut{
     float: right;
-    text-align: left;
+    text-align: right;
     margin:0;
     font-weight: 100;
     color: #808080;
@@ -270,6 +270,19 @@ also use these tags to move iframes, graphics etc.. anything that would behave l
     width: 100%;
     padding: 0;
 }/*add p tag, should be after the photog p tag*/
+
+.pcut2{
+    float: left;
+    text-align: center;
+    margin:0;
+    font-weight: 100;
+    color: #808080;
+    font-size: 12px;
+    width: 100%;
+    padding: 0;
+}/*add p tag, should be after the photog p tag*/
+
+
 
 .galleryPcut{
 float: right;
@@ -286,6 +299,17 @@ float: right;
 .photog{
     float: right;
     text-align: right;
+    margin:0;
+    font-weight: 800;
+    color: #000;
+    font-size: 12px;
+    width: 100%;
+    padding: 0;
+}/*add to p tag, should be before the pcut p tag*/
+
+.photog2{
+    float: right;
+    text-align:center ;
     margin:0;
     font-weight: 800;
     color: #000;

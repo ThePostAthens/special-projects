@@ -42,14 +42,6 @@ h3 {
     padding: 0;
 }
 
-.date{
-    font-weight: 800;
-    color: #eed7fc;
-    width: 60%;
-    padding: 0% 20% 0 20%;
-    margin: 0;
-}/*apply to p tag*/
-
 /*-----Column stuff-----*/
 
 .column20center {
@@ -276,7 +268,7 @@ h3 {
     font-family: montserrat
     , sans-serif;
     font-weight: 800;
-    color: #7fc448;
+    color: #2d341c;
 }/*apply to h2 tags*/
 
 .dropcap {

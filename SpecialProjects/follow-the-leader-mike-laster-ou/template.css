@@ -315,24 +315,24 @@ float: right;
 
 #sophomore_year {
     text-align: right;
-    font-size: 20px;
+    font-size: 1.8vw;
     bottom: 0;
     position: absolute;
     color: #FFF;
     right: 2%;
     text-shadow: 1px 1px 1px #000;
-    line-height: 23px;
+
 }
 
 #senior_year {
     text-align: left;
-    font-size: 20px;
+    font-size: 1.8vw;
     bottom: 0;
     position: absolute;
     color: #FFF;
     left: 2%;
     text-shadow: 1px 1px 1px #000;
-    line-height: 23px;
+
 }
 
 .highlight {

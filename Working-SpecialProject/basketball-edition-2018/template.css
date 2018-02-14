@@ -274,6 +274,31 @@ float: right;
     padding:0 20%;
 }
 
+.bob {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    background-color: #2d341c;
+    text-align: center;
+    
+}
+
+.bob h3{
+    width:98%;
+    margin-left: 2%;
+    background-color:transparent;
+    padding:0px;
+    font-size:20px
+}
+
+.bob p{
+    width:98%;
+    padding: 0;
+    margin-left: 2%; 
+    color: white;
+    font-size: 16px;
+
+}
 
 /*----- Gallery Stuff -----*/
 
@@ -355,7 +380,8 @@ float: right;
     }
     
     #arthed {
-        font-size: 40px;
+        font-size: 25px;
+        bottom: 40%
     }
     
     .subhed{

@@ -167,9 +167,11 @@ h3 {
   font-size: 30px;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
+  color: white;
 }
 .circle-grid-module a.circle:hover .title:before {
   width: 91px;
+  
 }
 .circle-grid-module a.circle:hover:before {
   -webkit-transform: scale(1);
@@ -185,6 +187,7 @@ h3 {
   background: radial-gradient(ellipse at center, #e0742c 0%, #e0742c 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5f7999', endColorstr='#3c608d', GradientType=1);
+    
   /* IE6-9 fallback on horizontal gradient */
 }
 .circle-grid-module .title {
@@ -197,6 +200,9 @@ h3 {
   font-size: 25px;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
+  color: white;
+  text-shadow: 2px 2px 3px #000;
+ 
 }
 
 .circle-grid-module .upper-content {

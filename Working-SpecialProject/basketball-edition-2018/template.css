@@ -180,6 +180,31 @@ h3 {
     border-color: #000;
 }
 
+.round-button {
+    display: block;
+    width: 100px;
+    height: 100px;
+    line-height: 90px;
+    text-shadow: 2px 2px 5px #000;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    background: #e0742c;
+    box-shadow: 0 0 3px grey;
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+.sectionbreak {
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    font-family: montserrat;
+    color: #e0742c;
+}
+
 /*----- Pullquote stuff -----*/
 
 blockquote {

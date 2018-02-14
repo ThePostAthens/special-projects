@@ -64,6 +64,16 @@ h3 {
     padding-right: 10%;
 }
 
+.sectionbreak {
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    font-family: montserrat;
+    color: #e0742c;
+}
+
 
 /*LANDING PAGE STUFF*/
 .btn-primary {

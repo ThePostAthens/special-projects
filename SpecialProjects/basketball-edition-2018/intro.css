@@ -117,18 +117,22 @@ Please contact at SethPArcher@gmail.com with questions.*/
   text-shadow: 2px 2px 3px #000;
 }
 
-#instagram {
-  font-size: 120px;
-  background: white;
-  /* For browsers that do not support gradients */
-  /* Standard syntax */
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-    
+button {
+  font-size: 2em;
+  background-color: white;
+  padding: 0px 15px;
+  margin: 10px;
+  transition:all .2s linear;
+  -o-transition:all .2s linear;
+  -moz-transition:all .2s linear;
+  -webkit-transition:all .2s linear;
 }
+
+button:hover {
+  color: orange;
+}
+
+
 
 
 #logo {

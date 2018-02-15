@@ -94,6 +94,18 @@ h3 {
 
 /*----- Body Copy Things -----*/
 
+
+.sectionbreak {
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    font-family: montserrat;
+    color: #e0742c;
+}
+
+
 .headline {
     color: #2d341c;
     padding: 0 10% 0 10%;

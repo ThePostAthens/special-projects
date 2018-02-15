@@ -339,6 +339,16 @@ float: right;
     font-size:20px
 }
 
+.bob h2{
+    width:98%;
+    margin-left: 2%;
+    background-color:transparent;
+    padding:0px;
+    font-size: 20px;
+    color: white;
+
+}
+
 .bob p{
     width:98%;
     padding: 0;

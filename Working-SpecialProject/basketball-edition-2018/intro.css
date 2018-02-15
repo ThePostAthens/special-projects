@@ -100,12 +100,12 @@ Please contact at SethPArcher@gmail.com with questions.*/
 }
 
 #showcase h1{
-  font-size:7vw;
-  color:#fff;
+  font-size:8vw;
+  color: white;
   font-family: montserrat;
-  letter-spacing: 4vw;
-  margin-left: 4vw;
-  text-shadow: 2px 2px 3px #000;
+  letter-spacing: 2vw;
+  text-shadow: 5px 5px 6px #000;
+    text-align: center;
 
   
 }

@@ -132,7 +132,27 @@ button:hover {
   color: orange;
 }
 
+.previous3:hover,
+.next3:hover,
+.previous2:hover,
+.next2:hover,
+.first:hover,
+.last:hover,
+.previous:hover,
+.next:hover {
+  background-color: white;
+}
 
+.previous3,
+.next3,
+.previous2,
+.next2,
+.first,
+.last,
+.previous,
+.next {
+  color: orange;
+}
 
 
 #logo {

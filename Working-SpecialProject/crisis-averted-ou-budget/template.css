@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #6BB7E5;
     text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #eed7fc;
+    color: #6BB7E5;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -64,38 +64,12 @@ h3 {
     width: 40%;
     padding-right: 10%;
 }
-
-/*----- Nav Bar -----*/
-/*we don't use this section as often. delete if not used in the project*/
-
-#nav_bar {
-    background: #030406;
-    color: #FFF;
-    height: 50px;
-}
-
-#nav_bar img {
-    height: 30px;
-    padding: 10px;
-    float: left;
-}
-
-#nav_bar li {
-    list-style: none;
-    display: inline-block;
-    padding: 15px;
-    float: right;
-}
-
-#nav_bar ul {
-    margin: 0;
-}
-
 /*----- Hero Image -----*/
 
 #heroimg {
-    width: 100%;
+    width: 50%;
     position: relative;
+    padding: 2% 25%;
 }/*apply to wrapping div with an img tag within*/
 
 #heroimg img {
@@ -103,28 +77,28 @@ h3 {
 }
 
 #arthed {
-    color: #FFF;
-    position: absolute;
-    bottom: 0;
+    color: black;
     padding: 0;
     margin: 0;
-    font-size: 70px;
-    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    font-size: 80px;
+    font-weight: 900;
     text-align: center;
     width: 100%;
-    text-shadow: 2px 2px 3px #000;
-}/*apply to h1 within the heroimg div*/
+    line-height: 100%;
+    font-style: italic;
+}
 
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
+    color: #000;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
     font-size: 40px;
     font-weight: 900i;
-    text-transform: uppercase;
+    font-family: playfair display;
 }/*apply to h1, not the art hed*/
 
 .credit {
@@ -134,10 +108,10 @@ h3 {
 }/*apply to h4 with developer's name and title*/
 
 .subhed {
-    font-family: montserrat
+    font-family: playfair display
     , sans-serif;
     font-weight: 800;
-    color: #7fc448;
+    color: #000
 }/*apply to h2 tags*/
 
 .dropcap {
@@ -146,6 +120,9 @@ h3 {
     font-size: 2.9em;
     line-height: .9em;
     padding-right: 5px;
+    font-family: playfair display;
+    color: #6BB7E5;
+    font-style: italic;
 }/*apply to wrapping span tag*/
 
 .title {

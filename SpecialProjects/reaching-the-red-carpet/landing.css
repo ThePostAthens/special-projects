@@ -631,6 +631,24 @@ hr {
     text-shadow: 2px 2px black;
 }
 
+.twenty-six {
+	grid-column: 2;
+	grid-row: 6;
+	background-image: url('http://snworksceo.imgix.net/ohi/1b759a3b-6763-4caa-bcf8-aafa959239b0.sized-1000x1000.png');
+    position: relative;
+    background-size: cover;
+    border: 5px solid maroon;
+    
+}
+
+.twenty-six span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
 /*HOVER*/
 .one:hover {
 	opacity: .6;
@@ -728,6 +746,10 @@ hr {
 }
 
 .twenty-five:hover {
+	opacity: .6;
+}
+
+.twenty-six:hover {
 	opacity: .6;
 }
 

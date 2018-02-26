@@ -506,7 +506,7 @@ hr {
 }
 
 .nineteen {
-	grid-column: 2;
+	grid-column: 3;
 	grid-row: 5;
 	background-image: url('http://snworksceo.imgix.net/ohi/9bb5a522-f4bc-4a73-b008-19411967fada.sized-1000x1000.jpg');
     position: relative;
@@ -524,7 +524,7 @@ hr {
 }
 
 .twenty {
-	grid-column: 3;
+	grid-column: 4;
 	grid-row: 5;
 	background-image: url('http://snworksceo.imgix.net/ohi/9db91185-d480-427c-aa6f-5623755e4df3.sized-1000x1000.jpg');
     position: relative;
@@ -542,8 +542,8 @@ hr {
 }
 
 .twenty-one {
-	grid-column: 4;
-	grid-row: 5;
+	grid-column: 1;
+	grid-row: 6;
 	background-image: url('http://snworksceo.imgix.net/ohi/de834640-5ce1-4ab3-b294-582a4d2ca973.sized-1000x1000.jpg');
     position: relative;
     background-size: cover;
@@ -560,7 +560,7 @@ hr {
 }
 
 .twenty-two {
-	grid-column: 1;
+	grid-column: 2;
 	grid-row: 6;
 	background-image: url('http://snworksceo.imgix.net/ohi/7fbe5405-a6d8-4113-92c5-a803853af5a2.sized-1000x1000.jpg');
     position: relative;
@@ -578,7 +578,7 @@ hr {
 }
 
 .twenty-three {
-	grid-column: 2;
+	grid-column: 3;
 	grid-row: 6;
 	background-image: url('http://snworksceo.imgix.net/ohi/90f5a8b9-f963-4ab0-846f-377ecb4e04be.sized-1000x1000.jpg');
     position: relative;
@@ -596,7 +596,7 @@ hr {
 }
 
 .twenty-four {
-	grid-column: 2;
+	grid-column: 4;
 	grid-row: 6;
 	background-image: url('http://snworksceo.imgix.net/ohi/46e48cc1-892e-4457-b19b-015e56e21e39.sized-1000x1000.jpg');
     position: relative;
@@ -614,8 +614,8 @@ hr {
 }
 
 .twenty-five {
-	grid-column: 2;
-	grid-row: 6;
+	grid-column: 1;
+	grid-row: 7;
 	background-image: url('http://snworksceo.imgix.net/ohi/a9cd73fb-a385-46f7-9a82-0d73174448cd.sized-1000x1000.jpg');
     position: relative;
     background-size: cover;
@@ -633,7 +633,7 @@ hr {
 
 .twenty-six {
 	grid-column: 2;
-	grid-row: 6;
+	grid-row: 7;
 	background-image: url('http://snworksceo.imgix.net/ohi/1b759a3b-6763-4caa-bcf8-aafa959239b0.sized-1000x1000.png');
     position: relative;
     background-size: cover;
@@ -650,8 +650,8 @@ hr {
 }
 
 .twenty-seven {
-	grid-column: 2;
-	grid-row: 6;
+	grid-column: 3;
+	grid-row: 7;
 	background-image: url('http://snworksceo.imgix.net/ohi/4de55249-0c01-481e-bf46-219437f21855.sized-1000x1000.jpg?w=375&h=375');
     position: relative;
     background-size: cover;

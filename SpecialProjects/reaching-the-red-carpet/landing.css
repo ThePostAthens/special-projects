@@ -702,6 +702,25 @@ hr {
     color: white;
     text-shadow: 2px 2px black;
 }
+
+.thirty {
+	grid-column: 1;
+	grid-row: 8;
+	background-image: url('http://snworksceo.imgix.net/ohi/1f9c4802-447d-45a9-a83b-efaffecf205f.sized-1000x1000.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid maroon;
+    
+}
+
+.thirty span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
 /*HOVER*/
 .one:hover {
 	opacity: .6;
@@ -816,6 +835,10 @@ hr {
 
 .twenty-nine:hover {
 	opacity: .6;
+}
+
+.thirty:hover {
+    opacity: .6;
 }
 
 @media only screen and (max-width: 768px) {

@@ -108,11 +108,13 @@ h3 {
     bottom: 0;
     padding: 0;
     margin: 0;
-    font-size: 70px;
+    font-size: 120px;
     font-weight: 700;
     text-align: center;
     width: 100%;
     text-shadow: 2px 2px 3px #000;
+    font-family: playfair display;
+    font-style: italic;
 }/*apply to h1 within the heroimg div*/
 
 /*----- Body Copy Things -----*/

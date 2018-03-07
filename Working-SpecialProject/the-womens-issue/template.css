@@ -94,8 +94,9 @@ h3 {
 /*----- Hero Image -----*/
 
 #heroimg {
-    width: 100%;
+    width: 50%;
     position: relative;
+    padding: 2% 25%;
 }/*apply to wrapping div with an img tag within*/
 
 #heroimg img {
@@ -103,19 +104,39 @@ h3 {
 }
 
 #arthed {
-    color: #FFF;
-    font-family: playfair display;
-    font-style: italic;
-    position: absolute;
-    bottom: 0;
     padding: 0;
     margin: 0;
-    font-size: 70px;
-    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    font-size: 100px;
+    font-weight: 900;
     text-align: center;
     width: 100%;
+    line-height: 100%;
+    font-style: italic;
+    color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #0C3150;
     text-shadow: 2px 2px 3px #000;
+
 }/*apply to h1 within the heroimg div*/
+
+hr {
+  border: 0;
+  margin: 1.35em auto;
+  max-width: 100%;
+  background-position: 50%;
+  box-sizing: border-box;
+}
+
+.pill {
+  height: 0px;
+  border-radius: 2px;
+  color: #EC242E;
+  border: 2px solid currentColor;
+  width: 80%;
+}
+
 
 /*----- Body Copy Things -----*/
 

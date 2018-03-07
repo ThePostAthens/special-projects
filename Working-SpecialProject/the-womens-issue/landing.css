@@ -81,7 +81,6 @@ h3 {
 }
 
 #arthed {
-    color: #FFF;
     position: absolute;
     bottom: 0px;
     padding: 0;
@@ -93,6 +92,9 @@ h3 {
     text-shadow: 2px 2px 3px #000;
     font-family: playfair display;
     font-style: italic;
+      -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #0C3150;
 }/*apply to h1 within the heroimg div*/
 
 

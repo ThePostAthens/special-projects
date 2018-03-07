@@ -70,13 +70,15 @@ THE
         
 <!-- Hero Image -->
 
-        <a href="http://www.thepostathens.com"><div><img id="logo" src="img/logo.png"></div></a>
+
+        <a href="http://www.thepostathens.com"><div><img id="logo" src="img/logoblk.png"></div></a>
         
         <div id="heroimg">
-           <img src="https://s3.amazonaws.com/snwceomedia/ohi/25e33336-d1c0-46f4-bf0d-54b9266c0e3e.sized-1000x1000.png">
-            <p class="photog" style="padding-right:10px;">MEGAN KNAPP</p>
+
             <h1 id="arthed">Freezing Progress</h1>
         </div>
+        
+        <hr class="pill">
         
 <!-- Body Copy Stuff -->
         
@@ -93,6 +95,8 @@ THE
         <p>For a long time, Audrey Kisilewicz was never really into comic books.</p>
         
         <p>The female characters in the comic books she read were often one-dimensional, and many of them failed to have their own story arcs. Most of the time, those female characters were soon killed off and replaced with other female characters, never to be mentioned again.</p>
+        
+        <div class="oneimg_center"><img src="https://s3.amazonaws.com/snwceomedia/ohi/25e33336-d1c0-46f4-bf0d-54b9266c0e3e.sized-1000x1000.png" alt="COMIC STRIP" style="width: 100%"> <p class="photog">Megan Knapp | ILLUSTRATION</p></div>
         
         <p>But as Kisilewicz started to read comic books regularly, she never knew there was a technical term for such plots.</p>
         
@@ -197,6 +201,47 @@ THE
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-54093688-1','auto');ga('send','pageview');
         </script>
+        <script>/**
+ * I prefer to style the border's `border-image`, and I avoid using pseudo
+ * elements when possible, so the styles may be applied to block level
+ * elements, for use where an <hr> would be non-semantic.
+ */
+
+/* Inline XML data URI fix */
+/* Some browsers (most browsers) don't render inline XML data URI's unless they are escaped. */
+(function() {
+
+if(!window.StyleFix) return;
+if(hasxmldatauri()) return;
+  
+// Test unescaped XML data uri
+function hasxmldatauri() {
+  var img = new Image();
+  datauri = 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0,0 1,1" fill="#000"></svg>';
+  img.src = datauri;
+  return (img.width == 1 && img.height == 1);
+}
+
+StyleFix.register(function(css) {
+
+  return css.replace(RegExp(/url\(\'data:image\/svg\+xml,(.*)\'\)/gi), function($0, svg) {
+		return "url('data:image/svg+xml," + escape(svg) + "')";
+	});
+  
+});
+
+})();
+
+/* Radial Gradient Syntax fix */
+StyleFix.register(function(css, raw) {
+	if (PrefixFree.functions.indexOf('radial-gradient') > -1) {
+		css = css.replace(/radial-gradient\(([a-z-\s]+\s+)?at ([^,]+)(?=,)/g, function($0, shape, center){
+			return 'radial-gradient(' + center + (shape? ', ' + shape : '');
+		});
+	}
+
+	return css;
+});</script>
         
     </body>
 </html>

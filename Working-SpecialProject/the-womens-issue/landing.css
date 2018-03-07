@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: #e0c288;
+    color: #EC242E;
     text-decoration: none;
 }
 
@@ -410,7 +410,7 @@ h3 {
 	background-image: url('http://via.placeholder.com/350x150');
     position: relative;
     background-size: cover;
-    border: 5px solid maroon;
+    border: 5px solid #08324f;
     
 }
 
@@ -429,7 +429,7 @@ h3 {
 	background-image: url('http://via.placeholder.com/350x150');
     position: relative;
     background-size: cover;
-    border: 5px solid maroon;
+    border: 5px solid #08324f;
     
 }
 
@@ -448,7 +448,7 @@ h3 {
 	background-image: url('http://via.placeholder.com/350x150');
     position: relative;
     background-size: cover;
-    border: 5px solid maroon;
+    border: 5px solid #08324f;
     
 }
 
@@ -459,14 +459,14 @@ h3 {
     color: white;
     text-shadow: 2px 2px black;
 }
-/*
+
 .twenty {
 	grid-column: 3;
 	grid-row: 10;
-	background-image: url('http://via.placeholder.com/350x150');
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/d25ca1f8-db73-409a-b221-33bce6f5a894.sized-1000x1000.png');
     position: relative;
     background-size: cover;
-    border: 5px solid maroon;
+    border: 5px solid #08324f;
     
 }
 
@@ -479,12 +479,12 @@ h3 {
 }
 
 .twenty-one {
-	grid-column: 1;
-	grid-row: 6;
+	grid-column: 1 / 4;
+	grid-row: 11;
 	background-image: url('http://via.placeholder.com/350x150');
     position: relative;
     background-size: cover;
-    border: 5px solid maroon;
+    border: 5px solid #08324f;
     
 }
 

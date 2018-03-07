@@ -232,14 +232,15 @@ blockquote {
     margin: 5px;
 }/*should be the text of the pull quote*/
 
-.pq_center {
+..pq_center {
     width: 60%;
     padding: 0 20%;
     margin: 0;
     font-size: 25px;
-    text-transform: uppercase;
-    color: #F06932;
-    font-weight: 800;
+    color: #b0d6c1;
+    font-weight: 600;
+    font-family: playfair display;
+    font-style: italic;
 }/*add to wrapping div*/
 
 .pq_right {
@@ -249,8 +250,10 @@ blockquote {
     float: right;
     margin: 0;
     font-size: 25px;
-    text-transform: uppercase;
-    color: #F06932;
+    color: #b0d6c1;
+    font-family: playfair display;
+    font-style: italic;
+    font-weight: 600;
 }/*add to wrapping div*/
 
 .pq_left {
@@ -260,9 +263,11 @@ blockquote {
     float: left;
     margin: 0;
     font-size: 25px;
-    text-transform: uppercase;
     font-weight: 700;
-    color: #F06932;
+    color: #b0d6c1;
+    font-family: playfair display;
+    font-style: italic;
+    font-weight: 600;
 }/*add to wrapping div*/
 
 .attribution {

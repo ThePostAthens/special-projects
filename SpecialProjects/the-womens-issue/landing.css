@@ -440,9 +440,9 @@ h3 {
 
 
 .seventeen {
-	grid-column: 1;
+	grid-column: 1 / 4;
 	grid-row: 9 / 11;
-	background-image: url('http://via.placeholder.com/350x150');
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/d25ca1f8-db73-409a-b221-33bce6f5a894.sized-1000x1000.png');
     position: relative;
     background-size: cover;
     border: 5px solid #08324f;
@@ -457,79 +457,6 @@ h3 {
     text-shadow: 2px 2px black;
 }
 
-
-.eighteen {
-	grid-column: 2 / 4;
-	grid-row: 9;
-	background-image: url('http://via.placeholder.com/350x150');
-    position: relative;
-    background-size: cover;
-    border: 5px solid #08324f;
-    
-}
-
-.eighteen span {
-	position: absolute;
-    bottom: 2px;
-    left: 5px;
-    color: white;
-    text-shadow: 2px 2px black;
-}
-
-
-.nineteen {
-	grid-column: 2;
-	grid-row: 10;
-	background-image: url('http://via.placeholder.com/350x150');
-    position: relative;
-    background-size: cover;
-    border: 5px solid #08324f;
-    
-}
-
-.nineteen span {
-	position: absolute;
-    bottom: 2px;
-    left: 5px;
-    color: white;
-    text-shadow: 2px 2px black;
-}
-
-.twenty {
-	grid-column: 3;
-	grid-row: 10;
-	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/d25ca1f8-db73-409a-b221-33bce6f5a894.sized-1000x1000.png');
-    position: relative;
-    background-size: cover;
-    border: 5px solid #08324f;
-    
-}
-
-.twenty span {
-	position: absolute;
-    bottom: 2px;
-    left: 5px;
-    color: white;
-    text-shadow: 2px 2px black;
-}
-
-.twenty-one {
-	grid-column: 1 / 4;
-	grid-row: 11;
-	background-image: url('http://via.placeholder.com/350x150');
-    position: relative;
-    background-size: cover;
-    border: 5px solid #08324f;
-    
-}
-
-.twenty-one span {
-	position: absolute;
-    bottom: 2px;
-    left: 5px;
-    color: white;
-    text-shadow: 2px 2px black;
-}
 
 
 /*HOVER*/
@@ -595,24 +522,6 @@ h3 {
 
 
 .seventeen:hover {
-	opacity: .6;
-}
-
-
-.eighteen:hover {
-	opacity: .6;
-}
-
-.nineteen:hover {
-	opacity: .6;
-}
-
-
-.twenty:hover {
-	opacity: .6;
-}
-
-.twenty-one:hover {
 	opacity: .6;
 }
 

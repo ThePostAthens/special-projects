@@ -157,6 +157,15 @@ h3 {
     font-weight: 400;
 }/*applies to entire byline, with title. bold the author name. put on h4 tag*/
 
+.sectionbreak {
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-family: montserrat
+}
+
 /*----- Img Things -----*/
 
 .oneimg_center {

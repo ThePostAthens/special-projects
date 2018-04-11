@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #AACA40;
     text-decoration: none;
 }
 
@@ -92,10 +92,10 @@ h3 {
 }
 
 /*----- Hero Image -----*/
-
 #heroimg {
-    width: 100%;
+    width: 50%;
     position: relative;
+    padding: 2% 25%;
 }/*apply to wrapping div with an img tag within*/
 
 #heroimg img {
@@ -103,17 +103,18 @@ h3 {
 }
 
 #arthed {
-    color: #FFF;
-    position: absolute;
-    bottom: 0;
+    color: white;
     padding: 0;
     margin: 0;
-    font-size: 70px;
-    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    font-size: 80px;
+    font-weight: 900;
     text-align: center;
     width: 100%;
-    text-shadow: 2px 2px 3px #000;
-}/*apply to h1 within the heroimg div*/
+    line-height: 100%;
+    font-style: italic;
+    text-shadow: 2px 2px 2px black;
+}
 
 /*----- Body Copy Things -----*/
 
@@ -137,7 +138,7 @@ h3 {
     font-family: montserrat
     , sans-serif;
     font-weight: 800;
-    color: #7fc448;
+    color: #AACA40;
 }/*apply to h2 tags*/
 
 .dropcap {
@@ -164,6 +165,22 @@ h3 {
     margin: 0;
     font-size: 20px;
     font-family: montserrat
+}
+
+hr {
+  border: 0;
+  margin: 1.35em auto;
+  max-width: 100%;
+  background-position: 50%;
+  box-sizing: border-box;
+}
+
+.pill {
+  height:0px;
+  border-radius: 2px;
+  color: teal;
+  border: 2px solid currentColor;
+  width: 80%;
 }
 
 /*----- Img Things -----*/

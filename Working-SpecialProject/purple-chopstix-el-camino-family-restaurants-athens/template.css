@@ -7,7 +7,7 @@ Please contact at SethPArcher@gmail.com with questions.*/
 
 body {
     font-family: montserrat, sans-serif;
-    background-color: white;
+    background-color: #FFF;
     color: #030406;
 }
 
@@ -37,7 +37,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #eed7fc;
+    color: #DD1F2C;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -65,125 +65,31 @@ h3 {
     padding-right: 10%;
 }
 
-/*----- Landing -----*/
+/*----- Nav Bar -----*/
 /*we don't use this section as often. delete if not used in the project*/
 
-.grid {
-  max-width: 300px;
-  margin: 0 auto;
+#nav_bar {
+    background: #030406;
+    color: #FFF;
+    height: 50px;
 }
 
-.imgtxt{
-color:white;
-position:relative;
-}
-
-.item {
-  position: relative;
-  display: block;
-  margin-bottom: 1vw;
-  background: #ccc;
-}
-.item:hover {
-  color: black;
-}
-.item:after {
-  content: ' ';
-  display: block;
-  width: 100%;
-  padding-bottom: 100%;
-  background: #aaa;
-}
-
-.item__inner {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  font-size: 24px;
-  color: white;
-}
-
-@media (min-width: 600px) {
-  .grid {
-    max-width: 1200px;
-  }
-
-  @supports (display: grid) {
-    .grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-column-gap: 1vw;
-      grid-row-gap: 1vw;
-    }
-  }
-}
-@media (min-width: 600px) and (max-width: 999px) {
-  .no-cssgrid .item {
+#nav_bar img {
+    height: 30px;
+    padding: 10px;
     float: left;
-    width: calc(100%/3 - 10px);
-    margin-right: 10px;
-  }
-  .no-cssgrid .item:nth-child(3n) {
-    margin-right: 0;
-  }
-
-  @supports (display: grid) {
-    .grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-column-gap: 1vw;
-      grid-row-gap: 1vw;
-    }
-
-/*
-    .item {
-      margin-bottom: 0;
-    }
-    .item:nth-child(1) {
-      grid-column-end: span 2;
-    }
-    .item:nth-child(1):after {
-      display: none;
-    }
-    .item:nth-child(3) {
-      grid-row-end: span 2;
-    }
-    .item:nth-child(6) {
-      grid-column-end: span 2;
-    }
-    .item:nth-child(6):after {
-      padding-bottom: 50%;
-    }
-*/
-  }
-}
-@media (min-width: 1000px) {
-  .no-cssgrid .item {
-    float: left;
-    width: calc(100%/4 - 10px);
-    margin-right: 10px;
-  }
-  .no-cssgrid .item:nth-child(4n) {
-    margin-right: 0;
-  }
-
-  @supports (display: grid) {
-    .grid {
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-
-    .item {
-      margin-bottom: 0;
-    }
-    .item:nth-child(1) {
-      grid-column-end: span 2;
-      grid-row-end: span 2;
-    }
-  }
 }
 
+#nav_bar li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    float: right;
+}
+
+#nav_bar ul {
+    margin: 0;
+}
 
 /*----- Hero Image -----*/
 
@@ -202,7 +108,7 @@ position:relative;
     bottom: 0;
     padding: 0;
     margin: 0;
-    font-size: 70px;
+    font-size: 120px;
     font-weight: 700;
     text-align: center;
     width: 100%;
@@ -212,13 +118,12 @@ position:relative;
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
+    color: #FAAC1C;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
     font-size: 40px;
     font-weight: 900i;
-    text-transform: uppercase;
 }/*apply to h1, not the art hed*/
 
 .credit {
@@ -231,7 +136,7 @@ position:relative;
     font-family: montserrat
     , sans-serif;
     font-weight: 800;
-    color: #7fc448;
+    color: #FAAC1C;
 }/*apply to h2 tags*/
 
 .dropcap {
@@ -250,6 +155,31 @@ position:relative;
     margin: 0;
     font-weight: 400;
 }/*applies to entire byline, with title. bold the author name. put on h4 tag*/
+
+.sectionbreak {
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-family: montserrat
+}
+
+hr {
+  border: 0;
+  margin: 1.35em auto;
+  max-width: 100%;
+  background-position: 50%;
+  box-sizing: border-box;
+}
+
+.pill {
+  height:0px;
+  border-radius: 2px;
+  color: teal;
+  border: 2px solid currentColor;
+  width: 80%;
+}
 
 /*----- Img Things -----*/
 

@@ -86,6 +86,7 @@ position:relative;
 }
 .item:hover {
   color: black;
+    
 }
 .item:after {
   content: ' ';

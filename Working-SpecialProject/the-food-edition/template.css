@@ -37,7 +37,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #eed7fc;
+    color: #DD1F2C;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -92,10 +92,10 @@ h3 {
 }
 
 /*----- Hero Image -----*/
+
 #heroimg {
-    width: 50%;
+    width: 100%;
     position: relative;
-    padding: 2% 25%;
 }/*apply to wrapping div with an img tag within*/
 
 #heroimg img {
@@ -103,29 +103,27 @@ h3 {
 }
 
 #arthed {
-    color: white;
+    color: #FFF;
+    position: absolute;
+    bottom: 0;
     padding: 0;
     margin: 0;
-    font-family: 'Playfair Display', serif;
-    font-size: 80px;
-    font-weight: 900;
+    font-size: 120px;
+    font-weight: 700;
     text-align: center;
     width: 100%;
-    line-height: 100%;
-    font-style: italic;
-    text-shadow: 2px 2px 2px black;
-}
+    text-shadow: 2px 2px 3px #000;
+}/*apply to h1 within the heroimg div*/
 
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
+    color: #FAAC1C;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
     font-size: 40px;
     font-weight: 900i;
-    text-transform: uppercase;
 }/*apply to h1, not the art hed*/
 
 .credit {
@@ -138,7 +136,7 @@ h3 {
     font-family: montserrat
     , sans-serif;
     font-weight: 800;
-    color: #AACA40;
+    color: #FAAC1C;
 }/*apply to h2 tags*/
 
 .dropcap {

@@ -105,7 +105,7 @@ position:relative;
   height: 100%;
   font-size: 24px;
   color: white;
-  object-fit: cover;
+object-fit: cover;
 }
 
 @media (min-width: 600px) {

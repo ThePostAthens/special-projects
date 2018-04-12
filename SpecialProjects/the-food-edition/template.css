@@ -37,7 +37,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #DD1F2C;
+    color: lightgray;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -94,8 +94,9 @@ h3 {
 /*----- Hero Image -----*/
 
 #heroimg {
-    width: 100%;
+    width: 50%;
     position: relative;
+    padding: 2% 25%;
 }/*apply to wrapping div with an img tag within*/
 
 #heroimg img {
@@ -103,17 +104,20 @@ h3 {
 }
 
 #arthed {
-    color: #FFF;
-    position: absolute;
-    bottom: 0;
+    color: WHITE;
     padding: 0;
     margin: 0;
-    font-size: 100px;
-    font-weight: 700;
+    font-family: 'Montserrat', serif;
+    font-size: 80px;
+    font-weight: 900;
     text-align: center;
     width: 100%;
-    text-shadow: 2px 2px 3px #000;
-}/*apply to h1 within the heroimg div*/
+    line-height: 100%;
+    -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: #AACA40;
+}
+
+
 
 /*----- Body Copy Things -----*/
 
@@ -124,13 +128,13 @@ h3 {
     margin: 0;
     font-size: 40px;
     font-weight: 900i;
-}/*apply to h1, not the art hed*/
+}
 
 .credit {
     font-size: 16px;
     font-weight: 100;
     padding-bottom: 50px;
-}/*apply to h4 with developer's name and title*/
+}
 
 .subhed {
     font-family: montserrat
@@ -182,6 +186,10 @@ hr {
 }
 
 /*----- Img Things -----*/
+
+.instagram-media{
+  margin: 15px auto !important;
+}
 
 .oneimg_center {
     width: 60%;

@@ -117,6 +117,33 @@ h3 {
    -webkit-text-stroke-color: #AACA40;
 }
 
+.box {
+    margin: auto;
+    width: 50%;
+    padding: 2px;
+    border-style: solid;
+    border-color: #DD1F2C;
+    border-width: 6px;
+    text-align: center;
+    
+}
+
+.box h3{
+    width:98%;
+    margin-left: 2%;
+    background-color:transparent;
+    padding:0px;
+    font-size:20px;
+    color: #AACA40;
+}
+
+.box p{
+    width:98%;
+    padding: 0;
+    margin-left: 2%; 
+   
+}
+
 
 
 /*----- Body Copy Things -----*/

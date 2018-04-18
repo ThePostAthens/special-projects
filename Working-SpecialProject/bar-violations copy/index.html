@@ -27,9 +27,9 @@ THE
                 
         <meta name="twitter:title" content="Bars near Ohio University leads in bar violations compared to MAC schools in Ohio" /> <!-- The headline -->
         <meta name="twitter:description" content="In the last two decades, bars near OU had the most bar violations compared to the rest of MAC schools in Ohio." /> <!-- The websum -->
-        <meta name="twitter:image:src" content="https://s3.amazonaws.com/snwceomedia/ohi/289afc35-c70d-4f94-8569-27dc53bcfe41.sized-1000x1000.png" /> <!-- the img URL -->
+        <meta name="twitter:image:src" content="https://s3.amazonaws.com/snwceomedia/ohi/ce5f84b8-ac26-40ce-9ebc-c71e162164d9.sized-1000x1000.png" /> <!-- the img URL -->
         
-        <meta property="og:image" content="https://s3.amazonaws.com/snwceomedia/ohi/289afc35-c70d-4f94-8569-27dc53bcfe41.sized-1000x1000.png" /> <!-- The img URL -->
+        <meta property="og:image" content="https://s3.amazonaws.com/snwceomedia/ohi/ce5f84b8-ac26-40ce-9ebc-c71e162164d9.sized-1000x1000.png" /> <!-- The img URL -->
         
 <!-- Facebook preview image tags -->
         
@@ -100,10 +100,10 @@ THE
         
         <p>Bars within a two-mile radius of OU had 308 violations, ranging from underage drinking to taxation issues, according to The Post’s analysis of permit holder violation records. That is the most compared to bars within two miles of of the University of Akron, Miami University, Bowling Green State University, University of Toledo and Kent State University.</p>
         
-        <div class="oneimg_center"><img src="https://s3.amazonaws.com/snwceomedia/ohi/289afc35-c70d-4f94-8569-27dc53bcfe41.sized-1000x1000.png" alt="bar violations" style="width: 100%"> <p class="photog">Megan Knapp | ILLUSTRATION</p></div>
+        <div class="oneimg_center"><img src="https://s3.amazonaws.com/snwceomedia/ohi/ce5f84b8-ac26-40ce-9ebc-c71e162164d9.sized-1000x1000.png" alt="bar violations" style="width: 100%"> <p class="photog">Megan Knapp | ILLUSTRATION</p></div>
 
         
-        <p>OU has 23 establishments that serve alcohol within a two-mile radius of the campus. A total of 98 bars in the MAC were analyzed. Akron had the second highest number of bars with a total of 16 bars near its campus and a total of 274 violations.</p>
+        <p>OU has 23 establishments that serve alcohol within a two-mile radius of the campus. A total of 98 bars in the MAC were analyzed. Akron had the second highest number of bars with a total of 17 bars near its campus and a total of 276 violations.</p>
         
         <p>With 10 underage drinking violations in the last five years, bars near OU make up nearly half of the 23 underage drinking violations issued near universities within the MAC.</p>
         
@@ -112,9 +112,6 @@ THE
         <p>Bars and establishments that serve alcohol are monitored by the Ohio Department of Commerce’s Division of Liquor Control. The division is responsible for controlling the manufacture, distribution, licensing, regulation and merchandising of beer, wine, mixed beverages and liquor, according to its <a href="https://www.com.ohio.gov/liqr/about.aspx">website</a>.</p>
         
         <p>Other departments also have access to the database, such as the Department of Public Safety.</p>
-        
-        <blockquote class="pq_right">“A liquor license can be revoked on one incident, or it could not be revoked on twenty. It is depending on the history and it is depending on the severity (of the violation).”<span class="attribution">Michelle Thourot, investigative unit agent-in-charge</span></blockquote>
-
         
         <p>The Ohio Investigative Unit under the Ohio State Highway Patrol is the only law enforcement agency in Ohio that can issue a violation notice or a citation to a bar, but other departments can arrest someone in a bar, Michelle Thourot, investigative unit agent-in-charge, said.</p>
         
@@ -145,7 +142,9 @@ THE
         <p>The Office of Community Standards and Student Responsibility provides information about the program and may require students sanctioned for violating the student code of conduct to attend meetings.</p>
         
         <p>“They can make a suggestion, but it cannot be mandated to come into our office, Addington said.</p>
-                
+        
+<!--        <blockquote class="pq_right">“QUOTE HEREQUOTE HEREQUOTE HEREQUOTE HEREQUOTE HEREQUOTE HEREQUOTE HERE”<span class="attribution">name here</span></blockquote>-->
+        
         <!-- Developed By -->
         <h3 class="column20center credit"><strong>Development by:</strong> <a href="https://twitter.com/TF_Johnston">Taylor Johnston</a> / Digital Production Editor</h3>  
         
@@ -171,7 +170,7 @@ mapboxgl.accessToken = 'pk.eyJ1Ijoiam9obnN0b250MDUiLCJhIjoiY2pkeG96ajVoNG5wZzJ3c
 
 var map = new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/johnstont05/cjg4m3dma1euy2tnuwpb7wwh5',
+    style: 'mapbox://styles/johnstont05/cjg3t3y8t19b32skfca9rttew',
     center: [-82.512,40.081],
     zoom: 5.78,
     hash: true
@@ -182,16 +181,15 @@ map.on('load', function () {
 
     // When a click event occurs on a feature in the places layer, open a popup at the
     // location of the feature, with description HTML from its properties.
-    map.on('click', function () {
+    map.on('click', 'bar_violations', function (e) {
         var coordinates = e.features[0].geometry.coordinates.slice();
 //        var description = e.features[0].properties.description;
         console.log(e);
         var lat = e.features[0].properties['lat'];
         var lng = e.features[0].properties['lng'];
-        var violations =  '<p>' + e.features[0].properties['Bar Name'];
-        violations  += '<br>' + e.features[0].properties['Address'];
-        violations  += '<br>' + e.features[0].properties['City'];
-        violations  += '<br>' + e.features[0].properties['Violation'] + ' violations';
+        var violations =  '<p>' + e.features[0].properties['Name.x'];
+        violations  += '<br>' + e.features[0].properties['Address.x'];
+        violations  += '<br>' + e.features[0].properties['Violation #'] + ' violations';
         // Ensure that if the map is zoomed out such that multiple
         // copies of the feature are visible, the popup appears
         // over the copy being pointed to.
@@ -206,12 +204,12 @@ map.on('load', function () {
     });
 
     // Change the cursor to a pointer when the mouse is over the places layer.
-    map.on('mouseenter', function (e) {
+    map.on('mouseenter', 'bar_violations', function () {
         map.getCanvas().style.cursor = 'pointer';
     });
 
     // Change it back to a pointer when it leaves.
-    map.on('mouseleave', function (e) {
+    map.on('mouseleave', 'bar_violations', function () {
         map.getCanvas().style.cursor = '';
     });
     

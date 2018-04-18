@@ -98,10 +98,11 @@ THE
         <!-- CONTENT GOES BELOW HERE -->
         <p>Bars near Ohio University led in violations when compared to Ohio universities in the Mid-American Conference during the last twenty years.</p>
         
-        <p>Bars within a two-mile radius of OU had 308 violations, ranging from underage drinking to taxation issues, according to The Post’s analysis of permit holder violation records. That is the most compared to bars within two miles of of the University of Akron, Miami University, Bowling Green State University, University of Toledo and Kent State University.</p>
+        <p>Bars within a two-mile radius of OU had 349 violations, ranging from underage drinking to taxation issues, according to The Post’s analysis of permit holder violation records. That is the most compared to bars within two miles of of the University of Akron, Miami University, Bowling Green State University, University of Toledo and Kent State University.</p>
         
         <div class="oneimg_center"><img src="https://s3.amazonaws.com/snwceomedia/ohi/289afc35-c70d-4f94-8569-27dc53bcfe41.sized-1000x1000.png" alt="bar violations" style="width: 100%"> <p class="photog">Megan Knapp | ILLUSTRATION</p></div>
-
+        
+        <br>
         
         <p>OU has 23 establishments that serve alcohol within a two-mile radius of the campus. A total of 98 bars in the MAC were analyzed. Akron had the second highest number of bars with a total of 16 bars near its campus and a total of 274 violations.</p>
         
@@ -171,7 +172,7 @@ mapboxgl.accessToken = 'pk.eyJ1Ijoiam9obnN0b250MDUiLCJhIjoiY2pkeG96ajVoNG5wZzJ3c
 
 var map = new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/johnstont05/cjg4m3dma1euy2tnuwpb7wwh5',
+    style: 'mapbox://styles/johnstont05/cjg5dutmv02md2ss58pkhhjf1',
     center: [-82.512,40.081],
     zoom: 5.78,
     hash: true
@@ -182,16 +183,16 @@ map.on('load', function () {
 
     // When a click event occurs on a feature in the places layer, open a popup at the
     // location of the feature, with description HTML from its properties.
-    map.on('click', function () {
+    map.on('click', 'MAC_violations', function (e) {
         var coordinates = e.features[0].geometry.coordinates.slice();
 //        var description = e.features[0].properties.description;
         console.log(e);
         var lat = e.features[0].properties['lat'];
         var lng = e.features[0].properties['lng'];
-        var violations =  '<p>' + e.features[0].properties['Bar Name'];
+        var violations =  '<p class="pop">' + e.features[0].properties['Bar Name'];
         violations  += '<br>' + e.features[0].properties['Address'];
         violations  += '<br>' + e.features[0].properties['City'];
-        violations  += '<br>' + e.features[0].properties['Violation'] + ' violations';
+        violations  += '<br>' + e.features[0].properties['Violation'] + ' violation(s)</p>';
         // Ensure that if the map is zoomed out such that multiple
         // copies of the feature are visible, the popup appears
         // over the copy being pointed to.
@@ -206,12 +207,12 @@ map.on('load', function () {
     });
 
     // Change the cursor to a pointer when the mouse is over the places layer.
-    map.on('mouseenter', function (e) {
+    map.on('mouseenter', 'MAC_violations', function () {
         map.getCanvas().style.cursor = 'pointer';
     });
 
     // Change it back to a pointer when it leaves.
-    map.on('mouseleave', function (e) {
+    map.on('mouseleave', 'MAC_violations', function () {
         map.getCanvas().style.cursor = '';
     });
     
@@ -219,7 +220,8 @@ map.on('load', function () {
             // Fly to a random location by offsetting the point -74.50, 40
             // by up to 5 degrees.
             map.flyTo({
-                center: [-82.09729,39.33513] 
+                center: [-82.09729,39.33513],
+                zoom: 12,
             });
         
         });
@@ -227,21 +229,24 @@ map.on('load', function () {
             // Fly to a random location by offsetting the point -74.50, 40
             // by up to 5 degrees.
             map.flyTo({
-                center: [-84.74232,39.51007] 
+                center: [-84.74232,39.51007],
+                zoom: 12,
             });
         });
      $('#fly-toledo').click(function () {
             // Fly to a random location by offsetting the point -74.50, 40
             // by up to 5 degrees.
             map.flyTo({
-                center: [-83.62011,41.67731] 
+                center: [-83.62011,41.67731],
+                zoom: 12,
             });
         });
     $('#fly-bowlinggreen').click(function () {
             // Fly to a random location by offsetting the point -74.50, 40
             // by up to 5 degrees.
             map.flyTo({
-                center: [-83.64721,41.37457] 
+                center: [-83.64721,41.37457],
+                zoom: 12,
             });
         });
     $('#fly-akron').click(function () {
@@ -256,7 +261,8 @@ map.on('load', function () {
             // Fly to a random location by offsetting the point -74.50, 40
             // by up to 5 degrees.
             map.flyTo({
-                center: [-81.35817,41.15369] 
+                center: [-81.35817,41.15369],
+                zoom: 12,
             });
         });
 });

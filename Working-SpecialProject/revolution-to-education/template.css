@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: #EBA628;
+    color: #7fc448;
     text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: black;
+    color: #eed7fc;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -65,12 +65,37 @@ h3 {
     padding-right: 10%;
 }
 
+/*----- Nav Bar -----*/
+/*we don't use this section as often. delete if not used in the project*/
+
+#nav_bar {
+    background: #030406;
+    color: #FFF;
+    height: 50px;
+}
+
+#nav_bar img {
+    height: 30px;
+    padding: 10px;
+    float: left;
+}
+
+#nav_bar li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    float: right;
+}
+
+#nav_bar ul {
+    margin: 0;
+}
+
 /*----- Hero Image -----*/
 
 #heroimg {
-    width: 50%;
+    width: 100%;
     position: relative;
-    padding: 2% 25%;
 }/*apply to wrapping div with an img tag within*/
 
 #heroimg img {
@@ -78,62 +103,28 @@ h3 {
 }
 
 #arthed {
-    color: black;
+    color: #FFF;
+    position: absolute;
+    bottom: 0;
     padding: 0;
     margin: 0;
-    font-family: 'Montserrat', serif;
-    font-size: 60px;
-    font-weight: 900;
+    font-size: 70px;
+    font-weight: 700;
     text-align: center;
     width: 100%;
-    line-height: 100%;
+    text-shadow: 2px 2px 3px #000;
 }/*apply to h1 within the heroimg div*/
-
-#map { 
-    height: 400px;
-    width:100%; 
-}
-
-.mapboxgl-popup {
-    max-width: 500px;
-    margin: 10px;
-    font-size: 10px;
-}
-
-.btn-group button {
-    background-color: #293641; /* Green background */
-    color: white; /* White text */
-    padding: 10px 24px;
-    margin-bottom: 35px;/* Some padding */
-    cursor: pointer; /* Pointer/hand icon */
-    float: left; /* Float the buttons side by side */
-}
-
-/* Clear floats (clearfix hack) */
-.btn-group:after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.btn-group button:not(:last-child) {
-    border-right: none; /* Prevent double borders */
-}
-
-.btn-group button a {
-    background-color: #293641;
-   color: white;
-}
 
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: dimgray;
+    color: #497425;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
     font-size: 40px;
     font-weight: 900i;
+    text-transform: uppercase;
 }/*apply to h1, not the art hed*/
 
 .credit {
@@ -231,7 +222,8 @@ blockquote {
     float: right;
     margin: 0;
     font-size: 25px;
-    color: #EBA628;
+    text-transform: uppercase;
+    color: #5379c4;
 }/*add to wrapping div*/
 
 .pq_left {

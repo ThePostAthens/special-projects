@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: red;
+    color: #eba628;
     text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #eed7fc;
+    color: darkgray;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -78,7 +78,7 @@ h3 {
 }
 
 #arthed {
-    color: black;
+    color:darkgray;
     padding: 0;
     margin: 0;
     font-family: 'Montserrat', serif;
@@ -87,6 +87,7 @@ h3 {
     text-align: center;
     width: 100%;
     line-height: 100%;
+    text-shadow: 2px 2px 2px black;
 }/*apply to h1 within the heroimg div*/
 
 #map { 
@@ -95,10 +96,15 @@ h3 {
 }
 
 .mapboxgl-popup {
-    max-width: 500px;
-    margin: 10px;
-    font-size: 10px;
+    padding: 10px;
+    font-size: 9px;
+    width: 200px;
 }
+
+p.pop {
+    margin: 0;
+    line-height: 1.1rem;
+}/*these have a style simmilar to column20center, do not add column20center to p tags*/
 
 .btn-group button {
     background-color: #293641; /* Green background */
@@ -128,7 +134,7 @@ h3 {
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
+    color: black;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
@@ -232,7 +238,7 @@ blockquote {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #5379c4;
+    color: #eba628;
 }/*add to wrapping div*/
 
 .pq_left {

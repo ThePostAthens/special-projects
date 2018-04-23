@@ -1,0 +1,1154 @@
+/* Template.css
+This is a template for special projects at The Post.
+Template originally coded by Seth Archer, digital managing editor at The Post.
+Please contact at SethPArcher@gmail.com with questions.*/
+
+/*----- Global Styles -----*/
+
+body {
+    font-family: montserrat, sans-serif;
+    background-color: #FFF;
+    color: #030406;
+}
+
+a {
+    color: #e0c288;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: .6;
+}
+
+p {
+    width: 60%;
+    padding: 0 20%;
+}/*these have a style simmilar to column20center, do not add column20center to p tags*/
+
+h2 {
+    padding: 0 15%;
+}
+
+h3 {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.date{
+    font-weight: 800;
+    color: #eed7fc;
+    width: 60%;
+    padding: 0% 20% 0 20%;
+    margin: 0;
+}/*apply to p tag*/
+
+.intro {
+    width: 100%;
+    text-align: center
+}
+
+/*-----Column stuff-----*/
+
+.column20center {
+    width: 60%;
+    padding: 0 20%;
+}/*do not apply to p tags, they automatically have a simmilar styling*/
+
+.column10center {
+    width: 80%;
+    padding: 0 10%;
+}
+
+.column10left {
+    width: 40%;
+    padding-left: 10%;
+}
+
+.column10right {
+    width: 40%;
+    padding-right: 10%;
+}
+
+/*----- Nav Bar -----*/
+/*we don't use this section as often. delete if not used in the project*/
+
+#nav_bar {
+    background: #030406;
+    color: #FFF;
+    height: 50px;
+}
+
+#nav_bar img {
+    height: 30px;
+    padding: 10px;
+    float: left;
+}
+
+#nav_bar li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    float: right;
+}
+
+#nav_bar ul {
+    margin: 0;
+}
+
+/*----- Hero Image -----*/
+
+#heroimg {
+    width: 100%;
+    position: relative;
+}/*apply to wrapping div with an img tag within*/
+
+#heroimg img {
+    width: 100%;
+}
+
+#arthed {
+    color: #FFF;
+    position: absolute;
+    bottom: 0px;
+    padding: 0;
+    margin: 0;
+    font-size: 150px;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+    text-shadow: 2px 2px 3px #000;
+    font-family: playfair display;
+    font-style: italic;
+}/*apply to h1 within the heroimg div*/
+
+
+/*---- Landing Page Stuff ----*/
+
+hr {
+  border: 0;
+  margin: 1.35em auto;
+  max-width: 100%;
+  background-position: 50%;
+  box-sizing: border-box;
+}
+
+.bookends {
+  position: relative;
+  border-width: 5px;
+  border-color: hsl(0, 0%, 50%) transparent;
+  height: 11px;
+  border-style: double;
+  width: 20%;
+}
+.bookends:before,
+.bookends:after {
+  position: absolute;
+  bottom: -3.536px;
+  width: 7.071px;
+  height: 7.071px;
+  display: block;
+  border-width: 0 7.071px 7.071px 0;
+  border-color: hsl(0, 0%, 50%);
+  border-style: double;
+  box-sizing: border-box;
+}
+.bookends:before {
+  transform: translateZ(0) rotate(-45deg);
+  left: -21px;
+}
+.bookends:after {
+  transform: translateZ(0) rotate(135deg);
+  right: -21px;
+}
+
+
+.wrapper {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.wrapper>div {
+	padding: 7em;
+	color: white;
+}
+
+.wrapper {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 30px;
+	grid-auto-rows: minmax(100px, auto);
+}
+
+.one {
+	grid-column: 1;
+	grid-row: 1;
+	background-image: url('http://snworksceo.imgix.net/ohi/52fc070f-a665-4e0d-8619-57b0311b0fdb.sized-1000x1000.jpg');
+	position: relative;
+    background-size: cover;
+    border: 5px solid maroon;
+
+}
+
+.one span {
+    position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.two {
+	grid-column: 2;
+	grid-row: 1;
+	background-image: url('https://s3.amazonaws.com/media.ohi/17601_f863720d61450747e485cd1e603674f13ea7d70cf.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid maroon;
+
+}
+
+.two span {
+    position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.three {
+	grid-column: 3;
+	grid-row: 1;
+	background-image: url('https://s3.amazonaws.com/media.ohi/17831_bntbtripf.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid maroon;
+    
+}
+
+.three span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+.four {
+	grid-column: 4;
+	grid-row: 1;
+	background-image: url('http://snworksceo.imgix.net/ohi/845a2c0b-8887-4215-8238-553e0f2d2a06.sized-1000x1000.jpg');
+	position: relative;
+    background-size: cover;
+    border: 5px solid maroon;
+
+}
+
+.four span {
+	position: absolute;
+	bottom: 2px;
+	left: 5px;
+    text-shadow: 2px 2px black;
+}
+
+.five {
+	grid-column: 1;
+	grid-row: 2;
+	background-image: url('https://s3.amazonaws.com/media.ohi/18364_dunkirk0001f.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid maroon;
+
+}
+
+.five span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.six {
+	grid-column: 2;
+	grid-row: 2;
+	background-image: url('http://snworksceo.imgix.net/ohi/75f0e98d-ed1f-4230-9eca-3701ddef8731.sized-1000x1000.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid maroon;
+    
+}
+
+.six span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.seven {
+	grid-column: 3;
+	grid-row: 2;
+	background-image: url('https://s3.amazonaws.com/media.ohi/18333_18879438_316646998766621_818116052125745152_nf.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid maroon;
+    
+}
+
+.seven span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.eight {
+	grid-column: 4;
+	grid-row: 2;
+	background-image: url('http://snworksceo.imgix.net/ohi/60ba370f-8b58-4c51-aea9-ccf07453de07.sized-1000x1000.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid maroon;
+    
+}
+
+.eight span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.nine {
+	grid-column: 1;
+	grid-row: 3;
+	background-image: url('http://snworksceo.imgix.net/ohi/81c5276a-a2c7-4993-9882-6b78647c6e70.sized-1000x1000.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid maroon;
+    
+}
+
+.nine span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+
+.ten {
+	grid-column: 2;
+	grid-row: 3;
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/d25ca1f8-db73-409a-b221-33bce6f5a894.sized-1000x1000.png');
+    position: relative;
+    background-size: cover;
+    border: 5px solid maroon;
+    
+}
+
+.ten span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.eleven {
+	grid-column: 3;
+	grid-row: 3;
+	background-image: url('http://snworksceo.imgix.net/ohi/5ef6371b-81f4-4c91-8c2b-52ab74dfeaf9.sized-1000x1000.png');
+    position: relative;
+    background-size: cover;
+    border: 5px solid maroon;
+    
+}
+
+.eleven span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.twelve {
+	grid-column: 4;
+	grid-row: 3;
+	background-image: url('http://snworksceo.imgix.net/ohi/5cdbe01c-e994-46ed-ad8a-1e26681f77e7.sized-1000x1000.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid maroon;
+    background-position: 20px;
+    
+}
+
+.twelve span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+
+}
+
+.thirteen {
+	grid-column: 1;
+	grid-row: 4;
+	background-image: url('http://snworksceo.imgix.net/ohi/8f1366b4-d0ba-4146-980a-8c40ab92b709.sized-1000x1000.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid maroon;
+    
+}
+
+.thirteen span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.fourteen {
+	grid-column: 2;
+	grid-row: 4;
+	background-image: url('http://snworksceo.imgix.net/ohi/f4c872fd-9ba6-4e68-94fe-85dcac20f201.sized-1000x1000.png');
+    position: relative;
+    background-size: cover;
+    border: 5px solid maroon;
+    
+}
+
+.fourteen span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.fifteen {
+	grid-column: 3;
+	grid-row: 4;
+	background-image: url('http://snworksceo.imgix.net/ohi/a4678fea-3ca5-42d7-8fa7-4224ecc29f42.sized-1000x1000.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid maroon;
+    
+}
+
+.fifteen span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.sixteen {
+	grid-column: 4;
+	grid-row: 4;
+	background-image: url('http://snworksceo.imgix.net/ohi/910bf5c8-7495-47cd-8347-70d9c8a7ba69.sized-1000x1000.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid maroon;
+    
+}
+
+.sixteen span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.seventeen {
+	grid-column: 1;
+	grid-row: 5;
+	background-image: url('http://snworksceo.imgix.net/ohi/e1c98636-ec95-4775-bb97-24f659b458ec.sized-1000x1000.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid maroon;
+    
+}
+
+.seventeen span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.eighteen {
+	grid-column: 2;
+	grid-row: 5;
+	background-image: url('http://snworksceo.imgix.net/ohi/c0691ab2-4a84-4325-9fb3-9d675f5854b0.sized-1000x1000.png');
+    position: relative;
+    background-size: cover;
+    border: 5px solid maroon;
+    
+}
+
+.eighteen span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.nineteen {
+	grid-column: 3;
+	grid-row: 5;
+	background-image: url('http://snworksceo.imgix.net/ohi/9bb5a522-f4bc-4a73-b008-19411967fada.sized-1000x1000.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid maroon;
+    
+}
+
+.nineteen span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.twenty {
+	grid-column: 4;
+	grid-row: 5;
+	background-image: url('http://snworksceo.imgix.net/ohi/9db91185-d480-427c-aa6f-5623755e4df3.sized-1000x1000.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid maroon;
+    
+}
+
+.twenty span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.twenty-one {
+	grid-column: 1;
+	grid-row: 6;
+	background-image: url('http://snworksceo.imgix.net/ohi/de834640-5ce1-4ab3-b294-582a4d2ca973.sized-1000x1000.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid maroon;
+    
+}
+
+.twenty-one span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.twenty-two {
+	grid-column: 2;
+	grid-row: 6;
+	background-image: url('http://snworksceo.imgix.net/ohi/7fbe5405-a6d8-4113-92c5-a803853af5a2.sized-1000x1000.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid maroon;
+    
+}
+
+.twenty-two span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.twenty-three {
+	grid-column: 3;
+	grid-row: 6;
+	background-image: url('http://snworksceo.imgix.net/ohi/90f5a8b9-f963-4ab0-846f-377ecb4e04be.sized-1000x1000.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid maroon;
+    
+}
+
+.twenty-three span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.twenty-four {
+	grid-column: 4;
+	grid-row: 6;
+	background-image: url('http://snworksceo.imgix.net/ohi/46e48cc1-892e-4457-b19b-015e56e21e39.sized-1000x1000.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid maroon;
+    
+}
+
+.twenty-four span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.twenty-five {
+	grid-column: 1;
+	grid-row: 7;
+	background-image: url('http://snworksceo.imgix.net/ohi/a9cd73fb-a385-46f7-9a82-0d73174448cd.sized-1000x1000.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid maroon;
+    
+}
+
+.twenty-five span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.twenty-six {
+	grid-column: 2;
+	grid-row: 7;
+	background-image: url('http://snworksceo.imgix.net/ohi/1b759a3b-6763-4caa-bcf8-aafa959239b0.sized-1000x1000.png');
+    position: relative;
+    background-size: cover;
+    border: 5px solid maroon;
+    
+}
+
+.twenty-six span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.twenty-seven {
+	grid-column: 3;
+	grid-row: 7;
+	background-image: url('http://snworksceo.imgix.net/ohi/4de55249-0c01-481e-bf46-219437f21855.sized-1000x1000.jpg?w=375&h=375');
+    position: relative;
+    background-size: cover;
+    border: 5px solid maroon;
+    
+}
+
+.twenty-seven span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.twenty-eight {
+	grid-column: 4;
+	grid-row: 7;
+	background-image: url('http://snworksceo.imgix.net/ohi/d8f66086-4c8f-4aaa-a504-c1aedfa426dd.sized-1000x1000.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid maroon;
+    
+}
+
+.twenty-eight span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.twenty-nine {
+	grid-column: 1;
+	grid-row: 8;
+	background-image: url('http://snworksceo.imgix.net/ohi/1768a665-5584-4b18-b22a-b85133f569c4.sized-1000x1000.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid maroon;
+    
+}
+
+.twenty-nine span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.thirty {
+	grid-column: 1;
+	grid-row: 8;
+	background-image: url('http://snworksceo.imgix.net/ohi/1f9c4802-447d-45a9-a83b-efaffecf205f.sized-1000x1000.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid maroon;
+    
+}
+
+.thirty span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+/*HOVER*/
+.one:hover {
+	opacity: .6;
+}
+
+.two:hover {
+	opacity: .6;
+}
+
+.three:hover {
+	opacity: .6;
+}
+
+.four:hover {
+	opacity: .6;
+}
+
+.five:hover {
+	opacity: .6;
+}
+
+.six:hover {
+	opacity: .6;
+}
+
+.eight:hover {
+	opacity: .6;
+}
+
+.nine:hover {
+	opacity: .6;
+}
+
+.ten:hover {
+	opacity: .6;
+}
+
+.eleven:hover {
+	opacity: .6;
+}
+
+.twelve:hover {
+	opacity: .6;
+}
+
+.thirteen:hover {
+	opacity: .6;
+}
+
+.fourteen:hover {
+	opacity: .6;
+}
+
+.fifteen:hover {
+	opacity: .6;
+}
+
+.sixteen:hover {
+	opacity: .6;
+}
+
+
+.seventeen:hover {
+	opacity: .6;
+}
+
+
+.eighteen:hover {
+	opacity: .6;
+}
+
+.nineteen:hover {
+	opacity: .6;
+}
+
+
+.twenty:hover {
+	opacity: .6;
+}
+
+.twenty-one:hover {
+	opacity: .6;
+}
+
+.twenty-two:hover {
+	opacity: .6;
+}
+
+.twenty-three:hover {
+	opacity: .6;
+}
+
+.twenty-four:hover {
+	opacity: .6;
+}
+
+.twenty-five:hover {
+	opacity: .6;
+}
+
+.twenty-six:hover {
+	opacity: .6;
+}
+
+.twenty-seven:hover {
+	opacity: .6;
+}
+
+.twenty-eight:hover {
+	opacity: .6;
+}
+
+.twenty-nine:hover {
+	opacity: .6;
+}
+
+.thirty:hover {
+    opacity: .6;
+}
+
+@media only screen and (max-width: 768px) {
+	.wrapper {
+		display: block;
+	}
+	.margin-bot {
+		margin-bottom: 2px;
+	}
+    
+}
+/*----- Body Copy Things -----*/
+
+.headline {
+    color: #497425;
+    padding: 0 10% 0 10%;
+    width: 80%;
+    margin: 0;
+    font-size: 40px;
+    font-weight: 900i;
+    text-transform: uppercase;
+}/*apply to h1, not the art hed*/
+
+.credit {
+    font-size: 16px;
+    font-weight: 100;
+    padding-bottom: 50px;
+}/*apply to h4 with developer's name and title*/
+
+.subhed {
+    font-family: montserrat
+    , sans-serif;
+    font-weight: 800;
+    color: #7fc448;
+}/*apply to h2 tags*/
+
+.dropcap {
+    font-weight: 700;
+    float: left;
+    font-size: 2.9em;
+    line-height: .9em;
+    padding-right: 5px;
+}/*apply to wrapping span tag*/
+
+.title {
+    color: #606060;
+}/*should be in same p tag as the author name*/
+
+#byline {
+    margin: 0;
+    font-weight: 400;
+}/*applies to entire byline, with title. bold the author name. put on h4 tag*/
+
+/*----- Img Things -----*/
+
+.oneimg_center {
+    width: 60%;
+    padding: 0 20%;
+}/*Apply to a wrapping div*/
+
+.oneimg_right {
+    width: 40%;
+    padding-right: 10%;
+    padding-left: 10px;
+    float: right;
+}/*Apply to a wrapping div*/
+
+.oneimg_left {
+    width: 40%;
+    padding-left: 10%;
+    padding-right: 20px;
+    float: left;
+}/*Apply to a wrapping div*/
+
+.twoimg_center {
+    width: 60%;
+    margin: 0 20%;
+}
+
+.twoimg_center img {
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+.threeimg_full {
+    width: 33%;
+}
+
+.oneimg_full img, .oneimg_center img, .oneimg_right img, .oneimg_left img {
+    width: 100%
+}
+
+/*----- Pullquote stuff -----*/
+
+blockquote {
+    padding: 0;
+    margin: 5px;
+}/*should be the text of the pull quote*/
+
+.pq_center {
+    width: 60%;
+    padding: 0 20%;
+    margin: 0;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #5379c4;
+    font-weight: 800;
+}/*add to wrapping div*/
+
+.pq_right {
+    width: 40%;
+    padding-right: 10%;
+    padding-left: 15px;
+    float: right;
+    margin: 0;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #5379c4;
+}/*add to wrapping div*/
+
+.pq_left {
+    width: 40%;
+    padding-left: 10%;
+    padding-right: 0;
+    float: left;
+    margin: 0;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #5379c4;
+}/*add to wrapping div*/
+
+.attribution {
+    font-size: 20px;
+    text-transform: none;
+    display: block;
+    text-align: right;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0 5%;
+    width: 90%;
+}/*add to p tag within the wrapping div*/
+
+/*----- Image stuff -----
+also use these tags to move iframes, graphics etc.. anything that would behave like a photo*/
+
+.pcut{
+    float: right;
+    text-align: left;
+    margin:0;
+    font-weight: 100;
+    color: #808080;
+    font-size: 12px;
+    width: 100%;
+    padding: 0;
+}/*add p tag, should be after the photog p tag*/
+
+.galleryPcut{
+float: right;
+    text-align: left;
+    margin:0;
+    font-weight: 100;
+    color: #808080;
+    font-size: 12px;
+    width: 100%;
+    padding: 0;
+    padding-bottom: 10px;
+}
+
+.photog{
+    float: right;
+    text-align: right;
+    margin:0;
+    font-weight: 800;
+    color: #000;
+    font-size: 12px;
+    width: 100%;
+    padding: 0;
+}/*add to p tag, should be before the pcut p tag*/
+
+.oneimg_full p{
+    width:60%;
+    padding:0 20%;
+}
+
+
+/*----- Gallery Stuff -----*/
+
+.gallery_bot {
+    padding: 0;
+    width: 20%;
+    float: left;
+}
+
+.w3-hover-shadow:hover {
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important
+}
+
+.mySlides {
+    display:none;
+}
+
+/*----- Other -----*/
+
+#logo {
+    z-index: 1;
+    position: absolute;
+    float: left;
+    height: 30px;
+    padding: 7px;
+}/*effects the post logo in the top left of the page*/
+
+.parallax {
+    height: 800px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}/* add to the wrapping div, give the div an inline style with the photo you want to be parallax*/
+
+/* Landing page clicky box at bottom.*/
+
+.story {
+    color: #FFF;
+    font-family: playfair display;
+    width: 100%;
+    height: 200px;
+    text-shadow: 2px 2px 5px #000;
+    background-color: #292929;
+    display: table;
+}
+
+.story_inside{
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.story h2{
+    font-size: 40px;
+    width: 70%;
+    padding: 0 15%;
+    margin: 0;
+    line-height: 35px;
+}
+
+.story p{
+    font-family: montserrat;
+    margin: 0;
+    width: 40%;
+    padding: 10px 15% 0 15%;
+}
+
+@media screen and (max-width: 750px){
+    
+    .oneimg_right, .oneimg_left, .oneimg_center {
+        width: 80%;
+        padding: 0 10% 10px 10%;
+    }
+    
+    .oneimg_full p {
+        width: 80%;
+        padding: 0 10%;
+    }
+    
+    .pq_center, .pq_right, .pq_left {
+        padding: 0 5%;
+        width: 90%;
+    }
+    
+    .column20center, p {
+        width: 80%;
+        padding: 0 10%;
+    }
+    
+    #arthed {
+        font-size: 40px;
+    }
+    
+    .subhed{
+        padding: 0 10%;
+    }
+    
+    .credit{
+        padding-bottom: 20px;
+    }
+    
+    #logo {
+        height: 25px;
+    }
+
+    .headline {
+        width: 80%;
+        padding: 0% 10% 0 10%;
+        font-size: 25px;
+    }
+    
+    .date {
+        padding: 0 10%;
+        width: 80%;
+    }
+    
+    #banner {
+        font-size: 50px;
+    }
+    
+    .story {
+        height: 300px;
+    }
+}

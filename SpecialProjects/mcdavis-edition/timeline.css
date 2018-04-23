@@ -1,0 +1,190 @@
+body {
+
+}
+
+#head {
+    color: #292929;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+#art {
+    text-align: center;
+    font-size: 80px;
+    background-color: #;
+    margin: 0;
+    
+}
+
+#head p {
+    width: 50%;
+    padding:0 25% 2% 25%;
+    margin: 0;
+    text-align: justify;
+    font-size: 20px;
+    background-color: #;
+}
+
+#timeline {
+    overflow: hidden;
+    position: relative;
+}
+
+#tl_mobile {
+    display: none;
+}
+
+#vr_line {
+    width: 1%;
+    height: 2000px;
+    background-color:#292929;
+    float: left;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
+
+#left {
+    width: 50%;
+    float: left;
+    
+}
+
+#right {
+    width: 50%;
+    float: left;
+}
+
+.full_right {
+    width: 95%;
+    margin: 1% 3% 0 2%;
+    position: relative;
+}
+
+.full_left {
+    width: 95%;
+    margin: 1% 2% 0 1%;
+    float: right;
+    position: relative;
+}
+
+.half_right {
+    width: 70%;
+    margin: 1% 3% 0 2%;
+    position: relative;
+}
+
+.half_left {
+    width: 70%;
+    margin: 1% 2% 0 1%;
+    float: right;
+    position: relative;
+}
+
+.mid_left{
+    width: 80%;
+    margin: 1% 2% 0 1%;
+    float: right;
+    position: relative;
+}
+
+.mid_right {
+    width: 80%;
+    margin: 1% 1% 0 2%;
+    position: relative;
+}
+
+div img{
+    width: 100%;
+}
+
+
+.caption {
+    background: #292929;
+    background: -webkit-linear-gradient(rgba(41,41,41,0), rgba(41,41,41,1));
+    background: -o-linear-gradient(rgba(41,41,41,0), rgba(41,41,41,1));
+    background: -moz-linear-gradient(rgba(41,41,41,0), rgba(41,41,41,1));
+    background: linear-gradient(rgba(41,41,41,0), rgba(41,41,41,1));
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+.caption p {
+    width: 90%;
+    padding: 0 2% 0 8%;
+    margin: 0;
+    text-align: right;
+    font-size: 12px;
+}
+
+
+
+.photographer {
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+h3.credit {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 2% 0;
+    background-color: #292929;
+}
+
+@media screen and (max-width: 750px) {
+    
+    #art {
+        font-size: 50px
+    }
+    
+    #head p {
+        font-size: 16px;
+        width: 90%;
+        padding: 0 5%;
+        text-align: left;
+    }
+        
+    #timeline {
+        display: none;
+    }
+    
+    #tl_mobile {
+        display: block;
+    }
+    
+    .caption {
+        font-size: 10px;
+        text-shadow: 1px 1px 1px #000;
+    }
+    
+    .caption p {
+        width: 98%;
+        padding: 0 1%;
+    }
+    
+    .photographer {
+        font-size: 10px
+    }
+    
+    h3.credit {
+        background-color: #fff;
+        
+    }
+    
+    .full_left, .full_right, .mid_left, .mid_right, .half_left, .half_right {
+        width: 100%;
+        padding: 0;
+        margin: 1% 0;
+    }
+}

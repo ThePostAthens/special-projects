@@ -1,0 +1,898 @@
+/* Template.css
+This is a template for special projects at The Post.
+Template originally coded by Seth Archer, digital managing editor at The Post.
+Please contact at SethPArcher@gmail.com with questions.*/
+
+/*----- Global Styles -----*/
+
+body {
+    font-family: montserrat, sans-serif;
+    background-color: #FFF;
+    color: #030406;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+}
+
+p {
+    width: 60%;
+    padding: 0 20%;
+}/*these have a style simmilar to column20center, do not add column20center to p tags*/
+
+h2 {
+    padding: 0 15%;
+}
+
+h3 {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+#nav_bar img {
+    height: 30px;
+    padding: 10px;
+    float: left;
+}
+/*----- Arthed ------*/
+
+.header {
+    width: 100%;
+    height: 550px;
+    background-color: #000;
+}
+
+.head_wrap {
+    width: 50%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    padding-top: 15%;
+    margin-left: 12%;    
+}
+
+#top_left{
+    color: #FFFF00;
+    position: relative;
+    top: 0em;
+    right:1.95em;
+    font-size: 8vw;
+    line-height: 0px;
+    padding: 0;
+    margin: 0;
+    text-align: right
+}
+
+#bottom_left {
+    color: #FF00FF;
+    position: relative;
+    top: .77em;
+    right: 1.65em;
+    font-size: 8vw;
+    line-height: 0px;
+    padding:0;
+    margin: 0;
+    text-align: right;
+}
+
+#right {
+    color: #00FFFF;
+    position: relative;
+    top: .18em;
+    right: -1.37em;
+    font-size: 16.8vw;
+    line-height: 0px;
+    padding:0;
+    margin: 0;
+    text-align: right;
+    letter-spacing: -.9vw;
+}
+
+#middle_left {
+    color: #fff;
+    position: relative;
+    top: 10.5em;
+    right: 1.1em;
+    font-size: 2.7vw;
+    line-height: 0px;
+    padding:0;
+    margin: 0;
+    text-align: right;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+}
+
+/* ---- end of arthed ---- */
+
+/* ---- BODY ----*/
+
+.wrap {
+    width: 96%;
+    padding: 0 2%;
+    overflow: hidden;
+}
+
+#one {
+    width: 19%;
+    float: left;
+}
+
+#one h3{
+    color: #ff00ff;
+    margin-top: 42vw;
+    margin-right: 13vw;
+    font-size: 6vw;
+    line-height: 0vw;
+    text-align: center;
+    text-shadow: 0px 0px 3px #aaa;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+}
+
+#one h2{
+    color: #ff00ff;
+    margin-bottom: 1vw;
+    margin-top: -6.3vw;
+    margin-right: 0vw;
+    padding: 0;
+    text-align: center;
+    font-size: 10vw;
+    line-height: 0vw;
+    text-shadow: 0px 0px 3px #aaa;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+}
+
+#one p { 
+    color: #ff00ff;
+    margin-bottom: 21.5vw;
+    margin-top: -15.5vw;
+    margin-left: -6vw;
+    width: 42vw;
+    padding: 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 1px #aaa;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+}
+
+#one:hover {
+    background-color:#000;
+}
+#two {
+    width: 31%;
+    float: left;
+    background-color:#;
+}
+
+#two h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 10vw;
+    line-height: 10vw;
+    color: #FFFF00;
+    text-shadow: 0px 0px 3px #bbb;
+    font-stretch: expanded;
+}
+
+#two h3 {
+    padding: 0 0 0 .4vw;
+    margin: 0;
+    font-size: 6.3vw;
+    line-height: 5vw;
+    letter-spacing: .1vw;
+    text-shadow: 0px 0px 3px #bbb;
+    color: #FFFF00;
+    
+}
+
+#two p {
+    width: 95.5%;
+    padding: 3% 0 0 0%;
+    margin: 0 0 0 2.2%;
+    font-size: 16px;
+    word-spacing: 3px;
+    line-height: 16px;
+    color: #FFFF00;
+    text-shadow: 0px 0px 1px #000;
+    text-align: justify;
+    text-transform: uppercase;
+}
+
+#two:hover {
+    background-color: #000;
+}
+
+#three {
+    width: 50%;
+    float: left;
+    background-color: ;
+}
+
+#three h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 14vw;
+    line-height: 13vw;
+    text-shadow: 0px 0px 3px #aaa;
+    color: #00FFFF;
+    letter-spacing: 3vw;
+}
+
+#three h3 {
+    padding: 0 0 0 .4vw;
+    margin: 0;
+    font-size: 5vw;
+    line-height: 2.6vw;
+    text-shadow: 0px 0px 3px #aaa;
+    letter-spacing: 1.5vw;
+    color: #00FFFF;
+    
+}
+
+#three p {
+    width: 95.5%;
+    padding: 3% 0 0 0%;
+    margin: 0 0 0 2.2%;
+    font-size: 16px;
+    word-spacing: 3px;
+    line-height: 16px;
+    color: #00FFFF;
+    text-shadow: 0px 0px 1px #aaa;
+    text-align: justify;
+    text-transform: uppercase;
+}
+
+#three:hover {
+    background-color: #000;
+}
+
+#four {
+    width: 55%;
+    float: left;
+    margin-bottom: 1.5vw
+}
+
+#four h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 11.3vw;
+    line-height: 11vw;
+    text-shadow: 0px 0px 3px #aaa;
+    color: #00FFFF;
+    letter-spacing: 0vw;
+}
+
+#four h3 {
+    padding: 0 0 0 .4vw;
+    margin: 0;
+    font-size: 10vw;
+    line-height: 9vw;
+    text-shadow: 0px 0px 3px #aaa;
+    letter-spacing: 1.3vw;
+    color: #00FFFF;
+    
+}
+
+#four p {
+    width: 95.5%;
+    padding: 1% 0 0 0%;
+    margin: 0 0 0 2.2%;
+    font-size: 16px;
+    word-spacing: 3px;
+    line-height: 16px;
+    color: #00FFFF;
+    text-shadow: 0px 0px 1px #aaa;
+    text-align: justify;
+    text-transform: uppercase;
+}
+
+#four:hover {
+    background-color: #000;
+}
+
+#five {
+    width: 26%;
+    float: right;
+}
+
+#five h2{
+    color: #ff00ff;
+    margin-top: 39.5vw;
+    margin-left: 15vw;
+    font-size: 10vw;
+    line-height: 0vw;
+    text-align: center;
+    letter-spacing: .9vw;
+    text-shadow: 0px 0px 3px #aaa;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+}
+
+#five h3{
+    color: #ff00ff;
+    margin-bottom: 2.1vw;
+    margin-top: -22vw;
+    margin-left: -6vw;
+    padding: 0;
+    font-size: 17vw;
+    line-height: 0vw;
+    text-shadow: 0px 0px 3px #aaa;
+    letter-spacing: 1.5vw;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+}
+
+#five p { 
+    color: #ff00ff;
+    margin-bottom: 19vw;
+    margin-top: -6.5vw;
+    margin-left: -16vw;
+    width: 35vw;
+    padding: 0;
+    font-size: 16px;
+    text-align: justify;
+    text-shadow: 0px 0px 1px #aaa;
+    text-transform: uppercase;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+}
+
+#five:hover{
+    background-color: #000;
+}
+
+#six {
+    width: 74%;
+    float: left;
+}
+
+#six h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 7vw;
+    line-height: 7vw;
+    text-shadow: 0px 0px 3px #aaa;
+    color: #ffff00;
+    letter-spacing: 1.56vw;
+}
+
+#six h3 {
+    padding: 0 0 0 .4vw;
+    margin: 0;
+    font-size: 10vw;
+    text-shadow: 0px 0px 3px #aaa;
+    line-height: 7vw;
+    letter-spacing: 5.45vw;
+    color: #ffff00;
+    
+}
+
+#six p {
+    width: 95.5%;
+    padding: 1% 0 0 0%;
+    margin: 0 0 0 2.2%;
+    font-size: 16px;
+    word-spacing: 3px;
+    line-height: 16px;
+    color: #ffff00;
+    text-shadow: 0px 0px 1px #000;
+    text-align: justify;
+    text-transform: uppercase;
+}
+
+#six:hover {
+    background-color: #000;
+}
+
+#seven {
+    width: 77%;
+    float: right;
+    background-color: ;
+}
+
+#seven h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 13.7vw;
+    line-height: 11.5vw;
+    text-shadow: 0px 0px 3px #aaa;
+    color: #ffff00;
+    letter-spacing: 3.2vw;
+}
+
+#seven h3 {
+    padding: 0 0 0 0;
+    margin: 0;
+    font-size: 11vw;
+    line-height: 10vw;
+    text-shadow: 0px 0px 3px #aaa;
+    letter-spacing: 3.2vw;
+    color: #ffff00;
+    
+}
+
+#seven p {
+    width: 95.5%;
+    padding: 1% 0 0 0%;
+    margin: 0 0 0 2.2%;
+    font-size: 16px;
+    word-spacing: 3px;
+    line-height: 16px;
+    color: #ffff00;
+    text-shadow: 0px 0px 1px #000;
+    text-align: justify;
+    text-transform: uppercase;
+}
+
+#seven:hover {
+    background-color: #000;
+}
+
+#eight {
+    width: 50%;
+    float: left;
+    background-color:;
+}
+
+#eight h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 8.7vw;
+    text-shadow: 0px 0px 3px #aaa;
+    line-height: 8vw;
+    color: #ff00ff;
+    letter-spacing: .8vw;
+}
+
+#eight h3 {
+    padding: 0 0 0 0;
+    margin: 0;
+    font-size: 10vw;
+    text-shadow: 0px 0px 3px #aaa;
+    line-height: 8.1vw;
+    letter-spacing: 2.25vw;
+    color: #ff00ff;
+    
+}
+
+#eight p {
+    width: 95.5%;
+    padding: 1% 0 0 0%;
+    margin: 0 0 0 2.2%;
+    font-size: 16px;
+    word-spacing: 3px;
+    line-height: 16px;
+    color: #ff00ff;
+    text-shadow: 0px 0px 1px #aaa;
+    text-align: justify;
+    text-transform: uppercase;
+}
+
+#eight:hover {
+    background-color: #000;
+}
+
+#nine {
+    width: 50%;
+    float: left;
+    background-color:#;
+}
+
+#nine h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 12vw;
+    text-shadow: 0px 0px 3px #aaa;
+    line-height: 10vw;
+    color: #00ffff;
+    letter-spacing: 5.9vw;
+}
+
+#nine h3 {
+    padding: 0 0 0 0;
+    margin: 0;
+    font-size: 5.7vw;
+    text-shadow: 0px 0px 3px #aaa;
+    line-height: 6.1vw;
+    letter-spacing: 7vw;
+    color: #00ffff;
+    
+}
+
+#nine p {
+    width: 95.5%;
+    padding: 1% 0 0 0%;
+    margin: 0 0 0 2.2%;
+    font-size: 16px;
+    word-spacing: 3px;
+    line-height: 16px;
+    color: #00ffff;
+    text-shadow: 0px 0px 1px #aaa;
+    text-align: justify;
+    text-transform: uppercase;
+}
+
+#nine:hover {
+    background-color: #000;
+}
+
+#ten {
+    width: 23%;
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+
+#ten h2{
+    color: #ff00ff;
+    margin-top: 31vw;
+    margin-left: -10vw;
+    font-size: 16vw;
+    line-height: 0vw;
+    text-shadow: 0px 0px 3px #aaa;
+    text-align: center;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+}
+
+#ten h3{
+    color: #ff00ff;
+    margin-bottom: 13vw;
+    margin-top: -16.5vw;
+    margin-right: -10vw;
+    padding: 0;
+    text-shadow: 0px 0px 3px #aaa;
+    font-size: 6.5vw;
+    line-height: 0vw;
+    letter-spacing: .32vw;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+}
+
+#ten p { 
+    color: #ff00ff;
+    margin-bottom: 21.5vw;
+    margin-top: -19vw;
+    margin-left: -1vw;
+    width: 43vw;
+    padding: 0;
+    font-size: 16px;
+    text-shadow: 0px 0px 1px #aaa;
+    text-transform: uppercase;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+}
+
+#ten:hover {
+    background-color:#000;
+}
+
+#eleven {
+    width: 38.5%;
+    float: right;
+}
+
+#eleven h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 9vw;
+    text-shadow: 0px 0px 3px #aaa;
+    line-height: 9vw;
+    color: #00ffff;
+    letter-spacing: 1vw;
+}
+
+#eleven h3 {
+    padding: 0 0 0 0;
+    margin: 0;
+    font-size: 8vw;
+    text-shadow: 0px 0px 3px #aaa;
+    line-height: 8vw;
+    letter-spacing: -.2vw;
+    color: #00ffff;
+    
+}
+
+#eleven p {
+    width: 95.5%;
+    padding: 1% 0 0 0%;
+    margin: 0 0 0 2.2%;
+    font-size: 16px;
+    word-spacing: 3px;
+    text-shadow: 0px 0px 1px #aaa;
+    line-height: 16px;
+    color: #00ffff;
+    text-align: justify;
+    text-transform: uppercase;
+}
+
+#eleven:hover {
+    background-color: #000;
+}
+
+#twelve {
+    width: 38.5%;
+    float: right;
+}
+
+#twelve h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 9vw;
+    line-height: 9vw;
+    color: #ff00ff;
+    text-shadow: 0px 0px 3px #aaa;
+    letter-spacing: .9vw;
+}
+
+#twelve h3 {
+    padding: 0 0 0 0;
+    margin: 0;
+    font-size: 8vw;
+    line-height: 8vw;
+    letter-spacing: -.3vw;
+    text-shadow: 0px 0px 3px #aaa;
+    color: #ff00ff;
+    
+}
+
+#twelve p {
+    width: 95.5%;
+    padding: 1% 0 0 0%;
+    margin: 0 0 0 2.2%;
+    font-size: 16px;
+    word-spacing: 3px;
+    line-height: 16px;
+    text-shadow: 0px 0px 1px #aaa;
+    color: #ff00ff;
+    text-align: justify;
+    text-transform: uppercase;
+}
+
+#twelve:hover {
+    background-color: #000;
+}
+.credit {
+    font-size: 16px;
+    font-weight: 100;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+}/*apply to h4 with developer's name and title*/
+
+/*----- Other -----*/
+
+#logo {
+    z-index: 1;
+    position: absolute;
+    float: left;
+    height: 30px;
+    padding: 7px;
+}/*effects the post logo in the top left of the page*/
+
+/* Landing page clicky box at bottom.*/
+
+.story {
+    color: #FFF;
+    font-family: playfair display;
+    width: 100%;
+    height: 200px;
+    text-shadow: 2px 2px 5px #000;
+    background-color: #292929;
+    display: table;
+}
+
+.story_inside{
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.story h2{
+    font-size: 40px;
+    width: 70%;
+    padding: 0 15%;
+    margin: 0;
+    line-height: 35px;
+}
+
+.story p{
+    font-family: montserrat;
+    margin: 0;
+    width: 70%;
+    padding: 10px 15% 0 15%;
+}
+
+@media screen and (max-width: 1275px)
+{
+    .header {
+        height: 350px;
+    }
+    
+
+}
+@media screen and (max-width: 1000px){
+    
+    #one p, #two p, #three p, #four p, #five p, #six p, #seven p, #eight p, #nine p, #ten p, #eleven p, #twelve p{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 750px){
+    
+    .column20center, p {
+        width: 80%;
+        padding: 0 10%;
+    } 
+    
+    .header {
+        height: 200px;
+    }
+    
+    .credit{
+        padding-bottom: 20px;
+    }
+    
+    #logo {
+        height: 25px;
+    }
+
+  
+    #banner {
+        font-size: 50px;
+    }
+    
+    .story {
+        height: 300px;
+    }
+    
+    .wrap {
+        width: 100%;
+        padding: 0;
+    }
+    
+    #one p, #two p, #three p, #four p, #five p, #six p, #seven p, #eight p, #nine p, #ten p, #eleven p, #twelve p {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 721px)
+{
+    #one p, #two p, #three p, #four p, #five p, #six p, #seven p, #eight p, #nine p, #ten p, #eleven p, #twelve p {
+        display: none;
+    }
+    
+    #one{
+        width: 15%
+    }
+    
+    #one h2{
+        margin-bottom: 10vw;
+        margin-right: -4vw;
+    }
+    
+    #one h3{
+        margin-right: 9vw;
+        margin-top: 41vw;
+    }
+    
+    #two{
+        width: 35%
+    }
+    
+    #two h2{
+        font-size: 12vw;
+        line-height: 12vw;
+    }
+    
+    #two h3{
+        font-size: 7vw;
+        letter-spacing: .6vw;
+        line-height: 7vw;
+    }
+    
+    #three {
+        width: 50%;
+    }
+    
+    #three h2{
+        letter-spacing: 4vw;
+        line-height: 13.8vw;
+    }
+    
+    #three h3{
+        font-size: 6vw;
+        letter-spacing: 1.1vw;
+        line-height: 6vw;
+    }
+    
+    #four{
+        width: 59%;
+    }
+    
+    #four h2{
+        font-size: 13vw;
+        letter-spacing: 0vw;
+        line-height: 13vw;
+    }
+    
+    #four h3{
+        font-size: 12vw;
+        letter-spacing: 1.1vw;
+        line-height: 12vw;
+    }
+    
+    #five h3{
+        margin-bottom: 17vw;
+    }
+    
+    #six h2{
+        font-size: 8vw;
+        letter-spacing: 1.35vw;
+        line-height: 8vw;
+    }
+    
+    #six h3{
+        letter-spacing: 6.3vw;
+        line-height: 9vw;
+    }
+    
+    #ten h3{
+        margin-bottom: 17vw;
+    }
+    
+    #seven h2{
+        font-size: 15vw;
+        letter-spacing: 2.5vw;
+        line-height: 14vw;
+    }
+    
+    #seven h3{
+        font-size: 11.4vw;
+    }
+    
+    #eleven h2{
+        font-size: 10vw;
+        letter-spacing: .5vw;
+        line-height: 10vw;
+    }
+    #eleven h3{
+        letter-spacing: 0;
+    }
+    
+    #twelve h2{
+        font-size: 9.6vw;
+        letter-spacing: .5vw;
+        line-height: 10vw;
+    }
+    
+    #twelve h3{
+        letter-spacing: -.2vw;
+    }
+}

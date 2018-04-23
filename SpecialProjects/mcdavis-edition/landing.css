@@ -1,0 +1,193 @@
+div {
+    width: 100%;
+}
+
+body {
+    font-family: montserrat;
+}
+
+#top h1{
+    font-family: playfair display;
+    text-align: center;
+    padding: 170px 0;
+    font-size: 80px;
+    margin: 0;
+    color: #FFF;
+    text-shadow: 2px 2px 3px #000;
+}
+
+#top {
+    background-image: url("https://s3.amazonaws.com/media.ohi/17413_coverf.jpg");
+    height: 600px; 
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#intro p{
+    width: 60%;
+    padding: 0 20%;
+}
+
+.dropcap {
+    font-weight: 700;
+    float: left;
+    font-size: 3.3em;
+    line-height: .8em;
+    padding-right: 5px;
+}
+
+.photog{
+    text-align: right;
+    margin:0;
+    padding: 0;
+    font-weight: 800;
+    color: #292929;
+    font-size: 12px;
+    width: 100%;
+    right: 0;
+}
+
+#exit {
+    width: 100%;
+    margin: 0;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    transition: all .3s ease;
+}
+
+#exit:hover {
+    opacity: .6;
+}
+
+h2 {
+    font-family: playfair display;
+    padding-bottom: 0;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+    text-align: center;
+}
+
+#exit h2 {
+    font-size: 70px;
+    margin-top: 30px;
+    width: 50%;
+    line-height: .9;
+    padding-left: 40px;
+}
+
+#the {
+    font-size: 30px;
+}
+
+#exit h3{
+    text-align: center;
+    width: 50%;
+    padding-left: 40px;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 3px #000;
+}
+
+#others {
+    width: 100%;
+}
+
+#stories {
+    padding: 0 10%;
+    width: 80%;
+}
+
+.story {
+    display: inline-block;
+    width: calc(30% - 3px);
+    padding: 0 10%;
+    margin: 0;
+    height: 200px;
+    color: #000;
+    margin-top: 3px;
+    background-position: center center;
+    background-size: cover;    
+    transition: all .3s ease;
+}
+
+.story h2{
+    margin-top: 70px;
+}
+
+.story h3{
+    font-size: 15px;
+}
+
+.story:hover {
+    opacity: .6;
+    transition: all .3s ease;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 750px){
+    
+    #stories {
+        width: 90%;
+        margin: 0 5%;
+        padding: 0;
+    }
+    
+    #exit {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    
+    #exit h2 {
+        font-size: 60px;
+        width: 100%;
+        padding: 0
+    }
+    
+    #exit h3 {
+        width: 100%;
+        padding: 0;
+    }
+    
+    #others {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #intro p {
+        padding: 0 5%;
+        width: 90%;
+    }   
+}
+
+@media screen and (max-width: 450px){
+    
+    .story {
+        width: 80%;
+    }
+    
+        #intro p {
+        padding: 0 5%;
+        width: 90%;
+    }
+}
+
+
+

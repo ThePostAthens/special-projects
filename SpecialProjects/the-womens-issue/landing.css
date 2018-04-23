@@ -1,0 +1,839 @@
+/* Template.css
+This is a template for special projects at The Post.
+Template originally coded by Seth Archer, digital managing editor at The Post.
+Please contact at SethPArcher@gmail.com with questions.*/
+
+/*----- Global Styles -----*/
+
+body {
+    font-family: montserrat, sans-serif;
+    background-color: #FFF;
+    color: #030406;
+}
+
+a {
+    color: #EC242E;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: .6;
+}
+
+p {
+    width: 60%;
+    padding: 0 20%;
+}/*these have a style simmilar to column20center, do not add column20center to p tags*/
+
+h2 {
+    padding: 0 15%;
+}
+
+h3 {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.date{
+    font-weight: 800;
+    color: #eed7fc;
+    width: 60%;
+    padding: 0% 20% 0 20%;
+    margin: 0;
+}/*apply to p tag*/
+
+.intro {
+    width: 100%;
+    text-align: center
+}
+
+/*-----Column stuff-----*/
+
+.column20center {
+    width: 60%;
+    padding: 0 20%;
+}/*do not apply to p tags, they automatically have a simmilar styling*/
+
+.column10center {
+    width: 80%;
+    padding: 0 10%;
+}
+
+.column10left {
+    width: 40%;
+    padding-left: 10%;
+}
+
+.column10right {
+    width: 40%;
+    padding-right: 10%;
+}
+/*----- Hero Image -----*/
+
+#heroimg {
+    width: 100%;
+    position: relative;
+}/*apply to wrapping div with an img tag within*/
+
+#heroimg img {
+    width: 100%;
+}
+
+#arthed {
+    position: absolute;
+    bottom: 0px;
+    padding: 0;
+    margin: 0;
+    font-size: 150px;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+    text-shadow: 2px 2px 3px #000;
+    font-family: playfair display;
+    font-style: italic;
+      -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #0C3150;
+}/*apply to h1 within the heroimg div*/
+
+
+/*----- Nav Bar -----*/
+/*we don't use this section as often. delete if not used in the project*/
+
+#nav_bar {
+    background: silver;
+    color: #FFF;
+    height: 50px;
+}
+
+#nav_bar img {
+    height: 30px;
+    padding: 10px;
+    float: left;
+}
+
+#nav_bar li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    float: right;
+}
+
+#nav_bar ul {
+    margin: 0;
+}
+
+/*---- Landing Page Stuff ----*/
+.wrapper {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.wrapper>div {
+	padding: 5em;
+	color: white;
+}
+
+.wrapper {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+	grid-auto-rows: minmax(100px, auto);
+}
+
+.one {
+	grid-column: 1;
+	grid-row: 1/3;
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/25e33336-d1c0-46f4-bf0d-54b9266c0e3e.sized-1000x1000.png');
+	position: relative;
+    background-size: cover;
+    border: 5px solid #08324f;
+
+}
+
+.one span {
+    position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.two {
+	grid-column: 2 / 4;
+	grid-row: 1;
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/4b94f5cf-9d60-44be-a124-ee19815747e4.sized-1000x1000.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid #08324f;
+
+}
+
+.two span {
+    position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.three {
+	grid-column: 2;
+	grid-row: 2;
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/35604047-47c9-4d88-8bd1-7cf2eb09d61e.sized-1000x1000.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid #08324f;
+    background-repeat: no-repeat;
+    background-position: 0px -130px;
+    
+}
+
+.three span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+.four {
+	grid-column: 3;
+	grid-row: 2;
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/a7c9ecb3-01a1-42dc-a417-6790596c69be.sized-1000x1000.jpg');
+	position: relative;
+    background-size: cover;
+    border: 5px solid #08324f;
+
+}
+
+.four span {
+	position: absolute;
+	bottom: 2px;
+	left: 5px;
+    text-shadow: 2px 2px black;
+}
+
+.five {
+	grid-column: 1 / 3;
+	grid-row: 3;
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/8e901eaa-5b33-4097-b4a4-1bb8117f7c2a.sized-1000x1000.png');
+    position: relative;
+    background-size: cover;
+    border: 5px solid #08324f;
+    background-repeat: no-repeat;
+    background-position: 0px -130px;
+
+}
+
+.five span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: black;
+}
+
+.six {
+	grid-column: 3;
+	grid-row: 3 / 5;
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/797cd412-fc31-4d3d-a2a6-209082f637b2.sized-1000x1000.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid #08324f;
+    
+}
+
+.six span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.seven {
+	grid-column: 1;
+	grid-row: 4;
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/916e1e7e-f235-4946-8e72-cffcaf59209d.sized-1000x1000.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid #08324f;
+    
+}
+
+.seven span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.eight {
+	grid-column: 2;
+	grid-row: 4;
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/a248d167-7f18-4ef0-8cb7-78d2ae4fdab5.sized-1000x1000.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid #08324f;
+    
+}
+
+.eight span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.nine {
+	grid-column: 1;
+	grid-row: 5 / 7;
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/34e2cf46-e314-41a8-951e-a690f21963bd.sized-1000x1000.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid #08324f;
+    
+}
+
+.nine span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+
+.ten {
+	grid-column: 2 / 4;
+	grid-row: 5 ;
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/2be4f1b3-3046-4024-b2e0-ef3d20a3b373.sized-1000x1000.png');
+    position: relative;
+    background-size: cover;
+    border: 5px solid #08324f;
+    background-repeat: no-repeat;
+    background-position: 10px -120px;
+    
+}
+
+.ten span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: black;
+}
+
+
+.eleven {
+	grid-column: 2
+	grid-row: 2;
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/9c40d7f6-3968-4e48-997a-9d04037149ba.sized-1000x1000.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid #08324f;
+    background-repeat: no-repeat;
+    background-position: 5px -100px;
+    
+}
+
+.eleven span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.twelve {
+	grid-column: 3;
+	grid-row: 6;
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/a8b6cbd6-4d7e-42e4-9f5f-319d956b9571.sized-1000x1000.JPG');
+    position: relative;
+    background-size: cover;
+    border: 5px solid #08324f;    
+}
+
+.twelve span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+
+}
+
+.thirteen {
+	grid-column: 1 / 3;
+	grid-row: 7 ;
+	background-image: url('http://snworksceo.imgix.net/ohi/322c7143-ccb4-4b5e-a2d2-27e86bd54f1a.sized-1000x1000.png');
+    position: relative;
+    background-size: cover;
+    border: 5px solid #08324f;
+    background-repeat: no-repeat;
+    background-position: 5px -100px;
+    
+}
+
+.thirteen span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: black;
+}
+
+.fourteen {
+	grid-column: 3;
+	grid-row: 7 / 9;
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/59bd7798-6bce-47e9-92ea-aee7b1b3d4cf.sized-1000x1000.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid #08324f;
+    
+}
+
+.fourteen span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.fifteen {
+	grid-column: 1;
+	grid-row: 8;
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/3c51ebc0-92a3-4bfe-a459-d65c93b6d320.sized-1000x1000.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid #08324f;
+    
+}
+
+.fifteen span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.sixteen {
+	grid-column: 2;
+	grid-row: 8;
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/3597c28c-ea9d-40af-9ffa-5fd9ce8b559f.sized-1000x1000.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px solid #08324f;
+    
+}
+
+.sixteen span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+
+
+.seventeen {
+	grid-column: 1 / 4;
+	grid-row: 9 / 11;
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/d25ca1f8-db73-409a-b221-33bce6f5a894.sized-1000x1000.png');
+    position: relative;
+    background-size: cover;
+    border: 5px solid #08324f;
+    
+}
+
+.seventeen span {
+	position: absolute;
+    bottom: 2px;
+    left: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+
+
+/*HOVER*/
+.one:hover {
+	opacity: .6;
+}
+
+.two:hover {
+	opacity: .6;
+}
+
+.three:hover {
+	opacity: .6;
+}
+
+.four:hover {
+	opacity: .6;
+}
+
+.five:hover {
+	opacity: .6;
+}
+
+.six:hover {
+	opacity: .6;
+}
+
+.eight:hover {
+	opacity: .6;
+}
+
+.nine:hover {
+	opacity: .6;
+}
+
+.ten:hover {
+	opacity: .6;
+}
+
+.eleven:hover {
+	opacity: .6;
+}
+
+.twelve:hover {
+	opacity: .6;
+}
+
+.thirteen:hover {
+	opacity: .6;
+}
+
+.fourteen:hover {
+	opacity: .6;
+}
+
+.fifteen:hover {
+	opacity: .6;
+}
+
+.sixteen:hover {
+	opacity: .6;
+}
+
+
+.seventeen:hover {
+	opacity: .6;
+}
+
+
+@media only screen and (max-width: 768px) {
+	.wrapper {
+		display: block;
+	}
+	.margin-bot {
+		margin-bottom: 2px;
+	}
+    
+}
+/*----- Body Copy Things -----*/
+
+.headline {
+    color: #497425;
+    padding: 0 10% 0 10%;
+    width: 80%;
+    margin: 0;
+    font-size: 40px;
+    font-weight: 900i;
+    text-transform: uppercase;
+}/*apply to h1, not the art hed*/
+
+.credit {
+    font-size: 16px;
+    font-weight: 100;
+    padding-bottom: 50px;
+}/*apply to h4 with developer's name and title*/
+
+.subhed {
+    font-family: montserrat
+    , sans-serif;
+    font-weight: 800;
+    color: #7fc448;
+}/*apply to h2 tags*/
+
+.dropcap {
+    font-weight: 700;
+    float: left;
+    font-size: 2.9em;
+    line-height: .9em;
+    padding-right: 5px;
+}/*apply to wrapping span tag*/
+
+.title {
+    color: #606060;
+}/*should be in same p tag as the author name*/
+
+#byline {
+    margin: 0;
+    font-weight: 400;
+}/*applies to entire byline, with title. bold the author name. put on h4 tag*/
+
+/*----- Img Things -----*/
+
+.oneimg_center {
+    width: 60%;
+    padding: 0 20%;
+}/*Apply to a wrapping div*/
+
+.oneimg_right {
+    width: 40%;
+    padding-right: 10%;
+    padding-left: 10px;
+    float: right;
+}/*Apply to a wrapping div*/
+
+.oneimg_left {
+    width: 40%;
+    padding-left: 10%;
+    padding-right: 20px;
+    float: left;
+}/*Apply to a wrapping div*/
+
+.twoimg_center {
+    width: 60%;
+    margin: 0 20%;
+}
+
+.twoimg_center img {
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+.threeimg_full {
+    width: 33%;
+}
+
+.oneimg_full img, .oneimg_center img, .oneimg_right img, .oneimg_left img {
+    width: 100%
+}
+
+/*----- Pullquote stuff -----*/
+
+blockquote {
+    padding: 0;
+    margin: 5px;
+}/*should be the text of the pull quote*/
+
+.pq_center {
+    width: 60%;
+    padding: 0 20%;
+    margin: 0;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #5379c4;
+    font-weight: 800;
+}/*add to wrapping div*/
+
+.pq_right {
+    width: 40%;
+    padding-right: 10%;
+    padding-left: 15px;
+    float: right;
+    margin: 0;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #5379c4;
+}/*add to wrapping div*/
+
+.pq_left {
+    width: 40%;
+    padding-left: 10%;
+    padding-right: 0;
+    float: left;
+    margin: 0;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #5379c4;
+}/*add to wrapping div*/
+
+.attribution {
+    font-size: 20px;
+    text-transform: none;
+    display: block;
+    text-align: right;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0 5%;
+    width: 90%;
+}/*add to p tag within the wrapping div*/
+
+/*----- Image stuff -----
+also use these tags to move iframes, graphics etc.. anything that would behave like a photo*/
+
+.pcut{
+    float: right;
+    text-align: left;
+    margin:0;
+    font-weight: 100;
+    color: #808080;
+    font-size: 12px;
+    width: 100%;
+    padding: 0;
+}/*add p tag, should be after the photog p tag*/
+
+.galleryPcut{
+float: right;
+    text-align: left;
+    margin:0;
+    font-weight: 100;
+    color: #808080;
+    font-size: 12px;
+    width: 100%;
+    padding: 0;
+    padding-bottom: 10px;
+}
+
+.photog{
+    float: right;
+    text-align: right;
+    margin:0;
+    font-weight: 800;
+    color: #000;
+    font-size: 12px;
+    width: 100%;
+    padding: 0;
+}/*add to p tag, should be before the pcut p tag*/
+
+.oneimg_full p{
+    width:60%;
+    padding:0 20%;
+}
+
+
+/*----- Gallery Stuff -----*/
+
+.gallery_bot {
+    padding: 0;
+    width: 20%;
+    float: left;
+}
+
+.w3-hover-shadow:hover {
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important
+}
+
+.mySlides {
+    display:none;
+}
+
+/*----- Other -----*/
+
+#logo {
+    z-index: 1;
+    position: absolute;
+    float: left;
+    height: 30px;
+    padding: 7px;
+}/*effects the post logo in the top left of the page*/
+
+.parallax {
+    height: 800px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}/* add to the wrapping div, give the div an inline style with the photo you want to be parallax*/
+
+/* Landing page clicky box at bottom.*/
+
+.story {
+    color: #FFF;
+    font-family: playfair display;
+    width: 100%;
+    height: 200px;
+    text-shadow: 2px 2px 5px #000;
+    background-color: #292929;
+    display: table;
+}
+
+.story_inside{
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.story h2{
+    font-size: 40px;
+    width: 70%;
+    padding: 0 15%;
+    margin: 0;
+    line-height: 35px;
+}
+
+.story p{
+    font-family: montserrat;
+    margin: 0;
+    width: 40%;
+    padding: 10px 15% 0 15%;
+}
+
+@media screen and (max-width: 750px){
+    
+    .oneimg_right, .oneimg_left, .oneimg_center {
+        width: 80%;
+        padding: 0 10% 10px 10%;
+    }
+    
+    .oneimg_full p {
+        width: 80%;
+        padding: 0 10%;
+    }
+    
+    .pq_center, .pq_right, .pq_left {
+        padding: 0 5%;
+        width: 90%;
+    }
+    
+    .column20center, p {
+        width: 80%;
+        padding: 0 10%;
+    }
+    
+    #arthed {
+        font-size: 40px;
+    }
+    
+    .subhed{
+        padding: 0 10%;
+    }
+    
+    .credit{
+        padding-bottom: 20px;
+    }
+    
+    #logo {
+        height: 25px;
+    }
+
+    .headline {
+        width: 80%;
+        padding: 0% 10% 0 10%;
+        font-size: 25px;
+    }
+    
+    .date {
+        padding: 0 10%;
+        width: 80%;
+    }
+    
+    #banner {
+        font-size: 50px;
+    }
+    
+    .story {
+        height: 300px;
+    }
+}

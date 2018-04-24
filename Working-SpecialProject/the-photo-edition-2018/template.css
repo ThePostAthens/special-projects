@@ -3,6 +3,109 @@ This is a template for special projects at The Post.
 Template originally coded by Seth Archer, digital managing editor at The Post.
 Please contact at SethPArcher@gmail.com with questions.*/
 
+
+/*PHOTO EDITION*/
+
+* {
+  box-sizing: boder-box;
+}
+
+body {
+  margin: 0;
+}
+
+#main {
+  position: relative;
+  z-index: 20;
+  background: #fff;
+  transition: -webkit-transform .6s ease;
+  transition: transform .6s ease;
+  transition: transform .6s ease, -webkit-transform .6s ease;
+}
+@media (min-width: 640px) {
+  #main {
+    padding: 1em;
+  }
+}
+
+.fake-section {
+  background: #eee;
+  height: 300px;
+}
+
+.tiles-a {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.tiles-a ul {
+  margin: 0;
+  padding: 0;
+}
+.tiles-a li {
+  list-style: none;
+}
+@media (min-width: 640px) {
+  .tiles-a li {
+    float: left;
+    width: 33.33%;
+  }
+}
+.tiles-a a {
+  margin: 1em;
+  display: block;
+  background: #222;
+  padding-top: 73%;
+  height: 0;
+}
+
+#aside {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 60%;
+  height: 100%;
+  background: #eee;
+  overflow-y: scroll;
+  z-index: 10;
+}
+#aside img {
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+#aside .wrapper {
+  padding: 1em;
+}
+#aside .close {
+  width: 25px;
+  display: block;
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+}
+
+.show-detail {
+  overflow: hidden;
+}
+.show-detail #main {
+  -webkit-transform: translateX(-60%);
+          transform: translateX(-60%);
+}
+
+.visually-hidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+
 /*----- Global Styles -----*/
 
 body {
@@ -20,10 +123,12 @@ a:hover {
     opacity: .6;
 }
 
+/*
 p {
     width: 60%;
     padding: 0 20%;
-}/*these have a style simmilar to column20center, do not add column20center to p tags*/
+}these have a style simmilar to column20center, do not add column20center to p tags
+*/
 
 h2 {
     padding: 0 15%;
@@ -69,10 +174,11 @@ h3 {
 /*we don't use this section as often. delete if not used in the project*/
 
 #nav_bar {
-    background: #030406;
+    background: #292929;
     color: #FFF;
-    height: 50px;
+    height: 52px;
 }
+
 
 #nav_bar img {
     height: 30px;
@@ -83,12 +189,38 @@ h3 {
 #nav_bar li {
     list-style: none;
     display: inline-block;
-    padding: 15px;
     float: right;
+     border-right:1px solid #bbb;
 }
 
 #nav_bar ul {
+    list-style-type: none;
     margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #292929;
+}
+
+
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active1 {
+    background-color: #4CAF50;
 }
 
 /*----- Hero Image -----*/

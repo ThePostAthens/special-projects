@@ -250,11 +250,15 @@ transition: all 0.5s;
         height: 300px;
     }
     
+    .showcase {
+        font-size: 50px;
+    }
+    
     #showcase h2{
-  font-size:15px;
+  font-size:12px;
   line-height:22px;
-  margin-left: 50px;
-    margin-right: 50px;
+  margin-left: 60px;
+    margin-right: 100px;
   color:#fff;
   text-shadow: 2px 2px 3px #000;
 }

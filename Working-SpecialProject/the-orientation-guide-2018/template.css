@@ -106,30 +106,28 @@ h3 {
 #arthed {
     padding: 0;
     margin: 0;
-    font-family: 'Playfair Display', serif;
+    font-family: 'montserrat', serif;
+    text-transform: uppercase;
     font-size: 100px;
     font-weight: 900;
     text-align: center;
     width: 100%;
     line-height: 100%;
-    font-style: italic;
-    color: black;
-  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #0C3150;
-    text-shadow: 2px 2px 3px #000;
+    font-style: normal;
+    color: #48373F;
+    text-shadow: 0px 0px 0px #000;
 
 }/*apply to h1 within the heroimg div*/
 
 .line {
     border-color: black;
-    width: 80px;
+    width: 100px;
     margin: 0 auto;
 }
 
 .line2 {
     border-color: black;
-    width: 80px;
+    width: 100px;
     margin: 0 auto;
     padding-bottom:50px;
 }

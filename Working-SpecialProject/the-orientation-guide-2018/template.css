@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #844C40;
     text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #eed7fc;
+    color: #48373F;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -103,7 +103,7 @@ h3 {
 }
 
 #arthed {
-    color: #FFF;
+    color: #48373F;
     position: absolute;
     bottom: 0;
     padding: 0;
@@ -112,13 +112,28 @@ h3 {
     font-weight: 700;
     text-align: center;
     width: 100%;
-    text-shadow: 2px 2px 3px #000;
+    text-shadow: 0px 0px 0px #000;
 }/*apply to h1 within the heroimg div*/
+
+.line {
+    border-color: black;
+    width: 80px;
+    margin: 0 auto;
+}
+
+.line2 {
+    border-color: black;
+    width: 80px;
+    margin: 0 auto;
+    padding-bottom:50px;
+}
+
+
 
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
+    color: #A6A46B;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
@@ -137,7 +152,7 @@ h3 {
     font-family: montserrat
     , sans-serif;
     font-weight: 800;
-    color: #7fc448;
+    color: #A6A46B;
 }/*apply to h2 tags*/
 
 .dropcap {
@@ -211,7 +226,7 @@ blockquote {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #5379c4;
+    color: #48373F;
     font-weight: 800;
 }/*add to wrapping div*/
 
@@ -223,7 +238,7 @@ blockquote {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #5379c4;
+    color: #48373F;
 }/*add to wrapping div*/
 
 .pq_left {
@@ -235,7 +250,7 @@ blockquote {
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #5379c4;
+    color: #48373F;
 }/*add to wrapping div*/
 
 .attribution {

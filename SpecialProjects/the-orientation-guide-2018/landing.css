@@ -886,7 +886,7 @@ hr {
 .fourty {
 	grid-column: 4;
 	grid-row: 10;
-	background-image: url('');
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/b2372d86-a865-4e94-ac90-41d6decc97db.sized-1000x1000.png');
     position: relative;
     background-size: cover;
     border: 5px solid #A6A46B;

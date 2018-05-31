@@ -13,22 +13,24 @@ Please contact at SethPArcher@gmail.com with questions.*/
     height: 100%;
 }
 
-.content{
-    border: 1px solid black;
-    
-}
 
  .content.large { 
      grid-row: span 2;
      grid-column: span 2;
      cursor:pointer;
+     height:42vw;
+     overflow: hidden;
 }
 
  .content.small { 
      grid-row: span 1;
      grid-column: span 1;
-     cursor: pointer
+     cursor: pointer;
+     height:20vw;
+     overflow: hidden;
+     
 }
+
 
 /*----- Global Styles -----*/
 
@@ -387,11 +389,6 @@ float: right;
     padding: 10px 15% 0 15%;
 }
 
-@media screen and (max-width: 950px){
-    #arthed {
-        
-    }
-}
 
 @media screen and (max-width: 750px){
     
@@ -458,4 +455,10 @@ float: right;
     margin: 20px 50px 20px 50px;
     height: 100%;
 }
+
+    
+    .img {
+        width: 100%;
+        
+    }
 }

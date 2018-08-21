@@ -3,17 +3,75 @@ This is a template for special projects at The Post.
 Template originally coded by Seth Archer, digital managing editor at The Post.
 Please contact at SethPArcher@gmail.com with questions.*/
 
+/*----- MY EDITS -----*/
+
+.card {
+    
+    background-color: #F8F7EF;
+    transition: 0.3s;
+    width: 200px;
+    height:300px;
+    padding: 20px 20px 20px 20px;
+    margin: 0 auto;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card img {
+    height: 200px;
+    width: 200px; 
+    object-fit: cover;
+    margin-top: auto;
+}
+
+
+h4 { 
+    margin-left: -50px;
+}
+
+h4 #thetitle {
+    margin-bottom: 0px;
+    margin-top: -30px; 
+    font-size: 25px;
+   font-family: 'Montserrat', sans-serif;    
+}
+
+h4 #theauthor {
+    font-size: 12px;
+    margin-top: 0px;
+    font-family: 'Cardo', serif;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    padding: 20px 20px 20px 20px;
+    margin: 0 auto;
+    
+}
+
+.twitter-tweet{
+    margin:0 auto;
+}
+
+.instagram-media{
+    text-align: center;
+}
+
 
 /*----- Global Styles -----*/
 
 body {
-    font-family: montserrat, sans-serif;
+    font-family: 'Cardo', serif;
     background-color: #FFF;
     color: #030406;
 }
 
 a {
-    color: #7fc448;
+    color: #FEC40E;
     text-decoration: none;
 }
 
@@ -38,7 +96,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #eed7fc;
+    color: #CAC6BF;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -104,22 +162,24 @@ h3 {
 }
 
 #arthed {
-    color: #FFF;
-    position: absolute;
-    bottom: 0;
-    padding: 0;
-    margin: 0;
-    font-size: 70px;
-    font-weight: 700;
+    color: #FEC40E;
+    background-color: #F8F7EF;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 0px;
+    font-size: 11vw;
+    line-height: 90%;
     text-align: center;
     width: 100%;
-    text-shadow: 2px 2px 3px #000;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
 }/*apply to h1 within the heroimg div*/
 
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
+    font-family: 'Cardo', serif;
+    color: 'black';
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
@@ -135,10 +195,9 @@ h3 {
 }/*apply to h4 with developer's name and title*/
 
 .subhed {
-    font-family: montserrat
-    , sans-serif;
+    font-family: 'Cardo', serif;
     font-weight: 800;
-    color: #7fc448;
+    color: 'black';
 }/*apply to h2 tags*/
 
 .dropcap {
@@ -199,11 +258,13 @@ h3 {
     width: 100%
 }
 
+
 /*----- Pullquote stuff -----*/
 
 blockquote {
     padding: 0;
     margin: 5px;
+    font-family: bold, 300px,sans-serif;
 }/*should be the text of the pull quote*/
 
 .pq_center {
@@ -224,7 +285,7 @@ blockquote {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #5379c4;
+    color: #CAC6BF;
 }/*add to wrapping div*/
 
 .pq_left {
@@ -286,6 +347,7 @@ float: right;
     font-size: 12px;
     width: 100%;
     padding: 0;
+    font-family: 'Cardo', serif;
 }/*add to p tag, should be before the pcut p tag*/
 
 .oneimg_full p{
@@ -418,3 +480,41 @@ float: right;
         height: 300px;
     }
 }
+
+@media screen and (max-width: 1060px){
+    .grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    padding: 20px 20px 20px 20px;
+    margin: 0 auto;
+    
+}
+    
+@media screen and (max-width: 800px){
+    .grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    padding: 20px 20px 20px 20px;
+    margin: 0 auto;
+    
+}
+    
+@media screen and (max-width: 751px){
+h4 { 
+    margin-left: -20px;
+}
+}
+    
+@media screen and (max-width: 540px){
+    .grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 20px;
+    padding: 20px 20px 20px 20px;
+    margin: 0 auto;
+    
+}
+    
+    

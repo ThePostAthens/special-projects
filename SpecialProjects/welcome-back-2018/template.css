@@ -75,7 +75,7 @@ h4 #theauthor {
 }
 
 .instagram-media{
-    text-align: center;
+    
 }
 
 
@@ -288,7 +288,7 @@ h3 {
 blockquote {
     padding: 0;
     margin: 5px;
-    font-family: bold, 300px,sans-serif;
+    font-family: bold, 300px,sans-serif; 
 }/*should be the text of the pull quote*/
 
 .pq_center {

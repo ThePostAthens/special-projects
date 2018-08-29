@@ -8,7 +8,8 @@ Please contact at SethPArcher@gmail.com with questions.*/
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 100%;
+    width: 85%;
+    margin: 0 auto;
 }
 
 .card:hover {
@@ -16,7 +17,7 @@ Please contact at SethPArcher@gmail.com with questions.*/
 }
 
 .container {
-    padding: 2px 16px;
+
 }
 
 h4 { 
@@ -26,18 +27,26 @@ h4 {
 .grid {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-gap: 20px;
-    padding: 20px 20px 20px 20px;
+    grid-gap: 10px;
+    padding: 20px 5px 20px 5px;
     margin: 0 auto;
     
 }
 
+
+
 /*----- Global Styles -----*/
 
 body {
-    font-family: montserrat, sans-serif;
+    Font-Family: 'Alegreya', Serif;
+    Font-Size: 12px;
     background-color: #FFF;
     color: #030406;
+}
+
+#thetitle {
+    Font-Family: 'Bree Serif', Serif;
+    Font-Size: 43px;
 }
 
 a {
@@ -447,40 +456,35 @@ float: right;
     }
 }
 
-@media screen and (max-width: 1060px){
+@media screen and (max-width: 1160px){
     .grid {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-gap: 20px;
-    padding: 20px 20px 20px 20px;
+    grid-gap: 10px;
+    padding: 20px 5px 20px 5px;
     margin: 0 auto;
-    
+    }
 }
     
-@media screen and (max-width: 800px){
+@media screen and (max-width: 900px){
     .grid {
     display: grid;
     grid-template-columns: auto auto;
-    grid-gap: 20px;
-    padding: 20px 20px 20px 20px;
+    grid-gap: 10px;
+    padding: 20px 5px 20px 5px;
     margin: 0 auto;
-    
+    }
 }
     
-@media screen and (max-width: 751px){
-h4 { 
-    margin-left: -20px;
-}
-}
     
 @media screen and (max-width: 540px){
     .grid {
     display: grid;
     grid-template-columns: auto;
-    grid-gap: 20px;
-    padding: 20px 20px 20px 20px;
+    grid-gap: 10px;
+    padding: 20px 5px 20px 5px;
     margin: 0 auto;
-    
+    }
 }
     
     

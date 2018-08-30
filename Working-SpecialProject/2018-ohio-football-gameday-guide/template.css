@@ -8,7 +8,7 @@ Please contact at SethPArcher@gmail.com with questions.*/
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 85%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -27,8 +27,8 @@ h4 {
 .grid {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-gap: 10px;
-    padding: 20px 5px 20px 5px;
+    grid-gap: 20px;
+    padding: 22px 5px 20px 5px;
     margin: 0 auto;
     
 }
@@ -38,15 +38,19 @@ h4 {
 /*----- Global Styles -----*/
 
 body {
-    Font-Family: 'Alegreya', Serif;
     Font-Size: 12px;
     background-color: #FFF;
     color: #030406;
+    Font-Family: 'Alegreya', Serif;
 }
 
 #thetitle {
     Font-Family: 'Bree Serif', Serif;
     Font-Size: 43px;
+    background: -webkit-linear-gradient(#7AC141, #006A4D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
 }
 
 a {
@@ -79,6 +83,7 @@ h3 {
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
+    
 }/*apply to p tag*/
 
 /*-----Column stuff-----*/
@@ -86,6 +91,7 @@ h3 {
 .column20center {
     width: 60%;
     padding: 0 20%;
+    text-align: left;
 }/*do not apply to p tags, they automatically have a simmilar styling*/
 
 .column10center {
@@ -143,26 +149,44 @@ h3 {
 #arthed {
     color: #FFF;
     position: absolute;
-    bottom: 0;
-    padding: 0;
+    bottom: 50px;
+    padding-left: 50px;
     margin: 0;
-    font-size: 70px;
-    font-weight: 700;
+    font-size: 100px;
+    text-align: left;
+    width: 90%;
+    Font-Family: 'Bree Serif', Serif;
+    text-transform: uppercase;
+}
+
+#arthed-index {
+    color: #FFF;
+    position: absolute;
+    bottom: 0;
+    padding-left: 50px;
+    margin: 0;
+    font-size: 100px;
     text-align: center;
-    width: 100%;
-    text-shadow: 2px 2px 3px #000;
+    width: 90%;
+    Font-Family: 'Bree Serif', Serif;
+    text-transform: uppercase;    
 }/*apply to h1 within the heroimg div*/
 
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
     font-size: 40px;
-    font-weight: 900i;
+    font-weight: 900;
     text-transform: uppercase;
+    Font-Family: 'Alegreya', Serif;
+    background: linear-gradient(to bottom right,#7AC141, #006A4D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    
 }/*apply to h1, not the art hed*/
 
 .credit {
@@ -172,10 +196,10 @@ h3 {
 }/*apply to h4 with developer's name and title*/
 
 .subhed {
-    font-family: montserrat
-    , sans-serif;
+    Font-Family: 'Bree Serif', Serif;
     font-weight: 800;
-    color: #7fc448;
+    color: #016F52;
+    font-size:30px;
 }/*apply to h2 tags*/
 
 .dropcap {
@@ -249,7 +273,7 @@ blockquote {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #5379c4;
+    color: #7AC141;
     font-weight: 800;
 }/*add to wrapping div*/
 
@@ -261,7 +285,7 @@ blockquote {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #5379c4;
+    color: #7AC141;
 }/*add to wrapping div*/
 
 .pq_left {
@@ -273,7 +297,7 @@ blockquote {
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #5379c4;
+    color: #7AC141;
 }/*add to wrapping div*/
 
 .attribution {

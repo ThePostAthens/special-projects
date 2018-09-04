@@ -9,6 +9,8 @@ body {
     font-family: montserrat, sans-serif;
     background-color: #FFF;
     color: #030406;
+    Font-Family: 'Poppins', Sans-Serif;
+    Font-Size: 14px;
 }
 
 a {
@@ -109,7 +111,8 @@ h3 {
     padding: 0;
     margin: 0;
     font-size: 70px;
-    font-weight: 700;
+    Font-Family: 'Abril Fatface', Cursive;
+    Font-Size: 48px;
     text-align: center;
     width: 100%;
     text-shadow: 2px 2px 3px #000;
@@ -124,6 +127,8 @@ h3 {
     margin: 0;
     font-size: 40px;
     font-weight: 900i;
+    Font-Family: 'Abril Fatface', Cursive;
+    Font-Size: 48px;
     text-transform: uppercase;
 }/*apply to h1, not the art hed*/
 
@@ -134,13 +139,14 @@ h3 {
 }/*apply to h4 with developer's name and title*/
 
 .subhed {
-    font-family: montserrat
-    , sans-serif;
-    font-weight: 800;
+    Font-Family: 'Abril Fatface', Cursive;
+    Font-Size: 35px;
     color: #7fc448;
 }/*apply to h2 tags*/
 
 .dropcap {
+    Font-Family: 'Abril Fatface', Cursive;
+    Font-Size: 48px;
     font-weight: 700;
     float: left;
     font-size: 2.9em;
@@ -213,6 +219,7 @@ blockquote {
     text-transform: uppercase;
     color: #5379c4;
     font-weight: 800;
+    Font-Family: 'Abril Fatface', Cursive;
 }/*add to wrapping div*/
 
 .pq_right {
@@ -224,6 +231,7 @@ blockquote {
     font-size: 25px;
     text-transform: uppercase;
     color: #5379c4;
+    Font-Family: 'Abril Fatface', Cursive;
 }/*add to wrapping div*/
 
 .pq_left {
@@ -236,6 +244,7 @@ blockquote {
     text-transform: uppercase;
     font-weight: 700;
     color: #5379c4;
+    Font-Family: 'Abril Fatface', Cursive;
 }/*add to wrapping div*/
 
 .attribution {

@@ -14,7 +14,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #488948;
     text-decoration: none;
 }
 
@@ -39,7 +39,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #eed7fc;
+    color: #45230e;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -107,28 +107,27 @@ h3 {
 #arthed {
     color: #FFF;
     position: absolute;
-    bottom: 0;
+    bottom: 38vw;
     padding: 0;
     margin: 0;
     font-size: 70px;
     Font-Family: 'Abril Fatface', Cursive;
-    Font-Size: 48px;
-    text-align: center;
-    width: 100%;
-    text-shadow: 2px 2px 3px #000;
+    Font-Size: 4.5vw;
+    left: 60px;
+    width: 80%;    
 }/*apply to h1 within the heroimg div*/
 
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
+    color: #73acaf;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
     font-size: 40px;
     font-weight: 900i;
     Font-Family: 'Abril Fatface', Cursive;
-    Font-Size: 48px;
+    Font-Size: 40px;
     text-transform: uppercase;
 }/*apply to h1, not the art hed*/
 
@@ -140,8 +139,8 @@ h3 {
 
 .subhed {
     Font-Family: 'Abril Fatface', Cursive;
-    Font-Size: 35px;
-    color: #7fc448;
+    Font-Size: 32px;
+    color: #73acaf;
 }/*apply to h2 tags*/
 
 .dropcap {
@@ -217,7 +216,7 @@ blockquote {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #5379c4;
+    color: #488948;
     font-weight: 800;
     Font-Family: 'Abril Fatface', Cursive;
 }/*add to wrapping div*/
@@ -230,7 +229,7 @@ blockquote {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #5379c4;
+    color: #488948;
     Font-Family: 'Abril Fatface', Cursive;
 }/*add to wrapping div*/
 
@@ -243,7 +242,7 @@ blockquote {
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #5379c4;
+    color: #488948;
     Font-Family: 'Abril Fatface', Cursive;
 }/*add to wrapping div*/
 
@@ -392,7 +391,8 @@ float: right;
     }
     
     #arthed {
-        font-size: 40px;
+        font-size: 4vw;
+        width: 60%; 
     }
     
     .subhed{
@@ -424,5 +424,12 @@ float: right;
     
     .story {
         height: 300px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    #arthed{
+       bottom: 35.5vw; 
+        left: 30px;
     }
 }

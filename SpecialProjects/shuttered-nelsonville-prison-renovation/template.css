@@ -110,7 +110,7 @@ h3 {
     bottom: 0;
     padding: 0;
     margin: 0;
-    font-size: 200px;
+    font-size: 15vw;
     font-weight: 700;
     text-align: center;
     width: 100%;
@@ -387,7 +387,8 @@ float: right;
     }
     
     #arthed {
-        font-size: 40px;
+        font-size: 13vw;
+        Font-Family: 'Old Standard TT', Serif;
     }
     
     .subhed{

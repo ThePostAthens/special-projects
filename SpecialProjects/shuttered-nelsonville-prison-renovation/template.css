@@ -6,13 +6,14 @@ Please contact at SethPArcher@gmail.com with questions.*/
 /*----- Global Styles -----*/
 
 body {
-    font-family: montserrat, sans-serif;
+    Font-Family: 'Rubik', Sans-Serif;
+    Font-Size: 15px;
     background-color: #FFF;
     color: #030406;
 }
 
 a {
-    color: #7fc448;
+    color: #e5a051;
     text-decoration: none;
 }
 
@@ -37,7 +38,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #eed7fc;
+    color: #e5a051;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -103,27 +104,28 @@ h3 {
 }
 
 #arthed {
+    Font-Family: 'Old Standard TT', Serif;
     color: #FFF;
     position: absolute;
     bottom: 0;
     padding: 0;
     margin: 0;
-    font-size: 70px;
+    font-size: 200px;
     font-weight: 700;
     text-align: center;
     width: 100%;
-    text-shadow: 2px 2px 3px #000;
+    text-shadow: 2px 2px 3px #4e5b44;
 }/*apply to h1 within the heroimg div*/
 
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
+    Font-Family: 'Old Standard TT', Serif;
+    Font-Size: 40px;
+    color: #7a9b42;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
-    font-size: 40px;
-    font-weight: 900i;
     text-transform: uppercase;
 }/*apply to h1, not the art hed*/
 
@@ -134,10 +136,10 @@ h3 {
 }/*apply to h4 with developer's name and title*/
 
 .subhed {
-    font-family: montserrat
-    , sans-serif;
+    Font-Family: 'Old Standard TT', Serif;
+    font-size: 32px;
     font-weight: 800;
-    color: #7fc448;
+    color: #7a9b42;
 }/*apply to h2 tags*/
 
 .dropcap {
@@ -213,6 +215,7 @@ blockquote {
     text-transform: uppercase;
     color: #5379c4;
     font-weight: 800;
+    Font-Family: 'Old Standard TT', Serif;
 }/*add to wrapping div*/
 
 .pq_right {
@@ -224,6 +227,7 @@ blockquote {
     font-size: 25px;
     text-transform: uppercase;
     color: #5379c4;
+    Font-Family: 'Old Standard TT', Serif;
 }/*add to wrapping div*/
 
 .pq_left {
@@ -236,6 +240,7 @@ blockquote {
     text-transform: uppercase;
     font-weight: 700;
     color: #5379c4;
+    Font-Family: 'Old Standard TT', Serif;
 }/*add to wrapping div*/
 
 .attribution {

@@ -123,7 +123,6 @@ h1 span {
     text-shadow: 0 0 0 whitesmoke;
     animation: smoky 8s 6s both;
     animation-iteration-count:infinite;
-    animation-duration:10s;
 
 }
 

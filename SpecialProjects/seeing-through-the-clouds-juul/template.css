@@ -112,7 +112,7 @@ h3 {
     margin: 0;
     font-size: 4vw;
     text-align: center;
-    width: 100%;
+    width: 99%;
     height: 70%
     overflow: hidden;
 }/*apply to h1 within the heroimg div*/
@@ -565,7 +565,7 @@ float: right;
     margin: 0;
     font-size: 5vw;
     text-align: center;
-    width: 100%;
+    width: 99%;
     height: 70%
     overflow: hidden;
 }

@@ -357,7 +357,8 @@ blockquote {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #5379c4;
+    Font-Family: 'Oswald', Sans-Serif;
+    color: #235bbf;
 }/*add to wrapping div*/
 
 .pq_left {

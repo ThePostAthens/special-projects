@@ -131,12 +131,8 @@ p{
 
 .column20center {
     width: 60%;
-    padding: 0 20%;
+    padding 0 20%;
 }/*do not apply to p tags, they automatically have a simmilar styling*/
-
-.column20center credit{
-    z-index: 10000000;
-}
 
 
 .column10center {

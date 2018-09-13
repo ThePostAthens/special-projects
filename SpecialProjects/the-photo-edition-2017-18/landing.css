@@ -206,6 +206,7 @@ transition: all 0.5s;
 .column20center {
     width: 60%;
     padding: 0 20%;
+    z-index: 100000000;
 }/*do not apply to p tags, they automatically have a simmilar styling*/
 
 /* Landing page clicky box at bottom.*/

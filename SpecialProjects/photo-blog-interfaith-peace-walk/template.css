@@ -132,6 +132,8 @@ p{
 .column20center {
     width: 60%;
     padding: 0 5%;
+    background-color: white;
+    z-index: 20000000000000;
 }/*do not apply to p tags, they automatically have a simmilar styling*/
 
 

@@ -214,6 +214,7 @@ blockquote {
 }/*add to wrapping div*/
 
 .pq_right {
+    Font-Family: 'Permanent Marker', Cursive;
     width: 40%;
     padding-right: 10%;
     padding-left: 15px;
@@ -221,7 +222,7 @@ blockquote {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #5379c4;
+    color: #cd9856;
 }/*add to wrapping div*/
 
 .pq_left {

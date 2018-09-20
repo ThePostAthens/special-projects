@@ -6,6 +6,7 @@ Please contact at SethPArcher@gmail.com with questions.*/
 .gif {
     position: absolute;
     top: 1vw;
+    z-index:100;
 }
 
 /*----- Global Styles -----*/

@@ -295,6 +295,8 @@ blockquote {
 }/*should be the text of the pull quote*/
 
 .pq_center {
+     Font-Family: 'Merriweather', Serif;
+    color: #951c00;
     width: 60%;
     padding: 0 20%;
     margin: 0;
@@ -304,6 +306,8 @@ blockquote {
 }/*add to wrapping div*/
 
 .pq_right {
+     Font-Family: 'Merriweather', Serif;
+    color: #951c00;
     width: 40%;
     padding-right: 10%;
     padding-left: 15px;
@@ -316,6 +320,8 @@ blockquote {
 }/*add to wrapping div*/
 
 .pq_left {
+     Font-Family: 'Merriweather', Serif;
+    color: #951c00;
     width: 40%;
     padding-left: 10%;
     padding-right: 0;

@@ -78,7 +78,7 @@ Please contact at SethPArcher@gmail.com with questions.*/
     text-transform:capitalize;
     font-size:18px;
     font-weight:bold;
-    font-family: 'Sigmar One', cursive;
+    Font-Family: 'Oswald', Sans-Serif;;
     font-weight:normal!important;
     top:40%;
     color:white;
@@ -114,7 +114,7 @@ Please contact at SethPArcher@gmail.com with questions.*/
 /*----- Global Styles -----*/
 
 body {
-    font-family: montserrat, sans-serif;
+    Font-Family: 'Quattrocento', Serif;
     background-color: #FFF;
     color: #030406;
 }
@@ -221,6 +221,7 @@ h3 {
     text-align: center;
     width: 100%;
     text-shadow: 2px 2px 3px #000;
+    Font-Family: 'Oswald', Sans-Serif;
 }/*apply to h1 within the heroimg div*/
 
 /*----- Body Copy Things -----*/
@@ -233,6 +234,7 @@ h3 {
     font-size: 40px;
     font-weight: 900i;
     text-transform: uppercase;
+    Font-Family: 'Oswald', Sans-Serif;
 }/*apply to h1, not the art hed*/
 
 .credit {
@@ -242,8 +244,7 @@ h3 {
 }/*apply to h4 with developer's name and title*/
 
 .subhed {
-    font-family: montserrat
-    , sans-serif;
+    Font-Family: 'Oswald', Sans-Serif;
     font-weight: 800;
     color: #7fc448;
 }/*apply to h2 tags*/
@@ -321,6 +322,7 @@ blockquote {
     text-transform: uppercase;
     color: #5379c4;
     font-weight: 800;
+    Font-Family: 'Oswald', Sans-Serif;
 }/*add to wrapping div*/
 
 .pq_right {
@@ -332,6 +334,7 @@ blockquote {
     font-size: 25px;
     text-transform: uppercase;
     color: #5379c4;
+    Font-Family: 'Oswald', Sans-Serif;
 }/*add to wrapping div*/
 
 .pq_left {
@@ -344,6 +347,7 @@ blockquote {
     text-transform: uppercase;
     font-weight: 700;
     color: #5379c4;
+    Font-Family: 'Oswald', Sans-Serif;
 }/*add to wrapping div*/
 
 .attribution {

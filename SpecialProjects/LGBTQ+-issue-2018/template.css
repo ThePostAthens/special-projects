@@ -5,111 +5,93 @@ Please contact at SethPArcher@gmail.com with questions.*/
 
 /* ORIGINAL DESIGN FROM MENUCOOL http://www.menucool.com/ui/responsive-image-grid-with-hover-effect*/
 
-#grid {
-    position:relative;
-    max-width:1100px;
-    margin:0 auto; 
-    padding:0;
-    font-size:0; /* Remember to change it back to normal font size if have captions */
-    list-style:none;
-    background-color:#000;
-}
-#grid li {
-    display: inline-block;
-    *display:inline;/*for IE6 - IE7*/
-    width:25%;
-    vertical-align:middle;
-    box-sizing:border-box;
-    margin:0;
-    padding:0;
-}
-        
-/* The wrapper for each item */
-.container {
-    /*margin:12px;
-    box-shadow:0 0 6px rgba(0,0,0,0.3);*/
-    display:block;
-    position: relative;
-    overflow:hidden;
-}
-        
-/* If have the image layer */
-.landingimg {
-    display:block;
-    width: 100%;
-    height: auto;
-    border:none;
-    transform:scale(1);
-    transition:all 1s;
+/* grid styles ------------------------------------ */
+
+/* Flex styles -------------------------------------------------*/
+header {
+  display: flex;
+  align-items: center;
 }
 
-#grid li:hover .rig-img {
-    transform:scale(1.05);
-}
-        
-/* If have the overlay layer */
-.hover {
-    position: absolute;
-    display:block;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    margin: auto;
-    background: orange;
-    
-    opacity:0;
-    filter:alpha(opacity=0);/*For IE6 - IE8*/
-    transition:all 0.6s;
-}
-#grid li:hover .hover {
-    opacity:0.8;
+@media (min-width: 700px) {
+ .leading {
+    display: flex;
+    align-items: center;
+  }
 }
 
-/* If have captions */
-.article {
-    display:block;
-    padding:0 30px;
-    box-sizing:border-box;
-    position:absolute;
-    left:0;
-    width:100%;
-    text-align:center;
-    text-transform:capitalize;
-    font-size:18px;
-    font-weight:bold;
-    Font-Family: 'Oswald', Sans-Serif;;
-    font-weight:normal!important;
-    top:40%;
-    color:white;
-    z-index: 100;
-    opacity:0;
-    filter:alpha(opacity=0);/*For older IE*/
-    transform:translateY(-20px);
-    transition:all .3s;
-}
-#grid li:hover .article {
-    transform:translateY(0px);
-    opacity:0.9;
+
+/* Grid styles -------------------------------------------------*/
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 30px;
 }
 
-@media (max-width: 9000px) {
-    #grid li {
-        width:25%;
-    }
+
+/* Generic styles ----------------------------------------------*/
+
+header {
+  padding: 10px;
+  font-size: 2em;
+  color: white;
+  background-color: #333;
 }
 
-@media (max-width: 700px) {
-    #grid li {
-        width:50%;
-    }
+.logo {
+  height: 50px;
+  margin-right: 20px;
 }
 
-@media (max-width: 550px) {
-    #grid li {
-        width:100%;
-    }
+.leading {
+  height:0px;
+  margin-bottom: 0px;
+  padding: 30px;
+  color: white;
+  background-size: cover;
+  color: white;
+  text-shadow: 0px 0px 5px #000;
 }
+
+
+
+@media (min-width: 700px) {
+  .leading-bigtext {
+    font-size: 140px;
+  }
+}
+
+.leading-text {
+  max-width: 900px;
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
+
+.cards {
+  max-width: 960px;
+  margin: 0 auto 30px;
+}
+
+article {
+  position: relative;
+    Font-Family: 'Oswald', Sans-Serif;
+}
+
+.article-img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.article-title {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+
 
 /*----- Global Styles -----*/
 

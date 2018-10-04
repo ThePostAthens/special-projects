@@ -180,7 +180,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #85AAE5;
     text-decoration: none;
 }
 
@@ -287,7 +287,7 @@ h3 {
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
+    color: #FBB080;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
@@ -306,7 +306,7 @@ h3 {
 .subhed {
     Font-Family: 'Oswald', Sans-Serif;
     font-weight: 800;
-    color: #7fc448;
+    color: #FBB080;
 }/*apply to h2 tags*/
 
 .dropcap {
@@ -380,7 +380,7 @@ blockquote {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #5379c4;
+    color: #97E58A;
     font-weight: 800;
     Font-Family: 'Oswald', Sans-Serif;
 }/*add to wrapping div*/
@@ -393,7 +393,7 @@ blockquote {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #5379c4;
+    color: #97E58A;
     Font-Family: 'Oswald', Sans-Serif;
 }/*add to wrapping div*/
 
@@ -406,7 +406,7 @@ blockquote {
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #5379c4;
+    color: #97E58A;
     Font-Family: 'Oswald', Sans-Serif;
 }/*add to wrapping div*/
 

@@ -3,9 +3,84 @@ This is a template for special projects at The Post.
 Template originally coded by Seth Archer, digital managing editor at The Post.
 Please contact at SethPArcher@gmail.com with questions.*/
 
-/* ORIGINAL DESIGN FROM MENUCOOL http://www.menucool.com/ui/responsive-image-grid-with-hover-effect*/
+/* ORIGINAL DESIGN FROM GLITCH https://glitch.com/edit/#!/grid-cats?path=README.md:1:0*/
 
-/* grid styles ------------------------------------ */
+/* TIMELINE ------------------------------------ */
+
+div#timeline {
+  background-color: #E19552;
+  margin-top: 150px;
+  height: 10px;
+  width: 100%;
+  position: relative;
+}
+
+div#timeline .dot {
+  z-index: 99;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  top: -15px;
+  text-align: center;
+  cursor: pointer;
+}
+div#timeline .dot:nth-child(1) {
+  left: 1%;
+  background-color: #676061;
+}
+div#timeline .dot:nth-child(2) {
+  left: 25%;
+  background-color: #3b8ab5;
+}
+div#timeline .dot:nth-child(3) {
+  left: 42%;
+  background-color: #676061;
+}
+div#timeline .dot:nth-child(4) {
+  left: 55%;
+  background-color: #3b8ab5;
+}
+div#timeline .dot:nth-child(5) {
+  left: 65%;
+  background-color: #676061;
+}
+div#timeline .dot:nth-child(6) {
+  left: 75%;
+  background-color: #3b8ab5;
+}
+div#timeline .dot:nth-child(7) {
+  left: 85%;
+  background-color: #676061;
+}
+div#timeline .dot:nth-child(8) {
+  left: 95%;
+  background-color: #3b8ab5;
+}
+div#timeline .dot:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+div#timeline .dot date {
+  font-size: 1.1rem;
+  display: block;
+  position: relative;
+  top: -60px;
+  text-align: center;
+}
+div#timeline .dot span {
+  display: inline-block;
+  margin-top: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  position: relative;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
 
 /* Flex styles -------------------------------------------------*/
 header {
@@ -28,6 +103,9 @@ header {
   grid-gap: 30px;
 }
 
+article:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
 
 /* Generic styles ----------------------------------------------*/
 

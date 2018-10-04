@@ -8,7 +8,7 @@ Please contact at SethPArcher@gmail.com with questions.*/
 /* TIMELINE ------------------------------------ */
 
 div#timeline {
-  background-color: #E19552;
+  background-color: #85AAE5;
   margin-top: 150px;
   height: 10px;
   width: 100%;
@@ -28,37 +28,63 @@ div#timeline .dot {
   cursor: pointer;
 }
 div#timeline .dot:nth-child(1) {
-  left: 1%;
+  left: 10%;
   background-color: #676061;
 }
 div#timeline .dot:nth-child(2) {
-  left: 25%;
-  background-color: #3b8ab5;
+  left: 19%;
+  background-color: #eed7fc;
 }
 div#timeline .dot:nth-child(3) {
-  left: 42%;
+  left: 25%;
   background-color: #676061;
 }
 div#timeline .dot:nth-child(4) {
-  left: 55%;
-  background-color: #3b8ab5;
+  left: 30%;
+  background-color: #eed7fc;
 }
 div#timeline .dot:nth-child(5) {
-  left: 65%;
+  left: 40%;
   background-color: #676061;
 }
 div#timeline .dot:nth-child(6) {
-  left: 75%;
-  background-color: #3b8ab5;
+  left: 50%;
+  background-color: #eed7fc;
 }
 div#timeline .dot:nth-child(7) {
-  left: 85%;
+  left: 60%;
   background-color: #676061;
 }
 div#timeline .dot:nth-child(8) {
-  left: 95%;
-  background-color: #3b8ab5;
+  left: 65%;
+  background-color: #eed7fc;
 }
+
+div#timeline .dot:nth-child(9) {
+  left: 75%;
+  background-color: #676061;
+}
+
+div#timeline .dot:nth-child(10) {
+  left: 80%;
+  background-color: #eed7fc;
+}
+
+div#timeline .dot:nth-child(11) {
+  left: 90%;
+  background-color: #676061;
+}
+
+div#timeline .dot:nth-child(12) {
+  left: 95%;
+  background-color: #eed7fc;
+}
+
+div#timeline .dot:nth-child(13) {
+  left: 100%;
+  background-color: #676061;
+}
+
 div#timeline .dot:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
@@ -80,6 +106,64 @@ div#timeline .dot span {
   border-radius: 50%;
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+article {
+  display: none;
+  position: relative;
+  top: 30px;
+  max-width: 960px;
+  background-color: #fff;
+  padding: 20px;
+  margin: auto;
+}
+article date {
+  display: block;
+  text-align: right;
+}
+article h2 {
+  font-size: 5rem;
+  padding: 10px 0;
+  border-bottom: solid #111 2px;
+  margin-bottom: 20px;
+}
+article p {
+  line-height: 130%;
+}
+
+div.mask {
+  display: none;
+  left: 0;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 99999;
+}
+div.mask article {
+  position: relative;
+  top: -100%;
+  margin-top: 50px;
+  max-width: 960px;
+  background-color: #fff;
+  padding: 20px;
+  margin: auto;
+  -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+}
+div.mask article date {
+  display: block;
+  text-align: right;
+}
+div.mask article h2 {
+  font-size: 2rem;
+  padding: 10px 0;
+  border-bottom: solid #111 2px;
+  margin-bottom: 20px;
+}
+div.mask article p {
+  line-height: 130%;
 }
 
 /* Flex styles -------------------------------------------------*/

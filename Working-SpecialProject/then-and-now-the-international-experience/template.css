@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #af5c1e;
     text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #eed7fc;
+    color: #615f62;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -108,7 +108,7 @@ h3 {
     bottom: 0;
     padding: 0;
     margin: 0;
-    font-size: 70px;
+    font-size: 6vw;
     font-weight: 700;
     text-align: center;
     width: 100%;
@@ -118,7 +118,7 @@ h3 {
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
+    color: #a69d78;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
@@ -223,7 +223,7 @@ blockquote {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #5379c4;
+    color: #a69d78;
 }/*add to wrapping div*/
 
 .pq_left {
@@ -380,10 +380,6 @@ float: right;
     .column20center, p {
         width: 80%;
         padding: 0 10%;
-    }
-    
-    #arthed {
-        font-size: 40px;
     }
     
     .subhed{

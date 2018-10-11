@@ -1,73 +1,20 @@
-
-
-
 /* Template.css
 This is a template for special projects at The Post.
 Template originally coded by Seth Archer, digital managing editor at The Post.
 Please contact at SethPArcher@gmail.com with questions.*/
 
-.grid {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 20px;
-    padding: 20px 20px 20px 20px;
-    margin: 0 auto;}
-
-.card {
-    
-    background-color: #F8F7EF;
-    transition: 0.3s;
-    width: 200px;
-    height:300px;
-    padding: 20px 20px 20px 20px;
-    margin: 0 auto;
-}
-
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.card img {
-    height: 200px;
-    width: 200px; 
-    object-fit: cover;
-    margin-top: auto;
-}
-
-
 /*----- Global Styles -----*/
 
 body {
-    font-family: "montserrat", sans-serif;
+    Font-Family: 'Libre Franklin', Sans-Serif;
     background-color: #FFF;
     color: #030406;
 }
 
 a {
-    color: #7fc448;
+    color: #97ad99;
     text-decoration: none;
 }
-.card {
-    
-    background-color: #F8F7EF;
-    transition: 0.3s;
-    width: 200px;
-    height:300px;
-    padding: 20px 20px 20px 20px;
-    margin: 0 auto;
-}
-
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.card img {
-    height: 200px;
-    width: 200px; 
-    object-fit: cover;
-    margin-top: auto;
-}
-
 
 a:hover {
     opacity: .6;
@@ -166,18 +113,20 @@ h3 {
     text-align: center;
     width: 100%;
     text-shadow: 2px 2px 3px #000;
+    Font-Family: 'Cardo', Serif;
 }/*apply to h1 within the heroimg div*/
 
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
+    color: #c0996f;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
     font-size: 40px;
     font-weight: 900i;
     text-transform: uppercase;
+    Font-Family: 'Cardo', Serif;
 }/*apply to h1, not the art hed*/
 
 .credit {
@@ -187,10 +136,9 @@ h3 {
 }/*apply to h4 with developer's name and title*/
 
 .subhed {
-    font-family: montserrat
-    , sans-serif;
+    Font-Family: 'Cardo', Serif;
     font-weight: 800;
-    color: #7fc448;
+    color: #c0996f;
 }/*apply to h2 tags*/
 
 .dropcap {
@@ -262,9 +210,8 @@ blockquote {
     width: 60%;
     padding: 0 20%;
     margin: 0;
-    font-size: 25px;
-    text-transform: uppercase;
-    color: #5379c4;
+    Font-Family: 'Cardo', Serif;
+    color: #c0996f;
     font-weight: 800;
 }/*add to wrapping div*/
 
@@ -274,9 +221,10 @@ blockquote {
     padding-left: 15px;
     float: right;
     margin: 0;
+    Font-Family: 'Cardo', Serif;
     font-size: 25px;
     text-transform: uppercase;
-    color: #5379c4;
+    color: #c0996f;
 }/*add to wrapping div*/
 
 .pq_left {
@@ -286,9 +234,10 @@ blockquote {
     float: left;
     margin: 0;
     font-size: 25px;
+    Font-Family: 'Cardo', Serif;
     text-transform: uppercase;
     font-weight: 700;
-    color: #5379c4;
+    color: #c0996f;
 }/*add to wrapping div*/
 
 .attribution {
@@ -411,13 +360,6 @@ float: right;
     margin: 0;
     width: 70%;
     padding: 10px 15% 0 15%;
-}
-
-
-@media screen and (max-width: 960px){
-    grid-template-columns: auto auto auto auto;
-    grid-auto-rows: minmax(150px, auto); 
-
 }
 
 @media screen and (max-width: 750px){

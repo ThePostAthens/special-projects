@@ -102,6 +102,80 @@ button:hover{
 /* ----------------------------------------------
 START GRID
  * ---------------------------------------------- */
+.seven {
+    
+    border-radius: 25px;
+    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/27e813bc-8db9-4fad-9a98-d6ecd2861821.sized-1000x1000.jpg);
+    background-repeat: no-repeat;
+    background-size: 220%;
+    background-position: center;
+    transition: 0.3s;
+    width: 150px;
+    height: 250px;
+    padding: 10px 20px 10px 20px;
+    margin: 0 auto;
+    margin-bottom:60px;
+}
+
+.six {
+    
+    border-radius: 25px;
+    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/d239c8a4-341a-4a99-946a-95b2f5727cca.sized-1000x1000.jpg);
+    background-repeat: no-repeat;
+    background-size: 220%;
+    background-position: center;
+    transition: 0.3s;
+    width: 150px;
+    height: 250px;
+    padding: 10px 20px 10px 20px;
+    margin: 0 auto;
+    margin-bottom:60px;
+}
+
+.five {
+    
+    border-radius: 25px;
+    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/3ff11d39-019e-4bdb-a3f2-66d8fa575461.sized-1000x1000.jpg);
+    background-repeat: no-repeat;
+    background-size: 220%;
+    background-position: center;
+    transition: 0.3s;
+    width: 150px;
+    height: 250px;
+    padding: 10px 20px 10px 20px;
+    margin: 0 auto;
+    margin-bottom:60px;
+}
+
+.four {
+    
+    border-radius: 25px;
+    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/be644938-ab0f-44fc-a32d-3470648cb7e7.sized-1000x1000.jpg);
+    background-repeat: no-repeat;
+    background-size: 200%;
+    background-position: center;
+    transition: 0.3s;
+    width: 150px;
+    height: 250px;
+    padding: 10px 20px 10px 20px;
+    margin: 0 auto;
+    margin-bottom:60px;
+}
+
+.three {
+    
+    border-radius: 25px;
+    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/4a9a68e8-8c1b-49d1-a5de-c74a5362afc3.sized-1000x1000.jpg);
+    background-repeat: no-repeat;
+    background-size: 220%;
+    background-position: center;
+    transition: 0.3s;
+    width: 150px;
+    height: 250px;
+    padding: 10px 20px 10px 20px;
+    margin: 0 auto;
+    margin-bottom:60px;
+}
 
 .two {
     
@@ -109,6 +183,7 @@ START GRID
     background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/c87e60b9-63bd-47ed-8445-2b9a62b83fdb.sized-1000x1000.jpg);
     background-repeat: no-repeat;
     background-size: 220%;
+    background-position: center;
     transition: 0.3s;
     width: 150px;
     height: 250px;
@@ -122,7 +197,8 @@ START GRID
     border-radius: 25px;
     background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/e44361a6-aa22-40cb-afb7-ff7014c076c7.sized-1000x1000.jpg);
     background-repeat: no-repeat;
-    background-size: 102%;
+    background-size: 120%;
+    background-position: center;
     transition: 0.3s;
     width: 150px;
     height: 250px;
@@ -130,6 +206,8 @@ START GRID
     margin: 0 auto;
     margin-bottom:60px;
 }
+
+
 
 /* ----------------------------------------------
 END GRID
@@ -159,7 +237,7 @@ END GRID
 /*----- Global Styles -----*/
 
 body {
-    font-family: 'Cardo', serif;
+    font-family: 'lato', serif;
     background-color: #FFF;
     color: #030406;
 }
@@ -380,7 +458,7 @@ blockquote {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #5379c4;
+    color: #3f6553;
     font-weight: 800;
 }/*add to wrapping div*/
 
@@ -392,7 +470,7 @@ blockquote {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #CAC6BF;
+    color: #3f6553;
     font-family: 'Montserrat', sans-serif;
 }/*add to wrapping div*/
 
@@ -405,7 +483,7 @@ blockquote {
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #5379c4;
+    color: #3f6553;
 }/*add to wrapping div*/
 
 .attribution {

@@ -166,6 +166,7 @@ h3 {
 
 #arthed {
     color: #611200;
+    text-shadow: 2px 2px white;
     position: absolute;
     bottom: 0;
     padding: 0;

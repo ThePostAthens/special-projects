@@ -8,7 +8,7 @@ Please contact at SethPArcher@gmail.com with questions.*/
     margin: auto;
     width: 40%;
     padding: 10px;
-    border: solid #FEC40E 5px;
+    border: solid #507766 5px;
 }
 
 .box h1 {
@@ -34,7 +34,7 @@ Please contact at SethPArcher@gmail.com with questions.*/
     font-size: 16px;
 }
 
-.rotate-scale-down :hover{
+.rotate-scale-down:hover{
 	-webkit-animation: rotate-scale-down 0.65s linear both;
 	        animation: rotate-scale-down 0.65s linear both;
 }
@@ -78,25 +78,35 @@ Please contact at SethPArcher@gmail.com with questions.*/
   }
 }
 
-
-.one {
-    
-    border-radius: 25px;
-    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/8ff094aa-f935-41af-80d2-da5839fbc059.sized-1000x1000.jpg);
-    background-repeat: no-repeat;
-    background-size: 250%;
-    transition: 0.3s;
-    width: 150px;
-    height: 250px;
-    padding: 10px 20px 10px 20px;
+button, .back-button {
+    border: ;
+    background-color: #2f5043;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    width: 110px;
+    border-radius: 16%;
+    font-family: "Montserrat";
+    text-transform: uppercase;
     margin: 0 auto;
-    margin-bottom:60px;
+    text-align: center;
+    display: block;
 }
+button:hover{
+    background-color: #507766;
+}
+
+/* ----------------------------------------------
+START GRID
+ * ---------------------------------------------- */
 
 .two {
     
     border-radius: 25px;
-    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/d24ddbeb-7461-4020-ada8-734b4c2852b2.sized-1000x1000.jpg);
+    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/c87e60b9-63bd-47ed-8445-2b9a62b83fdb.sized-1000x1000.jpg);
     background-repeat: no-repeat;
     background-size: 200%;
     transition: 0.3s;
@@ -106,6 +116,24 @@ Please contact at SethPArcher@gmail.com with questions.*/
     margin: 0 auto;
     margin-bottom:60px;
 }
+
+.one {
+    
+    border-radius: 25px;
+    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/e44361a6-aa22-40cb-afb7-ff7014c076c7.sized-1000x1000.jpg);
+    background-repeat: no-repeat;
+    background-size: 102%;
+    transition: 0.3s;
+    width: 150px;
+    height: 250px;
+    padding: 10px 20px 10px 20px;
+    margin: 0 auto;
+    margin-bottom:60px;
+}
+
+/* ----------------------------------------------
+END GRID
+ * ---------------------------------------------- */
 
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -137,7 +165,7 @@ body {
 }
 
 a {
-    color: #FEC40E;
+    color: #507766;
     text-decoration: none;
 }
 
@@ -164,7 +192,7 @@ h3 {
 
 .date{
     font-weight: 600;
-    color: #CAC6BF;
+    color: #a3a8ae;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -233,24 +261,30 @@ h3 {
 }
 
 #arthed {
-    color: #FEC40E;
-    background-color: #F8F7EF;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    margin: 0px;
-    font-size: 11vw;
-    line-height: 90%;
+    color: #FFF;
+    background-image: linear-gradient(to right, rgba(255,255,255,0), rgba(40,66,57,.60), rgba(40,66,57,.60), rgba(40,66,57,.60), rgba(255,255,255,0)); /* Standard syntax (must be last) */
+    border-top:2px solid white;
+    border-bottom: 2px solid white;
+    position: absolute;
+    bottom: 5vw;
+    padding: 0;
+    margin: 0 auto;
     text-align: center;
-    width: 100%;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 6vw;
+    width: 66%;
+    font-weight: 500;
+    Font-Family: 'Montserrat';
     text-transform: uppercase;
+    line-height:1.1;
+    left: 16%
 }/*apply to h1 within the heroimg div*/
+
 
 /*----- Body Copy Things -----*/
 
 .headline {
     font-family: 'Cardo', serif;
-    color: 'black';
+    color: #0f0d11;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
@@ -517,10 +551,6 @@ float: right;
     .column20center, p {
         width: 80%;
         padding: 0 10%;
-    }
-    
-    #arthed {
-        font-size: 40px;
     }
     
     .subhed{

@@ -218,7 +218,7 @@ START GRID
 .twentythree {
     
     border-radius: 25px;
-    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/d7461f3a-5341-433a-b085-5080472411b3.sized-1000x1000.jpg);
+    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/27e813bc-8db9-4fad-9a98-d6ecd2861821.sized-1000x1000.jpg);
     background-repeat: no-repeat;
     background-size: 220%;
     background-position: center;
@@ -234,7 +234,7 @@ START GRID
 .twentytwo {
     
     border-radius: 25px;
-    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/002a0b62-9e6c-4736-9e71-c160e99c9262.sized-1000x1000.JPG);
+    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/27e813bc-8db9-4fad-9a98-d6ecd2861821.sized-1000x1000.jpg);
     background-repeat: no-repeat;
     background-size: 220%;
     background-position: center;
@@ -326,11 +326,26 @@ START GRID
     margin-bottom:60px;
 }
 
+.sixteen {
+    
+    border-radius: 25px;
+    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/a1b7a9ac-21ad-44b3-a7b4-22074954d92b.sized-1000x1000.jpg);
+    background-repeat: no-repeat;
+    background-size: 220%;
+    background-position: center;
+    transition: 0.3s;
+    width: 150px;
+    height: 250px;
+    padding: 10px 20px 10px 20px;
+    margin: 0 auto;
+    margin-bottom:60px;
+}
+
 
 .fifteen {
     
     border-radius: 25px;
-    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/c4f3ecf6-6257-46c2-8deb-4d2ad4de7039.sized-1000x1000.jpg);
+    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/27e813bc-8db9-4fad-9a98-d6ecd2861821.sized-1000x1000.jpg);
     background-repeat: no-repeat;
     background-size: 220%;
     background-position: center;
@@ -346,7 +361,7 @@ START GRID
 .fourteen {
     
     border-radius: 25px;
-    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/ad30ea8b-13a0-4d6f-9e54-e717e33e8a4c.sized-1000x1000.jpg);
+    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/27e813bc-8db9-4fad-9a98-d6ecd2861821.sized-1000x1000.jpg);
     background-repeat: no-repeat;
     background-size: 220%;
     background-position: center;
@@ -359,11 +374,42 @@ START GRID
 }
 
 
+.thirteen {
+    
+    border-radius: 25px;
+    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/904576d5-17fd-4da9-aedc-56f77cbd6514.sized-1000x1000.jpg);
+    background-repeat: no-repeat;
+    background-size: 220%;
+    background-position: center;
+    transition: 0.3s;
+    width: 150px;
+    height: 250px;
+    padding: 10px 20px 10px 20px;
+    margin: 0 auto;
+    margin-bottom:60px;
+}
+
 
 .twelve {
     
     border-radius: 25px;
-    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/59098bde-8ea3-447f-b5ab-109e406d31d3.sized-1000x1000.jpg);
+    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/27e813bc-8db9-4fad-9a98-d6ecd2861821.sized-1000x1000.jpg);
+    background-repeat: no-repeat;
+    background-size: 220%;
+    background-position: center;
+    transition: 0.3s;
+    width: 150px;
+    height: 250px;
+    padding: 10px 20px 10px 20px;
+    margin: 0 auto;
+    margin-bottom:60px;
+}
+
+
+.eleven {
+    
+    border-radius: 25px;
+    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/27e813bc-8db9-4fad-9a98-d6ecd2861821.sized-1000x1000.jpg);
     background-repeat: no-repeat;
     background-size: 220%;
     background-position: center;
@@ -379,7 +425,7 @@ START GRID
 .ten {
     
     border-radius: 25px;
-    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/8873a787-cf69-41cc-8483-fb33e454c252.sized-1000x1000.png);
+    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/27e813bc-8db9-4fad-9a98-d6ecd2861821.sized-1000x1000.jpg);
     background-repeat: no-repeat;
     background-size: 220%;
     background-position: center;
@@ -395,7 +441,23 @@ START GRID
 .nine {
     
     border-radius: 25px;
-    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/59079381-9f88-454f-aa33-e164237bafc9.sized-1000x1000.png);
+    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/27e813bc-8db9-4fad-9a98-d6ecd2861821.sized-1000x1000.jpg);
+    background-repeat: no-repeat;
+    background-size: 220%;
+    background-position: center;
+    transition: 0.3s;
+    width: 150px;
+    height: 250px;
+    padding: 10px 20px 10px 20px;
+    margin: 0 auto;
+    margin-bottom:60px;
+}
+
+
+.eight {
+    
+    border-radius: 25px;
+    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/27e813bc-8db9-4fad-9a98-d6ecd2861821.sized-1000x1000.jpg);
     background-repeat: no-repeat;
     background-size: 220%;
     background-position: center;
@@ -410,7 +472,7 @@ START GRID
 .seven {
     
     border-radius: 25px;
-    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/d6894964-45bb-48e9-938b-b9a0b45a424e.sized-1000x1000.jpg);
+    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/27e813bc-8db9-4fad-9a98-d6ecd2861821.sized-1000x1000.jpg);
     background-repeat: no-repeat;
     background-size: 220%;
     background-position: center;
@@ -485,7 +547,7 @@ START GRID
 .two {
     
     border-radius: 25px;
-    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/ef311fa5-1c99-4e58-b20d-cca00d60d8ac.sized-1000x1000.png);
+    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/c87e60b9-63bd-47ed-8445-2b9a62b83fdb.sized-1000x1000.jpg);
     background-repeat: no-repeat;
     background-size: 220%;
     background-position: center;
@@ -714,6 +776,11 @@ h3 {
     padding: 0 20%;
 }/*Apply to a wrapping div*/
 
+.oneimg_center2 {
+    width: 50%;
+    padding: 0 25%;
+}/*Apply to a wrapping div*/
+
 .oneimg_right {
     width: 40%;
     padding-right: 10%;
@@ -744,7 +811,8 @@ h3 {
     width: 33%;
 }
 
-.oneimg_full img, .oneimg_center img, .oneimg_right img, .oneimg_left img {
+.oneimg_full img, .oneimg_center img, 
+.oneimg_center2 img, .oneimg_right img, .oneimg_left img {
     width: 100%
 }
 
@@ -916,7 +984,7 @@ float: right;
 
 @media screen and (max-width: 750px){
     
-    .oneimg_right, .oneimg_left, .oneimg_center {
+    .oneimg_right, .oneimg_left, .oneimg_center, .oneimg_center2 {
         width: 80%;
         padding: 0 10% 10px 10%;
     }

@@ -3,6 +3,8 @@ This is a template for special projects at The Post.
 Template originally coded by Seth Archer, digital managing editor at The Post.
 Please contact at SethPArcher@gmail.com with questions.*/
 
+/* CODE FOR ARTHED BY WIXEL https://codepen.io/WixelHQ/pen/ojqyGm*/
+
 /* Only for demo */
 
 .overlay {
@@ -357,7 +359,7 @@ h3 {
 #heroimg {
     width: 100%;
     position: relative;
-    margin-bottom: ;
+    
 }/*apply to wrapping div with an img tag within*/
 
 #heroimg img {
@@ -376,7 +378,7 @@ h3 {
 
 .headline {
     color: #90141a;
-    font-family: 'Creepster', cursive;
+    font-family: 'Montserrat', cursive;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
@@ -393,7 +395,7 @@ h3 {
 
 .subhed {
     color: #90141a;
-    font-family: 'Creepster', cursive;
+    font-family: 'Montserrat', cursive;
     font-size:25px;
     font-weight: 800;
 

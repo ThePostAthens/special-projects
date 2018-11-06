@@ -104,6 +104,14 @@ h3 {
     width: 100%;
 }
 
+#year {
+    color: #2e97dd;
+    font-weight: 900;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    font-weight: 900;
+    font-size: 2vw;
+}
 #arthed {
     
     background: linear-gradient(to bottom, #3498db 0%, #3498db 33%, #fff 33%, #fff 66%, #e74c3c 66%, #e74c3c 100%);
@@ -122,14 +130,12 @@ h3 {
     animation-fill-mode: none;
     animation-play-state:running;
     
-    padding-top: 70px;
-    padding-bottom: 70px;
     margin: 0px;
     text-align: center;
     width: 100%;
     height:100%;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 5px;
+    padding-bottom: 7vw;
     margin: 0px;
     font-size: 8vw;
     line-height: 90%;
@@ -419,9 +425,6 @@ float: right;
         padding: 0 10%;
     }
     
-    #arthed {
-        font-size: 40px;
-    }
     
     .subhed{
         padding: 0 10%;

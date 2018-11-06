@@ -3,11 +3,136 @@ This is a template for special projects at The Post.
 Template originally coded by Seth Archer, digital managing editor at The Post.
 Please contact at SethPArcher@gmail.com with questions.*/
 
+/*GRID*/
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto ;
+    margin: 0 auto; 
+    margin-right: 60px;
+    margin-left: 60px; 
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.2vw;
+    text-shadow: 2px 2px #3a3a3a;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.one:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.60);
+}
+
+.two:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.60);
+}
+
+.one {
+    
+    border-radius: 10px;
+    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/aa1a975f-f5da-4265-ab58-a7472eef5530.sized-1000x1000.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    width: 190px;
+    height: 190px;
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom:15px;
+}
+
+.two {
+    
+    border-radius: 10px;
+    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/9c83ad28-57a1-4eb5-a4bf-a20b6fd53666.sized-1000x1000.jpg);
+    background-repeat: no-repeat;
+    background-size: 140%;
+    background-position: center;
+    transition: 0.3s;
+    width: 190px;
+    height: 190px;
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom:15px;
+}
+
+.three {
+    
+    border-radius: 10px;
+    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/183fc278-8e3f-44c6-bb8b-9cf223bf9392.sized-1000x1000.jpg);
+    background-repeat: no-repeat;
+    background-size: 220%;
+    background-position: center;
+    transition: 0.3s;
+    width: 190px;
+    height: 190px;
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom:15px;
+
+}
+
+
+.four {
+    
+   border-radius: 10px;
+    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/183fc278-8e3f-44c6-bb8b-9cf223bf9392.sized-1000x1000.jpg);
+    background-repeat: no-repeat;
+    background-size: 220%;
+    background-position: center;
+    transition: 0.3s;
+    width: 190px;
+    height: 190px;
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom:15px;
+   
+}
+
+
+.five {
+    
+   border-radius: 10px;
+    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/183fc278-8e3f-44c6-bb8b-9cf223bf9392.sized-1000x1000.jpg);
+    background-repeat: no-repeat;
+    background-size: 220%;
+    background-position: center;
+    transition: 0.3s;
+    width: 190px;
+    height: 190px;
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom:15px;
+
+}
+
+
+.six {
+    
+    border-radius: 10px;
+    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/183fc278-8e3f-44c6-bb8b-9cf223bf9392.sized-1000x1000.jpg);
+    background-repeat: no-repeat;
+    background-size: 220%;
+    background-position: center;
+    transition: 0.3s;
+    width: 190px;
+    height: 190px;
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom:15px;
+}
 
 /*----- Global Styles -----*/
 
+
 body {
-    font-family: montserrat, sans-serif;
+    font-family: 'montserrat', sans-serif;
     background-color: #FFF;
     color: #030406;
 }
@@ -106,11 +231,11 @@ h3 {
 
 #year {
     color: #2e97dd;
-    font-weight: 900;
     font-family: 'Work Sans', sans-serif;
     text-align: center;
     font-weight: 900;
     font-size: 2vw;
+    position: absolute;
 }
 #arthed {
     
@@ -134,7 +259,7 @@ h3 {
     text-align: center;
     width: 100%;
     height:100%;
-    padding-top: 5px;
+    padding-top: 7vw;
     padding-bottom: 7vw;
     margin: 0px;
     font-size: 8vw;
@@ -163,8 +288,9 @@ h3 {
     width: 80%;
     margin: 0;
     font-size: 40px;
-    font-weight: 900i;
+    font-weight: 900;
     text-transform: uppercase;
+    font-family: 'Work Sans', sans-serif;
 }/*apply to h1, not the art hed*/
 
 .credit {
@@ -402,6 +528,67 @@ float: right;
     width: 70%;
     padding: 10px 15% 0 15%;
 }
+
+@media screen and (max-width: 1260px){
+    .grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    grid-gap: 0px;
+    margin: 0 auto; 
+    color:white;
+    margin-right:60px;
+    margin-left:60px;   
+}
+}
+
+@media screen and (max-width: 1030px){
+    .grid {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-gap: 0px;
+    margin: 0 auto; 
+    color:white;
+    margin-right:60px;
+    margin-left:60px;   
+}
+}
+
+@media screen and (max-width: 850px){
+    .grid {
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-gap: 0px;
+    margin: 0 auto; 
+    color:white;
+    margin-right:60px;
+    margin-left:60px;   
+}
+}
+
+@media screen and (max-width: 612px){
+    .grid {
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-gap: 0px;
+    margin: 0 auto; 
+    color:white;
+    margin-right:30px;
+    margin-left:30px;   
+}
+}
+
+@media screen and (max-width: 500px){
+    .grid {
+    display: grid;
+    grid-template-columns: auto  ;
+    grid-gap: 0px;
+    margin: 0 auto; 
+    color:white;
+    margin-right:30px;
+    margin-left:30px;   
+}
+}
+
 
 @media screen and (max-width: 750px){
     

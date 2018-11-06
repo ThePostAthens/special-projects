@@ -14,10 +14,12 @@ Please contact at SethPArcher@gmail.com with questions.*/
     color: white;
     text-align: center;
     font-weight: 400;
-    font-size: 1.2vw;
+    font-size: 16px;
     text-shadow: 2px 2px #3a3a3a;
     font-family: 'Work Sans', sans-serif;
 }
+
+/*Hover*/
 
 .one:hover {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,.60);
@@ -27,6 +29,7 @@ Please contact at SethPArcher@gmail.com with questions.*/
     box-shadow: 0 4px 8px 0 rgba(0,0,0,.60);
 }
 
+/*Landing Page Elements*/
 .one {
     
     border-radius: 10px;
@@ -127,6 +130,32 @@ Please contact at SethPArcher@gmail.com with questions.*/
     margin-top: 15px;
     margin-bottom:15px;
 }
+
+/*Button*/
+
+button, .back-button {
+    border-color: #2e97dd;
+    border-width: medium;
+    color:#2e97dd;
+    background-color: white;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 10px;
+    font-family: "Montserrat";
+    
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    font-family: 'Work Sans', sans-serif;
+    font-weight:900;
+}
+button:hover{
+    background-color: #2e97dd;
+    color: white;
+}
+
 
 /*----- Global Styles -----*/
 

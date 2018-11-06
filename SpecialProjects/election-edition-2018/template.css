@@ -3,6 +3,7 @@ This is a template for special projects at The Post.
 Template originally coded by Seth Archer, digital managing editor at The Post.
 Please contact at SethPArcher@gmail.com with questions.*/
 
+
 /*----- Global Styles -----*/
 
 body {
@@ -12,7 +13,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #e94b36;
     text-decoration: none;
 }
 
@@ -37,7 +38,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #eed7fc;
+    color: #e5e5e5;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -91,11 +92,12 @@ h3 {
     margin: 0;
 }
 
-/*----- Hero Image -----*/
+/*----- Hero Image | Original design by Jon Daiello https://codepen.io/jondaiello/pen/mOJKgQ?editors=1100 -----*/
 
 #heroimg {
     width: 100%;
-    position: relative;
+    position: relative; background:#e5e5e5;
+    color: white;
 }/*apply to wrapping div with an img tag within*/
 
 #heroimg img {
@@ -103,22 +105,54 @@ h3 {
 }
 
 #arthed {
-    color: #FFF;
-    position: absolute;
-    bottom: 0;
-    padding: 0;
-    margin: 0;
-    font-size: 70px;
-    font-weight: 700;
+    
+    background: linear-gradient(to bottom, #3498db 0%, #3498db 33%, #fff 33%, #fff 66%, #e74c3c 66%, #e74c3c 100%);
+    background-repeat: repeat;
+    background-size: 100% 100%;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: rotateRWB 100s linear 1s 1000;
+    animation-name: rotateRWB;
+    animation-duration: 100s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1000;
+    animation-direction:normal;
+    animation-fill-mode: none;
+    animation-play-state:running;
+    
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin: 0px;
     text-align: center;
     width: 100%;
-    text-shadow: 2px 2px 3px #000;
+    height:100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin: 0px;
+    font-size: 8vw;
+    line-height: 90%;
+    text-align: center;
+    width: 100%;
+    font-family: 'Shrikhand', cursive;
+    height:100%;
+}
+
+@keyframes rotateRWB {
+  0% {
+    background-position: 0em 0em;
+  }
+  100% {
+    background-position: 100em 100em;
+  }
+
 }/*apply to h1 within the heroimg div*/
 
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
+    color: #2e97dd;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
@@ -134,10 +168,10 @@ h3 {
 }/*apply to h4 with developer's name and title*/
 
 .subhed {
-    font-family: montserrat
+    font-family: 'montserrat'
     , sans-serif;
     font-weight: 800;
-    color: #7fc448;
+    color: #e94b36;
 }/*apply to h2 tags*/
 
 .dropcap {
@@ -211,8 +245,9 @@ blockquote {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #5379c4;
+    color: #2e97dd;
     font-weight: 800;
+    font-family: 'Shrikhand', cursive;
 }/*add to wrapping div*/
 
 .pq_right {
@@ -223,7 +258,8 @@ blockquote {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #5379c4;
+    color: #2e97dd;
+    font-family: 'Shrikhand', cursive;
 }/*add to wrapping div*/
 
 .pq_left {
@@ -235,7 +271,8 @@ blockquote {
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #5379c4;
+    color: #2e97dd;
+    font-family: 'Shrikhand', cursive;
 }/*add to wrapping div*/
 
 .attribution {

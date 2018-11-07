@@ -14,7 +14,8 @@ Please contact at SethPArcher@gmail.com with questions.*/
     color: white;
     text-align: center;
     font-weight: 400;
-    font-size: 2vw;
+    font-size: 12px;
+    
     text-shadow: 2px 2px #3a3a3a;
     font-family: 'Work Sans', sans-serif;
 }
@@ -772,7 +773,7 @@ float: right;
     color:white;
     margin-right:60px;
     margin-left:60px; 
-    font-size:2vw;
+    
 }
 }
 

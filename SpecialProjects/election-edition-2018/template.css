@@ -44,6 +44,10 @@ Please contact at SethPArcher@gmail.com with questions.*/
     box-shadow: 0 4px 8px 0 rgba(0,0,0,.60);
 }
 
+.seven:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.60);
+}
+
 /*Landing Page Elements*/
 .one {
     
@@ -146,6 +150,37 @@ Please contact at SethPArcher@gmail.com with questions.*/
     margin-bottom:15px;
 }
 
+.seven {
+    
+    border-radius: 10px;
+    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/40d0dff5-ad64-4784-a284-5e00b5529e32.sized-1000x1000.jpg);
+    background-repeat: no-repeat;
+    background-size: 220%;
+    background-position: center;
+    transition: 0.3s;
+    width: 190px;
+    height: 190px;
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom:15px;
+}
+
+.eight {
+    
+    border-radius: 10px;
+    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/40d0dff5-ad64-4784-a284-5e00b5529e32.sized-1000x1000.jpg);
+    background-repeat: no-repeat;
+    background-size: 220%;
+    background-position: center;
+    transition: 0.3s;
+    width: 190px;
+    height: 190px;
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom:15px;
+}
 /*Button*/
 
 button, .back-button {

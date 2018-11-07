@@ -29,6 +29,17 @@ Please contact at SethPArcher@gmail.com with questions.*/
     box-shadow: 0 4px 8px 0 rgba(0,0,0,.60);
 }
 
+.three:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.60);
+}
+.four:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.60);
+}
+
+.five:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.60);
+}
+
 /*Landing Page Elements*/
 .one {
     
@@ -41,7 +52,7 @@ Please contact at SethPArcher@gmail.com with questions.*/
     height: 190px;
     padding: 10px 10px 10px 10px;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 15px;
     margin-bottom:15px;
 }
 
@@ -57,14 +68,14 @@ Please contact at SethPArcher@gmail.com with questions.*/
     height: 190px;
     padding: 10px 10px 10px 10px;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 15px;
     margin-bottom:15px;
 }
 
 .three {
     
     border-radius: 10px;
-    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/183fc278-8e3f-44c6-bb8b-9cf223bf9392.sized-1000x1000.jpg);
+    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/7b0cc0d4-f5c1-4a8f-9706-1e90e5db2af5.sized-1000x1000.jpg);
     background-repeat: no-repeat;
     background-size: 220%;
     background-position: center;
@@ -73,7 +84,7 @@ Please contact at SethPArcher@gmail.com with questions.*/
     height: 190px;
     padding: 10px 10px 10px 10px;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 15px;
     margin-bottom:15px;
 
 }
@@ -82,16 +93,16 @@ Please contact at SethPArcher@gmail.com with questions.*/
 .four {
     
    border-radius: 10px;
-    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/183fc278-8e3f-44c6-bb8b-9cf223bf9392.sized-1000x1000.jpg);
+    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/a3c36a2c-a21a-4187-aeb4-581521343020.sized-1000x1000.jpg);
     background-repeat: no-repeat;
-    background-size: 220%;
+    background-size: 150%;
     background-position: center;
     transition: 0.3s;
     width: 190px;
     height: 190px;
     padding: 10px 10px 10px 10px;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 15px;
     margin-bottom:15px;
    
 }
@@ -100,7 +111,7 @@ Please contact at SethPArcher@gmail.com with questions.*/
 .five {
     
    border-radius: 10px;
-    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/183fc278-8e3f-44c6-bb8b-9cf223bf9392.sized-1000x1000.jpg);
+    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/4a932ffe-7b9c-4c44-8c34-ffe58445d182.sized-1000x1000.JPG);
     background-repeat: no-repeat;
     background-size: 220%;
     background-position: center;

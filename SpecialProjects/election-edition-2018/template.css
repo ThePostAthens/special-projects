@@ -40,6 +40,10 @@ Please contact at SethPArcher@gmail.com with questions.*/
     box-shadow: 0 4px 8px 0 rgba(0,0,0,.60);
 }
 
+.six:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.60);
+}
+
 /*Landing Page Elements*/
 .one {
     
@@ -129,7 +133,7 @@ Please contact at SethPArcher@gmail.com with questions.*/
 .six {
     
     border-radius: 10px;
-    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/183fc278-8e3f-44c6-bb8b-9cf223bf9392.sized-1000x1000.jpg);
+    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/61a9ee38-f909-4bd3-9127-af586a307681.sized-1000x1000.jpg);
     background-repeat: no-repeat;
     background-size: 220%;
     background-position: center;

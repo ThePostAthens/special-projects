@@ -292,6 +292,22 @@ Please contact at SethPArcher@gmail.com with questions.*/
     margin-top: 15px;
     margin-bottom:15px;
 }
+
+.fifteen {
+    
+    border-radius: 10px;
+    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/4c58347c-b7af-4784-ba1e-ec019f5d60e2.sized-1000x1000.JPG);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+    transition: 0.3s;
+    width: 190px;
+    height: 190px;
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom:15px;
+}
 /*Button*/
 
 button, .back-button {

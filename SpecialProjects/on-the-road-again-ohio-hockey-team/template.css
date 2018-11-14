@@ -3,6 +3,290 @@ This is a template for special projects at The Post.
 Template originally coded by Seth Archer, digital managing editor at The Post.
 Please contact at SethPArcher@gmail.com with questions.*/
 
+/*Origional code for heroimg by Liz Wendling https://codepen.io/Elwend/pen/bvyJyq */
+.root {
+  --tree-distance: 0;
+}
+
+.scene {
+  background-color: #0098d8;
+  font-size: 100vmin;
+  height: 1em;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  width: 1.5em;
+}
+.scene div, .scene ::before, .scene ::after {
+  position: absolute;
+}
+
+.sun {
+  background-color: orange;
+  border-radius: 100%;
+  height: .2em;
+  left: 30%;
+  top: 22%;
+  width: .2em;
+}
+
+.mountain {
+  background: grey;
+  bottom: 25%;
+  -webkit-clip-path: polygon(0% 100%, 50% 0%, 50% 0%, 100% 100%);
+  clip-path: polygon(0% 100%, 50% 0%, 50% 0%, 100% 100%);
+}
+.mountain.one {
+  background-color: #AACECD;
+  height: .3em;
+  left: 20%;
+  width: .5em;
+  z-index: 2;
+}
+.mountain.two {
+  background-color: #9DBBCC;
+  height: .4em;
+  left: 30%;
+  width: .64em;
+}
+.mountain::after {
+  background-color: white;
+  -webkit-clip-path: polygon(50% 0%, 75% 50%, 62% 41%, 50% 50%, 39% 40%, 25% 50%);
+  clip-path: polygon(50% 0%, 75% 50%, 62% 41%, 50% 50%, 39% 40%, 25% 50%);
+  content: '';
+  height: 100%;
+  width: 100%;
+}
+
+.car {
+  background: #a50029;
+  border-radius: .01em;
+  bottom: 26%;
+  -webkit-clip-path: polygon(66% 63%, 79% 79%, 94% 79%, 100% 100%, 0 100%, 3% 63%);
+  clip-path: polygon(66% 63%, 79% 79%, 94% 79%, 100% 100%, 0 100%, 3% 63%);
+  height: .2em;
+  left: 40%;
+  width: .2em;
+  z-index: 4;
+}
+
+.windows {
+  background-color: black;
+  bottom: 30%;
+  -webkit-clip-path: polygon(1% 60%, 83% 60%, 100% 100%, 0% 100%);
+  clip-path: polygon(1% 60%, 83% 60%, 100% 100%, 0% 100%);
+  height: .075em;
+  left: 40.6%;
+  width: .145em;
+  z-index: 4;
+}
+.windows .pane {
+  background: #002146;
+  height: .1em;
+  width: .045em;
+  z-index: 5;
+}
+.windows .pane:nth-of-type(2n) {
+  left: .05em;
+}
+.windows .pane:nth-of-type(3n) {
+  left: .1em;
+}
+
+.bumper {
+  background: lightgrey;
+  border-radius: 10%;
+  bottom: 26%;
+  height: .01em;
+  width: .015em;
+  z-index: 5;
+}
+.bumper.left {
+  -webkit-clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+  left: 40%;
+}
+.bumper.right {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
+  left: 52.5%;
+}
+
+.headlight {
+  background: linear-gradient(0.25turn, orange, lightgrey);
+  border-radius: 10%;
+  bottom: 14%;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
+  height: .01em;
+  right: 2%;
+  width: .015em;
+  z-index: 5;
+}
+
+.taillight {
+  background: red;
+  border-radius: 10%;
+  bottom: 13%;
+  -webkit-clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+  height: .01em;
+  left: 1%;
+  width: .0075em;
+  z-index: 5;
+}
+
+.handle {
+  background: darkred;
+  bottom: 14%;
+  height: 0.005em;
+  width: .0075em;
+}
+.handle.left {
+  left: 30%;
+}
+.handle.right {
+  left: 55%;
+}
+
+.wheel {
+  -webkit-animation: wheel 0.5s linear infinite;
+  animation: wheel 0.5s linear infinite;
+  background: black;
+  border-radius: 100%;
+  bottom: 25%;
+  height: .041em;
+  width: .04em;
+  z-index: 4;
+}
+.wheel::after {
+  background-color: lightgrey;
+  -webkit-clip-path: polygon(50% 0, 55% 50%, 100% 40%, 60% 60%, 80% 100%, 50% 65%, 20% 100%, 40% 60%, 0 40%, 45% 50%);
+  clip-path: polygon(50% 0, 55% 50%, 100% 40%, 60% 60%, 80% 100%, 50% 65%, 20% 100%, 40% 60%, 0 40%, 45% 50%);
+  content: '';
+  height: 70%;
+  left: 15%;
+  top: 10%;
+  width: 70%;
+}
+.wheel.left {
+  left: 41.5%;
+}
+.wheel.right {
+  left: 49.5%;
+}
+.wheel .rim {
+  border: .004em solid lightgrey;
+  border-radius: 100%;
+  height: 60%;
+  left: 10%;
+  top: 10%;
+  width: 60%;
+  z-index: 5;
+}
+
+.trees {
+  -webkit-animation: treesOut 4s linear infinite;
+          animation: treesOut 4s linear infinite;
+}
+
+.trees2 {
+  -webkit-animation: treesIn 4s linear infinite;
+          animation: treesIn 4s linear infinite;
+}
+
+.trees, .trees2 {
+  bottom: 25%;
+  height: 20%;
+  width: 100%;
+  z-index: 3;
+}
+.trees .tree, .trees2 .tree {
+  left: var(--tree-distance);
+}
+.trees .tree:nth-child(2n) .top, .trees2 .tree:nth-child(2n) .top {
+  background: forestgreen;
+}
+.trees .tree:nth-child(2n), .trees2 .tree:nth-child(2n) {
+  top: 20%;
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+}
+.trees .tree:nth-child(3n), .trees2 .tree:nth-child(3n) {
+  top: -20%;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+.trees .tree .top, .trees2 .tree .top {
+  background-color: darkgreen;
+  -webkit-clip-path: polygon(0% 100%, 50% 0%, 50% 0%, 100% 100%);
+          clip-path: polygon(0% 100%, 50% 0%, 50% 0%, 100% 100%);
+  height: .15em;
+  width: .025em;
+}
+.trees .tree .trunk, .trees2 .tree .trunk {
+  background: brown;
+  height: .05em;
+  left: 0.01em;
+  top: .15em;
+  width: .005em;
+}
+
+@-webkit-keyframes treesOut {
+  from {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  to {
+    -webkit-transform: translate(-100%);
+            transform: translate(-100%);
+  }
+}
+
+@keyframes treesOut {
+  from {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  to {
+    -webkit-transform: translate(-100%);
+            transform: translate(-100%);
+  }
+}
+@-webkit-keyframes treesIn {
+  from {
+    -webkit-transform: translate(100%);
+            transform: translate(100%);
+  }
+  to {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+@keyframes treesIn {
+  from {
+    -webkit-transform: translate(100%);
+            transform: translate(100%);
+  }
+  to {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+@-webkit-keyframes wheel {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes wheel {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+
 /*----- Global Styles -----*/
 
 body {
@@ -12,7 +296,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #0097d9;
     text-decoration: none;
 }
 
@@ -37,7 +321,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #eed7fc;
+    color: #a70025;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -94,8 +378,8 @@ h3 {
 /*----- Hero Image -----*/
 
 #heroimg {
-    width: 100%;
     position: relative;
+    background-color: #0098d8; 
 }/*apply to wrapping div with an img tag within*/
 
 #heroimg img {
@@ -105,20 +389,20 @@ h3 {
 #arthed {
     color: #FFF;
     position: absolute;
-    bottom: 0;
+    bottom: 2vw;
     padding: 0;
     margin: 0;
-    font-size: 70px;
+    font-size: 7vw;
     font-weight: 700;
     text-align: center;
     width: 100%;
-    text-shadow: 2px 2px 3px #000;
+    font-family: 'Short Stack', sans-serif;
 }/*apply to h1 within the heroimg div*/
 
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
+    color: #006500;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
@@ -211,8 +495,9 @@ blockquote {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #5379c4;
+    color: #006500;
     font-weight: 800;
+    font-family: 'Short Stack', sans-serif;
 }/*add to wrapping div*/
 
 .pq_right {
@@ -223,7 +508,8 @@ blockquote {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #5379c4;
+    color: #006500;
+    font-family: 'Short Stack', sans-serif;
 }/*add to wrapping div*/
 
 .pq_left {
@@ -235,7 +521,8 @@ blockquote {
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #5379c4;
+    color: #006500;
+    font-family: 'Short Stack', sans-serif;
 }/*add to wrapping div*/
 
 .attribution {
@@ -360,7 +647,44 @@ float: right;
     padding: 10px 15% 0 15%;
 }
 
+@media screen and (max-width: 1000px){
+    
+    .scene {
+      width: .9em;
+}
+    .car {
+      left: 40%;
+      width: .16em;
+}
+
+    .windows {
+        left: 40.6%;
+        width: .115em;
+        z-index: 4;
+}
+    .bumper.right {
+        left:56%;
+    }
+}
+
 @media screen and (max-width: 750px){
+    
+    .scene {
+      width: .9em;
+}
+    .car {
+      left: 40%;
+      width: .16em;
+}
+
+    .windows {
+        left: 40.6%;
+        width: .115em;
+        z-index: 4;
+}
+    .bumper.right {
+        left:56%;
+    }
     
     .oneimg_right, .oneimg_left, .oneimg_center {
         width: 80%;
@@ -381,10 +705,7 @@ float: right;
         width: 80%;
         padding: 0 10%;
     }
-    
-    #arthed {
-        font-size: 40px;
-    }
+
     
     .subhed{
         padding: 0 10%;

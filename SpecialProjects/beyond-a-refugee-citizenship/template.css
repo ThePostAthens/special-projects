@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #c88f3a;
     text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #eed7fc;
+    color: #47b4d5;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -105,26 +105,30 @@ h3 {
 #arthed {
     color: #FFF;
     position: absolute;
-    bottom: 0;
+    bottom: 50vw;
     padding: 0;
     margin: 0;
-    font-size: 70px;
+    font-size: 80px;
     font-weight: 700;
     text-align: center;
     width: 100%;
     text-shadow: 2px 2px 3px #000;
+    
+    font-family: 'Berkshire Swash', cursive;
+
 }/*apply to h1 within the heroimg div*/
 
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
+    color: #9d2323;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
     font-size: 40px;
     font-weight: 900i;
     text-transform: uppercase;
+    
 }/*apply to h1, not the art hed*/
 
 .credit {
@@ -137,7 +141,7 @@ h3 {
     font-family: montserrat
     , sans-serif;
     font-weight: 800;
-    color: #7fc448;
+    color: #47b4d5;
 }/*apply to h2 tags*/
 
 .dropcap {
@@ -210,9 +214,10 @@ blockquote {
     padding: 0 20%;
     margin: 0;
     font-size: 25px;
-    text-transform: uppercase;
-    color: #5379c4;
+    color: #9d2323;
     font-weight: 800;
+    
+    font-family: 'Berkshire Swash', cursive;
 }/*add to wrapping div*/
 
 .pq_right {
@@ -223,7 +228,9 @@ blockquote {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #5379c4;
+    color: #9d2323;
+    
+    font-family: 'Berkshire Swash', cursive;
 }/*add to wrapping div*/
 
 .pq_left {
@@ -235,7 +242,9 @@ blockquote {
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #5379c4;
+    color: #9d2323;
+    
+    font-family: 'Berkshire Swash', cursive;
 }/*add to wrapping div*/
 
 .attribution {

@@ -2,6 +2,19 @@
 This is a template for special projects at The Post.
 Template originally coded by Seth Archer, digital managing editor at The Post.
 Please contact at SethPArcher@gmail.com with questions.*/
+@font-face {
+    font-family:"tattoo-font";
+    src: url('fonts/TATTI___.ttf');
+}
+
+.parallax {
+    height: 800px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 /*----- Global Styles -----*/
 
@@ -12,7 +25,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #7e8a81;
     text-decoration: none;
 }
 
@@ -37,7 +50,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #eed7fc;
+    color: #3e4952;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -104,12 +117,13 @@ h3 {
 
 #arthed {
     color: #FFF;
+    font-family: "tattoo-font";
     position: absolute;
-    bottom: 0;
+    bottom: 42vw;
     padding: 0;
     margin: 0;
-    font-size: 70px;
-    font-weight: 700;
+    font-size: 10vw;
+    font-weight: normal;
     text-align: center;
     width: 100%;
     text-shadow: 2px 2px 3px #000;
@@ -118,7 +132,7 @@ h3 {
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
+    color: #7e1b12;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
@@ -210,9 +224,10 @@ blockquote {
     padding: 0 20%;
     margin: 0;
     font-size: 25px;
-    text-transform: uppercase;
+    text-transform: lowercase;
     color: #5379c4;
-    font-weight: 800;
+    font-weight: normal;
+    font-family: "tattoo-font";
 }/*add to wrapping div*/
 
 .pq_right {
@@ -222,8 +237,11 @@ blockquote {
     float: right;
     margin: 0;
     font-size: 25px;
-    text-transform: uppercase;
-    color: #5379c4;
+    font-weight:normal;
+    text-transform: lowercase;
+    color: #7e1b12;
+    font-family: "tattoo-font";
+
 }/*add to wrapping div*/
 
 .pq_left {
@@ -233,9 +251,11 @@ blockquote {
     float: left;
     margin: 0;
     font-size: 25px;
-    text-transform: uppercase;
-    font-weight: 700;
+    text-transform: lowercase;
+    font-weight: normal;
     color: #5379c4;
+    font-family: "tattoo-font";
+
 }/*add to wrapping div*/
 
 .attribution {
@@ -416,4 +436,12 @@ float: right;
     .story {
         height: 300px;
     }
+}
+
+@media only screen and (max-width:749px) {
+  .parallax {
+    background-attachment: inherit;
+  }
+}
+    
 }

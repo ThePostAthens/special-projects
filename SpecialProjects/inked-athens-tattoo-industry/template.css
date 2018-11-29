@@ -2,10 +2,7 @@
 This is a template for special projects at The Post.
 Template originally coded by Seth Archer, digital managing editor at The Post.
 Please contact at SethPArcher@gmail.com with questions.*/
-@font-face {
-    font-family:"tattoo-font";
-    src: url('fonts/TATTI___.TTF');
-}
+
 
 .parallax {
     height: 800px;
@@ -117,7 +114,7 @@ h3 {
 
 #arthed {
     color: #FFF;
-    font-family: "tattoo-font";
+    font-family: 'Rye', cursive;
     position: absolute;
     bottom: 42vw;
     padding: 0;
@@ -126,6 +123,7 @@ h3 {
     font-weight: normal;
     text-align: center;
     width: 100%;
+    text-transform: uppercase;
     text-shadow: 2px 2px 3px #000;
 }/*apply to h1 within the heroimg div*/
 
@@ -224,10 +222,10 @@ blockquote {
     padding: 0 20%;
     margin: 0;
     font-size: 25px;
-    text-transform: lowercase;
+    text-transform: uppercase;
     color: #5379c4;
     font-weight: normal;
-    font-family: "tattoo-font";
+font-family: 'Rye', cursive;
 }/*add to wrapping div*/
 
 .pq_right {
@@ -238,9 +236,9 @@ blockquote {
     margin: 0;
     font-size: 25px;
     font-weight:normal;
-    text-transform: lowercase;
+    text-transform: uppercase;
     color: #7e1b12;
-    font-family: "tattoo-font";
+font-family: 'Rye', cursive;
 
 }/*add to wrapping div*/
 
@@ -251,10 +249,10 @@ blockquote {
     float: left;
     margin: 0;
     font-size: 25px;
-    text-transform: lowercase;
+    text-transform: uppercase;
     font-weight: normal;
     color: #5379c4;
-    font-family: "tattoo-font";
+font-family: 'Rye', cursive;
 
 }/*add to wrapping div*/
 

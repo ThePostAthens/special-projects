@@ -3,139 +3,16 @@ This is a template for special projects at The Post.
 Template originally coded by Seth Archer, digital managing editor at The Post.
 Please contact at SethPArcher@gmail.com with questions.*/
 
-
-
-@font-face {
-    font-family:"BigJohn";
-    src: url('fonts/BIG JOHN.otf');
-}
-
-@font-face {
-    font-family:"SlimJoe";
-    src: url('fonts/Slim Joe.otf');
-}
-
-/*landing page*/
-.container {
-    overflow: hidden;
-    display:grid;
-    grid-template-columns: auto auto auto;    
-}
-
-.overlay{
-    opacity: 0;
-}
-
-.content {
- 
-    font-family: "BigJohn";
-    letter-spacing: 4px;
-    color: white;
-    position: absolute;
-    font-size: 20px;
-}
-
-.filterDiv:hover {
-    opacity: .5;
-}
-
-.filterDiv:hover .overlay{
-    opacity: 1;
-}
-
-.filterDiv {
-    float: left;
-    background-position: center;
-    background-color: papayawhip;
-    color: #ffffff;
-    width: 300px;
-    height: 400px;
-    line-height: 100px;
-    display: none;
-    margin-bottom:80px;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-}
-
-.image {
-    opacity:1;
-    display:block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-}
-
-/* The "show" class is added to the filtered elements */
-.show {
-    display: block;
-}
-
-/* Style the buttons */
-#myBtnContainer{
-    padding-top: 0px;
-    padding-bottom: 100px;
-    margin: 0px;
-    font-size: 14px;
-    line-height: 90%;
-    text-align: center;
-    width: 100%;
-    font-family:"SlimJoe"; 
-    text-transform: uppercase;
-}
-
-.btn {
-  border: none;
-  outline: none;
-  padding: 12px 16px;
-  cursor: pointer;
-}
-
-.btn-disabled {
-  border: none;
-  outline: none;
-  padding: 12px 16px;
-  cursor: auto;
-}
-
-.back-btn{
-  border: none;
-  outline: none;
-  padding: 12px 16px;
-  cursor: pointer;
-  background-color: #ddd;
-  color: black;
-  font-family: "SlimJoe";
-  font-size: 14px;
-  text-align: center;
-}
-
-.back-btn:hover{
-  background-color: #666;
-  color: white;
-}
-
-/* Add a light grey background on mouse-over */
-.btn:hover {
-  background-color: #ddd;
-}
-
-/* Add a dark background to the active button */
-.btn.active {
-  background-color: #666;
-  color: white;
-}
-
 /*----- Global Styles -----*/
 
 body {
-    font-family: "montserrat", sans-serif;
+    font-family: montserrat, sans-serif;
     background-color: #FFF;
     color: #030406;
 }
 
 a {
-    color: #BDAAA2;
+    color: #7fc448;
     text-decoration: none;
 }
 
@@ -160,13 +37,10 @@ h3 {
 
 .date{
     font-weight: 800;
-    font-size: 12px;
-    color: #d6d6d6;
+    color: #eed7fc;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
-    font-family: "SlimJoe";
-
 }/*apply to p tag*/
 
 /*-----Column stuff-----*/
@@ -229,29 +103,26 @@ h3 {
 }
 
 #arthed {
-    color: black;
-    background-color: #FFF;
-    padding-top: 100px;
-    padding-bottom: 10px;
-    margin: 0px;
-    font-size: 41px;
-    line-height: 90%;
+    color: #FFF;
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    font-size: 70px;
+    font-weight: 700;
     text-align: center;
     width: 100%;
-    font-family:"BigJohn";    
-    text-transform: uppercase;
-    letter-spacing: 10px;
+    text-shadow: 2px 2px 3px #000;
 }/*apply to h1 within the heroimg div*/
 
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #c0b283;
-    font-family:"BigJohn";    
+    color: #497425;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 900i;
     text-transform: uppercase;
 }/*apply to h1, not the art hed*/
@@ -263,9 +134,10 @@ h3 {
 }/*apply to h4 with developer's name and title*/
 
 .subhed {
-    color: #c0b283;
-    font-family:"BigJohn";
+    font-family: montserrat
+    , sans-serif;
     font-weight: 800;
+    color: #7fc448;
 }/*apply to h2 tags*/
 
 .dropcap {
@@ -488,35 +360,7 @@ float: right;
     padding: 10px 15% 0 15%;
 }
 
-@media screen and (max-width: 1000px){
-.container {
-    overflow: hidden;
-    display:grid;
-    grid-template-columns: auto auto;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.filterDiv {
-    opacity: .5;
-}
-    
-.overlay{
-    opacity: 1;
-}
-    
-
-}
-
 @media screen and (max-width: 750px){
-    
-    .container {
-    overflow: hidden;
-    display:grid;
-    grid-template-columns: auto ;
-    margin-left: auto;
-    margin-right: auto;
-}
     
     .oneimg_right, .oneimg_left, .oneimg_center {
         width: 80%;
@@ -572,38 +416,4 @@ float: right;
     .story {
         height: 300px;
     }
-}
-
-@media screen and (max-width: 625px){
-    
-#arthed {
-    font-size:30px;
-    letter-spacing: 6px;
-}
-    
-#myBtnContainer{
-    padding-top: 0px;
-    padding-bottom: 100px;
-    margin: 0px;
-    font-size: 14px;
-    line-height: 90%;
-    text-align: center;
-    width: 100%;
-    font-family:"SlimJoe"; 
-    font-size: 12px;
-    text-transform: uppercase;
-}
-
-.btn {
-  border: none;
-  outline: none;
-  padding: 8px 6px;
-  cursor: pointer;
-}
-    
-.btn-disabled{
-  border: none;
-  outline: none;
-  padding: 8px 12px;
-}
 }

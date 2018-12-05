@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #ef6423;
     text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #eed7fc;
+    color: #e0dcd7;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -113,12 +113,14 @@ h3 {
     text-align: center;
     width: 100%;
     text-shadow: 2px 2px 3px #000;
+    font-family: 'Bungee', cursive;
+
 }/*apply to h1 within the heroimg div*/
 
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
+    color: #004daf;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
@@ -137,7 +139,7 @@ h3 {
     font-family: montserrat
     , sans-serif;
     font-weight: 800;
-    color: #7fc448;
+    color: #004daf;
 }/*apply to h2 tags*/
 
 .dropcap {
@@ -213,6 +215,7 @@ blockquote {
     text-transform: uppercase;
     color: #5379c4;
     font-weight: 800;
+    font-family: 'Bungee', cursive;
 }/*add to wrapping div*/
 
 .pq_right {
@@ -223,7 +226,8 @@ blockquote {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #5379c4;
+    color: #ac0000;
+    font-family: 'Bungee', cursive;
 }/*add to wrapping div*/
 
 .pq_left {
@@ -236,6 +240,7 @@ blockquote {
     text-transform: uppercase;
     font-weight: 700;
     color: #5379c4;
+    font-family: 'Bungee', cursive;
 }/*add to wrapping div*/
 
 .attribution {

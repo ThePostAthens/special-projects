@@ -35,13 +35,13 @@ Please contact at SethPArcher@gmail.com with questions.*/
  
     font-family: "BigJohn";
     letter-spacing: 4px;
-    color: #fff;
+    color: white;
     text-shadow: #373737 1.5px 1.5px;
     position: absolute;
     font-size: 20px;
     width:240px;
     text-align: center;
-    margin: 150px 30px 10px 30px;
+    margin: 120px 30px 10px 30px;
     line-height: 40px;
     
 }
@@ -49,18 +49,23 @@ Please contact at SethPArcher@gmail.com with questions.*/
 .filterDiv {
     float: left;
     background-position: center;
-    background-color: #f4f4f4f4;
+    background-color: papayawhip;
+    color: #ffffff;
     width: 300px;
     height: 400px;
     line-height: 100px;
+    display: none;
     margin-bottom:80px;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
-    display: none;
 }
 
 .image {
+    opacity:1;
+    display:block;
+    width: 100%;
+    height: auto;
     transition: .5s ease;
 }
 
@@ -72,7 +77,7 @@ Please contact at SethPArcher@gmail.com with questions.*/
 /* Style the buttons */
 #myBtnContainer{
     padding-top: 0px;
-    padding-bottom: 80px;
+    padding-bottom: 100px;
     margin: 0px;
     font-size: 14px;
     line-height: 90%;
@@ -101,7 +106,7 @@ Please contact at SethPArcher@gmail.com with questions.*/
   outline: none;
   padding: 12px 16px;
   cursor: pointer;
-  background-color: #666;
+  background-color: #ddd;
   color: black;
   font-family: "SlimJoe";
   font-size: 14px;
@@ -124,7 +129,164 @@ Please contact at SethPArcher@gmail.com with questions.*/
   color: white;
 }
 
+/*Vertical timeline origional design by CAPTAIN ANONYMOUS https://codepen.io/anon/pen/YRorLx */
 
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.container-tl {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+
+/* TIMELINE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline ul {
+  background: #f4f4f4f4;
+  padding: 50px 0;
+}
+
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 6px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background: #373737;
+}
+
+.timeline ul li::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: inherit;
+}
+
+.timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 400px;
+  padding: 15px;
+  background: #c0b283;
+}
+
+.timeline ul li div::before {
+  content: '';
+  position: absolute;
+  bottom: 7px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.timeline ul li:nth-child(odd) div {
+  left: 45px;
+}
+
+.timeline ul li:nth-child(odd) div::before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #c0b283 transparent transparent;
+}
+
+.timeline ul li:nth-child(even) div {
+  left: -439px;
+}
+
+.timeline ul li:nth-child(even) div::before {
+  right: -15px;
+  border-width: 8px 0 8px 16px;
+  border-color: transparent transparent transparent #c0b283;
+}
+
+time {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+
+/* EFFECTS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline ul li::after {
+  transition: background .5s ease-in-out;
+}
+
+.timeline ul li.in-view::after {
+  background: #c0b283;
+}
+
+.timeline ul li div {
+  visibility: hidden;
+  opacity: 0;
+  transition: all .5s ease-in-out;
+}
+
+.timeline ul li:nth-child(odd) div {
+  transform: translate3d(200px, 0, 0);
+}
+
+.timeline ul li:nth-child(even) div {
+  transform: translate3d(-200px, 0, 0);
+}
+
+.timeline ul li.in-view div {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
+
+
+/* GENERAL MEDIA QUERIES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media screen and (max-width: 900px) {
+  .timeline ul li div {
+    width: 250px;
+  }
+  .timeline ul li:nth-child(even) div {
+    left: -289px;
+    /*250+45-6*/
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .timeline ul li {
+    margin-left: 20px;
+  }
+  .timeline ul li div {
+    width: calc(100vw - 91px);
+  }
+  .timeline ul li:nth-child(even) div {
+    left: 45px;
+  }
+  .timeline ul li:nth-child(even) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #c0b283 transparent transparent;
+  }
+}
+
+/*timeline end*/
 
 /*----- Global Styles -----*/
 
@@ -216,7 +378,6 @@ h3 {
     font-family:"BigJohn";    
     text-transform: uppercase;
     letter-spacing: 10px;
-    line-height: 70px;
 }/*apply to h1 within the heroimg div*/
 
 /*----- Body Copy Things -----*/
@@ -472,6 +633,7 @@ float: right;
     margin-left: auto;
     margin-right: auto;
 }
+    
 
 }
 
@@ -484,7 +646,7 @@ float: right;
     margin-left: auto;
     margin-right: auto;
 }
-  
+    
     .oneimg_right, .oneimg_left, .oneimg_center {
         width: 80%;
         padding: 0 10% 10px 10%;
@@ -546,7 +708,6 @@ float: right;
 #arthed {
     font-size:30px;
     letter-spacing: 6px;
-    line-height: 50px;
 }
     
 #myBtnContainer{

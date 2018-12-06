@@ -15,6 +15,11 @@ Please contact at SethPArcher@gmail.com with questions.*/
 }
 
 /*landing page*/
+
+.paragraph{
+    position:absolute;
+    z-index: 100;
+}
 .container {
     overflow: hidden;
     display:grid;
@@ -140,8 +145,12 @@ Please contact at SethPArcher@gmail.com with questions.*/
 }
 
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.intro {
+  background: #F45B69;
+  padding: 100px 0;
+}
 
-.container-tl {
+.container {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;

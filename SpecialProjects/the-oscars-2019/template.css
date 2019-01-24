@@ -538,6 +538,19 @@ also use these tags to move iframes, graphics etc.. anything that would behave l
     .story {
         height: 300px;
     }
+    
+    .story-title{
+    position:absolute;
+    background-color:transparent;
+    width: 100%;
+    height: auto;
+    color: #FFF;
+    font-family: playfair display;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 5px; 
+}
+
 }
 
 @media screen and (max-width: 400px) {

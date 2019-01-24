@@ -39,7 +39,7 @@ Please contact at SethPArcher@gmail.com with questions.*/
 
 .filmstrip {
     width: 100%;
-    height: 100px;
+    height: 15vw;
     border-top: 7px dashed white;
     border-bottom: 7px dashed white;
     padding-bottom:20px;
@@ -475,14 +475,9 @@ also use these tags to move iframes, graphics etc.. anything that would behave l
 
 @media screen and (max-width: 750px) {
     
-    .filmstrip {
-        width: 100%;
-        height: 250px;
-        border-top: 7px dashed white;
-        border-bottom: 7px dashed white;
-        padding-bottom:20px;
-        padding-top:20px;
-}
+.filmstrip {
+    width: 100%;
+    height: 160px;}
 
     .oneimg_right,
     .oneimg_left,
@@ -543,4 +538,12 @@ also use these tags to move iframes, graphics etc.. anything that would behave l
     .story {
         height: 300px;
     }
+}
+
+@media screen and (max-width: 400px) {
+    
+    .filmstrip {
+    width: 100%;
+    height: 50vw;
+    
 }

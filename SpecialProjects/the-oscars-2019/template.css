@@ -7,7 +7,7 @@ Please contact at SethPArcher@gmail.com with questions.*/
     padding: 2em;
     display: flex;
     justify-content: center;
-    flex-flow: row wrap; 
+    flex-flow: row wrap;
 }
 
 .category {
@@ -16,7 +16,7 @@ Please contact at SethPArcher@gmail.com with questions.*/
     color: #787063;
     font-family: "playfair display";
     font-size: 40px;
-        
+
 }
 
 
@@ -24,8 +24,8 @@ Please contact at SethPArcher@gmail.com with questions.*/
     margin: 30px auto;
     max-width: 100%;
     border: 5px solid #131015;
-  /*display: flex;*/
-  /*flex-flow: row wrap; */
+    /*display: flex;*/
+    /*flex-flow: row wrap; */
 }
 
 .portfolio_slider {
@@ -44,29 +44,81 @@ Please contact at SethPArcher@gmail.com with questions.*/
     height: 15vw;
     border-top: 7px dashed white;
     border-bottom: 7px dashed white;
-    padding-bottom:20px;
-    padding-top:20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
-.filmstrip img{
+.filmstrip img {
     object-fit: cover;
     border: none;
+
 }
 
 .filmstrip:hover {
     opacity: 0.9;
 }
 
-.story-title{
-    position:absolute;
-    background-color:transparent;
+.story-title {
+    position: absolute;
+    background-color: transparent;
     width: 100%;
     height: auto;
     color: #FFF;
     font-family: playfair display;
     text-transform: uppercase;
     font-size: 10px;
-    margin-top: 5px; 
+    margin-top: 5px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin: 0 auto;
+    grid-gap: 20px;
+    padding: 20px 20px 20px 20px;
+    margin: 0 auto;
+    justify-items: center;
+    text-align: center;
+    padding-bottom: 400px:
+}
+
+..card {
+
+    background-color: #F8F7EF;
+    transition: 0.3s;
+    width: 200px;
+    height: 300px;
+    padding: 20px 20px 20px 20px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.card img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    margin-top: auto;
+}
+
+.category-card {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 60px;
+    color: #787063;
+    font-family: "playfair display";
+}
+
+.story-title-card {
+    position: absolute;
+    background-color: transparent;
+    margin-bottom: 50px;
+    color: #161616;
+    font-family: playfair display;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-top: 5px;
 }
 
 /*----- Global Styles -----*/
@@ -74,7 +126,7 @@ Please contact at SethPArcher@gmail.com with questions.*/
 
 body {
     font-family: montserrat, sans-serif;
-    background-color: #d2c7b4 ;
+    background-color: #d2c7b4;
     color: black;
 }
 
@@ -210,6 +262,7 @@ h3 {
     font-size: 16px;
     font-weight: 100;
     padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 /*apply to h4 with developer's name and title*/
@@ -476,10 +529,11 @@ also use these tags to move iframes, graphics etc.. anything that would behave l
 }
 
 @media screen and (max-width: 750px) {
-    
-.filmstrip {
-    width: 100%;
-    height: 160px;}
+
+    .filmstrip {
+        width: 100%;
+        height: 160px;
+    }
 
     .oneimg_right,
     .oneimg_left,
@@ -540,35 +594,49 @@ also use these tags to move iframes, graphics etc.. anything that would behave l
     .story {
         height: 300px;
     }
-    
-    .story-title{
-    position:absolute;
-    background-color:transparent;
-    width: 100%;
-    height: auto;
-    color: #FFF;
-    font-family: playfair display;
-    text-transform: uppercase;
-    font-size: 14px;
-    margin-top: 5px; 
-}
-    
+
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 
 
 }
 
 @media screen and (max-width: 400px) {
-    
+
     .filmstrip {
-    width: 100%;
-        height: 50vw;}
-    
+        width: 100%;
+        height: 50vw;
+    }
+
     .category {
-    text-align: center;
-    margin-top: 60px;
-    color: #787063;
-    font-family: "playfair display";
-    font-size: 25px;
-}
+        text-align: center;
+        margin-top: 60px;
+        color: #787063;
+        font-family: "playfair display";
+        font-size: 25px;
+    }
     
+    .category-card{
+        font-size: 25px;
+    }
+    
+    .story-title {
+        position: absolute;
+        background-color: transparent;
+        width: 100%;
+        height: auto;
+        color: #FFF;
+        font-family: "playfair display";
+        text-transform: uppercase;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    
+    .story-title-card {
+        font-size: 14px;
+    }
+
 }

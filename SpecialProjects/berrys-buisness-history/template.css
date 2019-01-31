@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #a45a14;
     text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #eed7fc;
+    color: #fcdf8c;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -108,23 +108,28 @@ h3 {
     bottom: 0;
     padding: 0;
     margin: 0;
-    font-size: 70px;
-    font-weight: 700;
+    font-size: 6vw;
+    font-weight: normal;
     text-align: center;
     width: 100%;
     text-shadow: 2px 2px 3px #000;
+    font-family: 'Limelight', cursive;
+
 }/*apply to h1 within the heroimg div*/
 
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
+    color: #29a788;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
     font-size: 40px;
     font-weight: 900i;
     text-transform: uppercase;
+    
+        font-family: 'Limelight', cursive;
+
 }/*apply to h1, not the art hed*/
 
 .credit {
@@ -211,8 +216,10 @@ blockquote {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #5379c4;
+    color: #29a788;
     font-weight: 800;
+    font-family: 'Limelight', cursive;
+
 }/*add to wrapping div*/
 
 .pq_right {
@@ -223,7 +230,9 @@ blockquote {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #5379c4;
+    color: #29a788;
+    font-family: 'Limelight', cursive;
+
 }/*add to wrapping div*/
 
 .pq_left {
@@ -235,7 +244,9 @@ blockquote {
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #5379c4;
+    color: #29a788;
+    font-family: 'Limelight', cursive;
+
 }/*add to wrapping div*/
 
 .attribution {
@@ -383,7 +394,6 @@ float: right;
     }
     
     #arthed {
-        font-size: 40px;
     }
     
     .subhed{

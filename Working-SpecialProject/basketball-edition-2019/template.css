@@ -11,88 +11,48 @@ Please contact at SethPArcher@gmail.com with questions.*/
 /* animation container */
 
 
-#ballWrapper {
-  width: 100px;
-  height: 260px;
-  display: block;
-  position: absolute;
-  cursor: pointer;
-  top: 12.1vw;
-  left: 46vw;
+
+/* GRID */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto  auto;
+  text-align: center;
+  grid-gap: 20px;
+  padding: 20px 20px 20px 20px;
+  margin: 0 auto;
+  margin-top: 40px;
+
 }
 
-#ball {
-  width: 8vw;
-  height:8vw;
-  position: relative;
-  animation: jump 1s infinite;
+.grid-item {
+  width: 160px;
+  height: 160px;
+  background-color: #fdcb62;
+  margin: 0 auto;
+  margin-bottom: 4vw;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
 }
 
-
-/*Ball texture*/
-
-#ball:after {
-  content: "";
-  width: 8vw;
-  height: 8vw;
-  border-radius: 100%;
-  background: url("http://svgur.com/i/4D.svg");
+.grid-item img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%
+}
+.the-title {
+  font-size: 18px;
+  text-transform: lowercase;
   position: absolute;
-  animation: rotate 2s infinite, back 1s infinite;
-  z-index: 5;
-  background-repeat: repeat;
-  background-size: cover;
-  animation-timing-function: linear;
-}
+  font-family: "varsity";
+  font-weight: normal;
+  color: #fff;
+  }
 
-/* Animation keyframes */
-
-
-
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-
-
-@keyframes lightop {
-  0% {
-    opacity: .25;
-  }
-  50% {
-    opacity: .1;
-  }
-  100% {
-    opacity: .25;
-  }
-}
-
-@keyframes shadop {
-  0% {
-    opacity: .25;
-  }
-  50% {
-    opacity: .55;
-  }
-  100% {
-    opacity: .25;
-  }
-}
-
-@keyframes back {
-  0% {
-    background-position: top;
-  }
-  100% {
-    background-position: bottom;
-  }
-}
+/* HOVER */
 
 /*----- Global Styles -----*/
 
@@ -103,7 +63,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #fdcb62;
     text-decoration: none;
 }
 
@@ -128,7 +88,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #eed7fc;
+    color: #ec5915;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -184,14 +144,93 @@ h3 {
 
 /*----- Hero Image -----*/
 
+#ballWrapper {
+  position: absolute;
+  top: 14vw;
+  left: 46vw;
+}
+
+#ball {
+  width: 8vw;
+  height:8vw;
+  position: relative;
+  overflow: hidden;
+}
+
+/*Ball texture*/
+
+#ball:after {
+  content: "";
+  width: 8vw;
+  height: 8vw;
+  border-radius: 100%;
+  background: url("http://svgur.com/i/4D.svg");
+  position: absolute;
+  animation: rotate 2s infinite, back 1s infinite;
+  z-index: 5;
+  background-size: cover;
+  animation-timing-function: linear;
+}
+
+/* Animation keyframes */
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes back {
+  0% {
+    background-position: top;
+  }
+  100% {
+    background-position: bottom;
+  }
+}
+
+.lt-blue{
+  height: 18vw;
+  width: 4.5vw;
+  background-color:#7b9eaf;
+  position: absolute;
+  left: 46vw;
+}
+
+.dk-blue{
+  height: 18vw;
+  width: 4vw;
+  background-color:#2c4654;
+  position: absolute;
+  left: 50vw;
+}
+
+.sparkle{
+  border-radius: 50px;
+  width: 200px;
+  height: 10px;
+  color: green;
+  z-index: 111;
+}
+
+#basket{
+  width: 14vw;
+  margin-left: 42.87vw;
+  margin-top: 26vw;
+}
+
 #heroimg {
     width: 100%;
     position: relative ;
+    height: 55vw;
+    background-color: #fdcb62;
 }/*apply to wrapping div with an img tag within*/
 
 #heroimg img {
     width: 100%;
-
 }
 
 #arthed {
@@ -212,7 +251,7 @@ h3 {
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
+    color: #2b4654;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
@@ -229,10 +268,10 @@ h3 {
 }/*apply to h4 with developer's name and title*/
 
 .subhed {
-    font-family: montserrat
+    font-family: "varsity"
     , sans-serif;
     font-weight: 800;
-    color: #7fc448;
+    color: #799eb0;
 }/*apply to h2 tags*/
 
 .dropcap {
@@ -304,10 +343,11 @@ blockquote {
     width: 60%;
     padding: 0 20%;
     margin: 0;
+    font-family: "varsity";
     font-size: 25px;
     text-transform: uppercase;
-    color: #5379c4;
-    font-weight: 800;
+    color: #2b4654;
+    font-weight: normal;
 }/*add to wrapping div*/
 
 .pq_right {
@@ -318,7 +358,10 @@ blockquote {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #5379c4;
+    color: #2b4654;
+    font-family: "varsity";
+    font-weight:normal;
+
 }/*add to wrapping div*/
 
 .pq_left {
@@ -329,13 +372,14 @@ blockquote {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    font-weight: 700;
-    color: #5379c4;
+    font-weight: normal;
+    color: #2b4654;
+    font-family: "varsity";
 }/*add to wrapping div*/
 
 .attribution {
     font-size: 20px;
-    text-transform: none;
+    text-transform: lowercase;
     display: block;
     text-align: right;
     font-weight: 400;
@@ -360,7 +404,7 @@ also use these tags to move iframes, graphics etc.. anything that would behave l
 }/*add p tag, should be after the photog p tag*/
 
 .galleryPcut{
-float: right;
+    float: right;
     text-align: left;
     margin:0;
     font-weight: 100;
@@ -455,7 +499,53 @@ float: right;
     padding: 10px 15% 0 15%;
 }
 
+@media screen and (max-width: 970px){
+  .grid-container {
+    grid-template-columns: auto auto auto auto;
+}
+
+@media screen and (max-width: 800px){
+  .grid-container {
+    grid-template-columns: auto auto auto;
+}
+
+@media screen and (max-width: 600px){
+  .grid-container {
+    grid-template-columns:  auto auto;
+}
+
 @media screen and (max-width: 750px){
+
+  #ballWrapper {
+    position: absolute;
+    top: 74vw;
+    left: 46vw;
+  }
+
+  .lt-blue{
+    height: 78vw;
+    width: 4.5vw;
+    background-color:#7b9eaf;
+    position: absolute;
+    left: 46vw;
+  }
+
+  .dk-blue{
+    height: 78vw;
+    width: 4vw;
+    background-color:#2c4654;
+    position: absolute;
+    left: 50vw;
+  }
+
+  #basket{
+    width: 14vw;
+    padding-top: 60vw;
+  }
+
+  #heroimg {
+      height: 120vw;
+  }/*apply to wrapping div with an img tag within*/
 
     .oneimg_right, .oneimg_left, .oneimg_center {
         width: 80%;
@@ -478,6 +568,7 @@ float: right;
     }
 
     #arthed {
+      font-weight: normal;
     }
 
     .subhed{

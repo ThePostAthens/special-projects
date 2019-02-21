@@ -666,7 +666,7 @@ also use these tags to move iframes, graphics etc.. anything that would behave l
   }
 
   #heroimg {
-      height: 120vw;
+      height: 135vw;
   }/*apply to wrapping div with an img tag within*/
 
     .oneimg_right, .oneimg_left, .oneimg_center {

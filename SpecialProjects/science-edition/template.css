@@ -401,8 +401,9 @@ Please contact at SethPArcher@gmail.com with questions.*/
     color: #373737;
     text-shadow: #fff 1px 1.5px;
     position: absolute;
-    font-size: 2vw;
-    margin-left: 10px;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top:20px;
 
 }
 
@@ -688,7 +689,7 @@ h3 {
     bottom: 0;
     padding: 0;
     margin: 0;
-    font-size: 70px;
+    font-size: 7vw;
     font-weight: 700;
     text-align: center;
     width: 100%;
@@ -972,7 +973,6 @@ float: right;
     }
 
     #arthed {
-        font-size: 40px;
     }
 
     .subhed{

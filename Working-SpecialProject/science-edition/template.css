@@ -559,10 +559,35 @@ Please contact at SethPArcher@gmail.com with questions.*/
 
 /*----- Global Styles -----*/
 
-body {
+.button {
+  background-color: #f97041;
+  color: #fff;
+  border-radius: 25px;
+  padding:10px 18px 10px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  width: 30px;
+  margin-bottom: 20px;
+
+}
+
+.button:hover {
+  background-color: #c43d19; /* Green */
+  color: #fff;
+}
+
+.index {
     font-family: montserrat, sans-serif;
     background-color: #A9A8AD;
-;
+    color: #030406;
+}
+
+body {
+    font-family: montserrat, sans-serif;
+    background-color: #fff;
     color: #030406;
 }
 

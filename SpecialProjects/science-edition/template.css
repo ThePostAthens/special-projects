@@ -354,6 +354,23 @@ Please contact at SethPArcher@gmail.com with questions.*/
     opacity: 1;
 }
 
+.fifteen {
+    background-image: url("https://s3.amazonaws.com/snwceomedia/ohi/bb89bd2d-e824-491c-b08f-616e94946d80.sized-1000x1000.png");
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: center;
+    border: solid 1px #373737;
+    border-radius: 25px;
+
+}
+
+.fifteen:hover {
+    opacity: .5;
+}
+
+.fifteen:hover .overlay {
+    opacity: 1;
+}
 
 
 
@@ -464,8 +481,8 @@ Please contact at SethPArcher@gmail.com with questions.*/
     }
 
     .projects div:nth-child(15) {
-        grid-column: 1;
-        grid-row: 16 / span 1;
+        grid-column: 2;
+        grid-row: 15 / span 1;
     }
 
     .projects div:nth-child(16) {

@@ -103,7 +103,7 @@ Please contact at SethPArcher@gmail.com with questions.*/
 }
 
 .one {
-    background-image: url("   ");
+    background-image: url("https://s3.amazonaws.com/snwceomedia/ohi/0f7d3c75-8e31-4661-89fa-0397bca719a7.sized-1000x1000.jpg");
     background-repeat: no-repeat;
     background-size: 120%;
     background-position: center;
@@ -211,9 +211,9 @@ Please contact at SethPArcher@gmail.com with questions.*/
 }
 
 .seven {
-    background-image: url("   ");
+    background-image: url("https://s3.amazonaws.com/snwceomedia/ohi/18555505-cec6-43fd-a456-d9d4c31ddb47.sized-1000x1000.png");
     background-repeat: no-repeat;
-    background-size: 120%;
+    background-size: 300%;
     background-position: center;
     border: solid 1px #373737;
     border-radius: 25px;
@@ -229,9 +229,9 @@ Please contact at SethPArcher@gmail.com with questions.*/
 }
 
 .eight {
-    background-image: url("   ");
+    background-image: url("https://s3.amazonaws.com/snwceomedia/ohi/8ece19eb-0402-40d6-853a-d39657a85a25.sized-1000x1000.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 300%;
     background-position: center;
     border: solid 1px #373737;
     border-radius: 25px;
@@ -247,9 +247,9 @@ Please contact at SethPArcher@gmail.com with questions.*/
 }
 
 .nine {
-    background-image: url("   ");
+    background-image: url("https://s3.amazonaws.com/snwceomedia/ohi/2151b9a0-c084-4500-a235-8905d1c67111.sized-1000x1000.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 150%;
     background-position: center;
     border: solid 1px #373737;
     border-radius: 25px;
@@ -265,7 +265,7 @@ Please contact at SethPArcher@gmail.com with questions.*/
 }
 
 .ten {
-    background-image: url("   ");
+    background-image: url("https://s3.amazonaws.com/snwceomedia/ohi/06a17bba-4f54-4569-b296-996742e3a18c.sized-1000x1000.png");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
@@ -283,9 +283,9 @@ Please contact at SethPArcher@gmail.com with questions.*/
 }
 
 .eleven {
-    background-image: url("   ");
+    background-image: url("https://s3.amazonaws.com/snwceomedia/ohi/5a9bc0cd-8b0a-4382-a249-4139a391851c.sized-1000x1000.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 150%;
     background-position: center;
     border: solid 1px #373737;
     border-radius: 25px;
@@ -301,7 +301,7 @@ Please contact at SethPArcher@gmail.com with questions.*/
 }
 
 .twelve {
-    background-image: url("   ");
+    background-image: url("https://s3.amazonaws.com/snwceomedia/ohi/e44361a6-aa22-40cb-afb7-ff7014c076c7.sized-1000x1000.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
@@ -319,9 +319,9 @@ Please contact at SethPArcher@gmail.com with questions.*/
 }
 
 .thirteen {
-    background-image: url("   ");
+    background-image: url("https://s3.amazonaws.com/snwceomedia/ohi/0ca78e91-9bcd-4ed8-bd87-17b62fb270af.sized-1000x1000.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 150%;
     background-position: center;
     border: solid 1px #373737;
     border-radius: 25px;
@@ -337,9 +337,9 @@ Please contact at SethPArcher@gmail.com with questions.*/
 }
 
 .fourteen {
-    background-image: url("   ");
+    background-image: url("https://s3.amazonaws.com/snwceomedia/ohi/0d62e0ec-a42f-4564-8223-8aea6799aa88.sized-1000x1000.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 120%;
     background-position: center;
     border: solid 1px #373737;
     border-radius: 25px;
@@ -354,42 +354,6 @@ Please contact at SethPArcher@gmail.com with questions.*/
     opacity: 1;
 }
 
-.fifteen {
-    background-image: url("   ");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-    border: solid 1px #373737;
-    border-radius: 25px;
-
-}
-
-.fifteen:hover {
-    opacity: .5;
-}
-
-.fifteen:hover .overlay {
-    opacity: 1;
-}
-
-.sixteen {
-    background-image: url("   ");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-    border: solid 1px #373737;
-    border-radius: 25px;
-
-}
-
-.sixteen:hover {
-    opacity: .5;
-}
-
-.sixteen:hover .overlay {
-    opacity: 1;
-}
-
 
 
 
@@ -401,7 +365,7 @@ Please contact at SethPArcher@gmail.com with questions.*/
     color: #373737;
     text-shadow: #fff 1px 1.5px;
     position: absolute;
-    font-size: 18px;
+    font-size: 2vw;
     margin-left: 20px;
     margin-top:20px;
 
@@ -410,6 +374,16 @@ Please contact at SethPArcher@gmail.com with questions.*/
 /* GRID MEDIA */
 
 @media screen and (max-width: 900px) {
+
+  .content {
+      color: #373737;
+      text-shadow: #fff 1px 1.5px;
+      position: absolute;
+      font-size: 3vw;
+      margin-left: 20px;
+      margin-top:20px;
+
+  }
 
     .projects {
         overflow: hidden;

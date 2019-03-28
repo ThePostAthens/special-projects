@@ -3,41 +3,12 @@ This is a template for special projects at The Post.
 Template originally coded by Seth Archer, digital managing editor at The Post.
 Please contact at SethPArcher@gmail.com with questions.*/
 
-
-@font-face {
-  font-family:"bubble-font";
-  src: url(fonts/Balonku-Regular.otf);
-}
-
-html,
-body {
-  height: 100%;
-}
-
-body {
-  background: #00afe9;
-}
-
 canvas {
   display: block;
   width: 100%;
   height: 100%;
   position: relative;
   z-index: 10;
-}
-
-.instructions {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  color: #fff;
-  border: 3px solid #fff;
-  border-radius: 6px;
-  padding: 8px;
 }
 
 /*----- Global Styles -----*/

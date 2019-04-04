@@ -18,9 +18,7 @@ Please contact at SethPArcher@gmail.com with questions.*/
 .container {
     overflow: hidden;
     display:grid;
-    grid-template-columns: auto auto auto;  
-    overflow: hidden;
-
+    grid-template-columns: auto auto auto;
 }
 
 .filterDiv:hover {
@@ -32,7 +30,7 @@ Please contact at SethPArcher@gmail.com with questions.*/
 }
 
 .content {
- 
+
     font-family: "BigJohn";
     letter-spacing: 4px;
     color: #f4f4f4;
@@ -43,7 +41,7 @@ Please contact at SethPArcher@gmail.com with questions.*/
     text-align: center;
     margin: 150px 30px 10px 30px;
     line-height: 40px;
-    
+
 }
 
 .filterDiv {
@@ -78,7 +76,7 @@ Please contact at SethPArcher@gmail.com with questions.*/
     line-height: 90%;
     text-align: center;
     width: 100%;
-    font-family:"SlimJoe"; 
+    font-family:"SlimJoe";
     text-transform: uppercase;
 }
 
@@ -213,7 +211,7 @@ h3 {
     line-height: 90%;
     text-align: center;
     width: 100%;
-    font-family:"BigJohn";    
+    font-family:"BigJohn";
     text-transform: uppercase;
     letter-spacing: 10px;
     line-height: 70px;
@@ -223,7 +221,7 @@ h3 {
 
 .headline {
     color: #c0b283;
-    font-family:"BigJohn";    
+    font-family:"BigJohn";
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
@@ -477,7 +475,7 @@ float: right;
 }
 
 @media screen and (max-width: 750px){
-    
+
     .container {
     overflow: hidden;
     display:grid;
@@ -485,39 +483,39 @@ float: right;
     margin-left: auto;
     margin-right: auto;
 }
-  
+
     .oneimg_right, .oneimg_left, .oneimg_center {
         width: 80%;
         padding: 0 10% 10px 10%;
     }
-    
+
     .oneimg_full p {
         width: 80%;
         padding: 0 10%;
     }
-    
+
     .pq_center, .pq_right, .pq_left {
         padding: 0 5%;
         width: 90%;
     }
-    
+
     .column20center, p {
         width: 80%;
         padding: 0 10%;
     }
-    
+
     #arthed {
         font-size: 40px;
     }
-    
+
     .subhed{
         padding: 0 10%;
     }
-    
+
     .credit{
         padding-bottom: 20px;
     }
-    
+
     #logo {
         height: 25px;
     }
@@ -527,29 +525,29 @@ float: right;
         padding: 0% 10% 0 10%;
         font-size: 25px;
     }
-    
+
     .date {
         padding: 0 10%;
         width: 80%;
     }
-    
+
     #banner {
         font-size: 50px;
     }
-    
+
     .story {
         height: 300px;
     }
 }
 
 @media screen and (max-width: 625px){
-    
+
 #arthed {
     font-size:30px;
     letter-spacing: 6px;
     line-height: 50px;
 }
-    
+
 #myBtnContainer{
     padding-top: 0px;
     padding-bottom: 100px;
@@ -558,7 +556,7 @@ float: right;
     line-height: 90%;
     text-align: center;
     width: 100%;
-    font-family:"SlimJoe"; 
+    font-family:"SlimJoe";
     font-size: 12px;
     text-transform: uppercase;
 }
@@ -569,7 +567,7 @@ float: right;
   padding: 8px 6px;
   cursor: pointer;
 }
-    
+
 .btn-disabled{
   border: none;
   outline: none;

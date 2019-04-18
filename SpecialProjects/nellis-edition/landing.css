@@ -92,7 +92,7 @@ h3 {
     left: 50%;
     margin-left: -100px !important;  /* 50% of your logo width */
     display: block;
-    
+
 }
 
 #nav_bar li {
@@ -200,7 +200,7 @@ h3 {
 
 .front {
   z-index: 1;
-  background: url('https://s3.amazonaws.com/media.ohi/18656_nelliscolor2f.jpg') no-repeat;
+  background: url('https://snworksceo.imgix.net/ohi/9e724571-e02b-4c52-903c-971291f1e42d.sized-1000x1000.jpg?w=800') no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -455,39 +455,39 @@ float: right;
 }
 
 @media screen and (max-width: 750px){
-    
+
     .oneimg_right, .oneimg_left, .oneimg_center {
         width: 80%;
         padding: 0 10% 10px 10%;
     }
-    
+
     .oneimg_full p {
         width: 80%;
         padding: 0 10%;
     }
-    
+
     .pq_center, .pq_right, .pq_left {
         padding: 0 5%;
         width: 90%;
     }
-    
+
     .column20center, p {
         width: 80%;
         padding: 0 10%;
     }
-    
+
     #arthed {
         font-size: 40px;
     }
-    
+
     .subhed{
         padding: 0 10%;
     }
-    
+
     .credit{
         padding-bottom: 20px;
     }
-    
+
     #logo {
         height: 25px;
     }
@@ -497,20 +497,20 @@ float: right;
         padding: 0% 10% 0 10%;
         font-size: 25px;
     }
-    
+
     .date {
         padding: 0 10%;
         width: 80%;
     }
-    
+
     #banner {
         font-size: 50px;
     }
-    
+
     .story {
         height: 300px;
     }
-    
+
     .grid h1 {
   position: absolute;
   top: 5%;

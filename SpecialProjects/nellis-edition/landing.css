@@ -200,7 +200,7 @@ h3 {
 
 .front {
   z-index: 1;
-  background: url('https://snworksceo.imgix.net/ohi/9e724571-e02b-4c52-903c-971291f1e42d.sized-1000x1000.jpg?w=800') no-repeat;
+  background: url('https://s3.amazonaws.com/media.ohi/18656_nelliscolor2f.jpg') no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;

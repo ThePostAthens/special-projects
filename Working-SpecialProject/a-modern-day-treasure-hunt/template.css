@@ -150,6 +150,23 @@ h3 {
     padding-right: 5px;
 }/*apply to wrapping span tag*/
 
+/*----- Gallery Stuff -----*/
+
+.gallery_bot {
+    padding: 0;
+    width: 20%;
+    float: left;
+}
+
+.w3-hover-shadow:hover {
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important
+}
+
+.mySlides {
+    display:none;
+}
+
+
 .title {
     color: #606060;
 }/*should be in same p tag as the author name*/
@@ -224,8 +241,8 @@ blockquote {
     float: right;
     margin: 0;
     font-size: 25px;
-    text-transform: uppercase;
-    color: #5379c4;
+    color: #8f191c;
+
 }/*add to wrapping div*/
 
 .pq_left {

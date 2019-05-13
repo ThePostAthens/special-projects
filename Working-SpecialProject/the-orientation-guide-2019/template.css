@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #FFD38C;
     text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #eed7fc;
+    color: #054F2B;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -118,7 +118,7 @@ h3 {
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
+    color: #75C0E3;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
@@ -361,39 +361,39 @@ float: right;
 }
 
 @media screen and (max-width: 750px){
-    
+
     .oneimg_right, .oneimg_left, .oneimg_center {
         width: 80%;
         padding: 0 10% 10px 10%;
     }
-    
+
     .oneimg_full p {
         width: 80%;
         padding: 0 10%;
     }
-    
+
     .pq_center, .pq_right, .pq_left {
         padding: 0 5%;
         width: 90%;
     }
-    
+
     .column20center, p {
         width: 80%;
         padding: 0 10%;
     }
-    
+
     #arthed {
         font-size: 40px;
     }
-    
+
     .subhed{
         padding: 0 10%;
     }
-    
+
     .credit{
         padding-bottom: 20px;
     }
-    
+
     #logo {
         height: 25px;
     }
@@ -403,16 +403,16 @@ float: right;
         padding: 0% 10% 0 10%;
         font-size: 25px;
     }
-    
+
     .date {
         padding: 0 10%;
         width: 80%;
     }
-    
+
     #banner {
         font-size: 50px;
     }
-    
+
     .story {
         height: 300px;
     }

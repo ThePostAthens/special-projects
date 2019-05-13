@@ -74,7 +74,6 @@ h3 {
 #heroimg img {
     width: 100%;
 }
-
 #arthed {
     color: #000;
     position: absolute;
@@ -338,39 +337,39 @@ float: right;
 }
 
 @media screen and (max-width: 750px){
-    
+
     .oneimg_right, .oneimg_left, .oneimg_center {
         width: 80%;
         padding: 0 10% 10px 10%;
     }
-    
+
     .oneimg_full p {
         width: 80%;
         padding: 0 10%;
     }
-    
+
     .pq_center, .pq_right, .pq_left {
         padding: 0 5%;
         width: 90%;
     }
-    
+
     .column20center, p {
         width: 80%;
         padding: 0 10%;
     }
-    
+
     #arthed {
         font-size: 40px;
     }
-    
+
     .subhed{
         padding: 0 10%;
     }
-    
+
     .credit{
         padding-bottom: 20px;
     }
-    
+
     #logo {
         height: 25px;
     }
@@ -380,16 +379,16 @@ float: right;
         padding: 0% 10% 0 10%;
         font-size: 25px;
     }
-    
+
     .date {
         padding: 0 10%;
         width: 80%;
     }
-    
+
     #banner {
         font-size: 50px;
     }
-    
+
     .story {
         height: 300px;
     }

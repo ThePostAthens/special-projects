@@ -100,16 +100,16 @@ h3 {
     height: 900px;
     position: relative;
     background-color: black;
-    
+
 }/*apply to wrapping div with an img tag within*/
 
 #heroimg img {
     width: 100%;
-    
+
 }
 
 #arthed {
-    background-image: url(https://s3.amazonaws.com/media.ohi/16824_dsc_3435f.jpg);
+    background-image: url('https://snworksceo.imgix.net/ohi/f5150f3a-3347-4e7f-bba9-4c19f97c2ab6.sized-1000x1000.jpg?w=800');
     background-position: 50% 50%;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -123,8 +123,8 @@ h3 {
     text-align: center;
     width: 100%;
     line-height: 150px
-    
-   
+
+
 }/*apply to h1 within the heroimg div*/
 
 #tall_text {
@@ -353,49 +353,49 @@ float: right;
 }/* add to the wrapping div, give the div an inline style with the photo you want to be parallax*/
 
 @media screen and (max-width: 750px){
-    
+
     .oneimg_right, .oneimg_right1, .oneimg_left, .oneimg_center {
         width: 80%;
         padding: 0 10% 10px 10%;
     }
-    
+
     .oneimg_full p {
         width: 80%;
         padding: 0 10%;
     }
-    
+
     .pq_center, .pq_right, .pq_left {
         padding: 0 5%;
         width: 90%;
     }
-    
+
     .column20center, p {
         width: 80%;
         padding: 0 10%;
     }
-    
+
     #heroimg {
         height: 300px;
     }
-    
+
     #arthed {
         font-size: 40px;
         line-height: normal;
         bottom: 20%;
     }
-    
+
     #tall_text {
         font-size: 60px;
     }
-    
+
     .subhed{
         padding: 0 10%;
     }
-    
+
     .credit{
         padding-bottom: 20px;
     }
-    
+
     #logo {
         height: 25px;
     }
@@ -405,5 +405,5 @@ float: right;
         padding: 4% 10% 0 10%;
         font-size: 25px;
     }
-    
+
 }

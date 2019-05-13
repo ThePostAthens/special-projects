@@ -201,7 +201,7 @@ hr {
 .two {
 	grid-column: 2;
 	grid-row: 1;
-	background-image: url('https://s3.amazonaws.com/media.ohi/17601_f863720d61450747e485cd1e603674f13ea7d70cf.jpg');
+	background-image: url('https://snworksceo.imgix.net/ohi/ffa7f54e-750c-4d02-bb4c-254f1a4642ba.sized-1000x1000.jpg?w=800');
     position: relative;
     background-size: cover;
     border: 5px solid maroon;
@@ -219,7 +219,7 @@ hr {
 .three {
 	grid-column: 3;
 	grid-row: 1;
-	background-image: url('https://s3.amazonaws.com/media.ohi/17831_bntbtripf.jpg');
+	background-image: url('https://snworksceo.imgix.net/ohi/5e619ed4-b364-4c05-8e9a-cae94a3f9e8e.sized-1000x1000.jpg?w=800');
     position: relative;
     background-size: cover;
     border: 5px solid maroon;
@@ -253,7 +253,7 @@ hr {
 .five {
 	grid-column: 1;
 	grid-row: 2;
-	background-image: url('https://s3.amazonaws.com/media.ohi/18364_dunkirk0001f.jpg');
+	background-image: url('https://snworksceo.imgix.net/ohi/112e6104-f6f6-4f91-b2d9-37b1b0bb200d.sized-1000x1000.jpg?w=800');
     position: relative;
     background-size: cover;
     border: 5px solid maroon;
@@ -289,7 +289,7 @@ hr {
 .seven {
 	grid-column: 3;
 	grid-row: 2;
-	background-image: url('https://s3.amazonaws.com/media.ohi/18333_18879438_316646998766621_818116052125745152_nf.jpg');
+	background-image: url('https://snworksceo.imgix.net/ohi/f52d865f-4b6a-424b-8771-bf6585523aac.sized-1000x1000.jpg?w=800');
     position: relative;
     background-size: cover;
     border: 5px solid maroon;

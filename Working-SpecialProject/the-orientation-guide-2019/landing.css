@@ -7,7 +7,7 @@ Please contact at SethPArcher@gmail.com with questions.*/
 
 body {
     font-family: montserrat, sans-serif;
-    background-color: #08762B;
+    background-color: #fff;
     color: #030406;
 }
 
@@ -177,14 +177,15 @@ img.landing {
 #arthed {
     color: #FFF;
     position: absolute;
-    bottom: 0;
+    bottom: 50%;
     padding: 0;
     margin: 0;
-    font-size: 70px;
+    font-size: 100px;
     font-weight: 700;
     text-align: center;
     width: 100%;
     text-shadow: 2px 2px 3px #000;
+    -webkit-text-stroke: 4px #FFD38C;
 }/*apply to h1 within the heroimg div*/
 
 /*----- Body Copy Things -----*/

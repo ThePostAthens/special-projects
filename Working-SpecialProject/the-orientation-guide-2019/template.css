@@ -113,6 +113,7 @@ h3 {
     text-align: center;
     width: 100%;
     text-shadow: 2px 2px 3px #000;
+    -webkit-text-stroke: 4px #FFD38C;
 }/*apply to h1 within the heroimg div*/
 
 /*----- Body Copy Things -----*/

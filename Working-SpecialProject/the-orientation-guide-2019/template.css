@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: #FFD38C;
+    color: #006036;
     text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h3 {
 
 .date{
     font-weight: 800;
-    color: #054F2B;
+    color: #FFD38C;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
@@ -105,10 +105,10 @@ h3 {
 #arthed {
     color: #FFF;
     position: absolute;
-    bottom: 0;
+    bottom: 50%;
     padding: 0;
     margin: 0;
-    font-size: 70px;
+    font-size: 100px;
     font-weight: 700;
     text-align: center;
     width: 100%;
@@ -248,6 +248,25 @@ blockquote {
     margin-bottom: 5px;
     padding: 0 5%;
     width: 90%;
+  }
+
+  .round-button {
+      display:block;
+      width:100px;
+      height:100px;
+      line-height:100px;
+      border-radius: 50%;
+      color:#f5f5f5;
+      text-align:center;
+      background: #FFD38C;
+      box-shadow: 0 0 3px gray;
+      font-size:20px;
+      font-weight: 700;
+      margin: 40px auto;
+  }
+  .round-button:hover {
+      background: #FFD38C;
+  }
 }/*add to p tag within the wrapping div*/
 
 /*----- Image stuff -----

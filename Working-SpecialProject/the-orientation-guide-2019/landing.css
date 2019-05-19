@@ -157,13 +157,15 @@ justify-content: center;
     overflow: hidden;
     margin:20px;
     display: inline-block;
-    text-align: center;}
+    text-align: center;
+  }
 
 img.landing {
     border-radius: 50%;
     width: 244px;
     height: 244px;
-    transition-duration: 1s;}
+    transition-duration: 1s;
+  }
 
 #heroimg {
     width: 100%;

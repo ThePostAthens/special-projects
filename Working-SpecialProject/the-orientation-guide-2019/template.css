@@ -216,7 +216,7 @@ blockquote {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #5379c4;
+    color: #75C0E3;
     font-weight: 800;
 }/*add to wrapping div*/
 
@@ -228,7 +228,7 @@ blockquote {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #5379c4;
+    color: #75C0E3;
 }/*add to wrapping div*/
 
 .pq_left {
@@ -240,7 +240,7 @@ blockquote {
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #5379c4;
+    color: #75C0E3;
 }/*add to wrapping div*/
 
 .attribution {
@@ -272,7 +272,7 @@ blockquote {
   .round-button:hover {
       background: #FFD38C;
   }
-}/*add to p tag within the wrapping div*/
+/*add to p tag within the wrapping div*/
 
 /*----- Image stuff -----
 also use these tags to move iframes, graphics etc.. anything that would behave like a photo*/
@@ -300,6 +300,7 @@ float: right;
     padding-bottom: 10px;
 }
 
+
 .photog{
     float: right;
     text-align: right;
@@ -315,7 +316,6 @@ float: right;
     width:60%;
     padding:0 20%;
 }
-
 
 /*----- Gallery Stuff -----*/
 
@@ -386,20 +386,20 @@ float: right;
 
 @media screen and (max-width: 750px){
 
-    .oneimg_right, .oneimg_left, .oneimg_center {
-        width: 80%;
-        padding: 0 10% 10px 10%;
-    }
+  .oneimg_right, .oneimg_left, .oneimg_center {
+      width: 80%;
+      padding: 0 10% 10px 10%;
+  }
 
-    .oneimg_full p {
-        width: 80%;
-        padding: 0 10%;
-    }
+  .oneimg_full p {
+      width: 80%;
+      padding: 0 10%;
+  }
 
-    .pq_center, .pq_right, .pq_left {
-        padding: 0 5%;
-        width: 90%;
-    }
+  .pq_center, .pq_right, .pq_left {
+      padding: 0 5%;
+      width: 90%;
+  }
 
     .column20center, p {
         width: 80%;

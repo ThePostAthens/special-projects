@@ -154,7 +154,6 @@ justify-content: center;
   clip: rect(10px, 20px, 30px, 40px);
 }
 .img-wrapper {
-    overflow: hidden;
     margin:20px;
     display: inline-block;
     text-align: center;
@@ -162,9 +161,12 @@ justify-content: center;
 
 img.landing {
     border-radius: 50%;
-    width: 244px;
-    height: 244px;
+    width: 250px;
+    height: 250px;
     transition-duration: 1s;
+    overflow:hidden;
+    min-width: 100%;
+
   }
 
 #heroimg {

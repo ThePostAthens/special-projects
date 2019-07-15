@@ -33,7 +33,7 @@ font-family: "Playfair Display", Georgia, serif;
 ```
 
    <h3>Colors:</h3>
-<p>Data visualizations should make use of the colors below for displaying data. Preference in color usage is from top to bottom, but, is not set in stone. Use what works best for your visualization.</p>
+<p>Below outlines the hex code colors for all the different staff sections as well as The Post's black color used in the logo and on the main website.</p>
 
 | Swatch | Name | Hex
 | :----- | :--- | :-- 
@@ -45,6 +45,23 @@ font-family: "Playfair Display", Georgia, serif;
 | ![#c8433a](https://placehold.it/15/c8433a/000000?text=+) | Sports red | #c8433a
 | ![#065c42](https://placehold.it/15/065c42/000000?text=+) | Multimedia green | #065c42
 | ![#644d94](https://placehold.it/15/644d94/000000?text=+) | Projects purple | #644d94
+
+
+   <h3>Cutlines:</h3>
+   
+   <h3>Image and video blocks:</h3>
+
+   <h3>Pullquotes:</h3>
+   
+   <h3>Buttons:</h3>
+   
+   <h3>Breakout boxes:</h3>
+   
+   <h3>Galleries and slideshows:</h3>
+
+
+
+
 
 
    <h2>Authors</h2>

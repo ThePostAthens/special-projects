@@ -18,7 +18,16 @@
    <p>
    <h2>Style Guide</h2>
    <h3>Fonts:</h3>
-   <p></p>
+   <p>The Post has two main fonts for special projects. <strong>Montserrat</strong> is the standard sans serif font, while       Playfair Display is the serif font. In some  cases, it's okay to use different fonts for design purposes with good reason.</p>
+   <p>Montserrat</p>
+   ```css
+font-family: "Montserrat", Arial, sans-serif;
+```
+   
+   <p>Playfair Display"
+   ```css
+font-family: "Playfair Display", Georgia, serif;
+```
    <h3></h3>
    <h2>Authors</h2>
    <p><a href="">Taylor Johnston</a>, Digital Managing Editor</p>

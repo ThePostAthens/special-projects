@@ -17,9 +17,13 @@
    </ol>
    <p>
    <h2>Style Guide</h2>
-   <p>Style guide goes here</p>
+   <h3>Fonts:</h3>
+   <p></p>
+   <h3></h3>
    <h2>Authors</h2>
-   <p>Members go here</p>
+   <p><a href="">Taylor Johnston</a>, Digital Managing Editor</p>
+   <p><a href="">Mijana Mazur</a>, Web Development Director</p>
    <h2>Copyright</h2>
    <p>©2019 The Post</p>
+   <p>Updated July 2019</p>
 </html>

@@ -32,11 +32,25 @@ font-family: "Montserrat", Arial, sans-serif;
 font-family: "Playfair Display", Georgia, serif;
 ```
 
-   <h3></h3>
+   <h3>Colors:</h3>
+<p>Data visualizations should make use of the colors below for displaying data. Preference in color usage is from top to bottom, but, is not set in stone. Use what works best for your visualization.</p>
+
+| Swatch | Name | Hex
+| :----- | :--- | :-- 
+| ![#282828](https://placehold.it/15/282828/000000?text=+) | "The Post" black | #282828
+| ![#6ab7de](https://placehold.it/15/6ab7de/000000?text=+) | News blue | #6ab7de
+| ![#ea148c](https://placehold.it/15/ea148c/000000?text=+) | Culture magenta | #ea148c
+| ![#f27f30](https://placehold.it/15/f27f30/000000?text=+) | Opinion orange | #f27f30
+| ![#d8bd3f](https://placehold.it/15/d8bd3f/000000?text=+) | The Beat yellow | #d8bd3f
+| ![#c8433a](https://placehold.it/15/c8433a/000000?text=+) | Sports red | #c8433a
+| ![#065c42](https://placehold.it/15/065c42/000000?text=+) | Multimedia green | #065c42
+| ![#644d94](https://placehold.it/15/644d94/000000?text=+) | Projects purple | #644d94
+
+
    <h2>Authors</h2>
-   <p><a href="">Taylor Johnston</a>, Digital Managing Editor</p>
-   <p><a href="">Mijana Mazur</a>, Web Development Director</p>
+   <p><a href="https://twitter.com/TF_Johnston">Taylor Johnston</a>, Digital Managing Editor</p>
+   <p><a href="https://twitter.com/meeyahnah">Mijana Mazur</a>, Web Development Director</p>
    <h2>Copyright</h2>
    <p>©2019 The Post</p>
-   <p>Updated July 2019</p>
+   <h6>Updated July 2019</h6>
 </html>

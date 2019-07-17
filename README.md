@@ -50,6 +50,7 @@ font-family: "Playfair Display", Georgia, serif;
    <h3>Cutlines:</h3>
    
    <h3>Image and video blocks:</h3>
+   Make sure all photos are RGB and aren't too big. Usually the longest side of the photo should be no more than 1,000 pixels.
 
    <h3>Pullquotes:</h3>
    

@@ -1,5 +1,5 @@
 body {
-    font-family: Playfair Display;
+    font-family: Playfair Display; 
     margin: 0;
     padding: 0;
     color: #FFF;
@@ -37,69 +37,8 @@ p {
     margin: 0;
 }
 
-
-.accordion-container{
- margin:20px 20px;
-}
-
-.set{
-  position: relative;
-  width: 100%;
-  height: auto;
-  border-radius:4px;
-  background-color: #86bc25;
-  box-sizing: border-box;
-
-}
-.set > a{
-  display: block;
-  padding: 10px 15px;
-  text-decoration: none;
-  box-sizing: border-box;
-  color: #fff;
-  font-weight: 600;
-  border-bottom: 2px solid #fff;
-  -webkit-transition:all 0.2s linear;
-  -moz-transition:all 0.2s linear;
-  transition:all 0.2s linear;
-}
-.set > a i{
-  position:relative;
-  float: right;
-  margin-top:4px;
-  color: #fff;
-  box-sizing: border-box;
-
-}
-.set > a.active{
-  background-color:#3399cc;
-  color: #fff;
-  box-sizing: border-box;
-}
-.set > a.active i{
-  color: #fff;
-}
-.content{
-  display:none;
-  position:relative;
-  box-sizing: border-box;
-  padding:10px;
-  width: 100%;
-  height: auto;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  margin-bottom: 2px;
-
-}
-.accordion-container img {
-  max-width:100%;
-  display:block;
-  height:auto;
-}
-
-
 /*-- Story --*/
-/*
+
 .story {
     width: 100%;
     height: 400px;
@@ -188,4 +127,4 @@ button:hover {
 button:active {
 	position:relative;
 	top:1px;
-} */ */
+}

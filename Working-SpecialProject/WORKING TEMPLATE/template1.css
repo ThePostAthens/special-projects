@@ -14,9 +14,10 @@ a {
     text-decoration: none;
 }
 
-/* a:hover {
+a:hover {
     opacity: .5;
-} */
+}
+
 
 p {
     width: 60%;
@@ -81,29 +82,32 @@ h3 {
     margin: 0;
 }
 
-#nav_bar  li #facebook {
-color: #fff;
+#nav_bar li #facebook {
+    color: #fff;
 }
 
-#nav_bar  li #facebook:hover {
-color: #337ab7;
+#nav_bar li #facebook:hover {
+    color: #337ab7;
+    opacity: 1;
 }
 
-#nav_bar  li #twitter {
-color: #fff;
+#nav_bar li #twitter {
+    color: #fff;
 }
 
-#nav_bar  li #twitter:hover {
-color: #55ACEE;
-}
-#nav_bar  li #instagram {
-color: #fff;
+#nav_bar li #twitter:hover {
+    color: #55ACEE;
+    opacity: 1;
 }
 
-#nav_bar  li #instagram:hover {
-color: #efc04a;
+#nav_bar li #instagram {
+    color: #fff;
 }
 
+#nav_bar li #instagram:hover {
+    color: #efc04a;
+    opacity: 1;
+}
 
 /*----- Hero Image -----*/
 #heroimg {
@@ -130,42 +134,48 @@ color: #efc04a;
 /*apply to h1 within the heroimg div*/
 /*----- Body Copy Things -----*/
 h1, h2, h3, h4 {
-    margin-bottom: 1.2rem;
+    margin-bottom: 1.2px;
 }
 
 .date {
-  text-align: center;
-  text-transform: uppercase;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: -30px;
+    margin-top: 75px;
+}
+
+.arthed {
+    /* margin: 4.8rem auto 2.4rem auto; */
+    text-align: center;
+    color: #3d3d3d;
+    font-size: 60px;
+    /* font-family: 'Playfair Display'; */
+    font-family: 'Montserrat';
 }
 
 .headline {
-  /* margin: 4.8rem auto 2.4rem auto; */
-  text-align: center;
-  color: #3d3d3d;
-  font-size: 60px;
-  font-family: 'Playfair Display';
-}
-
-.deck {
     text-align: center;
     font-family: 'Playfair Display';
     font-size: 25px;
+    margin-top: 1.5px;
 }
 
 .byline-info {
-  text-align: center;
-  display: block;
+    text-align: center;
+    display: block;
 }
+
 .byline-info p {
-  color: #3d3d3d;
-  display: inline-block;
-  font-family: 'Montserrat', Arial, sans-serif;
-  font-size: 14px;
-  /* margin: 0 2rem .4rem 0; */
-  text-align: center;
+    color: #3d3d3d;
+    display: inline-block;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 14px;
+    /* margin: 0 2rem .4rem 0; */
+    text-align: center;
 }
+
 .byline-info p:last-of-type {
-  margin-right: 0;
+    margin-right: 0;
 }
 
 .credit {
@@ -181,7 +191,6 @@ h1, h2, h3, h4 {
     color: #7fc448;
 }
 
-
 /*apply to wrapping span tag*/
 .title {
     color: #606060;
@@ -194,36 +203,37 @@ h1, h2, h3, h4 {
 }
 
 /* FB SHARE BUTTONS */
-
 .share-container {
-text-align: center;
-}
-ul.share-buttons{
-  list-style: none;
-  padding: 0;
+    text-align: center;
+    margin-top: -10px;
 }
 
-ul.share-buttons li{
-  display: inline;
+ul.share-buttons {
+    list-style: none;
+    padding: 0;
 }
 
-ul.share-buttons .sr-only{
-  position: absolute;
-  clip: rect(1px 1px 1px 1px);
-  clip: rect(1px, 1px, 1px, 1px);
-  padding: 0;
-  border: 0;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
+ul.share-buttons li {
+    display: inline;
 }
 
-ul.share-buttons img{
-  width: 32px;
+ul.share-buttons .sr-only {
+    position: absolute;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+ul.share-buttons img {
+    width: 32px;
 }
 
 p.intro {
-  font-size: 22px;
+    font-size: 22px;
 }
 
 .dropcap {
@@ -234,6 +244,21 @@ p.intro {
     padding-right: 5px;
 }
 
+.credits {
+  border-bottom: 1px solid #323232;
+  margin: 6rem auto 0;
+  max-width: 800px;
+  padding-bottom: 2.4rem;
+}
+.credit-p {
+  display: inline-block;
+  font-family: 'Montserrat';
+}
+.credit-p a {
+  color: pink;
+  font-weight: 700;
+  cursor: pointer;
+}
 /*----- Img Things -----*/
 .oneimg_center {
     width: 60%;
@@ -479,12 +504,11 @@ also use these tags to move iframes, graphics etc.. anything that would behave l
         height: 25px;
     }
 
-    .headline {
+    /* .headline {
         width: 80%;
         padding: 0% 10% 0 10%;
         font-size: 25px;
-    }
-
+    } */
     .date {
         padding: 0 10%;
         width: 80%;

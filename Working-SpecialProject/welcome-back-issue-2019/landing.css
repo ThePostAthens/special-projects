@@ -6,9 +6,9 @@ Please contact at SethPArcher@gmail.com with questions.*/
 /*----- Global Styles -----*/
 
 body {
-    font-family: montserrat, sans-serif;
-    background-color: #fff;
-    color: #030406;
+  background-color: #fff;
+  text-align: center;
+  font-family: montserrat;
 }
 
 a {
@@ -54,7 +54,8 @@ h4{
     padding: 0% 20% 0 20%;
     margin: 0;
 
-}/*apply to p tag*/
+}
+/*apply to p tag*/
 
 /*-----Column stuff-----*/
 .centered {
@@ -135,6 +136,12 @@ position: absolute;
     cursor: pointer;
     text-shadow: 2px 2px #122620;
 }
+.sqr{
+  background: #4682b4
+  width: 32%
+  padding-bottom: 32%
+  display: inline
+}
 /* #overlay{
   position:relative;
 justify-content: center;
@@ -166,6 +173,7 @@ img.landing {
     transition-duration: 1s;
     overflow:hidden;
     min-width: 100%;
+
   }
 
 #heroimg {
@@ -509,3 +517,5 @@ img.landing {
     transition-duration: 1s;
     }
 }
+
+

@@ -12,24 +12,44 @@
       
     a:hover {
     opacity: .6;
+    width:auto;
       }
-    
-      .inner-content {
-    justify-content:;
-    align-items: center;
+      
+      h3 {
+        text-align: left;
+        display: block;
+        font-size: 1.5em;
+        padding-top: 5.75em;
+        padding-bottom: 0;
+        padding-left: 0;
+        padding-right: 0;
+        font-weight: bold;
+        color:aliceblue;
+        justify-content: flex-start;
+      }
+      
+     h4 {
+        text-align: left;
+        display: block;
+        font-size: .75em;
+        padding-top: 0em;
+        padding-bottom: 0;
+        padding-left: 0;
+        padding-right: 0;
+        font-weight: normal;
+        color:aliceblue;
+        justify-content: flex-start;
+      }
+      
+    .inner-content {
     transform: translate(0px,120px);
+    justify-content: left;
+    align-content: left;
     display:flex;
-    position: 122px;
     z-index: 2;
     cursor: pointer;
     text-shadow: 2px 2px #122620;
 }
-      
-    .img-wrapper {
-    margin:auto;
-    display: inline-block;
-    text-align: center;
-      }
           
     .wrapper{
       display:grid;
@@ -47,6 +67,15 @@
     .wrapper > div:nth-child(odd){
       background:#ddd;
     }
+      
+    .box > img {
+          width: 100%;
+      }
+      
+      .box > inner-content {
+          width: 100%
+      }
+      
       .box1 {
       grid-column: 1/3;
           grid-row: 1/4;
@@ -76,39 +105,43 @@
       grid-column: 3/5;
           grid-row: 3/5;
       }
-      
-      .box > img {
-          width: 100%;
-      }
   </style>
 </head>
 <body>
     <div class="wrapper">
-    <div class="box box1">
+    <div class="box box1"> Sports
+        <div class="inner-content">
+        <div class="left">
+            </div>
+            </div>
         <img src="https://bloximages.chicago2.vip.townnews.com/athensmessenger.com/content/tncms/assets/v3/editorial/6/4b/64b927e4-f676-59f3-bdc7-9bece293aa8f/5beb40f85c07d.image.jpg?resize=1200%2C800">
+            </div>
+    <div class="box box2">culture
+                <div class="inner-content">
+        <div class="left">
+            </div>
+            </div>
+        <img src="https://media.npr.org/assets/img/2019/03/26/john_mulaney_kid_gorgeous_3840x2160_000012_r_wide-68a78ab1c574de8b8c55410cbc89862aa12fc26a-s800-c85.jpg">
         </div>
-    <div class="box box2">the beat
-        <img src="">
-        </div>
-    <div class="box box3">culture
+    <div class="box box3">headline
          <img src="">
         </div>
-    <div class="box box4">opinion
+    <div class="box box4">headline
          <img src="">
         </div>
-    <div class="box box6">news headliner
+    <div class="box box6">headline
          <img src="">
         </div>
-    <div class="box box7">
+    <div class="box box7">headline
          <img src="">
         </div>
-    <div class="box box5">
+    <div class="box box5">headline
          <img src="">
         </div>
-    <div class="box box8">
+    <div class="box box8">headline
          <img src="">
         </div>
-    <div class="box box9">
+    <div class="box box9">headline
          <img src="">
         </div>
         </div>

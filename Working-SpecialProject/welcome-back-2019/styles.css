@@ -227,6 +227,26 @@ p.intro {
     padding-right: 5px;
 }
 
+.back-btn {
+  padding: 16px;
+  display: inline-block;
+  cursor: pointer;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
+
+.back {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.back:hover {
+  color: white;
+}
+
 /* CREDITS */
 .credits {
   margin: 3rem auto 0;
@@ -453,8 +473,6 @@ blockquote {
   margin-left:20px;
 }
 
-
-
 .projects {
   background-color: white;
   color: black;
@@ -463,7 +481,7 @@ blockquote {
 }
 
 .projects:hover {
-  color: white;
+  background-color: white;
 }
 
 .join {
@@ -474,7 +492,7 @@ blockquote {
 }
 
 .join:hover {
-  color: white;
+  background-color:white;
 }
 
 /* MEDIA QUERIES */

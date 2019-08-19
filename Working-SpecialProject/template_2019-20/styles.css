@@ -461,7 +461,7 @@ blockquote {
 }
 
 .projects:hover {
-  color: white;
+  background-color: white;
 }
 
 .join {
@@ -472,7 +472,7 @@ blockquote {
 }
 
 .join:hover {
-  color: white;
+  background-color: white;
 }
 
 /* MEDIA QUERIES */

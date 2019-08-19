@@ -105,87 +105,20 @@ header .hero h1 {
   margin: 0;
 }
 
-.join {
-  font-family: 'Montserrat';
-  font-size: 146px;
-  color: #FFF;
-  font-weight: 100;
+#wrapperHeader {
+ width:100%;
+ text-align:center;
 }
 
-.us {
-  font-family: 'Montserrat';
-  font-size: 146px;
-  color: #FFF;
-  font-weight: 800;
+#wrapperHeader #header {
+ width:1000px;
+ height:300px;
+ margin:0 auto;
 }
 
-.squares {
-  text-align: center;
-  margin-left: -4%;
-  margin-bottom: 20px;
-}
-
-.sq-1 {
-  height: 25px;
-  width: 25px;
-  margin-left: 65px;
-  background-color: #6ab7de;
-  display: inline-block;
-  text-align: center;
-}
-
-.sq-2 {
-  height: 25px;
-  width: 25px;
-  margin-left: 65px;
-  background-color: #c8433a;
-  display: inline-block;
-  text-align: center;
-}
-
-.sq-3 {
-  height: 25px;
-  width: 25px;
-  margin-left: 65px;
-  background-color: #ea148c;
-  display: inline-block;
-  text-align: center;
-}
-
-.sq-4 {
-  height: 25px;
-  width: 25px;
-  margin-left: 65px;
-  background-color: #f27f30;
-  display: inline-block;
-  text-align: center;
-}
-
-.sq-5 {
-  height: 25px;
-  width: 25px;
-  margin-left: 65px;
-  background-color: #d8bd3f;
-  display: inline-block;
-  text-align: center;
-}
-
-.sq-6 {
-  height: 25px;
-  width: 25px;
-  margin-left: 65px;
-  background-color: #065c42;
-  display: inline-block;
-  text-align: center;
-}
-
-.sq-7 {
-  height: 25px;
-  width: 25px;
-  margin-left: 65px;
-  background-color: #644d94;
-  display: inline-block;
-  text-align: center;
+#wrapperHeader #header img {
+ width:500px;
+ margin:0 auto;
 }
 
 nav.main_nav {
@@ -223,6 +156,11 @@ nav.main_nav .main_nav_wrap ul li a:hover {
 
 /* CONTENT */
 
+.intro-container {
+  width: 100%;
+  padding:50px;
+}
+
 *,
 *::before,
 *::after {
@@ -233,6 +171,7 @@ nav.main_nav .main_nav_wrap ul li a:hover {
   max-width: 1200px;
   margin: 0 auto;
   box-sizing: border-box;
+  font-size: 20px;
 }
 
 .btn {
@@ -439,55 +378,26 @@ blockquote {
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 750px) {
-  .column20center, p {
-    width: 80%;
-    padding: 0 10%;
+  #wrapperHeader {
+   width:100%;
+   text-align:center;
+  }
+
+  #wrapperHeader #header {
+   width:100%;
+   height:300px;
+   margin:0 auto;
+  }
+
+  #wrapperHeader #header img {
+   width:400px;
+   margin:0 auto;
   }
 
   #logo {
     height: 25px;
   }
 
-  .date {
-    padding: 0 10%;
-    width: 80%;
-  }
-
-  .arthed {
-    font-size: 60px;
-    line-height: 60px;
-  }
-
-  .headline {
-    width: 80%;
-    padding: 0% 10% 0 10%;
-    font-size: 25px;
-  }
-
-  .oneimg_right, .oneimg_left, .oneimg_center {
-    width: 80%;
-    padding: 0 10% 10px 10%;
-  }
-
-  .oneimg_full p {
-    width: 80%;
-    padding: 0 10%;
-  }
-
-  .pq_center, .pq_right, .pq_left {
-    padding: 0 5%;
-    width: 90%;
-  }
-
-  .subhed {
-    padding: 0 10%;
-  }
-
-  .credits {
-    max-width: 100%;
-    text-align: left;
-    margin-left: 50px;
-  }
 
   .footer {
     height: 300px;

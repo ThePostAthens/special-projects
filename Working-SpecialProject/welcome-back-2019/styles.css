@@ -327,7 +327,6 @@ p.intro {
 blockquote {
     padding: 0;
     margin: 5px;
-    background: #7ec4a0;
 }
 
 /*add to wrapping div*/
@@ -360,8 +359,8 @@ blockquote {
 /*add to wrapping div*/
 .pq_left {
     width: 40%;
-    padding-left: 10%;
-    padding-right: 0;
+    margin-left: 10%;
+    padding-right: 15px;
     float: left;
     margin: 0;
     font-size: 25px;
@@ -474,6 +473,8 @@ blockquote {
   color: black;
   padding: 10px;
   border-radius: 5px;
+  font-weight: 100;
+
 }
 
 .projects:hover {
@@ -485,6 +486,7 @@ blockquote {
   color: black;
   padding: 10px;
   border-radius: 5px;
+  font-weight: 100;
 }
 
 .join:hover {

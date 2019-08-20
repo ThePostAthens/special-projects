@@ -1,29 +1,30 @@
 /* Template.css
-This is a template for special projects at The Post.
-Template originally coded by Seth Archer, digital managing editor at The Post.
-Please contact at SethPArcher@gmail.com with questions.*/
+This is a template for special projects and landing pages at The Post.
+Template originally coded by Taylor Johnston, digital managing editor at The Post. Current design by Midge Mazur, the web development director at The Post.
+Please contact taylorfjohnston@gmail.com or mijanamazur@gmail.com with questions.
+*/
 
-/*----- Global Styles -----*/
-
+/* GENERAL STYLES */
 body {
     font-family: montserrat, sans-serif;
-    background-color: #fff;
+    background-color: #FFF;
     color: #030406;
 }
 
 a {
-    color: #fff;
+    color: #f58f91;
     text-decoration: none;
 }
 
 a:hover {
-    opacity: .6;
+    opacity: .5;
 }
+
 
 p {
     width: 60%;
     padding: 0 20%;
-}/*these have a style simmilar to column20center, do not add column20center to p tags*/
+}
 
 h2 {
     padding: 0 15%;
@@ -35,61 +36,158 @@ h3 {
     padding: 0;
 }
 
-h4{
-    font-size: 25px;
+/* NAVIGATION BAR */
+#nav_bar {
+    background: #292929;
+    color: #FFF;
+    height: 52px;
+}
+
+#nav_bar img {
+    height: 30px;
+    padding: 10px;
+    float: left;
+}
+
+#nav_bar li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    float: right;
+}
+
+#nav_bar ul {
     margin: 0;
-    padding: 0;
-    padding-top: 0;
-    align-content: center;
+}
+
+#nav_bar li #facebook {
+    color: #fff;
+}
+
+#nav_bar li #facebook:hover {
+    color: #337ab7;
+    opacity: 1;
+}
+
+#nav_bar li #twitter {
+    color: #fff;
+}
+
+#nav_bar li #twitter:hover {
+    color: #55ACEE;
+    opacity: 1;
+}
+
+#nav_bar li #instagram {
+    color: #fff;
+}
+
+#nav_bar li #instagram:hover {
+    color: #efc04a;
+    opacity: 1;
+}
+
+#logo {
+    z-index: 1;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    float: left;
+    height: 30px;
+    padding: 7px;
 }
 
-.date{
-    font-weight: 800;
-    color: #eed7fc;
-    width: 60%;
-    padding: 0% 20% 0 20%;
+/* HERO IMAGE */
+#heroimg {
+    width: 100%;
+    position: relative;
+}
+
+#heroimg img {
+    width: 100%;
+}
+
+#arthed {
+  color: #FFF;
+  position: absolute;
+  bottom: 50%;
+  padding: 0;
+  margin: 0;
+  font-size: 150px;
+  font-weight: 700;
+  text-align: center;
+  width: 100%;
+  text-shadow: 2px 2px 3px #000;
+  -webkit-text-stroke: 4px #333434;
+}
+
+
+/* HEADLINE STYLES */
+h1, h2, h3, h4 {
+    margin-bottom: 1.2px;
+}
+
+.date {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: -40px;
+    margin-top: 75px;
+}
+
+.cutline {
+    float: left;
+    text-align: left;
     margin: 0;
-
-}/*apply to p tag*/
-
-/*-----Column stuff-----*/
-.centered {
-position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.column20center {
-    width: 60%;
-    padding: 0 20%;
-}/*do not apply to p tags, they automatically have a simmilar styling*/
-
-.column10center {
-    width: 80%;
-    padding: 0 10%;
+    color: #000;
+    font-size: 12px;
+    width: 90%;
+    padding: 0;
+    padding-left: 10px;
 }
 
-.column10left {
-    width: 40%;
-    padding-left: 10%;
+.headline {
+    text-align: center;
+    font-family: 'Montserrat', Arial, sans-serif;
+    /* font-family: "Playfair Display", Georgia, serif; */
+    font-size: 25px;
+    margin-top: 1.5px;
 }
 
-.column10right {
-    width: 40%;
-    padding-right: 10%;
+/* BYLINE */
+.byline-info {
+    text-align: center;
+    display: block;
+}
+
+.byline-info p {
+    color: #3d3d3d;
+    display: inline-block;
+    font-family: 'Montserrat', Arial, sans-serif;
+    /* font-family: "Playfair Display", Georgia, serif; */
+    font-size: 14px;
+    text-align: center;
+}
+
+.byline-info p:last-of-type {
+    margin-right: 0;
+}
+
+/* CONTENT */
+p.intro {
+    font-size: 22px;
+}
+
+.dropcap {
+    font-weight: 700;
+    float: left;
+    font-size: 2.9em;
+    line-height: .9em;
+    padding-right: 5px;
 }
 
 /* GRID */
-
 body {
-  background: #e6e6e6;
   box-sizing: border-box;
-  font-family: montserrat, sans-serif;
-  color: #030406;
+  font-family: 'Montserrat';
+  color: #292929;
 }
 
 a:hover {
@@ -278,256 +376,58 @@ h4 {
   }
 }
 
-
-/*----- Hero Image -----*/
-
-/*------- CONTENT CONTAINER -------*/
-#content-cont {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+/* CREDITS */
+.credits {
+  margin: 1rem auto 0;
+  max-width: 72%;
+  padding-bottom: 2.4rem;
+  text-align: left;
+}
+.creditText {
+  display: inline-block;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 14px;
+  margin: 0 1rem 0rem 0;
 }
 
-#content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    flex-wrap: wrap;
-}
-.inner-content {
-    justify-content: center;
-    align-items: center;
-    transform: translate(0px,120px);
-    display:flex;
-    position: 122px;
-    z-index: 2;
-    cursor: pointer;
-    text-shadow: 2px 2px #122620;
-}
-/* #overlay{
-  position:relative;
-justify-content: center;
-    align-items: center;
-  display:default;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 2; /* Specify a stack order in case you're using a different order for other elements
-  cursor: pointer; /* Add a pointer on hover
-    text-align: center;
-    width: 100%;
-}
-   */
-.element {
-  clip: rect(10px, 20px, 30px, 40px);
-}
-.img-wrapper {
-    margin:20px;
-    display: inline-block;
-    text-align: center;
-  }
-
-img.landing {
-    border-radius: 50%;
-    width: 250px;
-    height: 250px;
-    transition-duration: 1s;
-    overflow:hidden;
-    min-width: 100%;
-  }
-
-#heroimg {
-    width: 100%;
-    position: relative;
-}/*apply to wrapping div with an img tag within*/
-
-#heroimg img {
-    width: 100%;
+.creditText a {
+  color: #7ec4a0;
+  font-weight: 700;
+  cursor: pointer;
 }
 
-#arthed {
-    color: #FFF;
-    position: absolute;
-    bottom: 50%;
-    padding: 0;
-    margin: 0;
-    font-size: 100px;
-    font-weight: 700;
-    text-align: center;
-    width: 100%;
-    text-shadow: 2px 2px 3px #000;
-    -webkit-text-stroke: 4px #FFD38C;
-}/*apply to h1 within the heroimg div*/
-
-/*----- Body Copy Things -----*/
-
-.headline {
-    color: #497425;
-    padding: 0 10% 0 10%;
-    width: 80%;
-    margin: 0;
-    font-size: 40px;
-    font-weight: 900i;
-    text-transform: uppercase;
-}/*apply to h1, not the art hed*/
-
-
-.credit-container h3 {
-
-}
-.credit a{
-  color: #006036;
-}
-.credit {
-    font-size: 16px;
-    font-weight: 100;
-    padding-bottom: 0px;
-}/*apply to h4 with developer's name and title*/
-
-.subhed {
-    font-family: montserrat
-    , sans-serif;
-    font-weight: 800;
-    color: #7fc448;
-}/*apply to h2 tags*/
-
-.dropcap {
-    font-weight: 700;
-    float: left;
-    font-size: 2.9em;
-    line-height: .9em;
-    padding-right: 5px;
-}/*apply to wrapping span tag*/
-
-.title {
-    color: #606060;
-}/*should be in same p tag as the author name*/
-
-#byline {
-    margin: 0;
-    font-weight: 400;
-
-}/*applies to entire byline, with title. bold the author name. put on h4 tag*/
-
-/*----- Img Things -----*/
-
+/* OTHER STUFF */
+/* IMAGE BLOCKS */
 .oneimg_center {
     width: 60%;
     padding: 0 20%;
-}/*Apply to a wrapping div*/
+}
 
+/*Apply to a wrapping div*/
 .oneimg_right {
     width: 40%;
     padding-right: 10%;
     padding-left: 10px;
     float: right;
-}/*Apply to a wrapping div*/
+}
 
+/*Apply to a wrapping div*/
 .oneimg_left {
     width: 40%;
     padding-left: 10%;
     padding-right: 20px;
     float: left;
-}/*Apply to a wrapping div*/
+}
 
-.twoimg_center {
+/*add to p tag, should be before the pcut p tag*/
+.oneimg_full p {
     width: 60%;
-    margin: 0 20%;
+    padding: 0 20%;
 }
 
-.twoimg_center img {
-    width: 50%;
-    padding: 0;
-    margin: 0;
-    float: left;
-}
-
-.threeimg_full {
-    width: 33%;
-}
 
 .oneimg_full img, .oneimg_center img, .oneimg_right img, .oneimg_left img {
     width: 100%
-}
-
-/*----- Pullquote stuff -----*/
-
-blockquote {
-    padding: 0;
-    margin: 5px;
-}/*should be the text of the pull quote*/
-
-.pq_center {
-    width: 60%;
-    padding: 0 20%;
-    margin: 0;
-    font-size: 25px;
-    text-transform: uppercase;
-    color: #5379c4;
-    font-weight: 800;
-}/*add to wrapping div*/
-
-.pq_right {
-    width: 40%;
-    padding-right: 10%;
-    padding-left: 15px;
-    float: right;
-    margin: 0;
-    font-size: 25px;
-    text-transform: uppercase;
-    color: #5379c4;
-}/*add to wrapping div*/
-
-.pq_left {
-    width: 40%;
-    padding-left: 10%;
-    padding-right: 0;
-    float: left;
-    margin: 0;
-    font-size: 25px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #5379c4;
-}/*add to wrapping div*/
-
-.attribution {
-    font-size: 20px;
-    text-transform: none;
-    display: block;
-    text-align: right;
-    font-weight: 400;
-    margin: 0;
-    margin-bottom: 5px;
-    padding: 0 5%;
-    width: 90%;
-}/*add to p tag within the wrapping div*/
-
-/*----- Image stuff -----
-also use these tags to move iframes, graphics etc.. anything that would behave like a photo*/
-
-.pcut{
-    float: right;
-    text-align: left;
-    margin:0;
-    font-weight: 100;
-    color: #808080;
-    font-size: 12px;
-    width: 100%;
-    padding: 0;
-}/*add p tag, should be after the photog p tag*/
-
-.galleryPcut{
-float: right;
-    text-align: left;
-    margin:0;
-    font-weight: 100;
-    color: #808080;
-    font-size: 12px;
-    width: 100%;
-    padding: 0;
-    padding-bottom: 10px;
 }
 
 .photog{
@@ -539,48 +439,111 @@ float: right;
     font-size: 12px;
     width: 100%;
     padding: 0;
-}/*add to p tag, should be before the pcut p tag*/
-
-.oneimg_full p{
-    width:60%;
-    padding:0 20%;
 }
 
+.pcut {
+    float: right;
+    text-align: left;
+    margin: 0;
+    font-weight: 100;
+    color: #808080;
+    font-size: 12px;
+    width: 100%;
+    padding: 0;
+}
+
+.subhed {
+    font-family: montserrat, sans-serif;
+    font-weight: 800;
+    color: #7fc448;
+}
+
+/*apply to wrapping span tag*/
+.title {
+    color: #606060;
+}
+
+/* PULL QUOTES */
+blockquote {
+    padding: 0;
+    margin: 5px;
+}
+
+/*add to wrapping div*/
+.pq_center {
+    width: 60%;
+    padding: 0 20%;
+    margin: 0;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #5379c4;
+    font-weight: 800;
+}
+
+/*add to wrapping div*/
+.pq_right {
+    width: 40%;
+    padding-right: 10%;
+    padding-left: 15px;
+    float: right;
+    margin: 0;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #5379c4;
+}
+
+/*add to wrapping div*/
+.pq_left {
+    width: 40%;
+    padding-left: 10%;
+    padding-right: 0;
+    float: left;
+    margin: 0;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #5379c4;
+}
+
+/*add to wrapping div*/
+.attribution {
+    font-size: 20px;
+    text-transform: none;
+    display: block;
+    text-align: right;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0 5%;
+    width: 90%;
+}
 
 /*----- Gallery Stuff -----*/
-
 .gallery_bot {
     padding: 0;
     width: 20%;
     float: left;
 }
+.galleryPcut {
+    float: right;
+    text-align: left;
+    margin: 0;
+    font-weight: 100;
+    color: #808080;
+    font-size: 12px;
+    width: 100%;
+    padding: 0;
+    padding-bottom: 10px;
+}
 
 .w3-hover-shadow:hover {
-    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important
 }
 
 .mySlides {
-    display:none;
+    display: none;
 }
 
-/*----- Other -----*/
-
-#logo {
-    z-index: 1;
-    position: absolute;
-    float: left;
-    height: 30px;
-    padding: 7px;
-}/*effects the post logo in the top left of the page*/
-
-.parallax {
-    height: 800px;
-    width: 100%;
-    background-attachment: fixed;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-}/* add to the wrapping div, give the div an inline style with the photo you want to be parallax*/
 
 /* SPECIAL PROJECT FOOTER */
 .footer {
@@ -649,7 +612,7 @@ float: right;
 }
 
 .projects:hover {
-  color: white;
+  background-color: white;
 }
 
 .join {
@@ -660,10 +623,34 @@ float: right;
 }
 
 .join:hover {
-  color: white;
+  background-color: white;
 }
 
-@media screen and (max-width: 750px){
+/* MEDIA QUERIES */
+@media screen and (max-width: 750px) {
+  .column20center, p {
+      width: 80%;
+      padding: 0 10%;
+  }
+
+  #logo {
+      height: 25px;
+  }
+
+  .date {
+      padding: 0 10%;
+      width: 80%;
+  }
+
+  #arthed {
+      font-size: 60px;
+      line-height: 60px;
+  }
+  .headline {
+      width: 80%;
+      padding: 0% 10% 0 10%;
+      font-size: 25px;
+  }
 
     .oneimg_right, .oneimg_left, .oneimg_center {
         width: 80%;
@@ -680,55 +667,17 @@ float: right;
         width: 90%;
     }
 
-    .column20center, p {
-        width: 80%;
+    .subhed {
         padding: 0 10%;
     }
 
-    #arthed {
-        font-size: 40px;
+    .credits {
+      max-width: 100%;
+      text-align: left;
+      margin-left: 50px;
     }
 
-    .subhed{
-        padding: 0 10%;
-    }
-
-    .credit{
-        padding-bottom: 20px;
-    }
-
-    #logo {
-        height: 25px;
-    }
-
-    .headline {
-        width: 80%;
-        padding: 0% 10% 0 10%;
-        font-size: 25px;
-    }
-
-    .date {
-        padding: 0 10%;
-        width: 80%;
-    }
-
-    #banner {
-        font-size: 50px;
-    }
-
-    .story {
+    .footer {
         height: 300px;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-
-
-
-img.landing {
-    border-radius: 50%;
-    width: 170px;
-    height: 170px;
-    transition-duration: 1s;
     }
 }

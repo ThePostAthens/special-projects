@@ -1,7 +1,8 @@
 /* Template.css
-This is a template for special projects at The Post.
-Template originally coded by Taylor Johnston, digital managing editor at The Post.
-Please contact at taylorfjohnston@gmail.com with questions.*/
+This is a template for special projects and landing pages at The Post.
+Template originally coded by Taylor Johnston, digital managing editor at The Post. Current design by Midge Mazur, the web development director at The Post.
+Please contact taylorfjohnston@gmail.com or mijanamazur@gmail.com with questions.
+*/
 
 /* GENERAL STYLES */
 body {
@@ -11,7 +12,8 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #fcbc6c;
+    font-weight: 700;
     text-decoration: none;
 }
 
@@ -35,26 +37,7 @@ h3 {
     padding: 0;
 }
 
-/* COLUMNS */
-.column20center {
-    width: 60%;
-    padding: 0 20%;
-}
 
-/* .column10center {
-    width: 80%;
-    padding: 0 10%;
-}
-
-.column10left {
-    width: 40%;
-    padding-left: 10%;
-}
-
-.column10right {
-    width: 40%;
-    padding-right: 10%;
-} */
 
 /* NAVIGATION BAR */
 #nav_bar {
@@ -134,18 +117,20 @@ h1, h2, h3, h4 {
     text-align: center;
     text-transform: uppercase;
     margin-bottom: -40px;
-    margin-top: 75px;
+    margin-top: 50px;
 }
 
 /* Pick one font depending on design (or find another one) */
 .arthed {
     text-align: center;
-    color: #3d3d3d;
+    color: #fff;
     font-size: 60px;
+    font-weight: 700;
     text-transform: uppercase;
     font-family: 'Montserrat', Arial, sans-serif;
-    /* font-family: "Playfair Display", Georgia, serif; */
+    -webkit-text-stroke: 3px #333434;
 }
+
 .cutline {
     float: left;
     text-align: left;
@@ -159,6 +144,7 @@ h1, h2, h3, h4 {
 
 .headline {
     text-align: center;
+    color: #292929;
     font-family: 'Montserrat', Arial, sans-serif;
     /* font-family: "Playfair Display", Georgia, serif; */
     font-size: 25px;
@@ -199,6 +185,11 @@ ul.share-buttons li {
     display: inline;
 }
 
+ul.share-buttons a {
+  color: #9c64aa;
+
+}
+
 ul.share-buttons .sr-only {
     position: absolute;
     clip: rect(1px 1px 1px 1px);
@@ -212,6 +203,7 @@ ul.share-buttons .sr-only {
 
 ul.share-buttons img {
     width: 32px;
+
 }
 
 /* CONTENT */
@@ -237,10 +229,12 @@ p.intro {
 }
 
 .back {
-  background-color: white;
-  color: black;
+  background-color: #9c64aa;
+  color: #fff;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 100%;
+  height:80px;
+  width: 80px;
 }
 
 .back:hover {
@@ -249,20 +243,20 @@ p.intro {
 
 /* CREDITS */
 .credits {
-  margin: 3rem auto 0;
-  max-width: 1000px;
+  margin: 1rem auto 0;
+  max-width: 60%;
   padding-bottom: 2.4rem;
   text-align: left
 }
-.credit-p {
+.creditText {
   display: inline-block;
   font-family: 'Montserrat', Arial, sans-serif;
   font-size: 14px;
-  margin: 0 2rem 0rem 0;
+  margin: 0 1rem 0rem 0;
 }
 
-.credit-p a {
-  color: pink;
+.creditText a {
+  color: #7ec4a0;
   font-weight: 700;
   cursor: pointer;
 }
@@ -326,12 +320,7 @@ p.intro {
 .subhed {
     font-family: montserrat, sans-serif;
     font-weight: 800;
-    color: #7fc448;
-}
-
-/*apply to wrapping span tag*/
-.title {
-    color: #606060;
+    color: #292929;
 }
 
 /* PULL QUOTES */
@@ -347,33 +336,38 @@ blockquote {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #5379c4;
+    -webkit-text-stroke: 1px #333434;
+    color: #fff;
     font-weight: 800;
+
 }
 
 /*add to wrapping div*/
 .pq_right {
     width: 40%;
-    padding-right: 10%;
+    margin-right: 10%;
     padding-left: 15px;
     float: right;
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #5379c4;
+    -webkit-text-stroke: 1px #333434;
+    color: #fff;
+    font-weight: 800;
 }
 
 /*add to wrapping div*/
 .pq_left {
     width: 40%;
-    padding-left: 10%;
-    padding-right: 0;
+    margin-left: 10%;
+    padding-right: 15px;
     float: left;
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    font-weight: 700;
-    color: #5379c4;
+    -webkit-text-stroke: 1px #333434;
+    color: #fff;
+    font-weight: 800;
 }
 
 /*add to wrapping div*/
@@ -387,6 +381,7 @@ blockquote {
     margin-bottom: 5px;
     padding: 0 5%;
     width: 90%;
+    color: #292929
 }
 
 /*----- Gallery Stuff -----*/
@@ -478,6 +473,8 @@ blockquote {
   color: black;
   padding: 10px;
   border-radius: 5px;
+  font-weight: 100;
+
 }
 
 .projects:hover {
@@ -489,6 +486,7 @@ blockquote {
   color: black;
   padding: 10px;
   border-radius: 5px;
+  font-weight: 100;
 }
 
 .join:hover {

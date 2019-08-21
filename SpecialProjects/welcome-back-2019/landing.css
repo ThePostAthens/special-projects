@@ -288,7 +288,7 @@ h4 {
 }
 
 .grid__item:nth-child(3) {
-  background: url("https://w.wallhaven.cc/full/d5/wallhaven-d5pkgm.jpg") no-repeat center/cover;
+  background: url("https://s3.amazonaws.com/snwceomedia/ohi/c2bb85f9-3b6b-4868-8566-57a9c8d55d26.sized-1000x1000.png") no-repeat center/cover;
 }
 
 .grid__item:nth-child(4) {
@@ -356,15 +356,14 @@ h4 {
 }
 
 .grid__item:nth-child(20) {
+  background: url("https://w.wallhaven.cc/full/d5/wallhaven-d5pvql.jpg") no-repeat center/cover;
+}
+.grid__item:nth-child(21) {
   background: url("https://s3.amazonaws.com/snwceomedia/ohi/3f31ea83-005d-4b61-817f-be33bbc90d45.sized-1000x1000.png") no-repeat center/cover;
 }
 
-.grid__item:nth-child(21) {
-  background: url("https://s3.amazonaws.com/snwceomedia/ohi/3f31ea83-005d-4b61-817f-be33bbc90d45.sized-1000x1000.png) no-repeat center/cover;
-}
-
 .grid__item:nth-child(22) {
-  background: url("https://w.wallhaven.cc/full/nm/wallhaven-nm8zvy.jpg") no-repeat center/cover;
+  background: url("https://s3.amazonaws.com/snwceomedia/ohi/d649f048-1e2b-47f1-bff1-393ce94c8a8e.sized-1000x1000.jpg") no-repeat center/cover;
 }
 
 .grid__item:nth-child(23) {

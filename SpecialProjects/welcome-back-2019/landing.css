@@ -356,11 +356,11 @@ h4 {
 }
 
 .grid__item:nth-child(20) {
-  background: url("https://w.wallhaven.cc/full/yj/wallhaven-yjmkw7.jpg") no-repeat center/cover;
+  background: url("https://s3.amazonaws.com/snwceomedia/ohi/3f31ea83-005d-4b61-817f-be33bbc90d45.sized-1000x1000.png") no-repeat center/cover;
 }
 
 .grid__item:nth-child(21) {
-  background: url("https://s3.amazonaws.com/snwceomedia/ohi/b54f30d0-fb89-44a8-b97b-a4e2ca7bcbf3.sized-1000x1000.jpg") no-repeat center/cover;
+  background: url("https://s3.amazonaws.com/snwceomedia/ohi/3f31ea83-005d-4b61-817f-be33bbc90d45.sized-1000x1000.png) no-repeat center/cover;
 }
 
 .grid__item:nth-child(22) {

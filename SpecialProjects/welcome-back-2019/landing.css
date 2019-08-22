@@ -358,6 +358,10 @@ h4 {
   background: url("https://s3.amazonaws.com/snwceomedia/ohi/d410c6e9-71b8-4186-923d-2d2411ebe01d.sized-1000x1000.jpg") no-repeat center/cover;
 }
 
+.grid__item:nth-child(35) {
+  background: url("https://s3.amazonaws.com/snwceomedia/ohi/b9b62dde-32bc-46e9-9d6a-89ea21251377.sized-1000x1000.jpg") no-repeat center/cover;
+}
+
 
 .grid__item:nth-last-child(2) {
   height: auto;

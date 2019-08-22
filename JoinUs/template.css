@@ -155,10 +155,11 @@ nav.main_nav .main_nav_wrap ul li a:hover {
 }
 
 /* CONTENT */
-
-.intro-container {
-  width: 100%;
-  padding:50px;
+.text-container {
+  margin: 0 auto;
+  max-width: 800px;
+  width: 90%;
+  text-align: center;
 }
 
 *,
@@ -175,9 +176,11 @@ nav.main_nav .main_nav_wrap ul li a:hover {
 }
 
 .btn {
-  color: #000;
+  color: #292929;
+  background-color: #fff;
   padding: 0.8rem;
-  font-size: 14px;
+  font-size: 20px;
+  font-weight: 800;
   text-transform: uppercase;
   border-radius: 4px;
   font-weight: 400;

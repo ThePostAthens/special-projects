@@ -1,8 +1,9 @@
 /* Template.css
-This is a template for special projects at The Post.
+This is a template for The Post's recruitment page.
 Template originally coded by Taylor Johnston, digital managing editor at The Post.
 Please contact at taylorfjohnston@gmail.com with questions.*/
 /* GENERAL STYLES */
+
 body {
   font-family: montserrat, sans-serif;
   background-color: #292929;
@@ -176,6 +177,18 @@ nav.main_nav .main_nav_wrap ul li a:hover {
 .text-container p {
   color: #292929;
   font-size: 18px;
+}
+
+.contact {
+  margin: 0 auto;
+  max-width: 800px;
+  width: 90%;
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-radius: 5px;
 }
 
 *,

@@ -207,7 +207,8 @@ nav.main_nav .main_nav_wrap ul li a:hover {
 }
 
 .btn:hover {
-  background-color: rgba(255, 255, 255, 0.12);
+background-color: #fff;
+color: #292929;
 }
 
 .cards {

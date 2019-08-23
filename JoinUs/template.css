@@ -3,7 +3,6 @@ This is a template for The Post's recruitment page.
 Template originally coded by Taylor Johnston, digital managing editor at The Post.
 Please contact at taylorfjohnston@gmail.com with questions.*/
 /* GENERAL STYLES */
-
 body {
   font-family: montserrat, sans-serif;
   background-color: #292929;
@@ -19,12 +18,17 @@ a:hover {
 }
 
 h1 {
-  color: #fff;
+  color: #292929;
+}
+
+h3 {
+  color: #292929;
 }
 
 p {
   color: #fff;
 }
+
 /* COLUMNS */
 .column20center {
   width: 60%;
@@ -37,7 +41,6 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
 }
 
 li {
@@ -107,19 +110,19 @@ header .hero h1 {
 }
 
 #wrapperHeader {
- width:100%;
- text-align:center;
+  width: 100%;
+  text-align: center;
 }
 
 #wrapperHeader #header {
- width:1000px;
- height:300px;
- margin:0 auto;
+  width: 1000px;
+  height: 300px;
+  margin: 0 auto;
 }
 
 #wrapperHeader #header img {
- width:500px;
- margin:0 auto;
+  width: 500px;
+  margin: 0 auto;
 }
 
 nav.main_nav {
@@ -168,7 +171,7 @@ nav.main_nav .main_nav_wrap ul li a:hover {
   border-radius: 5px;
 }
 
-.text-container h2{
+.text-container h2 {
   color: #292929;
   font-size: 40px;
   padding: -5px;
@@ -201,7 +204,7 @@ nav.main_nav .main_nav_wrap ul li a:hover {
 }
 
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .fa-facebook {
@@ -224,12 +227,10 @@ nav.main_nav .main_nav_wrap ul li a:hover {
   color: white;
 }
 
-
 .fa-linkedin {
   background: #007bb5;
   color: white;
 }
-
 
 *,
 *::before,
@@ -260,8 +261,8 @@ nav.main_nav .main_nav_wrap ul li a:hover {
 }
 
 .btn:hover {
-background-color: #fff;
-color: #292929;
+  background-color: #fff;
+  color: #292929;
 }
 
 .cards {
@@ -270,6 +271,7 @@ color: #292929;
   list-style: none;
   margin: 0;
   padding: 0;
+
 }
 
 .cards_item {
@@ -277,23 +279,24 @@ color: #292929;
   padding: 1rem;
 }
 
-
 /* EMBED STUFF */
 .video-container {
-position: relative;
-padding-bottom: 56.25%;
-margin-bottom: 2%;
-padding-top: 30px; height: 0; overflow: hidden;
+  position: relative;
+  padding-bottom: 56.25%;
+  margin-bottom: 2%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
 }
 
 .video-container iframe,
 .video-container object,
 .video-container embed {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /* FOOTER */
@@ -303,8 +306,8 @@ height: 100%;
   width: 100%;
   height: 20px;
   text-shadow: 2px 2px 5px #000;
-  background-color: #171717;
   display: table;
+  background-color: #171717;
 }
 
 .copyright_inside {
@@ -312,15 +315,15 @@ height: 100%;
 }
 
 .copyright p {
-    font-family: 'Montserrat';
-    margin: 0;
-    text-align: center;
-    width: 100%;
-    padding: 13px 15% 15px 15%;
+  font-family: 'Montserrat';
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  padding: 13px 15% 15px 15%;
 }
 
 .btn-container {
-  margin-left:20px;
+  margin-left: 20px;
 }
 
 @media (min-width: 40rem) {
@@ -331,17 +334,18 @@ height: 100%;
 
 @media (min-width: 56rem) {
   .cards_item {
-    width: 33.3333%;
+      /* width: 33.3333%; */
   }
 }
 
 .card {
   background-color: white;
   border-radius: 0.25rem;
-  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  outline: 1px solid #292929;
+
 }
 
 .card_content {
@@ -351,10 +355,10 @@ height: 100%;
 
 .card_title {
   color: #000;
-  font-size: 1.1rem;
   font-weight: 700;
   text-transform: capitalize;
   margin: 0px;
+
 }
 
 .card_text {
@@ -364,7 +368,6 @@ height: 100%;
   margin-bottom: 1.25rem;
   font-weight: 400;
 }
-
 
 /* OTHER STUFF */
 /* IMAGE BLOCKS */
@@ -498,25 +501,24 @@ blockquote {
 /* MEDIA QUERIES */
 @media screen and (max-width: 750px) {
   #wrapperHeader {
-   width:100%;
-   text-align:center;
+    width: 100%;
+    text-align: center;
   }
 
   #wrapperHeader #header {
-   width:100%;
-   height:300px;
-   margin:0 auto;
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
   }
 
   #wrapperHeader #header img {
-   width:400px;
-   margin:0 auto;
+    width: 400px;
+    margin: 0 auto;
   }
 
   #logo {
     height: 25px;
   }
-
 
   .footer {
     height: 300px;

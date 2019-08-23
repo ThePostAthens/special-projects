@@ -49,7 +49,7 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: #7fc448;
   font-family: 'Montserrat';
   text-align: center;
   padding: 14px 16px;
@@ -176,6 +176,17 @@ nav.main_nav .main_nav_wrap ul li a:hover {
 .text-container p {
   color: #292929;
   font-size: 18px;
+}
+
+p .editors{
+  width: 100%;
+  margin: 0 auto;
+  font-size:16px;
+}
+
+.editors a {
+  display: inline-block;
+  padding: 0;
 }
 
 .contact {
@@ -344,7 +355,7 @@ nav.main_nav .main_nav_wrap ul li a:hover {
 }
 
 .card_text {
-  font-size: 5px;
+  font-size: 6px;
   line-height: 1.5;
   margin-bottom: 1.25rem;
   font-weight: 400;

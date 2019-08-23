@@ -56,10 +56,6 @@ li a {
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
-  background-color: #111;
-}
-
 .active {
   background-color: #4CAF50;
 }
@@ -265,20 +261,6 @@ nav.main_nav .main_nav_wrap ul li a:hover {
   color: #292929;
 }
 
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-
-}
-
-.cards_item {
-  display: flex;
-  padding: 1rem;
-}
-
 /* EMBED STUFF */
 .video-container {
   position: relative;
@@ -362,11 +344,35 @@ nav.main_nav .main_nav_wrap ul li a:hover {
 }
 
 .card_text {
-  color: #000;
-  font-size: 0.875rem;
+  font-size: 5px;
   line-height: 1.5;
   margin-bottom: 1.25rem;
   font-weight: 400;
+}
+
+.card_btn {
+  margin: 0 auto;
+  width: 30%;
+  height: 20%;
+}
+
+.card_btn a {
+  background: none;
+}
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
 }
 
 /* OTHER STUFF */

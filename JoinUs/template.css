@@ -192,8 +192,8 @@ nav.main_nav .main_nav_wrap ul li a:hover {
 }
 
 .btn {
-  color: #292929;
-  background-color: #fff;
+  color: #fff;
+  background-color: #292929;
   padding: 0.8rem;
   font-size: 20px;
   font-weight: bold;

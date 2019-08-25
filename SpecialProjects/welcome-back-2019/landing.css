@@ -125,6 +125,64 @@ h1, h2, h3, h4 {
     margin-bottom: 1.2px;
 }
 
+.date {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: -40px;
+    margin-top: 75px;
+}
+
+.cutline {
+    float: left;
+    text-align: left;
+    margin: 0;
+    color: #000;
+    font-size: 12px;
+    width: 90%;
+    padding: 0;
+    padding-left: 10px;
+}
+
+.headline {
+    text-align: center;
+    font-family: 'Montserrat', Arial, sans-serif;
+    /* font-family: "Playfair Display", Georgia, serif; */
+    font-size: 25px;
+    margin-top: 1.5px;
+}
+
+/* BYLINE */
+.byline-info {
+    text-align: center;
+    display: block;
+}
+
+.byline-info p {
+    color: #3d3d3d;
+    display: inline-block;
+    font-family: 'Montserrat', Arial, sans-serif;
+    /* font-family: "Playfair Display", Georgia, serif; */
+    font-size: 14px;
+    text-align: center;
+}
+
+.byline-info p:last-of-type {
+    margin-right: 0;
+}
+
+/* CONTENT */
+p.intro {
+    font-size: 22px;
+}
+
+.dropcap {
+    font-weight: 700;
+    float: left;
+    font-size: 2.9em;
+    line-height: .9em;
+    padding-right: 5px;
+}
+
 /* GRID */
 body {
   box-sizing: border-box;
@@ -165,10 +223,9 @@ h4 {
   display: block;
   width: 100%;
   text-align: center;
-  /* background: #ffffff30; */
+  background: #ffffff30;
   text-decoration: none;
-  -webkit-text-stroke: 1px #292929;
-  color: #fff;
+  color: white;
   height: 500px;
   text-align: center;
   overflow: hidden;
@@ -223,7 +280,7 @@ h4 {
 }
 
 .grid__item:nth-child(1) {
-  background: url("https://s3.amazonaws.com/snwceomedia/ohi/377db86b-57c4-444b-a0bb-d8eda44be39b.sized-1000x1000.JPG") no-repeat center/cover;
+  background: url("https://w.wallhaven.cc/full/95/wallhaven-95mgm8.jpg") no-repeat center/cover;
 }
 
 .grid__item:nth-child(2) {
@@ -321,48 +378,97 @@ h4 {
   background: url("https://s3.amazonaws.com/snwceomedia/ohi/8aeb03d4-70fc-4817-ab5e-d53ed816b2ee.sized-1000x1000.png") no-repeat center/cover;
 }
 
-
 .grid__item:nth-child(26) {
-  background: url("https://s3.amazonaws.com/snwceomedia/ohi/dbd430ae-8a27-4b91-8d8b-afb9536a3c20.sized-1000x1000.JPG") no-repeat center/cover;
+  background: url("https://s3.amazonaws.com/snwceomedia/ohi/377db86b-57c4-444b-a0bb-d8eda44be39b.sized-1000x1000.JPG") no-repeat center/cover;
 }
 
 .grid__item:nth-child(27) {
-  background: url("https://s3.amazonaws.com/snwceomedia/ohi/6bc776c7-84e2-48c5-97c9-d4295398bb8a.sized-1000x1000.jpg") no-repeat center/cover;
+  background: url("https://s3.amazonaws.com/snwceomedia/ohi/dbd430ae-8a27-4b91-8d8b-afb9536a3c20.sized-1000x1000.JPG") no-repeat center/cover;
 }
 
 .grid__item:nth-child(28) {
-  background: url("https://s3.amazonaws.com/snwceomedia/ohi/f15e4e5f-5c0e-4ba7-a763-7ff7e1b5c86f.sized-1000x1000.jpg") no-repeat center/cover;
+  background: url("https://s3.amazonaws.com/snwceomedia/ohi/6bc776c7-84e2-48c5-97c9-d4295398bb8a.sized-1000x1000.jpg") no-repeat center/cover;
 }
 
 .grid__item:nth-child(29) {
-  background: url("https://s3.amazonaws.com/snwceomedia/ohi/fe84577d-ff4b-4f06-ac1f-0e57e247cf22.sized-1000x1000.png") no-repeat center/cover;
+  background: url("https://s3.amazonaws.com/snwceomedia/ohi/b54f30d0-fb89-44a8-b97b-a4e2ca7bcbf3.sized-1000x1000.jpg") no-repeat center/cover;
 }
 
 .grid__item:nth-child(30) {
-  background: url("https://s3.amazonaws.com/snwceomedia/ohi/ddbe11da-3dd8-4d76-bfcc-304757c83a25.sized-1000x1000.jpg") no-repeat center/cover;
+  background: url("https://s3.amazonaws.com/snwceomedia/ohi/f15e4e5f-5c0e-4ba7-a763-7ff7e1b5c86f.sized-1000x1000.jpg") no-repeat center/cover;
 }
 
 .grid__item:nth-child(31) {
-  background: url("https://s3.amazonaws.com/snwceomedia/ohi/2914240c-00aa-4b4f-9e8a-fa6427ea2c71.sized-1000x1000.png") no-repeat center/cover;
+  background: url("https://s3.amazonaws.com/snwceomedia/ohi/fe84577d-ff4b-4f06-ac1f-0e57e247cf22.sized-1000x1000.png") no-repeat center/cover;
 }
 
 .grid__item:nth-child(32) {
-  background: url("https://s3.amazonaws.com/snwceomedia/ohi/27ece232-4d74-4480-bc09-002db816ba41.sized-1000x1000.jpg") no-repeat center/cover;
+  background: url("https://s3.amazonaws.com/snwceomedia/ohi/ddbe11da-3dd8-4d76-bfcc-304757c83a25.sized-1000x1000.jpg") no-repeat center/cover;
 }
 
 .grid__item:nth-child(33) {
-  background: url("https://s3.amazonaws.com/snwceomedia/ohi/a3b9b97f-ede1-47f8-8716-32b3409c4807.sized-1000x1000.JPG") no-repeat center/cover;
+  background: url("https://s3.amazonaws.com/snwceomedia/ohi/2914240c-00aa-4b4f-9e8a-fa6427ea2c71.sized-1000x1000.png") no-repeat center/cover;
 }
 
 .grid__item:nth-child(34) {
-  background: url("https://s3.amazonaws.com/snwceomedia/ohi/d410c6e9-71b8-4186-923d-2d2411ebe01d.sized-1000x1000.jpg") no-repeat center/cover;
+  background: url("https://s3.amazonaws.com/snwceomedia/ohi/27ece232-4d74-4480-bc09-002db816ba41.sized-1000x1000.jpg") no-repeat center/cover;
 }
 
 .grid__item:nth-child(35) {
-  background: url("https://s3.amazonaws.com/snwceomedia/ohi/b9b62dde-32bc-46e9-9d6a-89ea21251377.sized-1000x1000.jpg") no-repeat center/cover;
+  background: url("https://s3.amazonaws.com/snwceomedia/ohi/a3b9b97f-ede1-47f8-8716-32b3409c4807.sized-1000x1000.JPG") no-repeat center/cover;
 }
 
+.grid__item:nth-child(36) {
+  background: url("https://w.wallhaven.cc/full/nm/wallhaven-nm8zvy.jpg") no-repeat center/cover;
+}
 
+.grid__item:nth-child(37) {
+  background: url("https://w.wallhaven.cc/full/95/wallhaven-95mgm8.jpg") no-repeat center/cover;
+}
+
+.grid__item:nth-child(38) {
+  background: url("https://w.wallhaven.cc/full/d5/wallhaven-d5pvql.jpg") no-repeat center/cover;
+}
+
+.grid__item:nth-child(39) {
+  background: url("https://w.wallhaven.cc/full/d5/wallhaven-d5pkgm.jpg") no-repeat center/cover;
+}
+
+.grid__item:nth-child(40) {
+  background: url("https://s3.amazonaws.com/snwceomedia/ohi/9a652b8b-5e6b-4fd5-ba00-4a7dc6ef544a.sized-1000x1000.jpg") no-repeat center/cover;
+}
+
+.grid__item:nth-child(41) {
+  background: url("https://s3.amazonaws.com/snwceomedia/ohi/bdb5b2bf-0112-428e-976f-5de231ddeeea.sized-1000x1000.png") no-repeat center/cover;
+}
+
+.grid__item:nth-child(42) {
+  background: url("https://w.wallhaven.cc/full/lq/wallhaven-lqm2lr.jpg") no-repeat center/cover;
+}
+
+.grid__item:nth-child(43) {
+  background: url("https://s3.amazonaws.com/snwceomedia/ohi/adbd92e0-677e-4d48-bd9a-4745b82bd9f5.sized-1000x1000.png") no-repeat center/cover;
+}
+
+.grid__item:nth-child(44) {
+  background: url("https://w.wallhaven.cc/full/yj/wallhaven-yjmkw7.jpg") no-repeat center/cover;
+}
+
+.grid__item:nth-child(45) {
+  background: url("https://s3.amazonaws.com/snwceomedia/ohi/b54f30d0-fb89-44a8-b97b-a4e2ca7bcbf3.sized-1000x1000.jpg") no-repeat center/cover;
+}
+
+.grid__item:nth-child(46) {
+  background: url("https://w.wallhaven.cc/full/nm/wallhaven-nm8zvy.jpg") no-repeat center/cover;
+}
+
+.grid__item:nth-child(47) {
+  background: url("https://s3.amazonaws.com/snwceomedia/ohi/57715829-e866-4264-9503-d87f1bba24fc.sized-1000x1000.jpg") no-repeat center/cover;
+}
+
+.grid__item:nth-child(48) {
+  background: url("https://w.wallhaven.cc/full/nm/wallhaven-nm8zvy.jpg") no-repeat center/cover;
+}
 .grid__item:nth-last-child(2) {
   height: auto;
   min-height: 280px;
@@ -667,14 +773,7 @@ blockquote {
 }
 
 /* MEDIA QUERIES */
-
-@media screen and (max-width: 1400px) {
-  #arthed {
-      font-size: 100px;
-      line-height: 60px;
-  }
-
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 750px) {
   .column20center, p {
       width: 80%;
       padding: 0 10%;
@@ -691,7 +790,6 @@ blockquote {
 
   #arthed {
       font-size: 60px;
-      bottom: 30%;
       line-height: 60px;
   }
   .headline {

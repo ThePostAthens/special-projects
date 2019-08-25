@@ -280,7 +280,7 @@ h4 {
 }
 
 .grid__item:nth-child(1) {
-  background: url("https://w.wallhaven.cc/full/95/wallhaven-95mgm8.jpg") no-repeat center/cover;
+  background: url("https://s3.amazonaws.com/snwceomedia/ohi/377db86b-57c4-444b-a0bb-d8eda44be39b.sized-1000x1000.JPG") no-repeat center/cover;
 }
 
 .grid__item:nth-child(2) {
@@ -379,7 +379,7 @@ h4 {
 }
 
 .grid__item:nth-child(26) {
-  background: url("https://s3.amazonaws.com/snwceomedia/ohi/377db86b-57c4-444b-a0bb-d8eda44be39b.sized-1000x1000.JPG") no-repeat center/cover;
+  background: url("https://s3.amazonaws.com/snwceomedia/ohi/d410c6e9-71b8-4186-923d-2d2411ebe01d.sized-1000x1000.jpg") no-repeat center/cover;
 }
 
 .grid__item:nth-child(27) {
@@ -419,55 +419,7 @@ h4 {
 }
 
 .grid__item:nth-child(36) {
-  background: url("https://w.wallhaven.cc/full/nm/wallhaven-nm8zvy.jpg") no-repeat center/cover;
-}
-
-.grid__item:nth-child(37) {
-  background: url("https://w.wallhaven.cc/full/95/wallhaven-95mgm8.jpg") no-repeat center/cover;
-}
-
-.grid__item:nth-child(38) {
-  background: url("https://w.wallhaven.cc/full/d5/wallhaven-d5pvql.jpg") no-repeat center/cover;
-}
-
-.grid__item:nth-child(39) {
-  background: url("https://w.wallhaven.cc/full/d5/wallhaven-d5pkgm.jpg") no-repeat center/cover;
-}
-
-.grid__item:nth-child(40) {
-  background: url("https://s3.amazonaws.com/snwceomedia/ohi/9a652b8b-5e6b-4fd5-ba00-4a7dc6ef544a.sized-1000x1000.jpg") no-repeat center/cover;
-}
-
-.grid__item:nth-child(41) {
-  background: url("https://s3.amazonaws.com/snwceomedia/ohi/bdb5b2bf-0112-428e-976f-5de231ddeeea.sized-1000x1000.png") no-repeat center/cover;
-}
-
-.grid__item:nth-child(42) {
-  background: url("https://w.wallhaven.cc/full/lq/wallhaven-lqm2lr.jpg") no-repeat center/cover;
-}
-
-.grid__item:nth-child(43) {
-  background: url("https://s3.amazonaws.com/snwceomedia/ohi/adbd92e0-677e-4d48-bd9a-4745b82bd9f5.sized-1000x1000.png") no-repeat center/cover;
-}
-
-.grid__item:nth-child(44) {
-  background: url("https://w.wallhaven.cc/full/yj/wallhaven-yjmkw7.jpg") no-repeat center/cover;
-}
-
-.grid__item:nth-child(45) {
-  background: url("https://s3.amazonaws.com/snwceomedia/ohi/b54f30d0-fb89-44a8-b97b-a4e2ca7bcbf3.sized-1000x1000.jpg") no-repeat center/cover;
-}
-
-.grid__item:nth-child(46) {
-  background: url("https://w.wallhaven.cc/full/nm/wallhaven-nm8zvy.jpg") no-repeat center/cover;
-}
-
-.grid__item:nth-child(47) {
-  background: url("https://s3.amazonaws.com/snwceomedia/ohi/57715829-e866-4264-9503-d87f1bba24fc.sized-1000x1000.jpg") no-repeat center/cover;
-}
-
-.grid__item:nth-child(48) {
-  background: url("https://w.wallhaven.cc/full/nm/wallhaven-nm8zvy.jpg") no-repeat center/cover;
+  background: url("https://s3.amazonaws.com/snwceomedia/ohi/b9b62dde-32bc-46e9-9d6a-89ea21251377.sized-1000x1000.jpg") no-repeat center/cover;
 }
 .grid__item:nth-last-child(2) {
   height: auto;

@@ -1,0 +1,537 @@
+/* Template.css
+This is a template for special projects at The Post.
+Template originally coded by Taylor Johnston, digital managing editor at The Post.
+Please contact at taylorfjohnston@gmail.com with questions.*/
+
+/* GENERAL STYLES */
+
+body { margin:0; padding:0; }
+#map { position:absolute; top:0; bottom:0; width:100%; }
+
+
+body {
+    font-family: montserrat, sans-serif;
+    background-color: #FFF;
+    color: #030406;
+}
+
+a {
+    color: #7fc448;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: .5;
+}
+
+
+p {
+    width: 60%;
+    padding: 0 20%;
+}
+
+h2 {
+    padding: 0 15%;
+}
+
+h3 {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+/* COLUMNS */
+.column20center {
+    width: 60%;
+    padding: 0 20%;
+}
+
+/* .column10center {
+    width: 80%;
+    padding: 0 10%;
+}
+
+.column10left {
+    width: 40%;
+    padding-left: 10%;
+}
+
+.column10right {
+    width: 40%;
+    padding-right: 10%;
+} */
+
+/* NAVIGATION BAR */
+#nav_bar {
+    background: #292929;
+    color: #FFF;
+    height: 52px;
+}
+
+#nav_bar img {
+    height: 30px;
+    padding: 10px;
+    float: left;
+}
+
+#nav_bar li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    float: right;
+}
+
+#nav_bar ul {
+    margin: 0;
+}
+
+#nav_bar li #facebook {
+    color: #fff;
+}
+
+#nav_bar li #facebook:hover {
+    color: #337ab7;
+    opacity: 1;
+}
+
+#nav_bar li #twitter {
+    color: #fff;
+}
+
+#nav_bar li #twitter:hover {
+    color: #55ACEE;
+    opacity: 1;
+}
+
+#nav_bar li #instagram {
+    color: #fff;
+}
+
+#nav_bar li #instagram:hover {
+    color: #efc04a;
+    opacity: 1;
+}
+
+#logo {
+    z-index: 1;
+    position: absolute;
+    float: left;
+    height: 30px;
+    padding: 7px;
+}
+
+/* HERO IMAGE */
+#heroimg {
+    width: 100%;
+    position: relative;
+}
+
+#heroimg img {
+    width: 100%;
+}
+
+/* HEADLINE STYLES */
+h1, h2, h3, h4 {
+    margin-bottom: 1.2px;
+}
+
+.date {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: -40px;
+    margin-top: 75px;
+}
+
+/* Pick one font depending on design (or find another one) */
+.arthed {
+    text-align: center;
+    color: #3d3d3d;
+    font-size: 60px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    /* font-family: "Playfair Display", Georgia, serif; */
+}
+.cutline {
+    float: left;
+    text-align: left;
+    margin: 0;
+    color: #000;
+    font-size: 12px;
+    width: 90%;
+    padding: 0;
+    padding-left: 10px;
+}
+
+.headline {
+    text-align: center;
+    font-family: 'Montserrat', Arial, sans-serif;
+    /* font-family: "Playfair Display", Georgia, serif; */
+    font-size: 25px;
+    margin-top: 1.5px;
+}
+
+/* BYLINE */
+.byline-info {
+    text-align: center;
+    display: block;
+}
+
+.byline-info p {
+    color: #3d3d3d;
+    display: inline-block;
+    font-family: 'Montserrat', Arial, sans-serif;
+    /* font-family: "Playfair Display", Georgia, serif; */
+    font-size: 14px;
+    text-align: center;
+}
+
+.byline-info p:last-of-type {
+    margin-right: 0;
+}
+
+/* SHARE BUTTONS */
+.share-container {
+    text-align: center;
+    margin-top: -10px;
+}
+
+ul.share-buttons {
+    list-style: none;
+    padding: 0;
+}
+
+ul.share-buttons li {
+    display: inline;
+}
+
+ul.share-buttons .sr-only {
+    position: absolute;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+ul.share-buttons img {
+    width: 32px;
+}
+
+/* CONTENT */
+p.intro {
+    font-size: 22px;
+}
+
+.dropcap {
+    font-weight: 700;
+    float: left;
+    font-size: 2.9em;
+    line-height: .9em;
+    padding-right: 5px;
+}
+
+/* CREDITS */
+.credits {
+  margin: 3rem auto 0;
+  max-width: 1000px;
+  padding-bottom: 2.4rem;
+  text-align: left
+}
+.credit-p {
+  display: inline-block;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 14px;
+  margin: 0 2rem 0rem 0;
+}
+
+.credit-p a {
+  color: pink;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* OTHER STUFF */
+/* IMAGE BLOCKS */
+.oneimg_center {
+    width: 60%;
+    padding: 0 20%;
+}
+
+/*Apply to a wrapping div*/
+.oneimg_right {
+    width: 40%;
+    padding-right: 10%;
+    padding-left: 10px;
+    float: right;
+}
+
+/*Apply to a wrapping div*/
+.oneimg_left {
+    width: 40%;
+    padding-left: 10%;
+    padding-right: 20px;
+    float: left;
+}
+
+/*add to p tag, should be before the pcut p tag*/
+.oneimg_full p {
+    width: 60%;
+    padding: 0 20%;
+}
+
+
+.oneimg_full img, .oneimg_center img, .oneimg_right img, .oneimg_left img {
+    width: 100%
+}
+
+.photog{
+    float: right;
+    text-align: right;
+    margin:0;
+    font-weight: 800;
+    color: #000;
+    font-size: 12px;
+    width: 100%;
+    padding: 0;
+}
+
+.pcut {
+    float: right;
+    text-align: left;
+    margin: 0;
+    font-weight: 100;
+    color: #808080;
+    font-size: 12px;
+    width: 100%;
+    padding: 0;
+}
+
+.subhed {
+    font-family: montserrat, sans-serif;
+    font-weight: 800;
+    color: #7fc448;
+}
+
+/*apply to wrapping span tag*/
+.title {
+    color: #606060;
+}
+
+/* PULL QUOTES */
+blockquote {
+    padding: 0;
+    margin: 5px;
+}
+
+/*add to wrapping div*/
+.pq_center {
+    width: 60%;
+    padding: 0 20%;
+    margin: 0;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #5379c4;
+    font-weight: 800;
+}
+
+/*add to wrapping div*/
+.pq_right {
+    width: 40%;
+    padding-right: 10%;
+    padding-left: 15px;
+    float: right;
+    margin: 0;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #5379c4;
+}
+
+/*add to wrapping div*/
+.pq_left {
+    width: 40%;
+    padding-left: 10%;
+    padding-right: 0;
+    float: left;
+    margin: 0;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #5379c4;
+}
+
+/*add to wrapping div*/
+.attribution {
+    font-size: 20px;
+    text-transform: none;
+    display: block;
+    text-align: right;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0 5%;
+    width: 90%;
+}
+
+/*----- Gallery Stuff -----*/
+.gallery_bot {
+    padding: 0;
+    width: 20%;
+    float: left;
+}
+.galleryPcut {
+    float: right;
+    text-align: left;
+    margin: 0;
+    font-weight: 100;
+    color: #808080;
+    font-size: 12px;
+    width: 100%;
+    padding: 0;
+    padding-bottom: 10px;
+}
+
+.w3-hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important
+}
+
+.mySlides {
+    display: none;
+}
+
+
+/* SPECIAL PROJECT FOOTER */
+.footer {
+    color: #FFF;
+    font-family: 'Playfair Display';
+    width: 100%;
+    height: 200px;
+    text-shadow: 2px 2px 5px #000;
+    background-color: #292929;
+    display: table;
+}
+
+.footer_inside {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.footer h2 {
+    font-size: 40px;
+    width: 70%;
+    padding: 0 15%;
+    margin: 0;
+    line-height: 35px;
+}
+
+.footer p {
+    font-family: 'Montserrat';
+    margin: 0;
+    width: 70%;
+    padding: 10px 15% 0 15%;
+}
+
+.copyright {
+  color: #FFF;
+  font-family: 'Montserrat';
+  width: 100%;
+  height: 20px;
+  text-shadow: 2px 2px 5px #000;
+  background-color: #171717;
+  display: table;
+}
+
+.copyright_inside {
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.copyright p {
+    font-family: 'Montserrat';
+    margin: 0;
+    width: 70%;
+    padding: 13px 15% 15px 15%;
+}
+
+.btn-container {
+  margin-left:20px;
+}
+
+
+
+.projects {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.projects:hover {
+  background-color: white;
+}
+
+.join {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.join:hover {
+  background-color: white;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 750px) {
+  .column20center, p {
+      width: 80%;
+      padding: 0 10%;
+  }
+
+  #logo {
+      height: 25px;
+  }
+
+  .date {
+      padding: 0 10%;
+      width: 80%;
+  }
+
+  .arthed {
+      font-size: 60px;
+      line-height: 60px;
+  }
+  .headline {
+      width: 80%;
+      padding: 0% 10% 0 10%;
+      font-size: 25px;
+  }
+
+    .oneimg_right, .oneimg_left, .oneimg_center {
+        width: 80%;
+        padding: 0 10% 10px 10%;
+    }
+
+    .oneimg_full p {
+        width: 80%;
+        padding: 0 10%;
+    }
+
+    .pq_center, .pq_right, .pq_left {
+        padding: 0 5%;
+        width: 90%;
+    }
+
+    .subhed {
+        padding: 0 10%;
+    }
+
+    .credits {
+      max-width: 100%;
+      text-align: left;
+      margin-left: 50px;
+    }
+
+    .footer {
+        height: 300px;
+    }
+}

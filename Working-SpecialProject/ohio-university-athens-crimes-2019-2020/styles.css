@@ -8,50 +8,81 @@ body {
     padding: 0;
     font-family: 'Montserrat';
 }
-
-.embed {
-    font-family: 'Montserrat';
-    max-width: 900px;
-    width: 100%;
-    margin: 0 auto;
-    background-color: #f5f5f5;
-    border-radius: 5px;
-    padding: 25px;
-    padding-bottom: 10px;
-    display: block;
-    font-weight: 300;
-}
-
-.embed_text h2 {
-    line-height: 2px;
-    margin-bottom: 10px;
-    padding: 0;
-}
-
-.embed_text p {
-    font-size: 12px;
-    line-height: 2px;
-    margin-bottom: 20px;
-    margin-top: 30px;
-    padding: 0;
-}
-
-.map-container {
-    position: relative;
-}
-
+/* MAP */
 #map {
-    height: 500px;
+  height: 500px;
+}
+
+#embed__container {
+  font-family: $sans;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  padding: 2.4rem;
+  display: block;
+  font-weight: 300;
+}
+
+.embed-content{
+  margin-bottom: 5px;
+}
+
+.embed-title {
+  font-size: 25px;
+  margin-top: -20px;
+  font-weight: bold;
+  color: #292929;
+}
+
+.embed-info {
+  padding-top: 10px;
+  font-size: 14px;
+}
+
+.embed-credit {
+  padding-top: 10px;
+  font-size: 12px;
+  text-align: right;
+  font-weight: bold;
+}
+
+#map-container {
+  position: relative;
 }
 
 .mapboxgl-popup {
     max-width: 400px;
     font-size: 12px;
+    padding-right: 20px;
     font-family: 'Montserrat';
 }
 
+.pop-date {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.pop-cat {
+  font-size: 12px;
+  font-weight: bold;
+  background: yellow;
+  display: inline;
+}
+
+.pop-title {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.source {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
 a {
-    color: #7fc448;
+    color: #c7002b;
     text-decoration: none;
 }
 
@@ -80,20 +111,6 @@ h3 {
     padding: 0 20%;
 }
 
-/* .column10center {
-    width: 80%;
-    padding: 0 10%;
-}
-
-.column10left {
-    width: 40%;
-    padding-left: 10%;
-}
-
-.column10right {
-    width: 40%;
-    padding-right: 10%;
-} */
 /* NAVIGATION BAR */
 #nav_bar {
     background: #292929;
@@ -201,6 +218,26 @@ h1, h2, h3, h4 {
     /* font-family: "Playfair Display", Georgia, serif; */
     font-size: 25px;
     margin-top: 1.5px;
+}
+
+/* CREDITS */
+.credits {
+  margin: 1rem auto 0;
+  max-width: 60%;
+  padding-bottom: 2.4rem;
+  text-align: left
+}
+.creditText {
+  display: inline-block;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 14px;
+  margin: 0 1rem 0rem 0;
+}
+
+.creditText a {
+  color: #c7002b;
+  font-weight: 700;
+  cursor: pointer;
 }
 
 /* BYLINE */

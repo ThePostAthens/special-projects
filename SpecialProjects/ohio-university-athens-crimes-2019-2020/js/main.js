@@ -562,7 +562,7 @@ map.on('load', () => {
                     "type": "Feature",
                     "geometry": {
                         "type": "Point",
-                        "coordinates": [-82.1286988, 39.3583709]
+                         "coordinates":  [ -82.108961,39.321709 ]
                     },
                     "properties": {
                         "date": "8/29/2019",

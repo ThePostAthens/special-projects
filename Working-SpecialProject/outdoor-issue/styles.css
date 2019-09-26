@@ -148,16 +148,10 @@ h1, h2, h3, h4 {
 
 /* Pick one font depending on design (or find another one) */
 .arthed {
-    color: #FFF;
-    position: absolute;
-    top: 800px;
-    right: 10px;
-    bottom: 100px;
-    padding: 0;
-    margin: 0;
-    font-size: 100px;
     text-align: center;
-    width: 100%;
+    color: #454720;
+    font-size: 125px;
+    font-family: "Gochi Hand", Arial, sans-serif;
     text-shadow: 2px 2px 3px #454720;
     font-family: "Mansalva", cursive;
     letter-spacing: 5px;

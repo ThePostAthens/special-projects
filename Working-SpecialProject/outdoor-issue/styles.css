@@ -274,7 +274,7 @@ p.intro {
 }
 
 .creditText a {
-  color: #405b8a;
+  color: #db4829;
   font-weight: 700;
   cursor: pointer;
 }
@@ -358,7 +358,7 @@ p.intro {
 .subhed {
     font-family: "Mansalva", cursive;
     font-weight: 800;
-    color: #7fc448;
+    color: #804A0E;
 }
 
 /*apply to wrapping span tag*/

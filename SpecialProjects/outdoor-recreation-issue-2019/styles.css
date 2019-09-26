@@ -2,96 +2,16 @@
 This is a template for special projects at The Post.
 Template originally coded by Taylor Johnston, digital managing editor at The Post.
 Please contact at taylorfjohnston@gmail.com with questions.*/
+
 /* GENERAL STYLES */
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat';
-}
-/* MAP */
-#map {
-  height: 500px;
-}
-
-#embed__container {
-  font-family: $sans;
-  max-width: 900px;
-  width: 100%;
-  margin: 0 auto;
-  background-color: #f7f7f7;
-  border-radius: 5px;
-  padding: 2.4rem;
-  display: block;
-  font-weight: 300;
-}
-
-.embed-content{
-  margin-bottom: 5px;
-}
-
-.embed-title {
-  font-size: 25px;
-  margin-top: -20px;
-  font-weight: bold;
-  color: #292929;
-}
-
-.embed-info {
-  padding-top: 10px;
-  font-size: 14px;
-}
-
-.embed-credit {
-  padding-top: 10px;
-  font-size: 12px;
-  text-align: right;
-  font-weight: bold;
-}
-
-#map-container {
-  position: relative;
-}
-
-.mapboxgl-popup {
-    max-width: 400px;
-    font-size: 12px;
-    padding-right: 20px;
-    font-family: 'Montserrat';
-}
-
-.pop-date {
-  font-size: 12px;
-  font-weight: bold;
-}
-
-.pop-place {
-  font-size: 12px;
-  font-weight: bold;
-}
-
-.pop-cat {
-  font-size: 12px;
-  font-weight: bold;
-  background: yellow;
-  display: inline;
-}
-
-.pop-title {
-  font-size: 12px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-.source {
-  margin-top: 10px;
-  font-size: 12px;
-}
-.note {
-  margin-top: 10px;
-  font-size: 12px;
+    font-family: montserrat, sans-serif;
+    background-color: #FFF;
+    color: #030406;
 }
 
 a {
-    color: #c7002b;
+    color: #db4829;
     text-decoration: none;
 }
 
@@ -99,9 +19,20 @@ a:hover {
     opacity: .5;
 }
 
+
 p {
     width: 60%;
     padding: 0 20%;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 h2 {
@@ -113,12 +44,26 @@ h3 {
     margin: 0;
     padding: 0;
 }
-
 /* COLUMNS */
 .column20center {
     width: 60%;
     padding: 0 20%;
 }
+
+/* .column10center {
+    width: 80%;
+    padding: 0 10%;
+}
+
+.column10left {
+    width: 40%;
+    padding-left: 10%;
+}
+
+.column10right {
+    width: 40%;
+    padding-right: 10%;
+} */
 
 /* NAVIGATION BAR */
 #nav_bar {
@@ -204,12 +149,28 @@ h1, h2, h3, h4 {
 /* Pick one font depending on design (or find another one) */
 .arthed {
     text-align: center;
-    color: #3d3d3d;
-    font-size: 60px;
-    font-family: 'Montserrat', Arial, sans-serif;
+    color: #454720;
+    font-size: 125px;
+    font-family: "Gochi Hand", Arial, sans-serif;
+    text-shadow: 2px 2px 3px #454720;
+    font-family: "Mansalva", cursive;
+    letter-spacing: 5px;
     /* font-family: "Playfair Display", Georgia, serif; */
 }
-
+/* #arthed {
+    color: #FFF;
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    font-size: 100px;
+    font-weight: 700;
+    text-align: center;
+    font-family: alfa slab one;
+    width: 100%;
+    text-shadow: 2px 2px 3px #000;
+}
+*/ 
 .cutline {
     float: left;
     text-align: left;
@@ -223,30 +184,10 @@ h1, h2, h3, h4 {
 
 .headline {
     text-align: center;
-    font-family: 'Montserrat', Arial, sans-serif;
+    font-family: 'Montserrat';
     /* font-family: "Playfair Display", Georgia, serif; */
-    font-size: 25px;
+    font-size: 45px;
     margin-top: 1.5px;
-}
-
-/* CREDITS */
-.credits {
-  margin: 1rem auto 0;
-  max-width: 60%;
-  padding-bottom: 2.4rem;
-  text-align: left
-}
-.creditText {
-  display: inline-block;
-  font-family: 'Montserrat', Arial, sans-serif;
-  font-size: 14px;
-  margin: 0 1rem 0rem 0;
-}
-
-.creditText a {
-  color: #c7002b;
-  font-weight: 700;
-  cursor: pointer;
 }
 
 /* BYLINE */
@@ -304,6 +245,7 @@ p.intro {
 }
 
 .dropcap {
+    font-family: "Mansalva", cursive;
     font-weight: 700;
     float: left;
     font-size: 2.9em;
@@ -313,23 +255,22 @@ p.intro {
 
 /* CREDITS */
 .credits {
-    margin: 3rem auto 0;
-    max-width: 1000px;
-    padding-bottom: 2.4rem;
-    text-align: left
+  margin: 1rem auto 0;
+  max-width: 60%;
+  padding-bottom: 2.4rem;
+  text-align: left
+}
+.creditText {
+  display: inline-block;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 14px;
+  margin: 0 1rem 0rem 0;
 }
 
-.credit-p {
-    display: inline-block;
-    font-family: 'Montserrat', Arial, sans-serif;
-    font-size: 14px;
-    margin: 0 2rem 0rem 0;
-}
-
-.credit-p a {
-    color: pink;
-    font-weight: 700;
-    cursor: pointer;
+.creditText a {
+  color: #db4829;
+  font-weight: 700;
+  cursor: pointer;
 }
 
 /* OTHER STUFF */
@@ -361,14 +302,35 @@ p.intro {
     padding: 0 20%;
 }
 
+
 .oneimg_full img, .oneimg_center img, .oneimg_right img, .oneimg_left img {
     width: 100%
 }
 
-.photog {
+.iframe {
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+    vertical-align: middle;
+    width: 100%;
+    height: 315px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+}
+
+.clearfix:after {
+    clear: both;
+}
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+.photog{
     float: right;
     text-align: right;
-    margin: 0;
+    margin:0;
     font-weight: 800;
     color: #000;
     font-size: 12px;
@@ -388,9 +350,9 @@ p.intro {
 }
 
 .subhed {
-    font-family: montserrat, sans-serif;
+    font-family: "Mansalva", cursive;
     font-weight: 800;
-    color: #7fc448;
+    color: #804A0E;
 }
 
 /*apply to wrapping span tag*/
@@ -402,6 +364,7 @@ p.intro {
 blockquote {
     padding: 0;
     margin: 5px;
+    font-family: "Mansalva", cursive;
 }
 
 /*add to wrapping div*/
@@ -410,8 +373,7 @@ blockquote {
     padding: 0 20%;
     margin: 0;
     font-size: 25px;
-    text-transform: uppercase;
-    color: #5379c4;
+    color: #454720;
     font-weight: 800;
 }
 
@@ -423,8 +385,7 @@ blockquote {
     float: right;
     margin: 0;
     font-size: 25px;
-    text-transform: uppercase;
-    color: #5379c4;
+    color: #454720;
 }
 
 /*add to wrapping div*/
@@ -435,9 +396,8 @@ blockquote {
     float: left;
     margin: 0;
     font-size: 25px;
-    text-transform: uppercase;
     font-weight: 700;
-    color: #5379c4;
+    color: #454720;
 }
 
 /*add to wrapping div*/
@@ -459,7 +419,6 @@ blockquote {
     width: 20%;
     float: left;
 }
-
 .galleryPcut {
     float: right;
     text-align: left;
@@ -479,6 +438,7 @@ blockquote {
 .mySlides {
     display: none;
 }
+
 
 /* SPECIAL PROJECT FOOTER */
 .footer {
@@ -512,18 +472,18 @@ blockquote {
 }
 
 .copyright {
-    color: #FFF;
-    font-family: 'Montserrat';
-    width: 100%;
-    height: 20px;
-    text-shadow: 2px 2px 5px #000;
-    background-color: #171717;
-    display: table;
+  color: #FFF;
+  font-family: 'Montserrat';
+  width: 100%;
+  height: 20px;
+  text-shadow: 2px 2px 5px #000;
+  background-color: #171717;
+  display: table;
 }
 
 .copyright_inside {
-    vertical-align: middle;
-    display: table-cell;
+  vertical-align: middle;
+  display: table-cell;
 }
 
 .copyright p {
@@ -534,57 +494,54 @@ blockquote {
 }
 
 .btn-container {
-    margin-left: 20px;
+  margin-left:20px;
 }
 
+
+
 .projects {
-    background-color: white;
-    color: black;
-    padding: 10px;
-    border-radius: 5px;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .projects:hover {
-    background-color: white;
+  background-color: white;
 }
 
 .join {
-    background-color: white;
-    color: black;
-    padding: 10px;
-    border-radius: 5px;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .join:hover {
-    background-color: white;
+  background-color: white;
 }
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 750px) {
-    .column20center, p {
-        width: 80%;
-        padding: 0 10%;
-    }
+  .column20center, p {
+      width: 80%;
+      padding: 0 10%;
+  }
 
-    #logo {
-        height: 25px;
-    }
+  #logo {
+      height: 25px;
+  }
 
-    .date {
-        padding: 0 10%;
-        width: 80%;
-    }
+  .date {
+      padding: 0 10%;
+      width: 80%;
+  }
 
-    .arthed {
-        font-size: 60px;
-        line-height: 60px;
-    }
-
-    .headline {
-        width: 80%;
-        padding: 0% 10% 0 10%;
-        font-size: 25px;
-    }
+  .headline {
+      width: 70%;
+      padding: 0% 0% 0 0%;
+      font-size: 25px;
+  }
 
     .oneimg_right, .oneimg_left, .oneimg_center {
         width: 80%;
@@ -606,9 +563,9 @@ blockquote {
     }
 
     .credits {
-        max-width: 100%;
-        text-align: left;
-        margin-left: 50px;
+      max-width: 100%;
+      text-align: left;
+      margin-left: 50px;
     }
 
     .footer {

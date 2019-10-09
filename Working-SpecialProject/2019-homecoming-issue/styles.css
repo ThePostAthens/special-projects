@@ -11,7 +11,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #92c94f;
     text-decoration: none;
 }
 
@@ -139,7 +139,7 @@ h1, h2, h3, h4 {
 /* Pick one font depending on design (or find another one) */
 .arthed {
     text-align: center;
-    color: #3d3d3d;
+    color: #0a4526;
     font-size: 60px;
     font-family: 'Montserrat', Arial, sans-serif;
     /* font-family: "Playfair Display", Georgia, serif; */
@@ -240,7 +240,7 @@ p.intro {
 }
 
 .creditText a {
-  color: #405b8a;
+  color: #0eb4d7;
   font-weight: 700;
   cursor: pointer;
 }

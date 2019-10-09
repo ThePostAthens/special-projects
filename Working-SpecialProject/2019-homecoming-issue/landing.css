@@ -23,6 +23,13 @@ p {
     padding-top: auto;
 }
 
+h1 {
+    padding-top: 25%;
+    padding-bottom: 20%;
+    font-size: 25px;
+    font-family: Montserrat, sans-serif;
+}
+
 h2 {
     padding: 0 15%;
 }

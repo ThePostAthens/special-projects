@@ -435,6 +435,71 @@ float: right;
     background-size: cover;
 }/* add to the wrapping div, give the div an inline style with the photo you want to be parallax*/
 
+/* NAVIGATION BAR */
+#nav_bar {
+    background: #292929;
+    color: #FFF;
+    height: 52px;
+}
+
+#nav_bar img {
+    height: 30px;
+    padding: 10px;
+    float: left;
+}
+
+#nav_bar img {
+    height: 30px;
+    padding: 10px;
+    float: left;
+}
+
+#nav_bar li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    float: right;
+}
+
+#nav_bar ul {
+    margin: 0;
+}
+
+#nav_bar li #facebook {
+    color: #fff;
+}
+
+#nav_bar li #facebook:hover {
+    color: #337ab7;
+    opacity: 1;
+}
+
+#nav_bar li #twitter {
+    color: #fff;
+}
+
+#nav_bar li #twitter:hover {
+    color: #55ACEE;
+    opacity: 1;
+}
+
+#nav_bar li #instagram {
+    color: #fff;
+}
+
+#nav_bar li #instagram:hover {
+    color: #efc04a;
+    opacity: 1;
+}
+
+#logo {
+    z-index: 1;
+    position: absolute;
+    float: left;
+    height: 30px;
+    padding: 7px;
+}
+
 /* SPECIAL PROJECT FOOTER */
 .footer {
     color: #FFF;

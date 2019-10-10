@@ -209,7 +209,7 @@ justify-content: center;
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
+    color: #FFF;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
@@ -690,7 +690,7 @@ float: right;
    /*Landing Page Elements*/
    .one {
 
-       background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/c82acf43-c719-4348-9af5-b7295d0d62f4.sized-1000x1000.png);
+       background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/49be0161-306a-4074-ba3e-987cd9870a82.sized-1000x1000.png);
        background-repeat: no-repeat;
        background-size: 100%;
        background-position: center;
@@ -719,7 +719,7 @@ float: right;
 
    .three {
 
-       background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/ca97fe5e-eec5-4ed2-874f-813c3fd4376c.sized-1000x1000.jpg);
+       background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/e3222812-2a1f-470e-b385-dd73eedcf5cd.sized-1000x1000.jpg);
        background-repeat: no-repeat;
        background-size: 220%;
        background-position: center;
@@ -815,7 +815,7 @@ float: right;
 
    .nine {
 
-       background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/c46d14fe-d72a-4efd-985d-c241534c491b.sized-1000x1000.jpg);
+       background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/28262b53-a156-4be1-9963-e265bc850f25.sized-1000x1000.jpg);
        background-repeat: no-repeat;
        background-size: 150%;
        background-position: center;

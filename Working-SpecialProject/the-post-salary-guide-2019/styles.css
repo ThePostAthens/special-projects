@@ -212,6 +212,11 @@ ul.share-buttons img {
     width: 32px;
 }
 
+/* TABLE */
+button.btn-space {
+        margin-left: 1em;
+    }
+
 /* CONTENT */
 p.intro {
     font-size: 22px;

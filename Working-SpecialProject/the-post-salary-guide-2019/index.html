@@ -48,8 +48,10 @@ THE
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css">
     <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
 </head>
 
 <body>
@@ -92,7 +94,7 @@ THE
                   onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20' + encodeURIComponent(document.URL)); return false;"><i class="fab fa-twitter-square fa-2x" aria-hidden="true"></i><span
                       class="sr-only">Tweet</span></a></li>
             <li><a <a href="mailto:EMAILHERE"><i class="fas fa-envelope-square fa-2x" aria-hidden="true"></i><span class="sr-only">Send
-                                  email</span></a></li>
+                        email</span></a></li>
         </ul>
     </div>
 
@@ -103,36 +105,22 @@ THE
         irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
 
-    <table id="example" class="display" style="width:100%">
-            <thead>
-                <tr>
-                    <th>First name</th>
-                    <th>Last name</th>
-                    <th>Position</th>
-                    <th>Office</th>
-                    <th>Start date</th>
-                    <th>Salary</th>
-                </tr>
-            </thead>
-            <tfoot>
-                <tr>
-                    <th>First name</th>
-                    <th>Last name</th>
-                    <th>Position</th>
-                    <th>Office</th>
-                    <th>Start date</th>
-                    <th>Salary</th>
-                </tr>
-            </tfoot>
-        </table>
+    <!-- TABLES -->
+    <button class="button">2015</button>
+    <button class="button button2">2016</button>
+    <button class="button button3">2017</button>
+    <button class="button button4">2018</button>
+    <button class="button button5">2019</button>
 
+    <table id="example" class="display" width="100%"></table>
+    <!-- CREDITS  -->
     <section class="credits">
-          <div class="creditText">AUTHOR: <a href="https://twitter.com/tf_johnston">Taylor Johnston</a></div>
-          <div class="creditText">EDITOR: <a href="https://twitter.com/=">Bennett Leckrone</a></div>
-          <div class="creditText">COPY EDITOR: <a href="https://twitter.com/=">Bre Offenberger</a></div>
-          <div class="creditText">ILLUSTRATION: <a href="https://twitter.com/=">NAME</a></div>
-          <div class="creditText">WEB DEVELOPMENT: <a href="https://twitter.com/=">Taylor Johnston</a></div>
-        </section>
+        <div class="creditText">AUTHOR: <a href="https://twitter.com/tf_johnston">Taylor Johnston</a></div>
+        <div class="creditText">EDITOR: <a href="https://twitter.com/=">Bennett Leckrone</a></div>
+        <div class="creditText">COPY EDITOR: <a href="https://twitter.com/=">Bre Offenberger</a></div>
+        <div class="creditText">ILLUSTRATION: <a href="https://twitter.com/=">NAME</a></div>
+        <div class="creditText">WEB DEVELOPMENT: <a href="https://twitter.com/=">Taylor Johnston</a></div>
+    </section>
 
     <!-- SPECIAL PROJECT FOOTER (don't change)-->
     <div class="footer">
@@ -155,7 +143,7 @@ THE
 
 
     <!-- SCRIPTS -->
-    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script> -->
     <script>
         window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')
     </script>
@@ -179,149 +167,7 @@ THE
         ga('create', 'UA-54093688-1', 'auto');
         ga('send', 'pageview');
     </script>
-<script>
-// Use a global for the submit and return data rendering in the examples.
-// Don't do this outside of the Editor examples!
-var editor;
 
-// Display an Editor form that allows the user to pick the CSV data to apply to each column
-function selectColumns ( editor, csv, header ) {
-    var selectEditor = new $.fn.dataTable.Editor();
-    var fields = editor.order();
-
-    for ( var i=0 ; i<fields.length ; i++ ) {
-        var field = editor.field( fields[i] );
-
-        selectEditor.add( {
-            label: field.label(),
-            name: field.name(),
-            type: 'select',
-            options: header,
-            def: header[i]
-        } );
-    }
-
-    selectEditor.create({
-        title: 'Map CSV fields',
-        buttons: 'Import '+csv.length+' records',
-        message: 'Select the CSV column you want to use the data from for each field.'
-    });
-
-    selectEditor.on('submitComplete', function (e, json, data, action) {
-        // Use the host Editor instance to show a multi-row create form allowing the user to submit the data.
-        editor.create( csv.length, {
-            title: 'Confirm import',
-            buttons: 'Submit',
-            message: 'Click the <i>Submit</i> button to confirm the import of '+csv.length+' rows of data. Optionally, override the value for a field to set a common value by clicking on the field below.'
-        } );
-
-        for ( var i=0 ; i<fields.length ; i++ ) {
-            var field = editor.field( fields[i] );
-            var mapped = data[ field.name() ];
-
-            for ( var j=0 ; j<csv.length ; j++ ) {
-                field.multiSet( j, csv[j][mapped] );
-            }
-        }
-    } );
-}
-
-$(document).ready(function() {
-    // Regular editor for the table
-    editor = new $.fn.dataTable.Editor( {
-        ajax: "../php/staff.php",
-        table: "#example",
-        fields: [ {
-                label: "First name:",
-                name: "first_name"
-            }, {
-                label: "Last name:",
-                name: "last_name"
-            }, {
-                label: "Position:",
-                name: "position"
-            }, {
-                label: "Office:",
-                name: "office"
-            }, {
-                label: "Start date:",
-                name: "start_date",
-                type: "datetime"
-            }, {
-                label: "Salary:",
-                name: "salary"
-            }
-        ]
-    } );
-
-    // Upload Editor - triggered from the import button. Used only for uploading a file to the browser
-    var uploadEditor = new $.fn.dataTable.Editor( {
-        fields: [ {
-            label: 'CSV file:',
-            name: 'csv',
-            type: 'upload',
-            ajax: function ( files ) {
-                // Ajax override of the upload so we can handle the file locally. Here we use Papa
-                // to parse the CSV.
-                Papa.parse(files[0], {
-                    header: true,
-                    skipEmptyLines: true,
-                    complete: function (results) {
-                        if ( results.errors.length ) {
-                            console.log( results );
-                            uploadEditor.field('csv').error( 'CSV parsing error: '+ results.errors[0].message );
-                        }
-                        else {
-                            uploadEditor.close();
-                            selectColumns( editor, results.data, results.meta.fields );
-                        }
-                    }
-                });
-            }
-        } ]
-    } );
-
-    $('#example').DataTable( {
-        dom: 'Bfrtip',
-        ajax: "../php/staff.php",
-        columns: [
-            { data: 'first_name' },
-            { data: 'last_name' },
-            { data: "position" },
-            { data: "office" },
-            { data: "start_date" },
-            { data: "salary", render: $.fn.dataTable.render.number( ',', '.', 0, '$' ) }
-        ],
-        select: true,
-        buttons: [
-            { extend: 'create', editor: editor },
-            { extend: 'edit',   editor: editor },
-            { extend: 'remove', editor: editor },
-            {
-                extend: 'csv',
-                text: 'Export CSV',
-                className: 'btn-space',
-                exportOptions: {
-                    orthogonal: null
-                }
-            },
-            {
-                text: 'Import CSV',
-                action: function () {
-                    uploadEditor.create( {
-                        title: 'CSV file import'
-                    } );
-                }
-            },
-            {
-                extend: 'selectAll',
-                className: 'btn-space'
-            },
-            'selectNone',
-        ]
-    } );
-} );
-</script>
 
 
 </body>

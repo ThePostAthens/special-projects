@@ -11,7 +11,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #e8b557;
     text-decoration: none;
 }
 
@@ -159,7 +159,7 @@ h1, h2, h3, h4 {
     text-align: center;
     font-family: 'Montserrat', Arial, sans-serif;
     /* font-family: "Playfair Display", Georgia, serif; */
-    font-size: 25px;
+    font-size: 27px;
     margin-top: 1.5px;
 }
 
@@ -240,7 +240,7 @@ p.intro {
 }
 
 .creditText a {
-  color: #c7002b;
+  color: #e38f46;
   font-weight: 700;
   cursor: pointer;
 }
@@ -303,8 +303,8 @@ p.intro {
 
 .subhed {
     font-family: montserrat, sans-serif;
-    font-weight: 800;
-    color: #7fc448;
+    font-weight: 900;
+    color: #3c6689;
 }
 
 /*apply to wrapping span tag*/
@@ -498,7 +498,7 @@ blockquote {
   .headline {
       width: 80%;
       padding: 0% 10% 0 10%;
-      font-size: 25px;
+      font-size: 40px;
   }
 
     .oneimg_right, .oneimg_left, .oneimg_center {

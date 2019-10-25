@@ -6,12 +6,12 @@ Please contact at taylorfjohnston@gmail.com with questions.*/
 /* GENERAL STYLES */
 body {
     font-family: montserrat, sans-serif;
-    background-color: #FFF;
+    background-color: #909D8A;
     color: #030406;
 }
 
 a {
-    color: #9b6455;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -40,20 +40,6 @@ h3 {
     padding: 0 20%;
 }
 
-/* .column10center {
-    width: 80%;
-    padding: 0 10%;
-}
-
-.column10left {
-    width: 40%;
-    padding-left: 10%;
-}
-
-.column10right {
-    width: 40%;
-    padding-right: 10%;
-} */
 
 /* NAVIGATION BAR */
 #nav_bar {
@@ -138,31 +124,11 @@ h1, h2, h3, h4 {
 
 /* Pick one font depending on design (or find another one) */
 .arthed {
-    color: #282828;
-    position: absolute;
-    top: 90px;
-    right: 20px;
-    padding: 0;
-    margin: 0;
-    font-size: 100px;
-    text-align: right;
-    width: 100%;
-    font-family: "Playfair Display";
-    font-weight: 200;
+    text-align: center;
+    color: #3d3d3d;
+    font-size: 60px;
+    font-family: 'Montserrat', Arial, sans-serif;
     /* font-family: "Playfair Display", Georgia, serif; */
-}
-
-.websum {
-    color: #282828;
-    position: absolute;
-    top: 228px;
-    right: 20px;
-    padding: 0;
-    margin: 0;
-    font-size: 30px;
-    text-align: right;
-    width: 100%;
-    font-family: "Montserrat";
 }
 .cutline {
     float: left;
@@ -238,7 +204,6 @@ p.intro {
 }
 
 .dropcap {
-    font-family: 'Playfair Display', sans-serif; 
     font-weight: 700;
     float: left;
     font-size: 2.9em;
@@ -261,7 +226,7 @@ p.intro {
 }
 
 .creditText a {
-  color: #9b6455;
+  color: #fff;
   font-weight: 700;
   cursor: pointer;
 }
@@ -324,9 +289,11 @@ p.intro {
 
 .subhed {
     font-family: montserrat, sans-serif;
-    font-weight: 900;
-    color: #6e7249;
-}
+    font-weight: 800;
+    color: #292929;
+    background-color: #fff;
+    right: 20px;
+  }
 
 /*apply to wrapping span tag*/
 .title {
@@ -345,7 +312,8 @@ blockquote {
     padding: 0 20%;
     margin: 0;
     font-size: 25px;
-    color: #4d6b89;
+    text-transform: uppercase;
+    color: #5379c4;
     font-weight: 800;
 }
 

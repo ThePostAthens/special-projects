@@ -2,9 +2,14 @@ mapboxgl.accessToken = 'pk.eyJ1Ijoiam9obnN0b250MDUiLCJhIjoiY2pkeG96ajVoNG5wZzJ3c
 var map = new mapboxgl.Map({
     container: 'map', // container id
     style: 'mapbox://styles/mapbox/streets-v11', // stylesheet location
-    center: [-82.0951678, 39.334115], // starting position [lng, lat]
-    zoom: 12 // starting zoom
+    center: [-82.09997, 39.33019],
+    zoom: 14,
+    minZoom: 13
 });
+
+var popup = new mapboxgl.Popup({
+  closeOnClick: false
+})
 
 map.on('load', () => {
 
@@ -397,34 +402,6 @@ map.on('load', () => {
 
     });
 
-    var map = new mapboxgl.Map({
-    container: 'map',
-    style: 'mapbox://styles/mapbox/streets-v9',
-    center: [-74.50, 40],
-    zoom: 9
-  }),
-  spiderfier = new MapboxglSpiderfier(map, {
-  	onClick: function(e, options){
-    	console.log(options.marker);
-    },
-    markerWidth: 40,
-    markerHeight: 40,
-  });
-
-
-map.on('style.load', function() {
-  var markers = [{id: 0}, {id: 1}, {id: 2}, {id: 3}, {id: 4}];
-
-  spiderfier.spiderfy(e.lngLat, markers);
-});
-
-map.on('click', function(){
-  spiderfier.unspiderfy();
-});
-
-spiderfier.spiderfy(latLng, markerArray);
-latLng => new mapboxgl.LngLat(39.3309472,-82.0996144);
-
     map.addLayer({
         id: 'points',
         source: 'pointsSource',
@@ -441,27 +418,24 @@ latLng => new mapboxgl.LngLat(39.3309472,-82.0996144);
 
     map.on('click', 'points', function(e) {
         var coordinates = e.features[0].geometry.coordinates.slice();
-        var crimes = '<div class="pop-date">' + e.features[0].properties['Fraternity'] + '</div>' +
-            '<div class="pop-place">' + e.features[0].properties['Incident Date'] + '</div>' +
-            '<div class="pop-cat">' + e.features[0].properties['Incident Time'] + '</div>' +
-            '<div class="pop-title">' + e.features[0].properties['Description'] + '</div>';
-
-        new mapboxgl.Popup()
-            .setLngLat(coordinates)
-            .setHTML(crimes)
+        var features = map.queryRenderedFeatures(e.point, {
+            layers: ['points']
+        })
+        var props = features[0].properties;
+        var html = `<div class="pop-place">${props.Fraternity}</div>`
+        for (f of features) {
+            props = f.properties;
+            html += `<div class="pop-date">${props['Incident Date']}</div>
+          <div class="pop-cat">${props['Incident Time']}</div>
+          <div class="pop-title">${props.Description}</div>`;
+        }
+        
+        popup
+        .setLngLat(coordinates)
+            .setHTML(html)
             .addTo(map);
     });
 
     map.scrollZoom.disable(); // disable scroll zoom
     map.addControl(new mapboxgl.NavigationControl()); // add zoom/nav controls
-});
-
-// Change the cursor to a pointer when the mouse is over the places layer.
-map.on('mouseenter', 'points', function() {
-    map.getCanvas().style.cursor = 'pointer';
-});
-
-// Change it back to a pointer when it leaves.
-map.on('mouseleave', 'points', function() {
-    map.getCanvas().style.cursor = '';
 });

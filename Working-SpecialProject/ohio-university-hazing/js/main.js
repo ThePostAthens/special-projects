@@ -2,10 +2,10 @@ mapboxgl.accessToken = 'pk.eyJ1Ijoiam9obnN0b250MDUiLCJhIjoiY2pkeG96ajVoNG5wZzJ3c
 var map = new mapboxgl.Map({
     container: 'map', // container id
     style: 'mapbox://styles/mapbox/streets-v11', // stylesheet location
-    center: [-82.09997, 39.33019],
-    zoom: 14,
+    center: [-82.09831, 39.33083],
+    zoom: 15,
     minZoom: 13
-});
+  });
 
 var popup = new mapboxgl.Popup({
   closeOnClick: false
@@ -422,13 +422,16 @@ map.on('load', () => {
             layers: ['points']
         })
         var props = features[0].properties;
-        var html = `<div class="pop-place">${props.Fraternity}</div>`
+        var html = `<div class="pop-place">Fraternity: ${props.Fraternity}</div>`
         for (f of features) {
             props = f.properties;
-            html += `<div class="pop-date">${props['Incident Date']}</div>
-          <div class="pop-cat">${props['Incident Time']}</div>
-          <div class="pop-title">${props.Description}</div>`;
+            html += `
+            <div class="pop-date">${props['Incident Date']}</div>
+            <div class="pop-cat">${props['Incident Time']}</div>
+            <div class="pop-title">${props.Description}</div>`;
         }
+
+        $('.sidebar').html(html);
 
         popup
         .setLngLat(coordinates)

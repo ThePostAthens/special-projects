@@ -5,7 +5,7 @@ Please contact at taylorfjohnston@gmail.com with questions.*/
 /* GENERAL STYLES */
 body {
     font-family: montserrat, sans-serif;
-    background-color: #909D8A;
+    background-color: #292929;
     color: #030406;
 }
 
@@ -21,6 +21,7 @@ a:hover {
 p {
     width: 60%;
     padding: 0 20%;
+    color: #fff;
 }
 
 h2 {
@@ -41,8 +42,8 @@ h3 {
 
 /* NAVIGATION BAR */
 #nav_bar {
-    background: #292929;
-    color: #FFF;
+    background: #000;
+    color: #fff;
     height: 52px;
 }
 
@@ -131,18 +132,21 @@ h4 {
 
 .arthed {
     text-align: center;
-    color: #292929;
-    font-size: 60px;
+    color: #fff;
+    font-size: 100px;
     font-family: 'Montserrat', Arial, sans-serif;
-    padding-right: 20%;
+    margin-left: -8%;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+
 }
 
 .description {
     text-align: center;
-    color: #292929;
+    color: #fff;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
-    padding-right: 10%;
+    margin-top: -10px;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 
 .line {
@@ -150,8 +154,8 @@ h4 {
     height: 0;
     left: 235px;
     top: 441px;
-    border: 8px solid #292929;
-    margin-left: 25%;
+    border: 8px solid #fff;
+    margin-left: 20%;
     margin-top: 20px;
 }
 
@@ -229,6 +233,7 @@ p.intro {
     font-family: 'Montserrat', Arial, sans-serif;
     font-size: 14px;
     margin: 0 1rem 0 0;
+    color: #fff;
 }
 
 .creditText a {
@@ -292,7 +297,8 @@ p.intro {
     font-family: 'Montserrat', sans-serif;
     text-align: left;
     font-weight: 200;
-    margin-bottom: 1.2rem;
+    padding-bottom: 50px;
+
 }
 
 #map-container {
@@ -330,7 +336,7 @@ p.intro {
 .one {
     grid-column: 1;
     grid-row: 1;
-    background-image: url('img/placeholder.jpg');
+    background-image: url('https://snworksceo.imgix.net/ohi/ebb92e0a-0967-498f-8a5f-824015c54026.sized-1000x1000.jpg?w=1000');
     position: relative;
     background-size: cover;
 }
@@ -472,11 +478,12 @@ p.intro {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     text-transform: uppercase;
-    color: #ffffff;
-    background-color: #292929;
+    color: #292929;
+    background-color: #fff;
     display: inline-block;
     padding: 12px 15px 13px;
     margin-left: 20%;
+    
 }
 
 /*apply to wrapping span tag*/
@@ -566,12 +573,11 @@ blockquote {
 
 /* SPECIAL PROJECT FOOTER */
 .footer {
-    color: #FFF;
+    color: #fff;
     font-family: 'Playfair Display';
     width: 100%;
     height: 200px;
-    text-shadow: 2px 2px 5px #000;
-    background-color: #292929;
+    background-color: #000;
     display: table;
 }
 
@@ -596,12 +602,12 @@ blockquote {
 }
 
 .copyright {
-    color: #FFF;
+    color: #000;
     font-family: 'Montserrat';
     width: 100%;
     height: 20px;
     text-shadow: 2px 2px 5px #000;
-    background-color: #171717;
+    background-color: #000;
     display: table;
 }
 

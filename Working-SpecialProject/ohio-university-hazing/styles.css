@@ -251,20 +251,6 @@ p.intro {
     border-radius: 5px;
 }
 
-.embed__chatter {
-    margin-bottom: 2.4rem;
-    // p {
-    //   @include type(1.4rem, 1.8rem, 1.2rem);
-    //   &:last-of-type {
-    //     margin-bottom: 0;
-    //   }
-    // }
-    // h4 {
-    //   margin-top: 0;
-    //   margin-bottom: 1.2rem;
-    // }
-}
-
 #map {
     height: 500px;
     width: 350px;
@@ -720,18 +706,22 @@ blockquote {
                 font-size: 60px;
                 line-height: 60px;
                 text-align: left;
-                padding-left: 20%;
+                padding-left: 10%;
             }
 
             .description {
                 text-align: left;
-                padding-left: 20%;
+                padding-left: 10%;
             }
 
             .headline {
                 width: 80%;
                 padding: 0 10%;
                 font-size: 25px;
+            }
+
+            .line {
+              margin-left: 10%;
             }
 
             .oneimg_center,

@@ -429,12 +429,17 @@ map.on('load', () => {
           <div class="pop-cat">${props['Incident Time']}</div>
           <div class="pop-title">${props.Description}</div>`;
         }
-        
+
         popup
         .setLngLat(coordinates)
             .setHTML(html)
             .addTo(map);
     });
+
+
+    function updateInfo(feature) {
+      $('#frat').text(feature.properties.Fraternity);
+}
 
     map.scrollZoom.disable(); // disable scroll zoom
     map.addControl(new mapboxgl.NavigationControl()); // add zoom/nav controls

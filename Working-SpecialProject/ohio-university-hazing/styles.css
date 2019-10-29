@@ -153,7 +153,7 @@ section .white {
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     margin-top: -20px;
-    width: 70%;
+    width: 80%;
     text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 
@@ -280,12 +280,12 @@ p.intro {
 }
 
 .map-title {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 800;
 }
 
 .map-sum {
-    font-size: 20px;
+    font-size: 15px;
     margin-bottom: 20px;
 }
 
@@ -637,10 +637,11 @@ blockquote {
 }
 
 /* MEDIA QUERIES */
-@media only screen and (max-width: 1310px) {
+@media only screen and (max-width: 1510px) {
     .arthed {
       font-size: 120px;
     }
+
 
     @media screen and (max-width: 1100px) {
       .arthed {

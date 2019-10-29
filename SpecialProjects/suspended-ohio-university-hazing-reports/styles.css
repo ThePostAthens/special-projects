@@ -149,8 +149,8 @@ section .white {
 
 .description {
     text-align: left;
-    color: #fff;
-    font-size: 20px;
+    color: #ffcc00;
+    font-size: 25px;
     font-family: 'Montserrat', sans-serif;
     margin-top: -20px;
     width: 80%;

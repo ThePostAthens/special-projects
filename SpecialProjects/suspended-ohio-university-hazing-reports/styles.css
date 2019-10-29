@@ -681,6 +681,7 @@ blockquote {
         @media screen and (max-width: 750px) {
             #map {
                 width: 350px;
+                height: 350px;
             }
 
             #embed__container {

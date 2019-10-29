@@ -98,16 +98,6 @@ h3 {
     padding: 7px;
 }
 
-/* HERO IMAGE */
-#heroimg {
-    width: 100%;
-    position: relative;
-}
-
-#heroimg img {
-    width: 100%;
-}
-
 /* HEADLINE STYLES */
 h1,
 h2,
@@ -167,54 +157,6 @@ section .white {
     align-content: left;
 }
 
-.cutline {
-    float: left;
-    text-align: left;
-    margin: 0;
-    color: #000;
-    font-size: 12px;
-    width: 90%;
-    padding: 0 0 0 10px;
-}
-
-.headline {
-    text-align: center;
-    font-family: 'Montserrat', Arial, sans-serif;
-    /* font-family: "Playfair Display", Georgia, serif; */
-    font-size: 25px;
-    margin-top: 1.5px;
-}
-
-/* SHARE BUTTONS */
-.share-container {
-    text-align: center;
-    margin-top: -10px;
-}
-
-ul.share-buttons {
-    list-style: none;
-    padding: 0;
-}
-
-ul.share-buttons li {
-    display: inline;
-}
-
-ul.share-buttons .sr-only {
-    position: absolute;
-    clip: rect(1px 1px 1px 1px);
-    clip: rect(1px, 1px, 1px, 1px);
-    padding: 0;
-    border: 0;
-    height: 1px;
-    width: 1px;
-    overflow: hidden;
-}
-
-ul.share-buttons img {
-    width: 32px;
-}
-
 /* CONTENT */
 p.intro {
     font-size: 22px;
@@ -253,7 +195,7 @@ p.intro {
 
 /* OTHER STUFF */
 /* MAP */
-#embed__container {
+#embed {
     font-family: 'Montserrat', sans-serif;
     max-width: 900px;
     width: 100%;
@@ -263,20 +205,6 @@ p.intro {
     display: block;
     font-weight: 300;
     border-radius: 5px;
-}
-
-#map {
-    height: 500px;
-    width: 550px;
-}
-
-.sidebar {
-    float: right;
-    width: calc(100% - 570px);
-}
-
-#frat {
-  font-size: 20px;
 }
 
 .map-title {
@@ -289,9 +217,29 @@ p.intro {
     margin-bottom: 20px;
 }
 
+#map-container {
+    position: relative;
+    max-width: 400px;
+    float: left;
+}
+
+#map {
+    height: 500px;
+    width: 550px;
+}
+
+.sidebar {
+    float: right;
+    width: calc(100% - 570px);
+}
+
 .map-img {
   width: 100%;
   padding-bottom: 5px;
+}
+
+#frat {
+  font-size: 20px;
 }
 
 #org {
@@ -307,16 +255,30 @@ p.intro {
   font-weight: 800;
 }
 
+#map-addr {
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+hr.map {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 #map-date {
     font-family: 'Montserrat', sans-serif;
     text-align: left;
     margin-top: 5px;
+    font-weight: 700;
+    font-size: 14px;
 }
 
 #map-time {
     font-family: 'Montserrat', sans-serif;
     text-align: left;
-    font-style: italic;
     margin-bottom: 1.2rem;
 }
 
@@ -325,35 +287,22 @@ p.intro {
     text-align: left;
     font-weight: 200;
     margin-top: 5px;
-    font-size: 15px;
+    font-size: 12px;
 }
 
-#map-container {
-    position: relative;
-    max-width: 400px;
-    float: left;
+.embed-credit {
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: left;
 }
 
 .source {
   font-size: 10px;
+  margin-top: 5px;
+  width: 100%;
 }
 
-.embed-credit {
-    padding-top: 10px;
-    font-size: 12px;
-    text-align: left;
-    font-weight: bold;
-}
-
-.mapboxgl-popup {
-    max-height: 300px;
-}
-
-.mapboxgl-popup-content {
-    overflow-y: scroll;
-}
-
-/* // IMG GRID */
+/* // CARDS */
 .card {
     background-color: #FFFFFF;
     width: 300px;
@@ -370,13 +319,13 @@ p.intro {
     border-radius: 1px;
     transition: .48s;
 }
-.cardbodytag {
+.card-body {
   padding-left:7px;
   padding-right:7px;
   text-align:center;
 }
 
-.cardthumbnail {
+.card-img {
     width: 100%;
 }
 .card-title {
@@ -389,12 +338,13 @@ p.intro {
   color: black;
 }
 
+/* CARD BUTTONS */
 .button {
   background-color: #ffcc00;
   border: none;
-  color: #000;
+  color: #fff;
   font-weight: 300;
-  padding: 15px 32px;
+  padding: 10px 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -402,6 +352,7 @@ p.intro {
   margin: 4px 2px;
   cursor: pointer;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  -webkit-text-stroke-color: #000;
 }
 
 /* IMAGE BLOCKS */
@@ -532,32 +483,6 @@ blockquote {
     width: 90%;
 }
 
-/*----- Gallery Stuff -----*/
-.gallery_bot {
-    padding: 0;
-    width: 20%;
-    float: left;
-}
-
-.galleryPcut {
-    float: right;
-    text-align: left;
-    margin: 0;
-    font-weight: 100;
-    color: #808080;
-    font-size: 12px;
-    width: 100%;
-    padding: 0 0 10px;
-}
-
-.w3-hover-shadow:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
-}
-
-.mySlides {
-    display: none;
-}
-
 /* SPECIAL PROJECT FOOTER */
 .footer {
     color: #fff;
@@ -641,8 +566,6 @@ blockquote {
     .arthed {
       font-size: 120px;
     }
-
-
     @media screen and (max-width: 1100px) {
       .arthed {
         font-size: 80px;
@@ -651,7 +574,7 @@ blockquote {
             width: 600px;
         }
 
-        #embed__container {
+        #embed {
             width: 600px;
         }
 
@@ -684,7 +607,7 @@ blockquote {
                 height: 350px;
             }
 
-            #embed__container {
+            #embed {
                 width: 350px;
             }
 

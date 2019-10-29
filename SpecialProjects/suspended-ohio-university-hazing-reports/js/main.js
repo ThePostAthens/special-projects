@@ -3,8 +3,8 @@ var map = new mapboxgl.Map({
     container: 'map', // container id
     style: 'mapbox://styles/mapbox/streets-v11', // stylesheet location
     center: [-82.09831, 39.33083],
-    zoom: 16,
-    minZoom: 13
+    zoom: 15.3,
+    hash:true
 });
 
 var popup = new mapboxgl.Popup({
@@ -32,7 +32,7 @@ map.on('load', () => {
                         "zip": 45701,
                         "full-address": "36 East State Street  OH 45701 ",
                         "date": "Aug. 31, 2019",
-                        "time": "around 12:30 a.m.",
+                        "time": "12:32 a.m.",
                         "description": "A man was found passed out behind the residence and was cited.",
                         "image": "acacia_1.jpg"
 
@@ -54,7 +54,7 @@ map.on('load', () => {
                         "full-address": "23 South Congress Street  OH 45701 ",
                         "date": "Sept. 12, 2019",
                         "time": "around 12:30 a.m.",
-                        "description": "A woman said she was assaulted near 23 S Congress (check previous PST reports).",
+                        "description": "A woman said she was assaulted near 23 S. Congress St. The offender was suspected of using alcohol.",
                         "image": "beta-theta-pi_2.jpg"
 
                     }
@@ -74,7 +74,7 @@ map.on('load', () => {
                         "zip": 45701,
                         "full-address": "117 East State Street  OH 45701 ",
                         "date": "July 4, 2019",
-                        "time": "10:56 a.m",
+                        "time": "10:56 a.m.",
                         "description": "APD took a report for a stolen purse.",
                         "image": "theta-chi_2.jpg"
 
@@ -116,7 +116,7 @@ map.on('load', () => {
                         "zip": 45701,
                         "full-address": "50 East State Street  OH 45701 ",
                         "date": "Sept. 28, 2019",
-                        "time": "1:00 a.m.",
+                        "time": "around 1:00 a.m.",
                         "description": "Three subjects were assaulted outside of the residence, and two of them were taken to O'Bleness.",
                         "image": "phi-kappa-tau_1.jpg"
 
@@ -137,7 +137,7 @@ map.on('load', () => {
                         "zip": 45701,
                         "full-address": "8 North College Street  OH 45701 ",
                         "date": "Mar. 23, 2019",
-                        "time": "11:00 p.m.",
+                        "time": "2:09 p.m.",
                         "description": "A man reported that his ATM card was stolen and used at two local ATMs.",
                         "image": "phi-kappa-psi_1.jpg"
 
@@ -178,8 +178,8 @@ map.on('load', () => {
                         "state": "OH",
                         "zip": 45701,
                         "full-address": "40 North College Street  OH 45701 ",
-                        "date": "Sept. 8, 2019",
-                        "time": "2:50 a.m.",
+                        "date": "Sept. 8, 2018",
+                        "time": "around 2:50 a.m.",
                         "description": "An assault was reported and the primary aggressor was identified and charged.",
                         "image": "delta-gamma_1.jpg"
                     }
@@ -219,7 +219,7 @@ map.on('load', () => {
                         "state": "OH",
                         "zip": 45701,
                         "full-address": "55 Mill Street  OH 45701 ",
-                        "date": "Oct. 21, 2019",
+                        "date": "Oct. 21, 2018",
                         "time": "11:04 a.m",
                         "description": "APD took a report of a man's Subaru's rear windshield wiper being damaged.",
                         "image": "delta-zeta_2.jpg"
@@ -241,8 +241,8 @@ map.on('load', () => {
                         "zip": 45701,
                         "full-address": "55 Mill Street  OH 45701 ",
                         "date": "Nov. 18, 2018",
-                        "time": "2:30 a.m.",
-                        "description": " A man was seen taking seat cushions and then running from police.",
+                        "time": " around 2:30 a.m.",
+                        "description": "A man was seen taking seat cushions and then running from police.",
                         "image": "delta-zeta_2.jpg"
 
                     }
@@ -261,8 +261,8 @@ map.on('load', () => {
                         "state": "OH",
                         "zip": 45701,
                         "full-address": "55 Mill Street  OH 45701 ",
-                        "date": "May 10, 2019",
-                        "time": "8 p.m.",
+                        "date": "May 24, 2019",
+                        "time": "7:28 p.m.",
                         "description": "APD investigated a report of doors being damaged.",
                         "image": "delta-zeta_2.jpg"
 
@@ -283,7 +283,7 @@ map.on('load', () => {
                         "zip": 45701,
                         "full-address": "55 Mill Street  OH 45701 ",
                         "date": "May 26, 2019",
-                        "time": "2:30 a.m.",
+                        "time": "around 2:30 a.m.",
                         "description": "A man was seen carrying a can outside of the house, and he dropped it when an officer tried to talk with him.",
                         "image": "delta-zeta_2.jpg"
 
@@ -305,7 +305,7 @@ map.on('load', () => {
                         "full-address": "55 Mill Street  OH 45701 ",
                         "date": "July 13, 2019",
                         "time": "12:00 a.m.",
-                        "description": "Criminal mischief was reported, but a description was not available.",
+                        "description": "Criminal mischief was reported, a fence spindle was broken off.",
                         "image": "delta-zeta_2.jpg"
 
                     }
@@ -335,7 +335,7 @@ map.on('load', () => {
                     "type": "Feature",
                     "geometry": {
                         "type": "Point",
-                        "coordinates": [-82.098786, 39.3300646]
+                        "coordinates": [-82.098863, 39.330173]
                     },
                     "properties": {
                         "house": "Sigma Pi",
@@ -346,8 +346,8 @@ map.on('load', () => {
                         "zip": 45701,
                         "full-address": "45 Mill Street  OH 45701 ",
                         "date": "Sept. 9, 2018",
-                        "time": "2:17 a.m.",
-                        "description": "Officers were at the house for a noise complaint. The residents turned down the music, but then one of the residents starte arguing with one of the officers.",
+                        "time": "around 2:17 a.m.",
+                        "description": "Officers were at the house for a noise complaint. The residents turned down the music, but then one of the residents started arguing with one of the officers.",
                         "image": "45-mill_1.jpg"
 
                     }
@@ -356,7 +356,7 @@ map.on('load', () => {
                     "type": "Feature",
                     "geometry": {
                         "type": "Point",
-                        "coordinates": [-82.098786, 39.3300646]
+                        "coordinates": [-82.098863, 39.330173]
                     },
                     "properties": {
                         "house": "Sigma Pi",
@@ -367,7 +367,7 @@ map.on('load', () => {
                         "zip": 45701,
                         "full-address": "45 Mill Street  OH 45701 ",
                         "date": "Nov. 12, 2018",
-                        "time": "2:48 a.m.",
+                        "time": "around 2:48 a.m.",
                         "description": "APD responded to an unresponsive male, Collin Wiant, who was transported to the hospital and was later pronounced dead.",
                         "image": "45-mill_1.jpg"
 
@@ -377,7 +377,7 @@ map.on('load', () => {
                     "type": "Feature",
                     "geometry": {
                         "type": "Point",
-                        "coordinates": [-82.098786, 39.3300646]
+                        "coordinates": [-82.098863, 39.330173]
                     },
                     "properties": {
                         "house": "Sigma Pi",
@@ -388,8 +388,8 @@ map.on('load', () => {
                         "zip": 45701,
                         "full-address": "45 Mill Street  OH 45701 ",
                         "date": "Dec. 14, 2018",
-                        "time": "2:08 a.m.",
-                        "description": "A man was urinating o nthe sidewalk in front of 45 Mill St. He smelled like alcohol and was found to be 20 years old. He was found with a fake ID, which was seized and destroyed.",
+                        "time": "around 2:08 a.m.",
+                        "description": "A man was urinating on the sidewalk in front of 45 Mill St. He smelled like alcohol and was found to be 20 years old. He was found with a fake ID, which was seized and destroyed.",
                         "image": "45-mill_1.jpg"
                     }
                 },
@@ -397,7 +397,7 @@ map.on('load', () => {
                     "type": "Feature",
                     "geometry": {
                         "type": "Point",
-                        "coordinates": [-82.098786, 39.3300646]
+                        "coordinates": [-82.098639, 39.330150]
                     },
                     "properties": {
                         "house": "ACACIA (annex)",
@@ -428,7 +428,7 @@ map.on('load', () => {
                         "zip": 45701,
                         "full-address": "23 South Congress Street  OH 45701 ",
                         "date": "Sept. 15, 2019",
-                        "time": "12:00 a.m.",
+                        "time": "around 12:00 a.m. - 2:30 a.m.",
                         "description": "Police receive a report of a stolen cell phone.",
                         "image": "beta-theta-pi_2.jpg"
                     }
@@ -451,14 +451,7 @@ map.on('load', () => {
         }
     });
 
-
-    map.on('mouseenter', 'points', function(e) {
-    });
-
-    map.on('mouseleave', 'points', function(e) {
-    });
-
-      map.on('click', 'points', function(e) {
+    map.on('click', 'points', function(e) {
         var coordinates = e.features[0].geometry.coordinates.slice();
         var features = map.queryRenderedFeatures(e.point, {
             layers: ['points']
@@ -468,19 +461,31 @@ map.on('load', () => {
 
         var html = `
         <img class="map-img" src="img/${props.image}">
+        <div id="house">${props.house}</div>
+        <div id="map-addr">${props.address} ${props.street}</div>
+        <hr class="map">
+
         `;
 
         for (f of features) {
             props = f.properties;
             html += `
-            <div id="house">${props.house}</div>
-          <div id="map-date"> ${props.date} at ${props.time}</div>
-          <div id="map-desc">${props.description}</div>
+            <div id="map-date"> ${props.date} at ${props.time}</div>
+            <div id="map-desc">${props.description}</div>
           `;
         }
 
-        console.log(html);
         $('.sidebar').html(html);
+    });
+
+    // Change the cursor to a pointer when the mouse is over the places layer.
+    map.on('mouseenter', 'points', function () {
+    map.getCanvas().style.cursor = 'pointer';
+    });
+
+    // Change it back to a pointer when it leaves.
+    map.on('mouseleave', 'points', function () {
+    map.getCanvas().style.cursor = '';
     });
 });
 

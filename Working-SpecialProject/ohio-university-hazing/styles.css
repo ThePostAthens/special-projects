@@ -9,7 +9,7 @@ body {
 }
 
 a {
-    color: green;
+    color: #FF0;
     text-decoration: none;
 }
 
@@ -136,10 +136,14 @@ section .white {
 
 .arthed {
     text-align: left;
+    font-weight: 800;
     color: #fff;
-    font-size: 160px;
+    font-size: 180px;
     font-family: 'Montserrat', Arial, sans-serif;
     text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    position: relative;
+    -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: #ff0;
 
 }
 
@@ -158,7 +162,7 @@ section .white {
     height: 0;
     left: 235px;
     top: 441px;
-    border: 8px solid #fff;
+    border: 8px solid #ff0;
     margin-top: 20px;
     align-content: left;
 }
@@ -219,6 +223,7 @@ p.intro {
 .dropcap {
     font-weight: 700;
     float: left;
+    color: #ff0;
     font-size: 2.9em;
     line-height: 0.9em;
     padding-right: 5px;
@@ -241,7 +246,7 @@ p.intro {
 }
 
 .creditText a {
-    color: #fff;
+    color: #ff0;
     font-weight: 700;
     cursor: pointer;
 }
@@ -268,6 +273,10 @@ p.intro {
 .sidebar {
     float: right;
     width: calc(100% - 570px);
+}
+
+#frat {
+  font-size: 20px;
 }
 
 .map-title {
@@ -317,14 +326,23 @@ p.intro {
     font-weight: 200;
     margin-top: 5px;
     font-size: 15px;
-
-
 }
 
 #map-container {
     position: relative;
     max-width: 400px;
     float: left;
+}
+
+.source {
+  font-size: 10px;
+}
+
+.embed-credit {
+    padding-top: 10px;
+    font-size: 12px;
+    text-align: left;
+    font-weight: bold;
 }
 
 .mapboxgl-popup {
@@ -338,9 +356,9 @@ p.intro {
 /* // IMG GRID */
 .card {
     background-color: #FFFFFF;
-    width: 270px;
+    width: 300px;
     margin: 100px auto;
-    height: 320px;
+    height: 350px;
     margin-left: 8px;
     margin-right: 8px;
     margin-bottom: 8px;
@@ -369,6 +387,21 @@ p.intro {
 .card-text {
   margin-top: 5px;
   color: black;
+}
+
+.button {
+  background-color: #ff0;
+  border: none;
+  color: #000;
+  font-weight: 300;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
 }
 
 /* IMAGE BLOCKS */
@@ -604,16 +637,15 @@ blockquote {
 }
 
 /* MEDIA QUERIES */
-@media only screen and (max-width: 768px) {
-    .wrapper {
-        display: block;
-    }
-
-    .margin-bot {
-        margin-bottom: 5px;
+@media only screen and (max-width: 1310px) {
+    .arthed {
+      font-size: 120px;
     }
 
     @media screen and (max-width: 1100px) {
+      .arthed {
+        font-size: 80px;
+      }
         #map {
             width: 600px;
         }
@@ -630,6 +662,21 @@ blockquote {
             width: 50%;
         }
 
+        #frat {
+          margin-top: 10px;
+        }
+
+        .map-img {
+          margin-top: 5px;
+          width: 300px;
+          float: left;
+          padding: 10px;
+        }
+
+        #house {
+          padding-top: 10px;
+        }
+
         @media screen and (max-width: 750px) {
             #map {
                 width: 350px;
@@ -643,8 +690,19 @@ blockquote {
                 width: 100%;
             }
 
-            .mapboxgl-popup {
-                width: 50%;
+            #house {
+              padding-top: 5px;
+            }
+
+            #map-date {
+            font-size: 12px;
+            }
+
+            .map-img {
+              margin-top: 5px;
+              width: 170px;
+              float: left;
+              padding: 5px;
             }
 
             .column20center,

@@ -5,10 +5,10 @@ var map = new mapboxgl.Map({
     center: [-82.09831, 39.33083],
     zoom: 15,
     minZoom: 13
-  });
+});
 
 var popup = new mapboxgl.Popup({
-  closeOnClick: false
+    closeOnClick: false
 })
 
 map.on('load', () => {
@@ -24,16 +24,16 @@ map.on('load', () => {
                         "coordinates": [-82.0996144, 39.3309472]
                     },
                     "properties": {
-                        "Fraternity": "ACACIA",
-                        "Address": 36,
-                        "Street": "East State Street",
-                        "City": "",
-                        "State": "OH",
-                        "Zip": 45701,
-                        "Full Address": "36 East State Street  OH 45701 ",
-                        "Incident Date": "8/31/19",
-                        "Incident Time": "Around 12:30 a.m.",
-                        "Description": "A man was found passed out behind the residence and was cited"
+                        "house": "ACACIA",
+                        "address": 36,
+                        "street": "East State Street",
+                        "city": "",
+                        "state": "OH",
+                        "zip": 45701,
+                        "full-address": "36 East State Street  OH 45701 ",
+                        "date": "August 31, 2019",
+                        "time": "around 12:30 a.m.",
+                        "description": "A man was found passed out behind the residence and was cited"
                     }
                 },
                 {
@@ -43,16 +43,16 @@ map.on('load', () => {
                         "coordinates": [-82.1028642, 39.3283538]
                     },
                     "properties": {
-                        "Fraternity": "Beta Theta Pi",
-                        "Address": 23,
-                        "Street": "South Congress Street",
-                        "City": "",
-                        "State": "OH",
-                        "Zip": 45701,
-                        "Full Address": "23 South Congress Street  OH 45701 ",
-                        "Incident Date": "9/12/19",
-                        "Incident Time": "Around 12:30 a.m.",
-                        "Description": "A woman said she was assaulted near 23 S Congress (check previous PST reports)"
+                        "house": "Beta Theta Pi",
+                        "address": 23,
+                        "street": "South Congress Street",
+                        "city": "",
+                        "state": "OH",
+                        "zip": 45701,
+                        "full-address": "23 South Congress Street  OH 45701 ",
+                        "date": "September 12, 2019",
+                        "time": "around 12:30 a.m.",
+                        "description": "A woman said she was assaulted near 23 S Congress (check previous PST reports)"
                     }
                 },
                 {
@@ -62,16 +62,16 @@ map.on('load', () => {
                         "coordinates": [-82.0971011, 39.3328641]
                     },
                     "properties": {
-                        "Fraternity": "Theta Chi",
-                        "Address": 117,
-                        "Street": "East State Street",
-                        "City": "",
-                        "State": "OH",
-                        "Zip": 45701,
-                        "Full Address": "117 East State Street  OH 45701 ",
-                        "Incident Date": "7/4/19",
-                        "Incident Time": "10:56 a.m",
-                        "Description": "APD took a report for a stolen purse"
+                        "house": "Theta Chi",
+                        "address": 117,
+                        "street": "East State Street",
+                        "city": "",
+                        "state": "OH",
+                        "zip": 45701,
+                        "full-address": "117 East State Street  OH 45701 ",
+                        "date": "July 4, 2019",
+                        "time": "10:56 a.m",
+                        "description": "APD took a report for a stolen purse"
                     }
                 },
                 {
@@ -81,16 +81,16 @@ map.on('load', () => {
                         "coordinates": [-82.0992968, 39.3301741]
                     },
                     "properties": {
-                        "Fraternity": "Pi Kappa Phi",
-                        "Address": 32,
-                        "Street": "North College Street",
-                        "City": "",
-                        "State": "OH",
-                        "Zip": 45701,
-                        "Full Address": "32 North College Street  OH 45701 ",
-                        "Incident Date": "3/23/19",
-                        "Incident Time": "2:14 a.m.",
-                        "Description": "APD took a report for criminal damaging, but details were not available"
+                        "house": "Pi Kappa Phi",
+                        "address": 32,
+                        "street": "North College Street",
+                        "city": "",
+                        "state": "OH",
+                        "zip": 45701,
+                        "full-address": "32 North College Street  OH 45701 ",
+                        "date": "March 23, 2019",
+                        "time": "2:14 a.m.",
+                        "description": "APD took a report for criminal damaging, but details were not available"
                     }
                 },
                 {
@@ -100,16 +100,16 @@ map.on('load', () => {
                         "coordinates": [-82.0988593, 39.3311806]
                     },
                     "properties": {
-                        "Fraternity": "Phi Kappa Tau",
-                        "Address": 50,
-                        "Street": "East State Street",
-                        "City": "",
-                        "State": "OH",
-                        "Zip": 45701,
-                        "Full Address": "50 East State Street  OH 45701 ",
-                        "Incident Date": "9/28/19",
-                        "Incident Time": "1:00 a.m.",
-                        "Description": "Three subjects were assaulted outside of the residence, and two of them were taken to O'Bleness"
+                        "house": "Phi Kappa Tau",
+                        "address": 50,
+                        "street": "East State Street",
+                        "city": "",
+                        "state": "OH",
+                        "zip": 45701,
+                        "full-address": "50 East State Street  OH 45701 ",
+                        "date": "September 28, 2019",
+                        "time": "1:00 a.m.",
+                        "description": "Three subjects were assaulted outside of the residence, and two of them were taken to O'Bleness"
                     }
                 },
                 {
@@ -119,16 +119,16 @@ map.on('load', () => {
                         "coordinates": [-82.0994524, 39.3293908]
                     },
                     "properties": {
-                        "Fraternity": "Phi Kappa Psi",
-                        "Address": 8,
-                        "Street": "North College Street",
-                        "City": "",
-                        "State": "OH",
-                        "Zip": 45701,
-                        "Full Address": "8 North College Street  OH 45701 ",
-                        "Incident Date": "3/23/19",
-                        "Incident Time": "11:00 p.m.",
-                        "Description": "A man reported that his ATM card was stolen and used at two local ATMs"
+                        "house": "Phi Kappa Psi",
+                        "address": 8,
+                        "street": "North College Street",
+                        "city": "",
+                        "state": "OH",
+                        "zip": 45701,
+                        "full-address": "8 North College Street  OH 45701 ",
+                        "date": "March 23, 2019",
+                        "time": "11:00 p.m.",
+                        "description": "A man reported that his ATM card was stolen and used at two local ATMs"
                     }
                 },
                 {
@@ -138,16 +138,16 @@ map.on('load', () => {
                         "coordinates": [-82.0985775, 39.3294648]
                     },
                     "properties": {
-                        "Fraternity": "Alpha Omnicron Pi",
-                        "Address": 8,
-                        "Street": "Church Street",
-                        "City": "",
-                        "State": "OH",
-                        "Zip": 45701,
-                        "Full Address": "8 Church Street  OH 45701 ",
-                        "Incident Date": "9/14/19",
-                        "Incident Time": "3:02 a.m.",
-                        "Description": "An underage consumption was reported outside of the residence. An 18-year-old man was arrested."
+                        "house": "Alpha Omnicron Pi",
+                        "address": 8,
+                        "street": "Church Street",
+                        "city": "",
+                        "state": "OH",
+                        "zip": 45701,
+                        "full-address": "8 Church Street  OH 45701 ",
+                        "date": "September 14, 2019",
+                        "time": "3:02 a.m.",
+                        "description": "An underage consumption was reported outside of the residence. An 18-year-old man was arrested."
                     }
                 },
                 {
@@ -157,16 +157,16 @@ map.on('load', () => {
                         "coordinates": [-82.0993059, 39.3307881]
                     },
                     "properties": {
-                        "Fraternity": "Delta Gamma",
-                        "Address": 40,
-                        "Street": "North College Street",
-                        "City": "",
-                        "State": "OH",
-                        "Zip": 45701,
-                        "Full Address": "40 North College Street  OH 45701 ",
-                        "Incident Date": "9/8/18",
-                        "Incident Time": "2:50 a.m.",
-                        "Description": "An assault was reported and the primary aggressor was identified and charged."
+                        "house": "Delta Gamma",
+                        "address": 40,
+                        "street": "North College Street",
+                        "city": "",
+                        "state": "OH",
+                        "zip": 45701,
+                        "full-address": "40 North College Street  OH 45701 ",
+                        "date": "September 8, 2019",
+                        "time": "2:50 a.m.",
+                        "description": "An assault was reported and the primary aggressor was identified and charged."
                     }
                 },
                 {
@@ -176,16 +176,16 @@ map.on('load', () => {
                         "coordinates": [-82.0993059, 39.3307881]
                     },
                     "properties": {
-                        "Fraternity": "Delta Gamma",
-                        "Address": 40,
-                        "Street": "North College Street",
-                        "City": "",
-                        "State": "OH",
-                        "Zip": 45701,
-                        "Full Address": "40 North College Street  OH 45701 ",
-                        "Incident Date": "1/26/19",
-                        "Incident Time": "3:23 a.m.",
-                        "Description": "A man was found on the porch after someone complained about him banging on the front door. He was found to be intoxicated."
+                        "house": "Delta Gamma",
+                        "address": 40,
+                        "street": "North College Street",
+                        "city": "",
+                        "state": "OH",
+                        "zip": 45701,
+                        "full-address": "40 North College Street  OH 45701 ",
+                        "date": "January 26, 2019",
+                        "time": "3:23 a.m.",
+                        "description": "A man was found on the porch after someone complained about him banging on the front door. He was found to be intoxicated."
                     }
                 },
                 {
@@ -195,16 +195,16 @@ map.on('load', () => {
                         "coordinates": [-82.0985068, 39.3299292]
                     },
                     "properties": {
-                        "Fraternity": "Delta Zeta",
-                        "Address": 55,
-                        "Street": "Mill Street",
-                        "City": "",
-                        "State": "OH",
-                        "Zip": 45701,
-                        "Full Address": "55 Mill Street  OH 45701 ",
-                        "Incident Date": "10/21/2018",
-                        "Incident Time": "11:04 a.m",
-                        "Description": "APD took a report of a man's Subaru's rear windshield wiper being damaged."
+                        "house": "Delta Zeta",
+                        "address": 55,
+                        "street": "Mill Street",
+                        "city": "",
+                        "state": "OH",
+                        "zip": 45701,
+                        "full-address": "55 Mill Street  OH 45701 ",
+                        "date": "October 21, 2019",
+                        "time": "11:04 a.m",
+                        "description": "APD took a report of a man's Subaru's rear windshield wiper being damaged."
                     }
                 },
                 {
@@ -214,16 +214,16 @@ map.on('load', () => {
                         "coordinates": [-82.0985068, 39.3299292]
                     },
                     "properties": {
-                        "Fraternity": "Delta Zeta",
-                        "Address": 55,
-                        "Street": "Mill Street",
-                        "City": "",
-                        "State": "OH",
-                        "Zip": 45701,
-                        "Full Address": "55 Mill Street  OH 45701 ",
-                        "Incident Date": "11/18/18",
-                        "Incident Time": "2:30 a.m.",
-                        "Description": " A man was seen taking seat cushions and then running from police."
+                        "house": "Delta Zeta",
+                        "address": 55,
+                        "street": "Mill Street",
+                        "city": "",
+                        "state": "OH",
+                        "zip": 45701,
+                        "full-address": "55 Mill Street  OH 45701 ",
+                        "date": "November 18, 2018",
+                        "time": "2:30 a.m.",
+                        "description": " A man was seen taking seat cushions and then running from police."
                     }
                 },
                 {
@@ -233,16 +233,16 @@ map.on('load', () => {
                         "coordinates": [-82.0985068, 39.3299292]
                     },
                     "properties": {
-                        "Fraternity": "Delta Zeta",
-                        "Address": 55,
-                        "Street": "Mill Street",
-                        "City": "",
-                        "State": "OH",
-                        "Zip": 45701,
-                        "Full Address": "55 Mill Street  OH 45701 ",
-                        "Incident Date": "5/10/19",
-                        "Incident Time": "8 p.m.",
-                        "Description": "APD investigated a report of doors being damaged."
+                        "house": "Delta Zeta",
+                        "address": 55,
+                        "street": "Mill Street",
+                        "city": "",
+                        "state": "OH",
+                        "zip": 45701,
+                        "full-address": "55 Mill Street  OH 45701 ",
+                        "date": "May 10, 2019",
+                        "time": "8 p.m.",
+                        "description": "APD investigated a report of doors being damaged."
                     }
                 },
                 {
@@ -252,16 +252,16 @@ map.on('load', () => {
                         "coordinates": [-82.0985068, 39.3299292]
                     },
                     "properties": {
-                        "Fraternity": "Delta Zeta",
-                        "Address": 55,
-                        "Street": "Mill Street",
-                        "City": "",
-                        "State": "OH",
-                        "Zip": 45701,
-                        "Full Address": "55 Mill Street  OH 45701 ",
-                        "Incident Date": "5/26/19",
-                        "Incident Time": "2:30 a.m.",
-                        "Description": "A man was seen carrying a can outside of the house, and he dropped it when an officer tried to talk with him."
+                        "house": "Delta Zeta",
+                        "address": 55,
+                        "street": "Mill Street",
+                        "city": "",
+                        "state": "OH",
+                        "zip": 45701,
+                        "full-address": "55 Mill Street  OH 45701 ",
+                        "date": "May 26, 2019",
+                        "time": "2:30 a.m.",
+                        "description": "A man was seen carrying a can outside of the house, and he dropped it when an officer tried to talk with him."
                     }
                 },
                 {
@@ -271,16 +271,16 @@ map.on('load', () => {
                         "coordinates": [-82.0985068, 39.3299292]
                     },
                     "properties": {
-                        "Fraternity": "Delta Zeta",
-                        "Address": 55,
-                        "Street": "Mill Street",
-                        "City": "",
-                        "State": "OH",
-                        "Zip": 45701,
-                        "Full Address": "55 Mill Street  OH 45701 ",
-                        "Incident Date": "7/13/19",
-                        "Incident Time": "12:00 a.m.",
-                        "Description": "Criminal mischief was reported, but a description was not available."
+                        "house": "Delta Zeta",
+                        "address": 55,
+                        "street": "Mill Street",
+                        "city": "",
+                        "state": "OH",
+                        "zip": 45701,
+                        "full-address": "55 Mill Street  OH 45701 ",
+                        "date": "July 13, 2019",
+                        "time": "12:00 a.m.",
+                        "description": "Criminal mischief was reported, but a description was not available."
                     }
                 },
                 {
@@ -290,16 +290,16 @@ map.on('load', () => {
                         "coordinates": [-82.0994853, 39.3289171]
                     },
                     "properties": {
-                        "Fraternity": "Pi Beta Phi",
-                        "Address": 6,
-                        "Street": "South College Street",
-                        "City": "",
-                        "State": "OH",
-                        "Zip": 45701,
-                        "Full Address": "6 South College Street  OH 45701 ",
-                        "Incident Date": "11/4/18",
-                        "Incident Time": "9:46 p.m.",
-                        "Description": "Officers responded to the residence for suspected drugs being located."
+                        "house": "Pi Beta Phi",
+                        "address": 6,
+                        "street": "South College Street",
+                        "city": "",
+                        "state": "OH",
+                        "zip": 45701,
+                        "full-address": "6 South College Street  OH 45701 ",
+                        "date": "November 4, 2018",
+                        "time": "9:46 p.m.",
+                        "description": "Officers responded to the residence for suspected drugs being located."
                     }
                 },
                 {
@@ -309,16 +309,16 @@ map.on('load', () => {
                         "coordinates": [-82.098786, 39.3300646]
                     },
                     "properties": {
-                        "Fraternity": "Sigma Pi",
-                        "Address": 45,
-                        "Street": "Mill Street",
-                        "City": "",
-                        "State": "OH",
-                        "Zip": 45701,
-                        "Full Address": "45 Mill Street  OH 45701 ",
-                        "Incident Date": "9/9/18",
-                        "Incident Time": "2:17 a.m.",
-                        "Description": "Officers were at the house for a noise complaint. The residents turned down the music, but then one of the residents starte arguing with one of the officers."
+                        "house": "Sigma Pi",
+                        "address": 45,
+                        "street": "Mill Street",
+                        "city": "",
+                        "state": "OH",
+                        "zip": 45701,
+                        "full-address": "45 Mill Street  OH 45701 ",
+                        "date": "September 9, 2018",
+                        "time": "2:17 a.m.",
+                        "description": "Officers were at the house for a noise complaint. The residents turned down the music, but then one of the residents starte arguing with one of the officers."
                     }
                 },
                 {
@@ -328,16 +328,16 @@ map.on('load', () => {
                         "coordinates": [-82.098786, 39.3300646]
                     },
                     "properties": {
-                        "Fraternity": "Sigma Pi",
-                        "Address": 45,
-                        "Street": "Mill Street",
-                        "City": "",
-                        "State": "OH",
-                        "Zip": 45701,
-                        "Full Address": "45 Mill Street  OH 45701 ",
-                        "Incident Date": "11/12/18",
-                        "Incident Time": "2:48 a.m.",
-                        "Description": "APD responded to an unresponsive male, Collin Wiant, who was transported to the hospital and was later pronounced dead."
+                        "house": "Sigma Pi",
+                        "address": 45,
+                        "street": "Mill Street",
+                        "city": "",
+                        "state": "OH",
+                        "zip": 45701,
+                        "full-address": "45 Mill Street  OH 45701 ",
+                        "date": "November 12, 2018",
+                        "time": "2:48 a.m.",
+                        "description": "APD responded to an unresponsive male, Collin Wiant, who was transported to the hospital and was later pronounced dead."
                     }
                 },
                 {
@@ -347,16 +347,16 @@ map.on('load', () => {
                         "coordinates": [-82.098786, 39.3300646]
                     },
                     "properties": {
-                        "Fraternity": "Sigma Pi",
-                        "Address": 45,
-                        "Street": "Mill Street",
-                        "City": "",
-                        "State": "OH",
-                        "Zip": 45701,
-                        "Full Address": "45 Mill Street  OH 45701 ",
-                        "Incident Date": "12/14/18",
-                        "Incident Time": "2:08 a.m.",
-                        "Description": "A man was urinating o nthe sidewalk in front of 45 Mill St. He smelled like alcohol and was found to be 20 years old. He was found with a fake ID, which was seized and destroyed."
+                        "house": "Sigma Pi",
+                        "address": 45,
+                        "street": "Mill Street",
+                        "city": "",
+                        "state": "OH",
+                        "zip": 45701,
+                        "full-address": "45 Mill Street  OH 45701 ",
+                        "date": "December 14, 2018",
+                        "time": "2:08 a.m.",
+                        "description": "A man was urinating o nthe sidewalk in front of 45 Mill St. He smelled like alcohol and was found to be 20 years old. He was found with a fake ID, which was seized and destroyed."
                     }
                 },
                 {
@@ -366,16 +366,16 @@ map.on('load', () => {
                         "coordinates": [-82.098786, 39.3300646]
                     },
                     "properties": {
-                        "Fraternity": "ACACIA (annex)",
-                        "Address": 45,
-                        "Street": "Mill Street",
-                        "City": "",
-                        "State": "OH",
-                        "Zip": 45701,
-                        "Full Address": "45 Mill Street  OH 45701 ",
-                        "Incident Date": "8/19/19",
-                        "Incident Time": "9:37 p.m.",
-                        "Description": "An aggravated possession of drugs was reported, but details were not given."
+                        "house": "ACACIA (annex)",
+                        "address": 45,
+                        "street": "Mill Street",
+                        "city": "",
+                        "state": "OH",
+                        "zip": 45701,
+                        "full-address": "45 Mill Street  OH 45701 ",
+                        "date": "August 19, 2019",
+                        "time": "9:37 p.m.",
+                        "description": "An aggravated possession of drugs was reported, but details were not given."
                     }
                 },
                 {
@@ -385,16 +385,17 @@ map.on('load', () => {
                         "coordinates": [-82.1028642, 39.3283538]
                     },
                     "properties": {
-                        "Fraternity": "Beta Theta Pi",
-                        "Address": 23,
-                        "Street": "South Congress Street",
-                        "City": "",
-                        "State": "OH",
-                        "Zip": 45701,
-                        "Full Address": "23 South Congress Street  OH 45701 ",
-                        "Incident Date": "9/15/19",
-                        "Incident Time": "12:00 a.m.",
-                        "Description": "Police receive a report of a stolen cell phone."
+                        "house": "Beta Theta Pi",
+                        "address": 23,
+                        "street": "South Congress Street",
+                        "city": "",
+                        "state": "OH",
+                        "zip": 45701,
+                        "full-address": "23 South Congress Street  OH 45701 ",
+                        "date": "September 15, 2019",
+                        "time": "12:00 a.m.",
+                        "description": "Police receive a report of a stolen cell phone.",
+                        "image": "placeholder.jpg"
                     }
                 }
             ]
@@ -407,8 +408,8 @@ map.on('load', () => {
         source: 'pointsSource',
         type: 'circle',
         paint: {
-            'circle-radius': 5,
-            'circle-color': '#c7002b',
+            'circle-radius': 6,
+            'circle-color': '#000',
             'circle-opacity': 0.85,
             'circle-stroke-color': '#FFFFFF',
             'circle-stroke-width': 1
@@ -421,28 +422,35 @@ map.on('load', () => {
         var features = map.queryRenderedFeatures(e.point, {
             layers: ['points']
         })
-        var props = features[0].properties;
-        var html = `<div class="pop-place">Fraternity: ${props.Fraternity}</div>`
-        for (f of features) {
-            props = f.properties;
-            html += `
-            <div class="pop-date">${props['Incident Date']}</div>
-            <div class="pop-cat">${props['Incident Time']}</div>
-            <div class="pop-title">${props.Description}</div>`;
-        }
+        var props = e.features[0].properties;
+        var html = `
+        <img class="map-img" src="img/${props.image}">
+        <div id="house">${props.house}</div>
+        <div id="map-date"> ${props.date} at ${props.time}</div>
+        <div id="map-desc">${props.description}</div>
+        `;
 
         $('.sidebar').html(html);
 
-        popup
-        .setLngLat(coordinates)
-            .setHTML(html)
-            .addTo(map);
+
+        // for (f of features) {
+        //     props = f.properties;
+        //     html += `
+        //     <div class="pop-date">${props.date}</div>
+        //     <div class="pop-cat">${props.time}</div>
+        //     <div class="pop-title">${props.description}</div>`;
+        // }
+
+        // popup
+        //     .setLngLat(coordinates)
+        //     .setHTML(html)
+        //     .addTo(map);
     });
 
 
     function updateInfo(feature) {
-      $('#frat').text(feature.properties.Fraternity);
-}
+        $('#frat').text(feature.properties.Fraternity);
+    }
 
     map.scrollZoom.disable(); // disable scroll zoom
     map.addControl(new mapboxgl.NavigationControl()); // add zoom/nav controls

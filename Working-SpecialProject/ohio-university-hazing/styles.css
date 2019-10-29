@@ -6,11 +6,10 @@ Please contact at taylorfjohnston@gmail.com with questions.*/
 body {
     font-family: montserrat, sans-serif;
     background-color: #292929;
-    color: #030406;
 }
 
 a {
-    color: #fff;
+    color: green;
     text-decoration: none;
 }
 
@@ -124,39 +123,44 @@ h4 {
     margin-top: 75px;
 }
 
+section .white {
+  background-color: white;
+}
+
 /* Pick one font depending on design (or find another one) */
 .header {
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 20%;
 }
 
 .arthed {
-    text-align: center;
+    text-align: left;
     color: #fff;
-    font-size: 100px;
+    font-size: 160px;
     font-family: 'Montserrat', Arial, sans-serif;
-    margin-left: -8%;
     text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 
 }
 
 .description {
-    text-align: center;
+    text-align: left;
     color: #fff;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
-    margin-top: -10px;
+    margin-top: -20px;
+    width: 70%;
     text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 
-.line {
+.hr-bold {
     width: 106px;
     height: 0;
     left: 235px;
     top: 441px;
     border: 8px solid #fff;
-    margin-left: 20%;
     margin-top: 20px;
+    align-content: left;
 }
 
 .cutline {
@@ -258,12 +262,12 @@ p.intro {
 
 #map {
     height: 500px;
-    width: 350px;
+    width: 550px;
 }
 
 .sidebar {
     float: right;
-    width: calc(100% - 370px);
+    width: calc(100% - 570px);
 }
 
 .map-title {
@@ -271,25 +275,39 @@ p.intro {
     font-weight: 800;
 }
 
-#frat {
+.map-sum {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.map-img {
+  width: 100%;
+  padding-bottom: 5px;
+}
+
+#org {
     font-family: 'Montserrat', sans-serif;
     text-align: left;
-    font-weight: 200;
-    margin-bottom: 1.2rem;
+    font-weight: 800;
+    font-size: 10px;
+    margin-bottom: 2px;
+}
+
+#house {
+  font-size: 20px;
+  font-weight: 800;
 }
 
 #map-date {
     font-family: 'Montserrat', sans-serif;
     text-align: left;
-    font-weight: 200;
-    margin-bottom: 1.2rem;
+    margin-top: 5px;
 }
 
 #map-time {
     font-family: 'Montserrat', sans-serif;
     text-align: left;
     font-style: italic;
-    font-weight: 200;
     margin-bottom: 1.2rem;
 }
 
@@ -297,7 +315,9 @@ p.intro {
     font-family: 'Montserrat', sans-serif;
     text-align: left;
     font-weight: 200;
-    padding-bottom: 50px;
+    margin-top: 5px;
+    font-size: 15px;
+
 
 }
 
@@ -316,105 +336,39 @@ p.intro {
 }
 
 /* // IMG GRID */
-.wrapper {
-    max-width: 1100px;
-    margin: 0 auto;
+.card {
+    background-color: #FFFFFF;
+    width: 270px;
+    margin: 100px auto;
+    height: 320px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-top: 10px;
+    transition: .38s;
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+    border-radius: 1px;
+    transition: .48s;
+}
+.cardbodytag {
+  padding-left:7px;
+  padding-right:7px;
+  text-align:center;
 }
 
-.wrapper>div {
-    padding: 8em;
-    color: white;
+.cardthumbnail {
+    width: 100%;
 }
-
-.wrapper {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 30px;
-    grid-auto-rows: minmax(100px, auto);
+.card-title {
+  font-size: 18px;
+  font-weight: 800;
+  margin-top: 5px;
 }
-
-.one {
-    grid-column: 1;
-    grid-row: 1;
-    background-image: url('https://snworksceo.imgix.net/ohi/ebb92e0a-0967-498f-8a5f-824015c54026.sized-1000x1000.jpg?w=1000');
-    position: relative;
-    background-size: cover;
-}
-
-.one span {
-    position: absolute;
-    bottom: 2px;
-    left: 5px;
-    color: white;
-    text-shadow: 2px 2px black;
-}
-
-.two {
-    grid-column: 2;
-    grid-row: 1;
-    background-image: url('img/placeholder.jpg');
-    position: relative;
-    background-size: cover;
-}
-
-.two span {
-    position: absolute;
-    bottom: 2px;
-    left: 5px;
-    color: white;
-    text-shadow: 2px 2px black;
-}
-
-.three {
-    grid-column: 3;
-    grid-row: 1;
-    background-image: url('img/placeholder.jpg');
-    position: relative;
-    background-size: cover;
-}
-
-.three span {
-    position: absolute;
-    bottom: 2px;
-    left: 5px;
-    color: white;
-    text-shadow: 2px 2px black;
-}
-
-.four {
-    grid-column: 4;
-    grid-row: 1;
-    background-image: url('img/placeholder.jpg');
-    position: relative;
-    background-size: cover;
-}
-
-.four span {
-    position: absolute;
-    bottom: 2px;
-    left: 5px;
-    text-shadow: 2px 2px black;
-}
-
-/*HOVER*/
-.one:hover {
-    opacity: .6;
-}
-
-.two:hover {
-    opacity: .6;
-}
-
-.three:hover {
-    opacity: .6;
-}
-
-.four:hover {
-    opacity: .6;
-}
-
-.five:hover {
-    opacity: .6;
+.card-text {
+  margin-top: 5px;
+  color: black;
 }
 
 /* IMAGE BLOCKS */
@@ -483,7 +437,7 @@ p.intro {
     display: inline-block;
     padding: 12px 15px 13px;
     margin-left: 20%;
-    
+
 }
 
 /*apply to wrapping span tag*/
@@ -703,21 +657,25 @@ blockquote {
                 height: 25px;
             }
 
-            .date {
-                padding: 0 10%;
-                width: 80%;
+            .header {
+                margin-top: 10%;
+                margin-bottom: 10%;
+                margin-left: 10%;
             }
 
             .arthed {
                 font-size: 60px;
                 line-height: 60px;
                 text-align: left;
-                padding-left: 10%;
             }
 
             .description {
                 text-align: left;
-                padding-left: 10%;
+                font-size: 15px;
+                margin-top: 10px;
+            }
+
+
             }
 
             .headline {

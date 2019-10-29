@@ -465,7 +465,6 @@ map.on('load', () => {
         <div id="house">${props.house}</div>
         <div id="map-date"> ${props.date} at ${props.time}</div>
         <div id="map-desc">${props.description}</div>
-        <div id="map-desc">${props.description}</div>
         `;
         console.log(features);
         $('.sidebar').html(html);

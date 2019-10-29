@@ -458,6 +458,7 @@ map.on('load', () => {
             layers: ['points']
         })
 
+
         for (f of features) {
           props = f.properties;
         html = `
@@ -466,18 +467,19 @@ map.on('load', () => {
         <div id="map-date"> ${props.date} at ${props.time}</div>
         <div id="map-desc">${props.description}</div>
         `;
+
         console.log(features);
         $('.sidebar').html(html);
-}
+      }
 
-        // for (f of features) {
-        //     props = f.properties;
-        //     html += `
-        //     <div class="pop-date">${props.date}</div>
-        //     <div class="pop-cat">${props.time}</div>
-        //     <div class="pop-title">${props.description}</div>`;
-        // }
-    //
+    //     for (f of features) {
+    //         props = f.properties;
+    //         html += `
+    //         <div class="pop-date">${props.date}</div>
+    //         <div class="pop-cat">${props.time}</div>
+    //         <div class="pop-title">${props.description}</div>`;
+    //     }
+    // //
     //     popup
     //         .setLngLat(coordinates)
     //         .setHTML(html)

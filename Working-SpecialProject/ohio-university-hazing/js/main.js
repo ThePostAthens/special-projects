@@ -33,7 +33,9 @@ map.on('load', () => {
                         "full-address": "36 East State Street  OH 45701 ",
                         "date": "August 31, 2019",
                         "time": "around 12:30 a.m.",
-                        "description": "A man was found passed out behind the residence and was cited"
+                        "description": "A man was found passed out behind the residence and was cited",
+                        "image": "acacia_1.jpg"
+
                     }
                 },
                 {
@@ -52,7 +54,9 @@ map.on('load', () => {
                         "full-address": "23 South Congress Street  OH 45701 ",
                         "date": "September 12, 2019",
                         "time": "around 12:30 a.m.",
-                        "description": "A woman said she was assaulted near 23 S Congress (check previous PST reports)"
+                        "description": "A woman said she was assaulted near 23 S Congress (check previous PST reports)",
+                        "image": "beta-theta-pi_2.jpg"
+
                     }
                 },
                 {
@@ -71,7 +75,9 @@ map.on('load', () => {
                         "full-address": "117 East State Street  OH 45701 ",
                         "date": "July 4, 2019",
                         "time": "10:56 a.m",
-                        "description": "APD took a report for a stolen purse"
+                        "description": "APD took a report for a stolen purse",
+                        "image": "theta-chi_2.jpg"
+
                     }
                 },
                 {
@@ -90,7 +96,9 @@ map.on('load', () => {
                         "full-address": "32 North College Street  OH 45701 ",
                         "date": "March 23, 2019",
                         "time": "2:14 a.m.",
-                        "description": "APD took a report for criminal damaging, but details were not available"
+                        "description": "APD took a report for criminal damaging, but details were not available",
+                        "image": "pi-kappa-phi_2.jpg"
+
                     }
                 },
                 {
@@ -109,7 +117,9 @@ map.on('load', () => {
                         "full-address": "50 East State Street  OH 45701 ",
                         "date": "September 28, 2019",
                         "time": "1:00 a.m.",
-                        "description": "Three subjects were assaulted outside of the residence, and two of them were taken to O'Bleness"
+                        "description": "Three subjects were assaulted outside of the residence, and two of them were taken to O'Bleness",
+                        "image": "phi-kappa-tau_1.jpg"
+
                     }
                 },
                 {
@@ -128,7 +138,9 @@ map.on('load', () => {
                         "full-address": "8 North College Street  OH 45701 ",
                         "date": "March 23, 2019",
                         "time": "11:00 p.m.",
-                        "description": "A man reported that his ATM card was stolen and used at two local ATMs"
+                        "description": "A man reported that his ATM card was stolen and used at two local ATMs",
+                        "image": "phi-kappa-psi_1.jpg"
+
                     }
                 },
                 {
@@ -147,7 +159,9 @@ map.on('load', () => {
                         "full-address": "8 Church Street  OH 45701 ",
                         "date": "September 14, 2019",
                         "time": "3:02 a.m.",
-                        "description": "An underage consumption was reported outside of the residence. An 18-year-old man was arrested."
+                        "description": "An underage consumption was reported outside of the residence. An 18-year-old man was arrested.",
+                        "image": "alpha-omicron-pi_1.jpg"
+
                     }
                 },
                 {
@@ -166,7 +180,8 @@ map.on('load', () => {
                         "full-address": "40 North College Street  OH 45701 ",
                         "date": "September 8, 2019",
                         "time": "2:50 a.m.",
-                        "description": "An assault was reported and the primary aggressor was identified and charged."
+                        "description": "An assault was reported and the primary aggressor was identified and charged.",
+                        "image": "delta-gamma_1.jpg"
                     }
                 },
                 {
@@ -185,7 +200,9 @@ map.on('load', () => {
                         "full-address": "40 North College Street  OH 45701 ",
                         "date": "January 26, 2019",
                         "time": "3:23 a.m.",
-                        "description": "A man was found on the porch after someone complained about him banging on the front door. He was found to be intoxicated."
+                        "description": "A man was found on the porch after someone complained about him banging on the front door. He was found to be intoxicated.",
+                        "image": "delta-gamma_1.jpg"
+
                     }
                 },
                 {
@@ -204,7 +221,9 @@ map.on('load', () => {
                         "full-address": "55 Mill Street  OH 45701 ",
                         "date": "October 21, 2019",
                         "time": "11:04 a.m",
-                        "description": "APD took a report of a man's Subaru's rear windshield wiper being damaged."
+                        "description": "APD took a report of a man's Subaru's rear windshield wiper being damaged.",
+                        "image": "delta-zeta_2.jpg"
+
                     }
                 },
                 {
@@ -223,7 +242,9 @@ map.on('load', () => {
                         "full-address": "55 Mill Street  OH 45701 ",
                         "date": "November 18, 2018",
                         "time": "2:30 a.m.",
-                        "description": " A man was seen taking seat cushions and then running from police."
+                        "description": " A man was seen taking seat cushions and then running from police.",
+                        "image": "delta-zeta_2.jpg"
+
                     }
                 },
                 {
@@ -242,7 +263,9 @@ map.on('load', () => {
                         "full-address": "55 Mill Street  OH 45701 ",
                         "date": "May 10, 2019",
                         "time": "8 p.m.",
-                        "description": "APD investigated a report of doors being damaged."
+                        "description": "APD investigated a report of doors being damaged.",
+                        "image": "delta-zeta_2.jpg"
+
                     }
                 },
                 {
@@ -261,7 +284,9 @@ map.on('load', () => {
                         "full-address": "55 Mill Street  OH 45701 ",
                         "date": "May 26, 2019",
                         "time": "2:30 a.m.",
-                        "description": "A man was seen carrying a can outside of the house, and he dropped it when an officer tried to talk with him."
+                        "description": "A man was seen carrying a can outside of the house, and he dropped it when an officer tried to talk with him.",
+                        "image": "delta-zeta_2.jpg"
+
                     }
                 },
                 {
@@ -280,7 +305,9 @@ map.on('load', () => {
                         "full-address": "55 Mill Street  OH 45701 ",
                         "date": "July 13, 2019",
                         "time": "12:00 a.m.",
-                        "description": "Criminal mischief was reported, but a description was not available."
+                        "description": "Criminal mischief was reported, but a description was not available.",
+                        "image": "delta-zeta_2.jpg"
+
                     }
                 },
                 {
@@ -299,7 +326,9 @@ map.on('load', () => {
                         "full-address": "6 South College Street  OH 45701 ",
                         "date": "November 4, 2018",
                         "time": "9:46 p.m.",
-                        "description": "Officers responded to the residence for suspected drugs being located."
+                        "description": "Officers responded to the residence for suspected drugs being located.",
+                        "image": "pi-beta-phi.jpg"
+
                     }
                 },
                 {
@@ -318,7 +347,9 @@ map.on('load', () => {
                         "full-address": "45 Mill Street  OH 45701 ",
                         "date": "September 9, 2018",
                         "time": "2:17 a.m.",
-                        "description": "Officers were at the house for a noise complaint. The residents turned down the music, but then one of the residents starte arguing with one of the officers."
+                        "description": "Officers were at the house for a noise complaint. The residents turned down the music, but then one of the residents starte arguing with one of the officers.",
+                        "image": "45-mill_1.jpg"
+
                     }
                 },
                 {
@@ -337,7 +368,9 @@ map.on('load', () => {
                         "full-address": "45 Mill Street  OH 45701 ",
                         "date": "November 12, 2018",
                         "time": "2:48 a.m.",
-                        "description": "APD responded to an unresponsive male, Collin Wiant, who was transported to the hospital and was later pronounced dead."
+                        "description": "APD responded to an unresponsive male, Collin Wiant, who was transported to the hospital and was later pronounced dead.",
+                        "image": "45-mill_1.jpg"
+
                     }
                 },
                 {
@@ -356,7 +389,8 @@ map.on('load', () => {
                         "full-address": "45 Mill Street  OH 45701 ",
                         "date": "December 14, 2018",
                         "time": "2:08 a.m.",
-                        "description": "A man was urinating o nthe sidewalk in front of 45 Mill St. He smelled like alcohol and was found to be 20 years old. He was found with a fake ID, which was seized and destroyed."
+                        "description": "A man was urinating o nthe sidewalk in front of 45 Mill St. He smelled like alcohol and was found to be 20 years old. He was found with a fake ID, which was seized and destroyed.",
+                        "image": "45-mill_1.jpg"
                     }
                 },
                 {
@@ -375,7 +409,8 @@ map.on('load', () => {
                         "full-address": "45 Mill Street  OH 45701 ",
                         "date": "August 19, 2019",
                         "time": "9:37 p.m.",
-                        "description": "An aggravated possession of drugs was reported, but details were not given."
+                        "description": "An aggravated possession of drugs was reported, but details were not given.",
+                        "image": "45-mill_1.jpg"
                     }
                 },
                 {
@@ -395,7 +430,7 @@ map.on('load', () => {
                         "date": "September 15, 2019",
                         "time": "12:00 a.m.",
                         "description": "Police receive a report of a stolen cell phone.",
-                        "image": "placeholder.jpg"
+                        "image": "beta-theta-pi_2.jpg"
                     }
                 }
             ]

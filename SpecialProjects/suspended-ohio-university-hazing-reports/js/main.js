@@ -3,7 +3,7 @@ var map = new mapboxgl.Map({
     container: 'map', // container id
     style: 'mapbox://styles/mapbox/streets-v11', // stylesheet location
     center: [-82.09831, 39.33083],
-    zoom: 14,
+    zoom: 16,
     minZoom: 13
 });
 
@@ -444,7 +444,7 @@ map.on('load', () => {
         type: 'circle',
         paint: {
             'circle-radius': 6,
-            'circle-color': '#ff0',
+            'circle-color': '#ffcc00',
             'circle-opacity': 0.85,
             'circle-stroke-color': '#000',
             'circle-stroke-width': 1
@@ -452,45 +452,43 @@ map.on('load', () => {
     });
 
 
-    map.on('click', 'points', function(e) {
+    map.on('mouseenter', 'points', function(e) {
+    });
+
+    map.on('mouseleave', 'points', function(e) {
+    });
+
+      map.on('click', 'points', function(e) {
         var coordinates = e.features[0].geometry.coordinates.slice();
         var features = map.queryRenderedFeatures(e.point, {
             layers: ['points']
-        })
+        });
 
+        var props = features[0].properties;
 
-        for (f of features) {
-          props = f.properties;
-        html = `
+        var html = `
         <img class="map-img" src="img/${props.image}">
-        <div id="house">${props.house}</div>
-        <div id="map-date"> ${props.date} at ${props.time}</div>
-        <div id="map-desc">${props.description}</div>
         `;
 
-        console.log(features);
+        for (f of features) {
+            props = f.properties;
+            html += `
+            <div id="house">${props.house}</div>
+          <div id="map-date"> ${props.date} at ${props.time}</div>
+          <div id="map-desc">${props.description}</div>
+          `;
+        }
+
+        console.log(html);
         $('.sidebar').html(html);
-      }
-
-    //     for (f of features) {
-    //         props = f.properties;
-    //         html += `
-    //         <div class="pop-date">${props.date}</div>
-    //         <div class="pop-cat">${props.time}</div>
-    //         <div class="pop-title">${props.description}</div>`;
-    //     }
-    // //
-    //     popup
-    //         .setLngLat(coordinates)
-    //         .setHTML(html)
-    //         .addTo(map);
     });
-
-
-    function updateInfo(feature) {
-        $('#frat').text(feature.properties.Fraternity);
-    }
-
-    map.scrollZoom.disable(); // disable scroll zoom
-    map.addControl(new mapboxgl.NavigationControl()); // add zoom/nav controls
 });
+
+
+function updateInfo(feature) {
+    $('#frat').text(feature.properties.Fraternity);
+}
+
+map.scrollZoom.disable(); // disable scroll zoom
+map.addControl(new mapboxgl.NavigationControl()); // add zoom/nav controls
+;

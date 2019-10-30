@@ -1,0 +1,308 @@
+/* Template.css
+This is a template for special projects at The Post.
+Template originally coded by Taylor Johnston, digital managing editor at The Post.
+Please contact at taylorfjohnston@gmail.com with questions.*/
+/* GENERAL STYLES */
+body {
+    font-family: montserrat, sans-serif;
+    background-color: #FFF;
+    color: #030406;
+}
+
+a {
+    color: #d54954;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: .5;
+}
+
+p {
+    width: 60%;
+    padding: 0 20%;
+}
+
+h2 {
+    padding: 0 15%;
+}
+
+h3 {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+/* COLUMNS */
+.column20center {
+    width: 60%;
+    padding: 0 20%;
+}
+
+/* NAVIGATION BAR */
+#nav_bar {
+    background: #292929;
+    color: #FFF;
+    height: 52px;
+}
+
+#nav_bar img {
+    height: 30px;
+    padding: 10px;
+    float: left;
+}
+
+#nav_bar li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    float: right;
+}
+
+#nav_bar ul {
+    margin: 0;
+}
+
+#nav_bar li #facebook {
+    color: #fff;
+}
+
+#nav_bar li #facebook:hover {
+    color: #337ab7;
+    opacity: 1;
+}
+
+#nav_bar li #twitter {
+    color: #fff;
+}
+
+#nav_bar li #twitter:hover {
+    color: #55ACEE;
+    opacity: 1;
+}
+
+#nav_bar li #instagram {
+    color: #fff;
+}
+
+#nav_bar li #instagram:hover {
+    color: #efc04a;
+    opacity: 1;
+}
+
+#logo {
+    z-index: 1;
+    position: absolute;
+    float: left;
+    height: 30px;
+    padding: 7px;
+}
+
+/* HERO IMAGE */
+#heroimg {
+    width: 100%;
+    position: relative;
+}
+
+#heroimg img {
+    width: 100%;
+}
+
+/* HEADLINE STYLES */
+h1, h2, h3, h4 {
+    margin-bottom: 1.2px;
+}
+
+.date {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 35px;
+}
+
+.headline {
+    text-align: center;
+    font-family: 'Montserrat', Arial, sans-serif;
+    /* font-family: "Playfair Display", Georgia, serif; */
+    font-size: 25px;
+    margin-top: 1.5px;
+}
+
+
+/* TABLE */
+.pull-left {
+    float: left !important;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+.container {
+    margin: 20px;
+}
+
+/* CONTENT */
+p.intro {
+    font-size: 22px;
+}
+
+.dropcap {
+    font-weight: 700;
+    float: left;
+    font-size: 2.9em;
+    line-height: .9em;
+    padding-right: 5px;
+}
+
+/* CREDITS */
+.credits {
+    margin: 1rem auto 0;
+    max-width: 60%;
+    padding-bottom: 2.4rem;
+    text-align: left
+}
+
+.creditText {
+    display: inline-block;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 14px;
+    margin: 0 1rem 0rem 0;
+}
+
+.creditText a {
+    color: #d54954;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* SPECIAL PROJECT FOOTER */
+.footer {
+    color: #FFF;
+    font-family: 'Playfair Display';
+    width: 100%;
+    height: 200px;
+    text-shadow: 2px 2px 5px #000;
+    background-color: #292929;
+    display: table;
+}
+
+.footer_inside {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.footer h2 {
+    font-size: 40px;
+    width: 70%;
+    padding: 0 15%;
+    margin: 0;
+    line-height: 35px;
+}
+
+.footer p {
+    font-family: 'Montserrat';
+    margin: 0;
+    width: 70%;
+    padding: 10px 15% 0 15%;
+}
+
+.copyright {
+    color: #FFF;
+    font-family: 'Montserrat';
+    width: 100%;
+    height: 20px;
+    text-shadow: 2px 2px 5px #000;
+    background-color: #171717;
+    display: table;
+}
+
+.copyright_inside {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.copyright p {
+    font-family: 'Montserrat';
+    margin: 0;
+    width: 70%;
+    padding: 13px 15% 15px 15%;
+}
+
+.btn-container {
+    margin-left: 20px;
+}
+
+.projects {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.projects:hover {
+    background-color: white;
+}
+
+.join {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.join:hover {
+    background-color: white;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 750px) {
+    .column20center, p {
+        width: 80%;
+        padding: 0 10%;
+    }
+
+    #logo {
+        height: 25px;
+    }
+
+    .date {
+        padding: 0 10%;
+        width: 80%;
+    }
+
+    .headline {
+        width: 80%;
+        padding: 0% 10% 0 10%;
+        font-size: 25px;
+    }
+
+    .oneimg_right, .oneimg_left, .oneimg_center {
+        width: 80%;
+        padding: 0 10% 10px 10%;
+    }
+
+    .oneimg_full p {
+        width: 80%;
+        padding: 0 10%;
+    }
+
+    .pq_center, .pq_right, .pq_left {
+        padding: 0 5%;
+        width: 90%;
+    }
+
+    .subhed {
+        padding: 0 10%;
+    }
+
+    .credits {
+        max-width: 100%;
+        text-align: left;
+        margin-left: 50px;
+    }
+
+    .footer {
+        height: 300px;
+    }
+}

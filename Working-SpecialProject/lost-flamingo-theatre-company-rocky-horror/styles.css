@@ -11,7 +11,7 @@ body {
 }
 
 a {
-    color: #9b6455;
+    color: #7fc448;
     text-decoration: none;
 }
 
@@ -138,31 +138,11 @@ h1, h2, h3, h4 {
 
 /* Pick one font depending on design (or find another one) */
 .arthed {
-    color: #282828;
-    position: absolute;
-    top: 90px;
-    right: 20px;
-    padding: 0;
-    margin: 0;
-    font-size: 100px;
-    text-align: right;
-    width: 100%;
-    font-family: "Playfair Display";
-    font-weight: 200;
+    text-align: center;
+    color: #3d3d3d;
+    font-size: 60px;
+    font-family: 'Montserrat', Arial, sans-serif;
     /* font-family: "Playfair Display", Georgia, serif; */
-}
-
-.websum {
-    color: #282828;
-    position: absolute;
-    top: 228px;
-    right: 20px;
-    padding: 0;
-    margin: 0;
-    font-size: 30px;
-    text-align: right;
-    width: 100%;
-    font-family: "Montserrat";
 }
 .cutline {
     float: left;
@@ -238,7 +218,6 @@ p.intro {
 }
 
 .dropcap {
-    font-family: 'Playfair Display', sans-serif; 
     font-weight: 700;
     float: left;
     font-size: 2.9em;
@@ -261,7 +240,7 @@ p.intro {
 }
 
 .creditText a {
-  color: #9b6455;
+  color: #c7002b;
   font-weight: 700;
   cursor: pointer;
 }
@@ -324,8 +303,8 @@ p.intro {
 
 .subhed {
     font-family: montserrat, sans-serif;
-    font-weight: 900;
-    color: #6e7249;
+    font-weight: 800;
+    color: #7fc448;
 }
 
 /*apply to wrapping span tag*/
@@ -345,7 +324,8 @@ blockquote {
     padding: 0 20%;
     margin: 0;
     font-size: 25px;
-    color: #4d6b89;
+    text-transform: uppercase;
+    color: #5379c4;
     font-weight: 800;
 }
 

@@ -93,7 +93,7 @@ map.on('load', () => {
                         "state": "OH",
                         "zip": 45701,
                         "full-address": "32 North College Street  OH 45701 ",
-                        "date": "Mar. 23, 2019",
+                        "date": "March 23, 2019",
                         "time": "2:14 a.m.",
                         "description": "APD took a report for criminal damaging, but details were not available.",
                         "image": "pi-kappa-phi_2.jpg"
@@ -135,7 +135,7 @@ map.on('load', () => {
                         "state": "OH",
                         "zip": 45701,
                         "full-address": "8 North College Street  OH 45701 ",
-                        "date": "Mar. 23, 2019",
+                        "date": "March 23, 2019",
                         "time": "2:09 p.m.",
                         "description": "A man reported that his ATM card was stolen and used at two local ATMs.",
                         "image": "phi-kappa-psi_1.jpg"

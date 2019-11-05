@@ -393,6 +393,74 @@ blockquote {
     display: none;
 }
 
+/*Grid*/
+
+.row-3 {
+    width: 33.33%;
+    float: left;
+    position: relative;
+}
+
+.row-2 {
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+.row-1 {
+    width: 100%;
+    position: relative;
+    float: left;
+}
+
+.header {
+    background: #292929;
+    background: -webkit-linear-gradient(rgba(41,41,41,0), rgba(41,41,41,1));
+    background: -o-linear-gradient(rgba(41,41,41,0), rgba(41,41,41,1));
+    background: -moz-linear-gradient(rgba(41,41,41,0), rgba(41,41,41,1));
+    background: linear-gradient(rgba(41,41,41,0), rgba(41,41,41,1));
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.row-1 .header h2{
+    font-size: 50px;
+}
+
+.row-2 .header h2 {
+    font-size: 30px
+}
+
+
+
+.header h2{
+    padding: 0 5%;
+    font-family: "Alfa Slab One";
+    text-shadow: -1px 1px 2px #000;
+    letter-spacing: 2px;
+    margin: 0;
+    text-align: right;
+}
+
+.header p {
+    text-align: right;
+    padding: 0 5% 0 0;
+    width: 95%;
+}
+
+/*--span {
+    background-color: #292929;
+}*/
+
+
+
+.row-3 img, .row-2 img, .row-1 img {
+    width: 100%;
+}
 
 /* SPECIAL PROJECT FOOTER */
 .footer {

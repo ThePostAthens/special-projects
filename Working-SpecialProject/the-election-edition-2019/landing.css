@@ -7,7 +7,7 @@ Please contact at SethPArcher@gmail.com with questions.*/
 
 body {
     font-family: montserrat, sans-serif;
-    background-color: #FFF;
+    background-color: #000080;
     color: #030406;
 }
 
@@ -126,8 +126,43 @@ h3 {
     padding: 7px;
 }
 
+/* SHARE BUTTONS */
+.share-container {
+    text-align: center;
+    margin-top: -10px;
+}
+
+ul.share-buttons {
+    list-style: none;
+    padding: 0;
+}
+
+ul.share-buttons li {
+    display: inline;
+}
+
+ul.share-buttons .sr-only {
+    position: absolute;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+ul.share-buttons img {
+    width: 32px;
+}
+
+.w3-hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important
+}
+
 /* CREDITS */
 .credits {
+    color: #ffffff;
   margin: 1rem auto 0;
   max-width: 60%;
   padding-bottom: 2.4rem;
@@ -157,32 +192,36 @@ h3 {
     width: 100%;
 }
 
-#arthed {
-    color: #FFF;
-    position: absolute;
-    top: 100px;
-    right: 50px;
-    padding: 0;
-    margin: 0;
-    font-size: 130px;
-    font-weight: 700;
-    text-align: right;
-    width: 100%;
-    text-shadow: 2px 2px 3px #000;
-    font-family: "Alfa Slab One";
-    letter-spacing: 2px;
+.arthed {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 100px;
+    font-family: 'Staatliches', Arial, sans-serif;
+    
+}
+
+/* SHARE BUTTONS */
+    
+    
 }/*apply to h1 within the heroimg div*/
 
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
-    padding: 0 10% 0 10%;
-    width: 80%;
-    margin: 0;
-    font-size: 40px;
-    font-weight: 900i;
-    text-transform: uppercase;
+      width: 80%;
+      padding: 0% 10% 0 10%;
+      font-size: 25px;
+  }
+
+.headline {
+    color: #ffffff; 
+    text-align: center;
+    font-family: 'Montserrat', Arial, sans-serif;
+    /* font-family: "Playfair Display", Georgia, serif; */
+    font-size: 25px;
+    margin-top: 1.5px;
+}
+
 }/*apply to h1, not the art hed*/
 
 .credit {
@@ -251,9 +290,8 @@ h3 {
 
 .header h2{
     padding: 0 5%;
-    font-family: "Alfa Slab One";
+    font-family: "Montserrat";
     text-shadow: -1px 1px 2px #000;
-    letter-spacing: 2px;
     margin: 0;
     text-align: right;
 }
@@ -353,9 +391,9 @@ float: right;
 
 /* Landing page clicky box at bottom.*/
 
-.story {
+.footer {
     color: #FFF;
-    font-family: playfair display;
+    font-family: 'Playfair Display';
     width: 100%;
     height: 200px;
     text-shadow: 2px 2px 5px #000;
@@ -363,12 +401,12 @@ float: right;
     display: table;
 }
 
-.story_inside{
+.footer_inside {
     vertical-align: middle;
     display: table-cell;
 }
 
-.story h2{
+.footer h2 {
     font-size: 40px;
     width: 70%;
     padding: 0 15%;
@@ -376,13 +414,60 @@ float: right;
     line-height: 35px;
 }
 
-.story p{
-    font-family: montserrat;
+.footer p {
+    font-family: 'Montserrat';
     margin: 0;
     width: 70%;
     padding: 10px 15% 0 15%;
 }
 
+.copyright {
+  color: #FFF;
+  font-family: 'Montserrat';
+  width: 100%;
+  height: 20px;
+  text-shadow: 2px 2px 5px #000;
+  background-color: #171717;
+  display: table;
+}
+
+.copyright_inside {
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.copyright p {
+    font-family: 'Montserrat';
+    margin: 0;
+    width: 70%;
+    padding: 13px 15% 15px 15%;
+}
+
+.btn-container {
+  margin-left:20px;
+}
+
+.projects {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.projects:hover {
+  background-color: white;
+}
+
+.join {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.join:hover {
+  background-color: white;
+}
 @media screen and (max-width: 1380px) {
     #arthed {
         font-size: 100px;

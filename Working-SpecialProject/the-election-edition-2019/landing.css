@@ -323,6 +323,7 @@ p.intro {
 
 .row-2 {
     width: 50%;
+    background-size:contain;
     float: left;
     position: relative;
 }

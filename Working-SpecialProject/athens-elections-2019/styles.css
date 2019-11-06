@@ -11,7 +11,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #ecce4b;
     text-decoration: none;
 }
 
@@ -223,6 +223,7 @@ p.intro {
     font-size: 2.9em;
     line-height: .9em;
     padding-right: 5px;
+    color: #e07135;
 }
 
 /* CREDITS */
@@ -240,7 +241,7 @@ p.intro {
 }
 
 .creditText a {
-  color: #c7002b;
+  color: #e4953d;
   font-weight: 700;
   cursor: pointer;
 }
@@ -304,7 +305,7 @@ p.intro {
 .subhed {
     font-family: montserrat, sans-serif;
     font-weight: 800;
-    color: #7fc448;
+    color: #e07135;
 }
 
 /*apply to wrapping span tag*/

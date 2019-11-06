@@ -58,7 +58,7 @@ h3 {
 
  /*rows*/
 .row-3 {
-    width: 33.33%;
+    width: 33.333%;
     float: left;
     position: relative;
 }
@@ -91,7 +91,7 @@ h3 {
 }
 
 .row-1 .header h2{
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .row-2 .header h2 {

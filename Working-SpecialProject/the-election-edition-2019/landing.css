@@ -7,7 +7,7 @@ Please contact at SethPArcher@gmail.com with questions.*/
 
 body {
     font-family: montserrat, sans-serif;
-    background-color: #000080;
+    background-color: #FFFFFF;
     color: #030406;
 }
 
@@ -194,7 +194,7 @@ ul.share-buttons img {
 
 .arthed {
     text-align: center;
-    color: #FFFFFF;
+    color: #000000;
     font-size: 100px;
     font-family: 'Staatliches', Arial, sans-serif;
     
@@ -214,7 +214,7 @@ ul.share-buttons img {
   }
 
 .headline {
-    color: #ffffff; 
+    color: #000000; 
     text-align: center;
     font-family: 'Montserrat', Arial, sans-serif;
     /* font-family: "Playfair Display", Georgia, serif; */

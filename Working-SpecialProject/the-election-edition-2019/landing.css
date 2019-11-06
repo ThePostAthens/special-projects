@@ -5,7 +5,7 @@ Please contact at taylorfjohnston@gmail.com with questions.*/
 
 /* GENERAL STYLES */
 body {
-    font-family: montserrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: #FFF;
     color: #030406;
 }
@@ -27,6 +27,7 @@ p {
 
 h2 {
     padding: 0 15%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h3 {
@@ -127,6 +128,7 @@ h3 {
 /* HEADLINE STYLES */
 h1, h2, h3, h4 {
     margin-bottom: 1.2px;
+    font-family: 'Montserrat';
 }
 
 .date {
@@ -141,7 +143,7 @@ h1, h2, h3, h4 {
     text-align: center;
     color: #3d3d3d;
     font-size: 60px;
-    font-family: 'Montserrat', Arial, sans-serif;
+    font-family: 'Bowlby One SC', Arial, sans-serif;
     /* font-family: "Playfair Display", Georgia, serif; */
 }
 .cutline {
@@ -240,7 +242,7 @@ p.intro {
 }
 
 .creditText a {
-  color: #c7002b;
+  color: #000000;
   font-weight: 700;
   cursor: pointer;
 }
@@ -347,17 +349,19 @@ p.intro {
 
 .row-1 .header h2{
     font-size: 50px;
+    font-family: 'Montserrat';
 }
 
 .row-2 .header h2 {
-    font-size: 30px
+    font-size: 30px;
+    font-family: 'Montserrat';
 }
 
 
 
 .header h2{
     padding: 0 5%;
-    font-family: "Montserrat";
+    font-family: 'Montserrat';
     text-shadow: -1px 1px 2px #000;
     margin: 0;
     text-align: right;

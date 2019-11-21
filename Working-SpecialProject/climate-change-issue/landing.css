@@ -444,7 +444,7 @@ p.intro {
 .twelve {
 	grid-column: 3;
 	grid-row: 5;
-	background-image: url('img/placeholder.jpg');
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/2545e87a-275c-4b69-8b10-30ab9468bc1b.sized-1000x1000.png');
     position: relative;
     background-size: cover;
     border: 5px solid green;

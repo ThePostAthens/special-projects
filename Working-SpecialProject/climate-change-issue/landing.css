@@ -247,7 +247,7 @@ p.intro {
 .one {
 	grid-column: 1;
 	grid-row: 1;
-	background-image: url('img/placeholder.jpg');
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/1070d9c2-e301-4211-90bb-2ff66d46e5b9.sized-1000x1000.png');
 	position: relative;
     background-size: cover;
     border: 5px solid green;
@@ -265,7 +265,7 @@ p.intro {
 .two {
 	grid-column: 2;
 	grid-row: 1;
-	background-image: url('img/placeholder.jpg');
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/e95aadfc-64b9-4610-bb8e-16ff9d631606.sized-1000x1000.png');
     position: relative;
     background-size: cover;
     border: 5px solid green;
@@ -283,7 +283,7 @@ p.intro {
 .three {
 	grid-column: 3;
 	grid-row: 1;
-	background-image: url('img/placeholder.jpg');
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/4fd3f79c-66bf-42ed-a592-311ac423fc0f.sized-1000x1000.jpg');
     position: relative;
     background-size: cover;
     border: 5px solid green;

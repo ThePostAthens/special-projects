@@ -317,7 +317,7 @@ p.intro {
 .five {
 	grid-column: 3;
 	grid-row: 2;
-	background-image: url('img/placeholder.jpg');
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/11b081a5-c4fc-4893-a4a9-cb354e976cc4.sized-1000x1000.jpg');
     position: relative;
     background-size: cover;
     border: 5px solid green;
@@ -335,7 +335,7 @@ p.intro {
 .six {
 	grid-column: 3;
 	grid-row: 3;
-	background-image: url('img/placeholder.jpg');
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/99286eaa-1c4b-44fa-a862-c604fcda61cc.sized-1000x1000.png');
     position: relative;
     background-size: cover;
     border: 5px solid green;
@@ -353,7 +353,7 @@ p.intro {
 .seven {
 	grid-column: 1;
 	grid-row: 2;
-	background-image: url('img/placeholder.jpg');
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/bf5b7194-6fe3-44d0-a3ce-eb3b4e7615b3.sized-1000x1000.jpg');
     position: relative;
     background-size: cover;
     border: 5px solid green;
@@ -371,7 +371,7 @@ p.intro {
 .eight {
 	grid-column: 2;
 	grid-row: 3;
-	background-image: url('img/placeholder.jpg');
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/e5b7fee5-accf-4926-8fe8-b14eda5a3bf7.sized-1000x1000.JPG');
     position: relative;
     background-size: cover;
     border: 5px solid green;
@@ -389,7 +389,7 @@ p.intro {
 .nine {
 	grid-column: 1;
 	grid-row: 3;
-	background-image: url('img/placeholder.jpg');
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/5cb3d364-a4ee-4a88-b8f3-317ce5f71f25.sized-1000x1000.PNG');
     position: relative;
     background-size: cover;
     border: 5px solid green;
@@ -408,7 +408,7 @@ p.intro {
 .ten {
 	grid-column: 1;
 	grid-row: 4;
-	background-image: url('img/placeholder.jpg');
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/b80410b7-5464-45cc-aaf0-daac18f450ff.sized-1000x1000.png');
     position: relative;
     background-size: cover;
     border: 5px solid green;
@@ -634,7 +634,7 @@ p.intro {
 .twentytwo {
 	grid-column: 1;
 	grid-row: 7;
-	background-image: url('img/placeholder.jpg');
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/129ffd8e-6c2e-486b-9cd2-877a9563918a.sized-1000x1000.jpg');
     position: relative;
     background-size: cover;
     border: 5px solid green;

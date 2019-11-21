@@ -482,7 +482,7 @@ p.intro {
 .fourteen {
 	grid-column: 1;
 	grid-row: 5;
-	background-image: url('img/placeholder.jpg');
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/471b1ac8-f4d5-4bf1-973a-07822cb50e96.sized-1000x1000.jpg');
     position: relative;
     background-size: cover;
     border: 5px solid green;
@@ -500,7 +500,7 @@ p.intro {
 .fifteen {
 	grid-column: 3;
 	grid-row: 4;
-	background-image: url('img/placeholder.jpg');
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/4db892d3-d93d-440b-acd2-1889e59816b8.sized-1000x1000.jpg');
     position: relative;
     background-size: cover;
     border: 5px solid green;

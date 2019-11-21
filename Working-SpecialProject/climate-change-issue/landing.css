@@ -426,7 +426,7 @@ p.intro {
 .eleven {
 	grid-column: 2;
 	grid-row: 4;
-	background-image: url('img/placeholder.jpg');
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/87318dd9-b5a2-4b47-9e70-370715fec9b7.sized-1000x1000.jpg');
     position: relative;
     background-size: cover;
     border: 5px solid green;

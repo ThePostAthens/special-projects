@@ -11,7 +11,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #847fbc;
     text-decoration: none;
 }
 
@@ -240,7 +240,7 @@ p.intro {
 }
 
 .creditText a {
-  color: #c7002b;
+  color: #847fbc;
   font-weight: 700;
   cursor: pointer;
 }

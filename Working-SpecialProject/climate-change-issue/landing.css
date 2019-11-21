@@ -518,7 +518,7 @@ p.intro {
 .sixteen {
 	grid-column: 1;
 	grid-row: 6;
-	background-image: url('img/placeholder.jpg');
+	background-image: url('img/Turbines.png');
     position: relative;
     background-size: cover;
     border: 5px solid green;
@@ -536,7 +536,7 @@ p.intro {
 .seventeen {
 	grid-column: 1;
 	grid-row: 7;
-	background-image: url('img/placeholder.jpg');
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/3ae092f4-87b4-4195-b8e3-7a9c313949f8.sized-1000x1000.png');
     position: relative;
     background-size: cover;
     border: 5px solid green;
@@ -554,7 +554,7 @@ p.intro {
 .eighteen {
 	grid-column: 2;
 	grid-row: 7;
-	background-image: url('img/placeholder.jpg');
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/153e5b45-c2aa-4282-b1c5-e2bf20cb379d.sized-1000x1000.jpg');
     position: relative;
     background-size: cover;
     border: 5px solid green;
@@ -572,7 +572,7 @@ p.intro {
 .nineteen {
 	grid-column: 3;
 	grid-row: 7;
-	background-image: url('img/placeholder.jpg');
+	background-image: url('');
     position: relative;
     background-size: cover;
     border: 5px solid green;
@@ -598,7 +598,7 @@ p.intro {
 .twenty {
 	grid-column: 2;
 	grid-row: 6;
-	background-image: url('img/placeholder.jpg');
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/3ae092f4-87b4-4195-b8e3-7a9c313949f8.sized-1000x1000.png');
     position: relative;
     background-size: cover;
     border: 5px solid green;
@@ -652,7 +652,7 @@ p.intro {
 .twentythree {
 	grid-column: 2;
 	grid-row: 7;
-	background-image: url('img/placeholder.jpg');
+	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/c0f3a47a-dd8c-463f-9b3e-0e58f29cd5ff.sized-1000x1000.jpg');
     position: relative;
     background-size: cover;
     border: 5px solid green;
@@ -670,7 +670,7 @@ p.intro {
 .twentyfour {
 	grid-column: 3;
 	grid-row: 7;
-	background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/c0f3a47a-dd8c-463f-9b3e-0e58f29cd5ff.sized-1000x1000.jpg');
+	background-image: url('');
     position: relative;
     background-size: cover;
     border: 5px solid green;

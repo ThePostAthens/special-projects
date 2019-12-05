@@ -11,7 +11,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #f5c587;
     text-decoration: none;
 }
 
@@ -139,7 +139,7 @@ h1, h2, h3, h4 {
 /* Pick one font depending on design (or find another one) */
 .arthed {
     text-align: center;
-    color: #3d3d3d;
+    color: #275318;
     font-size: 60px;
     font-family: 'Holtwood One SC', Arial, sans-serif;
     /* font-family: "Playfair Display", Georgia, serif; */
@@ -304,7 +304,7 @@ p.intro {
 .subhed {
     font-family: "Holtwood One SC", sans-serif;
     font-weight: 800;
-    color: #7fc448;
+    color: #275318;
 }
 
 /*apply to wrapping span tag*/
@@ -327,6 +327,7 @@ blockquote {
     text-transform: uppercase;
     color: #5379c4;
     font-weight: 800;
+    font; 'Holtwood One SC', 'serif';
 }
 
 /*add to wrapping div*/
@@ -337,8 +338,8 @@ blockquote {
     float: right;
     margin: 0;
     font-size: 25px;
-    text-transform: uppercase;
-    color: #5379c4;
+    color: #275318;
+    font; 'Holtwood One SC', 'serif';
 }
 
 /*add to wrapping div*/
@@ -349,9 +350,9 @@ blockquote {
     float: left;
     margin: 0;
     font-size: 25px;
-    text-transform: uppercase;
     font-weight: 700;
-    color: #5379c4;
+    color: #275318;
+    font; 'Holtwood One SC', 'serif';
 }
 
 /*add to wrapping div*/

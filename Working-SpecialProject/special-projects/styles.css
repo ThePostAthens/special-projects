@@ -1,0 +1,365 @@
+/* Template.css
+This is a template for special projects at The Post.
+Template originally coded by Taylor Johnston, digital managing editor at The Post.
+Please contact at taylorfjohnston@gmail.com with questions.*/
+
+/* GENERAL STYLES */
+body {
+    font-family: Playfair Display;
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+p {
+    font-family: lora;
+    font-size: 14;
+
+}
+
+.header {
+    text-align: center;
+    background-color: #292929;
+    padding: 15px 0;
+    margin: 0;
+}
+
+.header h1 {
+    font-size: 50px;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.header h2 {
+    margin: 0;
+}
+/* NAVIGATION BAR */
+#nav_bar {
+    background: #292929;
+    color: #FFF;
+    height: 52px;
+}
+
+#nav_bar img {
+    height: 30px;
+    padding: 10px;
+    float: left;
+}
+
+#nav_bar li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    float: right;
+}
+
+#nav_bar ul {
+    margin: 0;
+}
+
+#nav_bar li #facebook {
+    color: #fff;
+}
+
+#nav_bar li #facebook:hover {
+    color: #337ab7;
+    opacity: 1;
+}
+
+#nav_bar li #twitter {
+    color: #fff;
+}
+
+#nav_bar li #twitter:hover {
+    color: #55ACEE;
+    opacity: 1;
+}
+
+#nav_bar li #instagram {
+    color: #fff;
+}
+
+#nav_bar li #instagram:hover {
+    color: #efc04a;
+    opacity: 1;
+}
+
+#logo {
+    z-index: 1;
+    position: absolute;
+    float: left;
+    height: 30px;
+    padding: 7px;
+}
+
+/* HEADER */
+.header {
+    text-align: center;
+    background-color: #292929;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.header h1 {
+    font-size: 50px;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.header h2 {
+    margin: 0;
+}
+
+/*-- STORIES --*/
+
+.story {
+    width: 100%;
+    height: 400px;
+    background-size: 100%;
+    background-position: center;
+    transition: all .5s ease;
+}
+
+.box_hed {
+    position: relative;
+    width: 80%;
+    padding: 0 10%;
+    top: 33%;
+}
+
+.box_hed h2 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.box_hed p {
+    font-size: 14px;
+    font-family: montserrat;
+    margin: 0;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.box_hed h3 {
+    font-size: 16px;
+    font-family: montserrat;
+    margin: 0;
+    text-decoration: none;
+}
+
+.story:hover {
+    background-size: 110%;
+    opacity: .85;
+}
+
+.term {
+    background-color: #292929;
+}
+
+.term h2 {
+  background-color: #282828;
+  color: #FFF;
+  cursor: pointer;
+  padding: 30px 1px;
+  width: 100%;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center;
+  margin: 0;
+}
+
+
+/* ACCORDION */
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #282828;
+  color: #FFF;
+  cursor: pointer;
+  padding: 30px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+
+/* SPECIAL PROJECT FOOTER */
+.footer {
+    color: #FFF;
+    font-family: 'Playfair Display';
+    width: 100%;
+    height: 200px;
+    text-shadow: 2px 2px 5px #000;
+    background-color: #292929;
+    display: table;
+}
+
+.footer_inside {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.footer h2 {
+    font-size: 40px;
+    width: 70%;
+    padding: 0 15%;
+    margin: 0;
+    line-height: 35px;
+}
+
+.footer p {
+    font-family: 'Montserrat';
+    margin: 0;
+    width: 70%;
+    padding: 10px 15% 0 15%;
+}
+
+.copyright {
+  color: #FFF;
+  font-family: 'Montserrat';
+  width: 100%;
+  height: 20px;
+  text-shadow: 2px 2px 5px #000;
+  background-color: #171717;
+  display: table;
+}
+
+.copyright_inside {
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.copyright p {
+    font-family: 'Montserrat';
+    margin: 0;
+    width: 70%;
+    padding: 13px 15% 15px 15%;
+}
+
+.btn-container {
+  margin-left:20px;
+}
+
+
+
+.projects {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.projects:hover {
+  background-color: white;
+}
+
+.join {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.join:hover {
+  background-color: white;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 750px) {
+  .column20center, p {
+      width: 80%;
+      padding: 0 10%;
+  }
+
+  #logo {
+      height: 25px;
+  }
+
+  .date {
+      padding: 0 10%;
+      width: 80%;
+  }
+
+  .arthed {
+      font-size: 60px;
+      line-height: 60px;
+  }
+  .headline {
+      width: 80%;
+      padding: 0% 10% 0 10%;
+      font-size: 25px;
+  }
+
+    .oneimg_right, .oneimg_left, .oneimg_center {
+        width: 80%;
+        padding: 0 10% 10px 10%;
+    }
+
+    .oneimg_full p {
+        width: 80%;
+        padding: 0 10%;
+    }
+
+    .pq_center, .pq_right, .pq_left {
+        padding: 0 5%;
+        width: 90%;
+    }
+
+    .subhed {
+        padding: 0 10%;
+    }
+
+    .credits {
+      max-width: 100%;
+      text-align: left;
+      margin-left: 50px;
+    }
+
+    .footer {
+        height: 300px;
+    }
+}

@@ -6054,7 +6054,3351 @@ map.on('load', () => {
                         "copy": "APD responded for a report of a damaged vehicle. A report was taken.",
                         "category": "APD"
                     }
-                }
+                },
+                {
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1057149,39.3186251 ]
+  },
+  "properties": {
+  "date":"11/12/19",
+  "Place":"Peden Stadium",
+  "Address":"200 Richland Ave",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"200 Richland Ave, Athens, OH 45701",
+  "Title":"Operations",
+  "copy":"Canine Deployment",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1039844,39.3059655 ]
+  },
+  "properties": {
+  "date":"11/14/19",
+  "Place":"Richland Ave/Classic Car Wash",
+  "Address":"519 Richland Ave",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"519 Richland Ave, Athens, OH 45701",
+  "Title":"Domesic Violence",
+  "copy":"Officers responded to a Richland Ave. in reference to a domestic violence.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.10126079999999,39.3320924 ]
+  },
+  "properties": {
+  "date":"11/14/19",
+  "Place":"Broneys Alumni Grill",
+  "Address":"7 W. Cartpenter St. ",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"7 W. Cartpenter St., Athens, OH 45701",
+  "Title":"Assault",
+  "copy":"Officers responded to a report of an assault at Broney's. A report was taken.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.076762,39.339954 ]
+  },
+  "properties": {
+  "date":"11/15/19",
+  "Place":"",
+  "Address":"24 Charles St.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"24 Charles St., Athens, OH 45701",
+  "Title":"Menacing aggravated",
+  "copy":"Officers responded to a report of a menacing complaint.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.10607809999999,39.311677 ]
+  },
+  "properties": {
+  "date":"11/14/19",
+  "Place":"Carriage Hill Apartments",
+  "Address":"1030 Carriage Hill Drive",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"1030 Carriage Hill Drive, Athens, OH 45701",
+  "Title":"Grand theft of motor vehicle/receiving stolen property",
+  "copy":"APD responded to Carriage Hill Apartments regarding a stolen vehicle. ",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0972748,39.3254981 ]
+  },
+  "properties": {
+  "date":"11/14/19",
+  "Place":"Perkins Hall",
+  "Address":"57 East Green Dr.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"57 East Green Dr., Athens, OH 45701",
+  "Title":"Fictious/altered ID",
+  "copy":"Fake ID was collected.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1002278,39.3254282 ]
+  },
+  "properties": {
+  "date":"11/14/19",
+  "Place":"Alden Library",
+  "Address":"30 Park Place",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"30 Park Pl, Athens, OH 45701",
+  "Title":"Fictious/altered ID",
+  "copy":"A citation was issued to a student for a fake ID.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.09901529999999,39.3211037 ]
+  },
+  "properties": {
+  "date":"11/14/19",
+  "Place":"Ping Student Recreation Center",
+  "Address":"82 S. Green Dr.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"82 S Green Dr, Athens, OH 45701",
+  "Title":"Larceny-theft",
+  "copy":"A person reported the theft of property in Ping Center.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0993484,39.3266418 ]
+  },
+  "properties": {
+  "date":"11/14/19",
+  "Place":"Templeton-Blackburn Alumni Memorial Auditorium",
+  "Address":"47 E. Union St. ",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"47 E. Union St., Athens, OH 45701",
+  "Title":"Operations",
+  "copy":"Canine Deployment",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0954495,39.3230897 ]
+  },
+  "properties": {
+  "date":"11/14/19",
+  "Place":"Nelson Comons",
+  "Address":"10 N McKinley Ave",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"10 N McKinley Ave, Athens, OH 45701",
+  "Title":"Service call",
+  "copy":"A man was issued a ciation for disorderly conduct by intoxicated. ",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.096860,39.321674 ]
+  },
+  "properties": {
+  "date":"11/14/19",
+  "Place":"Parking Lot 93",
+  "Address":"",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"",
+  "Title":"Crash, Traffic",
+  "copy":"OUPD met with a person in reference to damages to their vehicle. ",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0981614,39.3228632 ]
+  },
+  "properties": {
+  "date":"11/14/19",
+  "Place":"Carr Hall",
+  "Address":"97 South Green Dr.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"97 South Green Dr., Athens, OH 45701",
+  "Title":"Service call",
+  "copy":"OUPD and ACEMS responded for a reported medical emergency.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.09859689999999,39.3241742 ]
+  },
+  "properties": {
+  "date":"11/15/19",
+  "Place":"Scott Quadrangle",
+  "Address":"88 University Terrace",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"88 University Terrace, Athens, OH 45701",
+  "Title":"Alcohol",
+  "copy":"A citation was issued for underage consumption and intoxoication.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.09273929999999,39.3226014 ]
+  },
+  "properties": {
+  "date":"11/15/19",
+  "Place":"True House",
+  "Address":"132 S. Green Dr. ",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"132 S Green Dr, Athens, OH 45701",
+  "Title":"Disorderly Conduct",
+  "copy":"A report was taken for disorderly conduct.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.101672,39.3269103 ]
+  },
+  "properties": {
+  "date":"11/15/19",
+  "Place":"Copeland Hall",
+  "Address":"70 S. Court St.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"70 S. Court St., Athens, OH, 45701",
+  "Title":"Alcohol",
+  "copy":"A citation was issued for underage consumption and intoxoication. He was transported to Southeast Ohio Regional Jail.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0999873,39.3222307 ]
+  },
+  "properties": {
+  "date":"11/15/19",
+  "Place":"Brown Hall",
+  "Address":"69 South Green Dr.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"69 South Green Dr., Athens, OH, 45701",
+  "Title":"Larceny-theft",
+  "copy":"A report was taken for bicycle theft.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.10220240000001,39.3263723 ]
+  },
+  "properties": {
+  "date":"11/15/19",
+  "Place":"Bentley Hall",
+  "Address":"4 President St. ",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"4 President St, Athens, OH 45701",
+  "Title":"Service call",
+  "copy":"OUPD responded with ACEMS for a reported medical emergency. Subject declined treatment and refused transport.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0981614,39.3228632 ]
+  },
+  "properties": {
+  "date":"11/15/19",
+  "Place":"Carr Hall",
+  "Address":"97 South Green Dr.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"97 South Green Dr., Athens, OH 45701",
+  "Title":"Service call",
+  "copy":"OUPD and ACEMS responded for a reported medical emergency. Patient refused transport. ",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0981614,39.3228632 ]
+  },
+  "properties": {
+  "date":"11/15/19",
+  "Place":"Carr Hall",
+  "Address":"97 South Green Dr.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"97 South Green Dr., Athens, OH 45701",
+  "Title":"Service call",
+  "copy":"ACEMS responded to a report for a student having a seizure. Patient treated and refused transport to hospital.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1026459,39.3283079 ]
+  },
+  "properties": {
+  "date":"11/16/19",
+  "Place":"Bromley Hall",
+  "Address":"35 S. Congress St.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"35 S. Congress St., Athens, OH 45701",
+  "Title":"Destruction property",
+  "copy":"A report taken for criminal damaging.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1026459,39.3283079 ]
+  },
+  "properties": {
+  "date":"11/16/19",
+  "Place":"Bromley Hall",
+  "Address":"35 S. Congress St.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"35 S. Congress St., Athens, OH 45701",
+  "Title":"Fictious/altered ID",
+  "copy":"A student was issued a ciation for possession of a fake ID.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1026459,39.3283079 ]
+  },
+  "properties": {
+  "date":"11/16/19",
+  "Place":"Bromley Hall",
+  "Address":"35 S. Congress St.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"35 S. Congress St., Athens, OH 45701",
+  "Title":"Alcohol",
+  "copy":"A ciation was issue to a man for disordely conduct by intoxication.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0966127,39.3255385 ]
+  },
+  "properties": {
+  "date":"11/16/19",
+  "Place":"Gamertsfelder Hall",
+  "Address":"58 East Green Dr.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"58 East Green Dr., Athens, OH, 45701",
+  "Title":"Drugs",
+  "copy":"Contraband was collected for destruction.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0995399,39.3281336 ]
+  },
+  "properties": {
+  "date":"11/17/19",
+  "Place":"Voigt Hall",
+  "Address":"34 S. College St.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"34 S. College St., Athens, OH 45701",
+  "Title":"Trespass",
+  "copy":"A resident assistant reported an unknown man entered a resident's room. ",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1002278,39.3254282 ]
+  },
+  "properties": {
+  "date":"11/18/19",
+  "Place":"Alden Library",
+  "Address":"30 Park Place",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"30 Park Place, Athens, OH, 45701",
+  "Title":"Larceny-theft",
+  "copy":"A person reported the theft of bicycle tires.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.10993189999999,39.3195915 ]
+  },
+  "properties": {
+  "date":"11/18/19",
+  "Place":"Mail Services",
+  "Address":"122 Ridges Circle",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"122 Ridges Circle, Athens, OH, 45701",
+  "Title":"Operations",
+  "copy":"Canine Deployment",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0993484,39.3266418 ]
+  },
+  "properties": {
+  "date":"11/18/19",
+  "Place":"Templeton-Blackburn Alumni Memorial Auditorium",
+  "Address":"47 E. Union St.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"47 E. Union St., Athens Oh, 45701",
+  "Title":"Operations",
+  "copy":"EDC deployment",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1026459,39.3283079 ]
+  },
+  "properties": {
+  "date":"11/18/19",
+  "Place":"Bromley Hall",
+  "Address":"35 S. Congress St.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"35 S. Congress St., Athens, OH 45701",
+  "Title":"Trespass",
+  "copy":"OUPD met with a person in reference to a reported incident of tresspass.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.10650439999999,39.3245159 ]
+  },
+  "properties": {
+  "date":"11/18/19",
+  "Place":"Ryors Hall",
+  "Address":"101 West Green Dr.,",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"101 West Green Dr., Athens, OH 45701",
+  "Title":"Menacing ",
+  "copy":"A man was arrested for menacinh.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0981614,39.3228632 ]
+  },
+  "properties": {
+  "date":"11/18/19",
+  "Place":"Carr Hall",
+  "Address":"97 South Green Dr.,",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"97 South Green Dr., Athens, OH 45701",
+  "Title":"Telecommunication harassment",
+  "copy":"OUPD met with a person who reported an incident of telecommunications harassment. ",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.09859689999999,39.3241742 ]
+  },
+  "properties": {
+  "date":"11/19/19",
+  "Place":"Scott Quadrangle",
+  "Address":"88 University Terrace",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"88 University Terrace, Athens, OH 45701",
+  "Title":"Destruction property",
+  "copy":"A person reported damage to a TV in the lounge. A report was taken.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0972748,39.3254981 ]
+  },
+  "properties": {
+  "date":"11/19/19",
+  "Place":"Perkins Hall",
+  "Address":"57 East Green Dr",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"57 East Green Dr., Athens, OH 45701",
+  "Title":"Service call",
+  "copy":"A person was transported to OhioHealth O'Bleness Hospital for an emergency pre-screen.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1028697,39.3227323 ]
+  },
+  "properties": {
+  "date":"11/19/19",
+  "Place":"Walter Hall",
+  "Address":"25 S Green Dr.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"25 S Green Dr, Athens, OH 45701",
+  "Title":"Fictious/altered ID",
+  "copy":"A wallet was turned into OUPD that contained a fake ID>",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0981614,39.3228632 ]
+  },
+  "properties": {
+  "date":"11/19/19",
+  "Place":"Carr Hall",
+  "Address":"97 South Green Drive",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"97 South Green Dr., Athens, OH 45701",
+  "Title":"Service call",
+  "copy":"A student refused transport by EMS.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0981614,39.3228632 ]
+  },
+  "properties": {
+  "date":"11/19/19",
+  "Place":"Carr Hall",
+  "Address":"97 South Green Drive",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"97 South Green Dr., Athens, OH 45701",
+  "Title":"Service call",
+  "copy":"A student refused transport by EMS.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1012229,39.3303034 ]
+  },
+  "properties": {
+  "date":"11/21/19",
+  "Place":"Goodfellas",
+  "Address":"35 N. Court St. ",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"35 N. Court St., Athens, OH, 45701",
+  "Title":"Assault",
+  "copy":"Officers responded to Goodfellas for a report of assault.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0936517,39.3222826 ]
+  },
+  "properties": {
+  "date":"11/20/19",
+  "Place":"Crawford Hall",
+  "Address":"71 South Green Dr.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"71 South Green Dr., Athens, OH, 45701",
+  "Title":"Service call",
+  "copy":"A fire alarm system reports a audible alarm sounding throughout the building. ",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1017787,39.3261875 ]
+  },
+  "properties": {
+  "date":"11/20/19",
+  "Place":"Lindley Hall",
+  "Address":"79 S. Court St. ",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"79 S Court St, Athens, OH 45701",
+  "Title":"Emotionally disturbed person",
+  "copy":"The subject was transported to the emergency room for further evaluation.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1017419,39.3248626 ]
+  },
+  "properties": {
+  "date":"11/20/19",
+  "Place":"Baker University Center",
+  "Address":"1 Park Place",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"1 Park Place, Athens, OH, 45701",
+  "Title":"Service call",
+  "copy":"The person was spoken to and no distress was noted.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1013704,39.3210944 ]
+  },
+  "properties": {
+  "date":"11/20/19",
+  "Place":"Ohio University Aquatic Center",
+  "Address":"50 South Green Drive",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"50 South Green Drive, Athens, OH, 45701",
+  "Title":"Destruction property",
+  "copy":"A report was taken for a person going through someone else's property in the locker room/",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1028697,39.3227323 ]
+  },
+  "properties": {
+  "date":"11/20/19",
+  "Place":"Walter Hall",
+  "Address":"25 S Green Dr.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"25 S Green Dr, Athens, OH 45701",
+  "Title":"Service call",
+  "copy":"A report was taken for person refusing ACEMS transport.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1028697,39.3227323 ]
+  },
+  "properties": {
+  "date":"11/20/19",
+  "Place":"Walter Hall",
+  "Address":"25 S Green Dr.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"25 S Green Dr, Athens, OH 45701",
+  "Title":"Service call",
+  "copy":"A report was taken for person refusing ACEMS transport.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0981614,39.3228632 ]
+  },
+  "properties": {
+  "date":"11/20/19",
+  "Place":"Carr Hall",
+  "Address":"97 South Green Drive",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"97 South Green Drive, Athens, OH, 45701",
+  "Title":"Destruction property",
+  "copy":"A report was taken for criminal mischief.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1020802,39.3301441 ]
+  },
+  "properties": {
+  "date":"11/22/19",
+  "Place":"",
+  "Address":"26 N. Congress St.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"26 N. Congress St., Athens, OH, 45701",
+  "Title":"Criminal damaging/endangering",
+  "copy":"APD responded to N. Court St. to ACEMS with a laceration on a leg. It was found that a woman was kicked out a window on N. Congress St., which caused the laceration. She was cited for criminal damaging. ",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.09859689999999,39.3241742 ]
+  },
+  "properties": {
+  "date":"11/21/19",
+  "Place":"Scott Quadrangle",
+  "Address":"88 University Terrace",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"88 University Terrace, Athens, OH, 45701",
+  "Title":"Service call",
+  "copy":"A welfare check concerning self harm. The subject was located and determined to be OK.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.106574,39.325277 ]
+  },
+  "properties": {
+  "date":"11/21/19",
+  "Place":"Parking Lot 111",
+  "Address":"",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"",
+  "Title":"Service call",
+  "copy":"A report was taken in reference to vehicle property damage.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1064755,39.3244941 ]
+  },
+  "properties": {
+  "date":"11/21/19",
+  "Place":"Sargent Hall",
+  "Address":"98 West Green Dr.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"98 West Green Dr., Athens, OH 45701",
+  "Title":"Fictious/altered ID",
+  "copy":"A summons was issued to a man for a fake ID.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.06442009999999,39.3362234 ]
+  },
+  "properties": {
+  "date":"11/24/19",
+  "Place":"Burger King",
+  "Address":"949 E. State St.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"949 E. State St., Athens, OH, 45701",
+  "Title":"Improperly handling firearm in motor vehicle",
+  "copy":"Officers responded to Burger King fora  patron that appeared to be intoxicated.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.09656880000001,39.3227749 ]
+  },
+  "properties": {
+  "date":"11/22/19",
+  "Place":"Tanaka Hall",
+  "Address":"121 South Green Dr.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"121 South Green Dr., Athens, OH, 45701",
+  "Title":"Alcohol",
+  "copy":"A person was charged with disordely conduct by intoxication and transported to Southeast Ohio Regional Jail.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1017419,39.3248626 ]
+  },
+  "properties": {
+  "date":"11/22/19",
+  "Place":"Baker University Center",
+  "Address":"1 Park Place",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"1 Park Place, Athens, OH, 45701",
+  "Title":"Disorderly Conduct",
+  "copy":"Two women were charged with disorderly conduct.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.098421,39.3269639 ]
+  },
+  "properties": {
+  "date":"11/22/19",
+  "Place":"",
+  "Address":"4 University Terrace",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"4 University Terrace, Athens, OH, 45701",
+  "Title":"Disorderly Conduct",
+  "copy":"A report was taken in  reference to pool table damage.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1017419,39.3248626 ]
+  },
+  "properties": {
+  "date":"11/22/19",
+  "Place":"Baker University Center",
+  "Address":"1 Park Place",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"1 Park Place, Athens, OH, 45701",
+  "Title":"Larceny-theft",
+  "copy":"A person reported the theft of a book bag.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1092741,39.3281291 ]
+  },
+  "properties": {
+  "date":"11/23/19",
+  "Place":"Grounds Maintenance",
+  "Address":"49 Factory St",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"49 Factory Street, Athens, OH, 45701",
+  "Title":"Burglary",
+  "copy":"A report was taken for a burglary.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [  -82.107174,39.319859 ]
+  },
+  "properties": {
+  "date":"11/24/19",
+  "Place":"Ridges Building 19",
+  "Address":"",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"",
+  "Title":"Trespass",
+  "copy":"Four juveniles were discovered tresspassing inside of The Ridges. They were released to guardians and chargeds were referred to Athens County Juvenile Court.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.102238,39.322641 ]
+  },
+  "properties": {
+  "date":"11/25/19",
+  "Place":"Parking Lot 134",
+  "Address":"",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"",
+  "Title":"Crash, Traffic",
+  "copy":"A person reported someone struck his parked vehicle.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.093741,39.3266263 ]
+  },
+  "properties": {
+  "date":"11/25/19",
+  "Place":"",
+  "Address":"N. McKinley Ave.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"N. McKinley Ave., Athens, OH 45701",
+  "Title":"Service Call",
+  "copy":"OUPD met with a person who reported damage to their vehicle.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0993492,39.3247598 ]
+  },
+  "properties": {
+  "date":"11/25/19",
+  "Place":"Gordy Hall",
+  "Address":"51 Park Place",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"51 Park Pl, Athens, OH 45701",
+  "Title":"Larency-theft",
+  "copy":"OUPD took information on a reported theft.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.11359999999999,39.33393969999999 ]
+  },
+  "properties": {
+  "date":"11/27/19",
+  "Place":"",
+  "Address":"300 W. State St. ",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"300 W. State St., Athens, OH 45701",
+  "Title":"Domestic Violence - knowingly cause physical harm",
+  "copy":"Officers responded to a domestic violence report. ",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.10614559999999,39.3112653 ]
+  },
+  "properties": {
+  "date":"11/27/19",
+  "Place":"",
+  "Address":"1007 Carriage Hill Drive",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"1007 Carriage Hill Drive, Athens, OH, 45701",
+  "Title":"Dead on arrival",
+  "copy":"Officers responded to a medical emergency.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0790266,39.3363592 ]
+  },
+  "properties": {
+  "date":"11/28/19",
+  "Place":"Holiday Inn Express",
+  "Address":"11 E Park Dr",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"11 E Park Dr, Athens, OH 45701",
+  "Title":"Theft/Criminal Mischief",
+  "copy":"Officers responded to Holiday Inn Express in reference to a man destrouing the kitchen. He was arrested for theft and cirminal mischief. ",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0596114,39.3349683 ]
+  },
+  "properties": {
+  "date":"11/28/19",
+  "Place":"Lowe's Home Improvement",
+  "Address":"983 E. State St. ",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"983 E. State St., Athens, OH, 45701",
+  "Title":"Assault",
+  "copy":"Officers responded to a report of an assault. ",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.07772399999999,39.3380595 ]
+  },
+  "properties": {
+  "date":"11/29/19",
+  "Place":"Napa",
+  "Address":"598 E. State St. ",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"598 E. State St., Athens, OH, 45701",
+  "Title":"Criminal damaging/endangering",
+  "copy":"Officers took a report for damage to a vehicle parked in the parking lot. ",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.10112869999999,39.3280579 ]
+  },
+  "properties": {
+  "date":"11/29/19",
+  "Place":"Brenen's Coffee Cafe",
+  "Address":"38 S. Court St.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"38 S. Court St., Athens, OH 45701",
+  "Title":"Grand theft",
+  "copy":"APD responded to a report of a burglary. ",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.10672749999999,39.3348576 ]
+  },
+  "properties": {
+  "date":"11/29/19",
+  "Place":"",
+  "Address":"43 Walker St.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"43 Walker St., Athens, OH , 45701",
+  "Title":"Burglary and Criminal Damaging/Endangering",
+  "copy":"APD took a report of a burglary.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.09857749999999,39.3294648 ]
+  },
+  "properties": {
+  "date":"12/1/19",
+  "Place":"Alpha Omicron Pi house",
+  "Address":"8 Church St.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"8 Church St., Athens, OH, 45701",
+  "Title":"Criminal mischief",
+  "copy":"APD received a report of vandalism from the Alpha Omicron Pi house.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0969878,39.3298851 ]
+  },
+  "properties": {
+  "date":"12/1/19",
+  "Place":"",
+  "Address":"82 Mill St. ",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"82 Mill St., Athens, OH, 45701",
+  "Title":"Criminal Damaging/endangering",
+  "copy":"Officers took a report of criminal damaging.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1079694,39.3151204 ]
+  },
+  "properties": {
+  "date":"12/1/19",
+  "Place":"",
+  "Address":"363 Richland Ave.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"363 Richland Ave., Athens, OH, 45701",
+  "Title":"Grand theft",
+  "copy":"APD took a report of a grand theft from a motor vehicle that took place overnight.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1294281,39.3349628 ]
+  },
+  "properties": {
+  "date":"12/1/19",
+  "Place":"",
+  "Address":"25 University Estates Blvd.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"25 University Estates Blvd., Athens, OH, 45701",
+  "Title":"Grand theft",
+  "copy":"APD took a report from a motor vehicle that occurred overnight near 25 University Estates Boulevard.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1306487,39.33524500000001 ]
+  },
+  "properties": {
+  "date":"12/1/19",
+  "Place":"",
+  "Address":"23 University Estates Blvd.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"23 University Estates Blvd., Athens, OH, 45701",
+  "Title":"Theft/Criminal Mischief",
+  "copy":"APD took a report from a motor vehicle that occurred overnight near 23 University Estates Boulevard.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.11359999999999,39.33393969999999 ]
+  },
+  "properties": {
+  "date":"12/1/19",
+  "Place":"",
+  "Address":"300 W. State Street",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"300 W. State Street, Athens, OH, 45701",
+  "Title":"Domestic Violence - knowingly cause physical harm",
+  "copy":"APD received a call for a domestic disturbance.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1056042,39.3232793 ]
+  },
+  "properties": {
+  "date":"11/27/19",
+  "Place":"Convocation Center",
+  "Address":"95 Richland Ave",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"95 Richland Ave, Athens, OH 45701",
+  "Title":"Burglary",
+  "copy":"A person reported a burglary in the area.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.10993189999999,39.3195915 ]
+  },
+  "properties": {
+  "date":"11/27/19",
+  "Place":"Mail Services",
+  "Address":"122 Ridges Circle",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"122 Ridges Circle, Athens, OH, 45701",
+  "Title":"Operations",
+  "copy":"Canine Deployment",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1056042,39.3232793 ]
+  },
+  "properties": {
+  "date":"11/30/19",
+  "Place":"Convocation Center",
+  "Address":"95 Richland Ave",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"95 Richland Ave, Athens, OH 45701",
+  "Title":"Operations",
+  "copy":"Canine Deployment",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.108639,39.329787 ]
+  },
+  "properties": {
+  "date":"11/30/19",
+  "Place":"Parking lot 154",
+  "Address":"",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"",
+  "Title":"Drugs",
+  "copy":"Item marked for destruction.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0975513,39.3267991 ]
+  },
+  "properties": {
+  "date":"12/1/19",
+  "Place":"Lincoln Hall",
+  "Address":"45 East Green Dr.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"45 East Green Dr., Athens, OH, 45701",
+  "Title":"Theft",
+  "copy":"Officers met with a person in reference to the misuse of a credit card.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0948219,39.3220127 ]
+  },
+  "properties": {
+  "date":"12/2/19",
+  "Place":"Hoover House",
+  "Address":"136 S Green Dr",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"136 S Green Dr, Athens, OH 45701",
+  "Title":"Larceny-theft",
+  "copy":"A person reported his bicycle taken from the area.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.10993189999999,39.3195915 ]
+  },
+  "properties": {
+  "date":"12/2/19",
+  "Place":"Mail Services",
+  "Address":"122 Ridges Circle",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"122 Ridges, Athens, OH, 45701",
+  "Title":"Operations",
+  "copy":"Canine deployment",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1105133,39.3320091 ]
+  },
+  "properties": {
+  "date":"12/3/19",
+  "Place":"",
+  "Address":"15 Shafer St. ",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"15 Shafer St., Athens, OH 45701",
+  "Title":"Theft",
+  "copy":"APD responded to a theft from a motor vehicle.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.082273,39.296701 ]
+  },
+  "properties": {
+  "date":"12/3/19",
+  "Place":"",
+  "Address":"335 Carroll Road",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"335 Carroll Road, Athens, OH, 45701",
+  "Title":"Possession of heroin",
+  "copy":"Officers responded to an overdose. ",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.09656880000001,39.3227749 ]
+  },
+  "properties": {
+  "date":"12/3/19",
+  "Place":"Tanaka Hall",
+  "Address":"121 South Green Dr.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"121 South Green Dr., Athens, OH, 45701",
+  "Title":"Larceny-theft",
+  "copy":"A person reported a theft of a bicycle.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.10650439999999,39.3245159 ]
+  },
+  "properties": {
+  "date":"12/3/19",
+  "Place":"Ryors Hall",
+  "Address":"101 West Green Dr.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"101 West Green Dr., Athens, OH 45701",
+  "Title":"Larceny-theft",
+  "copy":"A person reported a theft of a bicycle.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1017419,39.3248626 ]
+  },
+  "properties": {
+  "date":"12/3/19",
+  "Place":"Baker University Center",
+  "Address":"1 Park Place",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"1 Park Place, Athens, OH, 45701",
+  "Title":"Service Call",
+  "copy":"A report taken in reference to ACEMS transport refusal.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.08754139999999,39.3372783 ]
+  },
+  "properties": {
+  "date":"12/7/19",
+  "Place":"Speedway",
+  "Address":"319 E. State St.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"319 E. State St., Athens, OH, 45701",
+  "Title":"Theft",
+  "copy":"Officers responded to Speedway for a theft complaint.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1015707,39.32861580000001 ]
+  },
+  "properties": {
+  "date":"12/8/19",
+  "Place":"D.P. Dough",
+  "Address":"19 S. Court St. ",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"19 S. Court St., Athens, OH 45701",
+  "Title":"Robbery",
+  "copy":"APD responded to a fight at D.P. Dough. ",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.11036639999999,39.3297431 ]
+  },
+  "properties": {
+  "date":"12/10/19",
+  "Place":"",
+  "Address":"224 W. Union St.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"224 W. Union St., Athens, OH 45701",
+  "Title":"Criminal Trespass",
+  "copy":"Officers responded to a report of trespassing. A man was arrested from criminal trespassing and taken to Southeast Ohio Regional Jail.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.10083809999999,39.3283951 ]
+  },
+  "properties": {
+  "date":"12/9/19",
+  "Place":"",
+  "Address":"20 S. Court St. ",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"20 S. Court St., Athens, OH 45701",
+  "Title":"Liquor/Sell-purchase for Underage Consumption of Alcohol",
+  "copy":"APD took a report for a person selling alcohol to a juvennile.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.10349529999999,39.3377795 ]
+  },
+  "properties": {
+  "date":"12/10/19",
+  "Place":"",
+  "Address":"193 N. Lancaster St.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"193 N. Lancaster St., Athens, OH, 45701",
+  "Title":"Criminal Damaging/endangering and Theft",
+  "copy":"APD took a report on station for criminal damaging.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0790266,39.3363592 ]
+  },
+  "properties": {
+  "date":"12/10/19",
+  "Place":"",
+  "Address":"11 E. Park Drive",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"11 E. Park Drive, Athens, OH, 45701",
+  "Title":"Theft",
+  "copy":"APD was contact about a theft from a motor vehicle.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.10294069999999,39.3322805 ]
+  },
+  "properties": {
+  "date":"12/9/19",
+  "Place":"",
+  "Address":"74 N. High Street",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"74 N. High Street, Athens, OH, 45701",
+  "Title":"Theft",
+  "copy":"APD took a report of a package that was stolen from a porch.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1053563,39.326342 ]
+  },
+  "properties": {
+  "date":"12/4/19",
+  "Place":"",
+  "Address":"51 Oxbow Trail",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"51 Oxbow Trail, Athens, OH, 45701",
+  "Title":"Theft",
+  "copy":"A report was taken for a theft",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1017419,39.3248626 ]
+  },
+  "properties": {
+  "date":"12/4/19",
+  "Place":"Baker University Center",
+  "Address":"1 Park Place",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"1 Park Place, Athens, OH, 45701",
+  "Title":"Ambulance request",
+  "copy":"Student refused transport.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0956798,39.3300076 ]
+  },
+  "properties": {
+  "date":"12/4/19",
+  "Place":"",
+  "Address":"4 Palmer St. ",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"4 Palmer St., Athens, OH 45701",
+  "Title":"Traffic stop",
+  "copy":"A man was issued a citation for drving under suspension.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0974951,39.3250068 ]
+  },
+  "properties": {
+  "date":"12/4/19",
+  "Place":"Shively Hall",
+  "Address":"59 East Green Drive",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"59 East Green Drive, Athens, OH, 45701",
+  "Title":"Property damage",
+  "copy":"Report taken for damage to bicycle",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0974099,39.3223869 ]
+  },
+  "properties": {
+  "date":"12/5/19",
+  "Place":"Living Learning Center",
+  "Address":"111 South Green Drive",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"111 South Green Drive, Athens, OH, 45701",
+  "Title":"Property damage",
+  "copy":"A citation was issuesd for failture to maintain an assured clear distance ahead as a result of a traffic crash investigation.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1040172,39.325612 ]
+  },
+  "properties": {
+  "date":"12/5/19",
+  "Place":"",
+  "Address":"41 E. Oxbow Drive",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"41 E. Oxbow Drive, Athens, OH, 45701",
+  "Title":"Drug offenses",
+  "copy":"Contraband items were collected and marked for destruction.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1049791,39.3247221 ]
+  },
+  "properties": {
+  "date":"12/5/19",
+  "Place":"James Hall",
+  "Address":"8 West Green Drive",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"8 West Green Drive, Athens, OH 45701",
+  "Title":"Ambulance request",
+  "copy":"Astudent was charged with intoxication and transported to OhioHealth O'Bleness Hospital",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0970644,39.3220163 ]
+  },
+  "properties": {
+  "date":"12/6/19",
+  "Place":"",
+  "Address":"South Green Drive",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"South Green  Drive, Athens, OH, 45701",
+  "Title":"Report issued in error",
+  "copy":"Not needed",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1013704,39.3210944 ]
+  },
+  "properties": {
+  "date":"12/6/19",
+  "Place":"Walter Fieldhouse",
+  "Address":"50 South Green Drive",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"50 South Green Drive, Athens, OH 45701",
+  "Title":"Criminal damaging/endangering",
+  "copy":"A report was taken concerning damage to a vehicle",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1059597,39.3177175 ]
+  },
+  "properties": {
+  "date":"12/7/19",
+  "Place":"",
+  "Address":"Dairy Lane/Richland Ave.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"Dairy Lane/Richland Ave., Athens, OH, 45701",
+  "Title":"Assist other law enforcement agency",
+  "copy":"A man was arrested and cited for disorderly conduct by intoxication. He was transported to Southeast Ohio Regional Jail. ",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1026459,39.3283079 ]
+  },
+  "properties": {
+  "date":"12/7/19",
+  "Place":"Bromley Hall",
+  "Address":"35 S. Congress St. ",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"35 S. Congress St., Athens, OH, 45701",
+  "Title":"Criminal Damaging/endangering",
+  "copy":"Report taken for criminal damaging in Bromley Hall.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0954495,39.3230897 ]
+  },
+  "properties": {
+  "date":"12/7/19",
+  "Place":"Nelson Commons",
+  "Address":"10 N. McKinley Ave",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"10 N. McKinley Ave, Athens, OH, 45701",
+  "Title":"Welfare Check",
+  "copy":"An emplotee contact OUPD concerning an employee failing to arrive at work. The person was located and determined to be OK.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.09859689999999,39.3241742 ]
+  },
+  "properties": {
+  "date":"12/7/19",
+  "Place":"Scott Quadrangle",
+  "Address":"88 University Terrace",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"88 University Terrace, Athens, OH 45701",
+  "Title":"Theft",
+  "copy":"A report taken for a stolen bicycle.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.09859689999999,39.3241742 ]
+  },
+  "properties": {
+  "date":"12/8/19",
+  "Place":"Scott Quadrangle",
+  "Address":"88 University Terrace",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"88 University Terrace, Athens, OH 45701",
+  "Title":"Destruction property",
+  "copy":"A report was taken for a \"No Parking\" sign that was found to have been tampered with.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.10618219999999,39.3254116 ]
+  },
+  "properties": {
+  "date":"12/8/19",
+  "Place":"Wilson Hall",
+  "Address":"20 W. Green Drive",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"20 W. Green Drive, Athens, OH, 45701",
+  "Title":"Sex offense",
+  "copy":"A student reported unwanted sexual conduct between her and a known suspect.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1056042,39.3232793 ]
+  },
+  "properties": {
+  "date":"12/8/19",
+  "Place":"Convocation Center",
+  "Address":"95 Richland Ave.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"95 Richland Ave., Athens, OH 45701",
+  "Title":"EDC deployment",
+  "copy":"",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0989975,39.3267781 ]
+  },
+  "properties": {
+  "date":"12/8/19",
+  "Place":"",
+  "Address":"33 University Terrace",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"33 University Terrace, Athens, OH, 45701",
+  "Title":"EDC deployment",
+  "copy":"",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0966127,39.3255385 ]
+  },
+  "properties": {
+  "date":"12/8/19",
+  "Place":"Gamertsfelder Hall",
+  "Address":"58 East Green Drive",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"58 East Green Drive, Athens, OH 45701",
+  "Title":"Welfare Check",
+  "copy":"A well-being check was conducted on a student. Everything was OK.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.09859689999999,39.3241742 ]
+  },
+  "properties": {
+  "date":"12/8/19",
+  "Place":"Scott Quadrangle",
+  "Address":"88 University Terrace",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"88 University Terrace, Athens, OH 45701",
+  "Title":"Fictious/altered ID",
+  "copy":"OUPD initated an investigation concerning the display and/or posession of a fake ID. ",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0966127,39.3255385 ]
+  },
+  "properties": {
+  "date":"12/9/19",
+  "Place":"Gamertsfelder Hall",
+  "Address":"58 East Green Drive",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"58 East Green Drive, Athens, OH 45701",
+  "Title":"Fraud Offenses",
+  "copy":"A student contact OUPD to check fraud.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0964339,39.3271066 ]
+  },
+  "properties": {
+  "date":"12/10/19",
+  "Place":"",
+  "Address":"101 E. Union St.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"101 E. Union St., Athens, OH, 45701",
+  "Title":"Menacing offenses",
+  "copy":"A report was taken concerning a roommate dispute.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.09859689999999,39.3241742 ]
+  },
+  "properties": {
+  "date":"12/11/19",
+  "Place":"Scott Quadrangle",
+  "Address":"88 University Terrace",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"88 University Terrace, Athens, OH 45701",
+  "Title":"Fictious/altered ID",
+  "copy":"A wallet was turned into OUPD that contained a fake ID.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1049791,39.3247221 ]
+  },
+  "properties": {
+  "date":"12/11/19",
+  "Place":"James Hall",
+  "Address":"8 West Green Drive",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"8 West Green Drive, Athens, OH, 45701",
+  "Title":"Menacing",
+  "copy":"A student came to OUPD in reference to menacing behavior",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.10993189999999,39.3195915 ]
+  },
+  "properties": {
+  "date":"12/12/19",
+  "Place":"Ridges Building 8",
+  "Address":"122 Ridges Circle",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"122 Ridges Circle, Athens, OH, 45701",
+  "Title":"Fraud Offenses",
+  "copy":"An employee reported possible fraud check.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0981614,39.3228632 ]
+  },
+  "properties": {
+  "date":"12/12/19",
+  "Place":"Carr Hall",
+  "Address":"97 South Green Drive",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"97 South Green Drive, Athens, OH, 45701",
+  "Title":"Fire alarm",
+  "copy":"OUPD responded to Carr Hall in rederence to a fire alarm that resulted in ACEMS. ",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.10461459999999,39.3263979 ]
+  },
+  "properties": {
+  "date":"12/12/19",
+  "Place":"Boyd Hall",
+  "Address":"47 Oxbow Trail",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"47 Oxbow Trail, Athens, OH 45701",
+  "Title":"Civil",
+  "copy":"A student reported another student violated an OU No Contact Order. It was determined there was no criminal activity.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.10125169999999,39.3308647 ]
+  },
+  "properties": {
+  "date":"12/14/19",
+  "Place":"Silver Serpent Exotic Gifts",
+  "Address":"55 N. Court St. ",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"55 N. Court St., Athens, OH 45701",
+  "Title":"Assault",
+  "copy":"APD responded for a report of an assualt. ",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.100644,39.331761 ]
+  },
+  "properties": {
+  "date":"12/15/19",
+  "Place":"Smoke Zone Smoke Shop",
+  "Address":"80 N. Court St.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"80 N. Court St., Athens, OH 45701",
+  "Title":"Breaking and entering",
+  "copy":"APD responded to an alarm at Smoke Zone Smoke Shop.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.10122179999999,39.330349 ]
+  },
+  "properties": {
+  "date":"12/15/19",
+  "Place":"Pawpurrs",
+  "Address":"37 N. Court St.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"37 N. Court St., Athens, OH, 45701",
+  "Title":"Assault",
+  "copy":"APD responded to Pawpurrs for a report of an assault. A man was charged with assault",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1024898,39.32798830000001 ]
+  },
+  "properties": {
+  "date":"12/16/19",
+  "Place":"",
+  "Address":"36 S. Congress St. ",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"36 S. Congress St., Athens, OH, 45701",
+  "Title":"Disorderly Conduct by intoxication and possession of drugs",
+  "copy":"APD located an open door and seized a bag with 12 Xanax pills.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1014175,39.3305742 ]
+  },
+  "properties": {
+  "date":"12/16/19",
+  "Place":"Tony's Tavern",
+  "Address":"7 W State St.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"7 W State St, Athens, OH 45701",
+  "Title":"Assault",
+  "copy":"APD responded to Tony's Tavern for a group of women starting a fight. ",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.113395,39.2976654 ]
+  },
+  "properties": {
+  "date":"12/16/19",
+  "Place":"",
+  "Address":"2 Andover Road",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"2 Andover Road, Athens, OH 45701",
+  "Title":"Telecommunication harassment",
+  "copy":"APD took a report of harassment.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0958945,39.3266608 ]
+  },
+  "properties": {
+  "date":"12/13/19",
+  "Place":"Read Hall ",
+  "Address":"46 East Green Dr.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"46 East Green Dr., Athens, OH, 45701",
+  "Title":"Destruction property",
+  "copy":"A report was taken concerning a fire extinguisher that was removed from the first floor and discharged on East Green Drive. ",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1033889,39.3274403 ]
+  },
+  "properties": {
+  "date":"12/13/19",
+  "Place":"Lasher Hall",
+  "Address":"43 W. Union St. ",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"43 W. Union St., Athens, OH, 45701",
+  "Title":"Trespassing offenses",
+  "copy":"A report taken for breaking and entering and criminal mischief in regards to someone entering Lasher Hall. A vehicle was also damaged in the vicinity. It is believed the two incidents are related.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0951315,39.3238442 ]
+  },
+  "properties": {
+  "date":"12/13/19",
+  "Place":"Crawford Hall",
+  "Address":"12 N. McKinley Ave",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"12 N. McKinley Ave, Athens, OH 45701",
+  "Title":"Littering",
+  "copy":"A man was issued a summons for littering.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.102504,39.3265332 ]
+  },
+  "properties": {
+  "date":"12/13/19",
+  "Place":"Bentley Annex",
+  "Address":"6 President St",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"6 President St., Athens, OH, 45701",
+  "Title":"Disorderly conduct offenses",
+  "copy":"A menacing report was completed concerning an argument between a student and professor in Bentley Annex occurring earlier in the day.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0995399,39.3281336 ]
+  },
+  "properties": {
+  "date":"12/13/19",
+  "Place":"Voigt Hall",
+  "Address":"34 S. College St.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"34 S. College St., Athens, OH, 45701",
+  "Title":"Theft offense",
+  "copy":"A report was taken for a stolen bicycle.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.092463,39.3224094 ]
+  },
+  "properties": {
+  "date":"12/13/19",
+  "Place":"True House",
+  "Address":"193 S. Green Dr.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"193 S. Green Dr., Athens, OH, 45701",
+  "Title":"Property damage",
+  "copy":"A report taken from criminal mischief.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0966127,39.3255385 ]
+  },
+  "properties": {
+  "date":"12/13/19",
+  "Place":"Gamertsfelder Hall",
+  "Address":"58 E. Green Dr.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"58 E. Green Dr., Athens, OH, 45702",
+  "Title":"Drug offenses",
+  "copy":"Items believed to be contraband were collected for destruction.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.097807,39.3223797 ]
+  },
+  "properties": {
+  "date":"12/13/19",
+  "Place":"Sowle Hall",
+  "Address":"105 S. Green Dr.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"105 S. Green Dr., Athens, OH, 45701",
+  "Title":"Theft offense",
+  "copy":"A resident assistant reported finding stolen property during room checks.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1056042,39.3232793 ]
+  },
+  "properties": {
+  "date":"12/13/19",
+  "Place":"Convocation Center",
+  "Address":"95 Richland Ave.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"95 Richland Ave., Athens, OH, 45701",
+  "Title":"Drug offenses",
+  "copy":"Items believed to be contraband were collected for destruction.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.094779,39.3248657 ]
+  },
+  "properties": {
+  "date":"12/14/19",
+  "Place":"Brown Hall",
+  "Address":"22 N. McKinley Ave.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"22 N. McKinley Ave., Athens, OH, 45701",
+  "Title":"Drug offenses",
+  "copy":"Items believed to be contraband were collected for destruction.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0951315,39.3238442 ]
+  },
+  "properties": {
+  "date":"12/14/19",
+  "Place":"Crawford Hall",
+  "Address":"12 N. McKinley Ave.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"12 N. McKinley Ave., Athens, OH, 45701",
+  "Title":"Property damage",
+  "copy":"Criminal damaging report taken concerning damaged smoke detector in McKinley Hall.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0719092,39.3368155 ]
+  },
+  "properties": {
+  "date":"12/16/19",
+  "Place":"People's Bank",
+  "Address":"801 E. State St.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"801 E. State St., Athens, OH 45701",
+  "Title":"Criminal damaging/endangering",
+  "copy":"APD responded to a report of an employee's vehicle being damaged.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0973123,39.35167 ]
+  },
+  "properties": {
+  "date":"12/16/19",
+  "Place":"OMG! Rotisserie",
+  "Address":"139 Columbus Road",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"139 Columbus Road, Athens, OH, 45701",
+  "Title":"Breaking and entering",
+  "copy":"APD responded for a report of breaking and entering. The incident is under investigation.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.096860,39.321674 ]
+  },
+  "properties": {
+  "date":"12/16/19",
+  "Place":"Parking lot 93",
+  "Address":"",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"",
+  "Title":"Traffic crash",
+  "copy":"A report of a hit-skip in parking lot 93.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.05671749999999,39.3371869 ]
+  },
+  "properties": {
+  "date":"12/17/19",
+  "Place":"Label Shopper",
+  "Address":"1002 E State St",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"1002 E State St, Athens, OH 45701",
+  "Title":"theft",
+  "copy":"APD responded for a report of a shop lifter. ",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1321765,39.322908 ]
+  },
+  "properties": {
+  "date":"12/17/19",
+  "Place":"ReUse on Union",
+  "Address":"751 W. Union St. ",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"751 W. Union St., Athens, OH, 45701",
+  "Title":"Breaking and entering",
+  "copy":"APD responded for a report of breaking and entering. ",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1065361,39.31701839999999 ]
+  },
+  "properties": {
+  "date":"12/17/19",
+  "Place":"Ohio University Inn",
+  "Address":"331 Richland Ave.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"331 Richland Ave., Athens, OH, 45701",
+  "Title":"Menacing",
+  "copy":"An employee of Ohio University Inn reported he received a menacing phone call from his ex-wife's boyfriend. ",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1002278,39.3254282 ]
+  },
+  "properties": {
+  "date":"12/19/19",
+  "Place":"Alden Library",
+  "Address":"30 Park Place",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"30 Park Place, Athens, OH, 45701",
+  "Title":"Sex offense",
+  "copy":"Alden Library staff reported a possible public indecency incvolving a man.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1026459,39.3283079 ]
+  },
+  "properties": {
+  "date":"12/19/19",
+  "Place":"Bromley Hall",
+  "Address":"35 S. Congress St. ",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"35 S. Congress St., Athens, OH, 45701",
+  "Title":"Sex offense",
+  "copy":"The victim reported a possible sexual offense. After further investifaiton, the victim believes no sexual activity had occurred.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0669308,39.3353075 ]
+  },
+  "properties": {
+  "date":"12/21/19",
+  "Place":"Walmart",
+  "Address":"929 E. State Street",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"929 E. State Street, Athens, OH, 45701",
+  "Title":"Theft",
+  "copy":"APD responded to Walmart for a shoplifting complaint.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.09324459999999,39.3450564 ]
+  },
+  "properties": {
+  "date":"12/24/19",
+  "Place":"",
+  "Address":"142 Columbia Ave.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"142 Columbia Ave., Athens, OH 45701",
+  "Title":"Burglary",
+  "copy":"APD responded to a burglary.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0957947,39.332049 ]
+  },
+  "properties": {
+  "date":"12/23/19",
+  "Place":"Ambassador Laundry",
+  "Address":"15 W. Stimson Ave.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"15 W. Stimson Ave., Athens, OH 45701",
+  "Title":"Breaking and entering and Criminal damaging/endangering",
+  "copy":"APD responded to a a report of breaking and entering that happened overnight.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0950312,39.3312826 ]
+  },
+  "properties": {
+  "date":"12/24/19",
+  "Place":"",
+  "Address":"27 Palmer St. ",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"27 Palmer St., Athens, OH 45701",
+  "Title":"Criminal damaging/endangering",
+  "copy":"APD responded to take a report for damage to a door of the residence. ",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.076313,39.3396736 ]
+  },
+  "properties": {
+  "date":"12/23/19",
+  "Place":"",
+  "Address":"21 Charles Street",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"21 Charles Street, Athens, OH 45701",
+  "Title":"Domestic violence",
+  "copy":"APD responded to a report of a domestic dispute. A man was arrested for domestic violence and transported to APD office to be held in court. ",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.09352899999999,39.329987 ]
+  },
+  "properties": {
+  "date":"12/25/19",
+  "Place":"",
+  "Address":"1 Elliot St",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"1 Elliot St, Athens, OH, 45701",
+  "Title":"Burglary",
+  "copy":"Officers responded to a report of a burglary.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0670584,39.3372092 ]
+  },
+  "properties": {
+  "date":"12/25/19",
+  "Place":"Go Mart",
+  "Address":"928 E. State St.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"928 E. State St., Athens, OH 45701",
+  "Title":"Theft and criminal simulation",
+  "copy":"APD received a call for a counterfiet bill.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.11359999999999,39.33393969999999 ]
+  },
+  "properties": {
+  "date":"12/25/19",
+  "Place":"",
+  "Address":"300 W. State St. ",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"300 W. State St., Athens, OH 45701",
+  "Title":"Theft",
+  "copy":"APD received a call for a disturbance. A man was arrested and charged with theft.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1022496,39.3278661 ]
+  },
+  "properties": {
+  "date":"12/28/19",
+  "Place":"",
+  "Address":"22 W. Union St. ",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"22 W. Union St., Athens, OH 45701",
+  "Title":"Assault",
+  "copy":"APD took a report of an assault that occurred near 22 W. Union Street.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0959367,39.3320374 ]
+  },
+  "properties": {
+  "date":"12/28/19",
+  "Place":"",
+  "Address":"33 W. Stimson Exit",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"33 W. Stimson Exit, Athens, OH 45701",
+  "Title":"Improperly handling firearm in motor vehicle and driving under the influence",
+  "copy":"APD stopped a vehicle for speeding. The man was arrested for OVI and improperly handing a firearm in a motor vehicle. ",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0669308,39.3353075 ]
+  },
+  "properties": {
+  "date":"12/31/19",
+  "Place":"Subway",
+  "Address":"929 E. State Street",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"929 E. State Street, Athens, OH, 45701",
+  "Title":"Theft",
+  "copy":"APD responded to Subway in Walmart for a theft complaint. ",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1097605,39.3319793 ]
+  },
+  "properties": {
+  "date":"1/1/2020",
+  "Place":"",
+  "Address":"221 W. Washington Street",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"221 W. Washington Street, Athens, OH 45701",
+  "Title":"Burglary and theft",
+  "copy":"APD responded to a report of a burglary. ",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0689733,39.3360914 ]
+  },
+  "properties": {
+  "date":"12/31/19",
+  "Place":"Kroger",
+  "Address":"919 E. State St. ",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"919 E. State St., Athens, OH 45701",
+  "Title":"Theft",
+  "copy":"Officers responded to a theft complaint. A man was arrested and charged with theft.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0669308,39.3353075 ]
+  },
+  "properties": {
+  "date":"12/31/19",
+  "Place":"Walmart ",
+  "Address":"929 E. State Street",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"929 E. State Street, Athens, OH, 45701",
+  "Title":"Theft",
+  "copy":"APD took a report for a shoplifting complaint.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0954495,39.3230897 ]
+  },
+  "properties": {
+  "date":"12/29/19",
+  "Place":"Nelson Commons",
+  "Address":"10 N. McKinley Ave.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"10 N. McKinley Ave., Athens, OH 45701",
+  "Title":"Recovered property",
+  "copy":"Bolt cutters and a cut bike was located.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1026459,39.3283079 ]
+  },
+  "properties": {
+  "date":"1/1/2020",
+  "Place":"Bromley Hall",
+  "Address":"35 S. Congress St. ",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"35 S. Congress St., Athens, OH 45701",
+  "Title":"Intoxicated person",
+  "copy":"A woman was arrested and cited for disorderly condct by intoxication. She was transported to Southeast Ohio Regional jail.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1017728,39.32813609999999 ]
+  },
+  "properties": {
+  "date":"1/1/2020",
+  "Place":"Skyview Apartments",
+  "Address":"31 South Court Street",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"31 South Court Street, Athens, OH 45701",
+  "Title":"Fire alarm",
+  "copy":"A fire alarm was activated. A report was taken for criminal mischief",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1033084,39.3312287 ]
+  },
+  "properties": {
+  "date":"1/3/2020",
+  "Place":"Athens Middle School",
+  "Address":"51 W. State St.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"51 W. State St., Athens, OH 45701",
+  "Title":"Criminal Damaging/endangering",
+  "copy":"APD responded to Athens Middle School for the report of criminal damaging. ",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0669308,39.3353075 ]
+  },
+  "properties": {
+  "date":"1/3/2020",
+  "Place":"Walmart",
+  "Address":"929 E. State Street",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"929 E. State Street, Athens, OH, 45701",
+  "Title":"Criminal trespass",
+  "copy":"APD responded for the report of a known man trespassing on the property.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0669308,39.3353075 ]
+  },
+  "properties": {
+  "date":"1/6/2020",
+  "Place":"Walmart",
+  "Address":"929 E. State Street",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"929 E. State Street, Athens, OH, 45701",
+  "Title":"Criminal trespass/land of another",
+  "copy":"APD received a call of a trespassing complaint at Walmart. A person was arrested for criminal trespass.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.10126079999999,39.3320924 ]
+  },
+  "properties": {
+  "date":"1/6/2020",
+  "Place":"Broney's Alumni Grill ",
+  "Address":"7 West Carpenter St. ",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"7 West Carpenter St., Athens, OH 45701",
+  "Title":"Assault",
+  "copy":"APD took a report on station that occurred on Dec. 7, 2019.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.10264459999999,39.3306325 ]
+  },
+  "properties": {
+  "date":"1/6/2020",
+  "Place":"",
+  "Address":"37 N. Congress St. ",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"37 N. Congress St., Athens, OH 45701",
+  "Title":"Burglary and Criminal Damaging",
+  "copy":"An officer responded to a possible burglary complaint. Residence was secured and a report was taken.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.07454729999999,39.3378011 ]
+  },
+  "properties": {
+  "date":"1/7/2020",
+  "Place":"",
+  "Address":"750 E. State St. ",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"750 E. State St., Athens, OH 45701",
+  "Title":"Unauthorized use of motor vehicle",
+  "copy":"A woman made a report to the department that her vehicle was stolen by her daughter.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1058663,39.3307407 ]
+  },
+  "properties": {
+  "date":"1/5/2020",
+  "Place":"",
+  "Address":"117 West Washington St. ",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"117 West Washington St., Athens, OH 45701",
+  "Title":"Assist other law enforcement agency",
+  "copy":"OUPD assisted APD on West Washington Street. ",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0596114,39.3349683 ]
+  },
+  "properties": {
+  "date":"1/9/2020",
+  "Place":"Lowe's Home Improvement",
+  "Address":"983 E State St. ",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"983 E State St., Athens, OH 45701",
+  "Title":"Possessing drug abuse instrument and drug paraphernalia",
+  "copy":"APD received a call about a man who had climbed into a clothes donation bin at Lowes. The man was arrested on a warrant, and a report was taken. ",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.07633659999999,39.3384802 ]
+  },
+  "properties": {
+  "date":"1/9/2020",
+  "Place":"",
+  "Address":"5 Charles St.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"5 Charles St., Athens, OH 45701",
+  "Title":"Theft",
+  "copy":"APD responded to a theft that occurred between Jan. 5 and Jan. 9.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1033084,39.3312287 ]
+  },
+  "properties": {
+  "date":"1/10/2020",
+  "Place":"Athens Middle School",
+  "Address":"51 W. State St.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"51 W. State St., Athens, OH 45701",
+  "Title":"Potential Threat",
+  "copy":"APD responded to a potential threat on Athens Middle School. APD investigators quickly identified and located a witness, who was interviewed. It was believed the threat was not credible.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.091698,39.325624 ]
+  },
+  "properties": {
+  "date":"1/12/2020",
+  "Place":"",
+  "Address":"10 Rufus Lane",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"10 Rufus Lane, Athens, OH 45701",
+  "Title":"Theft",
+  "copy":"Two people reported their bicycles were stolen.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0981614,39.3228632 ]
+  },
+  "properties": {
+  "date":"1/12/2020",
+  "Place":"Carr Hall",
+  "Address":"97 South Green Dr. ",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"97 South Green Dr., Athens, OH 45701",
+  "Title":"Receiving stolen property and identity fraud",
+  "copy":"APD took a report of a stolen credit card that was used in Athens. ",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1076835,39.3284841 ]
+  },
+  "properties": {
+  "date":"1/12/2020",
+  "Place":"",
+  "Address":"30 Station St. ",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"30 Station St., Athens, OH 45701 ",
+  "Title":"Theft",
+  "copy":"APD responded to Station Street to take a report of a theft of a bicycle.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1105133,39.3320091 ]
+  },
+  "properties": {
+  "date":"1/12/2020",
+  "Place":"",
+  "Address":"15 S. Shafer St. ",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"15 S. Shafer St., Athens, OH 45701",
+  "Title":"Theft",
+  "copy":"APD took a report of a stolen bicycle.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0932661,39.3322282 ]
+  },
+  "properties": {
+  "date":"1/13/2020",
+  "Place":"Marathon",
+  "Address":"1 E. Stimson Ave.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"1 E. Stimson Ave., Athens, OH 45701",
+  "Title":"Breaking and Entering and vandalism",
+  "copy":"APD responded to for a breaking and entering.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1011135,39.3279503 ]
+  },
+  "properties": {
+  "date":"1/13/2020",
+  "Place":"Wendy's",
+  "Address":"40 S Court St",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"40 S Court St, Athens, OH 45701",
+  "Title":"Underage consumption and resisting arrest",
+  "copy":"APD responded to an intoxicated man. The man was arrested and transported to Southeast Ohio Regional Jail.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0689733,39.3360914 ]
+  },
+  "properties": {
+  "date":"1/13/2020",
+  "Place":"Kroger",
+  "Address":"919 E. State St. ",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"919 E. State St., Athens, OH 45701",
+  "Title":"Petty theft",
+  "copy":"APD responded to a report of two shoplifters.",
+  "category":"APD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.10465169999999,39.3250883 ]
+  },
+  "properties": {
+  "date":"1/12/2020",
+  "Place":"Sargent Hall",
+  "Address":"43 E. Oxbow Trail",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"43 E. Oxbow Trail, Athens, OH 45701",
+  "Title":"Property damage",
+  "copy":"OUPD received a call in reference to a damaged traffic sign.",
+  "category":"OUPD"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0966127,39.3255385 ]
+  },
+  "properties": {
+  "date":"1/13/2020",
+  "Place":"Gamertsfelder Hall",
+  "Address":"58 East Green Dr.",
+  "City":"Athens",
+  "State":"OH",
+  "Zip":45701,
+  "Full Address":"58 East Green Drive, Athens, OH, 45701",
+  "Title":"Possession of drugs",
+  "copy":"Contraband collected and marked for destruction.",
+  "category":"OUPD"
+  }
+}
             ]
         }
 

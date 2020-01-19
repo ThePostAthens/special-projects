@@ -40,20 +40,6 @@ h3 {
     padding: 0 20%;
 }
 
-/* .column10center {
-    width: 80%;
-    padding: 0 10%;
-}
-
-.column10left {
-    width: 40%;
-    padding-left: 10%;
-}
-
-.column10right {
-    width: 40%;
-    padding-right: 10%;
-} */
 
 /* NAVIGATION BAR */
 #nav_bar {
@@ -163,55 +149,6 @@ h1, h2, h3, h4 {
     margin-top: 1.5px;
 }
 
-/* BYLINE */
-.byline-info {
-    text-align: center;
-    display: block;
-}
-
-.byline-info p {
-    color: #3d3d3d;
-    display: inline-block;
-    font-family: 'Playfair Display', Arial, serif;
-    /* font-family: "Playfair Display", Georgia, serif; */
-    font-size: 14px;
-    text-align: center;
-}
-
-.byline-info p:last-of-type {
-    margin-right: 0;
-}
-
-/* SHARE BUTTONS */
-.share-container {
-    text-align: center;
-    margin-top: -10px;
-}
-
-ul.share-buttons {
-    list-style: none;
-    padding: 0;
-}
-
-ul.share-buttons li {
-    display: inline;
-}
-
-ul.share-buttons .sr-only {
-    position: absolute;
-    clip: rect(1px 1px 1px 1px);
-    clip: rect(1px, 1px, 1px, 1px);
-    padding: 0;
-    border: 0;
-    height: 1px;
-    width: 1px;
-    overflow: hidden;
-}
-
-ul.share-buttons img {
-    width: 32px;
-}
-
 /* CONTENT */
 p.intro {
     font-size: 22px;
@@ -224,6 +161,61 @@ p.intro {
     line-height: .9em;
     padding-right: 5px;
 }
+
+/* // CARDS */
+.card {
+    background-color: #0A4021;
+    width: 300px;
+    margin: 100px auto;
+    height: 350px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-top: 10px;
+    transition: .38s;
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+    border-radius: 1px;
+    transition: .48s;
+}
+.card-body {
+  padding-left:7px;
+  padding-right:7px;
+  text-align:center;
+}
+
+.card-img {
+    width: 100%;
+}
+.card-title {
+  font-size: 18px;
+  font-weight: 800;
+  margin-top: 5px;
+}
+.card-text {
+  margin-top: 5px;
+  color: black;
+}
+
+/* CARD BUTTONS */
+.button {
+  background-color: #A1DB7C;
+  border: none;
+  color: #fff;
+  font-weight: 300;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  -webkit-text-stroke-color: #000;
+  font-family: 'Montserrat';
+}
+
 
 /* CREDITS */
 .credits {
@@ -302,9 +294,14 @@ p.intro {
 }
 
 .subhed {
-    font-family: 'Playfair Display', Arial, serif;
-    font-weight: 800;
-    color: #7fc448;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #292929;
+    background-color: #fff;
+    display: inline-block;
+    padding: 12px 15px 13px;
+    margin-left: 20%;
 }
 
 /*apply to wrapping span tag*/

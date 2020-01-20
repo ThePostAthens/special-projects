@@ -307,6 +307,22 @@ p.intro {
     text-align: center;
 }
 
+/*lines*/
+.horizontal-lines {
+  height: 10px;
+  $color: green;
+  color: $color;
+  background-image: linear-gradient(
+    currentColor,
+    currentColor 33.33%,
+    transparent 33.33%,
+    transparent 100%);
+  background-size: 100% 3px;
+  width: 100px;
+margin-left: 700px;
+ 
+}
+
 /*apply to wrapping span tag*/
 .title {
     color: #606060;

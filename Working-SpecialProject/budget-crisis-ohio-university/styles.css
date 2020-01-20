@@ -191,11 +191,12 @@ p.intro {
 .card-title {
   font-size: 18px;
   font-weight: 800;
+    color: white;
   margin-top: 5px;
 }
 .card-text {
   margin-top: 5px;
-  color: black;
+  color: white;
 }
 
 /* CARD BUTTONS */
@@ -294,14 +295,16 @@ p.intro {
 }
 
 .subhed {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    text-transform: uppercase;
-    color: #292929;
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #282828;
     background-color: #fff;
-    display: inline-block;
+    display: inherit;
     padding: 12px 15px 13px;
-    margin-left: 20%;
+    text-align: center;
 }
 
 /*apply to wrapping span tag*/

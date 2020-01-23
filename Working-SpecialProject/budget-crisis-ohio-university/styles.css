@@ -157,6 +157,8 @@ p.intro {
 .dropcap {
     font-weight: 700;
     float: left;
+    font-family: 'Playfair Display';
+    font-style: italic;
     font-size: 2.9em;
     line-height: .9em;
     padding-right: 5px;
@@ -385,6 +387,14 @@ p.intro {
     padding: 12px 15px 13px;
     text-align: center;
 }
+
+.highcharts-color-0 {
+  fill: #d9593d;
+}
+  .highcharts-color-1 {
+    fill: #658c73;
+}
+
 /* Reset */
 hr {
   border: 0;

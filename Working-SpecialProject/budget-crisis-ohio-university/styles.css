@@ -395,6 +395,9 @@ p.intro {
     fill: #658c73;
 }
 
+aria-label {
+  fill: pink;
+}
 /* Reset */
 hr {
   border: 0;

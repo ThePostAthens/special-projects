@@ -52,6 +52,10 @@ THE
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js" charset="utf-8"></script>
     <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -99,7 +103,14 @@ THE
     <div class="subhed">Chart</div>
     <hr class="pill">
 
-    <div id="chart"></div>
+    <figure class="highcharts-figure">
+        <div id="container"></div>
+        <p class="highcharts-description">
+            SOURCE: Ohio University Budget Book
+        </p>
+    </figure>
+
+    <!-- <div id="chart"></div> -->
 
 
 
@@ -283,9 +294,62 @@ THE
         ga('send', 'pageview');
     </script>
 
-
-    <!-- D3 CHART -->
+    <!-- JS CHART -->
     <script>
+        Highcharts.chart('container', {
+            chart: {
+                type: 'column'
+            },
+            title: {
+                text: 'Ohio University’s Revenue and Expense Budgets'
+            },
+            subtitle: {
+                text: 'A comparison of the university revenue and expenses based off of the budget book. From fiscal year 2016 to 2018 represents official budget numbers since the year has been completed whereas the fiscal year 2019 and 2020 budget represent numbers that are predicted to occur.'
+            },
+
+            xAxis: {
+                categories: [
+                    '2016',
+                    '2017',
+                    '2018',
+                    '2019',
+                    '2020'
+                ],
+                crosshair: true
+            },
+            yAxis: {
+                min: 500,
+                title: {
+                    text: 'Dollars (millions)'
+                }
+            },
+            tooltip: {
+                headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+                pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+                    '<td style="padding:0"><b>{point.y:.1f} million</b></td></tr>',
+                footerFormat: '</table>',
+                shared: true,
+                useHTML: true
+            },
+            plotOptions: {
+                column: {
+                    pointPadding: 0.2,
+                    borderWidth: 0
+                }
+            },
+            series: [{
+                name: 'Revenue (in millions)',
+                data: [745.0, 783.6, 756.0, 749.2, 758.9]
+
+            }, {
+                name: 'Expenses (in millions)',
+                data: [692.8, 718.0, 705.3, 742.3, 757.3]
+
+            }]
+        });
+    </script>
+    <!-- D3 CHART -->
+    <!-- <script>
         var data = [{
             "category": "2016",
             "values": [{
@@ -332,8 +396,6 @@ THE
                 "rate": "Expenses (in millions)"
             }]
         }]
-
-
 
         var margin = {
                 top: 20,
@@ -538,7 +600,7 @@ THE
  .attr("dy", ".75em")
  .text(function(d) { return d.value; });
 
-    </script>
+    </script> -->
 
 </body>
 

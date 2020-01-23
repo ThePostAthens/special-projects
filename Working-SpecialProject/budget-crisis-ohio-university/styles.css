@@ -229,6 +229,7 @@ p.intro {
   .chart {
     display: block;
     margin: auto;
+    margin-right: 20px;
   }
 
   .g-source-bold {
@@ -253,11 +254,11 @@ p.intro {
   }
 
   .g-num {
-    fill:#5e8dc9;
+    fill:red;
   }
 
    .g-num2 {
-     fill:#2f5491;
+     fill:pink;
   }
 
   .g-labels {

@@ -227,9 +227,13 @@ p.intro {
   }
 
   .chart {
+    margin-left: -130px;
+  }
+
+  .g-chart {
     display: block;
     margin: auto;
-    margin-right: 20px;
+    width:100%;
   }
 
   .g-source-bold {
@@ -263,7 +267,7 @@ p.intro {
 
   .g-labels {
     font-family: 'Montserrat', sans-serif;
-    fill: white;
+    fill: black;
     font-weight: bold;
     font-size: 13px;
   }

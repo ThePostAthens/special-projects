@@ -258,15 +258,15 @@ THE
         })();
 
         /* Radial Gradient Syntax fix */
-        // StyleFix.register(function(css, raw) {
-        //     if (PrefixFree.functions.indexOf('radial-gradient') > -1) {
-        //         css = css.replace(/radial-gradient\(([a-z-\s]+\s+)?at ([^,]+)(?=,)/g, function($0, shape, center) {
-        //             return 'radial-gradient(' + center + (shape ? ', ' + shape : '');
-        //         });
-        //     }
-        //
-        //     return css;
-        // });
+        StyleFix.register(function(css, raw) {
+            if (PrefixFree.functions.indexOf('radial-gradient') > -1) {
+                css = css.replace(/radial-gradient\(([a-z-\s]+\s+)?at ([^,]+)(?=,)/g, function($0, shape, center) {
+                    return 'radial-gradient(' + center + (shape ? ', ' + shape : '');
+                });
+            }
+
+            return css;
+        });
     </script>
 
     <!-- GOOGLE ANALYTICS -->
@@ -288,7 +288,6 @@ THE
     </script>
 
     <!-- D3 CHART -->
-
     <script>
         //Margin conventions
         var margin = {
@@ -329,7 +328,7 @@ THE
             .scale(xScale)
             .orient("bottom")
             .tickFormat(function(d) {
-                return d + "%";
+                return d;
             })
             .tickSize(height)
             .ticks(numTicks(width));
@@ -361,7 +360,7 @@ THE
             });
 
             //Defines the xScale max
-            xScale.domain([0, maxX]);
+            xScale.domain([0, 800]);
 
             //Appends the y axis
             var yAxisGroup = svg.append("g")

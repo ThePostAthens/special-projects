@@ -11,7 +11,7 @@ body {
 }
 
 a {
-    color: #A1DB7C;
+    color: #D9593D;
     text-decoration: none;
 }
 
@@ -201,7 +201,7 @@ p.intro {
 
 /* CARD BUTTONS */
 .button {
-  background-color: #A1DB7C;
+  background-color: #658C73;
   border: none;
   color: #fff;
   font-weight: 300;
@@ -337,7 +337,7 @@ p.intro {
 }
 
 .creditText a {
-  color: #A1DB7C;
+  color: #D9593D;
   font-weight: 700;
   cursor: pointer;
 }
@@ -404,7 +404,7 @@ p.intro {
     font-weight: bold;
     font-size: 25px;
     line-height: 48px;
-    color: #282828;
+    color: #BF5B04;
     background-color: #fff;
     display: inherit;
     padding: 12px 15px 13px;

@@ -227,13 +227,15 @@ p.intro {
   }
 
   .chart {
-    margin-left: -130px;
+    display: inline-block;
+    margin: 0 auto;
   }
 
   .g-chart {
     display: block;
-    margin: auto;
-    width:100%;
+    width:20%;
+    margin-left: -70px;
+
   }
 
   .g-source-bold {
@@ -244,12 +246,18 @@ p.intro {
 
   .g-source {
     margin: 10px 0;
+    text-align: left;
   }
 
   .g-source-bold {
     text-align: left;
     font-size:10px;
-  }
+    margin-left: 150px;
+}
+
+.g-source-reg {
+  font-size: 10px;
+}
 
   .g-intro {
     font-size: 16px;
@@ -267,7 +275,7 @@ p.intro {
 
   .g-labels {
     font-family: 'Montserrat', sans-serif;
-    fill: black;
+    fill: white;
     font-weight: bold;
     font-size: 13px;
   }
@@ -307,7 +315,15 @@ p.intro {
     stroke-dasharray:none;
   }
 
-
+  /* basic positioning */
+.legend { list-style: none; }
+.legend li { float: left; margin-right: 10px; }
+.legend span { border: 1px solid #ccc; float: left; width: 12px; height: 12px; margin: 2px; }
+/* your colors */
+.legend .superawesome { background-color: #ff00ff; }
+.legend .awesome { background-color: #00ffff; }
+.legend .kindaawesome { background-color: #0000ff; }
+.legend .notawesome { background-color: #000000; }
 /* CREDITS */
 .credits {
   margin: 1rem auto 0;

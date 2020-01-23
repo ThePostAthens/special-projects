@@ -218,84 +218,90 @@ p.intro {
 }
 
 /* D3 CHART */
-
 .g-hed {
-   text-align: left;
-   text-transform: uppercase;
-   font-weight: bold;
-   font-size:22px;
-   margin: 3px 0;
- }
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size:22px;
+    margin: 3px 0;
+  }
 
- .g-source-bold {
-   text-align: left;
-   font-size:10px;
-   font-weight: bold;
- }
+  .chart {
+    display: block;
+    margin: auto;
+  }
 
- .g-source {
-   margin: 10px 0;
- }
+  .g-source-bold {
+    text-align: left;
+    font-size:10px;
+    font-weight: bold;
+  }
 
- .g-source-bold {
-   text-align: left;
-   font-size:10px;
- }
+  .g-source {
+    margin: 10px 0;
+  }
 
- .g-intro {
-   font-size: 16px;
-   margin: 0px 0px 10px 0px;
- }
+  .g-source-bold {
+    text-align: left;
+    font-size:10px;
+  }
 
- .g-num {
-   fill:#5e8dc9;
- }
+  .g-intro {
+    font-size: 16px;
+    margin: 0px 0px 10px 0px;
+    text-align: center;
+  }
 
-  .g-num2 {
-    fill:#2f5491;
- }
+  .g-num {
+    fill:#5e8dc9;
+  }
 
- .g-labels {
-   font-family: 'Proxima-Nova', sans-serif;
-   fill: white;
-   font-weight: bold;
-   font-size: 13px;
- }
+   .g-num2 {
+     fill:#2f5491;
+  }
 
- .axis line {
-   fill: none;
-   stroke: #ccc;
-   stroke-dasharray: 2px 3px;
-   shape-rendering: crispEdges;
-   stroke-width: 1px;
- }
+  .g-labels {
+    font-family: 'Montserrat', sans-serif;
+    fill: white;
+    font-weight: bold;
+    font-size: 13px;
+  }
 
- .axis text {
-   font-family: 'Proxima-Nova', sans-serif;
-   font-size: 13px;
-   pointer-events: none;
-   fill: #7e7e7e;
- }
+  .axis line {
+    fill: none;
+    stroke: #ccc;
+    stroke-dasharray: 2px 3px;
+    shape-rendering: crispEdges;
+    stroke-width: 1px;
+  }
 
- .domain {
-   display: none;
- }
+  .axis text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    pointer-events: none;
+    fill: #7e7e7e;
+  }
 
- .y.axis text {
-   text-anchor: end !important;
-   font-size:14px;
-   fill: #000000;
- }
+  .domain {
+    display: none;
+  }
 
- .y.axis line {
-   display: none;
- }
+  .y.axis text {
+    text-anchor: end !important;
+    font-size:14px;
+    fill: #000000;
+  }
 
- .g-baseline line {
-   stroke:#000;
-   stroke-width: 1px;
-   stroke-dasharray:none;
- }
+  .y.axis line {
+    display: none;
+  }
+
+  .g-baseline line {
+    stroke:#000;
+    stroke-width: 1px;
+    stroke-dasharray:none;
+  }
+
 
 /* CREDITS */
 .credits {

@@ -253,7 +253,7 @@ p.intro {
     padding: 0.5em;
 }
 .highcharts-data-table thead tr, .highcharts-data-table tr:nth-child(even) {
-    background: #658c73;
+    background: #658C73;
 }
 .highcharts-data-table tr:hover {
     background: #d9593d;
@@ -263,41 +263,6 @@ p.intro {
   font-size: 10px;
 }
 
-
-/* d3 CHART */
-
-/* .bar{
-  fill: steelblue;
-}
-
-.bar:hover{
-  fill: brown;
-}
-
-.axis {
-  font: 10px sans-serif;
-  font-family: 'Montserrat';
-}
-
-.axis path,
-.axis line {
-  fill: none;
-  stroke: #000;
-  shape-rendering: crispEdges;
-}
-
-#chart {
-  width: 100%;
-}
-
-.d3-tip {
-  line-height: 1;
-  font-weight: bold;
-  padding: 12px;
-  background: rgba(0, 0, 0, 0.8);
-  color: #fff;
-  border-radius: 2px;
-} */
 
 /* CREDITS */
 .credits {
@@ -388,11 +353,14 @@ p.intro {
     text-align: center;
 }
 
+
+/* BAR COLOR */
 .highcharts-color-0 {
-  fill: #d9593d;
+  fill: #658c73;
 }
-  .highcharts-color-1 {
-    fill: #658c73;
+
+.highcharts-color-1 {
+    fill: #d9593d;
 }
 
 aria-label {

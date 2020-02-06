@@ -246,7 +246,7 @@ p.intro {
 .card {
   background: #fff;
   border-radius: 2px;
-  display: inline-block;
+  display:inline-grid;
   height: 300px;
   margin: 1rem;
   position: relative;
@@ -272,8 +272,8 @@ p.intro {
      border-radius: 10px;
     background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/1cdf3dbd-ced0-4ea3-ae47-414dc0b6e358.sized-1000x1000.jpg);
     background-repeat: no-repeat;
-    background-size: 140%;
-    background-position: center;
+    background-size: cover;
+    background-position:center;
     transition: 0.3s;
     width: 190px;
     height: 190px;
@@ -281,6 +281,7 @@ p.intro {
     margin: 0 auto;
     margin-top: 15px;
     margin-bottom:15px;
+    display:inherit;
 }
 
 .two {
@@ -288,7 +289,7 @@ p.intro {
     border-radius: 10px;
     background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/04eaa8dd-6706-49a2-99a4-51a48528c2a0.sized-1000x1000.jpg);
     background-repeat: no-repeat;
-    background-size: 140%;
+    background-size: cover;
     background-position: center;
     transition: 0.3s;
     width: 190px;
@@ -304,7 +305,7 @@ p.intro {
     border-radius: 10px;
     background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/38e29c44-7424-455e-8ab0-bf93336bf5e1.sized-1000x1000.jpg);
     background-repeat: no-repeat;
-    background-size: 140%;
+    background-size: cover;
     background-position: center;
     transition: 0.3s;
     width: 190px;
@@ -322,7 +323,7 @@ p.intro {
     border-radius: 10px;
     background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/24e5455a-70b1-4f63-a315-d357b4576ba5.sized-1000x1000.jpg);
     background-repeat: no-repeat;
-    background-size: 140%;
+    background-size: cover;
     background-position: center;
     transition: 0.3s;
     width: 190px;
@@ -340,7 +341,7 @@ p.intro {
      border-radius: 10px;
     background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/a5286ac3-0872-4c9b-b40d-6fc7e2c47408.sized-1000x1000.jpg);
     background-repeat: no-repeat;
-    background-size: 140%;
+    background-size: cover;
     background-position: center;
     transition: 0.3s;
     width: 190px;
@@ -358,7 +359,7 @@ p.intro {
     border-radius: 10px;
     background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/205f3f93-8cba-45b7-a40f-9c9533826bce.sized-1000x1000.jpg);
     background-repeat: no-repeat;
-    background-size: 220%;
+    background-size: cover;
     background-position: center;
     transition: 0.3s;
     width: 190px;
@@ -374,7 +375,7 @@ p.intro {
     border-radius: 10px;
     background-image: url(img/Place-Image-here3%20copy.jpg);
     background-repeat: no-repeat;
-    background-size: 220%;
+    background-size: cover;
     background-position: center;
     transition: 0.3s;
     width: 190px;
@@ -390,7 +391,7 @@ p.intro {
     border-radius: 10px;
     background-image: url(img/Place-Image-here3%20copy.jpg);
     background-repeat: no-repeat;
-    background-size: 220%;
+    background-size: cover;
     background-position: center;
     transition: 0.3s;
     width: 190px;
@@ -406,7 +407,7 @@ p.intro {
     border-radius: 10px;
     background-image: url(img/Place-Image-here3%20copy.jpg);
     background-repeat: no-repeat;
-    background-size: 150%;
+    background-size: cover;
     background-position: center;
     transition: 0.3s;
     width: 190px;
@@ -422,7 +423,7 @@ p.intro {
     border-radius: 10px;
     background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/8eb54f68-8e3f-4c7a-be45-fcee18118d6f.sized-1000x1000.jpg);
     background-repeat: no-repeat;
-    background-size: 150%;
+    background-size: cover;
     background-position: center;
     transition: 0.3s;
     width: 190px;
@@ -438,7 +439,7 @@ p.intro {
     border-radius: 10px;
     background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/4aa5b9ad-7e95-44ce-935d-a267a6662915.sized-1000x1000.PNG);
     background-repeat: no-repeat;
-    background-size: 150%;
+    background-size: cover;
     background-position: center;
     transition: 0.3s;
     width: 190px;
@@ -454,7 +455,7 @@ p.intro {
     border-radius: 10px;
     background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/459bc0a3-8656-4808-8f32-aec377f0dc0e.sized-1000x1000.jpg);
     background-repeat: no-repeat;
-    background-size: 150%;
+    background-size: cover;
     background-position: center;
     transition: 0.3s;
     width: 190px;
@@ -470,7 +471,7 @@ p.intro {
     border-radius: 10px;
     background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/ddd112ee-b463-41eb-9806-17dc3a1a0e79.sized-1000x1000.jpg);
     background-repeat: no-repeat;
-    background-size: 150%;
+    background-size: cover;
     background-position: center;
     transition: 0.3s;
     width: 190px;
@@ -486,7 +487,7 @@ p.intro {
     border-radius: 10px;
     background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/006ebbdb-a849-4553-8095-93465583e29d.sized-1000x1000.jpg);
     background-repeat: no-repeat;
-    background-size: 150%;
+    background-size: cover;
     background-position: top;
     transition: 0.3s;
     width: 190px;
@@ -502,7 +503,7 @@ p.intro {
     border-radius: 10px;
     background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/f5a57152-a67d-4f76-9986-882046014f45.sized-1000x1000.jpg);
     background-repeat: no-repeat;
-    background-size: 150%;
+    background-size: cover;
     background-position: top;
     transition: 0.3s;
     width: 190px;
@@ -518,7 +519,7 @@ p.intro {
     border-radius: 10px;
     background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/c8e77b7e-a2c2-4137-8932-2e1dda971069.sized-1000x1000.jpg);
     background-repeat: no-repeat;
-    background-size: 150%;
+    background-size: cover;
     background-position: top;
     transition: 0.3s;
     width: 190px;
@@ -534,7 +535,7 @@ p.intro {
     border-radius: 10px;
     background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/20fa9352-43ec-4489-b6c6-12e548beb196.sized-1000x1000.jpg);
     background-repeat: no-repeat;
-    background-size: 150%;
+    background-size: cover;
     background-position: top;
     transition: 0.3s;
     width: 190px;
@@ -550,7 +551,7 @@ p.intro {
     border-radius: 10px;
     background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/19babf7e-78f3-4a55-b849-cad2b755596d.sized-1000x1000.jpg);
     background-repeat: no-repeat;
-    background-size: 150%;
+    background-size: cover;
     background-position: top;
     transition: 0.3s;
     width: 190px;
@@ -566,7 +567,7 @@ p.intro {
     border-radius: 10px;
     background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/94aa3c3b-59b1-4530-831f-9c3662e60df4.sized-1000x1000.jpg);
     background-repeat: no-repeat;
-    background-size: 150%;
+    background-size: cover;
     background-position: top;
     transition: 0.3s;
     width: 190px;
@@ -582,7 +583,7 @@ p.intro {
     border-radius: 10px;
     background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/153e5b45-c2aa-4282-b1c5-e2bf20cb379d.sized-1000x1000.jpg);
     background-repeat: no-repeat;
-    background-size: 150%;
+    background-size: cover;
     background-position: top;
     transition: 0.3s;
     width: 190px;
@@ -598,7 +599,7 @@ p.intro {
     border-radius: 10px;
     background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/153e5b45-c2aa-4282-b1c5-e2bf20cb379d.sized-1000x1000.jpg);
     background-repeat: no-repeat;
-    background-size: 150%;
+    background-size: cover;
     background-position: top;
     transition: 0.3s;
     width: 190px;
@@ -614,7 +615,7 @@ p.intro {
     border-radius: 10px;
     background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/d4ca2413-df27-4903-99b6-7874367da70e.sized-1000x1000.png);
     background-repeat: no-repeat;
-    background-size: 150%;
+    background-size: cover;
     background-position: top;
     transition: 0.3s;
     width: 190px;
@@ -630,7 +631,7 @@ p.intro {
     border-radius: 10px;
     background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/153e5b45-c2aa-4282-b1c5-e2bf20cb379d.sized-1000x1000.jpg);
     background-repeat: no-repeat;
-    background-size: 150%;
+    background-size: cover;
     background-position: top;
     transition: 0.3s;
     width: 190px;
@@ -646,7 +647,7 @@ p.intro {
     border-radius: 10px;
     background-image: url(img/Place-Image-here3%20copy.jpg);
     background-repeat: no-repeat;
-    background-size: 150%;
+    background-size: cover;
     background-position: top;
     transition: 0.3s;
     width: 190px;
@@ -662,7 +663,7 @@ p.intro {
     border-radius: 10px;
     background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/9b780191-b40d-40fb-ae03-04217711920f.sized-1000x1000.jpg);
     background-repeat: no-repeat;
-    background-size: 150%;
+    background-size: cover;
     background-position: top;
     transition: 0.3s;
     width: 190px;
@@ -678,7 +679,7 @@ p.intro {
     border-radius: 10px;
     background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/93230ee6-68a9-473a-8635-4d87211e8787.sized-1000x1000.jpg);
     background-repeat: no-repeat;
-    background-size: 150%;
+    background-size: cover;
     background-position: top;
     transition: 0.3s;
     width: 190px;
@@ -694,7 +695,7 @@ p.intro {
     border-radius: 10px;
     background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/634904f0-2819-45a1-b4a9-16251740ae0a.sized-1000x1000.jpg);
     background-repeat: no-repeat;
-    background-size: 150%;
+    background-size: cover;
     background-position: top;
     transition: 0.3s;
     width: 190px;
@@ -710,7 +711,7 @@ p.intro {
     border-radius: 10px;
     background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/d5614bc5-46b4-41f2-8a45-06ed720a1150.sized-1000x1000.jpg);
     background-repeat: no-repeat;
-    background-size: 150%;
+    background-size: cover;
     background-position: top;
     transition: 0.3s;
     width: 190px;
@@ -726,7 +727,7 @@ p.intro {
     border-radius: 10px;
     background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/2c487465-5398-49af-95c5-50f93a5cc1ef.sized-1000x1000.jpg);
     background-repeat: no-repeat;
-    background-size: 150%;
+    background-size: cover;
     background-position: top;
     transition: 0.3s;
     width: 190px;

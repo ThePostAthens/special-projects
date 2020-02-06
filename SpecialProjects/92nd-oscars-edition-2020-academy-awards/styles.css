@@ -737,6 +737,22 @@ p.intro {
     margin-top: 15px;
     margin-bottom:15px;
 }
+
+.thirtyone {
+    
+    border-radius: 10px;
+    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/40b0a804-56ca-4830-b6ed-eb0844512640.sized-1000x1000.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    transition: 0.3s;
+    width: 190px;
+    height: 190px;
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom:15px;
+}
 /* CREDITS */
 .credits {
   margin: 1rem auto 0;
@@ -963,8 +979,6 @@ blockquote {
 .btn-container {
   margin-left:20px;
 }
-
-
 
 .projects {
   background-color: white;

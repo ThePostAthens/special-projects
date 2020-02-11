@@ -753,6 +753,38 @@ p.intro {
     margin-top: 15px;
     margin-bottom:15px;
 }
+
+.thirtytwo {
+    
+    border-radius: 10px;
+    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/461471c0-5e97-48ed-81f4-d0e41437b021.sized-1000x1000.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    transition: 0.3s;
+    width: 190px;
+    height: 190px;
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom:15px;
+}
+
+.thirtythree {
+    
+    border-radius: 10px;
+    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/96a966ba-9364-4d34-b34b-0e56d6320eec.sized-1000x1000.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    transition: 0.3s;
+    width: 190px;
+    height: 190px;
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom:15px;
+}
 /* CREDITS */
 .credits {
   margin: 1rem auto 0;

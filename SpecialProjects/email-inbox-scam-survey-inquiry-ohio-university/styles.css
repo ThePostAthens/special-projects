@@ -11,7 +11,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #D9B504;
     text-decoration: none;
 }
 
@@ -224,6 +224,7 @@ p.intro {
     line-height: .9em;
     padding-right: 5px;
     color: #D9B504;
+    font-family: 'Abril Fatface', cursive;
 }
 
 /* CREDITS */

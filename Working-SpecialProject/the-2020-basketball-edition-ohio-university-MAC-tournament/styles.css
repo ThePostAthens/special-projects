@@ -814,4 +814,11 @@ blockquote {
     .footer {
         height: 300px;
     }
+    
+    .parallax {
+    background-attachment: inherit;
+    background-attachment: inherit;
+    background-position: 60% 45%;
+    height: 20px;
+    }
 }

@@ -815,7 +815,14 @@ blockquote {
         height: 300px;
     }
     
-    .parallax {
+    .parallax-1 {
+    background-attachment: inherit;
+    background-attachment: inherit;
+    background-position: 60% 45%;
+    height: 20px;
+    }
+    
+    .parallax-2 {
     background-attachment: inherit;
     background-attachment: inherit;
     background-position: 60% 45%;

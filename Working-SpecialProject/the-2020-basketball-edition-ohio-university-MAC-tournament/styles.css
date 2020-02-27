@@ -276,6 +276,17 @@ p.intro {
   background-size: cover;
 }
 
+.parallax-3 {
+  background-image: url("https://s3.amazonaws.com/snwceomedia/ohi/b811132a-db7b-4e09-a584-44235ea243da.sized-1000x1000.png");
+
+  height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* GRID */
 .wrapper {
     max-width: 900 px;
@@ -823,6 +834,13 @@ blockquote {
     }
     
     .parallax-2 {
+    background-attachment: inherit;
+    background-attachment: inherit;
+    background-position: 60% 45%;
+    height: 200px;
+    }
+    
+    .parallax-3 {
     background-attachment: inherit;
     background-attachment: inherit;
     background-position: 60% 45%;

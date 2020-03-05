@@ -108,6 +108,36 @@ THE
         <p>“They’re ready for us to open,” Wolf said. “It’s like that every day.”</p>
         <p>He’s drinking black coffee this morning as he does every day. His dark red beard is long enough to nearly touch the bottom of his stomach, and part of it is covered by the black flat cap on his head.</p>
         <p>While not being directly on Court Street with the plethora of other bars in Athens, the Smiling Skull Saloon, or “The Skull,” remains a long time staple of the town. Inside, the bar hasn’t changed much from when it opened 27 years ago. It’s decorated with many skulls and neon signs. A 1990s Pac-Man Arcade Machine sits in the corner. Patrons who choose to sit at the bar sit on upright barrels.</p>
+         <div class="oneimg_center clearfix">
+            
+            <div class="mySlides" style="display: block;">
+                <img src="https://s3.amazonaws.com/snwceomedia/ohi/9077bbf8-9901-46d6-928d-9473e76a1712.sized-1000x1000.jpg"> <p class="photog">The Smiling Skull Saloon on W. Union St. in Athens, Ohio, on March 4, 2020.</p>
+                </div>
+            <div class="mySlides" style="display: none;">
+                <img src="https://s3.amazonaws.com/snwceomedia/ohi/ac0a5cef-20b9-49a0-a35b-3d69069e1a2d.sized-1000x1000.jpg"> <p class="photog">Bob Rankins laughs at The Smiling Skull Saloon on W. Union St. in Athens, Ohio, on March 4, 2020.</p>
+               </div>
+            <div class="mySlides" style="display: none;">
+                <img src="https://s3.amazonaws.com/snwceomedia/ohi/9f2bb249-291f-43f6-aee3-75346123530a.sized-1000x1000.jpg"> <p class="photog">Tom Parry sets up to play pool at The Smiling Skull Saloon on W. Union St. in Athens, Ohio, on March 4, 2020.</p>
+                </div>
+            <div class="mySlides" style="display: none;">
+                <img src="https://s3.amazonaws.com/snwceomedia/ohi/2234adef-4b5e-4a51-9e5f-d578db3d94d5.sized-1000x1000.jpg"> <p class="photog">The Smiling Skull Saloon on W. Union St. in Athens, Ohio, on March 4, 2020.</p>
+                </div>
+
+            <div class="w3-row-padding w3-section">
+                <div class="gallery_bot">
+                    <img class="demo w3-border w3-hover-shadow w3-border-red" src="https://s3.amazonaws.com/snwceomedia/ohi/9077bbf8-9901-46d6-928d-9473e76a1712.sized-1000x1000.jpg" style="width:100%" onclick="currentDiv(1)">
+                </div>
+                <div class="gallery_bot">
+                    <img class="demo w3-border w3-hover-shadow" src="https://s3.amazonaws.com/snwceomedia/ohi/ac0a5cef-20b9-49a0-a35b-3d69069e1a2d.sized-1000x1000.jpg" style="width:100%" onclick="currentDiv(2)">
+                </div>
+                <div class="gallery_bot">
+                    <img class="demo w3-border w3-hover-shadow" src="https://s3.amazonaws.com/snwceomedia/ohi/9f2bb249-291f-43f6-aee3-75346123530a.sized-1000x1000.jpg" style="width:100%" onclick="currentDiv(3)">
+                </div>
+                <div class="gallery_bot">
+                    <img class="demo w3-border w3-hover-shadow" src="https://s3.amazonaws.com/snwceomedia/ohi/2234adef-4b5e-4a51-9e5f-d578db3d94d5.sized-1000x1000.jpg" style="width:100%" onclick="currentDiv(4)">
+                </div>
+            </div>
+        </div>
         <p>Wolf said being at 108 W. Union St. is a lot different than having a bar on Court Street because there is not usually a huge abundance of students, besides on Wednesday night when the bar does karaoke.</p>
         <p>“This one is different than any other, I think. I’m speaking for a lot of people when I say that,” Wolf said. “Bikers for the summer, karaoke singers all winter long.”</p>
         <p>Lauren McCain said she likes going to the Smiling Skull because it has a different vibe than the rest of the bars Uptown. She likes hanging out with the locals.</p>
@@ -197,6 +227,8 @@ THE
     </script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    
+    
 
     <!-- GOOGLE ANALYTICS -->
     <script>
@@ -215,6 +247,34 @@ THE
         ga('create', 'UA-54093688-1', 'auto');
         ga('send', 'pageview');
     </script>
+<script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+
+            function currentDiv(n) {
+              showDivs(slideIndex = n);
+            }
+
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("demo");
+              if (n > x.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                 x[i].style.display = "none";
+              }
+              for (i = 0; i < dots.length; i++) {
+                 dots[i].className = dots[i].className.replace(" w3-border-red", "");
+              }
+              x[slideIndex-1].style.display = "block";
+              dots[slideIndex-1].className += " w3-border-red";
+            }
+        </script>
 
 </body>
 

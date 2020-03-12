@@ -2199,7 +2199,8 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Cuyahoga"
+        "NAME": "Cuyahoga",
+        "CASES": "2"
       },
       "geometry": {
         "type": "MultiPolygon",

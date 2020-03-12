@@ -28,10 +28,10 @@ map.on('load', function() {
     map.on('click', 'counties-layer', function(e) {
         new mapboxgl.Popup()
             .setLngLat(e.lngLat)
-            .setHTML(e.features[0].properties.NAME)
-            .setHTML(e.features[0].properties.CASES)
+            .setHTML('<h3>' + e.features[0].properties.NAME + '</h3><p>' + e.features[0].properties.CASES + '</p>')
             .addTo(map);
     });
+
 
     // Change the cursor to a pointer when the mouse is over the countiess layer.
     map.on('mouseenter', 'counties-layer', function() {

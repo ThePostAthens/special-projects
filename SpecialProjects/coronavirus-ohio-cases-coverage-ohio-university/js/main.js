@@ -8,6 +8,23 @@ var map = new mapboxgl.Map({
 });
 
 map.on('load', function() {
+  var layers = ['0-250', '251-500', '501-1000', '1001-5000', '5001+'];
+        var colors = ['#CBF7EB', '#6FF7D4', '#00BF8E', '#008261', '#00543F'];
+
+            for (i = 0; i < layers.length; i++) {
+  var layer = layers[i];
+  var color = colors[i];
+  var item = document.createElement('div');
+  var key = document.createElement('span');
+  key.className = 'legend-key';
+  key.style.backgroundColor = color;
+
+  var value = document.createElement('span');
+  value.innerHTML = layer;
+  item.appendChild(key);
+  item.appendChild(value);
+  legend.appendChild(item);
+}
     // Add a source for the counties polygons.
     map.addSource('counties', {
         'type': 'geojson',

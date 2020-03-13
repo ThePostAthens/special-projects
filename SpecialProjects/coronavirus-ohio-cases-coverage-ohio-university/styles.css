@@ -246,21 +246,76 @@ p.intro {
 }
 
 #legend {
-    padding: 20px;
+    padding: 10px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
     line-height: 18px;
-    height: 150px;
-    margin-bottom: 40px;
-    width: 90px;
-    right: 190px;
+    height:80px;
+    margin-bottom: 100px;
+    width: 150px;
+    right: 140px;
 }
 
-.legend-key {
-    display: inline-block;
-    border-radius: 20%;
-    width: 10px;
-    height: 10px;
-    margin-right: 5px;
+.my-legend .legend-title {
+    text-align: left;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 90%;
+}
+
+.my-legend .legend-scale ul {
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style: none;
+}
+
+.my-legend .legend-scale ul li {
+    display: block;
+    float: left;
+    width: 50px;
+    margin-bottom: 6px;
+    text-align: center;
+    font-size: 80%;
+    list-style: none;
+}
+
+.my-legend ul.legend-labels li span {
+    display: block;
+    float: left;
+    height: 15px;
+    width: 50px;
+}
+
+.my-legend .legend-source {
+    font-size: 70%;
+    color: #999;
+    clear: both;
+}
+
+.my-legend a {
+    color: #777;
+}
+
+.dot:before {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 5px;
+  display: inline-block;
+  position: relative;
+  content: '';
+  background-color: red;
+  border-color: black;
+
+}
+
+.dot-text {
+  font-size: 10px;
+  position: relative;
+  top: -.1rem;
+  display: inline-block;
+  margin-right: 5px;
 }
 
 .embed-credit {
@@ -376,7 +431,6 @@ p.intro {
 }
 
 /* MEDIA QUERIES */
-
 @media screen and (max-width: 750px) {
     #map {
         width: 350px;
@@ -440,5 +494,4 @@ p.intro {
     .footer {
         height: 300px;
     }
-
 }

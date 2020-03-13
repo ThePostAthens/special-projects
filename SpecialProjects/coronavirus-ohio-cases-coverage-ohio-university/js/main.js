@@ -3,49 +3,63 @@ var map = new mapboxgl.Map({
     container: 'map', // container id
     style: 'mapbox://styles/johnstont05/ck7o27avw1t511jqrkwe48lxs', // stylesheet location
     center: [-82.849, 40.239],
-    zoom: 5.4
-
+    zoom: 6
 });
 
 map.on('load', function() {
-  var layers = ['0', '1-2', '3-6'];
-        var colors = ['#ffeda0', '#feb24c', '#f03b20'];
 
-            for (i = 0; i < layers.length; i++) {
-  var layer = layers[i];
-  var color = colors[i];
-  var item = document.createElement('div');
-  var key = document.createElement('span');
-  key.className = 'legend-key';
-  key.style.backgroundColor = color;
-
-  var value = document.createElement('span');
-  value.innerHTML = layer;
-  item.appendChild(key);
-  item.appendChild(value);
-  legend.appendChild(item);
-}
-    // Add a source for the counties polygons.
     map.addSource('counties', {
         'type': 'geojson',
         'data': 'https://raw.githubusercontent.com/ThePostAthens/thepostathens.github.io/master/SpecialProjects/coronavirus-ohio-cases-coverage-ohio-university/data/counties.geojson'
     });
+
+
     map.addLayer({
         'id': 'counties-layer',
         'type': 'fill',
         'source': 'counties',
         'paint': {
-      'fill-color': [
-        'interpolate',
-        ['linear'],
-        ['to-number', ['get', 'CASES']],
-        0, '#ffeda0',
-        2, '#feb24c',
-        5, '#f03b20',
-      ],
-      'fill-opacity': 0.5,
-      'fill-outline-color': 'black'
-    }
+            'fill-color': [
+                'interpolate',
+                ['linear'],
+                ['to-number', ['get', 'CASES']],
+                0, '#ffeda0',
+                2, '#feb24c',
+                5, '#f03b20',
+            ],
+            'fill-opacity': 0.5,
+            'fill-outline-color': 'black'
+        }
+    });
+
+    map.addSource('pointsSource', {
+        type: 'geojson',
+        data: {
+            "type": "FeatureCollection",
+            "features": [{
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-82.101363, 39.324488]
+                },
+                "properties": {
+                    "location": "Ohio University",
+                }
+            }]
+        }
+    });
+
+    map.addLayer({
+        id: 'points',
+        source: 'pointsSource',
+        type: 'circle',
+        paint: {
+            'circle-radius': 6,
+            'circle-color': 'red',
+            'circle-opacity': 0.85,
+            'circle-stroke-color': '#000',
+            'circle-stroke-width': 1
+        }
     });
 
     // When a click event occurs on a feature in the countiess layer, open a popup at the
@@ -56,6 +70,8 @@ map.on('load', function() {
             .setHTML('<h3>' + e.features[0].properties.NAME + '</h3><p>' + e.features[0].properties.CASES + '</p>')
             .addTo(map);
     });
+
+
 
 
     // Change the cursor to a pointer when the mouse is over the countiess layer.
@@ -70,5 +86,6 @@ map.on('load', function() {
 
     map.scrollZoom.disable(); // disable scroll zoom
     map.addControl(new mapboxgl.NavigationControl()); // add zoom/nav controls
-    ;
+
+
 });

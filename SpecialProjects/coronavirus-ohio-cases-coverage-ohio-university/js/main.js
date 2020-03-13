@@ -8,8 +8,8 @@ var map = new mapboxgl.Map({
 });
 
 map.on('load', function() {
-  var layers = ['0-250', '251-500', '501-1000', '1001-5000', '5001+'];
-        var colors = ['#CBF7EB', '#6FF7D4', '#00BF8E', '#008261', '#00543F'];
+  var layers = ['0', '1-2', '3-6'];
+        var colors = ['#ffeda0', '#feb24c', '#f03b20'];
 
             for (i = 0; i < layers.length; i++) {
   var layer = layers[i];
@@ -67,4 +67,8 @@ map.on('load', function() {
     map.on('mouseleave', 'counties-layer', function() {
         map.getCanvas().style.cursor = '';
     });
+
+    map.scrollZoom.disable(); // disable scroll zoom
+    map.addControl(new mapboxgl.NavigationControl()); // add zoom/nav controls
+    ;
 });

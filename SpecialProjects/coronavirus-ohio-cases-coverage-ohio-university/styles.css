@@ -40,20 +40,6 @@ h3 {
     padding: 0 20%;
 }
 
-/* .column10center {
-    width: 80%;
-    padding: 0 10%;
-}
-
-.column10left {
-    width: 40%;
-    padding-left: 10%;
-}
-
-.column10right {
-    width: 40%;
-    padding-right: 10%;
-} */
 
 /* NAVIGATION BAR */
 #nav_bar {
@@ -115,14 +101,45 @@ h3 {
 }
 
 /* HERO IMAGE */
-#heroimg {
-    width: 100%;
-    position: relative;
+.header {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 20%;
 }
 
-#heroimg img {
-    width: 100%;
+.arthed {
+    text-align: left;
+    font-weight: 800;
+    color: #fff;
+    font-size: 150px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    position: relative;
+    -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: #ffcc00;
+
 }
+
+.description {
+    text-align: left;
+    color: #ffcc00;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -20px;
+    width: 80%;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+.hr-bold {
+    width: 106px;
+    height: 0;
+    left: 235px;
+    top: 441px;
+    border: 9px solid #ffcc00;
+    margin-top: 20px;
+    align-content: left;
+}
+
 
 /* HEADLINE STYLES */
 h1, h2, h3, h4 {
@@ -134,6 +151,10 @@ h1, h2, h3, h4 {
     text-transform: uppercase;
     margin-bottom: -40px;
     margin-top: 75px;
+}
+
+section .white {
+  background-color: white;
 }
 
 /* Pick one font depending on design (or find another one) */

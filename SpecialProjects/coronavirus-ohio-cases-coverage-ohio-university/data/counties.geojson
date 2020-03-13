@@ -2230,7 +2230,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Cuyahoga",
-        "CASES": "3"
+        "CASES": "6"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5158,7 +5158,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Belmont",
-        "CASES": "0"
+        "CASES": "2"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5527,7 +5527,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Butler",
-        "CASES": "0"
+        "CASES": "1"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11718,7 +11718,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Stark",
-        "CASES": "1"
+        "CASES": "2"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -12163,7 +12163,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Trumbull",
-        "CASES": "0"
+        "CASES": "1"
       },
       "geometry": {
         "type": "MultiPolygon",

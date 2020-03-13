@@ -3,7 +3,7 @@ var map = new mapboxgl.Map({
     container: 'map', // container id
     style: 'mapbox://styles/johnstont05/ck7o27avw1t511jqrkwe48lxs', // stylesheet location
     center: [-82.849, 40.239],
-    zoom: 6.4
+    zoom: 5.4
 
 });
 

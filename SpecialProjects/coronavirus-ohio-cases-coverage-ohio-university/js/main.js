@@ -11,7 +11,7 @@ map.on('load', function() {
     // Add a source for the counties polygons.
     map.addSource('counties', {
         'type': 'geojson',
-        'data': 'https://raw.githubusercontent.com/ThePostAthens/thepostathens.github.io/master/SpecialProjects/ohio-university-covid-19-coverage/data/counties.geojson'
+        'data': 'https://raw.githubusercontent.com/ThePostAthens/thepostathens.github.io/master/SpecialProjects/coronavirus-ohio-cases-coverage-ohio-university/data/counties.geojson'
     });
     map.addLayer({
         'id': 'counties-layer',

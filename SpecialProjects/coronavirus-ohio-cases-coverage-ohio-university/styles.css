@@ -234,6 +234,21 @@ p.intro {
     width: 900px;
 }
 
+.mapboxgl-popup {
+max-width: 400px;
+font: 12px/20px 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+.county-name {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.county-case {
+  font-size: 12px;
+}
+
+
 .map-overlay {
     position: absolute;
     bottom: 0;
@@ -306,7 +321,7 @@ p.intro {
   position: relative;
   content: '';
   background-color: red;
-  border-color: black;
+  border: 1px solid #000;
 
 }
 

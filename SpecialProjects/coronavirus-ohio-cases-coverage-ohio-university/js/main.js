@@ -67,11 +67,9 @@ map.on('load', function() {
     map.on('click', 'counties-layer', function(e) {
         new mapboxgl.Popup()
             .setLngLat(e.lngLat)
-            .setHTML('<h3>' + e.features[0].properties.NAME + '</h3><p>' + e.features[0].properties.CASES + '</p>')
+            .setHTML('<div class="county-name">' + e.features[0].properties.NAME + ' ' + 'County' + '</div><div class="county-case">' + 'Confirmed cases:' + ' ' +  e.features[0].properties.CASES + '</div>')
             .addTo(map);
     });
-
-
 
 
     // Change the cursor to a pointer when the mouse is over the countiess layer.

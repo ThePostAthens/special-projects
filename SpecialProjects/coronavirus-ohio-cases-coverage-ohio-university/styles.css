@@ -121,11 +121,11 @@ h1, h2, h3, h4 {
 
 .header {
     margin-bottom: 2%;
-    margin-left: 20%;
+    margin: 2%;
 }
 
 .arthed {
-    text-align: left;
+    text-align: center;
     font-weight: 900;
     color: #fff;
     font-style: italic;
@@ -138,12 +138,12 @@ h1, h2, h3, h4 {
 }
 
 .description {
-    text-align: left;
+    text-align: center;
     color: #000;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     margin-top: -10px;
-    width: 80%;
+    margin: 2%;
 }
 
 /* SHARE BUTTONS */
@@ -235,19 +235,18 @@ p.intro {
 }
 
 .mapboxgl-popup {
-max-width: 400px;
-font: 12px/20px 'Montserrat', Arial, Helvetica, sans-serif;
+    max-width: 400px;
+    font: 12px/20px 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
 .county-name {
-  font-size: 12px;
-  font-weight: bold;
+    font-size: 12px;
+    font-weight: bold;
 }
 
 .county-case {
-  font-size: 12px;
+    font-size: 12px;
 }
-
 
 .map-overlay {
     position: absolute;
@@ -264,7 +263,7 @@ font: 12px/20px 'Montserrat', Arial, Helvetica, sans-serif;
     padding: 10px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
     line-height: 18px;
-    height:80px;
+    height: 80px;
     margin-bottom: 100px;
     width: 150px;
     right: 140px;
@@ -312,25 +311,24 @@ font: 12px/20px 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
 .dot:before {
-  height: 12px;
-  width: 12px;
-  border-radius: 50%;
-  float: left;
-  margin-right: 5px;
-  display: inline-block;
-  position: relative;
-  content: '';
-  background-color: red;
-  border: 1px solid #000;
-
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 5px;
+    display: inline-block;
+    position: relative;
+    content: '';
+    background-color: red;
+    border: 1px solid #000;
 }
 
 .dot-text {
-  font-size: 10px;
-  position: relative;
-  top: -.1rem;
-  display: inline-block;
-  margin-right: 5px;
+    font-size: 10px;
+    position: relative;
+    top: -.1rem;
+    display: inline-block;
+    margin-right: 5px;
 }
 
 .embed-credit {
@@ -446,67 +444,137 @@ font: 12px/20px 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 750px) {
-    #map {
-        width: 350px;
-        height: 350px;
-    }
-
-    #embed {
-        width: 350px;
-    }
-
-    .column20center, p {
-        width: 80%;
-        padding: 0 10%;
-    }
-
-    #logo {
-        height: 25px;
-    }
-
-    .date {
-        padding: 0 10%;
-        width: 80%;
-    }
-
+@media only screen and (max-width: 1510px) {
     .arthed {
-        font-size: 60px;
-        line-height: 60px;
+        font-size: 120px;
     }
 
-    .headline {
-        width: 80%;
-        padding: 0% 10% 0 10%;
-        font-size: 25px;
-    }
+    @media screen and (max-width: 1100px) {
+        .arthed {
+            font-size: 80px;
+        }
 
-    .oneimg_right, .oneimg_left, .oneimg_center {
-        width: 80%;
-        padding: 0 10% 10px 10%;
-    }
+        #map {
+            width: 600px;
+        }
 
-    .oneimg_full p {
-        width: 80%;
-        padding: 0 10%;
-    }
+        #embed {
+            width: 600px;
+        }
 
-    .pq_center, .pq_right, .pq_left {
-        padding: 0 5%;
-        width: 90%;
-    }
+        .sidebar {
+            width: 100%;
+        }
 
-    .subhed {
-        padding: 0 10%;
-    }
+        .mapboxgl-popup {
+            width: 50%;
+        }
 
-    .credits {
-        max-width: 100%;
-        text-align: left;
-        margin-left: 50px;
-    }
+        #frat {
+            margin-top: 10px;
+        }
 
-    .footer {
-        height: 300px;
-    }
-}
+        .map-img {
+            margin-top: 5px;
+            width: 300px;
+            float: left;
+            padding: 10px;
+        }
+
+        #house {
+            padding-top: 10px;
+        }
+
+        @media screen and (max-width: 750px) {
+            #map {
+                width: 350px;
+                height: 350px;
+            }
+
+            #embed {
+                width: 350px;
+            }
+
+            .sidebar {
+                width: 100%;
+            }
+
+            #house {
+                padding-top: 5px;
+            }
+
+            #map-date {
+                font-size: 12px;
+            }
+
+            .map-img {
+                margin-top: 5px;
+                width: 170px;
+                float: left;
+                padding: 5px;
+            }
+
+            .column20center,
+            p {
+                width: 80%;
+                padding: 0 10%;
+            }
+
+            #logo {
+                height: 25px;
+            }
+
+            .header {
+                margin-top: 10%;
+                margin-bottom: 10%;
+            }
+
+            .arthed {
+                font-size: 50px;
+                line-height: 60px;
+                text-align: center;
+            }
+
+            .description {
+                text-align: center;
+                font-size: 15px;
+                margin-top: 10px;
+            }
+
+            .line {
+                margin-left: 10%;
+            }
+
+            .oneimg_center,
+            .oneimg_left,
+            .oneimg_right {
+                width: 80%;
+                padding: 0 10% 10px;
+            }
+
+            .oneimg_full p {
+                width: 80%;
+                padding: 0 10%;
+            }
+
+            .pq_center,
+            .pq_left,
+            .pq_right {
+                padding: 0 5%;
+                width: 90%;
+            }
+
+            .subhed {
+                margin-left: 10%;
+            }
+
+            .credits {
+                max-width: 100%;
+                text-align: left;
+                margin-left: 50px;
+            }
+
+            .footer {
+                height: 300px;
+            }
+        }

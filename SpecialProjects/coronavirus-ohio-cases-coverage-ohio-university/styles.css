@@ -212,6 +212,7 @@ p.intro {
     display: block;
     font-weight: 300;
     border-radius: 5px;
+    border: 1px black solid;
 }
 
 .map-title {
@@ -342,6 +343,64 @@ p.intro {
     font-size: 10px;
     margin-top: 5px;
     width: 100%;
+}
+
+/* CARDS */
+.card-container{
+  width: 70%;
+  margin: 0 auto;
+}
+.card {
+    background-color: #FFFFFF;
+    width: 300px;
+    margin: 100px auto;
+    height: 350px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-top: 10px;
+    transition: .38s;
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+    transition: .48s;
+    border-radius: 5px;
+    border: 1px solid black;
+
+}
+.card-body {
+  padding-left:7px;
+  padding-right:7px;
+  text-align:center;
+}
+
+.card-img {
+    width: 100%;
+}
+.card-title {
+  font-size: 18px;
+  font-weight: 800;
+  margin-top: 5px;
+}
+.card-text {
+  margin-top: 5px;
+  color: black;
+}
+
+/* CARD BUTTONS */
+.button {
+  background-color: #000;
+  border: none;
+  color: #fff;
+  font-weight: 300;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-text-stroke-color: #000;
 }
 
 /* CREDITS */

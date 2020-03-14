@@ -5,7 +5,7 @@ Please contact at taylorfjohnston@gmail.com with questions.*/
 /* GENERAL STYLES */
 body {
     font-family: montserrat, sans-serif;
-    background-color: #ffffe5;
+    background-color: #FCBEBF;
 }
 
 a {
@@ -113,6 +113,12 @@ h1, h2, h3, h4 {
 }
 
 /* HEADER */
+hr {
+  height: 1px;
+    color: black;
+    background-color: black;
+    border: none;
+}
 .date {
     margin-top: 80px;
     text-align: center;

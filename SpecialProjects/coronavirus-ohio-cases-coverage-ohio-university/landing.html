@@ -183,7 +183,7 @@ THE
                 </div>
                 <div class="card-text"><a href="#" target="_blank" class="button">Read here</a></div>
             </div>
-            <div class="card">
+            <span id="dots"></span><span id="more">            <div class="card">
                 <div class="card-img">
                     <img src="img/placeholder.jpg" style="width:100%;">
                 </div>
@@ -192,9 +192,12 @@ THE
                 </div>
                 <div class="card-text"><a href="#" target="_blank" class="button">Read here</a></div>
             </div>
+            </span>
         </div>
-
     </div>
+    <div class="more-button">
+      <button onclick="myFunction()" id="myBtn">CLICK FOR MORE UPDATES </button>
+</div>
 
   </div>
     <hr>
@@ -266,6 +269,24 @@ THE
         }(window, document, 'script', 'ga'));
         ga('create', 'UA-54093688-1', 'auto');
         ga('send', 'pageview');
+    </script>
+
+    <script>
+    function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "SEE MORE";
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "SEE LESS";
+        moreText.style.display = "inline";
+      }
+    }
     </script>
 
 </body>

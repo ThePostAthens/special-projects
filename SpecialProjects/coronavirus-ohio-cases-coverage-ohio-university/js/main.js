@@ -55,7 +55,7 @@ map.on('load', function() {
         type: 'circle',
         paint: {
             'circle-radius': 6,
-            'circle-color': 'red',
+            'circle-color': 'black',
             'circle-opacity': 0.85,
             'circle-stroke-color': '#000',
             'circle-stroke-width': 1

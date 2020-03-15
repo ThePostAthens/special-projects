@@ -179,11 +179,11 @@ ul.share-buttons .sr-only {
     overflow: hidden;
 }
 
-.fab {
+.fab  .social{
   color: black;
 }
 
-.fas {
+.fas .social {
   color: black;
 }
 
@@ -335,7 +335,7 @@ p.intro {
     display: inline-block;
     position: relative;
     content: '';
-    background-color: red;
+    background-color: black;
     border: 1px solid #000;
 }
 
@@ -465,7 +465,7 @@ p.intro {
 }
 
 .creditText a {
-    color: #000;
+    color: #e31a1c;
     font-weight: 700;
     cursor: pointer;
 }

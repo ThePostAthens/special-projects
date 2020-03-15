@@ -23,7 +23,7 @@ map.on('load', function() {
                 'interpolate',
                 ['linear'],
                 ['to-number', ['get', 'CASES']],
-                0, '#ffeda0',
+                0, '#f9eec2',
                 7, '#feb24c',
                 14, '#f03b20',
             ],

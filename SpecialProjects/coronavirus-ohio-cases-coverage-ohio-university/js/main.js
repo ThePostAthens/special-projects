@@ -23,9 +23,10 @@ map.on('load', function() {
                 'interpolate',
                 ['linear'],
                 ['to-number', ['get', 'CASES']],
-                0, '#f9eec2',
-                19, '#feb24c',
-                38, '#f03b20',
+                0, '#ffffb2',
+                1, '#fecc5c',
+                11, '#fd8d3c',
+                38, '#e31a1c',
             ],
             'fill-opacity': 0.5,
             'fill-outline-color': 'black'

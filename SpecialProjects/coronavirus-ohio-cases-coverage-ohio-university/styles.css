@@ -302,10 +302,10 @@ p.intro {
 .my-legend .legend-scale ul li {
     display: block;
     float: left;
-    width: 50px;
+    width: 30px;
     margin-bottom: 6px;
     text-align: center;
-    font-size: 80%;
+    font-size: 10%;
     list-style: none;
 }
 
@@ -313,7 +313,7 @@ p.intro {
     display: block;
     float: left;
     height: 15px;
-    width: 50px;
+    width: 30px;
 }
 
 .my-legend .legend-source {

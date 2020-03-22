@@ -26,7 +26,7 @@ map.on('load', function() {
                 0, '#ffffb2',
                 1, '#fecc5c',
                 11, '#fd8d3c',
-                69, '#e31a1c',
+                21, '#e31a1c',
             ],
             'fill-opacity': 0.5,
             'fill-outline-color': 'black'

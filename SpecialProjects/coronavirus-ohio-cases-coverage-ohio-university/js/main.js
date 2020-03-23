@@ -24,9 +24,16 @@ map.on('load', function() {
                 ['linear'],
                 ['to-number', ['get', 'CASES']],
                 0, '#ffffb2',
-                1, '#fecc5c',
-                16, '#fd8d3c',
-                31, '#e31a1c'
+                1, '#fed976',
+                10, '#fed976',
+                11, '#feb24c',
+                20, '#feb24c',
+                21, '#fd8d3c',
+                30, '#fd8d3c',
+                31, '#f03b20',
+                40, '#f03b20',
+                41, '#bd0026'
+
             ],
             'fill-opacity': 0.5,
             'fill-outline-color': 'black'

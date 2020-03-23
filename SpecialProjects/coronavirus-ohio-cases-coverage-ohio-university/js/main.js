@@ -32,7 +32,7 @@ map.on('load', function() {
                 30, '#fd8d3c',
                 31, '#f03b20',
                 40, '#f03b20',
-                41, '#bd0026'
+                41, '#bd0026',
 
             ],
             'fill-opacity': 0.5,

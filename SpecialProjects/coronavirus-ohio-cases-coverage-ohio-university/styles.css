@@ -281,7 +281,7 @@ p.intro {
     line-height: 18px;
     height: 90px;
     margin-bottom: 100px;
-    width: 180px;
+    width: 200px;
     right: 120px;
 }
 
@@ -300,20 +300,25 @@ p.intro {
 }
 
 .my-legend .legend-scale ul li {
-    display: block;
-    float: left;
-    width: 30px;
-    margin-bottom: 6px;
-    text-align: center;
-    font-size: 10%;
-    list-style: none;
+  float: left;
+  margin-right: 1rem;
+  position: relative;
+}
+
+.my-legend .legend-scale  li {
+    font-size: 12px;
+    line-height: 1.5rem;
+    margin-bottom: .3rem;
+    padding-bottom: 0.3rem;
+    margin-top: 0;
+    text-align: left;
 }
 
 .my-legend ul.legend-labels li span {
     display: block;
     float: left;
     height: 15px;
-    width: 30px;
+    width: 100px;
 }
 
 .my-legend .legend-source {

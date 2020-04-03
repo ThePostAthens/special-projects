@@ -25,7 +25,7 @@ map.on('load', function() {
                 ['to-number', ['get', 'CASES']],
                 0, '#A8A8A8',
                 1, '#fee5d9',
-                600, '#de2d26',
+                700, '#de2d26',
 
             ],
             'fill-opacity': 0.5,

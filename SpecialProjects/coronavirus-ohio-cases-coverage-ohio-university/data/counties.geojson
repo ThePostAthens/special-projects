@@ -11718,7 +11718,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Stark",
-        "CASES": "109
+        "CASES": "109"
       },
       "geometry": {
         "type": "MultiPolygon",

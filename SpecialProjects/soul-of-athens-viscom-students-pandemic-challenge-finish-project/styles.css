@@ -15,6 +15,11 @@ a {
     text-decoration: none;
 }
 
+d {
+    color: #000000;
+    text-decoration: none;
+}
+
 a:hover {
     opacity: .5;
 }

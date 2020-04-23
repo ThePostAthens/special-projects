@@ -142,7 +142,7 @@ h1, h2, h3, h4 {
     text-align: center;
     color: #3d3d3d;
     font-size: 60px;
-    font-family: 'Playfair Display', Arial, sans-serif;
+    font-family: 'Montserrat', Arial, sans-serif;
     /* font-family: "Playfair Display", Georgia, serif; */
 }
 .cutline {
@@ -285,7 +285,7 @@ p.intro {
 
 .card-header {
   font-size: 38px;
-    font-family: "playfair display";
+    font-family: "Montserrat";
   font-weight: 800;
   color: white;
   margin-top: 5px;
@@ -310,7 +310,7 @@ p.intro {
   cursor: pointer;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
   -webkit-text-stroke-color: #000;
-  font-family: 'Playfair Display';
+  font-family: 'Montserrat';
 }
 
 /*PHOTOG HIGHLIGHT BUTTONS*/
@@ -351,7 +351,7 @@ p.intro {
 
 .photog-card-header {
   font-size: 38px;
-    font-family: "playfair display";
+    font-family: "Montserrat";
   font-weight: 800;
   color: white;
   margin-top: 5px;
@@ -376,7 +376,7 @@ p.intro {
   cursor: pointer;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
   -webkit-text-stroke-color: #000;
-  font-family: 'Playfair Display';
+  font-family: 'Montserrat';
 }
 /* IMAGE BLOCKS */
 .oneimg_center {

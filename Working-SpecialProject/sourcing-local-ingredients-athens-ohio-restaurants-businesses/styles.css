@@ -11,7 +11,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #567EA2;
     text-decoration: none;
 }
 
@@ -39,21 +39,6 @@ h3 {
     width: 60%;
     padding: 0 20%;
 }
-
-/* .column10center {
-    width: 80%;
-    padding: 0 10%;
-}
-
-.column10left {
-    width: 40%;
-    padding-left: 10%;
-}
-
-.column10right {
-    width: 40%;
-    padding-right: 10%;
-} */
 
 /* NAVIGATION BAR */
 #nav_bar {
@@ -139,11 +124,13 @@ h1, h2, h3, h4 {
 /* Pick one font depending on design (or find another one) */
 .arthed {
     text-align: center;
-    color: #3d3d3d;
-    font-size: 60px;
-    font-family: 'Montserrat', Arial, sans-serif;
-    /* font-family: "Playfair Display", Georgia, serif; */
+    color: #B72025;
+    font-size: 72px;
+    font-style: italic;
+    font-weight: 800;
+    font-family: 'Playfair Display', Arial, sans-serif;
 }
+
 .cutline {
     float: left;
     text-align: left;
@@ -218,11 +205,14 @@ p.intro {
 }
 
 .dropcap {
-    font-weight: 700;
+    font-weight: 800;
     float: left;
+    font-family: 'Playfair Display';
+    font-style: italic;
+    color: #B72025;
     font-size: 2.9em;
     line-height: .9em;
-    padding-right: 5px;
+    padding-right: 10px;
 }
 
 /* CREDITS */
@@ -324,8 +314,9 @@ blockquote {
     padding: 0 20%;
     margin: 0;
     font-size: 25px;
-    text-transform: uppercase;
-    color: #5379c4;
+    font-family: 'Playfair Display';
+    font-style: italic;
+    color: #567EA2;
     font-weight: 800;
 }
 

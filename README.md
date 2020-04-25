@@ -45,9 +45,6 @@ font-family: "Playfair Display", Georgia, serif;
 | ![#c8433a](https://placehold.it/15/c8433a/000000?text=+) | Sports red | #c8433a
 | ![#065c42](https://placehold.it/15/065c42/000000?text=+) | Multimedia green | #065c42
 | ![#644d94](https://placehold.it/15/644d94/000000?text=+) | Projects purple | #644d94
-
-
-   <h3>Cutlines:</h3>
    
    <h3>Image and video blocks:</h3>
    Make sure all photos are RGB and aren't too big. Usually the longest side of the photo should be no more than 1,000 pixels.
@@ -74,17 +71,18 @@ font-family: "Playfair Display", Georgia, serif;
 ```
 
    <h3>Pullquotes:</h3>
-   CENTER:
+
+  <b>CENTER:</b>
 ```
 <!-- <blockquote class="pq_center">“QUOTE HEREQUOTE HEREQUOTE HEREQUOTE HEREQUOTE HEREQUOTE HEREQUOTE HERE”<span class="attribution">-name here</span></blockquote>
 ```
    
-   LEFT:
+  <b>LEFT:</b>
    ```
 <!-- <blockquote class="pq_left">“QUOTE HEREQUOTE HEREQUOTE HEREQUOTE HEREQUOTE HEREQUOTE HEREQUOTE HERE”<span class="attribution">-name here</span></blockquote>
 ```
    
-   RIGHT:
+  <b>RIGHT:</b>
    ```
    <!-- <blockquote class="pq_right">“QUOTE HEREQUOTE HEREQUOTE HEREQUOTE HEREQUOTE HEREQUOTE HEREQUOTE HERE”<span class="attribution">-name here</span></blockquote>
 ```

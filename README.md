@@ -52,43 +52,46 @@ font-family: "Playfair Display", Georgia, serif;
    <h3>Image and video blocks:</h3>
    Make sure all photos are RGB and aren't too big. Usually the longest side of the photo should be no more than 1,000 pixels.
    
-   CENTER:
+   
+   <b>CENTER:</b>
    ```
    <div class="oneimg_center"><img src="#" alt="Describe image here" style="width: 100%"> <p class="photog">photographers name | TITLE HERE</p><p class="pcut">image description here</p> </div>
    ```
    
-   LEFT:
+   <b>LEFT:</b>
    ```
    <div class="oneimg_left"><img src="#" alt="Describe image here" style="width: 100%"> <p class="photog">photographers name | TITLE HERE</p><p class="pcut">image description here</p> </div> 
    ```
    
-   RIGHT:    
-    ```
-    <div class="oneimg_right"><img src="#" alt="Describe image here" style="width: 100%"> <p class="photog">photographers name | TITLE HERE</p><p class="pcut">image description here</p> </div>
-    ```
+   <b>RIGHT:</b>
+   ```
+   <div class="oneimg_right"><img src="#" alt="Describe image here" style="width: 100%"> <p class="photog">photographers name | TITLE HERE</p><p class="pcut">image description here</p> </div> 
+   ```
     
-  LEFT:
+   <b>FULL:</b>
    ```
 <div class="oneimg_full"><img src="#" alt="Describe image here" style="width: 100%"> <p class="photog">photographers name | TITLE HERE</p><p class="pcut">image description here</p> </div>
 ```
 
    <h3>Pullquotes:</h3>
+   CENTER:
+```
+<!-- <blockquote class="pq_center">“QUOTE HEREQUOTE HEREQUOTE HEREQUOTE HEREQUOTE HEREQUOTE HEREQUOTE HERE”<span class="attribution">-name here</span></blockquote>
+```
    
-   <h3>Buttons:</h3>
+   LEFT:
+   ```
+<!-- <blockquote class="pq_left">“QUOTE HEREQUOTE HEREQUOTE HEREQUOTE HEREQUOTE HEREQUOTE HEREQUOTE HERE”<span class="attribution">-name here</span></blockquote>
+```
    
-   <h3>Breakout boxes:</h3>
-   
-   <h3>Galleries and slideshows:</h3>
-
-
-
-
-
-
-   <h2>Authors</h2>
-   <p><a href="https://twitter.com/TF_Johnston">Taylor Johnston</a>, Digital Managing Editor</p>
-   <p><a href="https://twitter.com/meeyahnah">Mijana Mazur</a>, Web Development Director</p>
+   RIGHT:
+   ```
+   <!-- <blockquote class="pq_right">“QUOTE HEREQUOTE HEREQUOTE HEREQUOTE HEREQUOTE HEREQUOTE HEREQUOTE HERE”<span class="attribution">-name here</span></blockquote>
+```
+  
+   <h2>Author</h2>
+   <p>Bri Lender, Web Development Director</p>
    <h2>Copyright</h2>
    <p>©2019 The Post</p>
-   <h6>Updated July 2019</h6>
+   <h6>Updated April 2020</h6>
 </html>

@@ -52,7 +52,16 @@ font-family: "Playfair Display", Georgia, serif;
    <h3>Image and video blocks:</h3>
    Make sure all photos are RGB and aren't too big. Usually the longest side of the photo should be no more than 1,000 pixels.
    CENTER:
-   <div class="oneimg_center"><img src="#" alt="Describe image here" style="width: 100%"> <p class="photog">photographers name | TITLE HERE</p><p class="pcut">image description here</p> </div> ```
+   ```
+   
+   
+   <div class="oneimg_center"><img src="#" alt="Describe image here" style="width: 100%"> <p class="photog">photographers name | TITLE HERE</p><p class="pcut">image description here</p> </div>
+   
+   
+   ```
+   
+   
+   
    LEFT:
    <div class="oneimg_left"><img src="#" alt="Describe image here" style="width: 100%"> <p class="photog">photographers name | TITLE HERE</p><p class="pcut">image description here</p> </div> ```
     RIGHT:

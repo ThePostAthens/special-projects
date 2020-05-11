@@ -11,7 +11,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Columbiana",
-        "CASES": "319"
+        "CASES": "336"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -306,7 +306,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Crawford",
-        "CASES": "71"
+        "CASES": "77"
 
       },
       "geometry": {
@@ -407,7 +407,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Darke",
-        "CASES": "84"
+        "CASES": "89"
 
       },
       "geometry": {
@@ -553,7 +553,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Delaware",
-        "CASES": "211"
+        "CASES": "222"
 
       },
       "geometry": {
@@ -719,7 +719,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Erie",
-        "CASES": "79"
+        "CASES": "83"
 
       },
       "geometry": {
@@ -944,7 +944,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Fairfield",
-        "CASES": "177"
+        "CASES": "178"
 
       },
       "geometry": {
@@ -1131,7 +1131,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Fayette",
-        "CASES": "27"
+        "CASES": "23"
 
       },
       "geometry": {
@@ -1220,7 +1220,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Fulton",
-        "CASES": "30"
+        "CASES": "31"
 
       },
       "geometry": {
@@ -1467,7 +1467,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Geauga",
-        "CASES": "189"
+        "CASES": "191"
 
       },
       "geometry": {
@@ -1586,7 +1586,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Greene",
-        "CASES": "53"
+        "CASES": "63"
 
       },
       "geometry": {
@@ -1887,7 +1887,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Hardin",
-        "CASES": "27"
+        "CASES": "28"
 
       },
       "geometry": {
@@ -1981,7 +1981,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Allen",
-        "CASES": "144"
+        "CASES": "146"
 
       },
       "geometry": {
@@ -2095,7 +2095,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Carroll",
-        "CASES": "23"
+        "CASES": "24"
 
       },
       "geometry": {
@@ -2230,7 +2230,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Cuyahoga",
-        "CASES": "2755"
+        "CASES": "2861"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2666,7 +2666,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Franklin",
-        "CASES": "3710"
+        "CASES": "3881"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3072,7 +3072,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Hamilton",
-        "CASES": "1731"
+        "CASES": "1823"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3407,7 +3407,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Jackson",
-        "CASES": "7"
+        "CASES": "8"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3501,7 +3501,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Lorain",
-        "CASES": "543"
+        "CASES": "554"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3755,7 +3755,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Lucas",
-        "CASES": "1710"
+        "CASES": "1806"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4040,7 +4040,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Marion",
-        "CASES": "2381"
+        "CASES": "2404"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4337,7 +4337,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Wyandot",
-        "CASES": "27"
+        "CASES": "26"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4586,7 +4586,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Ashland",
-        "CASES": "14"
+        "CASES": "15"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4731,7 +4731,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Ashtabula",
-        "CASES": "190"
+        "CASES": "193"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4900,7 +4900,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Athens",
-        "CASES": "5"
+        "CASES": "6"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5028,7 +5028,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Auglaize",
-        "CASES": "42"
+        "CASES": "43"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5158,7 +5158,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Belmont",
-        "CASES": "229"
+        "CASES": "258"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5348,7 +5348,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Brown",
-        "CASES": "16"
+        "CASES": "17"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5527,7 +5527,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Butler",
-        "CASES": "436"
+        "CASES": "479"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5754,7 +5754,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Champaign",
-        "CASES": "17"
+        "CASES": "19"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5848,7 +5848,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Clark",
-        "CASES": "90"
+        "CASES": "98"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5964,7 +5964,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Clermont",
-        "CASES": "122"
+        "CASES": "125"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6190,7 +6190,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Clinton",
-        "CASES": "33"
+        "CASES": "35"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6335,7 +6335,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Montgomery",
-        "CASES": "369"
+        "CASES": "422"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6661,7 +6661,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Morrow",
-        "CASES": "84"
+        "CASES": "87"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6774,7 +6774,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Muskingum",
-        "CASES": "25"
+        "CASES": "27"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6885,7 +6885,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Ottawa",
-        "CASES": "46"
+        "CASES": "47"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7257,7 +7257,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Perry",
-        "CASES": "13"
+        "CASES": "14"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7368,7 +7368,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Pickaway",
-        "CASES": "1844"
+        "CASES": "1933"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7766,7 +7766,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Henry",
-        "CASES": "8"
+        "CASES": "9"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -8045,7 +8045,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Hocking",
-        "CASES": "20"
+        "CASES": "22"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -8162,7 +8162,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Holmes",
-        "CASES": "7"
+        "CASES": "8"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -8423,7 +8423,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Jefferson",
-        "CASES": "54"
+        "CASES": "56"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -8729,7 +8729,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Lake",
-        "CASES": "194"
+        "CASES": "199"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -8913,7 +8913,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Lawrence",
-        "CASES": "24"
+        "CASES": "25"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9079,7 +9079,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Licking",
-        "CASES": "162"
+        "CASES": "164"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9367,7 +9367,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Madison",
-        "CASES": "81"
+        "CASES": "84"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9519,7 +9519,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Mahoning",
-        "CASES": "1104"
+        "CASES": "1144"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9702,7 +9702,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Medina",
-        "CASES": "193"
+        "CASES": "195"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10045,7 +10045,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Mercer",
-        "CASES": "66"
+        "CASES": "84"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10145,7 +10145,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Miami",
-        "CASES": "244"
+        "CASES": "313"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10295,7 +10295,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Monroe",
-        "CASES": "8"
+        "CASES": "19"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10441,7 +10441,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Noble",
-        "CASES": "6"
+        "CASES": "5"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10552,7 +10552,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Portage",
-        "CASES": "274"
+        "CASES": "280"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10818,7 +10818,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Richland",
-        "CASES": "113"
+        "CASES": "121"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10958,7 +10958,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Ross",
-        "CASES": "48"
+        "CASES": "53"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11158,7 +11158,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Sandusky",
-        "CASES": "48"
+        "CASES": "52"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11612,7 +11612,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Shelby",
-        "CASES": "31"
+        "CASES": "32"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11718,7 +11718,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Stark",
-        "CASES": "479"
+        "CASES": "511"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11928,7 +11928,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Summit",
-        "CASES": "880"
+        "CASES": "915"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -12163,7 +12163,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Trumbull",
-        "CASES": "404"
+        "CASES": "408"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -12322,7 +12322,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Tuscarawas",
-        "CASES": "196"
+        "CASES": "216"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -12537,7 +12537,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Vinton",
-        "CASES": "11"
+        "CASES": "12"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -12627,7 +12627,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Warren",
-        "CASES": "202"
+        "CASES": "209"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -12865,7 +12865,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Washington",
-        "CASES": "113"
+        "CASES": "114"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13107,7 +13107,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Wayne",
-        "CASES": "188"
+        "CASES": "186"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13335,7 +13335,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Wood",
-        "CASES": "222"
+        "CASES": "225"
       },
       "geometry": {
         "type": "MultiPolygon",

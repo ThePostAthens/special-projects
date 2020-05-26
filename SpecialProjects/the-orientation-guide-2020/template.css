@@ -162,6 +162,15 @@ h3 {
     font-weight: 400;
 }/*applies to entire byline, with title. bold the author name. put on h4 tag*/
 
+ol {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    margin: 0;
+    padding: 0 23%;
+    color: #080;
+}
+
 /*----- Img Things -----*/
 
 .oneimg_center {

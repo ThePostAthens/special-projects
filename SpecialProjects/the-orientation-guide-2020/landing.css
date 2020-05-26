@@ -117,13 +117,13 @@ h4 {
 /*----- Hero Image -----*/
 
 /*------- CONTENT CONTAINER -------*/
-.content-cont {
+#content-cont {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.content {
+#content {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -500,29 +500,47 @@ also use these tags to move iframes, graphics etc.. anything that would behave l
 }
 
 
-    /*--SOCIAL HANDLES--*/
+/*--SOCIAL HANDLES--*/
+
+
 .inner-content.socials {
     transform: translate(0px, 0px);
     flex-direction: column;
-    line-height: 5px;
+    line-height: 35px;
     color: #122620;
     height: 100px;
     text-shadow: none;
 }
 
-p.name {
-    font-size: 25px;
+p.socials {
+    font-size: 35px;
     font-weight: 600;
-    margin: 5px 0px;
-    padding: 0pc 0px;
+    margin-top: 100px;
+    padding: 0px 0px;
+    width: 100%;
+    margin: 0;
+    text-align: center;
 }
 
+.handles a {
+    color: inherit;
+}
 
+.fa-twitter {
+    color: #1da1f2;
+}
 
+.fa-instagram {
+    color: #7232bd;
+}
 
+.fa-youtube {
+    color: #ff0000;
+}
 
-
-
+.fa-snapchat-ghost {
+    color: #fffc00;
+}
 
 
 

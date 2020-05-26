@@ -531,6 +531,11 @@ div.handle-div {
     font-size: 2rem;
     border-radius: 50%;
     transition: all 0.2s ease;
+    height: 80px;
+}
+
+.fa-twitter, .fa-instagram, .fa-youtube, .fa-snapchat-ghost, .fa-facebook {
+    padding: 5px;
 }
 
 .circle-button:hover {
@@ -543,8 +548,14 @@ div.handle-div {
     margin: 1em;
 }
 
+.fa-fw {
+    width: 1.25em;
+    text-align: center;
+}
+
 .flat-under a:hover {
     opacity: 100%;
+    color: #fff;
 }
 
 .to-insta:hover {
@@ -560,7 +571,11 @@ div.handle-div {
 }
 
 .to-snapchat:hover {
-    background: #fffc00;
+    background: #ffe101;
+}
+
+.to-facebook:hover {
+    background: #4b76d1;
 }
 
 @keyframes circle-anim {

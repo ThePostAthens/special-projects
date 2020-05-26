@@ -117,13 +117,13 @@ h4 {
 /*----- Hero Image -----*/
 
 /*------- CONTENT CONTAINER -------*/
-#content-cont {
+.content-cont {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-#content {
+.content {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -500,69 +500,28 @@ also use these tags to move iframes, graphics etc.. anything that would behave l
 }
 
 
-/*--SOCIAL HANDLES--*/
-.handle-content {
-    display: flex;
+    /*--SOCIAL HANDLES--*/
+.inner-content.socials {
+    transform: translate(0px, 0px);
     flex-direction: column;
-    font-size: 2rem;
-    font-family: arial;
+    line-height: 5px;
+    color: #122620;
+    height: 100px;
+    text-shadow: none;
 }
 
-div.handle-div {
-    margin: 50px auto;
+p.name {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 5px 0px;
+    padding: 0pc 0px;
 }
 
-.social-handles {}
 
-/* Social Buttons */
-.circle-button {
-    font-family: 'Roboto', sans-serif;
-    color: #ccc;
-    display: inline-block;
-    font-size: 2rem;
-    border-radius: 50%;
-    transition: all 0.2s ease;
-}
 
-.circle-button:hover {
-    animation: circle-anim 0.3s ease forwards;
-    transition: all 0.4s ease;
-}
 
-.grow-container {
-    display: inline-block;
-    margin: 1em;
-}
 
-.to-insta:hover {
-    background: #E5393F;
-}
 
-.to-twitter:hover {
-    background: #1DA1F3;
-}
-
-.to-youtube:hover {
-    background: #3B5998;
-}
-
-.to-snapchat:hover {
-    background: #0077B5;
-}
-
-@keyframes circle-anim {
-    0% {}
-
-    90% {
-        padding: 0.35em;
-        margin: -0.35em;
-    }
-
-    100% {
-        padding: 0.25em;
-        margin: -0.25em;
-    }
-}
 
 
 

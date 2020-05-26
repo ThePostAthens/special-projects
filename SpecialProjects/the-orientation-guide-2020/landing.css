@@ -499,6 +499,76 @@ also use these tags to move iframes, graphics etc.. anything that would behave l
     padding: 10px 15% 0 15%;
 }
 
+
+/*--SOCIAL HANDLES--*/
+.handle-content {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    font-family: arial;
+}
+
+div.handle-div {
+    margin: 50px auto;
+}
+
+.social-handles {}
+
+/* Social Buttons */
+.circle-button {
+    font-family: 'Roboto', sans-serif;
+    color: #ccc;
+    display: inline-block;
+    font-size: 2rem;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+}
+
+.circle-button:hover {
+    animation: circle-anim 0.3s ease forwards;
+    transition: all 0.4s ease;
+}
+
+.grow-container {
+    display: inline-block;
+    margin: 1em;
+}
+
+.to-insta:hover {
+    background: #E5393F;
+}
+
+.to-twitter:hover {
+    background: #1DA1F3;
+}
+
+.to-youtube:hover {
+    background: #3B5998;
+}
+
+.to-snapchat:hover {
+    background: #0077B5;
+}
+
+@keyframes circle-anim {
+    0% {}
+
+    90% {
+        padding: 0.35em;
+        margin: -0.35em;
+    }
+
+    100% {
+        padding: 0.25em;
+        margin: -0.25em;
+    }
+}
+
+
+
+
+
+
 @media screen and (max-width: 750px) {
 
     .oneimg_right,

@@ -503,45 +503,79 @@ also use these tags to move iframes, graphics etc.. anything that would behave l
 /*--SOCIAL HANDLES--*/
 
 
-.inner-content.socials {
-    transform: translate(0px, 0px);
-    flex-direction: column;
-    line-height: 35px;
-    color: #122620;
-    height: 100px;
-    text-shadow: none;
-}
-
 p.socials {
     font-size: 35px;
     font-weight: 600;
-    margin-top: 100px;
-    padding: 0px 0px;
     width: 100%;
-    margin: 0;
+    margin: 100px 0px 0px 0px;
+    padding: 0px 0px;
     text-align: center;
+    color: #7fc447;
 }
 
-.handles a {
-    color: inherit;
+.handle-content {
+  display: flex;
+  flex-direction: column;
 }
 
-.fa-twitter {
-    color: #1da1f2;
+div.handle-div { 
+  margin: 50px auto;
 }
 
-.fa-instagram {
-    color: #7232bd;
+
+/* Redes Sociais */
+.circle-button {
+    font-family: 'Roboto', sans-serif;
+    color: #555;
+    display: inline-block;
+    font-size: 2rem;
+    border-radius: 50%;
+    transition: all 0.2s ease;
 }
 
-.fa-youtube {
-    color: #ff0000;
+.circle-button:hover {
+    animation: circle-anim 0.3s ease forwards;
+    transition: all 0.4s ease;
 }
 
-.fa-snapchat-ghost {
-    color: #fffc00;
+.grow-container {
+    display: inline-block;
+    margin: 1em;
 }
 
+.flat-under a:hover {
+    opacity: 100%;
+}
+
+.to-insta:hover {
+    background: #c32aa3;
+}
+
+.to-twitter:hover {
+    background: #1DA1F3;
+}
+
+.to-youtube:hover {
+    background: #ff0000;
+}
+
+.to-snapchat:hover {
+    background: #fffc00;
+}
+
+@keyframes circle-anim {
+    0% {}
+
+    90% {
+        padding: 0.35em;
+        margin: -0.35em;
+    }
+
+    100% {
+        padding: 0.25em;
+        margin: -0.25em;
+    }
+}
 
 
 

@@ -558,8 +558,6 @@ div.handle-div {
     margin: 50px auto;
 }
 
-
-/* Redes Sociais */
 .circle-button {
     font-family: 'Roboto', sans-serif;
     color: #7fc447;
@@ -650,7 +648,13 @@ div.flat-under.handle-div {
     }
 }
 
-
+/*--YOUTUBE VIDEO--*/
+.yt-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px 100px 0px;
+}
 
 
 @media screen and (max-width: 750px) {

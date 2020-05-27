@@ -121,7 +121,7 @@ h3 {
     text-align: center;
     width: 100%;
     text-shadow: 2px 2px 3px #000;
-    -webkit-text-stroke: 4px #FFD38C;
+    -webkit-text-stroke: 4px #497425;
 }
 
 /*apply to h1 within the heroimg div*/
@@ -145,10 +145,25 @@ h3 {
 
 /*apply to h1, not the art hed*/
 
-.credit {
-    font-size: 16px;
-    font-weight: 100;
-    padding-bottom: 50px;
+.credits {
+    margin: 1rem auto 0;
+    max-width: 60%;
+    padding-bottom: 2.4rem;
+    text-align: left
+}
+
+.creditText {
+    display: inline-block;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 14px;
+    margin: 0 1rem 0rem 0;
+}
+
+.creditText a {
+        color: #7fc448;
+
+    font-weight: 700;
+    cursor: pointer;
 }
 
 /*apply to h4 with developer's name and title*/
@@ -156,7 +171,7 @@ h3 {
 .subhed {
     font-family: montserrat, sans-serif;
     font-weight: 800;
-    color: #7fc448;
+    color: #75C0E3;
 }
 
 /*apply to h2 tags*/

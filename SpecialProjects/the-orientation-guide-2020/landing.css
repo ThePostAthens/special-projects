@@ -33,7 +33,7 @@ h2 {
 
 h3 {
     font-size: 16px;
-    margin: 0;
+    margin: 20px 0px;
     padding: 0;
 }
 
@@ -513,6 +513,16 @@ p.socials {
     color: #7fc447;
 }
 
+p.snapcode {
+    position: absolute;
+    margin-left: 137px;
+    margin-top: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
 .handle-content {
   display: flex;
   flex-direction: column;
@@ -536,6 +546,20 @@ div.handle-div {
 
 .fa-twitter, .fa-instagram, .fa-youtube, .fa-snapchat-ghost, .fa-facebook {
     padding: 5px;
+}
+
+.fa-long-arrow-down {
+    color: #555;
+}
+
+.iconify {
+    width: 70px;
+    height: 64px;
+    margin: 5px 10px 30px 10px;
+}
+
+a.to-tiktok:hover {
+    background: #ee1d52;
 }
 
 .circle-button:hover {

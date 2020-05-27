@@ -142,6 +142,25 @@ h4 {
     text-shadow: 2px 2px #122620;
 }
 
+h1.headline.landing-intro {
+    font-size: 2.25em;
+    text-align: center;
+}
+
+p.signature {
+    text-align: center;
+    font-size: 1em;
+}
+
+.intro-cont {
+    margin: 30px 0px;
+}
+
+.intro-cont p {
+    margin: 5px 0px 15px 0px;
+    line-height: 1.5em;
+}
+
 /* #overlay{
   position:relative;
 justify-content: center;
@@ -206,7 +225,7 @@ img.landing {
     text-align: center;
     width: 100%;
     text-shadow: 2px 2px 3px #000;
-    -webkit-text-stroke: 4px #FFD38C;
+    -webkit-text-stroke: 4px #497425;
 }
 
 /*apply to h1 within the heroimg div*/

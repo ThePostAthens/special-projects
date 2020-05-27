@@ -23,7 +23,9 @@ a:hover {
 p {
     width: 60%;
     padding: 0 20%;
-}/*these have a style simmilar to column20center, do not add column20center to p tags*/
+}
+
+/*these have a style simmilar to column20center, do not add column20center to p tags*/
 
 h2 {
     padding: 0 15%;
@@ -35,20 +37,24 @@ h3 {
     padding: 0;
 }
 
-.date{
+.date {
     font-weight: 800;
     color: #FFD38C;
     width: 60%;
     padding: 0% 20% 0 20%;
     margin: 0;
-}/*apply to p tag*/
+}
+
+/*apply to p tag*/
 
 /*-----Column stuff-----*/
 
 .column20center {
     width: 60%;
     padding: 0 20%;
-}/*do not apply to p tags, they automatically have a simmilar styling*/
+}
+
+/*do not apply to p tags, they automatically have a simmilar styling*/
 
 .column10center {
     width: 80%;
@@ -96,7 +102,9 @@ h3 {
 #heroimg {
     width: 100%;
     position: relative;
-}/*apply to wrapping div with an img tag within*/
+}
+
+/*apply to wrapping div with an img tag within*/
 
 #heroimg img {
     width: 100%;
@@ -114,14 +122,17 @@ h3 {
     width: 100%;
     text-shadow: 2px 2px 3px #000;
     -webkit-text-stroke: 4px #FFD38C;
-}/*apply to h1 within the heroimg div*/
+}
+
+/*apply to h1 within the heroimg div*/
 
 /*----- Body Copy Things -----*/
 
 
-.instagram-media{
-  margin: 15px auto !important;
+.instagram-media {
+    margin: 15px auto !important;
 }
+
 .headline {
     color: #75C0E3;
     padding: 0 10% 0 10%;
@@ -130,20 +141,25 @@ h3 {
     font-size: 40px;
     font-weight: 900i;
     text-transform: uppercase;
-}/*apply to h1, not the art hed*/
+}
+
+/*apply to h1, not the art hed*/
 
 .credit {
     font-size: 16px;
     font-weight: 100;
     padding-bottom: 50px;
-}/*apply to h4 with developer's name and title*/
+}
+
+/*apply to h4 with developer's name and title*/
 
 .subhed {
-    font-family: montserrat
-    , sans-serif;
+    font-family: montserrat, sans-serif;
     font-weight: 800;
     color: #7fc448;
-}/*apply to h2 tags*/
+}
+
+/*apply to h2 tags*/
 
 .dropcap {
     font-weight: 700;
@@ -151,16 +167,22 @@ h3 {
     font-size: 2.9em;
     line-height: .9em;
     padding-right: 5px;
-}/*apply to wrapping span tag*/
+}
+
+/*apply to wrapping span tag*/
 
 .title {
     color: #606060;
-}/*should be in same p tag as the author name*/
+}
+
+/*should be in same p tag as the author name*/
 
 #byline {
     margin: 0;
     font-weight: 400;
-}/*applies to entire byline, with title. bold the author name. put on h4 tag*/
+}
+
+/*applies to entire byline, with title. bold the author name. put on h4 tag*/
 
 ol {
     display: flex;
@@ -176,21 +198,27 @@ ol {
 .oneimg_center {
     width: 60%;
     padding: 0 20%;
-}/*Apply to a wrapping div*/
+}
+
+/*Apply to a wrapping div*/
 
 .oneimg_right {
     width: 40%;
     padding-right: 10%;
     padding-left: 10px;
     float: right;
-}/*Apply to a wrapping div*/
+}
+
+/*Apply to a wrapping div*/
 
 .oneimg_left {
     width: 40%;
     padding-left: 10%;
     padding-right: 20px;
     float: left;
-}/*Apply to a wrapping div*/
+}
+
+/*Apply to a wrapping div*/
 
 .twoimg_center {
     width: 60%;
@@ -208,7 +236,10 @@ ol {
     width: 33%;
 }
 
-.oneimg_full img, .oneimg_center img, .oneimg_right img, .oneimg_left img {
+.oneimg_full img,
+.oneimg_center img,
+.oneimg_right img,
+.oneimg_left img {
     width: 100%
 }
 
@@ -217,7 +248,9 @@ ol {
 blockquote {
     padding: 0;
     margin: 5px;
-}/*should be the text of the pull quote*/
+}
+
+/*should be the text of the pull quote*/
 
 .pq_center {
     width: 60%;
@@ -227,7 +260,9 @@ blockquote {
     text-transform: uppercase;
     color: #75C0E3;
     font-weight: 800;
-}/*add to wrapping div*/
+}
+
+/*add to wrapping div*/
 
 .pq_right {
     width: 40%;
@@ -238,7 +273,9 @@ blockquote {
     font-size: 25px;
     text-transform: uppercase;
     color: #75C0E3;
-}/*add to wrapping div*/
+}
+
+/*add to wrapping div*/
 
 .pq_left {
     width: 40%;
@@ -250,7 +287,9 @@ blockquote {
     text-transform: uppercase;
     font-weight: 700;
     color: #75C0E3;
-}/*add to wrapping div*/
+}
+
+/*add to wrapping div*/
 
 .attribution {
     font-size: 20px;
@@ -262,45 +301,49 @@ blockquote {
     margin-bottom: 5px;
     padding: 0 5%;
     width: 90%;
-  }
+}
 
-  .round-button {
-      display:block;
-      width:100px;
-      height:100px;
-      line-height:100px;
-      border-radius: 50%;
-      color:#f5f5f5;
-      text-align:center;
-      background: #FFD38C;
-      box-shadow: 0 0 3px gray;
-      font-size:20px;
-      font-weight: 700;
-      margin: 40px auto;
-  }
-  .round-button:hover {
-      background: #FFD38C;
-  }
+.round-button {
+    display: block;
+    width: 130px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    color: #f5f5f5;
+    text-align: center;
+    background: #FFD38C;
+    box-shadow: 0 0 3px gray;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 40px auto;
+}
+
+.round-button:hover {
+    background: #FFD38C;
+}
+
 /*add to p tag within the wrapping div*/
 
 /*----- Image stuff -----
 also use these tags to move iframes, graphics etc.. anything that would behave like a photo*/
 
-.pcut{
+.pcut {
     float: right;
     text-align: left;
-    margin:0;
+    margin: 0;
     font-weight: 100;
     color: #808080;
     font-size: 12px;
     width: 100%;
     padding: 0;
-}/*add p tag, should be after the photog p tag*/
+}
 
-.galleryPcut{
-float: right;
+/*add p tag, should be after the photog p tag*/
+
+.galleryPcut {
+    float: right;
     text-align: left;
-    margin:0;
+    margin: 0;
     font-weight: 100;
     color: #808080;
     font-size: 12px;
@@ -310,20 +353,22 @@ float: right;
 }
 
 
-.photog{
+.photog {
     float: right;
     text-align: right;
-    margin:0;
+    margin: 0;
     font-weight: 800;
     color: #000;
     font-size: 12px;
     width: 100%;
     padding: 0;
-}/*add to p tag, should be before the pcut p tag*/
+}
 
-.oneimg_full p{
-    width:60%;
-    padding:0 20%;
+/*add to p tag, should be before the pcut p tag*/
+
+.oneimg_full p {
+    width: 60%;
+    padding: 0 20%;
 }
 
 /*----- Gallery Stuff -----*/
@@ -335,11 +380,11 @@ float: right;
 }
 
 .w3-hover-shadow:hover {
-    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important
 }
 
 .mySlides {
-    display:none;
+    display: none;
 }
 
 /*----- Other -----*/
@@ -350,7 +395,9 @@ float: right;
     float: left;
     height: 30px;
     padding: 7px;
-}/*effects the post logo in the top left of the page*/
+}
+
+/*effects the post logo in the top left of the page*/
 
 .parallax {
     height: 800px;
@@ -359,7 +406,9 @@ float: right;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
-}/* add to the wrapping div, give the div an inline style with the photo you want to be parallax*/
+}
+
+/* add to the wrapping div, give the div an inline style with the photo you want to be parallax*/
 
 /* Landing page clicky box at bottom.*/
 
@@ -373,12 +422,12 @@ float: right;
     display: table;
 }
 
-.story_inside{
+.story_inside {
     vertical-align: middle;
     display: table-cell;
 }
 
-.story h2{
+.story h2 {
     font-size: 40px;
     width: 70%;
     padding: 0 15%;
@@ -386,31 +435,36 @@ float: right;
     line-height: 35px;
 }
 
-.story p{
+.story p {
     font-family: montserrat;
     margin: 0;
     width: 70%;
     padding: 10px 15% 0 15%;
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 750px) {
 
-  .oneimg_right, .oneimg_left, .oneimg_center {
-      width: 80%;
-      padding: 0 10% 10px 10%;
-  }
+    .oneimg_right,
+    .oneimg_left,
+    .oneimg_center {
+        width: 80%;
+        padding: 0 10% 10px 10%;
+    }
 
-  .oneimg_full p {
-      width: 80%;
-      padding: 0 10%;
-  }
+    .oneimg_full p {
+        width: 80%;
+        padding: 0 10%;
+    }
 
-  .pq_center, .pq_right, .pq_left {
-      padding: 0 5%;
-      width: 90%;
-  }
+    .pq_center,
+    .pq_right,
+    .pq_left {
+        padding: 0 5%;
+        width: 90%;
+    }
 
-    .column20center, p {
+    .column20center,
+    p {
         width: 80%;
         padding: 0 10%;
     }
@@ -419,11 +473,11 @@ float: right;
         font-size: 40px;
     }
 
-    .subhed{
+    .subhed {
         padding: 0 10%;
     }
 
-    .credit{
+    .credit {
         padding-bottom: 20px;
     }
 

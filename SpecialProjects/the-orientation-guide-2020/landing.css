@@ -686,10 +686,6 @@ div.flat-under.handle-div {
 
 
 @media screen and (max-width: 750px) {
-
-    #arthed {
-        -webkit-text-stroke: 2px #f95b09;
-    }
     
     .oneimg_right,
     .oneimg_left,
@@ -718,6 +714,7 @@ div.flat-under.handle-div {
 
     #arthed {
         font-size: 60px;
+        -webkit-text-stroke: 2px #f95b09;
     }
 
     .subhed {

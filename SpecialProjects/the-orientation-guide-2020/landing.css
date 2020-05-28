@@ -296,7 +296,7 @@ a.credit-name {
 .subhed {
     font-family: montserrat, sans-serif;
     font-weight: 800;
-    color: #7fc448;
+    color: #9363a8;
 }
 
 /*apply to h2 tags*/
@@ -390,7 +390,7 @@ blockquote {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #5379c4;
+    color: #9363a8;
     font-weight: 800;
 }
 
@@ -404,7 +404,7 @@ blockquote {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #5379c4;
+    color: #9363a8;
 }
 
 /*add to wrapping div*/
@@ -418,7 +418,7 @@ blockquote {
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #5379c4;
+    color: #9363a8;
 }
 
 /*add to wrapping div*/

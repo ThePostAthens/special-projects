@@ -163,7 +163,6 @@ p.signature {
 }
 
 .intro-cont p {
-    margin: 5px 0px 15px 0px;
     line-height: 1.5em;
 }
 
@@ -252,6 +251,21 @@ img.landing {
     font-size: 40px;
     font-weight: 900i;
     text-transform: uppercase;
+}
+
+p.headline {
+    color: #4a1363;
+    padding: 0 10% 0 10%;
+    width: 80%;
+    margin: 0;
+    font-size: 32px;
+    font-weight: 900;
+    text-transform: none;
+    text-align: center;
+}
+
+p.headline a{
+    color: #7fc447;
 }
 
 .landing-intro {
@@ -543,18 +557,6 @@ also use these tags to move iframes, graphics etc.. anything that would behave l
 
 
 /*--SOCIAL HANDLES--*/
-p.socials {
-    font-size: 30px;
-    font-weight: 600;
-    width: 95%;
-    padding: 0px 0px;
-    text-align: center;
-    color: #4a1363;
-}
-
-p.socials a {
-    color: #7fc447;
-}
 
 
 

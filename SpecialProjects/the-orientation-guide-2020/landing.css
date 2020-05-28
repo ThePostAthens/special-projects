@@ -241,7 +241,7 @@ img.landing {
     text-align: center;
     width: 100%;
     text-shadow: 2px 2px 3px #000;
-    -webkit-text-stroke: 4px #497425;
+    -webkit-text-stroke: 4px #f95b09;
 }
 
 /*apply to h1 within the heroimg div*/
@@ -249,7 +249,7 @@ img.landing {
 /*----- Body Copy Things -----*/
 
 .headline {
-    color: #497425;
+    color: #4a1363;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
@@ -548,7 +548,7 @@ p.socials {
     margin: 40px 0px 0px 55px;
     padding: 0px 0px;
     text-align: center;
-    color: #497425;
+    color: #4a1363;
 }
 
 p.snapcode {

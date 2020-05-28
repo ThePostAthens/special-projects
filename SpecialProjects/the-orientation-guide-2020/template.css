@@ -272,7 +272,6 @@ blockquote {
     padding: 0 20%;
     margin: 0;
     font-size: 25px;
-    text-transform: uppercase;
     color: #75C0E3;
     font-weight: 800;
 }
@@ -286,7 +285,6 @@ blockquote {
     float: right;
     margin: 0;
     font-size: 25px;
-    text-transform: uppercase;
     color: #75C0E3;
 }
 
@@ -299,7 +297,6 @@ blockquote {
     float: left;
     margin: 0;
     font-size: 25px;
-    text-transform: uppercase;
     font-weight: 700;
     color: #75C0E3;
 }

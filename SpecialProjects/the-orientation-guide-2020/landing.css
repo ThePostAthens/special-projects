@@ -11,6 +11,10 @@ body {
     color: #030406;
 }
 
+.landing-pg {
+    background: #f0f7ee;
+}
+
 a {
     color: #fff;
     text-decoration: none;
@@ -568,7 +572,7 @@ div.handle-div {
 
 .circle-button {
     font-family: 'Roboto', sans-serif;
-    color: #7fc447;
+    color: #f95b09;
     display: inline-block;
     font-size: 2rem;
     border-radius: 50%;

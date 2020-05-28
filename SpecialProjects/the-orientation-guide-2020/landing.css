@@ -756,6 +756,7 @@ div.flat-under.handle-div {
 
     #arthed {
         font-size: 40px;
+        -webkit-text-stroke: 2px #f95b09;
     }
 
     img.landing {

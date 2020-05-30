@@ -627,5 +627,7 @@ also use these tags to move iframes, graphics etc.. anything that would behave l
         bottom: 30%;
     }
     
-    
+    .photog {
+        width: 90%;
+    }
 }

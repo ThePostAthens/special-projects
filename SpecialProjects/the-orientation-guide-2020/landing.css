@@ -209,7 +209,7 @@ img.landing {
     overflow: hidden;
     object-fit: cover;
     min-width: 100%;
-    background-color: red;
+    background-color: rgba(249,91,9,.7);
     z-index: -1;
 }
 

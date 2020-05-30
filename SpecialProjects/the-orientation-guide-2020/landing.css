@@ -866,3 +866,11 @@ div.flat-under.handle-div {
 
 
 }
+
+@media screen and (max-width: 470px) {
+    
+    p.headline {
+        font-size: 20px;
+    }
+    
+}

@@ -240,28 +240,6 @@ p.intro {
     color: #fce31b;
 }
 
-/* BACK BUTTON */
-
-.round-button {
-    display: block;
-    width: 130px;
-    height: 70px;
-    line-height: 65px;
-    border-radius: 50%;
-    color: #f5f5f5;
-    text-align: center;
-    background: #1baa00;
-    box-shadow: 0 0 3px gray;
-    font-size: 20px;
-    font-weight: 700;
-    margin: 40px auto;
-}
-
-.round-button:hover {
-    background: #FFD38C;
-}
-
-
 /* CREDITS */
 .credits {
     margin: 1rem auto 0;

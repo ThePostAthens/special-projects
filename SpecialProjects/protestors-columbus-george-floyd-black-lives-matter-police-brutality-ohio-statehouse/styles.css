@@ -174,7 +174,7 @@ h4 {
     /* font-family: "Playfair Display", Georgia, serif; */
     font-size: 25px;
     margin-top: 1.5px;
-    color: #fce31b;
+    color: #3d3d3d;
 }
 
 /* BYLINE */
@@ -237,6 +237,7 @@ p.intro {
     font-size: 2.9em;
     line-height: .9em;
     padding-right: 5px;
+    color: #fce31b;
 }
 
 /* CREDITS */

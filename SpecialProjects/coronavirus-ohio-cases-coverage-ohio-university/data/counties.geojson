@@ -14,7 +14,7 @@
         "CASES": "1205"
       },
       "geometry": {
-        "type": "Mul1197tiPolygon",
+        "type": "MultiPolygon",
         "coordinates": [
           [
             [

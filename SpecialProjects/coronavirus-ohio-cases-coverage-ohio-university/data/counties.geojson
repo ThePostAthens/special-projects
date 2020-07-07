@@ -2665,7 +2665,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Franklin",
-        "CASES": "10,587"
+        "CASES": "10587"
       },
       "geometry": {
         "type": "MultiPolygon",

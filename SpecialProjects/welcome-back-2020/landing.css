@@ -41,17 +41,13 @@ h3 {
 
 h4 {
     font-size: 25px;
-    margin: 0;
+    margin: 100px 0px 0px 0px;
     text-align: center;
     position: absolute;
-    width: 100%;
+    width: 200px;
     background-color: rgba(0, 0, 0, .25);
-}
-
-h4:hover {
-    text-align: center;
-    width: 100%;
-    background-color: rgba(0, 0, 0, .25);
+    text-shadow: 2px 2px rgba(7, 15, 13, .3);
+    transition-duration: 1s;
 }
 
 /* COLUMNS */
@@ -378,17 +374,6 @@ div.flat-under.handle-div {
     text-align: center;
 }
 
-.inner-content {
-    justify-content: center;
-    align-items: center;
-    transform: translate(0px, 120px);
-    display: flex;
-    position: 122px;
-    z-index: 2;
-    cursor: pointer;
-    text-shadow: 2px 2px #122620;
-}
-
 img.landing {
     position: relative;
     width: 200px;
@@ -651,18 +636,19 @@ img.landing {
 
     #arthed {
         font-size: 40px;
-        -webkit-text-stroke: 2px #f95b09;
+        -webkit-text-stroke: 2px #3d3d3d;
     }
 
     img.landing {
-        border-radius: 50% / 10%;
         width: 170px;
         height: 170px;
         transition-duration: 1s;
     }
-
-    .inner-content {
-        transform: translate(0px, 90px);
+    
+    h4 {
+        margin: 70px 0px 0px 0px;
+        width: 170px;
+        transition-duration: 1s;
     }
 
     h3.credit {

@@ -369,6 +369,12 @@ div.flat-under.handle-div {
 
 
 /* STORIES */
+.img-wrapper {
+    margin: 0px 15px;
+    display: inline-block;
+    text-align: center;
+}
+
 .inner-content {
     justify-content: center;
     align-items: center;
@@ -378,6 +384,23 @@ div.flat-under.handle-div {
     z-index: 2;
     cursor: pointer;
     text-shadow: 2px 2px #122620;
+}
+
+img.landing {
+    position: relative;
+    width: 200px;
+    height: 250px;
+    margin: 20px 0;
+    clip-path: polygon(100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
+    color: white;
+    text-align: center;
+    text-indent: .1em;
+    transition-duration: 1s;
+    overflow: hidden;
+    object-fit: cover;
+    min-width: 100%;
+    background-color: rgba(0, 0, 0, .3);
+    z-index: -1;
 }
 
 /* CREDITS */

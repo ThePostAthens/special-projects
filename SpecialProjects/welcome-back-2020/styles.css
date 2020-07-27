@@ -252,13 +252,24 @@ p.intro {
     color: #3d3d3d;
 }
 
+#back-button a:hover {
+    opacity: 1;
+}
+
 .back-button {
     padding: 10px 40px;
     font-size: 20px;
     color: #fff;
     border: hidden;
     border-radius: 20px;
-    background-color: #7fc448;
+    background-color: #f8b132;
+    letter-spacing: 1px;
+    box-shadow: inset 400px 0 0 0 #7fc448;
+    -webkit-transition: .4s ease-out 0s;
+}
+
+.slide-right:hover {
+    box-shadow: inset 0 0 0 0 #7fc448;
 }
 
 
@@ -541,7 +552,7 @@ blockquote {
         -webkit-text-stroke: 2px #3d3d3d;
         bottom: 45%;
     }
-    
+
     .headline {
         width: 80%;
         padding: 0% 10%;
@@ -549,11 +560,11 @@ blockquote {
         text-align: center;
         line-height: 38px;
     }
-    
+
     .byline-info p {
         text-align: center;
     }
-    
+
     .share-container {
         text-align: center;
     }
@@ -585,7 +596,7 @@ blockquote {
         text-align: center;
         margin-top: 30px;
     }
-    
+
     .credits {
         max-width: 100%;
         text-align: left;
@@ -595,7 +606,7 @@ blockquote {
     .footer {
         height: 300px;
     }
-    
+
     .copyright {
         text-align: center;
     }

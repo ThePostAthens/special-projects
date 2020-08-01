@@ -314,6 +314,7 @@ p.intro {
     display: block;
     height: 15px;
     width: 100px;
+    opacity: .7;
 }
 
 .my-legend .legend-source {

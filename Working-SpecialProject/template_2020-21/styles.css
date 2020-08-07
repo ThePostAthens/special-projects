@@ -16,7 +16,7 @@ a {
 }
 
 a:hover {
-    opacity: .5;
+    opacity: .6;
 }
 
 
@@ -221,6 +221,11 @@ ul.share-buttons img {
     width: 32px;
 }
 
+i.share {
+    color: #7fc448;
+}
+
+
 /* CONTENT */
 p.intro {
     font-size: 20px;
@@ -232,6 +237,10 @@ p.intro {
     font-size: 2.9em;
     line-height: .9em;
     padding-right: 5px;
+}
+
+p a:hover {
+    color: none;
 }
 
 /* CREDITS */
@@ -254,6 +263,10 @@ p.intro {
     color: #7fc448;
     font-weight: 700;
     cursor: pointer;
+}
+
+.creditText a:hover {
+    color: none;
 }
 
 /* OTHER STUFF */

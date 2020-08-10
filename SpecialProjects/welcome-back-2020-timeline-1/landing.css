@@ -171,7 +171,26 @@ article {
     margin-right: -23px;
 }
 
+.transition img {
+    width: 100%;
+}
 
+.pq-feature {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.pq_center {
+    padding: 5% 18%;
+    margin: 0;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #5379c4;
+    font-weight: 800;
+}
 
 
 

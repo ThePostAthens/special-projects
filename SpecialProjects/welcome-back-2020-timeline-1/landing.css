@@ -171,6 +171,11 @@ article {
     margin-right: -23px;
 }
 
+p.blurby {
+    margin: 0 15%;
+    
+}
+
 .transition img {
     width: 100%;
 }

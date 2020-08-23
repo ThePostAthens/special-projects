@@ -592,10 +592,11 @@ h4 {
     color: black;
     padding: 10px;
     border-radius: 5px;
+    text-shadow: none;
 }
 
 .projects:hover {
-    background-color: white;
+    background-color: rgba( 255, 255, 255, .9)
 }
 
 .join {
@@ -603,18 +604,54 @@ h4 {
     color: black;
     padding: 10px;
     border-radius: 5px;
+    text-shadow: none;
 }
 
 .join:hover {
-    background-color: white;
+    background-color: rgba( 255, 255, 255, .9)
 }
 
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1080px) {
     
     p.s-headline {
         font-size: 24px;
     }
+    
+    .bubble {
+    position: relative;
+    background: rgba(0, 0, 0, .1);
+    border-radius: 30px;
+}
+    
+    
+    .bubble1:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 25px solid transparent;
+    border-right-color: rgba(0, 0, 0, .1);
+    border-left: 0;
+    margin-top: -23px;
+    margin-left: -25px;
+}
+
+.bubble2:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 23px solid transparent;
+    border-left-color: rgba(0, 0, 0, .1);
+    border-right: 0;
+    margin-top: -23px;
+    margin-right: -23px;
+}
 }
 
 

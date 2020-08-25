@@ -124,7 +124,14 @@ svg {
     margin-left: 55%;
 }
 
+.date {
+    text-transform: uppercase;
+    margin-bottom: -20px;
+}
 
+.t-arthed {
+    font-size: 22px;
+}
 
 .bubble {
     position: relative;

@@ -275,7 +275,8 @@ p.signature {
     text-align: center;
     font-size: 36px;
     display: block;
-    padding: 0 10%
+    padding: 0 10%;
+    color: #f6ffec;
 }
 
 .s-headline {
@@ -349,7 +350,7 @@ div.handle-div {
 
 .circle-button {
     font-family: 'Roboto', sans-serif;
-    color: #3d3d3d;
+    color: #add3c4;
     display: inline-block;
     font-size: 2rem;
     border-radius: 50%;

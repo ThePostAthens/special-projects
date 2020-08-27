@@ -575,10 +575,10 @@ a.join {
         height: 25px;
     }
 
-    .date {
+    .date p{
         width: 80%;
-        padding: 0% 5%;
-        text-align: center;
+        padding: 0 10%;
+        text-align: left;
     }
 
     #arthed {
@@ -591,16 +591,17 @@ a.join {
         width: 80%;
         padding: 0% 10%;
         font-size: 30px;
-        text-align: center;
+        text-align: left;
         line-height: 38px;
     }
 
     .byline-info p {
-        text-align: center;
+        text-align: left;
     }
 
     .share-container {
-        text-align: center;
+        text-align: left;
+        padding: 0 10%;
     }
 
     .oneimg_right,

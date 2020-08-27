@@ -101,8 +101,7 @@ a {
     color: #f6ffec;
     font-size: 12px;
     width: 90%;
-    padding: 0;
-    padding-left: 10px;
+    padding: 10px;
     background-color: #1a262a;
 }
 
@@ -155,6 +154,7 @@ svg {
     position: relative;
     background: rgb(173,211,196);
     border-radius: 30px;
+    margin-top: 
 }
 
 
@@ -673,7 +673,7 @@ h4 {
     
     .bubble {
     position: relative;
-    background: rgb(246,255,236);
+    background: #add3c4;
     border-radius: 30px;
 }
     

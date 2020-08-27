@@ -430,6 +430,14 @@ blockquote {
     width: 90%;
 }
 
+iframe.spodify {
+    width: 100%;
+}
+
+.instagram-media {
+    margin: 15px auto !important;
+}
+
 .twitter-tweet {
     padding: 0 20%;
 }

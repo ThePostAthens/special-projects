@@ -381,6 +381,14 @@ blockquote {
     color: #5379c4;
 }
 
+.twitter-tweet {
+    padding: 0 20%;
+}
+
+.instagram-media {
+    
+}
+
 /*add to wrapping div*/
 .attribution {
     font-size: 20px;

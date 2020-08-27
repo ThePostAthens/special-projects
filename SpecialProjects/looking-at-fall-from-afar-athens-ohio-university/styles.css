@@ -171,9 +171,9 @@ h4 {
     /* font-family: "Playfair Display", Georgia, serif; */
     font-size: 25px;
     margin-top: 1.5px;
-    color: #85C3AB
+    color: #85C3AB;
+    margin-top: 20px;
 }
-
 /* BYLINE */
 .byline-info {
     text-align: center;
@@ -189,7 +189,8 @@ h4 {
     /* font-family: "Playfair Display", Georgia, serif; */
     font-size: 14px;
     text-align: center;
-    margin-top: 25px;
+    margin-top: 15px;
+    margin-bottom: 30px;
 }
 
 .byline-info p:last-of-type {
@@ -338,6 +339,7 @@ p a:hover {
     font-family: montserrat, sans-serif;
     font-weight: 800;
     color: #85C3AB;
+    padding: 0 20%;
 }
 
 /*apply to wrapping span tag*/
@@ -398,6 +400,10 @@ blockquote {
     margin-bottom: 5px;
     padding: 0 5%;
     width: 90%;
+}
+
+.twitter-tweet {
+    padding: 0 20%;
 }
 
 /*----- Gallery Stuff -----*/

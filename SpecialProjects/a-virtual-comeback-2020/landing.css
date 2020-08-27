@@ -105,6 +105,7 @@ a {
 
 /* TIMELINE */
 #timel-cont {
+    padding: 0 5%;
     padding-bottom: 10%;
 }
 
@@ -222,7 +223,7 @@ p.blurb {
     color: #f6ffec;
 }
 
-.minitime {
+/*.minitime {
     display: flex;
 }
 
@@ -231,7 +232,7 @@ p.blurb {
     float: right;
     border-radius: 5%;
     transform: translate(150px, 0);
-    object-fit: cover;
+    object-fit: cover;*/
 }
 
 /* CONTENT */

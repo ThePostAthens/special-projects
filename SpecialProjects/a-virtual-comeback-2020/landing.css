@@ -94,6 +94,17 @@ a {
     padding-left: 10px;
 }
 
+.timecutline {
+    float: left;
+    text-align: left;
+    margin: 0;
+    color: #f6ffec;
+    font-size: 12px;
+    width: 90%;
+    padding: 0;
+    padding-left: 10px;
+}
+
 /* TOP */
 .landing-header {
     text-align: center;

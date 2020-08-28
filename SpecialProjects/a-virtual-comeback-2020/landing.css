@@ -178,33 +178,16 @@ div.here {
 
 .t-arthed {
     font-size: 22px;
-    color: #1a262a;
+    color: #f6ffec;
 }
 
 .bubble {
     position: relative;
-    background: rgb(173, 211, 196);
+    background: #add3c4;
     border-radius: 30px;
     margin: 50px 28%; 
 }
 
-.bubble5 {
-    background-color: #93bfc7;
-}
-
-.bubble6:after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    width: 0;
-    height: 0;
-    border: 25px solid transparent;
-    border-top-color: #93bfc7;
-    border-bottom: 0;
-    margin-left: -25px;
-    margin-bottom: -25px;
-}
 
 
 .bubble1:before {
@@ -234,6 +217,25 @@ div.here {
     margin-top: -23px;
     margin-right: -23px;
 }
+
+.bubble5 {
+    background: #93bfc7;
+}
+
+.bubble6:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 25px solid transparent;
+    border-top-color: #93bfc7;
+    border-bottom: 0;
+    margin-left: -25px;
+    margin-bottom: -25px;
+}
+
 
 .ghost {
     background: none;
@@ -755,7 +757,6 @@ a.end {
 
     .bubble {
         position: relative;
-        background: #add3c4;
         border-radius: 30px;
     }
 

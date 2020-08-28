@@ -10,8 +10,12 @@ body {
 }
 
 a {
-    color: #fff;
+    color: #c8f09d;
     text-decoration: none;
+}
+
+a:hover {
+    color: #f6ffec;
 }
 
 /* NAVIGATION BAR */
@@ -136,13 +140,12 @@ a {
 .here:after {
     content:"";
     position: fixed;
-    z-index: -1;
     top: 0;
     bottom: 0;
     left: 50%;
     border-left: 2px solid #f6ffec;
     transform: translate(-50%);
-    z-index: -5000;
+    z-index: -100;
 }
 
 div.here {
@@ -182,6 +185,25 @@ div.here {
     position: relative;
     background: rgb(173, 211, 196);
     border-radius: 30px;
+    margin: 50px 28%; 
+}
+
+.bubble5 {
+    background-color: #93bfc7;
+}
+
+.bubble6:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 25px solid transparent;
+    border-top-color: #93bfc7;
+    border-bottom: 0;
+    margin-left: -25px;
+    margin-bottom: -25px;
 }
 
 
@@ -305,6 +327,7 @@ p.blurb {
     line-height: 1.5em;
     width: 60%;
     padding: 0 20%;
+    color: #476268;
 }
 
 p.signature {
@@ -340,7 +363,11 @@ p.s-headline {
 }
 
 p.s-headline a {
-    color: #7fc447;
+    color: #cfff99;
+}
+
+p.s-headline a:hover {
+    color: #f6ffec;
 }
 
 #socials-content {
@@ -370,6 +397,8 @@ p.s-headline a {
 }
 
 
+
+
 p.snapcode {
     position: absolute;
     margin-left: 137px;
@@ -391,7 +420,7 @@ div.handle-div {
 
 .circle-button {
     font-family: 'Roboto', sans-serif;
-    color: #add3c4;
+    color: #c8f09d;
     display: inline-block;
     font-size: 2rem;
     border-radius: 50%;
@@ -487,6 +516,7 @@ div.flat-under.handle-div {
 
 
 /* STORIES */
+
 .img-wrapper {
     margin: 0px 15px;
     display: inline-block;
@@ -565,9 +595,13 @@ h4 {
 }
 
 .creditText a {
-    color: #add3c4;
+    color: #c8f09d;
     font-weight: 700;
     cursor: pointer;
+}
+
+.creditText a:hover {
+    color: #f6ffec;
 }
 
 /*--YOUTUBE VIDEO--*/
@@ -631,6 +665,10 @@ h4 {
 .footer_inside {
     vertical-align: middle;
     display: table-cell;
+}
+
+a.end {
+    color: #fff;
 }
 
 .footer h2 {
@@ -709,11 +747,10 @@ h4 {
     #timel-cont {
         padding: 0 10px;
     }
-
+    
     .split {
         width: 60%;
-        padding: 10px 30px;
-        margin: 30px 0;
+        margin: 50px 15%; 
     }
 
     .bubble {

@@ -381,12 +381,16 @@ blockquote {
     color: #5379c4;
 }
 
-.twitter-tweet {
+/*.twitter-tweet {
     padding: 0 20%;
+}*/
+
+iframe.spodify {
+    width: 100%;
 }
 
 .instagram-media {
-    
+    margin: 15px auto !important;
 }
 
 /*add to wrapping div*/

@@ -362,11 +362,12 @@ blockquote {
     width: 40%;
     padding-right: 10%;
     padding-left: 15px;
+    padding-bottom: 10px;
     float: right;
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #5379c4;
+    color: #ba6e2a;
 }
 
 /*add to wrapping div*/

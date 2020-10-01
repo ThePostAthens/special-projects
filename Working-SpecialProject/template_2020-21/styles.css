@@ -394,6 +394,11 @@ iframe.spodify {
     margin: 15px auto !important;
 }
 
+iframe.yt-video {
+    width: 100%;
+    height: 515px;
+}
+
 /*add to wrapping div*/
 .attribution {
     font-size: 20px;
@@ -545,6 +550,10 @@ iframe.spodify {
         font-size: 25px;
     }
 
+    iframe.yt-video {
+        height: 415px;
+    }
+    
     .oneimg_right,
     .oneimg_left,
     .oneimg_center {
@@ -576,5 +585,19 @@ iframe.spodify {
 
     .footer {
         height: 300px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    
+    iframe.yt-video {
+        height: 315px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    
+    iframe.yt-video {
+        height: 215px;
     }
 }

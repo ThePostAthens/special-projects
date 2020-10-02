@@ -125,6 +125,21 @@ h3 {
     width: 100%;
 }
 
+#arthed {
+    color: #FFF;
+    position: absolute;
+    bottom: 40%;
+    padding: 0;
+    margin: 0;
+    font-size: 100px;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+    text-shadow: 2px 2px 3px #000;
+    -webkit-text-stroke: 4px #000;
+    text-transform: capitalize;
+}
+
 /* HEADLINE STYLES */
 h1,
 h2,
@@ -133,25 +148,15 @@ h4 {
     margin-bottom: 1.2px;
 }
 
-.date {
-    text-align: center;
+.date p {
     text-transform: uppercase;
-    margin-bottom: -40px;
     margin-top: 75px;
+    margin-bottom: -40px;
+    padding: 0 15%;
 }
+
 
 /* Pick one font depending on design (or find another one) */
-.arthed {
-    text-align: center;
-    color: #3d3d3d;
-    font-size: 60px;
-    font-family: 'Montserrat', Arial, sans-serif;
-    /* font-family: "Playfair Display", Georgia, serif; */
-    text-transform: capitalize;
-    line-height: 70px;
-    margin: 50px 0px 10px 0px;
-}
-
 .cutline {
     float: left;
     text-align: left;
@@ -164,17 +169,26 @@ h4 {
 }
 
 .headline {
-    text-align: center;
+    display: flex;
+    text-align: left;
     font-family: 'Montserrat', Arial, sans-serif;
     /* font-family: "Playfair Display", Georgia, serif; */
-    font-size: 25px;
-    margin-top: 1.5px;
+    font-size: 36px;
+    margin-top: 40px;
+    text-transform: uppercase;
+    line-height: 42px;
+}
+
+.longhed {
+    font-size: 30px;
+    line-height: 38px;
 }
 
 /* BYLINE */
 .byline-info {
-    text-align: center;
+    text-align: left;
     display: block;
+    margin-top: -15px;
 }
 
 .byline-info p {
@@ -182,9 +196,8 @@ h4 {
     display: inline-block;
     font-family: 'Montserrat', Arial, sans-serif;
     /* font-family: "Playfair Display", Georgia, serif; */
-    font-size: 14px;
-    text-align: center;
-    margin-top: 25px;
+    font-size: 15px;
+    text-align: left;
 }
 
 .byline-info p:last-of-type {
@@ -193,8 +206,10 @@ h4 {
 
 /* SHARE BUTTONS */
 .share-container {
-    text-align: center;
+    text-align: left;
     margin-top: -20px;
+    width: 60%;
+    padding: 0 20%;
 }
 
 ul.share-buttons {
@@ -221,11 +236,6 @@ ul.share-buttons img {
     width: 32px;
 }
 
-i.share {
-    color: #7fc448;
-}
-
-
 /* CONTENT */
 p.intro {
     font-size: 20px;
@@ -239,9 +249,82 @@ p.intro {
     padding-right: 5px;
 }
 
-p a:hover {
-    color: none;
+/* BACK BUTTON*/
+#back-button {
+    text-align: left;
+    width: 60%;
+    padding: 0 20%;
+    margin: 40px 0px 0px 0px;
+    color: #3d3d3d;
+    height: 120px;
 }
+
+a.backer:hover {
+    opacity: 1;
+}
+
+.back-button {
+    color: #3d3d3d;
+    width: 150px;
+    transform: translate(0px, -135px);
+    text-align: center;
+    border-radius: 100%;
+}
+
+.slide-right:hover {
+    box-shadow: inset 0 0 0 0 #7fc448;
+}
+
+.bubble {
+    display: inline-block;
+    width: 150px;
+    color: black;
+    height: 100px;
+    border-radius: 100%;
+    position: relative;
+    cursor: pointer;
+    background: radial-gradient(circle at 50% 55%, rgba(240, 245, 255, .9), rgba(240, 245, 255, .9) 40%, rgba(225, 238, 255, .8) 60%, rgba(43, 241305, 255, .4));
+    transform: translate(0);
+}
+
+.bubble:before {
+    content: "";
+    display: inline-block;
+    padding-top: 100%;
+}
+
+.bubble:after {
+    content: "";
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    -webkit-filter: blur(3px);
+    z-index: 2;
+    -webkit-transform: rotateZ(-50deg);
+    transform: rotateZ(-50deg);
+    display: block;
+    background: radial-gradient(circle at 50% 80%, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 74%, white 84%, rgba(255, 255, 255, 0) 100%);
+}
+
+@keyframes pop {
+    from {
+        opacity: 1;
+        transform: translate(0) scale(1, 1);
+    }
+    
+    to {
+        opacity: 0;
+        transform: translate(0) scale(1.25, 1.25);
+    }
+}
+
+.bubble:hover {
+    animation: pop 1s cubic-bezier(0.16, 0.87, 0.48, 0.99) forwards;
+}
+
 
 /* CREDITS */
 .credits {
@@ -256,17 +339,12 @@ p a:hover {
     font-family: 'Montserrat', Arial, sans-serif;
     font-size: 14px;
     margin: 0 1rem 0rem 0;
-    text-transform: capitalize;
 }
 
 .creditText a {
-    color: #7fc448;
+    color: #c7002b;
     font-weight: 700;
     cursor: pointer;
-}
-
-.creditText a:hover {
-    color: none;
 }
 
 /* OTHER STUFF */
@@ -331,8 +409,12 @@ p a:hover {
 .subhed {
     font-family: montserrat, sans-serif;
     font-weight: 800;
-    color: #7fc448;
+    color: #3d3d3d;
     padding: 0 20%;
+}
+
+.smallhed {
+    font-size: 1.2em;
 }
 
 /*apply to wrapping span tag*/
@@ -382,48 +464,6 @@ blockquote {
     color: #5379c4;
 }
 
-/*.twitter-tweet {
-    padding: 0 20%;
-}*/
-
-iframe.spodify {
-    width: 100%;
-}
-
-.instagram-media {
-    margin: 15px auto !important;
-}
-
-/*YOUTUBE EMBED*/
-iframe.yt-vid {
-    width: 100%;
-    height: 100%;
-}
-
-.yt_center {
-    width: 60%;
-    height: 515px;
-    padding: 0 20%;
-}
-
-.yt_right {
-    width: 40%;
-    margin-right: 10%;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    float: right;
-    height: 415px;
-}
-
-.yt_left {
-    width: 40%;
-    margin-left: 10%;
-    padding-right: 20px;
-    padding-bottom: 10px;
-    float: left;
-    height: 415px;
-}
-
 /*add to wrapping div*/
 .attribution {
     font-size: 20px;
@@ -437,16 +477,24 @@ iframe.yt-vid {
     width: 90%;
 }
 
+iframe.spodify {
+    width: 100%;
+}
+
+.instagram-media {
+    margin: 15px auto !important;
+}
+
 /*----- Gallery Stuff -----*/
 .gallery_bot {
     padding: 0;
     width: 20%;
-    float: left;
+    float: center;
 }
 
 .galleryPcut {
     float: right;
-    text-align: left;
+    text-align: center;
     margin: 0;
     font-weight: 100;
     color: #808080;
@@ -496,6 +544,10 @@ iframe.yt-vid {
     padding: 10px 15% 0 15%;
 }
 
+.footer a {
+    color: #FFF;
+}
+
 .copyright {
     color: #FFF;
     font-family: 'Montserrat';
@@ -522,15 +574,22 @@ iframe.yt-vid {
     margin-left: 20px;
 }
 
+
+
 .projects {
     background-color: white;
     color: black;
     padding: 10px;
     border-radius: 5px;
+    text-shadow: none;
+}
+
+a.projects {
+    color: black;
 }
 
 .projects:hover {
-    background-color: white;
+    background-color: rgba( 255, 255, 255, .9)
 }
 
 .join {
@@ -538,23 +597,19 @@ iframe.yt-vid {
     color: black;
     padding: 10px;
     border-radius: 5px;
+    text-shadow: none;
 }
 
 .join:hover {
-    background-color: white;
+    background-color: rgba( 255, 255, 255, .9)
 }
+
+a.join {
+    color: black;
+}
+
 
 /* MEDIA QUERIES */
-
-@media screen and (max-width: 1080px) {
-    
-    .yt_center,
-    .yt_right,
-    .yt_left {
-        height: 315px;
-    }
-}
-
 @media screen and (max-width: 750px) {
 
     .column20center,
@@ -567,20 +622,33 @@ iframe.yt-vid {
         height: 25px;
     }
 
-    .date {
-        padding: 0 10%;
+    .date p{
         width: 80%;
+        padding: 0 10%;
+        text-align: left;
     }
 
-    .arthed {
-        font-size: 60px;
-        line-height: 60px;
+    #arthed {
+        font-size: 50px;
+        -webkit-text-stroke: 2px #3d3d3d;
+        bottom: 45%;
     }
 
     .headline {
         width: 80%;
-        padding: 0% 10% 0 10%;
-        font-size: 25px;
+        padding: 0% 10%;
+        font-size: 30px;
+        text-align: left;
+        line-height: 38px;
+    }
+
+    .byline-info p {
+        text-align: left;
+    }
+
+    .share-container {
+        text-align: left;
+        padding: 0 10%;
     }
 
     .oneimg_right,
@@ -605,14 +673,14 @@ iframe.yt-vid {
     .subhed {
         padding: 0 10%;
     }
-    
-    .yt_center {
-        width: 80%;
-        padding: 0 10%;
+
+    #back-button {
+        text-align: center;
+        margin-top: 30px;
     }
     
-    .yt_right {
-        height: 265px;
+    .back-button {
+        width: 100%;
     }
 
     .credits {
@@ -624,33 +692,8 @@ iframe.yt-vid {
     .footer {
         height: 300px;
     }
-}
 
-@media screen and (max-width: 720px) {
-    .yt_right {
-        height: 215px;
-    }
-    
-    .yt_left {
-        height: 215px;
+    .copyright {
+        text-align: center;
     }
 }
-
-@media screen and (max-width: 500px) {
-    .yt_right {
-        width: 80%;
-        padding: 0 10%;
-        margin: 0;
-        float: none;
-        height: 230px;
-    }
-    
-    .yt_left {
-        width: 80%;
-        padding: 0 10%;
-        margin: 0;
-        float: none;
-        height: 230px;
-    }
-}
-

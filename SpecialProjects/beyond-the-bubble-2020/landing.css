@@ -118,14 +118,12 @@ h3 {
 #heroimg {
     width: 100%;
     position: relative;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
 }
 
 #heroimg img {
     width: 100%;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
 }
 
 /* HEADLINE STYLES */

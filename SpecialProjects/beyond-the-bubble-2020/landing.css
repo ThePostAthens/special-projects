@@ -15,7 +15,7 @@ a {
     text-decoration: none;
 }
 
-body a:hover{
+body a:hover {
     opacity: .6;
 }
 
@@ -289,6 +289,7 @@ div.handle-div {
 .fa-tiktok {
     padding: 5px;
 }
+
 .iconify {
     width: 70px;
     height: 64px;
@@ -374,25 +375,24 @@ p a:hover {
     align-items: center;
 }
 
-.img-wrapper {
-    margin: 0px 15px;
-    display: inline-block;
-    text-align: center;
-    height: 250px;
-    width: 180px;
-}
-
 img.landing {
     position: relative;
     width: 250px;
     height: 250px;
-    margin: 20px 0;
+    margin: -135px 0px 0px 0px;
     transition-duration: 1s;
     object-fit: cover;
     background-color: rgba(0, 0, 0, .3);
     z-index: -1;
     border-radius: 100%;
-    transform: translate(-15px, -320px);
+}
+
+img.landing.two {
+    margin-top: -160px;
+}
+
+img.landing.three {
+    margin-top: -175px;
 }
 
 
@@ -401,7 +401,6 @@ a.stories {
     width: 230px;
     height: 250px;
     padding: 50px 30px 0px 30px;
-    transform: translate(0px, 0px);
 }
 
 a.stories:hover {
@@ -416,16 +415,19 @@ h4 {
     text-shadow: 2px 2px rgba(7, 15, 13, 1);
     transition-duration: 1s;
     color: #fff;
-    transform: translate(-10px, -180px);
-    margin: 0 30px;
+    margin: -150px 35px 0px 35px;
 }
 
-h4.extra-line {
-    transform: translate(10px, 140px);
+
+h4.two {
+    margin-top: -160px;
+}
+
+h4.three {
+    margin-top: -180px;
 }
 
 .bubble {
-    display: inline-block;
     width: 250px;
     color: black;
     height: 100%;
@@ -433,12 +435,10 @@ h4.extra-line {
     position: relative;
     cursor: pointer;
     background: radial-gradient(circle at 50% 55%, rgba(240, 245, 255, .6), rgba(240, 245, 255, .6) 40%, rgba(225, 238, 255, .5) 60%, rgba(43, 241305, 255, .1));
-    transform: translate(-15px, -10px);
 }
 
 .bubble:before {
     content: "";
-    display: inline-block;
     padding-top: 100%;
 }
 
@@ -461,12 +461,12 @@ h4.extra-line {
 @keyframes pop {
     from {
         opacity: 1;
-        transform: translate(-15px, -10px) scale(1, 1);
+        transform: translate(0px, 0px) scale(1, 1);
     }
-    
+
     to {
         opacity: 0;
-        transform: translate(-15px, -10px) scale(1.25, 1.25);
+        transform: translate(0px, 0px) scale(1.25, 1.25);
     }
 }
 
@@ -695,7 +695,7 @@ a.end {
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1080px) {
-    
+
     .yt_center,
     .yt_right,
     .yt_left {
@@ -733,12 +733,12 @@ a.end {
     .handle-content {
         margin: 0 20%;
     }
-    
+
     .yt_center {
         width: 80%;
         padding: 0 10%;
     }
-    
+
     .yt_right {
         height: 265px;
     }
@@ -758,7 +758,7 @@ a.end {
     .yt_right {
         height: 215px;
     }
-    
+
     .yt_left {
         height: 215px;
     }
@@ -778,7 +778,7 @@ a.end {
         float: none;
         height: 230px;
     }
-    
+
     .yt_left {
         width: 80%;
         padding: 0 10%;
@@ -787,4 +787,3 @@ a.end {
         height: 230px;
     }
 }
-

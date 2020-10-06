@@ -129,7 +129,7 @@ h3 {
     color: #FFF;
     position: absolute;
     bottom: 35%;
-    padding: 0;
+    padding: 0 10%;
     margin: 0;
     font-size: 90px;
     font-weight: 700;
@@ -137,7 +137,7 @@ h3 {
     text-shadow: 2px 2px 3px #000;
     -webkit-text-stroke: 4px #000;
     text-transform: capitalize;
-    margin: 0 10%;
+    width: 80%;
 }
 
 /* HEADLINE STYLES */

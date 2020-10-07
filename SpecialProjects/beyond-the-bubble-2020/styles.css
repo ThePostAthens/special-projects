@@ -128,7 +128,7 @@ h3 {
 #arthed {
     color: #FFF;
     position: absolute;
-    bottom: 35%;
+    bottom: 40%;
     padding: 0 10%;
     margin: 0;
     font-size: 90px;
@@ -607,9 +607,9 @@ a.join {
 @media screen and (max-width: 1080px) {
     
     #arthed {
-        font-size: 70px;
+        font-size: 65px;
         -webkit-text-stroke: 3px #3d3d3d;
-        bottom: 30%;
+        bottom: 35%;
     }
 }
 
@@ -638,10 +638,6 @@ a.join {
         width: 80%;
         padding: 0 10%;
         text-align: left;
-    }
-
-    #arthed {
-        bottom: 35%;
     }
 
     .headline {
@@ -714,6 +710,5 @@ a.join {
         font-size: 40px;
         -webkit-text-stroke: 1px #3d3d3d;
             text-shadow: 2px 1px 2px #000;
-        bottom: 30%;
     }
 }

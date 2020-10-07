@@ -372,6 +372,10 @@ a.backer:hover {
     padding: 0 20%;
 }
 
+.essay p {
+    width: 80%;
+    padding: 0 10%;
+}
 
 .oneimg_full img,
 .oneimg_center img,

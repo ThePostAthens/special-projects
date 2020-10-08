@@ -399,6 +399,10 @@ img.landing.three {
     margin-top: -175px;
 }
 
+img.landing.four {
+    margin-top: -190px;
+}
+
 
 a.stories {
     border-radius: 100%;
@@ -429,15 +433,15 @@ h4.one {
 
 
 h4.two {
-    margin-top: -185px;
+    margin-top: -160px;
 }
 
 h4.three {
-    margin-top: -222px;
+    margin-top: -180px;
 }
 
 h4.four {
-    margin-top: -255px;
+    margin-top: -200px;
 }
 
 .bubble {

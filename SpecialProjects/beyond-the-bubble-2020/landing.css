@@ -415,16 +415,25 @@ h4 {
     text-shadow: 2px 2px rgba(7, 15, 13, 1);
     transition-duration: 1s;
     color: #fff;
-    margin: -150px 35px 0px 35px;
+    margin: 0px 35px 0px 35px;
+}
+
+
+h4.one {
+    margin-top: -160px;
 }
 
 
 h4.two {
-    margin-top: -160px;
+    margin-top: -185px;
 }
 
 h4.three {
-    margin-top: -180px;
+    margin-top: -222px;
+}
+
+h4.four {
+    margin-top: -255px;
 }
 
 .bubble {

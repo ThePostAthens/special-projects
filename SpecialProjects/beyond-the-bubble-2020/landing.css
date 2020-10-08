@@ -163,14 +163,17 @@ h4 {
 /* INTRO CONTAINER*/
 
 h1.headline {
-    color: #647950;
+    color: #98bd7a;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
-    font-size: 36px;
+    font-size: 66px;
+    letter-spacing: 4px;
     font-weight: 900;
     text-transform: uppercase;
     text-align: center;
+    font-family: 'Concert One', cursive;
+    -webkit-text-stroke: 1px #647950;
 }
 
 .intro-cont {
@@ -391,16 +394,20 @@ img.landing {
     border-radius: 100%;
 }
 
+img.landing.one {
+    margin-top: -155px;
+}
+
 img.landing.two {
-    margin-top: -160px;
+    margin-top: -162px;
 }
 
 img.landing.three {
-    margin-top: -175px;
+    margin-top: -182px;
 }
 
 img.landing.four {
-    margin-top: -190px;
+    margin-top: -201px;
 }
 
 
@@ -416,32 +423,37 @@ a.stories:hover {
 }
 
 h4 {
-    font-size: 25px;
+    font-size: 34px;
     text-align: center;
     position: relative;
     width: 180px;
-    text-shadow: 2px 2px rgba(7, 15, 13, 1);
+    -webkit-text-stroke: 1.5px #6d9e42;
     transition-duration: 1s;
     color: #fff;
     margin: 0px 35px 0px 35px;
+    font-family: 'Concert One', cursive;
+    font-weight: 100;
+    color: #f1ffe4;
+    letter-spacing: 1px;
+    line-height: 40px;
 }
 
 
 h4.one {
-    margin-top: -160px;
+    margin-top: -180px;
 }
 
 
 h4.two {
-    margin-top: -160px;
+    margin-top: -170px;
 }
 
 h4.three {
-    margin-top: -180px;
+    margin-top: -190px;
 }
 
 h4.four {
-    margin-top: -200px;
+    margin-top: -210px;
 }
 
 .bubble {

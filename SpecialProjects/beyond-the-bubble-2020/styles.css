@@ -127,7 +127,7 @@ h3 {
 }
 
 #arthed {
-    color: #FFF;
+    color: #98bd7a;
     position: absolute;
     bottom: 40%;
     padding: 0 10%;
@@ -136,9 +136,10 @@ h3 {
     font-weight: 700;
     text-align: center;
     text-shadow: 2px 2px 3px #000;
-    -webkit-text-stroke: 4px #6d9e42;
+    -webkit-text-stroke: 1px #647950;
     text-transform: capitalize;
     width: 80%;
+    font-family: 'Concert One', cursive;
 }
 
 /* HEADLINE STYLES */
@@ -154,6 +155,8 @@ h4 {
     margin-top: 75px;
     margin-bottom: -40px;
     padding: 0 15%;
+    color: #647950;
+    font-weight: 600;
 }
 
 
@@ -172,9 +175,10 @@ h4 {
 .headline {
     display: flex;
     text-align: left;
-    font-family: 'Montserrat', Arial, sans-serif;
+    font-family: 'Concert One', cursive;
+    font-weight: 100;
     /* font-family: "Playfair Display", Georgia, serif; */
-    font-size: 36px;
+    font-size: 42px;
     margin-top: 40px;
     text-transform: uppercase;
     line-height: 42px;
@@ -244,11 +248,13 @@ p.intro {
 }
 
 .dropcap {
-    font-weight: 700;
+    font-weight: 100;
     float: left;
-    font-size: 2.9em;
+    font-size: 3em;
     line-height: .9em;
     padding-right: 5px;
+    color: #647950;
+    font-family: 'Concert One', cursive;
 }
 
 /* BACK BUTTON*/
@@ -619,7 +625,7 @@ a.join {
 
     #arthed {
         font-size: 65px;
-        -webkit-text-stroke: 3px #6d9e42;
+        -webkit-text-stroke: 3px #647950;
         bottom: 35%;
     }
 }
@@ -628,7 +634,7 @@ a.join {
 
     #arthed {
         font-size: 50px;
-        -webkit-text-stroke: 2px #6d9e42;
+        -webkit-text-stroke: 2px #647950;
     }
 }
 

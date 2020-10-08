@@ -11,12 +11,13 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #2fd2e4;
     text-decoration: none;
 }
 
 a:hover {
-    opacity: .6;
+    opacity: 1;
+    color: #a785b8;
 }
 
 
@@ -135,7 +136,7 @@ h3 {
     font-weight: 700;
     text-align: center;
     text-shadow: 2px 2px 3px #000;
-    -webkit-text-stroke: 4px #000;
+    -webkit-text-stroke: 4px #6d9e42;
     text-transform: capitalize;
     width: 80%;
 }
@@ -177,6 +178,7 @@ h4 {
     margin-top: 40px;
     text-transform: uppercase;
     line-height: 42px;
+    color: #a15ebe;
 }
 
 .longhed {
@@ -261,6 +263,7 @@ p.intro {
 
 a.backer:hover {
     opacity: 1;
+    color: #a785b8;
 }
 
 .back-button {
@@ -310,7 +313,7 @@ a.backer:hover {
         opacity: 1;
         transform: translate(0) scale(1, 1);
     }
-    
+
     to {
         opacity: 0;
         transform: translate(0) scale(1.25, 1.25);
@@ -338,9 +341,13 @@ a.backer:hover {
 }
 
 .creditText a {
-    color: #c7002b;
+    color: #2fd2e4;
     font-weight: 700;
     cursor: pointer;
+}
+
+.creditText a:hover {
+    color: #a785b8;
 }
 
 /* OTHER STUFF */
@@ -435,7 +442,7 @@ blockquote {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #5379c4;
+    color: #6d9e42;
     font-weight: 800;
 }
 
@@ -448,7 +455,7 @@ blockquote {
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
-    color: #5379c4;
+    color: #6d9e42;
 }
 
 /*add to wrapping div*/
@@ -461,7 +468,7 @@ blockquote {
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #5379c4;
+    color: #6d9e42;
 }
 
 /*add to wrapping div*/
@@ -589,7 +596,7 @@ a.projects {
 }
 
 .projects:hover {
-    background-color: rgba( 255, 255, 255, .9)
+    background-color: rgba(255, 255, 255, .9)
 }
 
 .join {
@@ -601,7 +608,7 @@ a.projects {
 }
 
 .join:hover {
-    background-color: rgba( 255, 255, 255, .9)
+    background-color: rgba(255, 255, 255, .9)
 }
 
 a.join {
@@ -609,19 +616,19 @@ a.join {
 }
 
 @media screen and (max-width: 1080px) {
-    
+
     #arthed {
         font-size: 65px;
-        -webkit-text-stroke: 3px #3d3d3d;
+        -webkit-text-stroke: 3px #6d9e42;
         bottom: 35%;
     }
 }
 
 @media screen and (max-width: 810px) {
-    
+
     #arthed {
         font-size: 50px;
-        -webkit-text-stroke: 2px #3d3d3d;
+        -webkit-text-stroke: 2px #6d9e42;
     }
 }
 
@@ -638,7 +645,7 @@ a.join {
         height: 25px;
     }
 
-    .date p{
+    .date p {
         width: 80%;
         padding: 0 10%;
         text-align: left;
@@ -688,7 +695,7 @@ a.join {
         text-align: center;
         margin-top: 30px;
     }
-    
+
     .back-button {
         width: 100%;
     }
@@ -709,10 +716,9 @@ a.join {
 }
 
 @media screen and (max-width: 590px) {
-    
+
     #arthed {
         font-size: 40px;
-        -webkit-text-stroke: 1px #3d3d3d;
-            text-shadow: 2px 1px 2px #000;
+        text-shadow: 2px 1px 2px #000;
     }
 }

@@ -6,16 +6,18 @@ Please contact at taylorfjohnston@gmail.com with questions.*/
 /* GENERAL STYLES */
 body {
     font-family: montserrat, sans-serif;
-    background-color: #FFF;
+    background-color: #fcf7ff;
     color: #030406;
+    
 }
 
 a {
-    color: #7fc448;
+    color: #2fd2e4;
     text-decoration: none;
 }
 
 body a:hover {
+    color: #ad97b8;
     opacity: .6;
 }
 
@@ -161,7 +163,7 @@ h4 {
 /* INTRO CONTAINER*/
 
 h1.headline {
-    color: #3d3d3d;
+    color: #647950;
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
@@ -184,12 +186,14 @@ h1.headline {
     line-height: 1.5em;
     width: 60%;
     padding: 0 20%;
-    color: #3d3d3d;
+    color: #2f3d20;
 }
 
 p.signature {
     text-align: center;
     margin-top: 5px;
+    font-size: 1.1em;
+    font-weight: 600;
 }
 
 .landing-intro {
@@ -197,11 +201,11 @@ p.signature {
     font-size: 36px;
     display: block;
     padding: 0 10%;
-    color: #3d3d3d;
+    color: #2f3d20;
 }
 
 .s-headline {
-    color: #3d3d3d;
+    color: #647950;
     width: 80%;
     margin: 0;
     font-size: 40px;
@@ -210,7 +214,7 @@ p.signature {
 }
 
 p.s-headline {
-    color: #3d3d3d;
+    color: #ece0f2;
     padding: 0 10%;
     width: 80%;
     font-size: 30px;
@@ -220,11 +224,11 @@ p.s-headline {
 }
 
 p.s-headline a {
-    color: #7fc448;
+    color: #8bd4db;
 }
 
 p.s-headline a:hover {
-    color: #7fc448;
+    color: #d2c0da;
 }
 
 #socials-content {
@@ -234,7 +238,7 @@ p.s-headline a:hover {
 
 .s-bubble {
     position: relative;
-    background: rgba(0, 0, 0, .1);
+    background: #59296f;
     border-radius: 40px;
 }
 
@@ -246,7 +250,7 @@ p.s-headline a:hover {
     width: 0;
     height: 0;
     border: 25px solid transparent;
-    border-top-color: rgba(0, 0, 0, .1);
+    border-top-color: #59296f;
     border-bottom: 0;
     margin-left: -25px;
     margin-bottom: -25px;
@@ -273,7 +277,7 @@ div.handle-div {
 
 .circle-button {
     font-family: 'Roboto', sans-serif;
-    color: #3d3d3d;
+    color: #8bd4db;
     display: inline-block;
     font-size: 2rem;
     border-radius: 50%;

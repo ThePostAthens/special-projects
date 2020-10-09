@@ -220,10 +220,12 @@ p.s-headline {
     color: #ece0f2;
     padding: 0 10%;
     width: 80%;
-    font-size: 30px;
-    font-weight: 900;
+    font-size: 34px;
     text-transform: none;
     text-align: left;
+    font-family: 'Concert One', cursive;
+    font-weight: 100;
+    letter-spacing: .5px;
 }
 
 p.s-headline a {
@@ -795,7 +797,7 @@ a.end {
 
 @media screen and (max-width: 590px) {
     p.s-headline {
-        font-size: 20px;
+        font-size: 27px;
     }
 }
 

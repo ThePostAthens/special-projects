@@ -278,12 +278,14 @@ a.end {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 1080px) {
-    
-}
+@media screen and (max-width: 1080px) {}
 
 @media screen and (max-width: 750px) {
 
+    #toggle li {
+        font-size: 28px;
+    }
+    
     .column20center {
         width: 80%;
         padding: 0 10%;
@@ -291,6 +293,16 @@ a.end {
 
     #logo {
         height: 25px;
+    }
+
+    .updates {
+        -webkit-text-stroke: 1px #fd4444;
+        text-shadow: 1px 2px 10px #fd4444;
+    }
+
+    .articles {
+        -webkit-text-stroke: 1px #5c89ff;
+        text-shadow: 1px 2px 10px #5c89ff;
     }
 
     .date {
@@ -303,11 +315,6 @@ a.end {
     }
 }
 
-@media screen and (max-width: 720px) {
-    
-}
+@media screen and (max-width: 720px) {}
 
-@media screen and (max-width: 500px) {
-    
-}
-
+@media screen and (max-width: 500px) {}

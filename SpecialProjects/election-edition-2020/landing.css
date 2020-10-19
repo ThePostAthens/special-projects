@@ -148,7 +148,7 @@ h4 {
     margin-bottom: 20px;
     border-bottom: 8px dotted #3d3d3d;
     background-color: #fff;
-    padding: 0 50px;
+    padding: 20px 50px 40px 50px;
 }
 
 .dem {
@@ -338,12 +338,11 @@ a.end {
     .results_cont {
         display: flex;
         flex-direction: column;
-        padding-bottom: 60px;
         margin-bottom: 20px;
         border-bottom: 8px dotted #3d3d3d;
         background-color: #fff;
-        padding: 0 20%;
         align-items: left;
+        padding: 20px 20% 60px 20%;
     }
     
     .results_cont h2 {
@@ -387,9 +386,6 @@ a.end {
 }
 
 @media screen and (max-width: 720px) {
-    #toggle li {
-        font-size: 28px;
-    }
     
     span.numberD {
         padding: 5px 250px 5px 10px;

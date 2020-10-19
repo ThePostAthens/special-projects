@@ -1,0 +1,290 @@
+/* Template.css
+This is a template for special projects at The Post.
+Template originally coded by Taylor Johnston, digital managing editor at The Post.
+Please contact at taylorfjohnston@gmail.com with questions.*/
+
+/* GENERAL STYLES */
+body {
+    font-family: montserrat, sans-serif;
+    background-color: #FFF;
+    color: #030406;
+}
+
+a {
+    color: #7fc448;
+    text-decoration: none;
+}
+
+
+h3 {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* NAVIGATION BAR */
+#nav_bar {
+    background: #292929;
+    color: #FFF;
+    height: 52px;
+}
+
+#nav_bar img {
+    height: 30px;
+    padding: 10px;
+    float: left;
+}
+
+#nav_bar li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    float: right;
+}
+
+#nav_bar ul {
+    margin: 0;
+}
+
+#nav_bar li #facebook {
+    color: #fff;
+}
+
+#nav_bar li #facebook:hover {
+    color: #337ab7;
+    opacity: 1;
+}
+
+#nav_bar li #twitter {
+    color: #fff;
+}
+
+#nav_bar li #twitter:hover {
+    color: #55ACEE;
+    opacity: 1;
+}
+
+#nav_bar li #instagram {
+    color: #fff;
+}
+
+#nav_bar li #instagram:hover {
+    color: #efc04a;
+    opacity: 1;
+}
+
+#logo {
+    z-index: 1;
+    position: absolute;
+    float: left;
+    height: 30px;
+    padding: 7px;
+}
+
+/* HERO IMAGE */
+#heroimg {
+    width: 100%;
+    position: relative;
+}
+
+#heroimg img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* HEADLINE STYLES */
+h1,
+h2,
+h3,
+h4 {
+    margin-bottom: 1.2px;
+}
+.cutline {
+    float: left;
+    text-align: left;
+    margin: 0;
+    color: #000;
+    font-size: 12px;
+    width: 90%;
+    padding: 0;
+    padding-left: 10px;
+}
+
+/* CONTENT */
+#toggle ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#toggle a {
+    width: 50%;
+    text-align: center;
+    background-color: cadetblue;
+    color: #3d3d3d;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+#toggle li:hover {
+    color: #fff;
+     -webkit-text-stroke: 1px #3d3d3d;
+    text-shadow: 1px 2px 2px #3d3d3d;
+    transition: ease-in-out .2s;
+}
+
+
+
+
+
+
+
+/*apply to wrapping span tag*/
+.title {
+    color: #606060;
+}
+
+/*add to wrapping div*/
+.attribution {
+    font-size: 20px;
+    text-transform: none;
+    display: block;
+    text-align: right;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0 5%;
+    width: 90%;
+}
+
+
+
+/* SPECIAL PROJECT FOOTER */
+.footer {
+    color: #FFF;
+    font-family: 'Playfair Display';
+    width: 100%;
+    height: 200px;
+    text-shadow: 2px 2px 5px #000;
+    background-color: #292929;
+    display: table;
+}
+
+.footer_inside {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+a.end {
+    color: #fff;
+}
+
+.footer h2 {
+    font-size: 40px;
+    width: 70%;
+    padding: 0 15%;
+    margin: 0;
+    line-height: 35px;
+}
+
+.footer p {
+    font-family: 'Montserrat';
+    margin: 0;
+    width: 70%;
+    padding: 10px 15% 0 15%;
+}
+
+.copyright {
+    color: #FFF;
+    font-family: 'Montserrat';
+    width: 100%;
+    height: 20px;
+    text-shadow: 2px 2px 5px #000;
+    background-color: #171717;
+    display: table;
+}
+
+.copyright_inside {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.copyright p {
+    font-family: 'Montserrat';
+    margin: 0;
+    width: 70%;
+    padding: 13px 15% 15px 15%;
+}
+
+.btn-container {
+    margin-left: 20px;
+}
+
+.projects {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.projects:hover {
+    background-color: white;
+}
+
+.join {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.join:hover {
+    background-color: white;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1080px) {
+    
+}
+
+@media screen and (max-width: 750px) {
+
+    .column20center {
+        width: 80%;
+        padding: 0 10%;
+    }
+
+    #logo {
+        height: 25px;
+    }
+
+    .date {
+        padding: 0 10%;
+        width: 80%;
+    }
+
+    .footer {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    
+}
+
+@media screen and (max-width: 500px) {
+    
+}
+

@@ -111,52 +111,9 @@ h4 {
     margin-top: 75px;
 }
 
-.cutline {
-    float: left;
-    text-align: left;
-    margin: 0;
-    color: #000;
-    font-size: 12px;
-    width: auto;
-    padding: 0 10px;
-    transform: translate(0px, 300px);
-}
-
 /* CONTENT */
-#toggle ul {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
 
-#toggle a {
-    width: 50%;
-    text-align: center;
-    background-color: cadetblue;
-    color: #3d3d3d;
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 36px;
-    font-weight: 600;
-}
 
-#toggle li:hover {
-    color: #fff;
-    -webkit-text-stroke: 1px #3d3d3d;
-    text-shadow: 1px 2px 2px #3d3d3d;
-    transition: ease-in-out .2s;
-}
-
-#toggle li:active {
-    background-color: red;
-}
 
 #desktop {
     display: flex;

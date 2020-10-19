@@ -97,16 +97,6 @@ a {
     padding: 7px;
 }
 
-/* HERO IMAGE */
-#heroimg {
-    width: 100%;
-    position: relative;
-}
-
-#heroimg img {
-    width: 100%;
-}
-
 
 
 /* Pick one font depending on design (or find another one) */
@@ -119,17 +109,6 @@ a {
     text-transform: capitalize;
     line-height: 70px;
     margin: 50px 0px 10px 0px;
-}
-
-.cutline {
-    float: left;
-    text-align: left;
-    margin: 0;
-    color: #000;
-    font-size: 12px;
-    width: 90%;
-    padding: 0;
-    padding-left: 10px;
 }
 
 

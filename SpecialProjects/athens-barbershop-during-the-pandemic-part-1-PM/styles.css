@@ -10,6 +10,12 @@ body {
     color: #030406;
 }
 
+ins.adsbygoogle {
+    display:block; 
+    text-align:center; 
+    height: 100px;
+}
+
 a {
     color: #c7a254;
     text-decoration: none;

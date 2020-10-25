@@ -144,28 +144,38 @@ h4 {
     width: 90%;
     height: 60%;
     padding-top: 10px;
+    color: #fff;
+    -webkit-text-stroke: 1px #3d3d3d;
+    text-shadow: 1px 2px 10px #000;
 }
 
 #toggle li:hover {
-    color: #fff;
-    -webkit-text-stroke: 1px #3d3d3d;
-    text-shadow: 1px 2px 2px #3d3d3d;
     transition: ease-in-out .4s;
     transform: scale(1.1);
+    text-shadow: 1px 2px 15px #000;
 }
 
-.updates {
-    color: #5c89ff;
-    -webkit-text-stroke: 1.5px #fd4444;
-    text-shadow: 1px 2px 15px #fd4444;
+.updates-cont {
+    background: url(img/untitled_artwork-2.png);
 }
 
-.articles {
-    color: #fd4444;
-    -webkit-text-stroke: 1.5px #5c89ff;
-    text-shadow: 1px 2px 15px #5c89ff;
+.articles-cont {
+    background: url(img/untitled_artwork-3.png);
 }
 
+.updates-cont, 
+.articles-cont {
+    filter: saturate(20%);
+    background-size: cover;
+}
+
+.updates-cont:hover, 
+.articles-cont:hover,
+.updates-cont:active, 
+.articles-cont:active{
+    filter: none;
+    transition: ease-in-out .4s;
+}
 
 
 

@@ -140,6 +140,22 @@ h4 {
     align-items: center;
 }
 
+#toggle li.updates:hover {
+    text-shadow: 1px 2px 15px #5c89ff;
+}
+
+#toggle li.updates {
+    text-shadow: 1px 2px 15px #000;
+}
+
+#toggle li.articles:hover {
+    text-shadow: 1px 2px 15px #ba1701;
+}
+
+.updates-cont {
+    filter: none;
+}
+
 /* RESULTS */
 .results_cont {
     display: flex;
@@ -344,7 +360,7 @@ a.end {
         align-items: left;
         padding: 20px 20% 60px 20%;
     }
-    
+
     .results_cont h2 {
         font-size: 24px;
     }
@@ -374,7 +390,7 @@ a.end {
         justify-content: center;
         align-items: center;
     }
-    
+
     .twitter_cont {
         width: 70%;
         max-height: 500px;
@@ -386,7 +402,7 @@ a.end {
 }
 
 @media screen and (max-width: 720px) {
-    
+
     span.numberD {
         padding: 5px 250px 5px 10px;
         transition: ease-in-out .5s;

@@ -140,15 +140,15 @@ h4 {
     align-items: center;
 }
 
-#toggle li.updates:hover {
+#toggle li.articles:hover {
     text-shadow: 1px 2px 15px #5c89ff;
 }
 
-#toggle li.updates {
+#toggle li.articles {
     text-shadow: 1px 2px 15px #000;
 }
 
-#toggle li.articles:hover {
+#toggle li.updates:hover {
     text-shadow: 1px 2px 15px #ba1701;
 }
 

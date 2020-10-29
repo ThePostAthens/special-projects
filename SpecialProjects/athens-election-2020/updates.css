@@ -136,7 +136,7 @@ h4 {
     float: right;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -184,11 +184,21 @@ span.numberR {
     padding: 5px 225px 5px 10px;
 }
 
+/*LIVE BLOG*/
+#LB24_LIVE_CONTENT {
+    height: auto;
+}
 
+/*ADVERTS*/
+.advert {
+    background-color: red;
+    overflow: hidden;
+    max-width: 70%;
+}
 
 
 /* TWITTER TIMELINE */
-.twitter_cont {
+/*.twitter_cont {
     overflow: scroll;
     width: 80%;
     margin: 0px 0px 80px 0px;
@@ -200,7 +210,7 @@ span.numberR {
 
 .twitter-follow-button {
     margin: 0px 0px 10px 0px;
-}
+}*/
 
 
 
@@ -384,7 +394,7 @@ a.end {
 
 
     /* MOBILE TWITTER TIMELINE */
-    .timeline {
+    /*.timeline {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -394,7 +404,7 @@ a.end {
     .twitter_cont {
         width: 70%;
         max-height: 500px;
-    }
+    }*/
 
     .footer {
         height: 300px;

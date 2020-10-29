@@ -245,7 +245,14 @@ p a:hover {
 }
 
 .advert {
-    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+.adsbygoogle {
+    width: auto;
+    height: auto;
+    padding-left: 0 20%;
 }
 
 .post-credits {
@@ -633,6 +640,12 @@ iframe.yt-vid {
 
     .footer {
         height: 300px;
+    }
+
+    .adsbygoogle {
+        width: 40%;
+        height: auto;
+        padding-left: 10%;
     }
 }
 

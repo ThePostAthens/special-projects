@@ -245,14 +245,9 @@ p a:hover {
 }
 
 .advert {
-    width: auto;
-    height: auto;
-}
-
-.adsbygoogle {
-    width: auto;
-    height: auto;
-    padding-left: 0 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .post-credits {

@@ -249,6 +249,12 @@ p a:hover {
     height: auto;
 }
 
+.adsbygoogle {
+    width: auto;
+    height: auto;
+    padding-left: 20%;
+}
+
 .post-credits {
     width: 70%;
     padding: 0 15%;
@@ -637,8 +643,9 @@ iframe.yt-vid {
     }
 
     .adsbygoogle {
-        max-width: 60%;
+        width: 40%;
         height: auto;
+        padding-left: 10%;
     }
 }
 

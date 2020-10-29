@@ -467,7 +467,7 @@ iframe.spodify {
 
 /* ADVERTS */
 .post-credits {
-    padding-left: 20%;
+    margin-left: 20%;
 }
 
 
@@ -644,7 +644,7 @@ a.join {
     }
     
     .post-credits {
-        padding-left: 10%;
+        margin-left: 10%;
     }
 
     .footer {

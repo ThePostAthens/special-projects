@@ -245,8 +245,7 @@ p a:hover {
 }
 
 .advert {
-    width: 60%;
-    padding: 0 20%;
+    width: auto;
     height: auto;
 }
 
@@ -573,11 +572,6 @@ iframe.yt-vid {
     p {
         width: 80%;
         padding: 0 10%;
-    }
-    
-    .advert {
-    width: 80%;
-    padding: 0 10%;
     }
 
     #logo {

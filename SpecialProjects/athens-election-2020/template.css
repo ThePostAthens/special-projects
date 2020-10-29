@@ -465,11 +465,6 @@ iframe.spodify {
     display: none;
 }
 
-/* ADVERTS */
-.post-credits {
-    margin-left: 20%;
-}
-
 
 /* SPECIAL PROJECT FOOTER */
 .footer {
@@ -641,10 +636,6 @@ a.join {
         max-width: 100%;
         text-align: left;
         margin-left: 50px;
-    }
-    
-    .post-credits {
-        margin-left: 10%;
     }
 
     .footer {

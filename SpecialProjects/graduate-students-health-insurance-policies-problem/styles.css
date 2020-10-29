@@ -245,14 +245,10 @@ p a:hover {
 }
 
 .advert {
-    width: auto;
-    height: auto;
-}
-
-.adsbygoogle {
-    width: auto;
-    height: auto;
-    padding-left: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .post-credits {
@@ -640,12 +636,6 @@ iframe.yt-vid {
 
     .footer {
         height: 300px;
-    }
-
-    .adsbygoogle {
-        width: 40%;
-        height: auto;
-        padding-left: 10%;
     }
 }
 

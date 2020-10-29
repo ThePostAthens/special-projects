@@ -558,7 +558,7 @@ iframe.yt-vid {
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1080px) {
-    
+
     .yt_center,
     .yt_right,
     .yt_left {
@@ -616,12 +616,12 @@ iframe.yt-vid {
     .subhed {
         padding: 0 10%;
     }
-    
+
     .yt_center {
         width: 80%;
         padding: 0 10%;
     }
-    
+
     .yt_right {
         height: 265px;
     }
@@ -635,13 +635,18 @@ iframe.yt-vid {
     .footer {
         height: 300px;
     }
+
+    .adsbygoogle {
+        max-width: 60%;
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 720px) {
     .yt_right {
         height: 215px;
     }
-    
+
     .yt_left {
         height: 215px;
     }
@@ -655,7 +660,7 @@ iframe.yt-vid {
         float: none;
         height: 230px;
     }
-    
+
     .yt_left {
         width: 80%;
         padding: 0 10%;
@@ -664,4 +669,3 @@ iframe.yt-vid {
         height: 230px;
     }
 }
-

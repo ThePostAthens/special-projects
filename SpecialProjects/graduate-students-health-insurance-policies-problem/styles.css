@@ -244,7 +244,7 @@ p a:hover {
     color: none;
 }
 
-.in-article {
+.advert {
     width: 60%;
     padding: 0 20%;
     height: auto;
@@ -575,8 +575,7 @@ iframe.yt-vid {
         padding: 0 10%;
     }
     
-    .in-article,
-    .post-credits {
+    .advert {
     width: 80%;
     padding: 0 10%;
     }

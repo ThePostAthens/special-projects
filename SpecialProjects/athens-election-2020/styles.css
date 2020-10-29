@@ -163,16 +163,16 @@ h4 {
     background: url(img/untitled_artwork-3.png);
 }
 
-.updates-cont, 
+.updates-cont,
 .articles-cont {
     filter: saturate(20%);
     background-size: cover;
 }
 
-.updates-cont:hover, 
+.updates-cont:hover,
 .articles-cont:hover,
-.updates-cont:active, 
-.articles-cont:active{
+.updates-cont:active,
+.articles-cont:active {
     filter: none;
     transition: ease-in-out .4s;
 }
@@ -200,7 +200,6 @@ h4 {
     padding: 0 5%;
     width: 90%;
 }
-
 
 
 /* SPECIAL PROJECT FOOTER */
@@ -295,7 +294,7 @@ a.end {
     #toggle li {
         font-size: 28px;
     }
-    
+
     .column20center {
         width: 80%;
         padding: 0 10%;

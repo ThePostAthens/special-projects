@@ -181,9 +181,9 @@ span.numberR {
 
 /*ADVERTS*/
 .advert {
-    background-color: red;
-    overflow: hidden;
-    max-width: 70%;
+    overflow: scroll;
+    width: auto;
+    margin: 15px 0;
 }
 
 

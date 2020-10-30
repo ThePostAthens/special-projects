@@ -85,17 +85,6 @@ h3 {
     padding: 7px;
 }
 
-/* HERO IMAGE */
-#heroimg {
-    width: 100%;
-    position: relative;
-}
-
-#heroimg img {
-    width: 100%;
-    height: 300px;
-}
-
 /* HEADLINE STYLES */
 h1,
 h2,
@@ -187,6 +176,7 @@ span.numberR {
 /*LIVE BLOG*/
 #LB24_LIVE_CONTENT {
     height: auto;
+    width: 50%;
 }
 
 /*ADVERTS*/
@@ -383,7 +373,6 @@ a.end {
         background-color: blue;
         color: #fff;
         padding: 5px 300px 5px 10px;
-
     }
 
     span.numberR {

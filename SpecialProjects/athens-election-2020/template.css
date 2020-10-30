@@ -161,7 +161,7 @@ h4 {
 .cutline {
     float: left;
     text-align: left;
-    margin: 0;
+    margin: 5px 0;
     color: #000;
     font-size: 12px;
     width: 90%;

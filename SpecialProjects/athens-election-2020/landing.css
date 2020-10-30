@@ -116,7 +116,7 @@ a {
 
 h1.header {
     color: #3d3d3d;
-    padding: 50px 10%;;
+    padding: 50px 10%;
     width: 80%;
     margin: 0;
     font-size: 40px;
@@ -175,11 +175,12 @@ p.s-headline {
 }
 
 p.s-headline a {
-    color: #7fc448;
+    color: #e9ec8f;
+    -webkit-text-stroke: .8px #000;
 }
 
 p.s-headline a:hover {
-    color: #7fc448;
+    color: #fff;
 }
 
 #socials-content {
@@ -189,8 +190,10 @@ p.s-headline a:hover {
 
 .s-bubble {
     position: relative;
-    background: #ccc;
+    background: linear-gradient(0deg, rgba(0, 129, 255, .2) 0%, rgba(255, 71, 0, .2) 100%);
     border-radius: 40px;
+    border: 4px solid;
+    border-color: rgba(255, 71, 0, 1) rgba(0, 129, 255, 1) rgba(0, 129, 255, 1) rgba(255, 71, 0, 1);
 }
 
 .bubble4:after {
@@ -201,7 +204,7 @@ p.s-headline a:hover {
     width: 0;
     height: 0;
     border: 25px solid transparent;
-    border-top-color: #ccc;
+    border-top-color: rgba(0, 129, 255, 1);
     border-bottom: 0;
     margin-left: -25px;
     margin-bottom: -25px;
@@ -352,7 +355,7 @@ p a:hover {
     margin: 0 5%;
     background-color: #fff;
     border: .5px solid #999999;
-    border-radius: 10%;
+    border-radius: 50px;
     margin-bottom: 20px;
 }
 
@@ -361,8 +364,8 @@ p a:hover {
     float: left;
     height: 250px;
     object-fit: cover;
-    border-top-left-radius: 10%;
-    border-bottom-left-radius: 10%;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
 }
 
 .story_text {
@@ -635,73 +638,30 @@ a.end {
     .yt_left {
         height: 315px;
     }
-}
-
-@media screen and (max-width: 750px) {
-
-    #desktop {
-        display: none;
-    }
-
-    #mobile {
-        display: visible;
-
-    }
     
     p.s-headline {
         font-size: 27px;
     }
-
-    /* STORIES */
-    .story_cont {
-        margin-bottom: 50px;
-    }
-
-    .story a {
-        width: 70%;
-        margin: 0 15%;
-        background-color: #fff;
-        border-left: .5px solid #999999;
-        border-right: .5px solid #999999;
-    }
-
-    .story img {
-        width: 100%;
-        float: left;
-        height: 250px;
-        object-fit: cover;
-        border: .5px solid #999999;
-    }
-
-    .story_text {
-        width: 60%;
-        height: auto;
-        float: none;
-        justify-content: flex-end;
-        margin: 130px 0px 0px 0px;
-        padding: 20px 5%;
-        border: none;
-        position: absolute;
-        background: #292929;
-        background: -webkit-linear-gradient(rgba(41, 41, 41, 0), rgba(41, 41, 41, 1));
-        color: #fff;
-        position: absolute;
-    }
-
-    h3.headline {
-        font-size: 22px;
-    }
-
-    .pop:hover {
-        transition: ease-in-out .2s;
-        transform: none;
-        box-shadow: 2px 3px 30px #3d3d3d;
-    }
-
-
+    
     h3.date {
-        margin: 0px 0px 10px 0px;
         padding: 0;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+
+    p.s-headline a {
+        color: #fff;
+        -webkit-text-stroke: .9px #000;
+    }
+
+    /*ADVERT*/
+    .advert {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     #logo {
@@ -748,6 +708,54 @@ a.end {
 }
 
 @media screen and (max-width: 720px) {
+    
+    h1.header {
+        font-size: 36px;
+    }
+    
+    p.s-headline a:hover,
+    p.s-headline a:active {
+        color: #e9ec8f;
+    }
+
+    /* STORIES */
+    .story a {
+        width: 80%;
+        margin: 0px 10% 50px 10%;
+        border: 1px solid #999999;
+    }
+
+    .story img {
+        width: 40%;
+    }
+
+    .story_text {
+        width: 60%;
+        height: 250px;
+        padding: 0px 20px 0px 30px;
+    }
+
+    h3.date {
+        width: 100%;
+        padding: 0;
+        font-size: 15px;
+    }
+
+    h3.headline {
+        font-size: 20px;
+    }
+
+    .story p {
+        font-size: 15px;
+    }
+
+    .pop:hover,
+    .pop:active {
+        transition: ease-in-out .4s;
+        transform: scale(1.05);
+        box-shadow: 1px 2px 20px #7a7a7a;
+    }
+
     .yt_right {
         height: 215px;
     }
@@ -758,13 +766,46 @@ a.end {
 }
 
 @media screen and (max-width: 595px) {
+    
+    h1.header {
+        width: 90%;
+        font-size: 32px;
+        padding: 30px 5%;
+    }
+    
     p.s-headline {
         font-size: 22px;
     }
-    
+
+    /* STORIES */
+    .story a {
+        width: 80%;
+        margin: 0px 10% 50px 10%;
+        border: 1px solid #999999;
+    }
+
+    .story img {
+        width: 40%;
+    }
+
     .story_text {
-        margin: 100px 0px 0px 0px;
-        padding: 22px 5%;
+        width: 60%;
+        height: 250px;
+        padding: 0px 20px 0px 30px;
+    }
+
+    h3.date {
+        width: 100%;
+        padding: 0;
+        font-size: 15px;
+    }
+
+    h3.headline {
+        font-size: 20px;
+    }
+
+    .story p {
+        font-size: 15px;
     }
 }
 
@@ -784,48 +825,26 @@ a.end {
         float: none;
         height: 230px;
     }
-    
+
     .story_text {
-        margin: 115px 0px 0px 0px;
-        padding: 20px 5%;
+        margin: 0;
+        padding: 0px 5%;
     }
-    
+
     h3.date {
         width: 100%;
         font-size: 14px;
     }
-    
+
     h3.headline {
         font-size: 20px;
     }
-    
+
     .story p {
         font-size: 14px;
     }
-    
-    
+
 }
 
 @media screen and (max-width: 400px) {
-    
-    
-    
-    
-    .story_text {
-        width: 50%;
-        height: auto;
-        margin: 0px 0px 0px 0px;
-        padding: 10%;
-        background: none;
-        text-shadow: 1px 2px 20px #3d3d3d;
-        font-weight: 100;
-        text-align: center
-    }
-    
-    h3.date,
-    .summ {
-        display: none;
-    }
-    
-    
 }

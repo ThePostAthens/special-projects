@@ -175,12 +175,12 @@ p.s-headline {
 }
 
 p.s-headline a {
-    color: #e9ec8f;
-    -webkit-text-stroke: .8px #000;
+    color: #9d96c9;
 }
 
 p.s-headline a:hover {
     color: #fff;
+    text-decoration: underline;
 }
 
 #socials-content {
@@ -653,7 +653,6 @@ a.end {
 
     p.s-headline a {
         color: #fff;
-        -webkit-text-stroke: .9px #000;
     }
 
     /*ADVERT*/
@@ -715,7 +714,7 @@ a.end {
     
     p.s-headline a:hover,
     p.s-headline a:active {
-        color: #e9ec8f;
+        color: #9d96c9;
     }
 
     /* STORIES */

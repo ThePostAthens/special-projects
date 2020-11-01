@@ -380,6 +380,10 @@ a.end {
         padding: 5px 225px 5px 10px;
     }
 
+    #LB24_LIVE_CONTENT {
+    height: auto;
+    width: 100%;
+    }   
 
     /* MOBILE TWITTER TIMELINE */
     /*.timeline {

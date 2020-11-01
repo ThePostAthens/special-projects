@@ -180,10 +180,9 @@ span.numberR {
 }
 
 /*ADVERTS*/
-.advert {
-    overflow: scroll;
-    width: auto;
-    margin: 15px 0;
+.adsbygoogle {
+    width: 300px;
+    height: 200px;
 }
 
 

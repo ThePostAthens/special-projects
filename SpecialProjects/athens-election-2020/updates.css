@@ -156,6 +156,15 @@ h4 {
     padding: 20px 50px 40px 50px;
 }
 
+.results_cont h2 {
+    text-align: center;
+}
+
+.timestamp {
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+}
+
 .dem {
     margin: 20px 0px 0px 5px;
 }

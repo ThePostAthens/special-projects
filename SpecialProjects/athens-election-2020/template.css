@@ -318,6 +318,17 @@ p.intro {
     float: right;
 }
 
+.flourish-embed {
+    width: 80%;
+    padding: 0 10px;
+}
+
+.oneimg_split {
+    width: 80%;
+    padding: 0 10%;
+    display: flex;
+}
+
 /*Apply to a wrapping div*/
 .oneimg_left {
     width: 40%;

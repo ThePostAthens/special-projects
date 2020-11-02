@@ -160,6 +160,13 @@ h4 {
     margin: 20px 0px 0px 5px;
 }
 
+span {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 15px;
+}
+
 span.numberD {
     background-color: blue;
     color: #fff;
@@ -181,8 +188,7 @@ span.numberR {
 
 /*ADVERTS*/
 .adsbygoogle {
-    width: 300px;
-    height: 200px;
+    
 }
 
 

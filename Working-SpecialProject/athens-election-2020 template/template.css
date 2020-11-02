@@ -128,16 +128,17 @@ h3 {
 #arthed {
     color: #FFF;
     position: absolute;
-    bottom: 35%;
+    bottom: 40%;
     padding: 0 10%;
     margin: 0;
-    font-size: 90px;
+    font-size: 80px;
     font-weight: 700;
+    line-height: 100px;
     text-align: center;
-    text-shadow: 2px 2px 3px #000;
-    -webkit-text-stroke: 4px #000;
-    text-transform: capitalize;
     width: 80%;
+    text-shadow: 2px 2px 3px #3d3d3d;
+    -webkit-text-stroke: 4px #3d3d3d;
+    text-transform: capitalize;
 }
 
 /* HEADLINE STYLES */
@@ -160,7 +161,7 @@ h4 {
 .cutline {
     float: left;
     text-align: left;
-    margin: 0;
+    margin: 5px 0;
     color: #000;
     font-size: 12px;
     width: 90%;
@@ -254,73 +255,32 @@ p.intro {
     text-align: left;
     width: 60%;
     padding: 0 20%;
-    margin: 40px 0px 0px 0px;
+    margin: 40px 0px 30px 0px;
     color: #3d3d3d;
-    height: 70px;
 }
 
-a.backer:hover {
+#back-button a:hover {
     opacity: 1;
 }
 
 .back-button {
+    background-image: linear-gradient(0deg, rgba(0,129,255,1) 0%, rgba(255,71,0,1) 100%);
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 10px 60px;
+    border: hidden;
+    border-radius: 20px;
+    transition: 0.25s ease-in-out;
+}
+
+.back-button:hover {
+    background-image: linear-gradient(0deg, rgba(0,129,255,.1) 0%, rgba(255,71,0,.1) 100%) ;
+    font-weight: 600;
     color: #3d3d3d;
-    width: 150px;
-    transform: translate(0px, -160px);
-    text-align: center;
-    border-radius: 100%;
+    border: 2px solid;
+    border-color: rgba(255,71,0,1) rgba(0,129,255,1) rgba(0,129,255,1) rgba(255,71,0,1);
+    transition: 0.4s ease-in-out;
 }
-
-.bubble {
-    display: inline-block;
-    width: 150px;
-    color: black;
-    height: 50px;
-    border-radius: 15%;
-    position: relative;
-    cursor: pointer;
-    background: radial-gradient(circle at 50% 55%, rgba(240, 245, 255, .9), rgba(240, 245, 255, .9) 40%, rgba(225, 238, 255, .8) 60%, rgba(43, 241305, 255, .2));
-    transform: translate(0);
-}
-
-.bubble:before {
-    content: "";
-    display: inline-block;
-    padding-top: 100%;
-}
-
-.bubble:after {
-    content: "";
-    position: absolute;
-    top: 5%;
-    left: 10%;
-    width: 100%;
-    height: 100%;
-    border-radius: 100%;
-    -webkit-filter: blur(3px);
-    z-index: 2;
-    -webkit-transform: rotateZ(110deg);
-    transform: rotateZ(10deg);
-    display: block;
-    background: radial-gradient(circle at 50% 80%, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 74%, white 84%, rgba(255, 255, 255, 0) 100%);
-}
-
-@keyframes pop {
-    from {
-        opacity: 1;
-        transform: translate(0) scale(1, 1);
-    }
-    
-    to {
-        opacity: 0;
-        transform: translate(0) scale(1.25, 1.25);
-    }
-}
-
-.bubble:hover {
-    animation: pop 1s cubic-bezier(0.16, 0.87, 0.48, 0.99) forwards;
-}
-
 
 /* CREDITS */
 .credits {
@@ -604,24 +564,27 @@ a.join {
     color: black;
 }
 
+
+/* MEDIA QUERIES */
 @media screen and (max-width: 1080px) {
-    
+
     #arthed {
-        font-size: 70px;
+        font-size: 65px;
         -webkit-text-stroke: 3px #3d3d3d;
-        bottom: 30%;
+        bottom: 35%;
+        line-height: 80px;
     }
 }
 
 @media screen and (max-width: 810px) {
-    
+
     #arthed {
         font-size: 50px;
         -webkit-text-stroke: 2px #3d3d3d;
+        line-height: 60px;
     }
 }
 
-/* MEDIA QUERIES */
 @media screen and (max-width: 750px) {
 
     .column20center,
@@ -641,7 +604,9 @@ a.join {
     }
 
     #arthed {
-        bottom: 35%;
+        font-size: 50px;
+        -webkit-text-stroke: 2px #3d3d3d;
+        bottom: 30%;
     }
 
     .headline {
@@ -688,10 +653,6 @@ a.join {
         text-align: center;
         margin-top: 30px;
     }
-    
-    .back-button {
-        width: 100%;
-    }
 
     .credits {
         max-width: 100%;
@@ -709,11 +670,10 @@ a.join {
 }
 
 @media screen and (max-width: 590px) {
-    
+
     #arthed {
         font-size: 40px;
-        -webkit-text-stroke: 1px #3d3d3d;
-            text-shadow: 2px 1px 2px #000;
-        bottom: 30%;
+        -webkit-text-stroke: 2px #3d3d3d;
+        line-height: 50px;
     }
 }

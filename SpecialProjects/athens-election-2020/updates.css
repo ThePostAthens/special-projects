@@ -117,7 +117,7 @@ h4 {
     width: 50%;
     float: left;
     border-right: 8px dotted #3d3d3d;
-    overflow: scroll;
+
 }
 
 .right {
@@ -149,11 +149,11 @@ h4 {
 .results_cont {
     display: flex;
     flex-direction: column;
-    padding-bottom: 60px;
-    margin-bottom: 20px;
     border-bottom: 8px dotted #3d3d3d;
-    background-color: #fff;
-    padding: 20px 50px 40px 50px;
+    padding: 20px 50px;
+    margin: 50px 0px 0px 0px;
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 20px 20px 0px 0px;
 }
 
 .results_cont h2 {
@@ -196,9 +196,7 @@ span.numberR {
 }
 
 /*ADVERTS*/
-.adsbygoogle {
-    
-}
+.adsbygoogle {}
 
 
 /* TWITTER TIMELINE */
@@ -364,15 +362,56 @@ a.end {
         flex-direction: column;
     }
 
+    button.go-to-live {
+        font-family: font-family: montserrat, sans-serif;
+        width: 80%;
+        color: white;
+        border: none;
+        border-radius: 0px 0px 20px 20px;
+        background-color: #9d96c9;
+        font-weight: 700;
+        font-size: 30px;
+        margin: 0 10%;
+        padding: 20px 0px;
+        cursor: pointer;
+    }
+
+    #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        border: none;
+        outline: none;
+        background-color: red;
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        border-radius: 10px;
+        font-size: 18px;
+    }
+
+    #myBtn:hover {
+        background-color: #555;
+        /* Add a dark-grey background on hover */
+    }
+
+    .live_cont {
+        border-bottom: 8px dotted #3d3d3d;
+        margin: 50px 5% 20px 5%;
+        width: 90%;
+        background-color: rgba(0, 0, 0, 0.1);
+        border-radius: 20px 20px 0px 0px;
+    }
+
     /* MOBILE RESULTS */
     .results_cont {
         display: flex;
         flex-direction: column;
-        margin-bottom: 20px;
         border-bottom: 8px dotted #3d3d3d;
-        background-color: #fff;
         align-items: left;
-        padding: 20px 20% 60px 20%;
+        margin: 50px 10% 0px 10%;
     }
 
     .results_cont h2 {
@@ -396,9 +435,9 @@ a.end {
     }
 
     #LB24_LIVE_CONTENT {
-    height: auto;
-    width: 100%;
-    }   
+        height: auto;
+        width: 100%;
+    }
 
     /* MOBILE TWITTER TIMELINE */
     /*.timeline {

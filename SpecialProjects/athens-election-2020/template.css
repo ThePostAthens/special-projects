@@ -11,7 +11,7 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: #9d96c9;
     text-decoration: none;
 }
 
@@ -237,6 +237,10 @@ ul.share-buttons img {
     width: 32px;
 }
 
+i.share {
+    color: #9d96c9;
+}
+
 /* CONTENT */
 p.intro {
     font-size: 20px;
@@ -248,6 +252,7 @@ p.intro {
     font-size: 2.9em;
     line-height: .9em;
     padding-right: 5px;
+    color: #9d96c9;
 }
 
 .story_ad {
@@ -308,7 +313,7 @@ p.intro {
 }
 
 .creditText a {
-    color: #c7002b;
+    color: #9d96c9;
     font-weight: 700;
     cursor: pointer;
 }

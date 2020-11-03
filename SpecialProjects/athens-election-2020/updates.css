@@ -191,8 +191,8 @@ span.numberR {
 
 /*LIVE BLOG*/
 #LB24_LIVE_CONTENT {
-    height: auto;
     width: 50%;
+    overflow: scroll;
 }
 
 /*ADVERTS*/

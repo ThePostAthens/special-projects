@@ -401,11 +401,9 @@ h3.headline {
 }
 
 /*ADVERT*/
-.advert {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.landing_ad {
+    width: 80%;
+    margin: 0 10%;
 }
 
 

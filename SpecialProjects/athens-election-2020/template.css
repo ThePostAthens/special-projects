@@ -250,6 +250,16 @@ p.intro {
     padding-right: 5px;
 }
 
+.story_ad {
+    width: 60%;
+    margin: 0 20%;
+}
+
+.credits_ad {
+    width: 80%;
+    margin: 0 10%;
+}
+
 /* BACK BUTTON*/
 #back-button {
     text-align: left;
@@ -302,6 +312,8 @@ p.intro {
     font-weight: 700;
     cursor: pointer;
 }
+
+
 
 /* OTHER STUFF */
 /* IMAGE BLOCKS */

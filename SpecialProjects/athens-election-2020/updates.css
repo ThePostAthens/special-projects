@@ -156,7 +156,11 @@ h4 {
     border-radius: 20px 20px 0px 0px;
 }
 
-.results_cont h2 {
+.updates_title {
+    width: 100%;
+    font-size: 40px;
+    margin-top: 60px;
+    margin-bottom: -30px;
     text-align: center;
 }
 
@@ -471,6 +475,11 @@ a.end {
 }
 
 @media screen and (max-width: 650px) {
+    button.go-to-live {
+        font-size: 26px;
+        padding: 20px 10px;
+    }
+    
     span.numberD {
         background-color: blue;
         color: #fff;

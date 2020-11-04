@@ -11,7 +11,7 @@ body {
 }
 
 a {
-    color: #9d96c9;
+    color: crimson;
     text-decoration: none;
 }
 
@@ -125,22 +125,6 @@ h3 {
     width: 100%;
 }
 
-#arthed {
-    color: #FFF;
-    position: absolute;
-    bottom: 40%;
-    padding: 0 10%;
-    margin: 0;
-    font-size: 80px;
-    font-weight: 700;
-    line-height: 100px;
-    text-align: center;
-    width: 80%;
-    text-shadow: 2px 2px 3px #3d3d3d;
-    -webkit-text-stroke: 4px #3d3d3d;
-    text-transform: capitalize;
-}
-
 /* HEADLINE STYLES */
 h1,
 h2,
@@ -149,19 +133,29 @@ h4 {
     margin-bottom: 1.2px;
 }
 
-.date p {
+.date {
+    text-align: center;
     text-transform: uppercase;
-    margin-top: 75px;
     margin-bottom: -40px;
-    padding: 0 15%;
+    margin-top: 75px;
 }
 
-
 /* Pick one font depending on design (or find another one) */
+.arthed {
+    text-align: center;
+    color:crimson;
+    font-size: 60px;
+   font-family: 'Abril Fatface', cursive;
+    /* font-family: "Playfair Display", Georgia, serif; */
+    text-transform: capitalize;
+    line-height: 70px;
+    margin: 50px 0px 10px 0px;
+}
+
 .cutline {
     float: left;
     text-align: left;
-    margin: 5px 0;
+    margin: 0;
     color: #000;
     font-size: 12px;
     width: 90%;
@@ -170,26 +164,17 @@ h4 {
 }
 
 .headline {
-    display: flex;
-    text-align: left;
-    font-family: 'Montserrat', Arial, sans-serif;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
     /* font-family: "Playfair Display", Georgia, serif; */
-    font-size: 36px;
-    margin-top: 40px;
-    text-transform: uppercase;
-    line-height: 42px;
-}
-
-.longhed {
-    font-size: 30px;
-    line-height: 38px;
+    font-size: 25px;
+    margin-top: 1.5px;
 }
 
 /* BYLINE */
 .byline-info {
-    text-align: left;
+    text-align: center;
     display: block;
-    margin-top: -15px;
 }
 
 .byline-info p {
@@ -197,8 +182,9 @@ h4 {
     display: inline-block;
     font-family: 'Montserrat', Arial, sans-serif;
     /* font-family: "Playfair Display", Georgia, serif; */
-    font-size: 15px;
-    text-align: left;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 25px;
 }
 
 .byline-info p:last-of-type {
@@ -207,10 +193,8 @@ h4 {
 
 /* SHARE BUTTONS */
 .share-container {
-    text-align: left;
+    text-align: center;
     margin-top: -20px;
-    width: 60%;
-    padding: 0 20%;
 }
 
 ul.share-buttons {
@@ -238,8 +222,9 @@ ul.share-buttons img {
 }
 
 i.share {
-    color: #9d96c9;
+    color:crimson;
 }
+
 
 /* CONTENT */
 p.intro {
@@ -247,54 +232,16 @@ p.intro {
 }
 
 .dropcap {
+    font-family: 'Abril Fatface', cursive;
     font-weight: 700;
     float: left;
     font-size: 2.9em;
     line-height: .9em;
     padding-right: 5px;
-    color: #9d96c9;
 }
 
-.story_ad {
-    width: 60%;
-    margin: 0 20%;
-}
-
-.credits_ad {
-    width: 80%;
-    margin: 0 10%;
-}
-
-/* BACK BUTTON*/
-#back-button {
-    text-align: left;
-    width: 60%;
-    padding: 0 20%;
-    margin: 40px 0px 30px 0px;
-    color: #3d3d3d;
-}
-
-#back-button a:hover {
-    opacity: 1;
-}
-
-.back-button {
-    background-image: linear-gradient(0deg, rgba(0,129,255,1) 0%, rgba(255,71,0,1) 100%);
-    color: #fff;
-    letter-spacing: 1px;
-    padding: 10px 60px;
-    border: hidden;
-    border-radius: 20px;
-    transition: 0.25s ease-in-out;
-}
-
-.back-button:hover {
-    background-image: linear-gradient(0deg, rgba(0,129,255,.1) 0%, rgba(255,71,0,.1) 100%) ;
-    font-weight: 600;
-    color: #3d3d3d;
-    border: 2px solid;
-    border-color: rgba(255,71,0,1) rgba(0,129,255,1) rgba(0,129,255,1) rgba(255,71,0,1);
-    transition: 0.4s ease-in-out;
+p a:hover {
+    color: none;
 }
 
 /* CREDITS */
@@ -310,15 +257,18 @@ p.intro {
     font-family: 'Montserrat', Arial, sans-serif;
     font-size: 14px;
     margin: 0 1rem 0rem 0;
+    text-transform: capitalize;
 }
 
 .creditText a {
-    color: #9d96c9;
+    color: crimson;
     font-weight: 700;
     cursor: pointer;
 }
 
-
+.creditText a:hover {
+    color: none;
+}
 
 /* OTHER STUFF */
 /* IMAGE BLOCKS */
@@ -333,17 +283,6 @@ p.intro {
     padding-right: 10%;
     padding-left: 10px;
     float: right;
-}
-
-.flourish-embed {
-    width: 80%;
-    padding: 0 10px;
-}
-
-.oneimg_split {
-    width: 80%;
-    padding: 0 10%;
-    display: flex;
 }
 
 /*Apply to a wrapping div*/
@@ -391,14 +330,10 @@ p.intro {
 }
 
 .subhed {
-    font-family: montserrat, sans-serif;
+    font-family: 'Abril Fatface', cursive;
     font-weight: 800;
-    color: #9d96c9;
+    color:crimson;
     padding: 0 20%;
-}
-
-.smallhed {
-    font-size: 1.2em;
 }
 
 /*apply to wrapping span tag*/
@@ -414,12 +349,12 @@ blockquote {
 
 /*add to wrapping div*/
 .pq_center {
+    font-family: 'Abril Fatface', cursive;
     width: 60%;
     padding: 0 20%;
     margin: 0;
     font-size: 25px;
-    text-transform: uppercase;
-    color: #5379c4;
+    color:crimson;
     font-weight: 800;
 }
 
@@ -448,6 +383,48 @@ blockquote {
     color: #5379c4;
 }
 
+/*.twitter-tweet {
+    padding: 0 20%;
+}*/
+
+iframe.spodify {
+    width: 100%;
+}
+
+.instagram-media {
+    margin: 15px auto !important;
+}
+
+/*YOUTUBE EMBED*/
+iframe.yt-vid {
+    width: 100%;
+    height: 100%;
+}
+
+.yt_center {
+    width: 60%;
+    height: 515px;
+    padding: 0 20%;
+}
+
+.yt_right {
+    width: 40%;
+    margin-right: 10%;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    float: right;
+    height: 415px;
+}
+
+.yt_left {
+    width: 40%;
+    margin-left: 10%;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    float: left;
+    height: 415px;
+}
+
 /*add to wrapping div*/
 .attribution {
     font-size: 20px;
@@ -461,24 +438,16 @@ blockquote {
     width: 90%;
 }
 
-iframe.spodify {
-    width: 100%;
-}
-
-.instagram-media {
-    margin: 15px auto !important;
-}
-
 /*----- Gallery Stuff -----*/
 .gallery_bot {
     padding: 0;
     width: 20%;
-    float: center;
+    float: left;
 }
 
 .galleryPcut {
     float: right;
-    text-align: center;
+    text-align: left;
     margin: 0;
     font-weight: 100;
     color: #808080;
@@ -528,10 +497,6 @@ iframe.spodify {
     padding: 10px 15% 0 15%;
 }
 
-.footer a {
-    color: #FFF;
-}
-
 .copyright {
     color: #FFF;
     font-family: 'Montserrat';
@@ -558,22 +523,15 @@ iframe.spodify {
     margin-left: 20px;
 }
 
-
-
 .projects {
     background-color: white;
     color: black;
     padding: 10px;
     border-radius: 5px;
-    text-shadow: none;
-}
-
-a.projects {
-    color: black;
 }
 
 .projects:hover {
-    background-color: rgba( 255, 255, 255, .9)
+    background-color: white;
 }
 
 .join {
@@ -581,35 +539,20 @@ a.projects {
     color: black;
     padding: 10px;
     border-radius: 5px;
-    text-shadow: none;
 }
 
 .join:hover {
-    background-color: rgba( 255, 255, 255, .9)
+    background-color: white;
 }
-
-a.join {
-    color: black;
-}
-
 
 /* MEDIA QUERIES */
+
 @media screen and (max-width: 1080px) {
-
-    #arthed {
-        font-size: 65px;
-        -webkit-text-stroke: 3px #3d3d3d;
-        bottom: 35%;
-        line-height: 80px;
-    }
-}
-
-@media screen and (max-width: 810px) {
-
-    #arthed {
-        font-size: 50px;
-        -webkit-text-stroke: 2px #3d3d3d;
-        line-height: 60px;
+    
+    .yt_center,
+    .yt_right,
+    .yt_left {
+        height: 315px;
     }
 }
 
@@ -625,33 +568,20 @@ a.join {
         height: 25px;
     }
 
-    .date p{
-        width: 80%;
+    .date {
         padding: 0 10%;
-        text-align: left;
+        width: 80%;
     }
 
-    #arthed {
-        font-size: 50px;
-        -webkit-text-stroke: 2px #3d3d3d;
-        bottom: 30%;
+    .arthed {
+        font-size: 60px;
+        line-height: 60px;
     }
 
     .headline {
         width: 80%;
-        padding: 0% 10%;
-        font-size: 30px;
-        text-align: left;
-        line-height: 38px;
-    }
-
-    .byline-info p {
-        text-align: left;
-    }
-
-    .share-container {
-        text-align: left;
-        padding: 0 10%;
+        padding: 0% 10% 0 10%;
+        font-size: 25px;
     }
 
     .oneimg_right,
@@ -676,10 +606,14 @@ a.join {
     .subhed {
         padding: 0 10%;
     }
-
-    #back-button {
-        text-align: center;
-        margin-top: 30px;
+    
+    .yt_center {
+        width: 80%;
+        padding: 0 10%;
+    }
+    
+    .yt_right {
+        height: 265px;
     }
 
     .credits {
@@ -691,17 +625,33 @@ a.join {
     .footer {
         height: 300px;
     }
+}
 
-    .copyright {
-        text-align: center;
+@media screen and (max-width: 720px) {
+    .yt_right {
+        height: 215px;
+    }
+    
+    .yt_left {
+        height: 215px;
     }
 }
 
-@media screen and (max-width: 590px) {
-
-    #arthed {
-        font-size: 40px;
-        -webkit-text-stroke: 2px #3d3d3d;
-        line-height: 50px;
+@media screen and (max-width: 500px) {
+    .yt_right {
+        width: 80%;
+        padding: 0 10%;
+        margin: 0;
+        float: none;
+        height: 230px;
+    }
+    
+    .yt_left {
+        width: 80%;
+        padding: 0 10%;
+        margin: 0;
+        float: none;
+        height: 230px;
     }
 }
+

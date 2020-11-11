@@ -299,11 +299,15 @@ p a:hover {
     padding: 0 20%;
 }
 
-/*mainly for flourish data embeds or if there are many photos for one story*/
+/*side-by-side images*/
 .oneimg_split {
     width: 80%;
     padding: 0 10%;
     display: flex;
+}
+
+.row_img {
+    margin: 0px 10px;
 }
 
 

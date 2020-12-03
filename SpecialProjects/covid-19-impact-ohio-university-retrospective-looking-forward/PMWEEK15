@@ -1,0 +1,291 @@
+<!doctype html>
+<!--
+========================================
+========================================
+THE
+ ______    ______    _____   ________
+/\  __ \  /\  __ \  /\  __\ /\__   __\
+\ \ \_\ \ \ \ \ \ \ \ \ \_/ \/_/\  \_/
+ \ \  ___\ \ \ \ \ \ \ \__ \   \ \  \
+  \ \ \__/  \ \ \_\ \ \/__\ \   \ \  \
+   \ \_\     \ \_____\ /\____\   \ \__\
+    \/_/      \/_____/ \/____/    \/__/
+
+========================================
+======================ASCII by Seth=====
+-->
+
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- FILL OUT THIS CONTENT -->
+
+    <title>Looking back, moving forward</title> <!-- The arthed -->
+    <meta name="description" content="From March to December, 2020 was dominated by the coronavirus pandemic."> <!-- The websum -->
+
+    <meta name="twitter:title" content="A timeline of OU’s pandemic response" /> <!-- The webhed -->
+    <meta name="twitter:description" content="From March to December, 2020 was dominated by the coronavirus pandemic." /> <!-- The websum -->
+    <meta name="twitter:image:src" content="https://s3.amazonaws.com/snwceomedia/ohi/3c03d359-9f29-49ca-a72f-ba8631cca862.sized-1000x1000.png" /> <!-- the img URL -->
+
+    <meta property="og:image" content="https://s3.amazonaws.com/snwceomedia/ohi/3c03d359-9f29-49ca-a72f-ba8631cca862.sized-1000x1000.png" /> <!-- The img URL -->
+
+    <!-- END OF FILL OUT CONTENT -->
+
+    <meta property="og:type" content="article" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="thepost" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='shortcut icon' href='favicon.ico' type='image/x-icon' />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- NAVIGATION BAR -->
+    <div id="nav_bar">
+        <a href="http://www.thepostathens.com"><img src="img/logo.png"></a>
+        <ul>
+            <li><a href="https://twitter.com/ThePost" target="_blank" id="twitter"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://facebook.com/ThePostAthens" target="_blank" id="facebook"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://instagram.com/thepostathens" target="_blank" id="instagram"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+    </div>
+
+    <!-- HERO IMAGE (this can be removed if the design calls for it) -->
+    <div id="heroimg">
+        <img src="https://s3.amazonaws.com/snwceomedia/ohi/3c03d359-9f29-49ca-a72f-ba8631cca862.sized-1000x1000.png" alt="describe pic here">
+           </div>
+
+    <!-- HEADLINES -->
+    <p class="date">Published December 3, 2020</p>
+
+    <h1 class="arthed">Looking back, moving forward</h1>
+
+    <h2 class="headline">A timeline of OU’s pandemic response</h2> <!-- The webhed -->
+
+    <!-- BYLINE -->
+    <section class="byline-info">
+        <p>By <a target="blank" href="https://twitter.com/TaylorBurnette_">Taylor Burnette</a> | Social Media Director</p>
+    </section>
+
+    <!-- SHARE BUTTONS -->
+    <div class="share-container">
+        <ul class="share-buttons">
+            <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fthepostathens.com&quote=" target="_blank" title="Share on Facebook" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&quote=' + encodeURIComponent(document.URL)); return false;"><i class="fab fa-facebook-square fa-2x share" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a></li>
+            <li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fthepostathens.com&text=:%20http%3A%2F%2Fthepostathens.com&via=thepostathens" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20' + encodeURIComponent(document.URL)); return false;"><i class="fab fa-twitter-square fa-2x share" aria-hidden="true"></i><span class="sr-only">Tweet</span></a></li>
+            <li><a href="mailto:tb040917@ohio.edu"><i class="fas fa-envelope-square fa-2x share" aria-hidden="true"></i><span class="sr-only">Send
+                        email</span></a></li>
+        </ul>
+    </div>
+
+    <!-- INTRO (FIRST GRAF OF STORY - remove if design choices call for it) -->
+    <p class="intro">
+        <span class="dropcap">2</span>
+        020 was defined by the coronavirus pandemic.
+    </p>
+
+    <!-- CONTENT GOES HERE -->
+    <div class="content">
+        <p>On March 10, Ohio University originally suspended classes for two weeks <a href="https://www.thepostathens.com/article/2020/03/coronavirus-class-suspended"target= a> suspended classes for two weeks </a> as fears grew about COVID-19 making its way into the U.S. But March 16, not even a week later, the university <a href="https://www.thepostathens.com/article/2020/03/ohio-university-online-rest-of-spring-semester" target="_blank"a> suspended in-person classes for the rest of the Spring Semester</a>. Classes moved online, <a href="https://www.thepostathens.com/article/2020/04/students-cope-away-from-athens-options-available-support" target="_blank"a>something with which many students</a> and faculty continue to struggle. </p>
+
+        <p>Jenny Hall-Jones, senior associate vice president for Student Affairs at OU, was on vacation during one of the most confusing weeks of the pandemic. After returning home, Hall-Jones set up a folding table in her living room with her computer and desk chairs and began working from home alongside the students of OU. </p>
+
+        <p>“It was probably around commencement time when I was like ‘Oh, OK, we’re in this thing forever,’” Hall-Jones said with a laugh, holding onto a bit of optimism even with the uncertainty. <p>
+        
+        <p>For many students, the movement of classes online signaled the beginning of a very different experience than the usual semester.</p>
+
+        <p>“I've basically been just confined to staying at home,” Emily Cigan, a junior studying sociology and criminology, said. “I do have a job. So that's, like, the only other time that I would leave my apartment.”</p>
+
+        <p>Although Cigan said she struggled with online classes at first, she feels a lot more comfortable with them now than she did in March. </p>
+        
+        <div><h2 class="subhed">Mandatory stay-at-home order</h2></div>
+
+        <p>After classes were canceled, the state of Ohio issued a stay-at-home order March 22.  That, coupled with online-only classes, began a period of <a href="https://www.thepostathens.com/article/2020/05/covid19-mental-health-support" target="_blank"a>isolation</a> for many students. </p>
+        
+        <p>On March 25, not long after the order was issued, <a href="https://www.thepostathens.com/article/2020/03/ohio-governor-stay-at-home-order" target="_blank"a>the first OU student tested positive for COVID-19</a> — a number that steadily rose, with <a href="https://www.ohio.edu/coronavirus/dashboard" target="_blank"a> with 412 active cases as of Dec. 2</a>. Athens County had its first <a href="https://www.thepostathens.com/article/2020/03/first-athens-county-coronavirus-death" target="_blank"a>COVID-19 death</a> March 30, which <a href="https://www.thepostathens.com/article/2020/03/first-athens-county-coronavirus-death" target="_blank"a>recently rose</a> to four deaths.</p>
+        
+        <p>The stay-at-home order has since been lifted. But Athens Mayor Steve Patterson has continued to encourage his constituents, both temporary and permanent, to be cautious.</p>
+        
+        <p>“It's hard for everybody, as we're looking at the things that we've got to sacrifice,” Patterson said. “I always view our own personal sacrifices as lives saved.”</p>
+        
+        <div><h2 class="subhed">Reopening the <a href="https://www.thepostathens.com/article/2020/05/ohio-university-coronavirus-plans-fall" target="_blank"a>university</a> and <a href="https://www.thepostathens.com/article/2020/05/barber-shop-restaurant-reopen-coronavirus" target="_blank"a>local businesses</a> </h2></div>
+        
+        <div class="oneimg_right"><img src="https://s3.amazonaws.com/snwceomedia/ohi/4e808000-7e81-4ea6-ba17-2a8130701be7.sized-1000x1000.png" alt="Describe image here" style="width: 100%"> <p class="photog">Mary Berger | Art Director</p><p class="pcut"></p> </div>
+        <p>By May 14, OU was looking to <a href="https://www.thepostathens.com/article/2020/05/ohio-university-coronavirus-plans-fall" target="_blank"a>reopen for the Fall Semester</a>. But many students were surprised to learn that they would not, in fact, be invited back to in-person classes or invited back to campus at all. </p>
+        
+        
+        <p>The university announced July 31 that classes would begin online for all students at the beginning of the semester, with a phased return for those in programs that <a href="https://www.thepostathens.com/article/2020/08/ohio-bot-phase-plan-updates-covid-19" target="_blank"a>require in-person experiences or equipment</a>. </p>
+            
+        <p>“We didn't have the testing,” Hall-Jones said. “Testing was really hard to come by in the fall, and we made the decision to be safe, right? … We got the testing ramped up. We were able to do it for Phase 2, and we kind of experimented.”</p>
+        
+        <p>The result of the university’s effort was bringing around <a href="https://www.thepostathens.com/article/2020/09/phase-two-ou-students-covid-safety-brick-city-dorms" target="_blank"a>7,200 people back to campus</a> with even fewer living in the dorms. </p>
+        
+        <div><h2 class="subhed">Continuing through the year</h2></div>
+        
+        <p>Athens County hit <a href="https://www.thepostathens.com/article/2020/10/coronavirus-athens-county-thousand-cases" target="_blank"a>1,000 cases as of Oct. 11</a> and <a href="https://www.thepostathens.com/article/2020/11/athens-county-level-three-coronavirus-case-count" target="_blank"a>2,000 cases Nov. 28</a> as the county returned to the red level on the state’s Public Health Advisory Alert System. </p>
+        
+        <p>Students returned home from campus to complete the semester remotely <a href="https://www.thepostathens.com/article/2020/06/fall-semester-coronavirus-remote-learning" target="_blank"a>after Thanksgiving</a>, continuing classes online until the completion of finals the week of Dec. 7.  What stuck with students, however, was not the start or finish of classes.</p>
+        
+        <p>Hannah Gardner, a junior studying political science, was studying abroad in Denmark when the pandemic began to hit worldwide. She returned to the U.S. on the Fourth of July, and as she left, people traveling from around the world apologized about her return home. </p>
+        
+        <blockquote class="pq_center">““Every single person that noticed my American accent asked when I was going home and then were like, ‘I'm so terribly sorry,’” Gardner said. “Every person I talked to was pretty much like, ‘I wish you didn't have to go home.’” ”<span class="attribution">- Hannah Gardner</span></blockquote>
+        
+        <p>Gardner remembers standing in a non-socially distanced line in a New York airport with an American flag in the background. Although she felt excited to see her family, there was a deep bubbling fear of uncertainty as she waited. </p>
+        
+        <p>The lack of pandemic precautions has stuck out to other students as well, some of them closer to home.</p>
+        
+        <p>Cigan said she has seen a lot of unsafe behavior in the time she has spent in Athens this year. Walking around town with her boyfriend, whom she lives with, she has made observations that concern her. </p>
+        
+        <div class="oneimg_left"><img src="https://s3.amazonaws.com/snwceomedia/ohi/6fc75dca-3303-4591-a5bd-92231009710a.sized-1000x1000.png" alt="Describe image here" style="width: 100%"> <p class="photog"> Mary Berger | Art Director </p><p class="pcut"></p> </div>
+        
+        <p>“A lot of the time there's people without masks, and there's, like, big groups of friends walking together,” Cigan said. “Especially, we've noticed the bars, even though the bars  have signs or notices that say to wear a mask or practice social distancing. If you look into the bar, there's nobody doing that.” </p>
+        
+        <p>Patterson remembers back to June and July, around the same time he and City Council met during Council’s summer recess to institute a <a href="https://www.thepostathens.com/article/2020/07/athens-ohio-mask-requirement-coronavirus-covid19" target="_blank"a>city mask mandate</a>, seeing a much larger student population than in years past. </p>
+        
+        <p>“That was certainly a concern to me, and then we started seeing kind of an increase in activity uptown,” Patterson said. </p>
+        
+        <p>Patterson took wording from similar ordinances around the state and compiled them to make Athens’ mask mandate. </p>
+        
+        
+        
+<p>“It certainly helped because we started to see a stabilization of a spike or surge that we were seeing here in the city of Athens,” Patterson said. “And then it started to drop down, which was wonderful.”</p>
+        
+        <p>With the phased return to campus, Patterson said he also saw a spike with both Phase 1 and Phase 2. The age demographics for those positive for the virus has started to shift from college-aged people to older age groups, with many students living in different areas around Athens, Patterson said. </p>
+        
+        <div><h2 class="subhed">Looking forward</h2></div>
+        
+        <p>Despite the continuation of the pandemic, both OU and the city of Athens are preparing ways to cope and ways to find the good within the pandemic.</p>
+        
+        <p>However, Hall-Jones said she worries most about student engagement going forward. </p>
+        
+        <p>“We are very confident that we could come back to campus and do it safely, even if the numbers keep getting worse in the state,” Hall-Jones said. “We feel good that we can keep our students and our faculty and staff community safe through constant and really good testing.” </p>
+        
+        <p>“I think students are still going to be lonely,” Hall-Jones said. “I think it's still going to be hard. We're still going to do most of our things online, even though we're going to open up and try to do some in-person events in the spring.” </p>
+        
+        <p>Looking forward toward the future of Athens, Patterson does worry about how the pandemic will affect Athens in the years to come. Without the students who went home being counted in the 2020 census in the region, there is a large number missing from Athens' population. If the <a href="https://www.thepostathens.com/article/2020/10/come-to-your-census-promotion-sees-improved-participation" target="_blank"a>efforts to increase census involvement</a> in the region were not effective, that could be reflected in its funding as well. </p>
+        
+        <p>“I’m hoping the new administration will take that up and recognize that … the pandemic did affect traditional urban undercounted areas and sort of the inner city, hard to count areas as well as college towns, which also experienced that mass exodus back in March,” Patterson said. </p>
+        
+        <p>The city of Athens could lose between $20 million and $40 million in federal funding over the next 10 years because of the miscount, Patterson said. </p>
+        
+        <p>However, Patterson hopes despite the challenges, people will continue to take precautions to keep others safe.</p>
+        
+        <p>“(I’m) just encouraging everyone to continue to do the best that they can, given the situation that we're living under to mask up,” Patterson said. “Wash your hands often, social distance and defer getting together with family and friends until we can get that vaccine starting to become deployed, even though everyone still needs to remain vigilant.” </p>
+        
+        <p>Gardner adapted to life and school back in the U.S. and was very happy to see her family, but she, like many Americans, has dealt with the ramifications of the pandemic. Her mother, a music therapist, has lost the majority of her clients. She said her views on America have shifted and, as she looks toward her future, few things feel certain. </p>
+        
+        <p>“I am just waiting for the fog to lift,” Gardner said. “The fog of the world, the fog of the future, the fog of my literal brain fog. I think I just want out of the U.S,, which is a lot of sacrifices, like I'm gonna be leaving behind my family for the most part and my amazing boyfriend, but I just don't trust the U.S. to have my best interests at heart anymore.” </p>
+    </div>
+
+    <section class="credits">
+        <div class="creditText">AUTHOR: <a href="https://twitter.com/TaylorBunrette_=" target="_blank">Taylor Burnette</a></div>
+        <div class="creditText">EDITOR: <a href="https://twitter.com/JillianCraig18=" target="_blank">Jillian Craig</a></div>
+        <div class="creditText">COPY EDITOR: <a href="https://twitter.com/bre_offenberger=" target="_blank">Bre Offenberger</a></div>
+        <div class="creditText">ILLUSTRATION: <a href="https://twitter.com/marybergs10=" target="_blank">Mary Berger</a></div>
+        <div class="creditText">WEB DEVELOPMENT: <a href="https://twitter.com/TaylorBurnette_=" target="_blank">Taylor Burnette</a></div>
+    </section>
+
+    <div align="center" class="credits_ad">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-6247994935190228" data-ad-slot="5544117946"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
+
+    <!-- IN-ARTICLE AD -->
+    <!--<div align="center" class="story_ad">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-6247994935190228" data-ad-slot="5544117946"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>-->
+
+
+    <!-- USEFUL THINGS BELOW -->
+    <!-- IMAGE BLOCKS -->
+    <!-- <div class="oneimg_center"><img src="img/placeholder.jpg" alt="Describe image here" style="width: 100%"> <p class="photog">photographers name | TITLE HERE</p><p class="pcut">image description here</p> </div> -->
+    <!-- <div class="oneimg_left"><img src="img/placeholder.jpg" alt="Describe image here" style="width: 100%"> <p class="photog">photographers name | TITLE HERE</p><p class="pcut">image description here</p> </div> -->
+    <!-- <div class="oneimg_right"><img src="img/placeholder.jpg" alt="Describe image here" style="width: 100%"> <p class="photog">photographers name | TITLE HERE</p><p class="pcut">image description here</p> </div> -->
+    <!-- <div class="oneimg_full"><img src="img/placeholder.jpg" alt="Describe image here" style="width: 100%"> <p class="photog">photographers name | TITLE HERE</p><p class="pcut">image description here</p> </div> -->
+    
+    <!--
+    <div class="oneimg_split">
+        <div class="row_img">
+        <img src="img/placeholder.jpg" alt="Describe image here" style="width: 100%"> <p class="photog">photographers name | TITLE HERE</p><p class="pcut">image description here</p> 
+        </div>
+        <div class="row_img">
+        <img src="img/placeholder.jpg" alt="Describe image here" style="width: 100%"> <p class="photog">photographers name | TITLE HERE</p><p class="pcut">image description here</p>
+        </div>
+    </div>
+    -->
+
+    <!-- PULL QUOTES -->
+    <!-- <blockquote class="pq_left">“QUOTE HEREQUOTE HEREQUOTE HEREQUOTE HEREQUOTE HEREQUOTE HEREQUOTE HERE”<span class="attribution">-name here</span></blockquote>
+    <!-- <blockquote class="pq_right">“QUOTE HEREQUOTE HEREQUOTE HEREQUOTE HEREQUOTE HEREQUOTE HEREQUOTE HERE”<span class="attribution">-name here</span></blockquote>
+    <!-- <blockquote class="pq_center">“QUOTE HEREQUOTE HEREQUOTE HEREQUOTE HEREQUOTE HEREQUOTE HEREQUOTE HERE”<span class="attribution">-name here</span></blockquote>
+
+    <!-- SUBHED -->
+    <!-- <div><h2 class="subhed">subhed here</h2></div>  -->
+
+    <!-- GALLERIES -->
+
+    <!-- SPECIAL PROJECT FOOTER (don't change)-->
+    <div class="footer">
+        <div class="footer_inside">
+            <h2>Special Projects</h2>
+            <p>This page is a part of a series of specially designed content that represents some of the best journalism <em>The Post</em> has to offer.</p>
+            <p>
+                <a href="http://projects.thepostathens.com/SpecialProjects/" target="_blank"><button class="projects">See Our Projects</button></a>
+                <a href="http://projects.thepostathens.com/JoinUs/" target="_blank"><button class="join">Join Us</button></a>
+            </p>
+        </div>
+
+    </div>
+    <div class="copyright">
+        <div class="copyright_inside">
+            <p>© Copyright 2020, The Post, Athens, OH</p>
+        </div>
+    </div>
+
+
+    <!-- SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')
+    </script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- GOOGLE ANALYTICS -->
+    <script>
+        (function(b, o, i, l, e, r) {
+            b.GoogleAnalyticsObject = l;
+            b[l] || (b[l] =
+                function() {
+                    (b[l].q = b[l].q || []).push(arguments)
+                });
+            b[l].l = +new Date;
+            e = o.createElement(i);
+            r = o.getElementsByTagName(i)[0];
+            e.src = 'https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e, r)
+        }(window, document, 'script', 'ga'));
+        ga('create', 'UA-54093688-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+</body></html>

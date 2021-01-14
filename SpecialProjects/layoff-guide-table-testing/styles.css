@@ -244,12 +244,6 @@ p a:hover {
     color: none;
 }
 
-/*TABLE*/
-.dataTables_wrapper {
-    width: 90%;
-    margin: 0 5%;
-}
-
 
 /* CREDITS */
 .credits {

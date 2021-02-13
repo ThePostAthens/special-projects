@@ -10,7 +10,7 @@ body {
     color: #030406;
 }
 
-a {
+a, i.share {
     color: #7fc448;
     text-decoration: none;
 }
@@ -220,10 +220,6 @@ ul.share-buttons .sr-only {
 
 ul.share-buttons img {
     width: 32px;
-}
-
-i.share {
-    color: #7fc448;
 }
 
 

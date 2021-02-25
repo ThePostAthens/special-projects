@@ -10,13 +10,15 @@ body {
     color: #030406;
 }
 
-a {
-    color: #7fc448;
+a, 
+i.share,
+creditText a {
+    color: #07b482;
     text-decoration: none;
 }
 
 a:hover {
-    filter: saturate(3);
+    filter: saturate(2);
 }
 
 
@@ -136,21 +138,11 @@ h4 {
 .date {
     text-align: center;
     text-transform: uppercase;
-    margin-bottom: -40px;
-    margin-top: 75px;
+    margin-top: 45px;
+    margin-bottom: 5px;
 }
 
 /* Pick one font depending on design (or find another one) */
-.arthed {
-    text-align: center;
-    color: #3d3d3d;
-    font-size: 60px;
-    font-family: 'Montserrat', Arial, sans-serif;
-    /* font-family: "Playfair Display", Georgia, serif; */
-    text-transform: capitalize;
-    line-height: 70px;
-    margin: 50px 0px 10px 0px;
-}
 
 .cutline {
     float: left;
@@ -166,10 +158,13 @@ h4 {
 
 .headline {
     text-align: center;
-    font-family: 'Montserrat', Arial, sans-serif;
+    font-family: 'Teko', sans-serif;
     /* font-family: "Playfair Display", Georgia, serif; */
-    font-size: 25px;
+    font-size: 45px;
     margin-top: 1.5px;
+    color: #0c7d5c;
+    letter-spacing: 1px;
+
 }
 
 /* BYLINE */
@@ -185,7 +180,7 @@ h4 {
     /* font-family: "Playfair Display", Georgia, serif; */
     font-size: 14px;
     text-align: center;
-    margin-top: 25px;
+
 }
 
 .byline-info p:last-of-type {
@@ -220,10 +215,6 @@ ul.share-buttons .sr-only {
 
 ul.share-buttons img {
     width: 32px;
-}
-
-i.share {
-    color: #7fc448;
 }
 
 
@@ -267,7 +258,6 @@ p a:hover {
 }
 
 .creditText a {
-    color: #7fc448;
     font-weight: 700;
     cursor: pointer;
 }

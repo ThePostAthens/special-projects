@@ -23565,16 +23565,16 @@ $(document).ready(function () {
         "scrollX": true,
         "order": [[4, "desc"]],
         columns: [{
-                title: "Last"
-            },
-            {
-                title: "First"
+                title: "Full Name"
             },
             {
                 title: "Title"
             },
             {
-                title: "Department"
+                title: "Academic Title"
+            },
+            {
+                title: "Organization"
             },
             {
                 title: "Salary"

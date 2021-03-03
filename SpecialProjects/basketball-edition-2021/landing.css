@@ -165,6 +165,8 @@ h4 {
     font-weight: 900i;
     text-transform: uppercase;
     color: rgba(138,255,147,1);
+    font-family: 'Bungee Inline', cursive;
+    letter-spacing: 2px;
 }
 
 /* CONTENT CONTAINER*/
@@ -216,9 +218,10 @@ p.signature {
     color: #3d3d3d;
     width: 80%;
     margin: 0;
-    font-size: 40px;
+    font-size: 1em;
     font-weight: 900;
     text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
 }
 
 p.s-headline {
@@ -605,12 +608,12 @@ a.end:hover {
         height: 315px;
     }
     
-    p.s-headline {
-        font-size: 27px;
-    }
-    
     h3.date {
         padding: 0;
+    }
+    
+    p.s-headline {
+        font-size: 1.6em;
     }
 }
 
@@ -708,7 +711,7 @@ a.end:hover {
 
 @media screen and (max-width: 595px) {
     p.s-headline {
-        font-size: 22px;
+        font-size: 1.35em;
     }
 }
 

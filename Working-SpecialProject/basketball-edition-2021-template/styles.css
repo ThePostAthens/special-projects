@@ -370,14 +370,9 @@ p.intro {
 }
 
 .subhed {
-    font-family: 'Lato', sans-serif;
+    font-family: montserrat, sans-serif;
     font-weight: 800;
-    color: #00694E;
-}
-
-.flourish-embed {
-    width: 60%;
-    padding: 0 20%;
+    color: #3d3d3d;
 }
 
 /*apply to wrapping span tag*/

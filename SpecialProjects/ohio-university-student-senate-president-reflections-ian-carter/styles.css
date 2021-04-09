@@ -274,8 +274,8 @@ p a:hover {
 
 /*Apply to a wrapping div*/
 .oneimg_right {
-    width: 40%;
-    padding-right: 10%;
+    width: 30%;
+    padding-right: 20%;
     padding-left: 10px;
     float: right;
 }

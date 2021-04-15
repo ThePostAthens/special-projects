@@ -10,13 +10,15 @@ body {
     color: #030406;
 }
 
-a, i.share {
-    color: #7fc448;
+a, 
+i.share,
+creditText a {
+    color: #e83422;
     text-decoration: none;
 }
 
 a:hover {
-    filter: saturate(3);
+    color: #f7b045;
 }
 
 
@@ -145,11 +147,13 @@ h4 {
     text-align: center;
     color: #3d3d3d;
     font-size: 60px;
-    font-family: 'Montserrat', Arial, sans-serif;
+    font-family: 'Special Elite', cursive;
     /* font-family: "Playfair Display", Georgia, serif; */
     text-transform: capitalize;
     line-height: 70px;
     margin: 50px 0px 10px 0px;
+    background-color: #f7d145;
+    padding-top: 15px;
 }
 
 .cutline {
@@ -257,7 +261,6 @@ p a:hover {
 }
 
 .creditText a {
-    color: #7fc448;
     font-weight: 700;
     cursor: pointer;
 }

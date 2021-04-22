@@ -10,7 +10,9 @@ body {
     color: #030406;
 }
 
-a, i.share {
+a,
+i.share,
+.creditText a {
     color: #7fc448;
     text-decoration: none;
 }
@@ -257,7 +259,6 @@ p a:hover {
 }
 
 .creditText a {
-    color: #7fc448;
     font-weight: 700;
     cursor: pointer;
 }
@@ -559,7 +560,7 @@ a.end:hover {
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1080px) {
-    
+
     .yt_center,
     .yt_right,
     .yt_left {
@@ -617,12 +618,12 @@ a.end:hover {
     .subhed {
         padding: 0 10%;
     }
-    
+
     .yt_center {
         width: 80%;
         padding: 0 10%;
     }
-    
+
     .yt_right {
         height: 265px;
     }
@@ -642,7 +643,7 @@ a.end:hover {
     .yt_right {
         height: 215px;
     }
-    
+
     .yt_left {
         height: 215px;
     }
@@ -656,7 +657,7 @@ a.end:hover {
         float: none;
         height: 230px;
     }
-    
+
     .yt_left {
         width: 80%;
         padding: 0 10%;
@@ -665,4 +666,3 @@ a.end:hover {
         height: 230px;
     }
 }
-

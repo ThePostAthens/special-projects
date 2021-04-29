@@ -6,19 +6,19 @@ Please contact at taylorfjohnston@gmail.com with questions.*/
 /* GENERAL STYLES */
 body {
     font-family: montserrat, sans-serif;
-    background-color: #FFF;
+    background-color: #315580;
     color: #fff;
 }
 
 a,
 i.share,
 .creditText a {
-    color: #7fc448;
+    color: #f1b561;
     text-decoration: none;
 }
 
 a:hover {
-    filter: saturate(3);
+    filter: saturate(6);
 }
 
 
@@ -59,9 +59,7 @@ h3 {
 } */
 
 /* NAVIGATION BAR */
-#header {
-    
-}
+#header {}
 
 #nav_bar {
     background: #292929;
@@ -123,11 +121,9 @@ h3 {
 
 /* HERO IMAGE */
 #heroimg {
-    width: 85vw;
+    width: 70vw;
     position: relative;
-    margin-top: -50px;
-
-    padding: 0 7%;
+    padding: 0 15%;
 }
 
 #heroimg img {
@@ -151,11 +147,12 @@ h4 {
 /* Pick one font depending on design (or find another one) */
 .arthed {
     text-align: center;
-    font-size: 3em;
+    font-size: 2.5em;
     font-family: 'Montserrat', Arial, sans-serif;
     /* font-family: "Playfair Display", Georgia, serif; */
     text-transform: capitalize;
     line-height: 70px;
+    color: #f38e00;
 }
 
 .cutline {
@@ -175,13 +172,14 @@ h4 {
     font-family: 'Montserrat', Arial, sans-serif;
     /* font-family: "Playfair Display", Georgia, serif; */
     font-size: 25px;
-    margin-top: 1.5px;
+    margin-top: -10px;
 }
 
 /* BYLINE */
 .byline-info {
     text-align: center;
     display: block;
+    margin-top: -10px;
 }
 
 .byline-info p {
@@ -194,6 +192,10 @@ h4 {
 
 .byline-info p:last-of-type {
     margin-right: 0;
+}
+
+.byline-info a {
+    font-weight: 700;
 }
 
 /* SHARE BUTTONS */
@@ -235,17 +237,35 @@ ul.share-buttons img {
 
 .section {
     overflow: hidden;
-    background-color: #3d3d3d;
 }
 
 .sectionTitle {
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.8);
-    width: 76vw;
+    background-color: rgba(217, 164, 89, 0.8);
+    width: 8%;
     margin: 0;
-    padding: 1rem 6%;
-    text-align: left;
+    text-align: center;
     overflow: hidden;
+}
+
+.sectionTitle5 {
+    padding: 1rem 6%;
+}
+
+.sectionTitle6 {
+    padding: 1rem 1%;
+}
+
+.sectionTitle7 {
+    padding: 1rem 4.4%;
+}
+
+.sectionTitle8 {
+    padding: 1rem 2.3%;
+}
+
+.sectionTitle10 {
+    padding: 1rem 1%;
 }
 
 .photoImg {
@@ -253,13 +273,55 @@ ul.share-buttons img {
     padding: 0 10%;
 }
 
+.photoImgTall {
+    width: 34vw;
+    padding: 0 32.5%;
+}
 
-.dropcap {
-    font-weight: 700;
+.caption {
+    width: 80vw;
+    height: auto;
+    margin: 0 10%;
+    position: relative;
+    margin-top: -7.5em;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    overflow: hidden;
+    padding-bottom: 1rem;
+}
+
+.captionTall {
+    margin-top: -12em;
+}
+
+.captionTall2 {
+    margin-top: -14em;
+}
+
+h2.photoTitle {
+    padding: 0 1rem;
+    padding-top: 0rem;
+}
+
+.photog {
     float: left;
-    font-size: 2.9em;
-    line-height: .9em;
-    padding-right: 5px;
+    text-align: left;
+    margin: 0;
+    font-weight: 800;
+    font-size: 12px;
+    width: 80%;
+    padding: 1rem 1rem 0 1rem;
+}
+
+.pcut {
+    float: left;
+    text-align: left;
+    margin: 0;
+    font-weight: 100;
+    font-size: 12px;
+    width: 80%;
+    padding: 0 1rem;
+    padding-bottom: 5px;
 }
 
 p a:hover {
@@ -271,7 +333,7 @@ p a:hover {
     margin: 1rem auto 0;
     max-width: 60%;
     padding-bottom: 2.4rem;
-    text-align: left
+    text-align: center;
 }
 
 .creditText {
@@ -291,186 +353,6 @@ p a:hover {
     color: none;
 }
 
-/* OTHER STUFF */
-/* IMAGE BLOCKS */
-.oneimg_center {
-    width: 60%;
-    padding: 0 20%;
-}
-
-/*Apply to a wrapping div*/
-.oneimg_right {
-    width: 40%;
-    padding-right: 10%;
-    padding-left: 10px;
-    float: right;
-}
-
-/*Apply to a wrapping div*/
-.oneimg_left {
-    width: 40%;
-    padding-left: 10%;
-    padding-right: 20px;
-    float: left;
-}
-
-/*add to p tag, should be before the pcut p tag*/
-.oneimg_full p {
-    width: 60%;
-    padding: 0 20%;
-}
-
-/*side-by-side images*/
-.oneimg_split {
-    width: 80%;
-    padding: 0 10%;
-    display: flex;
-}
-
-.row_img {
-    margin: 0px 10px;
-}
-
-
-.oneimg_full img,
-.oneimg_center img,
-.oneimg_right img,
-.oneimg_left img {
-    width: 100%
-}
-
-.caption {
-    width: 80%;
-    height: 100%;
-    margin: 0 10%;
-    position: relative;
-    margin-top: -200px;
-    background-color: rgba(61,61,61,0.5);
-    color: #fff;
-}
-
-.photoTitle {
-    padding: 0 1rem;
-    padding-top: 1rem;
-}
-
-.photog {
-    float: left;
-    text-align: left;
-    margin: 0;
-    font-weight: 800;
-    font-size: 12px;
-    width: 80%;
-    padding: 0 1rem;
-}
-
-.pcut {
-    float: left;
-    text-align: left;
-    margin: 0;
-    font-weight: 100;
-    font-size: 12px;
-    width: 80%;
-    padding: 0 1rem;
-    padding-bottom: 5px;
-}
-
-.subhed {
-    font-family: montserrat, sans-serif;
-    font-weight: 800;
-    color: #7fc448;
-    padding: 0 20%;
-}
-
-/*apply to wrapping span tag*/
-.title {
-    color: #606060;
-}
-
-/* PULL QUOTES */
-blockquote {
-    padding: 0;
-    margin: 5px;
-}
-
-/*add to wrapping div*/
-.pq_center {
-    width: 60%;
-    padding: 0 20%;
-    margin: 0;
-    font-size: 25px;
-    text-transform: uppercase;
-    color: #5379c4;
-    font-weight: 800;
-}
-
-/*add to wrapping div*/
-.pq_right {
-    width: 40%;
-    padding-right: 10%;
-    padding-left: 15px;
-    float: right;
-    margin: 0;
-    font-size: 25px;
-    text-transform: uppercase;
-    color: #5379c4;
-}
-
-/*add to wrapping div*/
-.pq_left {
-    width: 40%;
-    padding-left: 10%;
-    padding-right: 0;
-    float: left;
-    margin: 0;
-    font-size: 25px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #5379c4;
-}
-
-/*.twitter-tweet {
-    padding: 0 20%;
-}*/
-
-iframe.spodify {
-    width: 100%;
-}
-
-.instagram-media {
-    margin: 15px auto !important;
-}
-
-/*YOUTUBE EMBED*/
-iframe.yt-vid {
-    width: 100%;
-    height: 100%;
-}
-
-.yt_center {
-    width: 60%;
-    height: 515px;
-    padding: 0 20%;
-}
-
-.yt_right {
-    width: 40%;
-    margin-right: 10%;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    float: right;
-    height: 415px;
-}
-
-.yt_left {
-    width: 40%;
-    margin-left: 10%;
-    padding-right: 20px;
-    padding-bottom: 10px;
-    float: left;
-    height: 415px;
-}
-
 /*add to wrapping div*/
 .attribution {
     font-size: 20px;
@@ -482,33 +364,6 @@ iframe.yt-vid {
     margin-bottom: 5px;
     padding: 0 5%;
     width: 90%;
-}
-
-/*----- Gallery Stuff -----*/
-.gallery_bot {
-    padding: 0;
-    width: 20%;
-    float: left;
-}
-
-.galleryPcut {
-    float: right;
-    text-align: left;
-    margin: 0;
-    font-weight: 100;
-    color: #808080;
-    font-size: 12px;
-    width: 100%;
-    padding: 0;
-    padding-bottom: 10px;
-}
-
-.w3-hover-shadow:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important
-}
-
-.mySlides {
-    display: none;
 }
 
 
@@ -593,111 +448,133 @@ a.end:hover {
 }
 
 /* MEDIA QUERIES */
+@media screen and (max-width: 1200px) {
+    .photoSection {
+        padding: 5% 0;
+    }
 
-@media screen and (max-width: 1080px) {
+    .caption {
+        margin-top: -7em;
+    }
 
-    .yt_center,
-    .yt_right,
-    .yt_left {
-        height: 315px;
+}
+
+@media screen and (max-width: 1000px) {
+    .photoSection {}
+
+    #heroimg {
+        width: 100vw;
+        padding: 0;
+    }
+
+    .caption {
+        width: 100vw;
+        padding: 0;
+        padding-bottom: 1rem;
+        margin: 0;
+        margin-top: -6em;
+    }
+
+    .photoImg {
+        width: 100vw;
+        padding: 0;
+    }
+
+    .photoImgTall {
+        width: 45vw;
+        padding: 0 28%;
+    }
+
+    .captionTall {
+        margin-top: -8em;
+    }
+
+    .captionTall2 {
+        margin-top: -7em;
+    }
+
+    .captionTall3 {
+        margin-top: -3.5em;
     }
 }
+
+@media screen and (max-width: 950px) {
+    .photoSection {
+        padding: 5% 0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .photoSection {
+        padding: 15% 0;
+    }
+
+    .caption {
+        margin-top: -7em;
+    }
+}
+
 
 @media screen and (max-width: 750px) {
-
-    .column20center,
-    p {
-        width: 80%;
-        padding: 0 10%;
+    .photoSection {
+        padding: 5em 0;
     }
 
-    #logo {
-        height: 25px;
-    }
-
-    .date {
-        padding: 0 10%;
-        width: 80%;
-    }
-
-    .arthed {
-        font-size: 60px;
-        line-height: 60px;
-    }
-
-    .headline {
-        width: 80%;
-        padding: 0% 10% 0 10%;
-        font-size: 25px;
-    }
-
-    .oneimg_right,
-    .oneimg_left,
-    .oneimg_center {
-        width: 80%;
-        padding: 0 10% 10px 10%;
-    }
-
-    .oneimg_full p {
-        width: 80%;
-        padding: 0 10%;
-    }
-
-    .pq_center,
-    .pq_right,
-    .pq_left {
-        padding: 0 5%;
-        width: 90%;
-    }
-
-    .subhed {
-        padding: 0 10%;
-    }
-
-    .yt_center {
-        width: 80%;
-        padding: 0 10%;
-    }
-
-    .yt_right {
-        height: 265px;
-    }
-
-    .credits {
-        max-width: 100%;
-        text-align: left;
-        margin-left: 50px;
-    }
-
-    .footer {
-        height: 300px;
+    .caption {
+        margin-top: -6em;
+        padding: 0;
+        padding-bottom: 1rem;
+        overflow: hidden;
     }
 }
 
-@media screen and (max-width: 720px) {
-    .yt_right {
-        height: 215px;
+@media screen and (max-width: 650px) {
+    .photoSection {
+        padding: 10em 0;
     }
 
-    .yt_left {
-        height: 215px;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .yt_right {
-        width: 80%;
-        padding: 0 10%;
-        margin: 0;
-        float: none;
-        height: 230px;
+    .caption {
+        padding: 0;
+        padding-bottom: 1rem;
+        overflow: hidden;
+        text-align: center;
     }
 
-    .yt_left {
-        width: 80%;
-        padding: 0 10%;
-        margin: 0;
-        float: none;
-        height: 230px;
+    .sectionTitle {
+        font-size: 1.2em;
+        padding: 0.5rem 6%;
     }
+
+    .sectionTitle5 {
+        padding: 0.5rem 6%;
+    }
+
+    .sectionTitle6 {
+        padding: 0.5rem 1%;
+    }
+
+    .sectionTitle7 {
+        padding: 0.5rem 4.4%;
+    }
+
+    .sectionTitle8 {
+        padding: 0.5rem 2.3%;
+    }
+
+    .sectionTitle10 {
+        padding: 0.5rem 1%;
+    }
+
+    .photoTitle {
+        width: 95%;
+        margin: 0.3em 0 0 0;
+        font-size: 1em;
+    }
+
+    .photog,
+    .pcut {
+        width: 95%;
+        text-align: center;
+    }
+
 }

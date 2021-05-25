@@ -321,6 +321,16 @@ iframe.instagram_post {
 }
 
 /*Apply to a wrapping div*/
+.row_img {
+    padding: 0 1rem;
+}
+
+.oneimg_split {
+    width: 64%;
+    padding: 0 18%;
+    display: flex;
+}
+
 .oneimg_right {
     width: 40%;
     padding-right: 10%;
@@ -370,6 +380,7 @@ iframe.instagram_post {
     font-size: 0.8rem;
     width: 100%;
     padding: 0;
+    padding-top: 0.2em;
 }
 
 .subhed {
@@ -575,6 +586,16 @@ blockquote {
 
     .share-container {
         text-align: center;
+    }
+    
+    .row_img {
+    padding: 0 0.5rem;
+    }
+
+    .oneimg_split {
+    width: 80%;
+    padding: 0 10%;
+    display: flex;
     }
 
     .oneimg_right,

@@ -129,19 +129,20 @@ h3 {
 }
 
 #arthed {
-    color: #FFF;
+    color: #e8e8d8;
     position: absolute;
     bottom: 45%;
     padding: 0;
     margin: 0;
-    font-size: 6rem;
+    font-size: 8rem;
     font-weight: 700;
     text-align: center;
     width: 90%;
     padding: 0 5%;
-    text-shadow: 2px 2px 3px #000;
-    -webkit-text-stroke: 0.15rem #000;
-    line-height: 7rem;
+    font-family: 'Pattaya', sans-serif;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    -webkit-text-stroke: 0.25px #592111;
+    line-height: 7.5rem;
 }
 
 .two {
@@ -535,8 +536,8 @@ blockquote {
 /* MEDIA QUERIES */
 @media screen and (max-width: 1150px) {
     #arthed {
-        font-size: 4.5rem;
-        line-height: 5.5rem;
+        font-size: 6rem;
+        line-height: 6rem;
         
     }
     
@@ -549,7 +550,7 @@ blockquote {
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
 
     .column20center,
     p {
@@ -568,7 +569,7 @@ blockquote {
     }
 
     #arthed {
-        font-size: 4rem;
+        font-size: 4.5rem;
         line-height: 5rem;
     }
 
@@ -643,10 +644,9 @@ blockquote {
 
 @media screen and (max-width: 425px) {
     #arthed {
-        font-size: 2.5rem;
-        line-height: 2.5rem;
-        bottom: 45%;
-        -webkit-text-stroke: 0.1rem #000;
+        font-size: 2.7rem;
+        line-height: 3rem;
+        bottom: 40%;
     }
     
     .two {
@@ -660,8 +660,9 @@ blockquote {
 
 @media screen and (max-width: 375px) {
     #arthed {
-        font-size: 2rem;
-        line-height: 2.3rem;
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+        bottom: 35%;
     }
 }
 

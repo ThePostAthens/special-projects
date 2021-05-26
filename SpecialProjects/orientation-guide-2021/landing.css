@@ -208,6 +208,15 @@ p.signature {
     font-size: 1em;
 }
 
+.signatureimg {
+    margin-top: -3.5em;
+    width: 25%;
+}
+
+.abby {
+    margin-top: -2em;
+}
+
 .landing-intro {
     text-align: center;
     font-size: 40px;

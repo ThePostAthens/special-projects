@@ -530,6 +530,11 @@ a.stories:hover {
     flex-wrap: wrap;
 }
 
+iframe {
+    width: 800px;
+    height: 555px;
+}
+
 /* SPECIAL PROJECT FOOTER */
 .footer {
     color: #FFF;
@@ -805,6 +810,10 @@ a.end:hover {
     
     .three-sm {
         margin-top: 3rem;
+    }
+    
+    iframe {
+    height: 255px;
     }
 }
 

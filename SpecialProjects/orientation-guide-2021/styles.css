@@ -3,6 +3,8 @@ This is a template for special projects at The Post.
 Template originally coded by Taylor Johnston, digital managing editor at The Post.
 Please contact at taylorfjohnston@gmail.com with questions.*/
 
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;600;700&display=swap');
+
 /* GENERAL STYLES */
 body {
     font-family: montserrat, sans-serif;
@@ -14,12 +16,12 @@ body {
 a,
 .creditText a,
 i.share {
-    color: #7fc448;
+    color: #64b990;
     text-decoration: none;
 }
 
 a:hover {
-    opacity: .6;
+    color: #b3da87;
 }
 
 
@@ -131,7 +133,7 @@ h3 {
 #arthed {
     color: #e8e8d8;
     position: absolute;
-    bottom: 45%;
+    bottom: 40%;
     padding: 0;
     margin: 0;
     font-size: 8rem;
@@ -166,6 +168,10 @@ h4 {
     margin-top: 75px;
     margin-bottom: -40px;
     display: grid;
+    font-family: 'Signika Negative', sans-serif;  
+    font-size: 1.2rem;
+    letter-spacing: 0.25px;
+    color: #8e4130;
 }
 
 
@@ -184,7 +190,7 @@ h4 {
 .headline {
     display: flex;
     text-align: left;
-    font-family: 'Montserrat', Arial, sans-serif;
+    font-family: 'Signika Negative', sans-serif;
     /* font-family: "Playfair Display", Georgia, serif; */
     font-size: 2.5rem;
     margin-top: 40px;
@@ -192,6 +198,7 @@ h4 {
     line-height: 46px;
     width: 60%;
     padding: 0 20%;
+    color: #d97055;
 }
 
 /* BYLINE */
@@ -204,10 +211,15 @@ h4 {
 .byline-info p {
     color: #3d3d3d;
     display: inline-block;
-    font-family: 'Montserrat', Arial, sans-serif;
-    /* font-family: "Playfair Display", Georgia, serif; */
-    font-size: 1rem;
+    font-family: 'Signika Negative', sans-serif;  
+    font-size: 1.1rem;
+    letter-spacing: 0.25px;
+    font-weight: 100;
     text-align: left;
+}
+
+.byline-info p a {
+    font-weight: 700;
 }
 
 .byline-info p:last-of-type {
@@ -252,11 +264,13 @@ p.intro {
 }
 
 .dropcap {
+    font-family: 'Signika Negative', sans-serif;
     font-weight: 700;
     float: left;
     font-size: 2.9em;
     line-height: .9em;
     padding-right: 5px;
+    color: #d97055;
 }
 
 /* BACK BUTTON*/
@@ -266,10 +280,14 @@ p.intro {
     padding: 0 20%;
     margin: 40px 0px 30px 0px;
     color: #3d3d3d;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 400;
 }
 
 #back-button a:hover {
     opacity: 1;
+    filter: none;
+    font-weight: 700;
 }
 
 .back-button {
@@ -278,14 +296,19 @@ p.intro {
     color: #fff;
     border: hidden;
     border-radius: 20px;
-    background-color: #f8b132;
+    background-color: #b3da87;
     letter-spacing: 1px;
-    box-shadow: inset 400px 0 0 0 #7fc448;
+    box-shadow: inset 400px 0 0 0 #64b990;
     -webkit-transition: .4s ease-out 0s;
 }
 
+.back-button:hover {
+    filter: none;
+}
+
 .slide-right:hover {
-    box-shadow: inset 0 0 0 0 #7fc448;
+    box-shadow: inset 0 0 0 0 #64b990;
+    filter: none;
 }
 
 iframe.instagram_post {
@@ -304,8 +327,10 @@ iframe.instagram_post {
 
 .creditText {
     display: inline-block;
-    font-family: 'Montserrat', Arial, sans-serif;
-    font-size: 0.9rem;
+    font-family: 'Signika Negative', sans-serif;  
+    font-size: 1.1rem;
+    font-weight: 100;
+    letter-spacing: 0.5px;
     margin: 0 1rem 0rem 0;
 }
 
@@ -385,10 +410,15 @@ iframe.instagram_post {
 }
 
 .subhed {
-    font-family: montserrat, sans-serif;
+    font-family: 'Signika Negative', sans-serif;
+    letter-spacing: 0.5px;
     font-weight: 800;
-    color: #3d3d3d;
+    color: #d97055;
     padding: 0 20%;
+}
+
+b {
+    color: #8e4130;
 }
 
 /*apply to wrapping span tag*/
@@ -538,11 +568,6 @@ blockquote {
     #arthed {
         font-size: 6rem;
         line-height: 6rem;
-        
-    }
-    
-    .two {
-        
     }
     
     .three {
@@ -570,15 +595,16 @@ blockquote {
 
     #arthed {
         font-size: 4.5rem;
-        line-height: 5rem;
+        line-height: 4.5rem;
     }
 
     .headline {
         display: block;
-        width: 60%;
-        font-size: 1.8rem;
+        width: 80%;
+        font-size: 2rem;
         text-align: center;
         line-height: 38px;
+        padding: 0 10%;
     }
 
     .byline-info p {
@@ -645,12 +671,8 @@ blockquote {
 @media screen and (max-width: 425px) {
     #arthed {
         font-size: 2.7rem;
-        line-height: 3rem;
-        bottom: 40%;
-    }
-    
-    .two {
-        
+        line-height: 2.5rem;
+        bottom: 35%;
     }
     
     .three {
@@ -660,10 +682,11 @@ blockquote {
 
 @media screen and (max-width: 375px) {
     #arthed {
-        font-size: 2.5rem;
-        line-height: 2.5rem;
+        font-size: 2.2rem;
+        line-height: 2.3rem;
         bottom: 35%;
     }
+
 }
 
 

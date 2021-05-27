@@ -3,6 +3,8 @@ This is a template for special projects at The Post.
 Template originally coded by Taylor Johnston, digital managing editor at The Post.
 Please contact at taylorfjohnston@gmail.com with questions.*/
 
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;600;700&display=swap');
+
 /* GENERAL STYLES */
 body {
     font-family: montserrat, sans-serif;
@@ -42,14 +44,17 @@ h3 {
 }
 
 h4 {
-    font-size: 25px;
+    font-size: 1.6rem;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
     margin: 100px 0px 0px 0px;
     text-align: center;
     position: relative;
     width: 230px;
-    text-shadow: 2px 2px rgba(7, 15, 13, 1);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
     transition-duration: 1s;
-    color: #fff;
+    color: #f5fffb;
     padding: 0 10px;
 }
 
@@ -139,7 +144,7 @@ h4 {
     font-size: 8rem;
     font-weight: 700;
     text-align: center;
-    line-height: 5rem;
+    line-height: 8rem;
     width: 90%;
     font-family: 'Pattaya', sans-serif;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
@@ -171,9 +176,11 @@ h4 {
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
-    font-size: 40px;
-    text-transform: uppercase;
-    color: #000;
+    color: #d97055;
+    font-family: 'Signika Negative', sans-serif;
+    text-align: center;
+    font-size: 4rem;
+    line-height: 4.5rem;
 /*    letter-spacing: 2px;*/
 }
 
@@ -198,8 +205,9 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 60%;
     flex-wrap: wrap;
+    padding: 0 20%;
 }
 
 .intro-cont p {
@@ -218,12 +226,6 @@ p.signature {
 
 .abby {
     margin-top: -2em;
-}
-
-.landing-intro {
-    text-align: center;
-    font-size: 40px;
-    display: block;
 }
 
 
@@ -617,8 +619,14 @@ a.end:hover {
     }
     
     #arthed {
+        font-size: 7rem;
+        line-height: 7rem;
         bottom: 40%;
-        line-height: 6rem;
+    }
+    
+    .intro-cont {
+        width: 80%;
+        padding: 0 10%;
     }
     
     h3.date {
@@ -638,17 +646,18 @@ a.end:hover {
     }
 
     #arthed {
-        font-size: 4rem;
-        line-height: 4.5rem;
+        font-size: 6rem;
+        line-height: 6rem;
         bottom: 35%;
+    }
+    
+    .intro-cont {
+        width: 100%;
+        padding: 0;
     }
 
     .headline {
-        width: 80%;
-        padding: 0% 10%;
-        font-size: 2rem;
-        text-align: center;
-        line-height: 38px;
+        line-height: 4.5rem;
     }
 
     #socials-content {
@@ -688,8 +697,8 @@ a.end:hover {
 @media only screen and (max-width: 600px) {
 
     #arthed {
-        font-size: 3rem;
-        line-height: 3rem;
+        font-size: 5rem;
+        line-height: 5rem;
     }
 
 /*
@@ -701,10 +710,22 @@ a.end:hover {
 */
 
     h4 {
-        margin: 70px 0px 0px 0px;
+        margin-top: 3em;
         width: 150px;
         transition-duration: 1s;
-        font-size: 1.4rem;
+        font-size: 1.3rem;
+    }
+    
+    .tooLong {
+        font-size: 1.2rem;
+    }
+    
+    .three {
+        margin-top: 2em;
+    }
+    
+    .three-sm {
+        margin-top: 2em;
     }
     
     a.stories {
@@ -746,35 +767,54 @@ a.end:hover {
 
 @media screen and (max-width: 425px) {
     #arthed {
-        font-size: 2.5rem;
-        line-height: 2.5rem;
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+    
+    .headline {
+        font-size: 3rem;
+        line-height: 3.3rem;
+    }
+    
+    .signatureimg {
+        width: 35%;
+        margin-top: -3em;
+    }
+    
+    .abby {
+        margin-top: -1.5em;
     }
     
     p.s-headline {
         font-size: 1rem;
     }
     
-    h4 {
-        font-size: 1.2rem;
-        margin-top: 3.7rem;
-    }
-    
     .three-sm {
-        margin-top: 3.2rem;
+        margin-top: 3rem;
     }
 }
 
 @media screen and (max-width: 375px) {
+    
+    .signatureimg {
+        margin-top: -2.5em;
+    }
+    
+    .abby {
+        margin-top: -1.2em;
+    }
+    
     a.stories {
         width: 250px;
     }
     
     h4 {
+        font-size: 1.5rem;
         width: 230px;
-        margin-top: 4rem;
+        margin-top: 3.5rem;
     }
     
     .three-sm {
-        margin-top: 4rem;
+        margin-top: 3rem;
     }
 }

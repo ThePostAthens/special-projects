@@ -316,6 +316,11 @@ iframe.instagram_post {
     padding: 0 20%;
 }
 
+iframe.dataViz {
+    width: 80%;
+    margin: 0 10%;
+}
+
 
 /* CREDITS */
 .credits {

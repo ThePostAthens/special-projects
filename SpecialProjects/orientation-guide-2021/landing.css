@@ -520,6 +520,16 @@ a.stories:hover {
     cursor: pointer;
 }
 
+/* YOUTUBE VIDEO */
+.yt-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px 100px 0px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
 /* SPECIAL PROJECT FOOTER */
 .footer {
     color: #FFF;
@@ -679,6 +689,10 @@ a.end:hover {
     .credits {
         max-width: 100%;
         text-align: center;
+    }
+    
+    .yt-video {
+        width: 90%;
     }
 
     .footer {

@@ -346,6 +346,11 @@ iframe.dataViz {
 
 /* OTHER STUFF */
 /* IMAGE BLOCKS */
+audio {
+    width: 60%;
+    padding: 0 20%;
+}
+
 .oneimg_center {
     width: 60%;
     padding: 0 20%;
@@ -584,6 +589,11 @@ blockquote {
 
     .column20center,
     p {
+        width: 80%;
+        padding: 0 10%;
+    }
+    
+    audio {
         width: 80%;
         padding: 0 10%;
     }

@@ -6,14 +6,14 @@ Please contact at taylorfjohnston@gmail.com with questions.*/
 /* GENERAL STYLES */
 body {
     font-family: montserrat, sans-serif;
-    background-color: #FFF;
+    background-color: #FFFFFF;
     color: #030406;
 }
 
 a,
 i.share,
 .creditText a {
-    color: #7fc448;
+    color: #AA8A00;
     text-decoration: none;
 }
 
@@ -145,9 +145,9 @@ h4 {
 /* Pick one font depending on design (or find another one) */
 .arthed {
     text-align: center;
-    color: #3d3d3d;
+    color: #00694E;
     font-size: 60px;
-    font-family: 'Montserrat', Arial, sans-serif;
+    font-family: 'STIX Two Text', serif;
     /* font-family: "Playfair Display", Georgia, serif; */
     text-transform: capitalize;
     line-height: 70px;
@@ -168,10 +168,11 @@ h4 {
 
 .headline {
     text-align: center;
-    font-family: 'Montserrat', Arial, sans-serif;
+    font-family: 'STIX Two Text', serif;
     /* font-family: "Playfair Display", Georgia, serif; */
     font-size: 25px;
     margin-top: 1.5px;
+    color: #024230;
 }
 
 /* BYLINE */

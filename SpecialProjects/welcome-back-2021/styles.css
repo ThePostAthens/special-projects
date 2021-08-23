@@ -4,6 +4,10 @@ Template originally coded by Taylor Johnston, digital managing editor at The Pos
 Please contact at taylorfjohnston@gmail.com with questions.*/
 
 /* GENERAL STYLES */
+html {
+    font-size: 16px;
+}
+
 body {
     font-family: montserrat, sans-serif;
     background-color: #FFF;
@@ -13,12 +17,12 @@ body {
 a,
 i.share,
 .creditText a {
-    color: #7fc448;
+    color: #00b385;
     text-decoration: none;
 }
 
 a:hover {
-    filter: saturate(3);
+    filter: saturate(2);
 }
 
 
@@ -32,7 +36,7 @@ h2 {
 }
 
 h3 {
-    font-size: 16px;
+    font-size: 1em;
     margin: 0;
     padding: 0;
 }
@@ -129,16 +133,18 @@ h3 {
 
 #arthed {
     color: #FFF;
+    width: 90%;
     position: absolute;
     bottom: 40%;
-    padding: 0;
+    padding: 0 5%;
     margin: 0;
-    font-size: 100px;
+    font-size: 5rem;
     font-weight: 700;
     text-align: center;
-    width: 100%;
     text-shadow: 2px 2px 3px #000;
     -webkit-text-stroke: 4px #000;
+    text-transform: capitalize;
+    line-height: 6rem;
 }
 
 /* HEADLINE STYLES */
@@ -163,7 +169,7 @@ h4 {
     text-align: left;
     margin: 0;
     color: #000;
-    font-size: 12px;
+    font-size: 0.75rem;
     width: 90%;
     padding: 0;
     padding-left: 10px;
@@ -174,10 +180,11 @@ h4 {
     text-align: left;
     font-family: 'Montserrat', Arial, sans-serif;
     /* font-family: "Playfair Display", Georgia, serif; */
-    font-size: 40px;
+    font-size: 2.5rem;
     margin-top: 40px;
     text-transform: uppercase;
-    line-height: 46px;
+    line-height: 2.875rem;
+    color: #00694E;
 }
 
 /* BYLINE */
@@ -192,7 +199,7 @@ h4 {
     display: inline-block;
     font-family: 'Montserrat', Arial, sans-serif;
     /* font-family: "Playfair Display", Georgia, serif; */
-    font-size: 15px;
+    font-size: 0.9rem;
     text-align: left;
 }
 
@@ -234,7 +241,7 @@ ul.share-buttons img {
 
 /* CONTENT */
 p.intro {
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .dropcap {
@@ -243,6 +250,7 @@ p.intro {
     font-size: 2.9em;
     line-height: .9em;
     padding-right: 5px;
+    color: #00694E;
 }
 
 /* BACK BUTTON*/
@@ -261,18 +269,26 @@ p.intro {
 
 .back-button {
     padding: 10px 40px;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #fff;
     border: hidden;
     border-radius: 20px;
-    background-color: #f8b132;
+    background-color: #6bdabd;
     letter-spacing: 1px;
-    box-shadow: inset 400px 0 0 0 #7fc448;
+    box-shadow: inset 400px 0 0 0 #00b385;
     -webkit-transition: .4s ease-out 0s;
 }
 
 .slide-right:hover {
-    box-shadow: inset 0 0 0 0 #7fc448;
+    box-shadow: inset 0 0 0 0 #00b385;
+    color: #000;
+}
+
+.instagram-embed {
+    width: 60%;
+    padding: 0 20%;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -287,7 +303,7 @@ p.intro {
 .creditText {
     display: inline-block;
     font-family: 'Montserrat', Arial, sans-serif;
-    font-size: 14px;
+    font-size: 0.875rem;
     margin: 0 1rem 0rem 0;
 }
 
@@ -339,7 +355,7 @@ p.intro {
     margin: 0;
     font-weight: 800;
     color: #000;
-    font-size: 12px;
+    font-size: 0.75rem;
     width: 100%;
     padding: 0;
 }
@@ -350,7 +366,7 @@ p.intro {
     margin: 0;
     font-weight: 100;
     color: #808080;
-    font-size: 12px;
+    font-size: 0.75rem;
     width: 100%;
     padding: 0;
 }
@@ -358,7 +374,8 @@ p.intro {
 .subhed {
     font-family: montserrat, sans-serif;
     font-weight: 800;
-    color: #3d3d3d;
+    color: #00694E;
+    padding: 0 20%;
 }
 
 /*apply to wrapping span tag*/
@@ -377,7 +394,7 @@ blockquote {
     width: 60%;
     padding: 0 20%;
     margin: 0;
-    font-size: 25px;
+    font-size: 1.5rem;
     text-transform: uppercase;
     color: #5379c4;
     font-weight: 800;
@@ -390,7 +407,7 @@ blockquote {
     padding-left: 15px;
     float: right;
     margin: 0;
-    font-size: 25px;
+    font-size: 1.5rem;
     text-transform: uppercase;
     color: #5379c4;
 }
@@ -402,7 +419,7 @@ blockquote {
     padding-right: 0;
     float: left;
     margin: 0;
-    font-size: 25px;
+    font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: 700;
     color: #5379c4;
@@ -410,7 +427,7 @@ blockquote {
 
 /*add to wrapping div*/
 .attribution {
-    font-size: 20px;
+    font-size: 1.25rem;
     text-transform: none;
     display: block;
     text-align: right;
@@ -531,6 +548,14 @@ blockquote {
 }
 
 /* MEDIA QUERIES */
+@media screen and (max-width: 1080px) {
+    #arthed {
+        font-size: 4.4rem;
+        -webkit-text-stroke: 3px #3d3d3d;
+        line-height: 4.8rem;
+    }
+}
+
 @media screen and (max-width: 750px) {
 
     .column20center,
@@ -550,9 +575,9 @@ blockquote {
     }
 
     #arthed {
-        font-size: 50px;
-        -webkit-text-stroke: 2px #3d3d3d;
-        bottom: 45%;
+        font-size: 3.4rem;
+        bottom: 40%;
+        line-height: 4rem;
     }
 
     .headline {
@@ -611,5 +636,13 @@ blockquote {
 
     .copyright {
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #arthed {
+        font-size: 3rem;
+        -webkit-text-stroke: 2px #3d3d3d;
+        line-height: 3.4rem;
     }
 }

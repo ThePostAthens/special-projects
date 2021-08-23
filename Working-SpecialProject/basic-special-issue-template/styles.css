@@ -516,7 +516,8 @@ blockquote {
 }
 
 .projects:hover {
-    background-color: white;
+    background-color: rgba(151, 151, 151, 0.2);
+    color: #fff;
 }
 
 .join {
@@ -527,7 +528,8 @@ blockquote {
 }
 
 .join:hover {
-    background-color: white;
+    background-color: rgba(151, 151, 151, 0.2);
+    color: #fff;
 }
 
 /* MEDIA QUERIES */

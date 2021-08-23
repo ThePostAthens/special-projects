@@ -396,7 +396,7 @@ blockquote {
     margin: 0;
     font-size: 1.5rem;
     text-transform: uppercase;
-    color: #5379c4;
+    color: #00694E;
     font-weight: 800;
 }
 
@@ -408,8 +408,7 @@ blockquote {
     float: right;
     margin: 0;
     font-size: 1.5rem;
-    text-transform: uppercase;
-    color: #5379c4;
+    color: #00694E;
 }
 
 /*add to wrapping div*/
@@ -422,7 +421,7 @@ blockquote {
     font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: 700;
-    color: #5379c4;
+    color: #00694E;
 }
 
 /*add to wrapping div*/

@@ -115,7 +115,7 @@ h3 {
 #arthed {
     color: #FFF;
     position: absolute;
-    bottom: 40%;
+    bottom: 70%;
     padding: 0;
     margin: 0;
     font-size: 5.6rem;
@@ -124,6 +124,7 @@ h3 {
     width: 100%;
     text-shadow: 2px 2px 3px #000;
     -webkit-text-stroke: 4px #000;
+    line-height: 6rem;
 }
 
 /* HEADLINE STYLES */
@@ -384,15 +385,14 @@ a.stories:hover {
 
 h4 {
     font-size: 1.6rem;
-    margin: 2.2em 0em 0em 0em;
+    margin: 2.2em 0.3em 0em 0.3em;
     text-align: center;
     position: absolute;
-    width: 25%;
+    width: 180px;
     text-shadow: 2px 2px rgba(7, 15, 13, 1);
     transition-duration: 1s;
     color: #fff;
     /* transform: translate(-15px, -20px); */
-    padding: 0 0.75em;
     line-height: 2rem;
 }
 
@@ -594,6 +594,12 @@ a.end:hover {
 
 /* MEDIA QUERIES */
 
+@media screen and (max-width: 1300px) {
+    #arthed {
+        bottom: 50%;
+    }
+}
+
 @media screen and (max-width: 1080px) {
 
     .yt_center,
@@ -620,8 +626,9 @@ a.end:hover {
 
     #arthed {
         font-size: 4.5rem;
-        -webkit-text-stroke: 3px #3d3d3d;
+        -webkit-text-stroke: 4px #3d3d3d;
         bottom: 40%;
+        line-height: 5rem;
     }
 
     .headline {
@@ -671,6 +678,7 @@ a.end:hover {
     #arthed {
         font-size: 3.1rem;
         -webkit-text-stroke: 2px #3d3d3d;
+        line-height: 4rem;
     }
 
     a.stories {

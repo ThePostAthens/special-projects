@@ -408,6 +408,8 @@ blockquote {
     float: right;
     margin: 0;
     font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
     color: #00694E;
 }
 

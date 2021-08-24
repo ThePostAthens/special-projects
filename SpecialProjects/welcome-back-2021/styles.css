@@ -294,6 +294,8 @@ p.intro {
 }
 
 
+
+
 /* CREDITS */
 .credits {
     margin: 0 20%;
@@ -379,7 +381,7 @@ p.intro {
     padding: 0 20%;
     letter-spacing: 0.1rem;
     font-size: 2.1rem;
-    line-height: 1.8rem;
+    line-height: 2rem;
 }
 /*apply to wrapping span tag*/
 .title {

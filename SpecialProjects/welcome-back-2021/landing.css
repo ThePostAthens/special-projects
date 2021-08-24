@@ -118,13 +118,14 @@ h3 {
     bottom: 70%;
     padding: 0;
     margin: 0;
-    font-size: 5.6rem;
+    font-size: 7rem;
     font-weight: 700;
     text-align: center;
     width: 100%;
-    text-shadow: 2px 2px 3px #000;
-    -webkit-text-stroke: 4px #000;
-    line-height: 6rem;
+    text-shadow: 2px 2px 5px #fff;
+    -webkit-text-stroke: 1px #00694E;
+    line-height: 6.5rem;
+    font-family: 'Staatliches', cursive;
 }
 
 /* HEADLINE STYLES */
@@ -214,10 +215,12 @@ p.s-headline {
     color: #024230;
     padding: 0 10%;
     width: 80%;
-    font-size: 1.8rem;
-    font-weight: 900;
+    font-size: 2rem;
+    font-family: 'Squada One', cursive;
+    letter-spacing: 1px;
     text-transform: none;
     text-align: left;
+    line-height: 1.2em;
     
 }
 
@@ -384,16 +387,18 @@ a.stories:hover {
 }
 
 h4 {
-    font-size: 1.6rem;
-    margin: 2.2em 0.3em 0em 0.3em;
+    font-size: 1.8rem;
+    font-family: 'Squada One', cursive;
+    letter-spacing: 1px;;
+    margin: 2.3em 0.3em 0em 0.4em;
     text-align: center;
     position: absolute;
     width: 180px;
-    text-shadow: 2px 2px rgba(7, 15, 13, 1);
+    text-shadow: 1px 1px 3px rgba(1,179,133, 1);
     transition-duration: 1s;
     color: #fff;
     /* transform: translate(-15px, -20px); */
-    line-height: 2rem;
+    line-height: 1.9rem;
 }
 
 .extra-line {
@@ -625,8 +630,8 @@ a.end:hover {
     }
 
     #arthed {
-        font-size: 4.5rem;
-        -webkit-text-stroke: 4px #3d3d3d;
+        font-size: 5rem;
+        -webkit-text-stroke: 1px #00694E;
         bottom: 40%;
         line-height: 5rem;
     }
@@ -676,8 +681,9 @@ a.end:hover {
 @media only screen and (max-width: 600px) {
 
     #arthed {
-        font-size: 3.1rem;
-        -webkit-text-stroke: 2px #3d3d3d;
+        font-size: 4.4rem;
+        -webkit-text-stroke: 2px #00694E;
+
         line-height: 4rem;
     }
 
@@ -701,10 +707,9 @@ a.end:hover {
     }
 
     h4 {
-        margin: 2.5em 0em 0em 0em;
+        margin: 1.8em 0.5em 0em 0.55em;
         width: 150px;
         transition-duration: 1s;
-        font-size: 1.4rem;
     }
 
 
@@ -712,7 +717,8 @@ a.end:hover {
 
 @media screen and (max-width: 595px) {
     p.s-headline {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
+        text-align: center;
     }
 
     
@@ -739,6 +745,7 @@ a.end:hover {
     }
 
     h4 {
+        margin-top: 2.5em;
         width: 380px;
     }
     

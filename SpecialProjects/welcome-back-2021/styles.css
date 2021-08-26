@@ -299,10 +299,11 @@ p.intro {
 }
 
 .carousel-list {
-    width: 100%;
+    width: 70%;
     height: 100%;
     overflow: hidden;
     scroll-behavior: smooth;
+    padding: 0 14%;
   }
   
   .carousel {
@@ -311,8 +312,15 @@ p.intro {
   }
   
   .carousel__title {
-    font-size: 22px;
-    color: #fff;
+    font-family: 'Squada One', cursive;
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+    color: #00694E;
+  }
+
+  h2.carousel__title {
+    padding: 0;
+    text-align: center;
   }
   
   .carousel__content {
@@ -326,8 +334,8 @@ p.intro {
     overflow: hidden;
     box-sizing: border-box;
     flex-shrink: 0;
-    width: 332px;
-    height: 186px;
+    width: 800px;
+    height: 454px;
     margin-right: 0;
     background-size: cover;
     transition: all .3s ease-in-out;
@@ -335,13 +343,13 @@ p.intro {
   
   .carousel__item:nth-child(1) {
     background-image: url('graffiti_\(0\).jpg');
+    transform: translate(55px, -10px);
   }
   
   .carousel__item:nth-child(2) {
     background-image: url('graffiti_\(19\).jpg');
-    margin-top: 10px;
-    transform: translate(-50px, 0);
     position: relative;
+    transform: translate(-55px, 10px);
     z-index: -1;
   }
   

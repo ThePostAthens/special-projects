@@ -299,11 +299,11 @@ p.intro {
 }
 
 .carousel-list {
-    width: 70%;
+    width: 60%;
     height: 100%;
     overflow: hidden;
     scroll-behavior: smooth;
-    padding: 0 14%;
+    padding: 0 17%;
   }
   
   .carousel {
@@ -321,6 +321,7 @@ p.intro {
   h2.carousel__title {
     padding: 0;
     text-align: center;
+    line-height: 2.2rem;
   }
   
   .carousel__content {
@@ -343,13 +344,13 @@ p.intro {
   
   .carousel__item:nth-child(1) {
     background-image: url('graffiti_\(0\).jpg');
-    transform: translate(55px, -10px);
+    transform: translate(0px, -10px);
   }
   
   .carousel__item:nth-child(2) {
     background-image: url('graffiti_\(19\).jpg');
     position: relative;
-    transform: translate(-55px, 10px);
+    transform: translate(-110px, 10px);
     z-index: -1;
   }
   
@@ -652,6 +653,11 @@ blockquote {
         font-size: 5.4rem;
         -webkit-text-stroke: 1px #00694E;
         line-height: 4.8rem;
+    }
+    
+    .carousel-list {
+        width: 100%;
+        padding: 0;
     }
 }
 

@@ -334,11 +334,15 @@ p.intro {
   }
   
   .carousel__item:nth-child(1) {
-    background-image: url("graffiti_\(0\).jpg");
+    background-image: url('graffiti_\(0\).jpg');
   }
   
   .carousel__item:nth-child(2) {
-    background-image: url('https://avatars.mds.yandex.net/get-ott/374297/2a0000016be1802a220772e7962ac34935bb/375x234');
+    background-image: url('graffiti_\(19\).jpg');
+    margin-top: 10px;
+    transform: translate(-50px, 0);
+    position: relative;
+    z-index: -1;
   }
   
   .carousel__item:nth-child(4) {

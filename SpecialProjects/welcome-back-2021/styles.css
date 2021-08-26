@@ -178,6 +178,7 @@ h4 {
     width: 90%;
     padding: 0;
     padding-left: 10px;
+    padding-top: 5px;
 }
 
 .headline {
@@ -297,6 +298,84 @@ p.intro {
     justify-content: center;
 }
 
+.carousel-list {
+    width: 60%;
+    height: 100%;
+    overflow: hidden;
+    scroll-behavior: smooth;
+  }
+  
+  .carousel {
+    overflow: hidden;
+    padding: 0 40px;
+  }
+  
+  .carousel__title {
+    font-size: 22px;
+    color: #fff;
+  }
+  
+  .carousel__content {
+    overflow-x: auto;
+    display: flex;
+    padding: 16px 0;
+    scroll-behavior: smooth;
+  }
+  
+  .carousel__item {
+    overflow: hidden;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    width: 332px;
+    height: 186px;
+    margin-right: 36px;
+    background-image: url('https://avatars.mds.yandex.net/get-ott/223007/2a0000016fc31a5e074af3bc26657b046c24/640x360');
+    background-size: cover;
+    border: 2px solid #141414;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+  }
+  
+  .carousel__item:nth-child(1) {
+    background-image: url('https://avatars.mds.yandex.net/get-ott/1672343/2a0000016daf9849597c6b71d39194a9abfa/375x234');
+  }
+  
+  .carousel__item:nth-child(2) {
+    background-image: url('https://avatars.mds.yandex.net/get-ott/374297/2a0000016be1802a220772e7962ac34935bb/375x234');
+  }
+  
+  .carousel__item:nth-child(4) {
+    background-image: url('https://avatars.mds.yandex.net/get-ott/1672343/2a0000016daf9849597c6b71d39194a9abfa/375x234');
+  }
+  
+  .carousel__item:nth-child(5) {
+    background-image: url('https://avatars.mds.yandex.net/get-ott/374297/2a0000016be1802a220772e7962ac34935bb/375x234');
+  }
+  
+  .carousel__item:nth-child(7) {
+    background-image: url('https://avatars.mds.yandex.net/get-ott/1672343/2a0000016daf9849597c6b71d39194a9abfa/375x234');
+  }
+  
+  .carousel__item:nth-child(6) {
+    background-image: url('https://avatars.mds.yandex.net/get-ott/374297/2a0000016be1802a220772e7962ac34935bb/375x234');
+  }
+  
+  .carousel__item:nth-child(8) {
+    background-image: url('https://avatars.mds.yandex.net/get-ott/1672343/2a0000016daf9849597c6b71d39194a9abfa/375x234');
+  }
+  
+  .carousel__item:nth-child(9) {
+    background-image: url('https://avatars.mds.yandex.net/get-ott/374297/2a0000016be1802a220772e7962ac34935bb/375x234');
+  }
+  
+  .carousel__item:last-child {
+    margin-right: 0;
+  }
+  
+  .carousel__item--active {
+    border-color: rgb(255, 102, 0);
+  }
+
 
 
 
@@ -366,12 +445,13 @@ p.intro {
     font-size: 0.75rem;
     width: 100%;
     padding: 0;
+    margin-top: 3px;
 }
 
 .pcut {
     float: right;
     text-align: left;
-    margin: 0;
+    margin: 1px 0 5px 0;
     font-weight: 100;
     color: #808080;
     font-size: 0.75rem;

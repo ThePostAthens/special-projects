@@ -298,6 +298,10 @@ p.intro {
     justify-content: center;
 }
 
+.spotify-embed {
+    width: 100%;
+}
+
 .carousel-list {
     width: 60%;
     height: 100%;

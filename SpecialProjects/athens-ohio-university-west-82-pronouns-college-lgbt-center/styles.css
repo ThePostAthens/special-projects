@@ -13,7 +13,7 @@ body {
 a,
 i.share,
 .creditText a {
-    color: #75bdab;
+    color: #e4d000;
     text-decoration: none;
 }
 
@@ -140,16 +140,19 @@ h4 {
     text-transform: uppercase;
     margin-bottom: -40px;
     margin-top: 75px;
-    color: #b099a7;
+    color: #aa7f99;
     font-weight: 500;
+    font-size: 1.2rem;
+    font-family: 'Klee One', cursive;
 }
 
 /* Pick one font depending on design (or find another one) */
 .arthed {
     text-align: center;
-    color: #f7eb78;
+    color: #75bdab;
     font-size: 3.75rem;
-    font-family: 'Montserrat', Arial, sans-serif;
+    font-family: 'Klee One', cursive;
+    font-weight: 900;
     /* font-family: "Playfair Display", Georgia, serif; */
     text-transform: capitalize;
     line-height: 70px;
@@ -170,11 +173,11 @@ h4 {
 
 .headline {
     text-align: center;
-    font-family: 'Montserrat', Arial, sans-serif;
+    font-family: 'Klee One', cursive;
     /* font-family: "Playfair Display", Georgia, serif; */
     font-size: 1.5rem;
     margin-top: 1.5px;
-    color: #b099a7;
+    color: #aa7f99;
 }
 
 /* BYLINE */
@@ -239,7 +242,8 @@ p.intro {
     font-size: 2.9em;
     line-height: .9em;
     padding-right: 5px;
-    color: #b099a7;
+    color: #aa7f99;
+    font-family: 'Klee One', cursive;
 }
 
 p a:hover {
@@ -345,7 +349,7 @@ p a:hover {
 }
 
 .subhed {
-    font-family: montserrat, sans-serif;
+    font-family: 'Klee One', cursive;
     font-weight: 800;
     color: #75bdab;
     padding: 0 20%;

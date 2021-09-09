@@ -8,6 +8,7 @@ body {
     margin: 0;
     padding: 0;
     color: #FFF;
+    background-color: #282828;
 }
 
 a {
@@ -91,10 +92,10 @@ p {
 
 .header h1 {
     font-size: 5rem;
-    color: #282828;
+    color: rgb(0,211,202, 1);
     font-family: 'Montserrat', sans-serif;
     -webkit-text-stroke: 2px #fff;
-    line-height: 6.25rem;
+    line-height: 5rem;
     margin: 0;
     padding-bottom: 0.2em;
 }
@@ -103,7 +104,7 @@ p {
     margin: 0;
     padding: 0;
     font-size: 1.2rem;
-    color: #fff;
+    color: rgb(0,211,202, 1);
     font-weight: 100;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.8rem;
@@ -111,9 +112,11 @@ p {
 
 /*-- STORIES --*/
 h1.recent{
-    font-size: 2rem;
+    font-size: 2.5rem;
     -webkit-text-stroke: 0;
     color: #fff;
+    -webkit-text-stroke: 1.5px rgb(3,194,186);
+    letter-spacing: 0.1rem;
     margin: -0.5em 0 -0.8em;
 }
 
@@ -142,7 +145,7 @@ h1.recent{
     text-align: center;
     mix-blend-mode: hard-light;
     transition: all .5s ease;
-    background-color: rgb(41,41,41, 0.4);
+    background-color: rgba(41,41,41, 0.4);
 }
 
 .top_hed:hover,
@@ -150,8 +153,9 @@ h1.recent{
     height: 5em;
     margin: 8em 0;
     padding: 2em 0;
-    background-color: rgb(41,41,41, 0.8);
-    box-shadow: 0 0 20px 10px rgb(41,41,41, 0.9);
+    mix-blend-mode: normal;
+    background-color: rgba(0,211,202, 0.95);
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.9);
 }
 
 .top_hed h2 {
@@ -178,7 +182,8 @@ h1.recent{
     width: 50%;
 }
 
-.story {
+.story,
+.read-more {
     width: 100%;
     height: 20em;
     background-size: 100%;
@@ -197,7 +202,7 @@ h1.recent{
     height: inherit;
     mix-blend-mode: hard-light;
     transition: all .5s ease-in-out;
-    background-color: rgb(41,41,41, 0.6);
+    background-color: rgba(41,41,41, 0.7);
     /* background-color: red; */
     padding: 0 2em;
     color: transparent;
@@ -209,7 +214,9 @@ h1.recent{
     width: 30%;
     padding: 0 10%;
     color: #fff !important;
-    text-shadow: 2px 2px 5px #000;
+    text-shadow: 2px 2px 5px rgba(41, 41, 41, 0.9);
+    mix-blend-mode: normal;
+    background-color: rgba(3,194,186, 0.9);
 }
 
 .box_hed h2,
@@ -236,6 +243,44 @@ h1.recent{
     margin: 0.5em 0;
     text-decoration: none;
     padding:0;
+}
+
+.end_hed {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin: 8em 0; */
+    width: 50%;
+    height: inherit;
+    text-align: center;
+    mix-blend-mode: hard-light;
+    transition: all .5s ease;
+    background-color: rgba(41,41,41, 0.4);
+}
+
+.end_hed:hover,
+.end_hed:active {
+    height: 5em;
+    margin: 6em 0;
+    padding: 2em 0;
+    mix-blend-mode: normal;
+    background-color: rgba(0,211,202, 1);
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.9);
+}
+
+.end_hed h2 {
+    font-size: 2.6rem;
+    margin: 0;
+    transition: all .5s ease;
+    color: rgba(0,211,202, 1);
+    -webkit-text-stroke: 1px #fff;
+}
+
+.end_hed h3 {
+    font-size: 1.3rem;
+    margin: 0;
 }
 
 /*.story {
@@ -351,6 +396,7 @@ h1.recent{
 .copyright_inside {
   vertical-align: middle;
   display: table-cell;
+  text-align: center;
 }
 
 .copyright p {
@@ -388,50 +434,30 @@ h1.recent{
   background-color: white;
 }
 
+
 /* MEDIA QUERIES */
-@media screen and (max-width: 750px) {
-  .column20center, p {
-      width: 80%;
-      padding: 0 10%;
-  }
+@media screen and (max-width: 825px) {
 
-  #logo {
-      height: 25px;
-  }
-
-  .date {
-      padding: 0 10%;
-      width: 80%;
-  }
-
-  .arthed {
-      font-size: 60px;
-      line-height: 60px;
-  }
-  .headline {
-      width: 80%;
-      padding: 0% 10% 0 10%;
-      font-size: 25px;
-  }
-
-    .oneimg_right, .oneimg_left, .oneimg_center {
-        width: 80%;
-        padding: 0 10% 10px 10%;
+    .box_hed {
+        width: 30%;
+        padding: 0 1rem 0 2rem;
     }
-
-    .oneimg_full p {
-        width: 80%;
-        padding: 0 10%;
+    
+    .box_hed h2 {
+        font-size: 1.3rem;
     }
-
-    .pq_center, .pq_right, .pq_left {
-        padding: 0 5%;
-        width: 90%;
+    
+    .box_hed p {
+        font-size: 0.9rem;
+        font-family: 'Montserrat', sans-serif;
+        text-align: left;
+        margin: 0.5em 0;
+        text-decoration: none;
+        padding:0;
     }
+}
 
-    .subhed {
-        padding: 0 10%;
-    }
+@media screen and (max-width: 768px) {
 
     .credits {
       max-width: 100%;
@@ -441,5 +467,27 @@ h1.recent{
 
     .footer {
         height: 300px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .top_hed:hover,
+    .top_hed:active {
+        height: 9em;
+        margin: 6em 0;
+        padding: 2em 0;
+    }
+
+    .end_hed:hover,
+    .end_hed:active {
+        height: 6em;
+        margin: 5em 0;
+        padding: 2em 0;
+    }
+    
+    .end_hed h2 {
+        font-size: 2rem;
+        line-height: 2.2rem;
+        margin-bottom: 0.2em;
     }
 }

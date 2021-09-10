@@ -572,6 +572,17 @@ p.recentMobile {
         padding: 0 5%;
     }
 
+    .end_hed {
+        width: 40%;
+        padding: 0em 5%;
+    }
+
+    .end_hed:hover,
+    .end_hed:active {
+        width: 40%;
+        padding: 2em 5%;
+    }
+
     .end_hed h2 {
         font-size: x-large;
         line-height: 1em;

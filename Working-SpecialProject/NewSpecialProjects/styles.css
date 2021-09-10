@@ -103,6 +103,8 @@ p {
 .header h2 {
     margin: 0;
     padding: 0;
+    width: 80%;
+    padding: 0 10%;
     font-size: 1.2rem;
     color: rgb(0,211,202, 1);
     font-weight: 100;
@@ -117,7 +119,11 @@ h1.recent{
     color: #fff;
     -webkit-text-stroke: 1.5px rgb(3,194,186);
     letter-spacing: 0.1rem;
-    margin: -0.5em 0 -0.8em;
+    margin: -0.3em 0 -0.5em;
+}
+
+p.recentMobile {
+    display: none;
 }
 
 .top-story {
@@ -444,11 +450,11 @@ h1.recent{
     }
     
     .box_hed h2 {
-        font-size: 1.3rem;
+        font-size: x-large;
     }
     
     .box_hed p {
-        font-size: 0.9rem;
+        font-size: medium;
         font-family: 'Montserrat', sans-serif;
         text-align: left;
         margin: 0.5em 0;
@@ -458,6 +464,14 @@ h1.recent{
 }
 
 @media screen and (max-width: 768px) {
+
+    p.recentMobile {
+        display: initial;
+        font-family: 'Montserrat', sans-serif;
+        color:rgba(0,211,202, 1);
+        font-size: 0.9rem;
+        line-height: 1rem;
+    }
 
     .credits {
       max-width: 100%;
@@ -471,6 +485,14 @@ h1.recent{
 }
 
 @media screen and (max-width: 650px) {
+    .top_hed h2 {
+        font-size: xx-large;
+    }
+
+    .top_hed h3 {
+        font-size: large;
+    }
+    
     .top_hed:hover,
     .top_hed:active {
         height: 9em;
@@ -490,4 +512,73 @@ h1.recent{
         line-height: 2.2rem;
         margin-bottom: 0.2em;
     }
+
+    .box_hed {
+        width: 40%;
+        padding: 0 5%;
+    }
+    
+    .box_hed h2 {
+        font-size: large;
+    }
+    
+    .box_hed p {
+        font-size: medium;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .header h1 {
+        font-size: 3.5em;
+        line-height: 3.8rem;
+        -webkit-text-stroke: 1.5px #fff;
+    }
+
+    .header h2 {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    h1.recent {
+        font-size: xx-large;
+        margin: -0.2em 0 -0.5em;
+        -webkit-text-stroke: 1px rgba(0,211,202, 1);
+    }
+
+    .top_hed h2 {
+        font-size: x-large;
+    }
+
+    .top_hed h3 {
+        font-size: medium;
+    }
+
+    .box_hed h2 {
+        font-size: medium;
+    }
+
+    .box_hed h3 {
+        font-size: smaller;
+    }
+
+    .box_hed p {
+        font-size: smaller;
+    }
+
+    .box_hed:hover,
+    .box_hed:active {
+        width: 40%;
+        padding: 0 5%;
+    }
+
+    .end_hed h2 {
+        font-size: x-large;
+        line-height: 1em;
+    }
+
+    .end_hed h3 {
+        font-size: small;
+    }
+
 }

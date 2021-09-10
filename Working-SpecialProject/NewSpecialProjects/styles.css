@@ -150,7 +150,7 @@ p.recentMobile {
     height: inherit;
     text-align: center;
     mix-blend-mode: hard-light;
-    transition: all .5s ease;
+    transition: all .5s ease 0.1s;
     background-color: rgba(41,41,41, 0.4);
 }
 
@@ -262,7 +262,7 @@ p.recentMobile {
     height: inherit;
     text-align: center;
     mix-blend-mode: hard-light;
-    transition: all .5s ease;
+    transition: all .5s ease 0.1s;
     background-color: rgba(41,41,41, 0.4);
 }
 

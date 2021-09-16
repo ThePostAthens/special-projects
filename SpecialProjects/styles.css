@@ -289,7 +289,7 @@ p.recentMobile {
 }
 
 .end_hed h3 {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin: 0;
 }
 
@@ -497,12 +497,12 @@ p.recentMobile {
         font-size: large;
     }
     
-    .top_hed:hover,
+    /* .top_hed:hover,
     .top_hed:active {
         height: 9em;
         margin: 6em 0;
-        padding: 2em 0;
-    }
+        padding: 2em 5%;
+    } */
 
     .end_hed:hover,
     .end_hed:active {
@@ -527,7 +527,7 @@ p.recentMobile {
     }
     
     .box_hed p {
-        font-size: medium;
+        font-size: small;
     }
 }
 

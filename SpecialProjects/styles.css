@@ -131,6 +131,7 @@ p.recentMobile {
     height: 25em;
     background-size: 100%;
     background-position: center;
+    background-repeat: no-repeat;
     transition: all .5s ease;
 }
 
@@ -146,8 +147,9 @@ p.recentMobile {
     flex-direction: column;
     justify-content: center;
     /* margin: 8em 0; */
-    width: 80%;
-    padding: 0 10%;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
     height: inherit;
     text-align: center;
     mix-blend-mode: hard-light;
@@ -157,9 +159,10 @@ p.recentMobile {
 
 .top_hed:hover,
 .top_hed:active {
-    height: 7em;
-    margin: 7em 0;
-    padding: 2em 10%;
+    height: 10em;
+    margin: 5.5em 0;
+    padding: 2em 5%;
+    width: 90%;
     mix-blend-mode: normal;
     background-color: rgba(0,211,202, 0.95);
     box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.9);
@@ -232,19 +235,19 @@ p.recentMobile {
 }
 
 .box_hed h2 {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     margin: 0;
 }
 
 .box_hed h3 {
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 500;
     margin: 0.2em 0;
     text-shadow: none;
 }
 
 .box_hed p {
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-family: 'Montserrat', sans-serif;
     text-align: left;
     margin: 0.5em 0;

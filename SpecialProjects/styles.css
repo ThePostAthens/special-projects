@@ -113,8 +113,8 @@ p {
 }
 
 .advertisement {
-    background-color: red;
-    height: 8em;
+    background-color: #fff;
+    height: 15em;
     width: 60%;
     margin: 0 20%;
 }

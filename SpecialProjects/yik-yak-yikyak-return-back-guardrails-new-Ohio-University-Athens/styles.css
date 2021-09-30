@@ -13,7 +13,7 @@ body {
 a,
 i.share,
 .creditText a {
-    color: #7fc448;
+    color: #47babf;
     text-decoration: none;
 }
 
@@ -145,11 +145,12 @@ h4 {
 /* Pick one font depending on design (or find another one) */
 .arthed {
     text-align: center;
-    color: #3d3d3d;
+    color: #46bea6;
     font-size: 3.75rem;
-    font-family: 'Montserrat', Arial, sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;
     /* font-family: "Playfair Display", Georgia, serif; */
-    text-transform: capitalize;
+    text-transform: none;
     line-height: 70px;
     margin: 50px 0px 10px 0px;
 }
@@ -168,7 +169,8 @@ h4 {
 
 .headline {
     text-align: center;
-    font-family: 'Montserrat', Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
     /* font-family: "Playfair Display", Georgia, serif; */
     font-size: 1.5rem;
     margin-top: 1.5px;
@@ -258,6 +260,13 @@ ul.share-buttons img {
     padding: 0 20%;
 }
 
+.disclaimer {
+    color: #46bea6;
+    text-align: center;
+    width: 60%;
+    padding: 0 20%;
+}
+
 p.intro {
     font-size: 1.25rem;
 }
@@ -268,6 +277,7 @@ p.intro {
     font-size: 2.9em;
     line-height: .9em;
     padding-right: 5px;
+    color: #46bea6;
 }
 
 p a:hover {
@@ -630,6 +640,7 @@ a.end:hover {
 
     .yikyak-phone {
         width: 110%;
+        overflow: hidden;
         margin-left: -5%;
         padding: 0;
     }

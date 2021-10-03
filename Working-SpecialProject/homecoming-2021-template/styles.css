@@ -4,10 +4,6 @@ Template originally coded by Taylor Johnston, digital managing editor at The Pos
 Please contact at taylorfjohnston@gmail.com with questions.*/
 
 /* GENERAL STYLES */
-html {
-    font-size: 16px;
-}
-
 body {
     font-family: montserrat, sans-serif;
     background-color: #FFF;
@@ -36,7 +32,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1em;
+    font-size: 16px;
     margin: 0;
     padding: 0;
 }
@@ -133,18 +129,17 @@ h3 {
 
 #arthed {
     color: #FFF;
-    width: 90%;
     position: absolute;
     bottom: 40%;
-    padding: 0 5%;
+    padding: 0 10%;
     margin: 0;
-    font-size: 5rem;
+    font-size: clamp(3.1rem, 10vw, 5.6rem);
+    line-height: clamp(3rem, 10vw, 5.5rem);
     font-weight: 700;
     text-align: center;
+    width: 80%;
     text-shadow: 2px 2px 3px #000;
     -webkit-text-stroke: 4px #000;
-    text-transform: capitalize;
-    line-height: 6rem;
 }
 
 /* HEADLINE STYLES */
@@ -169,10 +164,11 @@ h4 {
     text-align: left;
     margin: 0;
     color: #000;
-    font-size: 0.75rem;
+    font-size: 12px;
     width: 90%;
     padding: 0;
     padding-left: 10px;
+    padding-top: 3px;;
 }
 
 .headline {
@@ -180,10 +176,10 @@ h4 {
     text-align: left;
     font-family: 'Montserrat', Arial, sans-serif;
     /* font-family: "Playfair Display", Georgia, serif; */
-    font-size: 2.5rem;
+    font-size: 40px;
     margin-top: 40px;
     text-transform: uppercase;
-    line-height: 2.875rem;
+    line-height: 46px;
 }
 
 /* BYLINE */
@@ -198,7 +194,7 @@ h4 {
     display: inline-block;
     font-family: 'Montserrat', Arial, sans-serif;
     /* font-family: "Playfair Display", Georgia, serif; */
-    font-size: 0.9rem;
+    font-size: 15px;
     text-align: left;
 }
 
@@ -240,7 +236,7 @@ ul.share-buttons img {
 
 /* CONTENT */
 p.intro {
-    font-size: 1.25rem;
+    font-size: 20px;
 }
 
 .dropcap {
@@ -267,7 +263,7 @@ p.intro {
 
 .back-button {
     padding: 10px 40px;
-    font-size: 1.25rem;
+    font-size: 20px;
     color: #fff;
     border: hidden;
     border-radius: 20px;
@@ -275,6 +271,7 @@ p.intro {
     letter-spacing: 1px;
     box-shadow: inset 400px 0 0 0 #7fc448;
     -webkit-transition: .4s ease-out 0s;
+    transition: .4s ease-out 0s;
 }
 
 .slide-right:hover {
@@ -293,7 +290,7 @@ p.intro {
 .creditText {
     display: inline-block;
     font-family: 'Montserrat', Arial, sans-serif;
-    font-size: 0.875rem;
+    font-size: 14px;
     margin: 0 1rem 0rem 0;
 }
 
@@ -331,11 +328,6 @@ p.intro {
     padding: 0 20%;
 }
 
-.oneimg_split {
-    width: 80%;
-    padding: 0 10%;
-    display: flex;
-}
 
 .oneimg_full img,
 .oneimg_center img,
@@ -350,7 +342,7 @@ p.intro {
     margin: 0;
     font-weight: 800;
     color: #000;
-    font-size: 0.75rem;
+    font-size: 12px;
     width: 100%;
     padding: 0;
 }
@@ -361,7 +353,7 @@ p.intro {
     margin: 0;
     font-weight: 100;
     color: #808080;
-    font-size: 0.75rem;
+    font-size: 12px;
     width: 100%;
     padding: 0;
 }
@@ -388,7 +380,7 @@ blockquote {
     width: 60%;
     padding: 0 20%;
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 25px;
     text-transform: uppercase;
     color: #5379c4;
     font-weight: 800;
@@ -401,7 +393,7 @@ blockquote {
     padding-left: 15px;
     float: right;
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 25px;
     text-transform: uppercase;
     color: #5379c4;
 }
@@ -413,7 +405,7 @@ blockquote {
     padding-right: 0;
     float: left;
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 25px;
     text-transform: uppercase;
     font-weight: 700;
     color: #5379c4;
@@ -421,7 +413,7 @@ blockquote {
 
 /*add to wrapping div*/
 .attribution {
-    font-size: 1.25rem;
+    font-size: 20px;
     text-transform: none;
     display: block;
     text-align: right;
@@ -527,7 +519,8 @@ blockquote {
 }
 
 .projects:hover {
-    background-color: white;
+    background-color: rgba(151, 151, 151, 0.2);
+    color: #fff;
 }
 
 .join {
@@ -538,18 +531,11 @@ blockquote {
 }
 
 .join:hover {
-    background-color: white;
+    background-color: rgba(151, 151, 151, 0.2);
+    color: #fff;
 }
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 1080px) {
-    #arthed {
-        font-size: 4.4rem;
-        -webkit-text-stroke: 3px #3d3d3d;
-        line-height: 4.8rem;
-    }
-}
-
 @media screen and (max-width: 750px) {
 
     .column20center,
@@ -569,9 +555,8 @@ blockquote {
     }
 
     #arthed {
-        font-size: 3.4rem;
+        -webkit-text-stroke: 2.5px #3d3d3d;
         bottom: 40%;
-        line-height: 4rem;
     }
 
     .headline {
@@ -630,13 +615,5 @@ blockquote {
 
     .copyright {
         text-align: center;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    #arthed {
-        font-size: 3rem;
-        -webkit-text-stroke: 2px #3d3d3d;
-        line-height: 3.4rem;
     }
 }

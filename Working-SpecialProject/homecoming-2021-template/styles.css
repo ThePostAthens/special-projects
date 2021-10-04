@@ -32,7 +32,7 @@ h2 {
 }
 
 h3 {
-    font-size: 16px;
+    font-size: 1rem;
     margin: 0;
     padding: 0;
 }
@@ -133,8 +133,8 @@ h3 {
     bottom: 40%;
     padding: 0 10%;
     margin: 0;
-    font-size: clamp(3.1rem, 10vw, 5.6rem);
-    line-height: clamp(3rem, 10vw, 5.5rem);
+    font-size: clamp(2.5rem, 10vw, 5.6rem);
+    line-height: clamp(2.4rem, 10vw, 5.5rem);
     font-weight: 700;
     text-align: center;
     width: 80%;
@@ -154,7 +154,8 @@ h4 {
     text-transform: uppercase;
     margin-top: 75px;
     margin-bottom: -40px;
-    padding: 0 15%;
+    width: 60%;
+    padding: 0 20%;
 }
 
 
@@ -164,7 +165,7 @@ h4 {
     text-align: left;
     margin: 0;
     color: #000;
-    font-size: 12px;
+    font-size: 0.75rem;
     width: 90%;
     padding: 0;
     padding-left: 10px;
@@ -176,10 +177,12 @@ h4 {
     text-align: left;
     font-family: 'Montserrat', Arial, sans-serif;
     /* font-family: "Playfair Display", Georgia, serif; */
-    font-size: 40px;
+    font-size: clamp(1.3rem, 5vw, 2.3rem);
+    line-height: clamp(2rem, 5vw, 2.6rem);
     margin-top: 40px;
     text-transform: uppercase;
-    line-height: 46px;
+    width: 60%;
+    padding: 0 20%;
 }
 
 /* BYLINE */
@@ -194,7 +197,7 @@ h4 {
     display: inline-block;
     font-family: 'Montserrat', Arial, sans-serif;
     /* font-family: "Playfair Display", Georgia, serif; */
-    font-size: 15px;
+    font-size: 1rem;
     text-align: left;
 }
 
@@ -236,7 +239,7 @@ ul.share-buttons img {
 
 /* CONTENT */
 p.intro {
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .dropcap {
@@ -263,7 +266,7 @@ p.intro {
 
 .back-button {
     padding: 10px 40px;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #fff;
     border: hidden;
     border-radius: 20px;
@@ -290,7 +293,7 @@ p.intro {
 .creditText {
     display: inline-block;
     font-family: 'Montserrat', Arial, sans-serif;
-    font-size: 14px;
+    font-size: 0.875rem;
     margin: 0 1rem 0rem 0;
 }
 
@@ -342,7 +345,7 @@ p.intro {
     margin: 0;
     font-weight: 800;
     color: #000;
-    font-size: 12px;
+    font-size: 0.75rem;
     width: 100%;
     padding: 0;
 }
@@ -353,7 +356,7 @@ p.intro {
     margin: 0;
     font-weight: 100;
     color: #808080;
-    font-size: 12px;
+    font-size: 0.75rem;
     width: 100%;
     padding: 0;
 }
@@ -361,7 +364,11 @@ p.intro {
 .subhed {
     font-family: montserrat, sans-serif;
     font-weight: 800;
+    line-height: clamp(1rem, 10vw, 1.6rem);
     color: #3d3d3d;
+    width: 60%;
+    padding: 0 20%;
+
 }
 
 /*apply to wrapping span tag*/
@@ -380,7 +387,7 @@ blockquote {
     width: 60%;
     padding: 0 20%;
     margin: 0;
-    font-size: 25px;
+    font-size: 1.5rem;
     text-transform: uppercase;
     color: #5379c4;
     font-weight: 800;
@@ -393,7 +400,7 @@ blockquote {
     padding-left: 15px;
     float: right;
     margin: 0;
-    font-size: 25px;
+    font-size: 1.5rem;
     text-transform: uppercase;
     color: #5379c4;
 }
@@ -405,15 +412,20 @@ blockquote {
     padding-right: 0;
     float: left;
     margin: 0;
-    font-size: 25px;
+    font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: 700;
     color: #5379c4;
 }
 
+.flourish-embed {
+    width: 60%;
+    margin: 0 20%;
+}
+
 /*add to wrapping div*/
 .attribution {
-    font-size: 20px;
+    font-size: 1.25rem;
     text-transform: none;
     display: block;
     text-align: right;
@@ -469,7 +481,7 @@ blockquote {
 }
 
 .footer h2 {
-    font-size: 40px;
+    font-size: 2.5rem;
     width: 70%;
     padding: 0 15%;
     margin: 0;
@@ -536,7 +548,7 @@ blockquote {
 }
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
 
     .column20center,
     p {
@@ -550,7 +562,7 @@ blockquote {
 
     .date {
         width: 80%;
-        padding: 0% 5%;
+        padding: 0% 10%;
         text-align: center;
     }
 
@@ -562,9 +574,7 @@ blockquote {
     .headline {
         width: 80%;
         padding: 0% 10%;
-        font-size: 30px;
         text-align: center;
-        line-height: 38px;
     }
 
     .byline-info p {
@@ -572,6 +582,12 @@ blockquote {
     }
 
     .share-container {
+        text-align: center;
+    }
+
+    .subhed {
+        width: 80%;
+        padding: 0 10%;
         text-align: center;
     }
 

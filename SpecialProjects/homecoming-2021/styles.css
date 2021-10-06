@@ -305,6 +305,11 @@ p.intro {
 
 /* OTHER STUFF */
 /* IMAGE BLOCKS */
+.insta-embed {
+    width: 40%;
+    padding: 0 30%;
+}
+
 .oneimg_center {
     width: 60%;
     padding: 0 20%;
@@ -589,6 +594,11 @@ blockquote {
     .subhed {
         width: 80%;
         padding: 0 10%;
+    }
+
+    .insta-embed {
+        width: 60%;
+        padding: 0 20%;
     }
 
     .oneimg_right,

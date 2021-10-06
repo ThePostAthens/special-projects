@@ -14,7 +14,7 @@ a,
 i.share,
 .creditText a {
     color: #7fc448;
-    background-color: red;
+    /* background-color: red; */
     text-decoration: none;
 }
 

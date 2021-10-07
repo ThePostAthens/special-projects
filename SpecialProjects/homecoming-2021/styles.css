@@ -147,6 +147,17 @@ h3 {
     -webkit-text-stroke: 4px var(--stroke);
 }
 
+#PMarthed {
+    text-align: center;
+    color: #fff;
+    font-family: p22-mackinac-pro, serif;
+    font-size: clamp(2.5rem, 10vw, 5.6rem);
+    line-height: clamp(2.4rem, 10vw, 5.5rem);
+    text-transform: capitalize;
+    margin: 50px 0px 10px 0px;
+    -webkit-text-stroke: 4px var(--stroke);
+}
+
 /* HEADLINE STYLES */
 h1,
 h2,

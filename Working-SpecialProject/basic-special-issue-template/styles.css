@@ -133,8 +133,8 @@ h3 {
     bottom: 40%;
     padding: 0 10%;
     margin: 0;
-    font-size: clamp(3.1rem, 10vw, 5.6rem);
-    line-height: clamp(3rem, 10vw, 5.5rem);
+    font-size: clamp(2.5rem, 10vw, 5.6rem);
+    line-height: clamp(2.4rem, 10vw, 5.5rem);
     font-weight: 700;
     text-align: center;
     width: 80%;
@@ -177,8 +177,8 @@ h4 {
     text-align: left;
     font-family: 'Montserrat', Arial, sans-serif;
     /* font-family: "Playfair Display", Georgia, serif; */
-    font-size: clamp(1.875rem, 5vw, 2.3rem);
-    line-height: clamp(2rem, 10vw, 2.5rem);
+    font-size: clamp(1.3rem, 5vw, 2.3rem);
+    line-height: clamp(2rem, 5vw, 2.6rem);
     margin-top: 40px;
     text-transform: uppercase;
     width: 60%;
@@ -189,7 +189,7 @@ h4 {
 .byline-info {
     text-align: left;
     display: block;
-    margin-top: -15px;
+    margin-top: -10px;
 }
 
 .byline-info p {
@@ -304,6 +304,11 @@ p.intro {
 
 /* OTHER STUFF */
 /* IMAGE BLOCKS */
+.insta-embed {
+    width: 40%;
+    padding: 0 30%;
+}
+
 .oneimg_center {
     width: 60%;
     padding: 0 20%;
@@ -548,7 +553,7 @@ blockquote {
 }
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
 
     .column20center,
     p {
@@ -588,7 +593,11 @@ blockquote {
     .subhed {
         width: 80%;
         padding: 0 10%;
-        text-align: center;
+    }
+
+    .insta-embed {
+        width: 60%;
+        padding: 0 20%;
     }
 
     .oneimg_right,

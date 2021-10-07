@@ -106,13 +106,11 @@ h3 {
 /* HERO IMAGE */
 #heroimg {
     width: 100%;
-    background-color: black;
     position: relative;
 }
 
 #heroimg img {
     width: 100%;
-    opacity: 60%;
 }
 
 #arthed {

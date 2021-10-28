@@ -8,10 +8,12 @@ Please contact at taylorfjohnston@gmail.com with questions.*/
     --arthed-color: #3d3d3d;
     --headline-color: #3d3d3d;
     --hyperlink-color: #7fc448;
+    --pq-color: #487ac4;
 
     /* Change Text Fonts */
     --arthed-font: 'Montserrat', Arial, sans-serif;
     --headline-font: 'Montserrat', Arial, sans-serif;
+    --pq-font: 'Montserrat', Arial, sans-serif;
 }
 
 
@@ -376,8 +378,8 @@ blockquote {
     padding: 0 20%;
     margin: 0;
     font-size: 1.5rem;
-    text-transform: uppercase;
-    color: var(--headline-color);
+    font-family: var(--pq-font);
+    color: var(--pq-color);
     font-weight: 800;
 }
 
@@ -389,8 +391,9 @@ blockquote {
     float: right;
     margin: 0;
     font-size: 1.5rem;
-    text-transform: uppercase;
-    color: var(--headline-color);
+    font-family: var(--pq-font);
+    font-family: var(--pq-font);
+    color: var(--pq-color);
 }
 
 /*add to wrapping div*/
@@ -401,9 +404,9 @@ blockquote {
     float: left;
     margin: 0;
     font-size: 1.5rem;
-    text-transform: uppercase;
+    font-family: var(--pq-font);
     font-weight: 700;
-    color: var(--headline-color);
+    color: var(--pq-color);
 }
 
 /*.twitter-tweet {

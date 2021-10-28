@@ -5,13 +5,14 @@ Please contact at taylorfjohnston@gmail.com with questions.*/
 
 :root {
     /* Change Text Colors */
-    --arthed-color: #3d3d3d;
-    --headline-color: #3d3d3d;
-    --hyperlink-color: #7fc448;
+    --arthed-color: #008080;
+    --headline-color: #89D5D9;
+    --hyperlink-color: #d56862;
 
     /* Change Text Fonts */
     --arthed-font: 'Montserrat', Arial, sans-serif;
-    --headline-font: 'Montserrat', Arial, sans-serif;
+    --headline-font: 'Qahiri', sans-serif;
+    --pq-font: 'Montserrat', Arial, sans-serif;
 }
 
 
@@ -248,6 +249,8 @@ p.intro {
     font-size: 2.9em;
     line-height: .9em;
     padding-right: 5px;
+    color: var(--arthed-color);
+    font-family: var(--arthed-font);
 }
 
 p a:hover {

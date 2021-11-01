@@ -3,9 +3,23 @@ This is a template for special projects at The Post.
 Template originally coded by Taylor Johnston, digital managing editor at The Post.
 Please contact at taylorfjohnston@gmail.com with questions.*/
 
+:root {
+    --default-font: 'Montserrat', Arial, sans-serif;
+    --arthed-font: 'Montserrat', Arial, sans-serif;
+    --headline-font: 'Montserrat', Arial, sans-serif;
+    --subhed-font: 'Montserrat', Arial, sans-serif;
+    --pq-font: 'Montserrat', Arial, sans-serif;
+    
+    --arthed-color: #fff;
+    --headline-color: #030406;
+    --subhed-color: #030406;
+    --hyperlink-color: #7fc447;
+    --pq-color: #5379c4;
+}
+
 /* GENERAL STYLES */
 body {
-    font-family: montserrat, sans-serif;
+    font-family: var(--default-font);
     background-color: #FFF;
     color: #030406;
 }
@@ -13,7 +27,7 @@ body {
 a,
 i.share,
 .creditText a {
-    color: #7fc448;
+    color: var(--hyperlink-color);
     text-decoration: none;
 }
 
@@ -128,7 +142,7 @@ h3 {
 }
 
 #arthed {
-    color: #FFF;
+    color: var(--arthed-color);
     position: absolute;
     bottom: 40%;
     padding: 0 10%;
@@ -164,7 +178,7 @@ h4 {
     float: left;
     text-align: left;
     margin: 0;
-    color: #000;
+    color: #666;
     font-size: 0.75rem;
     width: 90%;
     padding: 0;
@@ -175,8 +189,8 @@ h4 {
 .headline {
     display: flex;
     text-align: left;
-    font-family: 'Montserrat', Arial, sans-serif;
-    /* font-family: "Playfair Display", Georgia, serif; */
+    color: var(--headline-color);
+    font-family: var(--headline-font);
     font-size: clamp(1.3rem, 5vw, 2.3rem);
     line-height: clamp(2rem, 5vw, 2.6rem);
     margin-top: 40px;
@@ -195,8 +209,7 @@ h4 {
 .byline-info p {
     color: #3d3d3d;
     display: inline-block;
-    font-family: 'Montserrat', Arial, sans-serif;
-    /* font-family: "Playfair Display", Georgia, serif; */
+    font-family: var(--default-font);
     font-size: 1rem;
     text-align: left;
 }
@@ -292,7 +305,7 @@ p.intro {
 
 .creditText {
     display: inline-block;
-    font-family: 'Montserrat', Arial, sans-serif;
+    font-family: var(--default-font);
     font-size: 0.875rem;
     margin: 0 1rem 0rem 0;
 }
@@ -362,10 +375,10 @@ p.intro {
 }
 
 .subhed {
-    font-family: montserrat, sans-serif;
+    font-family: var(--subhed-font);
+    color: var(--subhed-color);
     font-weight: 800;
     line-height: clamp(1rem, 10vw, 1.6rem);
-    color: #3d3d3d;
     width: 60%;
     padding: 0 20%;
 
@@ -489,7 +502,7 @@ blockquote {
 }
 
 .footer p {
-    font-family: 'Montserrat';
+    font-family: var(--default-font);
     margin: 0;
     width: 70%;
     padding: 10px 15% 0 15%;
@@ -497,7 +510,7 @@ blockquote {
 
 .copyright {
     color: #FFF;
-    font-family: 'Montserrat';
+    font-family: var(--default-font);
     width: 100%;
     height: 20px;
     text-shadow: 2px 2px 5px #000;
@@ -511,7 +524,7 @@ blockquote {
 }
 
 .copyright p {
-    font-family: 'Montserrat';
+    font-family: var(--default-font);
     margin: 0;
     width: 70%;
     padding: 13px 15% 15px 15%;

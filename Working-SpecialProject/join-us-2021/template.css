@@ -3,35 +3,21 @@ This is a template for special projects at The Post.
 Template originally coded by Taylor Johnston, digital managing editor at The Post.
 Please contact at taylorfjohnston@gmail.com with questions.*/
 
-:root {
-    --default-font: 'Montserrat', Arial, sans-serif;
-    --arthed-font: 'Montserrat', Arial, sans-serif;
-    --headline-font: 'Montserrat', Arial, sans-serif;
-    --subhed-font: 'Montserrat', Arial, sans-serif;
-    --pq-font: 'Montserrat', Arial, sans-serif;
-    
-    --arthed-color: #fff;
-    --headline-color: #000;
-    --hyperlink-color: #7fc447;
-    --pq-color: #5379c4;
-}
-
 /* GENERAL STYLES */
 body {
-    font-family: var(--default-font);
+    font-family: montserrat, sans-serif;
     background-color: #FFF;
     color: #030406;
 }
 
-a,
-i.share,
-.creditText a {
-    color: var(--hyperlink-color);
+a {
+    color: #9d6fc2;
     text-decoration: none;
 }
 
 a:hover {
-    filter: saturate(3);
+    text-decoration: underline;
+    opacity: 1;
 }
 
 
@@ -45,7 +31,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1rem;
+    font-size: 16px;
     margin: 0;
     padding: 0;
 }
@@ -131,13 +117,6 @@ h3 {
 }
 
 /* HERO IMAGE */
-.heroAD {
-    width: 100%;
-    min-height: 10em;
-    background-color: red;
-}
-
-
 #heroimg {
     width: 100%;
     position: relative;
@@ -148,18 +127,19 @@ h3 {
 }
 
 #arthed {
-    color: var(--arthed-color);
+    color: #FFF;
     position: absolute;
     bottom: 40%;
     padding: 0 10%;
     margin: 0;
-    font-size: clamp(2.5rem, 10vw, 5.6rem);
-    line-height: clamp(2.4rem, 10vw, 5.5rem);
+    font-size: 80px;
     font-weight: 700;
+    line-height: 100px;
     text-align: center;
     width: 80%;
-    text-shadow: 2px 2px 3px #000;
-    -webkit-text-stroke: 4px #000;
+    text-shadow: 2px 2px 3px #3d3d3d;
+    -webkit-text-stroke: 4px #3d3d3d;
+    text-transform: capitalize;
 }
 
 /* HEADLINE STYLES */
@@ -174,8 +154,7 @@ h4 {
     text-transform: uppercase;
     margin-top: 75px;
     margin-bottom: -40px;
-    width: 60%;
-    padding: 0 20%;
+    padding: 0 15%;
 }
 
 
@@ -183,41 +162,43 @@ h4 {
 .cutline {
     float: left;
     text-align: left;
-    margin: 0;
+    margin: 5px 0;
     color: #000;
-    font-size: 0.75rem;
+    font-size: 12px;
     width: 90%;
     padding: 0;
     padding-left: 10px;
-    padding-top: 3px;;
 }
 
 .headline {
     display: flex;
     text-align: left;
-    font-family: var(--headline-font);
+    font-family: 'Montserrat', Arial, sans-serif;
     /* font-family: "Playfair Display", Georgia, serif; */
-    font-size: clamp(1.3rem, 5vw, 2.3rem);
-    line-height: clamp(2rem, 5vw, 2.6rem);
+    font-size: 36px;
     margin-top: 40px;
     text-transform: uppercase;
-    width: 60%;
-    padding: 0 20%;
+    line-height: 42px;
+}
+
+.longhed {
+    font-size: 30px;
+    line-height: 38px;
 }
 
 /* BYLINE */
 .byline-info {
     text-align: left;
     display: block;
-    margin-top: -10px;
+    margin-top: -15px;
 }
 
 .byline-info p {
     color: #3d3d3d;
     display: inline-block;
-    font-family: var(--default-font);
+    font-family: 'Montserrat', Arial, sans-serif;
     /* font-family: "Playfair Display", Georgia, serif; */
-    font-size: 1rem;
+    font-size: 15px;
     text-align: left;
 }
 
@@ -257,9 +238,13 @@ ul.share-buttons img {
     width: 32px;
 }
 
+i.share {
+    color: #9d6fc2;
+}
+
 /* CONTENT */
 p.intro {
-    font-size: 1.25rem;
+    font-size: 20px;
 }
 
 .dropcap {
@@ -268,6 +253,23 @@ p.intro {
     font-size: 2.9em;
     line-height: .9em;
     padding-right: 5px;
+    color: #9d6fc2;
+}
+
+
+
+.twitter-tweet {
+    margin: 0 20%;
+}
+
+.story_ad {
+    width: 60%;
+    margin: 0 20%;
+}
+
+.credits_ad {
+    width: 80%;
+    margin: 0 10%;
 }
 
 /* BACK BUTTON*/
@@ -281,54 +283,52 @@ p.intro {
 
 #back-button a:hover {
     opacity: 1;
-    filter: saturate(1);
 }
 
 .back-button {
-    padding: 10px 40px;
-    font-size: 1.25rem;
+    background-image: linear-gradient(0deg, rgba(0, 129, 255, 1) 0%, rgba(255, 71, 0, 1) 100%);
     color: #fff;
+    letter-spacing: 1px;
+    padding: 10px 60px;
     border: hidden;
     border-radius: 20px;
-    background-color: #f8b132;
-    letter-spacing: 1px;
-    box-shadow: inset 400px 0 0 0 #7fc448;
-    -webkit-transition: .4s ease-out 0s;
-    transition: .4s ease-out 0s;
+    transition: 0.25s ease-in-out;
 }
 
-.slide-right:hover {
-    box-shadow: inset 0 0 0 0 #7fc448;
+.back-button:hover {
+    background-image: linear-gradient(0deg, rgba(0, 129, 255, .1) 0%, rgba(255, 71, 0, .1) 100%);
+    font-weight: 600;
+    color: #3d3d3d;
+    border: 2px solid;
+    border-color: rgba(255, 71, 0, 1) rgba(0, 129, 255, 1) rgba(0, 129, 255, 1) rgba(255, 71, 0, 1);
+    transition: 0.4s ease-in-out;
 }
-
 
 /* CREDITS */
 .credits {
     margin: 1rem auto 0;
     max-width: 60%;
     padding-bottom: 2.4rem;
-    text-align: left
+    text-align: left;
 }
 
 .creditText {
     display: inline-block;
-    font-family: var(--default-font);
-    font-size: 0.875rem;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 14px;
     margin: 0 1rem 0rem 0;
 }
 
 .creditText a {
+    color: #9d6fc2;
     font-weight: 700;
     cursor: pointer;
 }
 
+
+
 /* OTHER STUFF */
 /* IMAGE BLOCKS */
-.insta-embed {
-    width: 40%;
-    padding: 0 30%;
-}
-
 .oneimg_center {
     width: 60%;
     padding: 0 20%;
@@ -340,6 +340,17 @@ p.intro {
     padding-right: 10%;
     padding-left: 10px;
     float: right;
+}
+
+.flourish-embed {
+    width: 80%;
+    padding: 0 10px;
+}
+
+.oneimg_split {
+    width: 80%;
+    padding: 0 10%;
+    display: flex;
 }
 
 /*Apply to a wrapping div*/
@@ -370,7 +381,7 @@ p.intro {
     margin: 0;
     font-weight: 800;
     color: #000;
-    font-size: 0.75rem;
+    font-size: 12px;
     width: 100%;
     padding: 0;
 }
@@ -381,19 +392,20 @@ p.intro {
     margin: 0;
     font-weight: 100;
     color: #808080;
-    font-size: 0.75rem;
+    font-size: 12px;
     width: 100%;
     padding: 0;
 }
 
 .subhed {
-    font-family: var(--subhed-font);
+    font-family: montserrat, sans-serif;
     font-weight: 800;
-    line-height: clamp(1rem, 10vw, 1.6rem);
-    color: var(--headline-font);
-    width: 60%;
+    color: #9d96c9;
     padding: 0 20%;
+}
 
+.smallhed {
+    font-size: 1.2em;
 }
 
 /*apply to wrapping span tag*/
@@ -412,9 +424,9 @@ blockquote {
     width: 60%;
     padding: 0 20%;
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 25px;
     text-transform: uppercase;
-    color: var(--pq-color);
+    color: #5379c4;
     font-weight: 800;
 }
 
@@ -425,9 +437,9 @@ blockquote {
     padding-left: 15px;
     float: right;
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 25px;
     text-transform: uppercase;
-    color: var(--pq-color);
+    color: #5379c4;
 }
 
 /*add to wrapping div*/
@@ -437,20 +449,15 @@ blockquote {
     padding-right: 0;
     float: left;
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 25px;
     text-transform: uppercase;
     font-weight: 700;
-    color: var(--pq-color);
-}
-
-.flourish-embed {
-    width: 60%;
-    margin: 0 20%;
+    color: #5379c4;
 }
 
 /*add to wrapping div*/
 .attribution {
-    font-size: 1.25rem;
+    font-size: 20px;
     text-transform: none;
     display: block;
     text-align: right;
@@ -461,16 +468,24 @@ blockquote {
     width: 90%;
 }
 
+iframe.spodify {
+    width: 100%;
+}
+
+.instagram-media {
+    margin: 15px auto !important;
+}
+
 /*----- Gallery Stuff -----*/
 .gallery_bot {
     padding: 0;
     width: 20%;
-    float: left;
+    float: center;
 }
 
 .galleryPcut {
     float: right;
-    text-align: left;
+    text-align: center;
     margin: 0;
     font-weight: 100;
     color: #808080;
@@ -506,7 +521,7 @@ blockquote {
 }
 
 .footer h2 {
-    font-size: 2.5rem;
+    font-size: 40px;
     width: 70%;
     padding: 0 15%;
     margin: 0;
@@ -518,6 +533,10 @@ blockquote {
     margin: 0;
     width: 70%;
     padding: 10px 15% 0 15%;
+}
+
+.footer a {
+    color: #FFF;
 }
 
 .copyright {
@@ -553,11 +572,15 @@ blockquote {
     color: black;
     padding: 10px;
     border-radius: 5px;
+    text-shadow: none;
+}
+
+a.projects {
+    color: black;
 }
 
 .projects:hover {
-    background-color: rgba(151, 151, 151, 0.2);
-    color: #fff;
+    background-color: rgba(255, 255, 255, .9)
 }
 
 .join {
@@ -565,15 +588,39 @@ blockquote {
     color: black;
     padding: 10px;
     border-radius: 5px;
+    text-shadow: none;
 }
 
 .join:hover {
-    background-color: rgba(151, 151, 151, 0.2);
-    color: #fff;
+    background-color: rgba(255, 255, 255, .9)
 }
 
+a.join {
+    color: black;
+}
+
+
 /* MEDIA QUERIES */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1080px) {
+
+    #arthed {
+        font-size: 65px;
+        -webkit-text-stroke: 3px #3d3d3d;
+        bottom: 35%;
+        line-height: 80px;
+    }
+}
+
+@media screen and (max-width: 810px) {
+
+    #arthed {
+        font-size: 50px;
+        -webkit-text-stroke: 2px #3d3d3d;
+        line-height: 60px;
+    }
+}
+
+@media screen and (max-width: 750px) {
 
     .column20center,
     p {
@@ -585,39 +632,33 @@ blockquote {
         height: 25px;
     }
 
-    .date {
+    .date p {
         width: 80%;
-        padding: 0% 10%;
-        text-align: center;
+        padding: 0 10%;
+        text-align: left;
     }
 
     #arthed {
-        -webkit-text-stroke: 2.5px #3d3d3d;
-        bottom: 40%;
+        font-size: 50px;
+        -webkit-text-stroke: 2px #3d3d3d;
+        bottom: 30%;
     }
 
     .headline {
         width: 80%;
         padding: 0% 10%;
-        text-align: center;
+        font-size: 30px;
+        text-align: left;
+        line-height: 38px;
     }
 
     .byline-info p {
-        text-align: center;
+        text-align: left;
     }
 
     .share-container {
-        text-align: center;
-    }
-
-    .subhed {
-        width: 80%;
+        text-align: left;
         padding: 0 10%;
-    }
-
-    .insta-embed {
-        width: 60%;
-        padding: 0 20%;
     }
 
     .oneimg_right,
@@ -642,6 +683,11 @@ blockquote {
     .subhed {
         padding: 0 10%;
     }
+    
+    .tweet_embed {
+        width: 70%;
+        margin: 0;
+    }
 
     #back-button {
         text-align: center;
@@ -660,5 +706,14 @@ blockquote {
 
     .copyright {
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 590px) {
+
+    #arthed {
+        font-size: 40px;
+        -webkit-text-stroke: 2px #3d3d3d;
+        line-height: 50px;
     }
 }

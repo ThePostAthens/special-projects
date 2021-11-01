@@ -337,6 +337,19 @@ div.flat-under.handle-div {
     }
 }
 
+.liveBlog {
+    background-color: rgb(163, 4, 4);
+    color: white;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.liveBlog a {
+    font-size: 3rem;
+    font-weight: 900;
+    padding: 1em 0;
+}
+
 /* CREDITS */
 .credits {
     margin: 1em auto 0;

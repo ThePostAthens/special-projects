@@ -364,20 +364,20 @@ div.flat-under.handle-div {
 
 /*-- STORIES --*/
 .storyContent {
-    width: 70%;
+    width: 60%;
 }
 
 .twitterEmbed {
-    width: 20%;
+    width: 30%;
     margin: 0 1em;
     max-height: 20em;
-    overflow: scroll;
+    overflow-y: scroll;
+    margin-bottom: 5em;
 }
 
 .story {
     width: 100%;
-    height: 400px;
-    height: 20em;
+    max-height: 15em;
     background-size: 100%;
     background-position: center;
     transition: all .5s ease;
@@ -391,7 +391,7 @@ div.flat-under.handle-div {
     position: relative;
     width: 80%;
     height: 10em;
-    padding: 5em 10%;
+    padding: 5% 10%;
     text-shadow: 2px 2px 5px #000;
     line-height: 1.5rem;
     background-color: rgba(41, 41, 41, 0.4);
@@ -399,20 +399,20 @@ div.flat-under.handle-div {
 }
 
 .box_hed:hover {
-    background-color: rgba(3,194,186, 0.9);
+    background-color: rgba(3, 121, 48, 0.9);
 }
 
 .box_hed h2 {
-    font-size: 2.5rem;
-    line-height: 2.5rem;
-    margin: -0.2em 0;
+    font-size: 2rem;
+    line-height: 2rem;
+    padding: 0;
 }
 
 .box_hed p {
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
     text-align: left;
-    margin: 0.5em 0;
+    margin: 0.2em 0;
     text-decoration: none;
     padding:0;
     color: #fff;

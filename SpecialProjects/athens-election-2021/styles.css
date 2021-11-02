@@ -152,7 +152,7 @@ h3 {
 
 .adsbygoogle {
     background: rgba(0, 89, 255, 0.164);
-    display:inline-block;
+    display:block;
     width:100%;
     height:5em; 
     margin: 0;

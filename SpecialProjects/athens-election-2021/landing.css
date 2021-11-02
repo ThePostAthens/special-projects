@@ -340,14 +340,15 @@ div.flat-under.handle-div {
 .liveBlog {
     background-color: rgb(163, 4, 4);
     color: white;
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
     text-align: center;
+    padding: 1em 0;
 }
 
 .liveBlog a {
-    font-size: 3rem;
+    font-size: clamp(1.5rem, 5vw, 3rem);
+    line-height: clamp(1.4rem, 5vw, 3rem);
     font-weight: 900;
-    padding: 1em 0;
 }
 
 /* CREDITS */

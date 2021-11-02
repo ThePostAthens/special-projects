@@ -86,7 +86,6 @@ h3 {
 
 #nav_bar li {
     list-style: none;
-    display: inline-block;
     padding: 15px;
     float: right;
 }
@@ -133,11 +132,18 @@ h3 {
 /* HERO IMAGE */
 .googleAD {
     width: 100%;
-    margin-top: 1.5em;
-    min-height: 10em;
-    background-color: red;
+    background-color: rgb(233, 233, 233);
 }
 
+.dateAD {
+    margin-top: 2.5em;
+}
+
+.googleAD::before {
+    content: 'Advertisement';
+    font-size: 12px;
+    color: #888;
+}
 
 #heroimg {
     width: 100%;
@@ -173,8 +179,8 @@ h4 {
 
 .date p {
     text-transform: uppercase;
-    margin-top: 75px;
-    margin-bottom: -40px;
+    margin-top: 3em;
+    margin-bottom: -2em;
     width: 60%;
     padding: 0 20%;
 }

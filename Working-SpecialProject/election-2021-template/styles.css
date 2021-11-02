@@ -11,8 +11,7 @@ Please contact at taylorfjohnston@gmail.com with questions.*/
     --pq-font: 'Montserrat', Arial, sans-serif;
     
     --arthed-color: #fff;
-    --headline-color: #030406;
-    --subhed-color: #030406;
+    --headline-color: #000;
     --hyperlink-color: #7fc447;
     --pq-color: #5379c4;
 }
@@ -87,7 +86,6 @@ h3 {
 
 #nav_bar li {
     list-style: none;
-    display: inline-block;
     padding: 15px;
     float: right;
 }
@@ -132,6 +130,21 @@ h3 {
 }
 
 /* HERO IMAGE */
+.googleAD {
+    width: 100%;
+    background-color: rgb(233, 233, 233);
+}
+
+.dateAD {
+    margin-top: 2.5em;
+}
+
+.googleAD::before {
+    content: 'Advertisement';
+    font-size: 12px;
+    color: #888;
+}
+
 #heroimg {
     width: 100%;
     position: relative;
@@ -166,8 +179,8 @@ h4 {
 
 .date p {
     text-transform: uppercase;
-    margin-top: 75px;
-    margin-bottom: -40px;
+    margin-top: 3em;
+    margin-bottom: -2em;
     width: 60%;
     padding: 0 20%;
 }
@@ -178,7 +191,7 @@ h4 {
     float: left;
     text-align: left;
     margin: 0;
-    color: #666;
+    color: #000;
     font-size: 0.75rem;
     width: 90%;
     padding: 0;
@@ -189,8 +202,8 @@ h4 {
 .headline {
     display: flex;
     text-align: left;
-    color: var(--headline-color);
     font-family: var(--headline-font);
+    /* font-family: "Playfair Display", Georgia, serif; */
     font-size: clamp(1.3rem, 5vw, 2.3rem);
     line-height: clamp(2rem, 5vw, 2.6rem);
     margin-top: 40px;
@@ -203,13 +216,14 @@ h4 {
 .byline-info {
     text-align: left;
     display: block;
-    margin-top: -15px;
+    margin-top: -10px;
 }
 
 .byline-info p {
     color: #3d3d3d;
     display: inline-block;
     font-family: var(--default-font);
+    /* font-family: "Playfair Display", Georgia, serif; */
     font-size: 1rem;
     text-align: left;
 }
@@ -317,6 +331,11 @@ p.intro {
 
 /* OTHER STUFF */
 /* IMAGE BLOCKS */
+.insta-embed {
+    width: 40%;
+    padding: 0 30%;
+}
+
 .oneimg_center {
     width: 60%;
     padding: 0 20%;
@@ -376,9 +395,9 @@ p.intro {
 
 .subhed {
     font-family: var(--subhed-font);
-    color: var(--subhed-color);
     font-weight: 800;
     line-height: clamp(1rem, 10vw, 1.6rem);
+    color: var(--headline-font);
     width: 60%;
     padding: 0 20%;
 
@@ -402,7 +421,7 @@ blockquote {
     margin: 0;
     font-size: 1.5rem;
     text-transform: uppercase;
-    color: #5379c4;
+    color: var(--pq-color);
     font-weight: 800;
 }
 
@@ -415,7 +434,7 @@ blockquote {
     margin: 0;
     font-size: 1.5rem;
     text-transform: uppercase;
-    color: #5379c4;
+    color: var(--pq-color);
 }
 
 /*add to wrapping div*/
@@ -428,7 +447,7 @@ blockquote {
     font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: 700;
-    color: #5379c4;
+    color: var(--pq-color);
 }
 
 .flourish-embed {
@@ -502,7 +521,7 @@ blockquote {
 }
 
 .footer p {
-    font-family: var(--default-font);
+    font-family: 'Montserrat';
     margin: 0;
     width: 70%;
     padding: 10px 15% 0 15%;
@@ -510,7 +529,7 @@ blockquote {
 
 .copyright {
     color: #FFF;
-    font-family: var(--default-font);
+    font-family: 'Montserrat';
     width: 100%;
     height: 20px;
     text-shadow: 2px 2px 5px #000;
@@ -524,7 +543,7 @@ blockquote {
 }
 
 .copyright p {
-    font-family: var(--default-font);
+    font-family: 'Montserrat';
     margin: 0;
     width: 70%;
     padding: 13px 15% 15px 15%;
@@ -601,7 +620,11 @@ blockquote {
     .subhed {
         width: 80%;
         padding: 0 10%;
-        text-align: center;
+    }
+
+    .insta-embed {
+        width: 60%;
+        padding: 0 20%;
     }
 
     .oneimg_right,

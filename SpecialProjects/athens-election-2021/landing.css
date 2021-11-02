@@ -440,8 +440,10 @@ div.flat-under.handle-div {
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
     background-color:rgb(223, 196, 175);
+    background-position: left;
+    background-size: cover;
     color: white;
-    outline: 6px ridge #8d5500;
+    outline: 10px ridge #ad6801;
     border: none;
     /* border: 6px solid;
     border-color: rgb(172, 0, 0) rgba(0, 129, 255, 1) rgb(3, 85, 179) rgb(255, 5, 5); */

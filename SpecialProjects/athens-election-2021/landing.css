@@ -36,7 +36,7 @@ a:hover,
 
 .s-headline a,
 .creditText a {
-    color: #7fc447;
+    color: #ecd501;
 }
 
 p {
@@ -117,6 +117,8 @@ h3 {
 #heroimg {
     width: 100%;
     position: relative;
+    height: 25em;
+    background-color: #3d3d3d;
 }
 
 #heroimg img {
@@ -214,7 +216,7 @@ p.signature {
 }
 
 /* BUBBLE POINT - TOP */
-.bubble3:after {
+.bubble3::after {
     content: '';
     position: absolute;
     top: 0;
@@ -229,7 +231,7 @@ p.signature {
 }
 
 /* BUBBLE POINT - BOTTOM */
-.bubble4:after {
+.bubble4::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -249,7 +251,7 @@ div.handle-div {
 
 .circle-button {
     font-family: 'Roboto', sans-serif;
-    color: #3d3d3d;
+    color: #8d5500;
     display: inline-block;
     font-size: 2rem;
     border-radius: 50%;
@@ -371,7 +373,7 @@ div.flat-under.handle-div {
     cursor: pointer;
 }
 
-.pageContent {
+#pageContent {
     display: flex;
     justify-content: center;
 }
@@ -435,11 +437,14 @@ div.flat-under.handle-div {
 /* ACCORDION */
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
-    background-color:rgb(177, 177, 177);
+    background-color:rgb(223, 196, 175);
     color: white;
-    border: 4px solid transparent;
+    border: 6px solid;
+    border-color: rgb(172, 0, 0) rgba(0, 129, 255, 1) rgb(3, 85, 179) rgb(255, 5, 5);
     cursor: pointer;
     padding: 1.5em;
+    margin: 0.2em 0;
+    font-weight: 600;
     width: 100%;
     text-align: center;
     transition: all 0.2s ease-in-out;
@@ -448,9 +453,9 @@ div.flat-under.handle-div {
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   .active, .accordion:hover {
-    color: rgba(0, 211, 88, 0.95);
-    background-color: #3b3b3b;
-    border: 4px solid rgba(0, 211, 88, 0.95);
+    color: #ecd501;
+    background-color: #202020;
+    border-color:  rgba(0, 129, 255, 1) rgb(255, 5, 5) rgb(172, 0, 0) rgb(3, 85, 179) ;
   }
   
   /* Style the accordion panel. Note: hidden by default */
@@ -461,16 +466,17 @@ div.flat-under.handle-div {
     overflow: hidden;
   }
   
-  .accordion:after {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
-    font-size: 1rem;
-    color: #fff;
+  .accordion::after {
+    content: '\002B'; /* Unicode character for "plus" sign (+) */
+    font-size: 1.5rem;
+    color: #8d5500;
     float: right;
-    margin-top: 10px;
+    margin-top: 0;
   }
   
-  .active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  .active::after {
+    content: "\2212"; /* Unicode character for "minus" sign (-) */
+    color: #ecd501;
   }
 
 /* SPECIAL PROJECT FOOTER */
@@ -566,18 +572,10 @@ a.end:hover {
     .yt_left {
         height: 315px;
     }
-    
-    /* p.s-headline {
-        font-size: 1.75rem;
-    } */
-    
-    h3.date {
-        padding: 0;
-    }
 }
 
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
 
     #logo {
         height: 25px;
@@ -587,14 +585,6 @@ a.end:hover {
         /* font-size: 4.5rem; */
         -webkit-text-stroke: 3px #3d3d3d;
         bottom: 40%;
-    }
-
-    .headline {
-        width: 80%;
-        padding: 0% 10%;
-        font-size: 2rem;
-        text-align: center;
-        line-height: 38px;
     }
 
     #socials-content {
@@ -611,6 +601,24 @@ a.end:hover {
 
     .share-container {
         text-align: center;
+    }
+
+    #pageContent {
+        flex-direction: column;
+    }
+
+    .storyContent {
+        width: 90%;
+        padding: 0 5%;
+    }
+    
+    .twitterEmbed {
+        width: 80%;
+        margin: 2em 10% 0;
+        border-radius: 20px;
+        border: 4px solid;
+        border-color: rgb(172, 0, 0) rgba(0, 129, 255, 1) rgb(3, 85, 179) rgb(255, 5, 5);
+        max-height: 25em;
     }
 
     .credits {
@@ -640,14 +648,6 @@ a.end:hover {
 
 }
 
-@media screen and (max-width: 595px) {
-    /* p.s-headline {
-        font-size: 1.3rem;
-    } */
-
-    
-}
-
 @media screen and (max-width: 500px) {
     
     .yt_right {
@@ -665,6 +665,7 @@ a.end:hover {
         float: none;
         height: 230px;
     }
+
 }
 
 

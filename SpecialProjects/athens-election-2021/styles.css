@@ -269,6 +269,10 @@ p.intro {
     font-size: 1.25rem;
 }
 
+p:nth-of-type(7n) {
+    background-color: rgba(0, 117, 0, 0.555);
+  }
+
 .dropcap {
     font-weight: 700;
     float: left;

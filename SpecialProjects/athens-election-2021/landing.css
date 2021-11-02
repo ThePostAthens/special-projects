@@ -437,7 +437,8 @@ div.flat-under.handle-div {
 /* ACCORDION */
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
-    background-color:rgb(223, 196, 175);
+    /* background-color:rgb(223, 196, 175); */
+    background: linear-gradient(0deg, rgba(255,255,255,1) 15%, rgba(221,0,0,1) 89%);
     color: white;
     border: 6px solid;
     border-color: rgb(172, 0, 0) rgba(0, 129, 255, 1) rgb(3, 85, 179) rgb(255, 5, 5);
@@ -456,6 +457,10 @@ div.flat-under.handle-div {
     color: #ecd501;
     background-color: #202020;
     border-color:  rgba(0, 129, 255, 1) rgb(255, 5, 5) rgb(172, 0, 0) rgb(3, 85, 179) ;
+  }
+
+  .accordion.results {
+    background-color: linear-gradient(0deg, rgba(255,255,255,1) 15%, rgba(221,0,0,1) 89%);
   }
   
   /* Style the accordion panel. Note: hidden by default */

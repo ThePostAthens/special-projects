@@ -3,6 +3,10 @@ This is a template for special projects at The Post.
 Template originally coded by Taylor Johnston, digital managing editor at The Post.
 Please contact at taylorfjohnston@gmail.com with questions.*/
 
+:root {
+    --stroke-color: #ecb863;
+}
+
 /* GENERAL STYLES */
 html {
     font-size: 16px;
@@ -36,7 +40,7 @@ a:hover,
 
 .s-headline a,
 .creditText a {
-    color: #5fd669;
+    color: #6d6aec;
 }
 
 p {
@@ -150,7 +154,7 @@ h3 {
     text-align: center;
     width: 100%;
     text-shadow: 2px 2px 3px #000;
-    -webkit-text-stroke: 4px #000;
+    -webkit-text-stroke: 4px var(--stroke-color);
 }
 
 /* HEADLINE STYLES */
@@ -615,7 +619,7 @@ a.end:hover {
 
     #arthed {
         /* font-size: 4.5rem; */
-        -webkit-text-stroke: 3px #3d3d3d;
+        -webkit-text-stroke: 3px var(--stroke-color);
         bottom: 40%;
     }
 
@@ -677,7 +681,7 @@ a.end:hover {
 
     #arthed {
         /* font-size: 3.1rem; */
-        -webkit-text-stroke: 2px #3d3d3d;
+        -webkit-text-stroke: 2px var(--stroke-color);
     }
 
 }

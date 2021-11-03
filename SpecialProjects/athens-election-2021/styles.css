@@ -10,9 +10,10 @@ Please contact at taylorfjohnston@gmail.com with questions.*/
     --subhed-font: 'Montserrat', Arial, sans-serif;
     --pq-font: 'Montserrat', Arial, sans-serif;
     
-    --arthed-color: #fff;
-    --headline-color: #000;
-    --hyperlink-color: #7fc447;
+    --arthed-color: #ad6801;
+    --stroke-color: #ecb863;
+    --headline-color: #8d5500;
+    --hyperlink-color: #6d6aec;
     --pq-color: #5379c4;
 }
 
@@ -179,8 +180,8 @@ h3 {
     font-weight: 700;
     text-align: center;
     width: 80%;
-    text-shadow: 2px 2px 3px #000;
-    -webkit-text-stroke: 4px #000;
+    text-shadow: 3px 3px 10px #000;
+    -webkit-text-stroke: 4px var(--stroke-color);
 }
 
 /* HEADLINE STYLES */
@@ -217,6 +218,7 @@ h4 {
     display: flex;
     text-align: left;
     font-family: var(--headline-font);
+    color: var(--headline-color);
     /* font-family: "Playfair Display", Georgia, serif; */
     font-size: clamp(1.3rem, 5vw, 2.3rem);
     line-height: clamp(2rem, 5vw, 2.6rem);
@@ -618,7 +620,7 @@ blockquote {
     }
 
     #arthed {
-        -webkit-text-stroke: 2.5px #3d3d3d;
+        -webkit-text-stroke: 2.5px var(--stroke-color);
         bottom: 40%;
     }
 

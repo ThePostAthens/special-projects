@@ -16,10 +16,6 @@ Please contact at taylorfjohnston@gmail.com with questions.*/
     --pq-color: #5379c4;
 }
 
-/* p:nth-of-type(7n) {
-    background-color: rgba(0, 117, 0, 0.555);
-  } */
-
 /* GENERAL STYLES */
 body {
     font-family: var(--default-font);
@@ -32,8 +28,12 @@ i.share,
 .creditText a {
     color: var(--hyperlink-color);
     text-decoration: none;
-    /* background-color: greenyellow; */
+    /* background-color: rgba(0, 59, 0, 0.555); */
 }
+
+/* p:nth-of-type(7n) {
+    background-color: rgba(0, 117, 0, 0.555);
+} */
 
 a:hover {
     filter: saturate(3);

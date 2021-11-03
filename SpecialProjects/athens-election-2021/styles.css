@@ -31,9 +31,9 @@ i.share,
     /* background-color: rgba(0, 59, 0, 0.555); */
 }
 
-/* p:nth-of-type(7n) {
+p:nth-of-type(7n) {
     background-color: rgba(0, 117, 0, 0.555);
-} */
+}
 
 a:hover {
     filter: saturate(3);

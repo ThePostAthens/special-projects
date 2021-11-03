@@ -32,6 +32,7 @@ i.share,
 .creditText a {
     color: var(--hyperlink-color);
     text-decoration: none;
+    /* background-color: greenyellow; */
 }
 
 a:hover {

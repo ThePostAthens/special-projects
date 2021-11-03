@@ -36,7 +36,7 @@ a:hover,
 
 .s-headline a,
 .creditText a {
-    color: #ecd501;
+    color: #5fd669;
 }
 
 p {
@@ -117,8 +117,6 @@ h3 {
 #heroimg {
     width: 100%;
     position: relative;
-    height: 25em;
-    background-color: #3d3d3d;
 }
 
 #heroimg img {
@@ -408,7 +406,7 @@ div.flat-under.handle-div {
 .box_hed {
     position: relative;
     width: 80%;
-    height: 10em;
+    max-height: 12em;
     padding: 5% 10%;
     text-shadow: 2px 2px 5px #000;
     line-height: 1.5rem;
@@ -417,17 +415,17 @@ div.flat-under.handle-div {
 }
 
 .box_hed:hover {
-    background-color: rgba(3, 121, 48, 0.9);
+    background-color: rgba(65, 34, 5, 0.699);
 }
 
 .box_hed h2 {
-    font-size: 2rem;
-    line-height: 2rem;
+    font-size: clamp(1.5rem, 2.5vw, 2rem);
+    line-height: clamp(1.8rem,2.5vw, 2rem);
     padding: 0;
 }
 
 .box_hed p {
-    font-size: 1rem;
+    font-size: clamp(0.6rem, 2.5vw, 1rem);
     font-family: 'Montserrat', sans-serif;
     text-align: left;
     margin: 0.2em 0;
@@ -459,7 +457,7 @@ div.flat-under.handle-div {
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   .active, .accordion:hover {
-    color: #ecd501;
+    color: #000;
     outline-offset: 0.2em;
     /* border-color:  rgba(0, 129, 255, 1) rgb(255, 5, 5) rgb(172, 0, 0) rgb(3, 85, 179) ; */
   }

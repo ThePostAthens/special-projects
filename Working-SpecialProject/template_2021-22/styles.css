@@ -4,16 +4,19 @@ Template originally coded by Taylor Johnston, digital managing editor at The Pos
 Please contact at taylorfjohnston@gmail.com with questions.*/
 
 :root {
+    /* Change Fonts */
+    --default-font: 'Montserrat', Arial, sans-serif;
+    --arthed-font: 'Montserrat', Arial, sans-serif;
+    --headline-font: 'Montserrat', Arial, sans-serif;
+    --subhed-font: 'Montserrat', Arial, sans-serif;
+    --pq-font: 'Montserrat', Arial, sans-serif;
+
     /* Change Text Colors */
     --arthed-color: #3d3d3d;
     --headline-color: #3d3d3d;
+    --subhed-color: #3d3d3d;
     --hyperlink-color: #7fc448;
     --pq-color: #487ac4;
-
-    /* Change Text Fonts */
-    --arthed-font: 'Montserrat', Arial, sans-serif;
-    --headline-font: 'Montserrat', Arial, sans-serif;
-    --pq-font: 'Montserrat', Arial, sans-serif;
 }
 
 
@@ -87,7 +90,6 @@ h3 {
 
 #nav_bar li {
     list-style: none;
-    display: inline-block;
     padding: 15px;
     float: right;
 }
@@ -132,6 +134,24 @@ h3 {
 }
 
 /* HERO IMAGE */
+.googleAD {
+    width: 60%;
+    margin: 0 20%;
+    /* background-color: rgb(233, 233, 233); */
+}
+
+.dateAD {
+    margin-top: 2.5em;
+}
+
+.adsbygoogle {
+    /* background: rgba(0, 89, 255, 0.164); */
+    display:block;
+    width:100%;
+    height:5em; 
+    margin: 0;
+}
+
 #heroimg {
     width: 100%;
     position: relative;
@@ -159,11 +179,13 @@ h4 {
 /* Pick one font depending on design (or find another one) */
 .arthed {
     text-align: center;
+    width: 90%;
+    padding: 0 5%;
     color: var(--arthed-color);
-    font-size: 3.75rem;
+    font-size: clamp(2.8rem, 5vw, 3.75rem);
+    line-height: clamp(2.5rem, 5vw, 3.75rem);
     font-family: var(--arthed-font);
     text-transform: capitalize;
-    line-height: 70px;
     margin: 50px 0px 10px 0px;
 }
 
@@ -244,13 +266,21 @@ p.intro {
     font-size: 1.25rem;
 }
 
-.dropcap {
+.intro::first-letter {
+    font-size: clamp(2.8rem, 5vw, 3.75rem);
+    font-weight: 700;
+    float: left;
+    line-height: 3.5rem;
+    margin-right: 0.1em;
+}
+
+/* .dropcap {
     font-weight: 700;
     float: left;
     font-size: 2.9em;
     line-height: .9em;
     padding-right: 5px;
-}
+} */
 
 p a:hover {
     color: none;
@@ -330,8 +360,8 @@ p a:hover {
 }
 
 .photog {
-    float: right;
-    text-align: right;
+    float: left;
+    text-align: left;
     margin: 0;
     font-weight: 800;
     color: #000;
@@ -339,13 +369,13 @@ p a:hover {
     width: 100%;
     padding: 0;
     padding-top: 5px;
-    padding-bottom: 3px;
 }
 
 .pcut {
-    float: right;
+    float: left;
     text-align: left;
     margin: 0;
+    margin-top: 5px;
     font-weight: 100;
     color: #808080;
     font-size: 0.75rem;
@@ -380,7 +410,7 @@ blockquote {
     font-size: 1.5rem;
     font-family: var(--pq-font);
     color: var(--pq-color);
-    font-weight: 800;
+    font-weight: 700;
 }
 
 /*add to wrapping div*/
@@ -394,6 +424,7 @@ blockquote {
     font-family: var(--pq-font);
     font-family: var(--pq-font);
     color: var(--pq-color);
+    font-weight: 700;
 }
 
 /*add to wrapping div*/
@@ -409,12 +440,16 @@ blockquote {
     color: var(--pq-color);
 }
 
-/*.twitter-tweet {
-    padding: 0 20%;
-}*/
+/* .insta-embed {
+    width: 40%;
+    padding: 0 30%;
+} */
 
-iframe.spodify {
-    width: 100%;
+/* .twitter-tweet --> add tw-align-center class*/
+
+iframe.spotify {
+    width: 60%;
+    margin: 0 20%;
 }
 
 .instagram-media {
@@ -583,7 +618,7 @@ a.end:hover {
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
 
     .column20center,
     p {
@@ -595,14 +630,19 @@ a.end:hover {
         height: 25px;
     }
 
+    .googleAD {
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    iframe.spotify {
+        width: 80%;
+        margin: 0 10%;
+    }
+
     .date {
         padding: 0 10%;
         width: 80%;
-    }
-
-    .arthed {
-        font-size: 3.75rem;
-        line-height: 3.75rem;
     }
 
     .headline {
@@ -625,8 +665,8 @@ a.end:hover {
     .pq_center,
     .pq_right,
     .pq_left {
-        padding: 0 5%;
-        width: 90%;
+        padding: 0 10%;
+        width: 80%;
     }
 
     .subhed {
@@ -643,9 +683,9 @@ a.end:hover {
     }
 
     .credits {
-        width: 80%;
-        text-align: left;
+        max-width: 80%;
         margin: 0 10%;
+        text-align: left;
     }
 
     .footer {

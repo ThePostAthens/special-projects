@@ -4,7 +4,12 @@ Template originally coded by Taylor Johnston, digital managing editor at The Pos
 Please contact at taylorfjohnston@gmail.com with questions.*/
 
 :root {
-    --stroke-color: #ecb863;
+    --arthed-font: 'Martel', serif;
+    --headline-font: 'Exo 2', sans-serif;
+    --arthed-color: #ecb863;
+    --stroke-color: #ad6801;
+    --headline-color: #8d5500;
+    --hyperlink-color: #6865fd;
 }
 
 /* GENERAL STYLES */
@@ -33,14 +38,15 @@ a:visited {
 
 
 a:hover,
-.creditText a:hover {
-    filter: saturate(2.5);
+.creditText a:hover,
+.s-headline a:hover {
+    filter:hue-rotate(90deg);
 }
 
 
 .s-headline a,
 .creditText a {
-    color: #6d6aec;
+    color: var(--hyperlink-color)
 }
 
 p {
@@ -142,7 +148,8 @@ h3 {
 }
 
 #arthed {
-    color: #FFF;
+    color: var(--arthed-color);
+    font-family: var(--arthed-font);
     position: absolute;
     bottom: 40%;
     padding: 0;
@@ -205,7 +212,7 @@ p.signature {
 
 /* SOCIAL HANDLES*/
 .s-headline {
-    color: #3d3d3d;
+    color: var(--headline-color);
     width: 80%;
     padding: 0 10%;
     margin: 0;
@@ -213,11 +220,11 @@ p.signature {
     font-weight: 900;
     text-align: left;
     text-transform: none;
+    font-family: var(--headline-font);
 }
 
 .s-headline a:hover {
     text-decoration: underline;
-    filter: saturate(3);
 }
 
 #socials-content {
@@ -230,8 +237,8 @@ p.signature {
     background: linear-gradient(0deg, rgba(0,40,255,0.3) 0%, rgba(255,255,255,0.3) 50%, rgba(221,0,0,0.3) 100%);
     border-radius: 30px;
     -webkit-border-radius: 30px;
-    outline: 8px ridge #8d5500;
-    -webkit-outline: 8px ridge #8d5500;
+    outline: 8px ridge #ad6801;
+    -webkit-outline: 8px ridge #ad6801;
 }
 
 /* BUBBLE POINT - TOP */
@@ -360,18 +367,20 @@ div.flat-under.handle-div {
 }
 
 .liveBlog {
-    background-color: rgb(163, 4, 4);
+    background-color: #ecb7634f;
     color: white;
     text-decoration: underline;
     margin-bottom: 1.5em;
     text-align: center;
     padding: 1em 0;
+    font-family: var(--headline-font);
 }
 
 .liveBlog a {
     font-size: clamp(1.5rem, 5vw, 3rem);
     line-height: clamp(1.4rem, 5vw, 3rem);
     font-weight: 900;
+    color: var(--hyperlink-color);
 }
 
 /* CREDITS */
@@ -384,7 +393,7 @@ div.flat-under.handle-div {
 
 .creditText {
     display: inline-block;
-    font-family: 'Montserrat', Arial, sans-serif;
+    font-family: var(--headline-font);
     font-size: 1rem;
     margin: 0 1em 0em 0;
 }
@@ -392,6 +401,7 @@ div.flat-under.handle-div {
 .creditText a {
     font-weight: 700;
     cursor: pointer;
+    font-family: var(--arthed-font);
 }
 
 #pageContent {
@@ -406,10 +416,9 @@ div.flat-under.handle-div {
 
 .twitterEmbed {
     width: 30%;
-    margin: 0 1em;
-    max-height: 20em;
+    margin: 2em 1em 5em 2em;
+    max-height: 40em;
     overflow-y: scroll;
-    margin-bottom: 5em;
 }
 
 .story {
@@ -458,6 +467,7 @@ div.flat-under.handle-div {
 /* ACCORDION */
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
+    font-family: var(--arthed-font);
     background-color:rgb(223, 196, 175);
     background-position: left;
     background-size: cover;
@@ -474,7 +484,7 @@ div.flat-under.handle-div {
     width: 100%;
     text-align: center;
     transition: all 0.2s ease-in-out;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -483,10 +493,6 @@ div.flat-under.handle-div {
     outline-offset: 0.2em;
     -webkit-outline-offset: 0.2em;
     /* border-color:  rgba(0, 129, 255, 1) rgb(255, 5, 5) rgb(172, 0, 0) rgb(3, 85, 179) ; */
-  }
-
-  .accordion.results {
-    background-color: linear-gradient(0deg, rgba(255,255,255,1) 15%, rgba(221,0,0,1) 89%);
   }
   
   /* Style the accordion panel. Note: hidden by default */
@@ -500,14 +506,14 @@ div.flat-under.handle-div {
   .accordion::after {
     content: '\002B'; /* Unicode character for "plus" sign (+) */
     font-size: 1.5rem;
-    color: #8d5500;
+    color: var(--headline-color);
     float: right;
     margin-top: 0;
   }
   
   .active::after {
     content: "\2212"; /* Unicode character for "minus" sign (-) */
-    color: #ecd501;
+    color: var(--arthed-color);
   }
 
 /* SPECIAL PROJECT FOOTER */
@@ -651,9 +657,9 @@ a.end:hover {
     .twitterEmbed {
         width: 80%;
         margin: 2em 10% 0;
-        outline: 10px ridge #8d5500;
+        outline: 10px ridge #ad6801;
         outline-offset: 5px;
-        -webkit-outline: 10px ridge #8d5500;
+        -webkit-outline: 10px ridge #ad6801;
         -webkit-outline-offset: 5px;
         max-height: 25em;
     }

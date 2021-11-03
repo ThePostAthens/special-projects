@@ -5,16 +5,16 @@ Please contact at taylorfjohnston@gmail.com with questions.*/
 
 :root {
     --default-font: 'Montserrat', Arial, sans-serif;
-    --arthed-font: 'Montserrat', Arial, sans-serif;
-    --headline-font: 'Montserrat', Arial, sans-serif;
-    --subhed-font: 'Montserrat', Arial, sans-serif;
-    --pq-font: 'Montserrat', Arial, sans-serif;
+    --arthed-font: 'Martel', serif;
+    --headline-font: 'Exo 2', sans-serif;
+    --subhed-font: 'Exo 2', sans-serif;
+    --pq-font: 'Exo 2', sans-serif;
     
-    --arthed-color: #ad6801;
-    --stroke-color: #ecb863;
+    --arthed-color: #ecb863;
+    --stroke-color: #ad6801;
     --headline-color: #8d5500;
-    --hyperlink-color: #6d6aec;
-    --pq-color: #5379c4;
+    --hyperlink-color: #6865fd;
+    --pq-color: #ad6801;
 }
 
 /* GENERAL STYLES */
@@ -37,7 +37,7 @@ i.share,
 } */
 
 a:hover {
-    filter: saturate(3);
+    filter:hue-rotate(90deg);
 }
 
 
@@ -171,6 +171,8 @@ h3 {
 
 #arthed {
     color: var(--arthed-color);
+    font-family: var(--arthed-font);
+    font-weight: 900;
     position: absolute;
     bottom: 40%;
     padding: 0 10%;
@@ -181,7 +183,7 @@ h3 {
     text-align: center;
     width: 80%;
     text-shadow: 3px 3px 10px #000;
-    -webkit-text-stroke: 4px var(--stroke-color);
+    -webkit-text-stroke: 3.5px var(--stroke-color);
 }
 
 /* HEADLINE STYLES */
@@ -194,6 +196,10 @@ h4 {
 
 .date p {
     text-transform: uppercase;
+    color: var(--arthed-color);
+    font-family: var(--arthed-font);
+    font-weight: 600;
+    letter-spacing: 1px;
     margin-top: 3em;
     margin-bottom: -2em;
     width: 60%;
@@ -220,10 +226,9 @@ h4 {
     font-family: var(--headline-font);
     color: var(--headline-color);
     /* font-family: "Playfair Display", Georgia, serif; */
-    font-size: clamp(1.3rem, 5vw, 2.3rem);
+    font-size: clamp(1.8rem, 5vw, 2.6rem);
     line-height: clamp(2rem, 5vw, 2.6rem);
     margin-top: 40px;
-    text-transform: uppercase;
     width: 60%;
     padding: 0 20%;
 }
@@ -286,10 +291,12 @@ p.intro {
 }
 
 .dropcap {
+    font-family: var(--arthed-font);
+    color: var(--arthed-color);
     font-weight: 700;
     float: left;
     font-size: 2.9em;
-    line-height: .9em;
+    line-height: 1.25em;
     padding-right: 5px;
 }
 
@@ -300,6 +307,8 @@ p.intro {
     padding: 0 20%;
     margin: 40px 0px 30px 0px;
     color: #3d3d3d;
+    font-family: var(--headline-font);
+    font-weight: 600;
 }
 
 #back-button a:hover {
@@ -313,15 +322,16 @@ p.intro {
     color: #fff;
     border: hidden;
     border-radius: 20px;
-    background-color: #f8b132;
+    background-color: #fd4679;
     letter-spacing: 1px;
-    box-shadow: inset 400px 0 0 0 #7fc448;
+    box-shadow: inset 400px 0 0 0 #6865fd;
     -webkit-transition: .4s ease-out 0s;
     transition: .4s ease-out 0s;
 }
 
 .slide-right:hover {
-    box-shadow: inset 0 0 0 0 #7fc448;
+    box-shadow: inset 0 0 0 0 #6865fd;
+    color: #000;
 }
 
 
@@ -335,12 +345,16 @@ p.intro {
 
 .creditText {
     display: inline-block;
-    font-family: var(--default-font);
-    font-size: 0.875rem;
+    font-family: var(--headline-font);
+    font-size: 1.1rem;
+    font-weight: 400;
     margin: 0 1rem 0rem 0;
 }
 
 .creditText a {
+    font-family: var(--arthed-font);
+    font-size: 1rem;
+    letter-spacing: 0.5px;
     font-weight: 700;
     cursor: pointer;
 }
@@ -620,7 +634,7 @@ blockquote {
     }
 
     #arthed {
-        -webkit-text-stroke: 2.5px var(--stroke-color);
+        -webkit-text-stroke: 3px var(--stroke-color);
         bottom: 40%;
     }
 
@@ -677,9 +691,8 @@ blockquote {
     }
 
     .credits {
-        max-width: 100%;
+        max-width: 80%;
         text-align: left;
-        margin-left: 50px;
     }
 
     .footer {

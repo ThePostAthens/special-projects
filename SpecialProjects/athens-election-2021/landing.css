@@ -227,6 +227,7 @@ p.signature {
     border-radius: 30px;
     -webkit-border-radius: 30px;
     outline: 8px ridge #8d5500;
+    -webkit-outline: 8px ridge #8d5500;
 }
 
 /* BUBBLE POINT - TOP */
@@ -458,6 +459,7 @@ div.flat-under.handle-div {
     background-size: cover;
     color: white;
     outline: 10px ridge #ad6801;
+    -webkit-outline: 10px ridge #ad6801;
     border: none;
     /* border: 6px solid;
     border-color: rgb(172, 0, 0) rgba(0, 129, 255, 1) rgb(3, 85, 179) rgb(255, 5, 5); */
@@ -475,6 +477,7 @@ div.flat-under.handle-div {
   .active, .accordion:hover {
     color: #000;
     outline-offset: 0.2em;
+    -webkit-outline-offset: 0.2em;
     /* border-color:  rgba(0, 129, 255, 1) rgb(255, 5, 5) rgb(172, 0, 0) rgb(3, 85, 179) ; */
   }
 
@@ -608,7 +611,6 @@ a.end:hover {
     .googleAD {
         width: 80%;
         margin: 0 10%;
-        background-color: rgb(233, 233, 233);
     }
 
     #arthed {
@@ -647,6 +649,8 @@ a.end:hover {
         margin: 2em 10% 0;
         outline: 10px ridge #8d5500;
         outline-offset: 5px;
+        -webkit-outline: 10px ridge #8d5500;
+        -webkit-outline-offset: 5px;
         max-height: 25em;
     }
 

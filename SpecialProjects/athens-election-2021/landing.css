@@ -225,6 +225,7 @@ p.signature {
     position: relative;
     background: linear-gradient(0deg, rgba(0,40,255,0.3) 0%, rgba(255,255,255,0.3) 50%, rgba(221,0,0,0.3) 100%);
     border-radius: 30px;
+    -webkit-border-radius: 30px;
     outline: 8px ridge #8d5500;
 }
 

@@ -12,7 +12,7 @@ Please contact at taylorfjohnston@gmail.com with questions.*/
     --pq-font: 'Montserrat', Arial, sans-serif;
 
     /* Change Text Colors */
-    --arthed-color: rgb(255, 115, 0);
+    --arthed-color: rgb(255, 0, 212);
     --headline-color: #3d3d3d;
     --subhed-color: #3d3d3d;
     --hyperlink-color: #7fc448;
@@ -140,16 +140,16 @@ h3 {
     background-color: rgb(233, 233, 233);
 }
 
-.dateAD {
-    margin-top: 2.5em;
-}
-
 .adsbygoogle {
     background: rgba(0, 89, 255, 0.164);
     display:block;
     width:100%;
     height:5em; 
     margin: 0;
+}
+
+.dateAD {
+    margin-top: 2.5em;
 }
 
 #heroimg {

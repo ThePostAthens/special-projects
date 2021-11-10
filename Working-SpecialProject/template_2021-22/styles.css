@@ -278,6 +278,7 @@ p.intro {
     float: left;
     line-height: 3.5rem;
     margin-right: 0.1em;
+    color: var(--arthed-color);
 }
 
 /* .dropcap {

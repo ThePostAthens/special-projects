@@ -35,9 +35,9 @@ i.share,
     /* background-color: #ffda378e; */
 }
 
-/* p:nth-of-type(7n) {
+p:nth-of-type(7n) {
     background-color: rgba(0, 117, 0, 0.555);
-} */
+}
 
 a:hover {
     filter: saturate(3);

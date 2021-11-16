@@ -316,6 +316,12 @@ p a:hover {
     padding: 1em;
 }
 
+.postBlog {
+    width: 90%;
+    margin: 0 5%;
+    min-height: 80vh;
+}
+
 .storyCont {
     width: 60%;
 }

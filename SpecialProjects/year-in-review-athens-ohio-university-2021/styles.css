@@ -29,12 +29,12 @@ i.share,
 .creditText a {
     color: var(--hyperlink-color);
     text-decoration: none;
-    background-color: #ffda378e;
+    /* background-color: #ffda378e; */
 }
 
-p:nth-of-type(7n) {
+/* p:nth-of-type(7n) {
     background-color: #0075008e;
-}
+} */
 
 a:hover {
     filter:hue-rotate(90deg);

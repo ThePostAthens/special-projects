@@ -28,9 +28,9 @@ THE
 
     <meta name="twitter:title" content="    " /> <!-- The webhed -->
     <meta name="twitter:description" content="    " /> <!-- The websum -->
-    <meta name="twitter:image:src" content="      " /> <!-- the hero URL -->
+    <meta name="twitter:image:src" content="      " /> <!-- Hero img URL -->
 
-    <meta property="og:image" content="      " /> <!-- The hero URL -->
+    <meta property="og:image" content="      " /> <!-- Hero img URL -->
 
     <!-- END OF FILL OUT CONTENT -->
 
@@ -48,6 +48,10 @@ THE
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600;700&family=Martel:wght@900&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -65,6 +69,7 @@ THE
     <div id="heroimg">
         <img src="img/placeholder.jpg" alt="describe pic here">
         <p class="cutline">Cutline goes here. You can remove this tag if you don't think the image needs a description.</p>
+        <h1 id="arthed">ARTHED</h1>
     </div>
 
     <div class="googleAD dateAD">
@@ -80,11 +85,11 @@ THE
     </div>
 
     <!-- HEADLINES -->
-    <p class="date">Month Date, Year</p>
+    <div class="date">
+        <p>Month Date, Year</p>
+    </div>
 
-    <h1 class="arthed">Arthed Goes Here</h1> <!-- The arthed -->
-
-    <h2 class="headline">This is where the headline goes</h2> <!-- The webhed -->
+    <h2 class="headline">This is where the headline goes</h2>
 
     <!-- BYLINE -->
     <section class="byline-info">
@@ -94,50 +99,41 @@ THE
     <!-- SHARE BUTTONS -->
     <div class="share-container">
         <ul class="share-buttons">
-            <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fthepostathens.com&quote=" target="_blank" title="Share on Facebook" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&quote=' + encodeURIComponent(document.URL)); return false;"><i class="fab fa-facebook-square fa-2x share" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a></li>
-            <li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fthepostathens.com&text=:%20http%3A%2F%2Fthepostathens.com&via=thepostathens" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20' + encodeURIComponent(document.URL)); return false;"><i class="fab fa-twitter-square fa-2x share" aria-hidden="true"></i><span class="sr-only">Tweet</span></a></li>
-            <li><a href="mailto:EMAILHERE"><i class="fas fa-envelope-square fa-2x share" aria-hidden="true"></i><span class="sr-only">Send
+            <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fthepostathens.com&quote=" target="_blank" title="Share on Facebook" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&quote=' + encodeURIComponent(document.URL)); return false;"><i class="fab fa-facebook-square fa-2x" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a></li>
+            <li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fthepostathens.com&text=:%20http%3A%2F%2Fthepostathens.com&via=thepostathens" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20' + encodeURIComponent(document.URL)); return false;"><i class="fab fa-twitter-square fa-2x" aria-hidden="true"></i><span class="sr-only">Tweet</span></a></li>
+            <li><a href="mailto:EMAILHERE"><i class="fas fa-envelope-square fa-2x" aria-hidden="true"></i><span class="sr-only">Send
                         email</span></a></li>
         </ul>
     </div>
 
     <!-- INTRO (FIRST GRAF OF STORY - remove if design choices call for it) -->
     <p class="intro">
-        Worem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+        Worem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
 
-    <!-- START WITH SECOND PARAGRAPH -->
+    <!-- CONTENT GOES HERE -->
     <div class="content">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duisaute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duisaute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
 
-    <section class="credits">
-        <div class="creditText">AUTHOR: <a href="https://twitter.com/=" target="_blank">NAME</a></div>
-        <div class="creditText">EDITOR: <a href="https://twitter.com/=" target="_blank">NAME</a></div>
-        <div class="creditText">COPY EDITOR: <a href="https://twitter.com/=" target="_blank">NAME</a></div>
-        <div class="creditText">ILLUSTRATION: <a href="https://twitter.com/=" target="_blank">NAME</a></div>
-        <div class="creditText">WEB DEVELOPMENT: <a href="https://twitter.com/=" target="_blank">NAME</a></div>
-    </section>
+    <div id="back-button">
+        <a href="landing.html"><button class="back-button button-slide slide-right">BACK</button></a>
+    </div>
 
-    <!-- <div align="center" class="credits_ad">
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-6247994935190228" data-ad-slot="5544117946"></ins>
-        <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-    </div> -->
+    <section class="credits">
+        <div class="creditText">AUTHOR: <a href="https://twitter.com/=">NAME</a></div>
+        <div class="creditText">EDITOR: <a href="https://twitter.com/=">NAME</a></div>
+        <div class="creditText">COPY EDITOR: <a href="https://twitter.com/=">NAME</a></div>
+        <div class="creditText">ILLUSTRATION: <a href="https://twitter.com/=">NAME</a></div>
+        <div class="creditText">WEB DEVELOPMENT: <a href="https://twitter.com/=">NAME</a></div>
+    </section>
 
     <!-- GOOGLE AD -->
     <!-- <div class="googleAD">
@@ -189,15 +185,15 @@ THE
             <h2>Special Projects</h2>
             <p>This page is a part of a series of specially designed content that represents some of the best journalism <em>The Post</em> has to offer.</p>
             <p>
-                <a href="http://projects.thepostathens.com/SpecialProjects/" target="_blank" class="end"><button class="projects">See Our Projects</button></a>
-                <a href="http://projects.thepostathens.com/JoinUs/" target="_blank" class="end"><button class="join">Join Us</button></a>
+                <a href="http://projects.thepostathens.com/SpecialProjects/" target="_blank"><button class="projects">See Our Projects</button></a>
+                <a href="http://projects.thepostathens.com/JoinUs/" target="_blank"><button class="join">Join Us</button></a>
             </p>
         </div>
 
     </div>
     <div class="copyright">
         <div class="copyright_inside">
-            <p>© Copyright 2021, The Post, Athens, OH</p>
+            <p>© Copyright 2020, The Post, Athens, OH</p>
         </div>
     </div>
 

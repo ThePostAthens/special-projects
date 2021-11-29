@@ -121,75 +121,106 @@ THE
 
             <!-- Tab links -->
             <div class="tab">
-                <button class="tablinks" onclick="openSection(event, 'News')">News</button>
-                <button class="tablinks" onclick="openSection(event, 'Culture')">Culture</button>
-                <button class="tablinks" onclick="openSection(event, 'Sports')">Sports</button>
-                <button class="tablinks" onclick="openSection(event, 'Opinion')">Opinion</button>
-                <button class="tablinks" onclick="openSection(event, 'The Beat')">The Beat</button>
-                <button class="tablinks" onclick="openSection(event, 'Projects')">Projects</button>
+                <button class="tablinks News" onclick="openSection(event, 'News')" id="defaultOpen">News</button>
+                <button class="tablinks Culture" onclick="openSection(event, 'Culture')">Culture</button>
+                <button class="tablinks Sports" onclick="openSection(event, 'Sports')">Sports</button>
+                <button class="tablinks Opinion" onclick="openSection(event, 'Opinion')">Opinion</button>
+                <button class="tablinks TheBeat" onclick="openSection(event, 'The Beat')">The Beat</button>
+                <button class="tablinks Projects" onclick="openSection(event, 'Projects')">Projects</button>
             </div>
             
             <!-- Tab content -->
             <div id="News" class="tabcontent">
-                <div class="storyCont" style="background-image: url(img/placeholder.jpg);">
-                    <a href="" class="stories">
-                        <h4>arthed arthed arthed</h4>
+                <div class="insideCont">
+                    <!--                     
+                    <a href="" style="background-image: url(   );">
+                        <h3>News</h3>
+                    </a>
+                    -->
+                    
+                    <a href="ohio-university-president-hugh-sherman-administration-faculty.html" style="background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/87d51d8b-70fc-4eac-a546-c75b11c8428c.sized-1000x1000.jpg);">
+                        <h3>Sherman's Presidential Progress</h3>
                     </a>
                 </div>
-            </div>
+            </div> <!-- NEWS -->
             
             <div id="Culture" class="tabcontent">
-                <h3>Culture</h3>
-                <p>Culture section</p>
-            </div>
-            
+                <div class="insideCont">
+                    <!--                     
+                    <a href="" style="background-image: url(   );">
+                        <h3>Culture</h3>
+                    </a>
+                    -->
+                    
+                    <a href="" style="background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/20b72905-ed95-4172-9a96-9d98187f3992.sized-1000x1000.jpg);">
+                        <h3>Story coming soon!</h3>
+                    </a>
+                </div>
+            </div> <!-- Culture -->
+
             <div id="Sports" class="tabcontent">
-                <h3>Sports</h3>
-                <p>Sports section</p>
-            </div>
+                <div class="insideCont">
+                    <!--                     
+                    <a href="" style="background-image: url(   );">
+                        <h3>Sports</h3>
+                    </a>
+                    -->
+                    
+                    <a href="" style="background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/20b72905-ed95-4172-9a96-9d98187f3992.sized-1000x1000.jpg);">
+                        <h3>Story coming soon!</h3>
+                    </a>
+                </div>
+            </div> <!-- Sports -->
 
             <div id="Opinion" class="tabcontent">
-                <h3>Opinion</h3>
-                <p>Opinion section</p>
-            </div>
-            
+                <div class="insideCont">
+                    <!--                     
+                    <a href="" style="background-image: url(   );">
+                        <h3>Opinion</h3>
+                    </a>
+                    -->
+                    
+                    <a href="best-graphic-novels-2021-alternative-marvel.html" style="background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/294a910a-3714-4485-bbec-a5eef049840a.sized-1000x1000.jpg);">
+                        <h3>Cat's Cradle</h3>
+                    </a>
+
+                    <a href="the-pest-satire-2021-year-in-review-highlights.html" style="background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/63f4bf4e-c5bb-48d0-b5db-7a580bd7fab5.sized-1000x1000.png);">
+                        <h3>The Pest</h3>
+                    </a>
+                </div>
+            </div> <!-- Opinion -->
+
             <div id="The Beat" class="tabcontent">
-                <h3>The Beat</h3>
-                <p>The Beat section</p>
-            </div>
-            
+                <div class="insideCont">
+                    <!--                     
+                    <a href="" style="background-image: url(   );">
+                        <h3>TheBeat</h3>
+                    </a>
+                    -->
+                    
+                    <a href="year-in-review-2021/best-albums-of-2021.html" style="background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/92ca9221-579e-4b4e-8b04-00cf59da442b.sized-1000x1000.png);">
+                        <h3>Best Albums of 2021</h3>
+                    </a>
+                    
+                    <a href="best-tiktoks-2021-bones-day-couch-guy.html" style="background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/d4a17116-3ebf-4b7d-9099-367a57a9edd6.sized-1000x1000.png);">
+                        <h3>Best TikToks</h3>
+                    </a>
+                </div>
+            </div> <!-- The Beat -->
+
             <div id="Projects" class="tabcontent">
-                <h3>Projects</h3>
-                <p>Projects section</p>
-            </div>
-
-            <!--STORIES-->
-            
-<!--             
-            <a href="year-in-review-2021/best-albums-of-2021.html" class="stories">
-                <h4>Best Albums of 2021</h4>
-                <p>Grace Koennecke</p>
-                <img class="landing" src="https://s3.amazonaws.com/snwceomedia/ohi/92ca9221-579e-4b4e-8b04-00cf59da442b.sized-1000x1000.png" alt="">
-            </a>
-
-            <a href="best-tiktoks-2021-bones-day-couch-guy.html" class="stories">
-                <h4>Best TikToks</h4>
-                <p>Mimi Calhoun</p>
-                <img class="landing" src="https://s3.amazonaws.com/snwceomedia/ohi/d4a17116-3ebf-4b7d-9099-367a57a9edd6.sized-1000x1000.png" alt="">
-            </a> 
-
-            <a href="best-graphic-novels-2021-alternative-marvel.html" class="stories">
-                <h4>Cat's Cradle</h4>
-                <p>Benjamin Ervin</p>
-                <img class="landing" src="https://s3.amazonaws.com/snwceomedia/ohi/294a910a-3714-4485-bbec-a5eef049840a.sized-1000x1000.jpg" alt="">
-            </a>
-
-            <a href="the-pest-satire-2021-year-in-review-highlights.html" class="stories">
-                <h4>The Pest</h4>
-                <p>The Pest staff writer</p>
-                <img class="landing" src="https://s3.amazonaws.com/snwceomedia/ohi/63f4bf4e-c5bb-48d0-b5db-7a580bd7fab5.sized-1000x1000.png" alt="">
-            </a>
-             -->
+                <div class="insideCont ProjectsCont">
+                    <!--                     
+                    <a href="" style="background-image: url(   );">
+                        <h3>Projects</h3>
+                    </a>
+                    -->
+                    
+                    <a href="" style="background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/20b72905-ed95-4172-9a96-9d98187f3992.sized-1000x1000.jpg);">
+                        <h3>Story coming soon!</h3>
+                    </a>
+                </div>
+            </div> <!-- Projects -->
         </div>
         <!---#content--->
     </div>
@@ -216,6 +247,9 @@ THE
         document.getElementById(sectionName).style.display = "block";
         evt.currentTarget.className += " active";
         }
+
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
     </script>
 
     

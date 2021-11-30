@@ -32,9 +32,9 @@ i.share,
     /* background-color: #ffda378e; */
 }
 
-/* p:nth-of-type(7n) {
-    background-color: #0075008e;
-} */
+p:nth-of-type(7n) {
+    /* background-color: #0075008e; */
+}
 
 a:hover {
     filter:hue-rotate(90deg);

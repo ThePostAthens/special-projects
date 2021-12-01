@@ -197,9 +197,8 @@ h4 {
 
 .date p {
     text-transform: uppercase;
-    color: var(--arthed-color);
-    font-family: var(--arthed-font);
-    font-weight: 600;
+    color: var(--headline-color);
+    font-family: var(--default-font);
     letter-spacing: 1px;
     margin-top: 3em;
     margin-bottom: -2em;

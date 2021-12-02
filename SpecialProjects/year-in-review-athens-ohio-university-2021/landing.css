@@ -129,6 +129,10 @@ h3 {
     /* background-color: rgb(233, 233, 233); */
 }
 
+.bottomAD {
+    margin-bottom: 2em;
+}
+
 .adsbygoogle {
     /* background: rgba(0, 89, 255, 0.164); */
     display:block;

@@ -199,7 +199,6 @@ h4 {
     text-transform: uppercase;
     color: var(--headline-color);
     font-family: var(--default-font);
-    letter-spacing: 1px;
     margin-top: 3em;
     margin-bottom: -2em;
     width: 60%;

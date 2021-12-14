@@ -91,52 +91,255 @@ a {
 }
 
 
-/* INTRO CONTAINER*/
-h1.header {
-    color: #3d3d3d;
-    width: 80%;
-    margin: 2em auto 1em;
-    font-size: 2.5rem;
-    font-weight: 900;
-    text-transform: uppercase;
+
+/* CONTENT */
+.contentCont {
+    width: 100%;
+    padding: 0;
+    padding-top: 3em;
+    display: flex;
+}
+
+/* LEFT COLUMN //////////////////////////*/
+.insideLeft {
+    padding: 0 4%;
+}
+
+/* SLIDESHOWS */
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 1em;
+    width: 2em;
     text-align: center;
+    margin-top: -1em;
+    padding: auto 1em;
+    height: 95%;
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
 }
 
-.socials {
-    color: #fff;
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
 
-#socials-content {
-    font-size: 2em;
-    font-weight: 900;
-    text-align: center;
-    padding: 1em 0;
-    width: 60%;
-    margin: 0 auto;
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background: linear-gradient(0deg, rgba(0,0,0,0) 12%, rgba(0,0,0,0.6026785714285714) 20%);
 }
 
-p.s-headline {
-    width: 80%;
-    margin: 0 auto;
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 1rem;
+    padding: 0.6em;
+    position: absolute;
+    bottom: 0em;
+    width: 100%;
+    text-align: left;
+    background: linear-gradient(0deg, rgba(0,0,0,0.6895133053221288) 47%, rgba(0,0,0,0.09287464985994398) 100%);
 }
 
-p.s-headline a {
-    color: #9d96c9;
-}
-
-p.s-headline a:hover {
+.text a {
+    font-weight: 700;
     text-decoration: underline;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    background-color: #00000085;
+    font-size: 1rem;
+    font-weight: 900;
+    padding: 0.6em;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .8}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .8}
+    to {opacity: 1}
+}
+
+
+/* SUBHEDS */
+h2 {
+    width: 100%;
+    margin: 0.5em auto;
+}
+
+.subhed {
+    background-color: #292929;
+    color: #fff;
+    font-size: 2rem;
+    padding: 0.5em;
+    font-weight: 900;
+    margin-top: 1.5em;
+}
+
+.memoHed {
+    margin-bottom: 0;
+}
+
+.memoCont {
+    max-height: 90vh;
+    width: 100%;
+    margin: 0 auto;
+    overflow-y: scroll;
+}
+
+p {
+    margin: 0 auto 1em;
+}
+
+.date {
+    background-color: #3d3d3d;
+    color: #fff;
+    padding: 0.5em;
+    font-weight: 700;
+}
+
+.signature {
+    font-size: 1.5rem;
+    margin: -0.6em auto 1.5em;
+    font-family: 'Lobster', cursive;
+}
+
+iframe.postBlog {
+    width: 100%;
+    margin-bottom: 10em;
+    min-height: 80vh;
+}
+
+
+/* RIGHT COLUMN */
+.insideRight {
+    min-width: 30%;
+    margin-right: 5%;
+}
+
+h3 {
+    width: 100%;
+    /* font-size: 2.25rem; */
+    font-size: clamp(1.5rem, 2vw, 2.25rem);
+    text-align: center;
+    margin: 0;
+    -webkit-text-stroke: 2px;
+}
+
+h3 a,
+h4 a {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+h3 a:hover,
+h4 a:hover {
     filter: saturate(3);
-    filter: hue-rotate(50deg);
+}
+
+h4 {
+    font-size: 1.5rem;
+    margin: 1em 0 -0.2em;
 }
 
 .s-bubble {
+    color: #3d3d3d;
     position: relative;
-    background: #3d3d3d;
     border-radius: 40px;
+    font-weight: 900;
+    text-align: center;
+    padding: 1em 0;
+    margin: 0 10% 1.5em 0;
+    min-width: 100%;
 }
 
-.bubble4:after {
+.s-bubble p {
+    width: 90%;
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    margin: 0 auto;
+}
+
+.sidebar1{
+    border: 0.5em solid #44ac4e;
+}
+
+.sidebar1 h3 {
+    color: #44ac4e;
+}
+
+.sidebar2{
+    border: 0.5em solid #efb261;
+}
+
+.sidebar2 h3 {
+    color: #efb261;
+}
+
+.sidebar3 {
+    border: 0.5em solid #49638e;
+}
+
+.sidebar3 h3 {
+    color: #49638e;
+}
+
+.sidebar4 {
+    border: 0.5em solid #d0605b;
+}
+
+.sidebar4 h3 {
+    color: #d0605b;
+}
+
+.sidebar5 {
+    background-color: #3d3d3d;
+    padding: 2em;
+    color: #fff;
+}
+
+.sidebar5 a {
+    color: #9d96c9
+}
+
+.sidebar5:after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -163,6 +366,7 @@ p.snapcode {
 section.handle-content {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 div.handle-div {
@@ -258,187 +462,6 @@ div.flat-under.handle-div {
         margin: -0.25em;
     }
 }
-
-/* CONTENT */
-p a:hover {
-    color: none;
-}
-
-#toggle li.updates:hover {
-    text-shadow: 1px 2px 15px #ba1701;
-}
-
-#toggle li.updates {
-    text-shadow: 1px 2px 15px #000;
-}
-
-#toggle li.articles:hover {
-    text-shadow: 1px 2px 15px #5c89ff;
-}
-
-.articles-cont {
-    filter: none;
-}
-
-
-
-/* STORIES */
-.contentCont {
-    padding: 1em;
-}
-
-.postBlog {
-    width: 90%;
-    margin: 0 5%;
-    margin-bottom: 10em;
-    min-height: 80vh;
-}
-
-.storyCont {
-    width: 60%;
-}
-
-.story {
-    max-height: 10em;
-}
-
-.story img {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-}
-
-.storyText {
-    background: mediumpurple;
-
-}
-
-/*ADVERT*/
-.landing_ad {
-    width: 80%;
-    margin: 0 10%;
-}
-
-/* SLIDESHOWS */
-* {box-sizing:border-box}
-
-/* Slideshow container */
-.slideshow-container {
-    max-width: 62em;
-    position: relative;
-    margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides {
-    display: none;
-}
-
-h2 {
-    width: 70%;
-    font-size: 2rem;
-    margin: 1em auto 0.5em;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 1em;
-    width: 2em;
-    text-align: center;
-    margin-top: -1em;
-    padding: auto 1em;
-    height: 95%;
-    color: white;
-    font-weight: bold;
-    font-size: 3rem;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-    background: linear-gradient(0deg, rgba(0,0,0,0) 12%, rgba(0,0,0,0.6026785714285714) 20%);
-}
-
-/* Caption text */
-.text {
-    color: #f2f2f2;
-    font-size: 1rem;
-    padding: 0.6em;
-    position: absolute;
-    bottom: 0em;
-    width: 100%;
-    text-align: left;
-    background: linear-gradient(0deg, rgba(0,0,0,0.6895133053221288) 47%, rgba(0,0,0,0.09287464985994398) 100%);
-}
-
-.text a {
-    font-weight: 700;
-    text-decoration: underline;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-    color: #f2f2f2;
-    background-color: #00000085;
-    font-size: 1rem;
-    font-weight: 900;
-    padding: 0.6em;
-    position: absolute;
-    top: 0;
-    z-index: 1;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-    cursor: pointer;
-    height: 1em;
-    width: 1em;
-    margin: 0 0.1em;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-    background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-    from {opacity: .8}
-    to {opacity: 1}
-}
-
-@keyframes fade {
-    from {opacity: .8}
-    to {opacity: 1}
-}
-
-
-
-
-
 
 
 
@@ -543,29 +566,6 @@ iframe.yt-vid {
     width: 90%;
 }
 
-/*----- Gallery Stuff -----*/
-.gallery_bot {
-    padding: 0;
-    width: 20%;
-    float: left;
-}
-
-.galleryPcut {
-    float: right;
-    text-align: left;
-    margin: 0;
-    font-weight: 100;
-    color: #808080;
-    font-size: 12px;
-    width: 100%;
-    padding: 0;
-    padding-bottom: 10px;
-}
-
-.w3-hover-shadow:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important
-}
-
 
 /* SPECIAL PROJECT FOOTER */
 .footer {
@@ -588,7 +588,7 @@ a.end {
 }
 
 .footer h2 {
-    font-size: 40px;
+    font-size: 2rem;
     width: 70%;
     padding: 0 15%;
     margin: 0;
@@ -663,17 +663,13 @@ a.end {
     .yt_left {
         height: 315px;
     }
-
-    p.s-headline {
-        font-size: 1.75rem;
-    }
     
     #socials-content {
         width: 75%;
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
 
     #logo {
         height: 25px;
@@ -684,19 +680,30 @@ a.end {
         margin: 0 10%;
     }
 
-    .arthed {
-        font-size: 60px;
-        line-height: 60px;
+    .contentCont {
+        width: 100%;
+        padding: 0;
+        padding-top: 3em;
+        flex-direction: column;
     }
 
-    .header {
-        width: 80%;
-        padding: 0% 10% 0 10%;
-        font-size: 25px;
+    .slideTitle {
+        font-size: 1.25rem;
     }
 
-    .handle-content {
-        margin: 0 20%;
+    .memoCont {
+        max-height: 60vh;
+    }
+
+    .s-bubble {
+        border-radius: 30px;
+        min-width: 90%;
+        margin: 0 5% 1.5em;
+    }
+
+    h3 {
+        font-size: 2rem;
+        -webkit-text-stroke: 1px;
     }
 
     .yt_center {
@@ -720,16 +727,6 @@ a.end {
 }
 
 @media screen and (max-width: 720px) {
-    
-    h1.header {
-        font-size: 2em;
-    }
-    
-    p.s-headline a:hover,
-    p.s-headline a:active {
-        color: #9d96c9;
-    }
-
     .yt_right {
         height: 215px;
     }
@@ -741,13 +738,6 @@ a.end {
 
 @media screen and (max-width: 595px) {
     
-    h1.header {
-        width: 90%;
-    }
-    
-    p.s-headline {
-        font-size: 22px;
-    }
 }
 
 @media screen and (max-width: 500px) {

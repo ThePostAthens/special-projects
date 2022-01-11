@@ -223,6 +223,7 @@ h2 {
     width: 100%;
     margin: 0 auto;
     overflow-y: scroll;
+    background: #f3f1f7;
 }
 
 p {
@@ -298,7 +299,7 @@ h4 {
 }
 
 .sidebar1{
-    border: 0.5em solid #44ac4e;
+    outline: 0.5em solid #44ac4e;
 }
 
 .sidebar1 h3 {
@@ -306,7 +307,8 @@ h4 {
 }
 
 .sidebar2{
-    border: 0.5em solid #efb261;
+    outline: 0.5em solid #efb261;
+    background: #fefcf6;
 }
 
 .sidebar2 h3 {
@@ -314,7 +316,7 @@ h4 {
 }
 
 .sidebar3 {
-    border: 0.5em solid #49638e;
+    outline: 0.5em solid #49638e;
 }
 
 .sidebar3 h3 {
@@ -322,7 +324,7 @@ h4 {
 }
 
 .sidebar4 {
-    border: 0.5em solid #d0605b;
+    outline: 0.5em solid #d0605b;
 }
 
 .sidebar4 h3 {

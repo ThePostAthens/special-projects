@@ -20,6 +20,28 @@ Please contact at bllender.00@gmail.com with questions.*/
     --hyperlink-color: #7fc448;
     --pq-color: #487ac4;
     
+/* --------------------------------------------------------- */
+    /**** FOR BRI ONLY ****/
+    /* arthed font-size */
+    --arthedSize--2: clamp(1.91rem, 1.77rem + 0.70vw, 2.40rem);
+    --arthedSize--1: clamp(2.29rem, 2.09rem + 1.01vw, 3.00rem);
+--arthedSize-0: clamp(2.75rem, 2.46rem + 1.43vw, 3.75rem);
+    --arthedSize-1: clamp(3.30rem, 2.90rem + 1.98vw, 4.69rem);
+    --arthedSize-2: clamp(3.96rem, 3.42rem + 2.71vw, 5.86rem);
+    --arthedSize-3: clamp(4.75rem, 4.02rem + 3.68vw, 7.32rem);
+    --arthedSize-4: clamp(5.70rem, 4.72rem + 4.93vw, 9.15rem);
+    --arthedSize-5: clamp(6.84rem, 5.53rem + 6.57vw, 11.44rem);
+
+/* headline font-size */
+    --hedSize--2: clamp(0.78rem, 0.73rem + 0.26vw, 0.96rem);
+    --hedSize--1: clamp(0.94rem, 0.86rem + 0.38vw, 1.20rem);
+--hedSize-0: clamp(1.13rem, 1.02rem + 0.54vw, 1.50rem);
+    --hedSize-1: clamp(1.35rem, 1.20rem + 0.75vw, 1.88rem);
+    --hedSize-2: clamp(1.62rem, 1.41rem + 1.03vw, 2.34rem);
+    --hedSize-3: clamp(1.94rem, 1.66rem + 1.41vw, 2.93rem);
+    --hedSize-4: clamp(2.33rem, 1.95rem + 1.90vw, 3.66rem);
+    --hedSize-5: clamp(2.80rem, 2.29rem + 2.54vw, 4.58rem);
+
 }
 
 
@@ -192,11 +214,11 @@ h4 {
     width: 90%;
     padding: 0 5%;
     color: var(--arthed-color);
-    font-size: clamp(2.75rem, 2.46rem + 1.43vw, 3.75rem);
-    line-height: clamp(2.5rem, 5vw, 3.75rem);
+    font-size: var(--arthedSize-0);
+    line-height: var(--arthedSize-0);
     font-family: var(--arthed-font);
     text-transform: capitalize;
-    margin: 50px 0px 10px 0px;
+    margin: 2.8rem 0px 10px 0px;
 }
 
 .cutline {
@@ -216,8 +238,8 @@ h4 {
     font-family: var(--headline-font);
     color:var(--headline-color);
     /* font-family: "Playfair Display", Georgia, serif; */
-    font-size: clamp(1.13rem, 1.02rem + 0.54vw, 1.50rem);
-    line-height: clamp(1.65rem, 1.02rem + 0.54vw, 2rem);
+    font-size: var(--hedSize-1);
+    line-height: var(--hedSize-2);
     margin-top: 1.5px;
 }
 
@@ -278,9 +300,10 @@ p.intro {
 }
 
 .intro::first-letter {
-    font-size: clamp(2.8rem, 5vw, 3.75rem);
     font-weight: 700;
     float: left;
+    font-family: var(--graf-font);
+    font-size: var(--arthedSize-0);
     line-height: 3.5rem;
     margin-right: 0.1em;
     color: var(--arthed-color);
@@ -305,7 +328,6 @@ p.intro {
 
 .creditText {
     display: inline-block;
-    font-family: 'Montserrat', Arial, sans-serif;
     font-size: 0.9rem;
     margin: 0 1rem 0rem 0;
     text-transform: capitalize;
@@ -313,6 +335,8 @@ p.intro {
 
 .creditText a {
     font-weight: 700;
+    font-family: var(--graf-font);
+    /* font-size: ; */
     cursor: pointer;
 }
 
@@ -557,7 +581,7 @@ iframe.yt-vid {
 }
 
 .footer p {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', Arial, sans-serif;
     margin: 0;
     width: 70%;
     padding: 10px 15% 0 15%;
@@ -566,7 +590,7 @@ iframe.yt-vid {
 .copyright {
     color: #FFF;
     text-align: center;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', Arial, sans-serif;
     width: 100%;
     height: 20px;
     text-shadow: 2px 2px 5px #000;
@@ -580,7 +604,7 @@ iframe.yt-vid {
 }
 
 .copyright p {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', Arial, sans-serif;
     margin: 0;
     width: 70%;
     padding: 13px 15% 15px 15%;

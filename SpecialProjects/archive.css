@@ -40,7 +40,7 @@ p {
 
 #nav_bar li {
     list-style: none;
-    display: inline-block;
+    /* display: inline-block; */
     padding: 15px;
     float: right;
 }

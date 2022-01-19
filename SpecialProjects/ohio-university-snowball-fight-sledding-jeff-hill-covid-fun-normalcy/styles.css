@@ -72,7 +72,7 @@ a:hover {
 
 p {
     width: 60%;
-    padding: 1em 0;
+    padding: 0.5em 0;
     margin: 0 auto;
 }
 
@@ -217,7 +217,7 @@ h4 {
     line-height: var(--arthedSize-0);
     font-family: var(--arthed-font);
     text-transform: capitalize;
-    letter-spacing: 5px;
+    letter-spacing: 3.5px;
     margin: 2.8rem 5% 0;
 }
 
@@ -718,10 +718,8 @@ a.end:hover {
 
 @media screen and (max-width: 768px) {
 
-    .column20center,
     p {
         width: 80%;
-        padding: 0 10%;
     }
 
     #logo {
@@ -741,11 +739,6 @@ a.end:hover {
     .date {
         padding: 0 10%;
         width: 80%;
-    }
-
-    .headline {
-        width: 80%;
-        padding: 0% 10% 0 10%;
     }
 
     .oneimg_right,

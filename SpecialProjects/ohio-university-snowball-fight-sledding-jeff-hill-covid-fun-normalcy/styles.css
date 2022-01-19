@@ -559,7 +559,7 @@ iframe.yt-vid {
     height: 95%;
     color: white;
     font-weight: bold;
-    font-size: 3rem;
+    font-size: clamp(1.50rem, 1.07rem + 2.14vw, 3.00rem);
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
@@ -579,7 +579,7 @@ iframe.yt-vid {
 /* Caption text */
 .text {
     color: #f2f2f2;
-    font-size: 1rem;
+    font-size: clamp(0.75rem, 0.68rem + 0.36vw, 1.00rem);
     padding: 0.6em;
     position: absolute;
     bottom: 0em;
@@ -597,7 +597,7 @@ iframe.yt-vid {
 .numbertext {
     color: #f2f2f2;
     background-color: #00000085;
-    font-size: 1rem;
+    font-size: clamp(0.88rem, 0.84rem + 0.18vw, 1.00rem);
     font-weight: 900;
     padding: 0.6em;
     position: absolute;
@@ -643,7 +643,7 @@ iframe.yt-vid {
 .footer h2 {
     font-size: 2.5rem;
     width: 70%;
-    padding: 0 15%;
+    padding: 0 auto;
     margin: 0;
     line-height: 35px;
 }
@@ -652,7 +652,7 @@ iframe.yt-vid {
     font-family: 'Montserrat', Arial, sans-serif;
     margin: 0;
     width: 70%;
-    padding: 10px 15% 0 15%;
+    margin: 1em auto 0;
 }
 
 .copyright {
@@ -673,9 +673,9 @@ iframe.yt-vid {
 
 .copyright p {
     font-family: 'Montserrat', Arial, sans-serif;
-    margin: 0;
+    margin: 1em 0;
     width: 70%;
-    padding: 13px 15% 15px 15%;
+    margin: 1em auto 0;
 }
 
 .btn-container {
@@ -741,6 +741,12 @@ a.end:hover {
         width: 80%;
     }
 
+    .slideshow-container {
+        max-width: 80%;
+        margin: 0 auto;
+        position: relative;
+    }
+
     .oneimg_right,
     .oneimg_left,
     .oneimg_center {
@@ -795,6 +801,19 @@ a.end:hover {
 }
 
 @media screen and (max-width: 500px) {
+
+    .slideshow-container {
+        max-width: 100%;
+    }
+
+    .text {
+        color: #f2f2f2;
+        position: relative;
+        top: 0.25em;
+        bottom: 2em;
+        background: #000000b0;
+    }
+
     .yt_right {
         width: 80%;
         padding: 0 10%;

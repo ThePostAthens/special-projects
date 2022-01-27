@@ -5,8 +5,8 @@ Please contact at bllender.00@gmail.com with questions.*/
 
 :root {
     /* Change Fonts */ 
-    --arthed-font: 'Montserrat', Arial, sans-serif;
-    --headline-font: 'Montserrat', Arial, sans-serif;
+    --arthed-font: 'Londrina Sketch', cursive;
+    --headline-font: 'Cabin Sketch', cursive;
     --subhed-font: 'Montserrat', Arial, sans-serif;
     --pq-font: 'Montserrat', Arial, sans-serif;
     --graf-font: 'Montserrat', Arial, sans-serif;
@@ -14,10 +14,10 @@ Please contact at bllender.00@gmail.com with questions.*/
         add the <link> tags in index.html above closing</head>*/ 
     
     /* Change Text Colors */
-    --arthed-color: #3d3d3d;
-    --headline-color: #3d3d3d;
+    --arthed-color: #ee0c2e;
+    --headline-color: #24857e;
     --subhed-color: #3d3d3d;
-    --hyperlink-color: #7fc448;
+    --hyperlink-color: #35ccbf;
     --pq-color: #487ac4;
     
 /* --------------------------------------------------------- */
@@ -238,7 +238,7 @@ h4 {
     font-family: var(--headline-font);
     color:var(--headline-color);
     /* font-family: "Playfair Display", Georgia, serif; */
-    font-size: var(--hedSize-1);
+    font-size: var(--hedSize-2);
     line-height: var(--hedSize-2);
     margin-top: 1.5px;
 }
@@ -302,7 +302,7 @@ p.intro {
 .intro::first-letter {
     font-weight: 700;
     float: left;
-    font-family: var(--graf-font);
+    font-family: var(--arthed-font);
     font-size: var(--arthedSize-0);
     line-height: 3.5rem;
     margin-right: 0.1em;
@@ -335,8 +335,8 @@ p.intro {
 
 .creditText a {
     font-weight: 700;
-    font-family: var(--graf-font);
-    /* font-size: ; */
+    font-family: var(--headline-font);
+    font-size: 1.25rem;
     cursor: pointer;
 }
 
@@ -345,6 +345,7 @@ p.intro {
 .oneimg_center {
     width: 60%;
     padding: 0 20%;
+    margin-top: 3em;
 }
 
 /*Apply to a wrapping div*/
@@ -373,6 +374,7 @@ p.intro {
 .oneimg_split {
     width: 80%;
     padding: 0 10%;
+    margin-top: 3em;
     display: flex;
 }
 
@@ -393,8 +395,9 @@ p.intro {
     text-align: left;
     margin: 0;
     font-weight: 800;
-    color: #000;
-    font-size: 0.75rem;
+    color: var(--headline-color);
+    font-size: 1rem;
+    font-family: var(--headline-font);
     width: 100%;
     padding: 0;
     padding-top: 5px;
@@ -405,12 +408,20 @@ p.intro {
     text-align: left;
     margin: 0;
     margin-top: 5px;
+    margin-bottom: 3em;
     font-weight: 100;
     color: #808080;
     font-size: 0.75rem;
     width: 100%;
     padding: 0;
     padding-bottom: 5px;
+}
+
+p.split_pcut {
+    float: none;
+    width: 40%;
+    text-align: center;
+    margin: 0.5em auto 3em;
 }
 
 .subhed {
@@ -684,7 +695,16 @@ a.end:hover {
     .oneimg_left,
     .oneimg_center {
         width: 80%;
-        padding: 0 10% 10px 10%;
+        padding: 0 10%;
+    }
+
+    .oneimg_split {
+        width: 94%;
+        padding: 0 3%;
+    }
+
+    p.split_pcut {
+        width: 80%;
     }
 
     .oneimg_full p {
@@ -713,7 +733,7 @@ a.end:hover {
     }
 
     .credits {
-        max-width: 80%;
+        width: 80%;
         margin: 0 10%;
         text-align: left;
     }
@@ -734,6 +754,23 @@ a.end:hover {
 }
 
 @media screen and (max-width: 500px) {
+    .oneimg_right,
+    .oneimg_left,
+    .oneimg_center {
+        width: 94%;
+        padding: 0 3%;
+    }
+
+    .oneimg_split {
+        width: 98%;
+        padding: 0 1%;
+        flex-direction: column;
+    }
+
+    p.split_pcut {
+        width: 80%;
+    }
+    
     .yt_right {
         width: 80%;
         padding: 0 10%;

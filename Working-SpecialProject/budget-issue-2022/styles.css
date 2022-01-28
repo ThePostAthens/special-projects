@@ -1,53 +1,36 @@
 /* Template.css
 This is a template for special projects at The Post.
-Template updated in 2022 by Brianna Lender, former Web Development Director at The Post.
-Please contact at bllender.00@gmail.com with questions.*/
+Template originally coded by Taylor Johnston, digital managing editor at The Post.
+Please contact at taylorfjohnston@gmail.com with questions.*/
 
 :root {
-    /* Change Fonts */ 
-    --art-font: 'Montserrat', Arial, sans-serif;
-    --hed-font: 'Montserrat', Arial, sans-serif;
-    --sub-font: 'Montserrat', Arial, sans-serif;
-    --pq-font: 'Montserrat', Arial, sans-serif;
-    --graf-font: 'Montserrat', Arial, sans-serif;
-    /* **DON'T FORGET** to 
-        add the <link> tags in index.html above closing</head>*/ 
-    
-    /* Change Text Colors */
-    --art-color: #030406;
+    --art-font: montserrat, sans-serif;
+    --hed-font: montserrat, sans-serif;
+    --sub-font: montserrat, sans-serif;
+    --pq-font: montserrat, sans-serif;
+    --credit-font: montserrat, sans-serif;
+    --back-font: montserrat, sans-serif;
+
+    --art-color: #fff;
+    --shadow: #000;
+    --stroke: #000;
     --hed-color: #030406;
     --sub-color: #030406;
     --hyperlink-color: #7fc448;
     --pq-color: #487ac4;
+
+    --back-text: #fff;
+    --back-btn: #7fc448;
+    --back-slide: #f8b132;
     
-/* --------------------------------------------------------- */
-    /**** FOR BRI ONLY ****/
-    /* arthed font-size */
-    --art-size--2: clamp(1.91rem, 1.77rem + 0.70vw, 2.40rem);
-    --art-size--1: clamp(2.29rem, 2.09rem + 1.01vw, 3.00rem);
---art-size-0: clamp(2.75rem, 2.46rem + 1.43vw, 3.75rem);
-    --art-size-1: clamp(3.30rem, 2.90rem + 1.98vw, 4.69rem);
-    --art-size-2: clamp(3.96rem, 3.42rem + 2.71vw, 5.86rem);
-    --art-size-3: clamp(4.75rem, 4.02rem + 3.68vw, 7.32rem);
-    --art-size-4: clamp(5.70rem, 4.72rem + 4.93vw, 9.15rem);
-    --art-size-5: clamp(6.84rem, 5.53rem + 6.57vw, 11.44rem);
 
-/* headline font-size */
-    --hed-size--2: clamp(0.78rem, 0.73rem + 0.26vw, 0.96rem);
-    --hed-size--1: clamp(0.94rem, 0.86rem + 0.38vw, 1.20rem);
---hed-size-0: clamp(1.13rem, 1.02rem + 0.54vw, 1.50rem);
-    --hed-size-1: clamp(1.35rem, 1.20rem + 0.75vw, 1.88rem);
-    --hed-size-2: clamp(1.62rem, 1.41rem + 1.03vw, 2.34rem);
-    --hed-size-3: clamp(1.94rem, 1.66rem + 1.41vw, 2.93rem);
-    --hed-size-4: clamp(2.33rem, 1.95rem + 1.90vw, 3.66rem);
-    --hed-size-5: clamp(2.80rem, 2.29rem + 2.54vw, 4.58rem);
-
+    --art-size: clamp(2.88rem, 2.09rem + 3.93vw, 5.63rem); /*44-90px*/
+    --hed-size: clamp(1.75rem, 1.54rem + 1.07vw, 2.50rem); /*28-40px*/
 }
-
 
 /* GENERAL STYLES */
 body {
-    font-family: 'Montserrat', Arial, sans-serif;
+    font-family: montserrat, sans-serif;
     background-color: #FFF;
     color: #030406;
 }
@@ -66,7 +49,6 @@ i.share,
 
 a:hover {
     filter: saturate(3);
-    /* text-decoration: underline; */
 }
 
 
@@ -80,7 +62,7 @@ h2 {
 }
 
 h3 {
-    font-size: 16px;
+    font-size: 1rem;
     margin: 0;
     padding: 0;
 }
@@ -171,26 +153,29 @@ h3 {
     width: 100%;
 }
 
-
 /* HEADLINE STYLES */
-.date {
-    text-align: center;
+.date p {
+    text-align: left;
     text-transform: uppercase;
-    margin: 75px auto -35px;
+    margin: 45px auto -35px;;
     width: 60%;
 }
 
+
 /* Pick one font depending on design (or find another one) */
-.arthed {
-    text-align: center;
-    width: 90%;
-    padding: 0 5%;
+#arthed {
     color: var(--art-color);
-    font-size: var(--art-size-0);
-    line-height: var(--art-size-0);
-    font-family: var(--art-font);
-    text-transform: capitalize;
-    margin: 2.8rem 0px 10px 0px;
+    position: absolute;
+    bottom: 40%;
+    padding: 0 10%;
+    margin: 0;
+    font-size: var(--art-size);
+    line-height: var(--art-size);
+    font-weight: 800;
+    text-align: center;
+    width: 80%;
+    text-shadow: 2px 2px 3px var(--shadow);
+    -webkit-text-stroke: 4px var(--stroke);
 }
 
 .cutline {
@@ -202,32 +187,37 @@ h3 {
     width: 90%;
     padding: 0;
     padding-left: 10px;
-    margin-top: 5px;
+    padding-top: 5px;;
 }
 
 .headline {
-    text-align: center;
+    display: flex;
+    text-align: left;
     font-family: var(--hed-font);
-    color:var(--hed-color);
-    font-size: var(--hed-size-1);
-    line-height: var(--hed-size-2);
-    margin-top: 1.5px;
-    margin-bottom: 0;
+    color: var(--hed-color);
+    font-size: var(--hed-size);
+    line-height: var(--hed-size);
+    margin-top: 40px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    width: 60%;
+    padding: 0 20%;
 }
 
 /* BYLINE */
 .byline-info {
-    text-align: center;
+    text-align: left;
     display: block;
+    margin-top: -10px;
 }
 
 .byline-info p {
+    color: #030406;
     display: inline-block;
     font-family: 'Montserrat', Arial, sans-serif;
     /* font-family: "Playfair Display", Georgia, serif; */
     font-size: 1rem;
-    text-align: center;
-    margin-top: 25px;
+    text-align: left;
 }
 
 .byline-info p:last-of-type {
@@ -236,8 +226,10 @@ h3 {
 
 /* SHARE BUTTONS */
 .share-container {
-    text-align: center;
+    text-align: left;
     margin-top: -20px;
+    width: 60%;
+    padding: 0 20%;
 }
 
 ul.share-buttons {
@@ -264,7 +256,6 @@ ul.share-buttons img {
     width: 32px;
 }
 
-
 /* CONTENT */
 p.intro {
     font-size: 1.25rem;
@@ -273,26 +264,51 @@ p.intro {
 .intro::first-letter {
     font-weight: 700;
     float: left;
-    font-family: var(--graf-font);
-    font-size: var(--art-size-0);
+    font-family: var(--art-font);
+    font-size: var(--art-size);
     line-height: 3.5rem;
     margin-right: 0.1em;
     color: var(--hed-color);
 }
 
-/* .dropcap {
-    font-weight: 700;
-    float: left;
-    font-size: 2.9em;
-    line-height: .9em;
-    padding-right: 5px;
-} */
+/* BACK BUTTON*/
+#back-button {
+    text-align: left;
+    width: 60%;
+    padding: 0 20%;
+    margin: 40px 0px 30px 0px;
+    color: #3d3d3d;
+}
+
+#back-button a:hover {
+    opacity: 1;
+    filter: saturate(1);
+}
+
+.back-button {
+    padding: 10px 40px;
+    font-family: var(--back-font);
+    font-size: 1.25rem;
+    color: var(--back-text);
+    font-weight: 600;
+    border: hidden;
+    border-radius: 20px;
+    background-color: var(--back-slide);
+    letter-spacing: 1px;
+    box-shadow: inset 400px 0 0 0 var(--back-btn);
+    -webkit-transition: .4s ease-out 0s;
+    transition: .4s ease-out 0s;
+}
+
+.slide-right:hover {
+    box-shadow: inset 0 0 0 0 var(--back-btn);
+}
 
 
 /* CREDITS */
 .credits {
     margin: 1rem auto 0;
-    width: 60%;
+    max-width: 60%;
     padding-bottom: 2.4rem;
     text-align: left
 }
@@ -306,18 +322,12 @@ p.intro {
 
 .creditText a {
     font-weight: 700;
-    font-family: var(--graf-font);
-    /* font-size: ; */
+    font-family: var(--credit-font);
     cursor: pointer;
 }
 
 /* OTHER STUFF */
 /* IMAGE BLOCKS */
-.insta-embed {
-    width: 40%;
-    padding: 0 30%;
-}
-
 .oneimg_center {
     width: 60%;
     padding: 0 20%;
@@ -356,7 +366,6 @@ p.intro {
     margin: 0px 10px;
 }
 
-
 .oneimg_full img,
 .oneimg_center img,
 .oneimg_right img,
@@ -365,8 +374,8 @@ p.intro {
 }
 
 .photog {
-    float: left;
-    text-align: left;
+    float: right;
+    text-align: right;
     margin: 0;
     font-weight: 800;
     color: #000;
@@ -391,9 +400,12 @@ p.intro {
 
 .subhed {
     font-family: var(--hed-font);
+    line-height: clamp(1rem, 10vw, 1.6rem);
     font-weight: 800;
     color: var(--hed-color);
+    width: 60%;
     padding: 0 20%;
+
 }
 
 /*apply to wrapping span tag*/
@@ -447,11 +459,6 @@ blockquote {
     color: var(--pq-color);
 }
 
-/* .insta-embed {
-    width: 40%;
-    padding: 0 30%;
-} */
-
 /* .twitter-tweet --> add tw-align-center class*/
 
 iframe.spotify {
@@ -461,6 +468,11 @@ iframe.spotify {
 
 .instagram-media {
     margin: 15px auto !important;
+}
+
+.flourish-embed {
+    width: 60%;
+    margin: 0 20%;
 }
 
 /*YOUTUBE EMBED*/
@@ -567,8 +579,7 @@ iframe.yt-vid {
 
 .copyright {
     color: #FFF;
-    text-align: center;
-    font-family: 'Montserrat', Arial, sans-serif;
+    font-family: 'Montserrat';
     width: 100%;
     height: 20px;
     text-shadow: 2px 2px 5px #000;
@@ -592,13 +603,7 @@ iframe.yt-vid {
     margin-left: 20px;
 }
 
-a.end {
-    opacity: 1;
-}
 
-a.end:hover {
-    filter: none;
-}
 
 .projects,
 .join {
@@ -616,16 +621,6 @@ a.end:hover {
 }
 
 /* MEDIA QUERIES */
-
-@media screen and (max-width: 1080px) {
-
-    .yt_center,
-    .yt_right,
-    .yt_left {
-        height: 315px;
-    }
-}
-
 @media screen and (max-width: 768px) {
 
     .column20center,
@@ -648,13 +643,33 @@ a.end:hover {
         margin: 0 10%;
     }
 
-    /* .date {
-        width: 80%;
-    } */
+    .date p {
+        text-align: center;
+        margin: 45px auto -35px;
+    }
+
+    #arthed {
+        -webkit-text-stroke: 2.5px var(--stroke);
+        bottom: 40%;
+    }
 
     .headline {
         width: 80%;
         padding: 0% 10%;
+        text-align: center;
+    }
+
+    .byline-info p {
+        text-align: center;
+    }
+
+    .share-container {
+        text-align: center;
+    }
+
+    .subhed {
+        width: 80%;
+        padding: 0 10%;
     }
 
     .oneimg_right,
@@ -672,58 +687,29 @@ a.end:hover {
     .pq_center,
     .pq_right,
     .pq_left {
-        padding: 0 10%;
-        width: 80%;
+        padding: 0 5%;
+        width: 90%;
     }
 
     .subhed {
         padding: 0 10%;
     }
 
-    .yt_center {
-        width: 80%;
-        padding: 0 10%;
-    }
-
-    .yt_right {
-        height: 265px;
+    #back-button {
+        text-align: center;
+        margin-top: 30px;
     }
 
     .credits {
         max-width: 80%;
-        margin: 0 10%;
         text-align: left;
     }
 
     .footer {
         height: 300px;
     }
-}
 
-@media screen and (max-width: 720px) {
-    .yt_right {
-        height: 215px;
-    }
-
-    .yt_left {
-        height: 215px;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .yt_right {
-        width: 80%;
-        padding: 0 10%;
-        margin: 0;
-        float: none;
-        height: 230px;
-    }
-
-    .yt_left {
-        width: 80%;
-        padding: 0 10%;
-        margin: 0;
-        float: none;
-        height: 230px;
+    .copyright {
+        text-align: center;
     }
 }

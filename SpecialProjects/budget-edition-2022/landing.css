@@ -41,7 +41,7 @@ a {
 a:hover,
 a:active,
 .creditText a:hover,
-.creditText a:active, {
+.creditText a:active {
     /* color: #7fc447; */
     filter: saturate(3);
 }
@@ -426,10 +426,18 @@ div.flat-under.handle-div {
 
 .cardLink {
     background-color: var(--bubbleColor);
+    display: flex;
+    justify-content: center;
     width: 45%;
     padding: 1em;
     margin: 1em 0 0;
     border-radius: 0.5em;
+    transition: all 0.4s ease-in-out;
+}
+
+.cardLink:hover,
+.cardLink:active {
+    width: 80%;
 }
 
 .cardLink a {
@@ -633,6 +641,12 @@ a.end:hover {
     }
 }
 
+@media screen and (max-width: 880px) {
+    #content {
+        width: 100%;
+    }
+}
+
 
 @media screen and (max-width: 750px) {
 
@@ -649,12 +663,6 @@ a.end:hover {
         /* font-size: 4.5rem; */
         /* -webkit-text-stroke: 3px var(--stroke); */
         bottom: 40%;
-    }
-
-    .card {
-        width: 20em;
-        border-radius: 2em 2em 0 0;
-        padding: 1em 0.5em;
     }
 
     .headline {
@@ -697,49 +705,6 @@ a.end:hover {
     .copyright {
         text-align: center;
     }
-}
-
-@media only screen and (max-width: 600px) {
-
-    #arthed {
-        /* font-size: 3.1rem; */
-        -webkit-text-stroke: 2px var(--stroke);
-    }
-
-    a.stories {
-        width: 180px;
-        height: 180px;
-        border-radius: 2rem;
-    }
-
-    a.stories:hover {
-        width: 180px;
-        height: 180px;
-        border-radius: 2rem;
-    }
-
-    img.landing {
-        width: 180px;
-        height: 180px;
-        border-radius: 2rem;
-        transition-duration: 1s;
-    }
-
-    h4 {
-        margin: 2.5em 0em 0em 0em;
-        transition-duration: 1s;
-        /* font-size: 1.4rem; */
-    }
-
-
-}
-
-@media screen and (max-width: 595px) {
-    /* p.s-headline {
-        font-size: 1.3rem;
-    } */
-
-    
 }
 
 @media screen and (max-width: 500px) {

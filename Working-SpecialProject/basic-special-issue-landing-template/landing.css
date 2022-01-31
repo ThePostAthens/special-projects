@@ -3,6 +3,19 @@ This is a template for special projects at The Post.
 Template originally coded by Taylor Johnston, digital managing editor at The Post.
 Please contact at taylorfjohnston@gmail.com with questions.*/
 
+:root {
+    --art-font: montserrat, sans-serif;
+    --credit-font: montserrat, sans-serif;
+
+    --art-color: #fff;
+    --shadow: #000;
+    --stroke: #000;
+    --hyperlink-color: #7fc448;
+    
+    --art-size: clamp(2.88rem, 2.09rem + 3.93vw, 5.63rem); /*44-90px*/
+    --hed-size: clamp(1.75rem, 1.54rem + 1.07vw, 2.50rem); /*28-40px*/
+}
+
 /* GENERAL STYLES */
 html {
     font-size: 16px;
@@ -19,13 +32,13 @@ body {
 }
 
 a {
-    color: #fff;
+    color: var(--hyperlink-color);
     text-decoration: none;
 }
 
 a:hover,
 .creditText a:hover {
-    color: #7fc447;
+    /* color: #7fc447; */
     filter: saturate(3);
 }
 
@@ -128,19 +141,19 @@ h3 {
 }
 
 #arthed {
-    color: #FFF;
+    color: var(--art-color);
     position: absolute;
     bottom: 40%;
     padding: 0;
     margin: 0;
-    font-size: clamp(2.5rem, 10vw, 5.6rem);
-    line-height: clamp(2.4rem, 10vw, 5.5rem);
+    font-size: var(--art-size);
+    line-height: var(--art-size);
     /* font-size: 5.6rem; */
     font-weight: 700;
     text-align: center;
     width: 100%;
-    text-shadow: 2px 2px 3px #000;
-    -webkit-text-stroke: 4px #000;
+    text-shadow: 2px 2px 3px var(--shadow);
+    -webkit-text-stroke: 4px var(--stroke);
 }
 
 /* HEADLINE STYLES */
@@ -164,7 +177,7 @@ h4 {
     padding-left: 10px;
 }
 
-.headsline {
+.headline {
     padding: 0 10% 0 10%;
     width: 80%;
     margin: 0;
@@ -175,23 +188,21 @@ h4 {
 
 /* CONTENT CONTAINER*/
 #content-cont {
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    margin: 0 10%;
+    width: 100%;
 }
 
 #content {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
     flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
 }
 
 /* INTRO CONTAINER*/
 .intro-cont {
-    margin: 30px 0px;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;

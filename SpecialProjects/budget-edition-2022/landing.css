@@ -367,7 +367,7 @@ div.flat-under.handle-div {
 }
 
 .to-twitter:hover,
-.to-twitter:hactive {
+.to-twitter:active {
     background: #1DA1F3;
 }
 

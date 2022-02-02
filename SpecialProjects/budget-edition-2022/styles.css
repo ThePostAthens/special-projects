@@ -4,12 +4,12 @@ Template originally coded by Taylor Johnston, digital managing editor at The Pos
 Please contact at taylorfjohnston@gmail.com with questions.*/
 
 :root {
-    --art-font: montserrat, sans-serif;
-    --hed-font: montserrat, sans-serif;
-    --sub-font: montserrat, sans-serif;
-    --pq-font: montserrat, sans-serif;
-    --credit-font: montserrat, sans-serif;
-    --back-font: montserrat, sans-serif;
+    --art-font: 'Poller One', cursive;
+    --hed-font: 'Audiowide', cursive;
+    --sub-font: 'Audiowide', cursive;
+    --pq-font: 'Audiowide', cursive;
+    --credit-font: 'Audiowide', cursive;
+    --back-font: 'Poller One', cursive;
 
     --art-color: #c96546;
     --shadow: #204e3e;
@@ -39,6 +39,7 @@ body {
 a,
 i.share,
 .creditText a {
+    font-weight: 600;
     color: var(--hyperlink-color);
     text-decoration: none;
     /* background-color: #ffda378e; */
@@ -166,6 +167,7 @@ h3 {
 /* Pick one font depending on design (or find another one) */
 #arthed {
     color: var(--art-color);
+    font-family: var(--art-font);
     position: absolute;
     bottom: 40%;
     padding: 0 10%;
@@ -176,7 +178,7 @@ h3 {
     text-align: center;
     width: 80%;
     text-shadow: 2px 2px 3px var(--shadow);
-    -webkit-text-stroke: 4px var(--stroke);
+    -webkit-text-stroke: 0.25px var(--stroke);
 }
 
 .cutline {
@@ -219,6 +221,10 @@ h3 {
     /* font-family: "Playfair Display", Georgia, serif; */
     font-size: 1rem;
     text-align: left;
+}
+
+.byline-info p a {
+    font-family: 'Audiowide', cursive;
 }
 
 .byline-info p:last-of-type {
@@ -652,7 +658,7 @@ iframe.yt-vid {
     }
 
     #arthed {
-        -webkit-text-stroke: 2.5px var(--stroke);
+        -webkit-text-stroke: 0.25px var(--stroke);
         bottom: 40%;
     }
 

@@ -4,8 +4,8 @@ Template originally coded by Taylor Johnston, digital managing editor at The Pos
 Please contact at taylorfjohnston@gmail.com with questions.*/
 
 :root {
-    --art-font: montserrat, sans-serif;
-    --credit-font: montserrat, sans-serif;
+    --art-font: 'Poller One', cursive;
+    --credit-font: 'Audiowide', cursive;
 
     --art-color: #c96546;
     --shadow: #204e3e;
@@ -147,6 +147,7 @@ h3 {
 
 #arthed {
     color: var(--art-color);
+    font-family: var(--art-font);
     position: absolute;
     bottom: 40%;
     padding: 0;
@@ -158,7 +159,7 @@ h3 {
     text-align: center;
     width: 80%;
     text-shadow: 3px 3px 6px var(--shadow);
-    -webkit-text-stroke: 2px var(--stroke);
+    -webkit-text-stroke: 1px var(--stroke);
 }
 
 /* HEADLINE STYLES */
@@ -239,6 +240,7 @@ p.signature {
     padding: 0 10%;
     margin: 0;
     font-size: calc(1vw + 0.8rem);
+    font-family: 'Audiowide', cursive;
     font-weight: 600;
     text-align: left;
     text-transform: none;
@@ -422,16 +424,22 @@ div.flat-under.handle-div {
 
 .cardTitle {
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: 100;
     color: var(--cardTitle-color);
+    font-family: 'Poller One', cursive;
     line-height: 1.75rem;
+}
+
+.cardText {
+    margin-top: 0.5em;
 }
 
 .cardLink {
     border: solid 0.20em var(--buttonColor);
+    font-family: 'Audiowide', cursive;
     display: flex;
     justify-content: center;
-    width: 45%;
+    width: 50%;
     padding: 1em;
     margin: 1em 0 0;
     border-radius: 0.5em;
@@ -529,8 +537,9 @@ div.flat-under.handle-div {
 }
 
 .creditText {
+    color: #204e3e;
     display: inline-block;
-    font-family: 'Montserrat', Arial, sans-serif;
+    font-family: 'Audiowide', cursive;
     font-size: 1rem;
     margin: 0 1em 0em 0;
 }

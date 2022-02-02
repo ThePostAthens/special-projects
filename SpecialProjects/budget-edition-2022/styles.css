@@ -11,20 +11,21 @@ Please contact at taylorfjohnston@gmail.com with questions.*/
     --credit-font: montserrat, sans-serif;
     --back-font: montserrat, sans-serif;
 
-    --art-color: #fff;
-    --shadow: #000;
-    --stroke: #000;
-    --hed-color: #030406;
-    --sub-color: #030406;
-    --hyperlink-color: #7fc448;
-    --pq-color: #487ac4;
+    --art-color: #c96546;
+    --shadow: #204e3e;
+    --stroke: #f3ebdd;
+    --hed-color: #c96546;
+    --sub-color: #6f9959;
+    --hyperlink-color: #59b5a0;
+    --pq-color: #6f9959;
 
     --back-text: #fff;
-    --back-btn: #7fc448;
-    --back-slide: #f8b132;
+    --back-btn: #59b5a0;
+    --back-slide: #c96546;
     
 
     --art-size: clamp(2.88rem, 2.09rem + 3.93vw, 5.63rem); /*44-90px*/
+    --firstLetter-size: clamp(2.75rem, 2.39rem + 1.79vw, 4.00rem); /*44-64px*/
     --hed-size: clamp(1.75rem, 1.54rem + 1.07vw, 2.50rem); /*28-40px*/
 }
 
@@ -265,7 +266,7 @@ p.intro {
     font-weight: 700;
     float: left;
     font-family: var(--art-font);
-    font-size: var(--art-size);
+    font-size: var(--firstLetter-size);
     line-height: 3.5rem;
     margin-right: 0.1em;
     color: var(--hed-color);
@@ -310,7 +311,9 @@ p.intro {
     margin: 1rem auto 0;
     max-width: 60%;
     padding-bottom: 2.4rem;
-    text-align: left
+    text-align: left;
+    color: #204e3e;
+    font-weight: 500;
 }
 
 .creditText {

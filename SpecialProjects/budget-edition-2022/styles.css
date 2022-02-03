@@ -320,6 +320,7 @@ p.intro {
 
 .creditText {
     display: inline-block;
+    font-family: var(--credit-font);
     font-size: 1rem;
     margin: 0 1rem 0rem 0;
     text-transform: capitalize;
@@ -327,7 +328,7 @@ p.intro {
 
 .creditText a {
     font-weight: 700;
-    font-family: var(--credit-font);
+    font-family: montserrat, sans-serif;
     cursor: pointer;
 }
 

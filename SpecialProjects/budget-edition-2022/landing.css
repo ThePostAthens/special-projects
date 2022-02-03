@@ -416,7 +416,7 @@ div.flat-under.handle-div {
 
 .cardBody {
     background-color: var(--lightPrimary);
-    min-height: 16em;
+    min-height: 18em;
     padding: 1.75em 1.5em;
     font-weight: 500;
     color: #204e3e;
@@ -455,6 +455,8 @@ div.flat-under.handle-div {
     color: var(--hyperlink-color);
     font-weight: 700;
     font-size: 1.3rem;
+    width: 100%;
+    text-align: center;
 }
 
 .cardLink a:hover,

@@ -4,13 +4,15 @@ Template originally coded by Taylor Johnston, digital managing editor at The Pos
 Please contact at taylorfjohnston@gmail.com with questions.*/
 
 :root {
-    --art-font: montserrat, sans-serif;
-    --credit-font: montserrat, sans-serif;
 
-    --art-color: #fff;
+    --font-0: montserrat, sans-serif;
+    --font-1: 'Libre Franklin', sans-serif;
+    --font-2: 'Mitr', sans-serif;
+
+    --art-color: #FB4F14;
     --text-color: #fff;
     --shadow: #000;
-    --stroke: #FB4F14;
+    --stroke: #FFA300;
     --lightPrimary: #0f0400;
     --hyperlink-color: #FFA300;
     
@@ -24,7 +26,7 @@ html {
 }
 
 body {
-    font-family: montserrat, sans-serif;
+    font-family: var(--font-0);
     background-color: #FFF;
     color: #030406;
 }
@@ -43,7 +45,7 @@ a:active,
 .creditText a:hover,
 .creditText a:active {
     /* color: #7fc447; */
-    filter: saturate(2);
+    filter: saturate(1.5);
 }
 
 h2 {
@@ -137,23 +139,23 @@ h3 {
 
 #heroimg img {
     width: 100%;
+    object-fit: cover;
+    height: 100vh;
 }
 
 #arthed {
     color: var(--art-color);
-    font-family: var(--art-font);
-    position: absolute;
-    bottom: 40%;
-    padding: 0;
-    margin: 0 10%;
+    font-family: var(--font-1);
+    position: relative;
     font-size: var(--art-size);
     line-height: var(--art-size);
     /* font-size: 5.6rem; */
-    font-weight: 700;
+    font-weight: 900;
     text-align: center;
     width: 80%;
+    margin: 0 auto;
     text-shadow: 3px 3px 6px var(--shadow);
-    -webkit-text-stroke: 2px var(--stroke);
+    -webkit-text-stroke: 3px var(--stroke);
 }
 
 /* HEADLINE STYLES */
@@ -214,15 +216,15 @@ p.signature {
     padding: 0 10%;
     margin: 0;
     font-size: calc(1vw + 0.8rem);
-    font-family: montserrat, sans-serif;
-    font-weight: 600;
+    font-family: var(--font-2);
+    font-weight: 400;
     text-align: left;
     text-transform: none;
 }
 
 .s-headline a {
     color: var(--hyperlink-color);
-    font-weight: 800;
+    font-weight: 600;
 }
 
 .s-headline a:hover,
@@ -240,7 +242,7 @@ p.signature {
     position: relative;
     background: var(--lightPrimary);
     border-radius: 3em;
-    border: solid 0.3em var(--stroke);
+    border: solid 0.3em #00308a;
 }
 
 /* BUBBLE POINT - TOP */
@@ -393,6 +395,8 @@ div.flat-under.handle-div {
 
 /* STORIES */
 .stories {
+    font-family: var(--font-2);
+    font-weight: 300;
     border: solid 0.1em var(--lightPrimary);
     border-bottom: none;
     width: 100%;
@@ -405,17 +409,24 @@ div.flat-under.handle-div {
 
 .stories:hover,
 .stories:active {
-    background-size: 120%;
+    background-size: 105%;
+    background-position: top center;
     cursor: pointer;
+    filter: saturate(1);
 }
 
 .cardText {
-    background: linear-gradient(0deg, rgb(0, 32, 92) 15%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(0deg, rgba(0, 32, 92, 1) 15%, rgba(0,0,0,0) 100%);
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     padding: 0 2em;
+    transition: all 1s ease;
+}
+
+.cardText:hover {
+    background: linear-gradient(0deg, rgba(0, 32, 92, 1) 0%, rgba(0,0,0,0) 100%);
 }
 
 .cardText > * {
@@ -424,13 +435,15 @@ div.flat-under.handle-div {
 }
 
 .cardText h4 {
+    font-family: var(--font-1);
+    font-weight: 900;
     font-size: 1.35rem;
 }
 
 .cardText .byline {
-    font-size: 0.85rem;
-    font-weight: 600;
-    color: var(--text-color);
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--art-color);
 }
 .cardText .description {
     font-size: 1rem;
@@ -451,14 +464,15 @@ div.flat-under.handle-div {
 .creditText {
     color: var(--text-color);
     display: inline-block;
-    font-family: montserrat, sans-serif;
+    font-family: var(--font-2);
     font-size: 1rem;
+    font-weight: 400;
     margin: 0 1em 0em 0;
 }
 
 .creditText a {
     color: var(--hyperlink-color);
-    font-weight: 700;
+    font-weight: 600;
     cursor: pointer;
 }
 

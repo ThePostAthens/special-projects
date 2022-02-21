@@ -1,0 +1,667 @@
+/* Template.css
+This is a template for special projects at The Post.
+Template originally coded by Taylor Johnston, digital managing editor at The Post.
+Please contact at taylorfjohnston@gmail.com with questions.*/
+
+:root {
+    --art-font: 'Paytone One', sans-serif;
+    --credit-font: 'Paytone One', sans-serif;
+
+    --red: #de2701;
+    --black: #000000;
+    --green: #00843E;
+    --yellow: #F9A01A;
+
+    --art-color: #005f2c;
+    --shadow: #de2701;
+    --artStroke: #F9A01A;
+    
+    --bubbleStoke: #F9A01A;
+    --lightPrimary: #B6D3A1;
+    --textColor: #00843e;
+    --hyperlink-color: #de2701;
+    
+    --art-size: clamp(2.88rem, 2.09rem + 3.93vw, 5.63rem); /*44-90px*/
+    --hed-size: clamp(1.75rem, 1.54rem + 1.07vw, 2.50rem); /*28-40px*/
+}
+
+/* GENERAL STYLES */
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: montserrat, sans-serif;
+    background-color: #FFF;
+    color: #030406;
+}
+
+.landing-pg {
+    background: #fff;
+}
+
+a {
+    color: var(--hyperlink-color);
+    text-decoration: none;
+}
+
+a:hover,
+a:active,
+.creditText a:hover,
+.creditText a:active {
+    /* color: #7fc447; */
+    filter: saturate(3);
+}
+
+p {
+    width: 60%;
+    padding: 0 20%;
+}
+
+h2 {
+    padding: 0 15%;
+}
+
+h3 {
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVIGATION BAR */
+#nav_bar {
+    background: #292929;
+    color: #FFF;
+    height: 52px;
+}
+
+#nav_bar img {
+    height: 30px;
+    padding: 10px;
+    float: left;
+}
+
+#nav_bar li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    float: right;
+}
+
+#nav_bar ul {
+    margin: 0;
+}
+
+#nav_bar li #facebook {
+    color: #fff;
+}
+
+#nav_bar li #facebook:hover {
+    color: #337ab7;
+    opacity: 1;
+}
+
+#nav_bar li #twitter {
+    color: #fff;
+}
+
+#nav_bar li #twitter:hover {
+    color: #55ACEE;
+    opacity: 1;
+}
+
+#nav_bar li #instagram {
+    color: #fff;
+}
+
+#nav_bar li #instagram:hover {
+    color: #efc04a;
+    opacity: 1;
+}
+
+#logo {
+    z-index: 1;
+    position: absolute;
+    float: left;
+    height: 30px;
+    padding: 7px;
+}
+
+/* HERO IMAGE */
+.googleAD {
+    width: 60%;
+    margin: 0 20%;
+    /* background-color: rgb(233, 233, 233); */
+}
+
+.adsbygoogle {
+    /* background: rgba(0, 89, 255, 0.164); */
+    display:block;
+    width:100%;
+    height:5em; 
+    margin: 0;
+}
+
+#heroimg {
+    width: 100%;
+    position: relative;
+}
+
+#heroimg img {
+    width: 100%;
+}
+
+#arthed {
+    color: var(--art-color);
+    font-family: var(--art-font);
+    position: absolute;
+    bottom: 40%;
+    padding: 0;
+    margin: 0 10%;
+    font-size: var(--art-size);
+    line-height: var(--art-size);
+    /* font-size: 5.6rem; */
+    font-weight: 700;
+    text-align: center;
+    width: 80%;
+    text-shadow: 3px 3px 6px var(--shadow);
+    -webkit-text-stroke: 0.5px var(--artStroke);
+}
+
+/* HEADLINE STYLES */
+h1,
+h2,
+h3,
+h4 {
+    margin-bottom: 1.2px;
+}
+
+
+/* Pick one font depending on design (or find another one) */
+.cutline {
+    float: left;
+    text-align: left;
+    margin: 0;
+    color: #000;
+    font-size: 0.8rem;
+    width: 90%;
+    padding: 5px 0;
+    padding-left: 10px;
+}
+
+.headline {
+    padding: 0 10% 0 10%;
+    width: 80%;
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 900i;
+    text-transform: uppercase;
+}
+
+/* CONTENT CONTAINER*/
+#content-cont {
+    width: 100%;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* INTRO CONTAINER*/
+.intro-cont {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.intro-cont p {
+    line-height: 1.5em;
+}
+
+p.signature {
+    text-align: center;
+    font-size: 1em;
+}
+
+.landing-intro {
+    text-align: center;
+    font-size: 2.5rem;
+    display: block;
+}
+
+
+
+/* SOCIAL HANDLES*/
+.s-headline {
+    color: var(--textColor);
+    width: 80%;
+    padding: 0 10%;
+    margin: 0;
+    font-size: calc(1vw + 0.8rem);
+    font-family: var(--art-font);
+    font-weight: 600;
+    text-align: left;
+    text-transform: none;
+}
+
+.s-headline a {
+    color: var(--hyperlink-color);
+    font-weight: 800;
+}
+
+.s-headline a:hover,
+.s-headline a:active {
+    text-decoration: underline;
+    filter: saturate(3);
+}
+
+#socials-content {
+    margin: 20px 20% 0px 20%;
+    padding: 20px 0;
+}
+
+.bubble {
+    position: relative;
+    background: var(--lightPrimary);
+    border-radius: 3em;
+    border: solid 0.3em var(--bubbleStoke);
+}
+
+/* BUBBLE POINT - TOP */
+.bubble3:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 25px solid transparent;
+    border-bottom-color: var(--lightPrimary);
+    border-top: 0;
+    margin-left: -23px;
+    margin-top: -25px;
+}
+
+/* BUBBLE POINT - BOTTOM */
+.bubble4:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 25px solid transparent;
+    border-top-color: var(--lightPrimary);
+    border-bottom: 0;
+    margin-left: -25px;
+    margin-bottom: -25px;
+}
+
+div.handle-div {
+    margin: 50px auto;
+}
+
+.circle-button {
+    font-family: 'Roboto', sans-serif;
+    color: var(--hyperlink-color);
+    display: inline-block;
+    font-size: 2rem;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+    height: 80px;
+}
+
+.fa-twitter,
+.fa-instagram,
+.fa-youtube,
+.fa-snapchat-ghost,
+.fa-facebook {
+    padding: 5px;
+}
+
+.iconify {
+    width: 70px;
+    height: 64px;
+    margin: 5px 10px 30px 10px;
+}
+
+a.to-tiktok:hover,
+a.to-tiktok:active {
+    background: #ee1d52;
+}
+
+.circle-button:hover,
+.circle-button:active {
+    animation: circle-anim 0.3s ease forwards;
+    transition: all 0.4s ease;
+    filter: none;
+}
+
+.grow-container {
+    display: inline-block;
+    margin: 1em;
+}
+
+.fa-fw {
+    width: 1.25em;
+    text-align: center;
+}
+
+.flat-under a:hover,
+.falt-under a:active {
+    opacity: 100%;
+    color: #fff;
+}
+
+div.flat-under.handle-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.to-insta:hover,
+.to-insta:active {
+    background: #c32aa3;
+}
+
+.to-twitter:hover,
+.to-twitter:active {
+    background: #1DA1F3;
+}
+
+.to-youtube:hover,
+.to-youtube:active {
+    background: #ff0000;
+}
+
+.to-snapchat:hover,
+.to-snapchat:active {
+    background: #ffe101;
+}
+
+.to-facebook:hover,
+.to-facebook:active {
+    background: #4b76d1;
+}
+
+@keyframes circle-anim {
+    0% {}
+
+    90% {
+        padding: 0.35em;
+        margin: -0.35em;
+    }
+
+    100% {
+        padding: 0.25em;
+        margin: -0.25em;
+    }
+}
+
+/* CONTENT CONTAINER*/
+#content-cont {
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content > * {
+    flex: 1 1 25em;
+}
+
+/* STORIES */
+.stories {
+    font-family: var(--art-font);
+    font-weight: 300;
+    border-bottom: none;
+    width: 100%;
+    height: 15em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: all .5s ease;
+}
+
+.stories:hover,
+.stories:active {
+    background-size: 105%;
+    background-position: top center;
+    cursor: pointer;
+    filter: saturate(1);
+}
+
+.cardText {
+    background: linear-gradient(0deg, rgba(20, 17, 0, 0.8) 55%, rgba(0,0,0,0) 100%);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 2em;
+    transition: all 1s ease;
+}
+
+.cardText:hover {
+    background: linear-gradient(0deg, rgba(20, 17, 0, 0.9) 35%, rgba(0,0,0,0) 100%);
+}
+
+.cardText > * {
+    padding: 0;
+    margin: 0.25em 0;
+}
+
+.cardText h4 {
+    font-family: var(--art-font);
+    font-weight: 900;
+    font-size: 1.35rem;
+}
+
+.cardText .byline {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--artStroke);
+}
+.cardText .description {
+    font-size: 1rem;
+    width: 100%;
+    margin: 0.25em 0 1.5em 0;
+    color: var(--textColor);
+}
+
+
+/* CREDITS */
+.credits {
+    margin: 1em auto 0;
+    max-width: 50%;
+    padding-bottom: 2.4em;
+    text-align: center;
+}
+
+.creditText {
+    color: var(--textColor);
+    display: inline-block;
+    font-family: var(--art-font);
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0 1em 0em 0;
+}
+
+.creditText a {
+    color: var(--hyperlink-color);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* SPECIAL PROJECT FOOTER */
+.footer {
+    color: #FFF;
+    font-family: 'Playfair Display';
+    width: 100%;
+    height: 200px;
+    text-shadow: 2px 2px 5px #000;
+    background-color: #292929;
+    display: table;
+}
+
+.footer_inside {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.footer h2 {
+    font-size: 2.5rem;
+    width: 70%;
+    padding: 0 15%;
+    margin: 0;
+    line-height: 35px;
+}
+
+.footer p {
+    font-family: 'Montserrat';
+    margin: 0;
+    width: 70%;
+    padding: 10px 15% 0 15%;
+}
+
+.copyright {
+    color: #FFF;
+    font-family: 'Montserrat';
+    width: 100%;
+    height: 20px;
+    text-shadow: 2px 2px 5px #000;
+    background-color: #171717;
+    display: table;
+}
+
+.copyright_inside {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.copyright p {
+    font-family: 'Montserrat';
+    margin: 0;
+    width: 70%;
+    padding: 13px 15% 15px 15%;
+}
+
+.btn-container {
+    margin-left: 20px;
+}
+
+.join, 
+.projects {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    transition-duration: .3s;
+}
+
+.join:hover,
+.projects:hover {
+    background-color: rgba(255, 255, 255, .2);
+    color: #fff;
+    transition-duration: .3s;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1080px) {
+
+    .yt_center,
+    .yt_right,
+    .yt_left {
+        height: 315px;
+    }
+    
+    /* p.s-headline {
+        font-size: 1.75rem;
+    } */
+}
+
+
+@media screen and (max-width: 750px) {
+
+    .googleAD {
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    #logo {
+        height: 25px;
+    }
+
+    #arthed {
+        /* font-size: 4.5rem; */
+        /* -webkit-text-stroke: 3px #3d3d3d; */
+        bottom: 40%;
+    }
+
+    .headline {
+        width: 80%;
+        padding: 0% 10%;
+        font-size: 2rem;
+        text-align: center;
+        line-height: 38px;
+    }
+
+    #socials-content {
+        margin: 20px 10% 0px 10%;
+    }
+
+    .handle-content {
+        margin: 0 20%;
+    }
+
+    .share-container {
+        text-align: center;
+    }
+
+    .credits {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .footer {
+        height: 300px;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    
+    .yt_right {
+        width: 80%;
+        padding: 0 10%;
+        margin: 0;
+        float: none;
+        height: 230px;
+    }
+
+    .yt_left {
+        width: 80%;
+        padding: 0 10%;
+        margin: 0;
+        float: none;
+        height: 230px;
+    }
+}
+
+

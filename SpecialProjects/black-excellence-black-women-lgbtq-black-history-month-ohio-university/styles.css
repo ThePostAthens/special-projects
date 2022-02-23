@@ -5,10 +5,10 @@ Please contact at bllender.00@gmail.com with questions.*/
 
 :root {
     /* Change Fonts */ 
-    --arthed-font: 'Montserrat', Arial, sans-serif;
-    --headline-font: 'Montserrat', Arial, sans-serif;
+    --arthed-font: 'Paytone One', sans-serif;
+    --headline-font:'Paytone One', sans-serif;
     --subhed-font: 'Montserrat', Arial, sans-serif;
-    --pq-font: 'Montserrat', Arial, sans-serif;
+    --pq-font: 'Paytone One', sans-serif;
     --graf-font: 'Montserrat', Arial, sans-serif;
     /* **DON'T FORGET** to 
         add the <link> tags in index.html above closing</head>*/ 

@@ -146,8 +146,6 @@ h3 {
 #heroimg {
     width: 100%;
     position: relative;
-    height: 20em;
-    background-color: var(--bubbleColor);
 }
 
 #heroimg img {

@@ -8,19 +8,19 @@ Please contact at bllender.00@gmail.com with questions.*/
     --font-1: 'Kanit', sans-serif;
     --font-2: montserrat, sans-serif;
 
-    --artColor: #003006;
-    --artShadow: #fff;
-    --artStroke: #00cf68;
+    --artColor: #fff;
+    --artShadow: #000;
+    --artStroke: #000;
 
-    --hedColor: #008011;
-    --hedStroke: #00cf68;
+    --hedColor: #000;
+    --hedStroke: #000;
 
-    --hyperlinkColor: #00cf68;
+    --hyperlinkColor: #00b65b;
 
-    --buttonColor: #00cf68;
+    --buttonColor: #00b65b;
     --buttonHover: #005a0c;
 
-    --color3: #008011;
+    --pqColor: #008011;
     
     --artSize: clamp(2.88rem, 2.09rem + 3.93vw, 5.63rem); /*44-90px*/
     --dropSize: clamp(3.75rem, 3.57rem + 0.89vw, 4.38rem); /*60-70px*/
@@ -97,7 +97,6 @@ h3 {
 
 #nav_bar li {
     list-style: none;
-    display: inline-block;
     padding: 15px;
     float: right;
 }
@@ -175,7 +174,7 @@ h4 {
 }
 
 .date p {
-    font-family: var(--font-1);
+    font-family: var(--font-0);
     color: var(--artColor);
     font-weight: 300;
     font-size: 1.1rem;
@@ -331,7 +330,7 @@ p.intro {
     display: inline-block;
     font-family: var(--font-1);
     font-size: 1.1rem;
-    font-weight: 400;
+    font-weight: 300;
     margin: 0 1rem 0rem 0;
 }
 
@@ -406,7 +405,7 @@ p.intro {
 
 .subhed {
     font-family: montserrat, sans-serif;
-    font-weight: 800;
+    font-weight: 700;
     line-height: clamp(1rem, 10vw, 1.6rem);
     color: var(--hedColor);
     width: 60%;
@@ -429,8 +428,8 @@ blockquote {
     margin: 0;
     font-size: 1.5rem;
     text-transform: uppercase;
-    color: var(--color3);
-    font-weight: 800;
+    color: var(--pqColor);
+    font-weight: 700;
 }
 
 /*add to wrapping div*/
@@ -442,7 +441,7 @@ blockquote {
     margin: 0;
     font-size: 1.5rem;
     text-transform: uppercase;
-    color: var(--color3);
+    color: var(--pqColor);
 }
 
 /*add to wrapping div*/
@@ -455,7 +454,7 @@ blockquote {
     font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: 700;
-    color: var(--color3);
+    color: var(--pqColor);
 }
 
 .flourish-embed {

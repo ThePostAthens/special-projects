@@ -1,35 +1,53 @@
 /* Template.css
 This is a template for special projects at The Post.
-Template updated 2022 by Brianna Lender, Web Development Director at The Post.
+Template updated in 2022 by Brianna Lender, former Web Development Director at The Post.
 Please contact at bllender.00@gmail.com with questions.*/
 
 :root {
-    --font-0: montserrat, sans-serif;
-    --font-1: montserrat, sans-serif;
-    --font-2: montserrat, sans-serif;
-
-    --artColor: #fff;
-    --artShadow: #000;
-    --artStroke: #000;
-
-    --hedColor: #000;
-    --hedStroke: #000;
-
-    --hyperlinkColor: #00b65b;
-
-    --buttonColor: #00b65b;
-    --buttonHover: #005a0c;
-
-    --pqColor: #008011;
+    /* Change Fonts */ 
+    --art-font: 'Montserrat', Arial, sans-serif;
+    --hed-font: 'Montserrat', Arial, sans-serif;
+    --sub-font: 'Montserrat', Arial, sans-serif;
+    --pq-font: 'Montserrat', Arial, sans-serif;
+    --graf-font: 'Montserrat', Arial, sans-serif;
+    /* **DON'T FORGET** to 
+        add the <link> tags in index.html above closing</head>*/ 
     
-    --artSize: clamp(2.88rem, 2.09rem + 3.93vw, 5.63rem); /*44-90px*/
-    --dropSize: clamp(3.75rem, 3.57rem + 0.89vw, 4.38rem); /*60-70px*/
-    --hed-size: clamp(1.88rem, 1.73rem + 0.71vw, 2.38rem); /*28-40px*/
+    /* Change Text Colors */
+    --art-color: #030406;
+    --hed-color: #030406;
+    --sub-color: #030406;
+    --hyperlink-color: #7fc448;
+    --pq-color: #487ac4;
+    
+/* --------------------------------------------------------- */
+    /**** FOR BRI ONLY ****/
+    /* arthed font-size */
+    --art-size--2: clamp(1.91rem, 1.77rem + 0.70vw, 2.40rem);
+    --art-size--1: clamp(2.29rem, 2.09rem + 1.01vw, 3.00rem);
+--art-size-0: clamp(2.75rem, 2.46rem + 1.43vw, 3.75rem);
+    --art-size-1: clamp(3.30rem, 2.90rem + 1.98vw, 4.69rem);
+    --art-size-2: clamp(3.96rem, 3.42rem + 2.71vw, 5.86rem);
+    --art-size-3: clamp(4.75rem, 4.02rem + 3.68vw, 7.32rem);
+    --art-size-4: clamp(5.70rem, 4.72rem + 4.93vw, 9.15rem);
+    --art-size-5: clamp(6.84rem, 5.53rem + 6.57vw, 11.44rem);
+
+/* headline font-size */
+    --hed-size--2: clamp(0.78rem, 0.73rem + 0.26vw, 0.96rem);
+    --hed-size--1: clamp(0.94rem, 0.86rem + 0.38vw, 1.20rem);
+--hed-size-0: clamp(1.13rem, 1.02rem + 0.54vw, 1.50rem);
+    --hed-size-1: clamp(1.35rem, 1.20rem + 0.75vw, 1.88rem);
+    --hed-size-2: clamp(1.62rem, 1.41rem + 1.03vw, 2.34rem);
+    --hed-size-3: clamp(1.94rem, 1.66rem + 1.41vw, 2.93rem);
+    --hed-size-4: clamp(2.33rem, 1.95rem + 1.90vw, 3.66rem);
+    --hed-size-5: clamp(2.80rem, 2.29rem + 2.54vw, 4.58rem);
+
 }
+
 
 /* GENERAL STYLES */
 body {
-    font-family: var(--font-0);
+    font-family: 'Montserrat', Arial, sans-serif;
     background-color: #FFF;
     color: #030406;
 }
@@ -37,12 +55,18 @@ body {
 a,
 i.share,
 .creditText a {
-    color: var(--hyperlinkColor);
+    color: var(--hyperlink-color);
     text-decoration: none;
+    /* background-color: #ffda378e; */
 }
+
+/* p:nth-of-type(7n) {
+    background-color: rgba(0, 117, 0, 0.555);
+} */
 
 a:hover {
     filter: saturate(3);
+    /* text-decoration: underline; */
 }
 
 
@@ -56,31 +80,10 @@ h2 {
 }
 
 h3 {
-    font-size: 1rem;
+    font-size: 16px;
     margin: 0;
     padding: 0;
 }
-
-/* COLUMNS */
-.column20center {
-    width: 60%;
-    padding: 0 20%;
-}
-
-/* .column10center {
-    width: 80%;
-    padding: 0 10%;
-}
-
-.column10left {
-    width: 40%;
-    padding-left: 10%;
-}
-
-.column10right {
-    width: 40%;
-    padding-right: 10%;
-} */
 
 /* NAVIGATION BAR */
 #nav_bar {
@@ -141,6 +144,24 @@ h3 {
 }
 
 /* HERO IMAGE */
+.googleAD {
+    width: 60%;
+    margin: 0 20%;
+    background-color: rgb(233, 233, 233);
+}
+
+.adsbygoogle {
+    background: rgba(0, 89, 255, 0.164);
+    display:block;
+    width:100%;
+    height:5em; 
+    margin: 0;
+}
+
+.dateAD {
+    margin-top: 2.5em;
+}
+
 #heroimg {
     width: 100%;
     position: relative;
@@ -150,83 +171,63 @@ h3 {
     width: 100%;
 }
 
-#arthed {
-    color: var(--artColor);
-    position: absolute;
-    bottom: 40%;
-    padding: 0 10%;
-    margin: 0;
-    font-size: var(--artSize);
-    line-height: var(--artSize);
-    font-weight: 700;
-    text-align: center;
-    width: 80%;
-    text-shadow: 1px 1px 10px var(--artShadow);
-    -webkit-text-stroke: 0.035em var(--artStroke);
-}
 
 /* HEADLINE STYLES */
-h1,
-h2,
-h3,
-h4 {
-    margin-bottom: 1.2px;
-}
-
 .date {
-    font-family: var(--font-0);
-    font-weight: 300;
-    font-size: 1.1rem;
-    line-height: 1.25rem;
+    text-align: center;
     text-transform: uppercase;
-    margin-top: 75px;
-    margin-bottom: -35px;
+    margin: 75px auto -35px;
     width: 60%;
-    padding: 0 20%;
 }
-
 
 /* Pick one font depending on design (or find another one) */
+.arthed {
+    text-align: center;
+    width: 90%;
+    padding: 0 5%;
+    color: var(--art-color);
+    font-size: var(--art-size-0);
+    line-height: var(--art-size-0);
+    font-family: var(--art-font);
+    text-transform: capitalize;
+    margin: 2.8rem 0px 10px 0px;
+}
+
 .cutline {
     float: left;
     text-align: left;
     margin: 0;
-    color: rgb(59, 59, 59);
+    color: #000;
     font-size: 0.75rem;
     width: 90%;
     padding: 0;
     padding-left: 10px;
-    padding-top: 3px;
+    margin-top: 5px;
 }
 
 .headline {
-    text-align: left;
-    font-family: var(--font-1);
-    color: var(--hedColor);
-    font-weight: 700;
-    /* font-family: "Playfair Display", Georgia, serif; */
-    font-size: var(--hed-size);
-    line-height: var(--hed-size);
-    margin-top: 40px;
-    text-transform: uppercase;
-    width: 60%;
-    padding: 0 20%;
+    text-align: center;
+    font-family: var(--hed-font);
+    color:var(--hed-color);
+    font-size: var(--hed-size-1);
+    line-height: var(--hed-size-2);
+    margin-top: 1.5px;
+    margin-bottom: 0;
 }
 
 /* BYLINE */
 .byline-info {
-    text-align: left;
+    text-align: center;
     display: block;
-    margin-top: -10px;
 }
 
 .byline-info p {
     display: inline-block;
-    font-family: var(--font-1);
-    font-weight: 300;
+    font-family: 'Montserrat', Arial, sans-serif;
     /* font-family: "Playfair Display", Georgia, serif; */
     font-size: 1rem;
-    text-align: left;
+    text-align: center;
+    margin-top: 25px;
 }
 
 .byline-info p:last-of-type {
@@ -235,10 +236,8 @@ h4 {
 
 /* SHARE BUTTONS */
 .share-container {
-    text-align: left;
+    text-align: center;
     margin-top: -20px;
-    width: 60%;
-    padding: 0 20%;
 }
 
 ul.share-buttons {
@@ -265,6 +264,7 @@ ul.share-buttons img {
     width: 32px;
 }
 
+
 /* CONTENT */
 p.intro {
     font-size: 1.25rem;
@@ -273,72 +273,46 @@ p.intro {
 .intro::first-letter {
     font-weight: 700;
     float: left;
-    font-family: var(--font-1);
-    font-size: var(--dropSize);
+    font-family: var(--graf-font);
+    font-size: var(--art-size-0);
     line-height: 3.5rem;
     margin-right: 0.1em;
-    color: var(--artColor);
+    color: var(--hed-color);
 }
 
-.intro span {
-    -webkit-text-stroke: 0.15em var(--artStroke);
-}
-
-/* BACK BUTTON*/
-#back-button {
-    text-align: left;
-    width: 60%;
-    padding: 0 20%;
-    margin: 40px 0px 30px 0px;
-    color: #000;
-}
-
-#back-button a:hover {
-    opacity: 1;
-    filter: saturate(1);
-}
-
-.back-button {
-    padding: 10px 40px;
-    font-size: 1.25rem;
-    color: #dbf0de;
-    border: hidden;
-    border-radius: 20px;
-    background-color: var(--buttonHover);
-    letter-spacing: 1px;
-    box-shadow: inset 400px 0 0 0 var(--buttonColor);
-    -webkit-transition: .4s ease-out 0s;
-    transition: .4s ease-out 0s;
-}
-
-.slide-right:hover {
-    box-shadow: inset 0 0 0 0 var(--buttonColor);
-}
+/* .dropcap {
+    font-weight: 700;
+    float: left;
+    font-size: 2.9em;
+    line-height: .9em;
+    padding-right: 5px;
+} */
 
 .dataTables_wrapper {
     width: 90%;
     padding: 5%;
 }
 
+
 /* CREDITS */
 .credits {
     margin: 1rem auto 0;
-    max-width: 60%;
+    width: 60%;
     padding-bottom: 2.4rem;
-    text-align: left;
-    color: var(--hedColor);
+    text-align: left
 }
 
 .creditText {
     display: inline-block;
-    font-family: var(--font-1);
-    font-size: 1.1rem;
-    font-weight: 300;
+    font-size: 1rem;
     margin: 0 1rem 0rem 0;
+    text-transform: capitalize;
 }
 
 .creditText a {
-    font-weight: 500;
+    font-weight: 700;
+    font-family: var(--graf-font);
+    /* font-size: ; */
     cursor: pointer;
 }
 
@@ -376,6 +350,17 @@ p.intro {
     padding: 0 20%;
 }
 
+/*side-by-side images*/
+.oneimg_split {
+    width: 80%;
+    padding: 0 10%;
+    display: flex;
+}
+
+.row_img {
+    margin: 0px 10px;
+}
+
 
 .oneimg_full img,
 .oneimg_center img,
@@ -385,38 +370,41 @@ p.intro {
 }
 
 .photog {
-    float: right;
-    text-align: right;
+    float: left;
+    text-align: left;
     margin: 0;
     font-weight: 800;
-    color: var(--hedColor);
+    color: #000;
     font-size: 0.75rem;
     width: 100%;
     padding: 0;
+    padding-top: 5px;
 }
 
 .pcut {
-    float: right;
+    float: left;
     text-align: left;
     margin: 0;
+    margin-top: 5px;
     font-weight: 100;
     color: #808080;
     font-size: 0.75rem;
     width: 100%;
     padding: 0;
+    padding-bottom: 5px;
 }
 
 .subhed {
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    line-height: clamp(1rem, 10vw, 1.6rem);
-    color: var(--hedColor);
-    width: 60%;
+    font-family: var(--hed-font);
+    font-weight: 800;
+    color: var(--hed-color);
     padding: 0 20%;
-
 }
 
 /*apply to wrapping span tag*/
+.title {
+    color: #606060;
+}
 
 /* PULL QUOTES */
 blockquote {
@@ -430,9 +418,10 @@ blockquote {
     padding: 0 20%;
     margin: 0;
     font-size: 1.5rem;
-    text-transform: uppercase;
-    color: var(--pqColor);
     font-weight: 700;
+    text-transform: uppercase;
+    font-family: var(--pq-font);
+    color: var(--pq-color);
 }
 
 /*add to wrapping div*/
@@ -443,8 +432,10 @@ blockquote {
     float: right;
     margin: 0;
     font-size: 1.5rem;
+    font-weight: 700;
     text-transform: uppercase;
-    color: var(--pqColor);
+    font-family: var(--pq-font);
+    color: var(--pq-color);
 }
 
 /*add to wrapping div*/
@@ -455,14 +446,56 @@ blockquote {
     float: left;
     margin: 0;
     font-size: 1.5rem;
-    text-transform: uppercase;
     font-weight: 700;
-    color: var(--pqColor);
+    text-transform: uppercase;
+    font-family: var(--pq-font);
+    color: var(--pq-color);
 }
 
-.flourish-embed {
+/* .insta-embed {
+    width: 40%;
+    padding: 0 30%;
+} */
+
+/* .twitter-tweet --> add tw-align-center class*/
+
+iframe.spotify {
     width: 60%;
     margin: 0 20%;
+}
+
+.instagram-media {
+    margin: 15px auto !important;
+}
+
+/*YOUTUBE EMBED*/
+iframe.yt-vid {
+    width: 100%;
+    height: 100%;
+}
+
+.yt_center {
+    width: 60%;
+    height: 515px;
+    padding: 0 20%;
+}
+
+.yt_right {
+    width: 40%;
+    margin-right: 10%;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    float: right;
+    height: 415px;
+}
+
+.yt_left {
+    width: 40%;
+    margin-left: 10%;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    float: left;
+    height: 415px;
 }
 
 /*add to wrapping div*/
@@ -531,15 +564,16 @@ blockquote {
 }
 
 .footer p {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', Arial, sans-serif;
     margin: 0;
     width: 70%;
-    padding: 10px 15% 0 15%;
+    padding: 10px 15% 0;
 }
 
 .copyright {
     color: #FFF;
-    font-family: 'Montserrat';
+    text-align: center;
+    font-family: 'Montserrat', Arial, sans-serif;
     width: 100%;
     height: 20px;
     text-shadow: 2px 2px 5px #000;
@@ -553,7 +587,7 @@ blockquote {
 }
 
 .copyright p {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', Arial, sans-serif;
     margin: 0;
     width: 70%;
     padding: 13px 15% 15px 15%;
@@ -563,33 +597,40 @@ blockquote {
     margin-left: 20px;
 }
 
-
-
-.projects {
-    background-color: white;
-    color: black;
-    padding: 10px;
-    border-radius: 5px;
+a.end {
+    opacity: 1;
 }
 
-.projects:hover {
-    background-color: rgba(151, 151, 151, 0.2);
-    color: #fff;
+a.end:hover {
+    filter: none;
 }
 
+.projects,
 .join {
     background-color: white;
     color: black;
     padding: 10px;
     border-radius: 5px;
+    transition-duration: .3s;
 }
 
+.projects:hover,
 .join:hover {
     background-color: rgba(151, 151, 151, 0.2);
     color: #fff;
 }
 
 /* MEDIA QUERIES */
+
+@media screen and (max-width: 1080px) {
+
+    .yt_center,
+    .yt_right,
+    .yt_left {
+        height: 315px;
+    }
+}
+
 @media screen and (max-width: 768px) {
 
     .column20center,
@@ -602,38 +643,23 @@ blockquote {
         height: 25px;
     }
 
-    .date {
+    .googleAD {
         width: 80%;
-        padding: 0% 10%;
-        text-align: center;
+        margin: 0 10%;
     }
 
-    #arthed {
-        bottom: 40%;
+    iframe.spotify {
+        width: 80%;
+        margin: 0 10%;
     }
+
+    /* .date {
+        width: 80%;
+    } */
 
     .headline {
         width: 80%;
         padding: 0% 10%;
-        text-align: center;
-    }
-
-    .byline-info p {
-        text-align: center;
-    }
-
-    .share-container {
-        text-align: center;
-    }
-
-    .subhed {
-        width: 80%;
-        padding: 0 10%;
-    }
-
-    .insta-embed {
-        width: 60%;
-        padding: 0 20%;
     }
 
     .oneimg_right,
@@ -651,30 +677,58 @@ blockquote {
     .pq_center,
     .pq_right,
     .pq_left {
-        padding: 0 5%;
-        width: 90%;
+        padding: 0 10%;
+        width: 80%;
     }
 
     .subhed {
         padding: 0 10%;
     }
 
-    #back-button {
-        text-align: center;
-        margin-top: 30px;
+    .yt_center {
+        width: 80%;
+        padding: 0 10%;
+    }
+
+    .yt_right {
+        height: 265px;
     }
 
     .credits {
-        max-width: 100%;
+        max-width: 80%;
+        margin: 0 10%;
         text-align: left;
-        margin-left: 50px;
     }
 
     .footer {
         height: 300px;
     }
+}
 
-    .copyright {
-        text-align: center;
+@media screen and (max-width: 720px) {
+    .yt_right {
+        height: 215px;
+    }
+
+    .yt_left {
+        height: 215px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .yt_right {
+        width: 80%;
+        padding: 0 10%;
+        margin: 0;
+        float: none;
+        height: 230px;
+    }
+
+    .yt_left {
+        width: 80%;
+        padding: 0 10%;
+        margin: 0;
+        float: none;
+        height: 230px;
     }
 }

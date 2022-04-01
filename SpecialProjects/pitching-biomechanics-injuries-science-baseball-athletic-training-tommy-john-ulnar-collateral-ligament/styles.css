@@ -499,7 +499,7 @@ iframe.yt-vid {
 .yt_center {
     width: 60%;
     height: 515px;
-    padding: 0 20%;
+    padding: 1.5em 20%;
 }
 
 .yt_right {
@@ -710,7 +710,7 @@ a.end:hover {
 
     .yt_center {
         width: 80%;
-        padding: 0 10%;
+        padding: 1.5em 10%;
     }
 
     .yt_right {

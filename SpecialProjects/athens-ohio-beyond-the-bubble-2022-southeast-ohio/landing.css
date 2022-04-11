@@ -29,7 +29,7 @@ body {
 }
 
 a {
-    color: #58d57d;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -311,7 +311,8 @@ div.handle-div {
 
 .circle-button {
     font-family: 'Roboto', sans-serif;
-    color: var(--hyperlinkColor);
+    /* color: var(--hyperlinkColor); */
+    color: red;
     display: inline-block;
     font-size: 2rem;
     border-radius: 50%;

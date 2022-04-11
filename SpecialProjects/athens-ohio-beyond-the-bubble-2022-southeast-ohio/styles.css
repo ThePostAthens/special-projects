@@ -13,8 +13,12 @@ Please contact at taylorfjohnston@gmail.com with questions.*/
     --arthed-color: #000;
     --stroke-color: #fff;
     --headline-color: #000;
-    --hyperlink-color: #81d49a;
+    --hyperlink-color: #58d57d;
     --pq-color: #487ac4;
+
+    --backButtonColor: #58d57d;
+    --backButtonHover: #327646;
+
 }
 
 /* GENERAL STYLES */
@@ -38,7 +42,7 @@ p:nth-of-type(7n) {
 }
 
 a:hover {
-    filter:hue-rotate(90deg);
+    filter:saturate(2);
 }
 
 
@@ -330,16 +334,16 @@ p.intro {
     color: #fff;
     border: hidden;
     border-radius: 20px;
-    background-color: #70a4cf;
+    background-color: var(--backButtonHover);
     letter-spacing: 1px;
-    box-shadow: inset 400px 0 0 0 #8bd5a1;
+    box-shadow: inset 400px 0 0 0 var(--backButtonColor);
     -webkit-transition: .4s ease-out 0s;
     transition: .4s ease-out 0s;
 }
 
 .slide-right:hover {
-    box-shadow: inset 0 0 0 0 #8bd5a1;
-    color: #000;
+    box-shadow: inset 0 0 0 0 var(--backButtonColor);
+    color: #fff;
 }
 
 

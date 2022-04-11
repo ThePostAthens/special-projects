@@ -311,8 +311,7 @@ div.handle-div {
 
 .circle-button {
     font-family: 'Roboto', sans-serif;
-    /* color: var(--hyperlinkColor); */
-    color: red;
+    color: var(--hyperlinkColor);
     display: inline-block;
     font-size: 2rem;
     border-radius: 50%;

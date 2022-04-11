@@ -10,7 +10,7 @@ Please contact at taylorfjohnston@gmail.com with questions.*/
     --strokeColor: transparent;
     --shadowColor: #000000;
     --hedColor: #fff;
-    --hyperlinkColor: #b3d4bd;
+    --hyperlinkColor: #58d57d;
     --borderColor: #fff;
 }
 
@@ -81,7 +81,7 @@ h3 {
 
 #nav_bar li {
     list-style: none;
-    display: inline-block;
+    /* display: inline-block; */
     padding: 15px;
     float: right;
 }
@@ -311,23 +311,12 @@ div.handle-div {
 
 .circle-button {
     font-family: 'Roboto', sans-serif;
-    color: #8bd5a1;
-    /* border: solid 0.2em transparent; */
+    color: var(--hyperlinkColor);
     display: inline-block;
     font-size: 2rem;
     border-radius: 50%;
-    transition: all 0.4s ease-in-out;
+    transition: all 0.2s ease;
     height: 80px;
-}
-
-
-.circle-button:hover {
-    /* border: solid 0.2em #3d3c3d; */
-    background-color: none;
-    animation: circle-anim 0.4s ease forwards;
-    transition: all 0.4s ease-in-out;
-    filter: none;
-    font-size: 2.5rem;
 }
 
 .fa-twitter,
@@ -339,11 +328,20 @@ div.handle-div {
 }
 
 .iconify {
-    width: 2em;
-    height: 2em;
+    width: 70px;
+    height: 64px;
     margin: 5px 10px 30px 10px;
 }
 
+a.to-tiktok:hover {
+    background: linear-gradient(70deg, #00f2ea, #000, #ff0050);
+}
+
+.circle-button:hover {
+    animation: circle-anim 0.3s ease forwards;
+    transition: all 0.4s ease;
+    filter: none;
+}
 
 .grow-container {
     display: inline-block;
@@ -357,7 +355,7 @@ div.handle-div {
 
 .flat-under a:hover {
     opacity: 100%;
-    transition: all 0.4s ease-in-out;
+    color: #fff;
 }
 
 div.flat-under.handle-div {
@@ -368,27 +366,23 @@ div.flat-under.handle-div {
 }
 
 .to-insta:hover {
-    color: #E1306C;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
 }
 
 .to-twitter:hover {
-    color: #1DA1F3;
+    background: #1DA1F3;
 }
 
 .to-youtube:hover {
-    color: #ff0000;
+    background: #ff0000;
 }
 
 .to-snapchat:hover {
-    color: #ffe101;
+    background: #ffe101;
 }
 
 .to-facebook:hover {
-    color: #4b76d1;
-}
-
-a.to-tiktok:hover {
-    color: #ee1d52;
+    background: #4b76d1;
 }
 
 @keyframes circle-anim {

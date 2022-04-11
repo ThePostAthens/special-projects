@@ -5,22 +5,22 @@ Please contact at bllender.00@gmail.com with questions.*/
 
 :root {
     --font-0: montserrat, sans-serif;
-    --font-1: 'Kanit', sans-serif;
+    --font-1: montserrat, sans-serif;
     --font-2: montserrat, sans-serif;
 
-    --artColor: #003006;
-    --artShadow: #fff;
-    --artStroke: #00cf68;
+    --artColor: #fff;
+    --artShadow: #000;
+    --artStroke: #000;
 
     --hedColor: #008011;
-    --hedStroke: #00cf68;
+    --hedStroke: transparent;
 
     --hyperlinkColor: #00cf68;
 
     --buttonColor: #00cf68;
     --buttonHover: #005a0c;
 
-    --color3: #008011;
+    --pqColor: #008011;
     
     --artSize: clamp(2.88rem, 2.09rem + 3.93vw, 5.63rem); /*44-90px*/
     --dropSize: clamp(3.75rem, 3.57rem + 0.89vw, 4.38rem); /*60-70px*/
@@ -97,7 +97,7 @@ h3 {
 
 #nav_bar li {
     list-style: none;
-    display: inline-block;
+    /* display: inline-block; */
     padding: 15px;
     float: right;
 }
@@ -194,7 +194,8 @@ h4 {
 
 .date p {
     font-family: var(--font-1);
-    color: var(--artColor);
+    /* color: var(--artColor); */
+    color: #000;
     font-weight: 300;
     font-size: 1.1rem;
     line-height: 1.25rem;
@@ -297,12 +298,13 @@ p.intro {
     font-size: var(--dropSize);
     line-height: 3.5rem;
     margin-right: 0.1em;
-    color: var(--artColor);
+    /* color: var(--artColor); */
+    color: #000;
 }
 
-.intro span {
+/* .intro span {
     -webkit-text-stroke: 0.15em var(--artStroke);
-}
+} */
 
 /* BACK BUTTON*/
 #back-button {
@@ -342,7 +344,8 @@ p.intro {
     max-width: 60%;
     padding-bottom: 2.4rem;
     text-align: left;
-    color: var(--hedColor);
+    /* color: var(--hedColor); */
+    color: #000;
 }
 
 .creditText {
@@ -447,7 +450,7 @@ blockquote {
     margin: 0;
     font-size: 1.5rem;
     text-transform: uppercase;
-    color: var(--color3);
+    color: var(--pqColor);
     font-weight: 800;
 }
 
@@ -460,7 +463,7 @@ blockquote {
     margin: 0;
     font-size: 1.5rem;
     text-transform: uppercase;
-    color: var(--color3);
+    color: var(--pqColor);
 }
 
 /*add to wrapping div*/
@@ -473,7 +476,7 @@ blockquote {
     font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: 700;
-    color: var(--color3);
+    color: var(--pqColor);
 }
 
 .flourish-embed {

@@ -6,11 +6,12 @@ Please contact at taylorfjohnston@gmail.com with questions.*/
 :root {
     --arthed-font: 'Montserrat', Arial, sans-serif;
     --headline-font: 'Montserrat', Arial, sans-serif;
-    --arthed-color: #b3d4bd;
-    --stroke-color: #e47c93;
+    --arthed-color: #fff;
+    --stroke-color: transparent;
     --shadow-color: #000000;
-    --headline-color: #3d3d3d;
-    --hyperlink-color: #e47c93;
+    --headline-color: #fff;
+    --hyperlink-color: #b3d4bd;
+    --borderColor: #fff;
 }
 
 /* GENERAL STYLES */
@@ -20,16 +21,15 @@ html {
 
 body {
     font-family: 'Montserrat', Arial, sans-serif;
-    background-color: #FFF;
-    color: #030406;
+    color: #fff;
 }
 
 .landing-pg {
-    background: #fff;
+    background: #00352c;
 }
 
 a {
-    color: #ffe2bd;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -143,10 +143,29 @@ h3 {
 #heroimg {
     width: 100%;
     position: relative;
+    height: 20em;
+    background-color: var(--bubbleColor);
 }
 
 #heroimg img {
     width: 100%;
+}
+
+#arthed {
+    font-family: var(--font-1);
+    color: var(--artColor);
+    position: absolute;
+    bottom: 40%;
+    padding: 0;
+    margin: 0 1.75%;
+    font-size: var(--artSize);
+    line-height: var(--artSize);
+    /* font-size: 5.6rem; */
+    font-weight: 700;
+    text-align: center;
+    width: 96%;
+    text-shadow: 2px 2px 3px var(--artShadow);
+    -webkit-text-stroke: 0.04em var(--artStroke);
 }
 
 .googleAD {
@@ -194,7 +213,7 @@ h4 {
     float: left;
     text-align: left;
     margin: 0;
-    color: #000;
+    color: #fff;
     font-size: 0.8rem;
     width: 90%;
     padding: 5px 0;
@@ -250,7 +269,7 @@ p.signature {
 
 .bubble {
     position: relative;
-    border: solid 8px #f4cd9c;
+    border: solid 8px var(--borderColor);
     border-radius: 30px;
     -webkit-border-radius: 30px;
 }
@@ -264,7 +283,7 @@ p.signature {
     width: 0;
     height: 0;
     border: 25px solid transparent;
-    border-bottom-color: #f4cd9c;
+    border-bottom-color: var(--borderColor);
     border-top: 0;
     margin-left: -23px;
     margin-top: -25px;
@@ -279,7 +298,7 @@ p.signature {
     width: 0;
     height: 0;
     border: 25px solid transparent;
-    border-top-color: #f4cd9c;
+    border-top-color: var(--borderColor);
     border-bottom: 0;
     margin-left: -25px;
     margin-bottom: -25px;
@@ -486,31 +505,33 @@ a.to-tiktok:hover {
 }
 
 .insideCont {
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .insideCont a {
     text-align: center;
-    width: 15em;
-    margin: 3em 0 0 4em;
+    width: 20em;
     height: 20em;
+    margin: 3em 0 0 4em;
+    /* height: 15vh; */
     display: flex;
     justify-content: center;
     align-items: center;
     background-position: center;
     background-size: cover;
     filter: grayscale(1);
-    border-radius: 5em;
+    border-radius: 10em;
     transition-duration: 0.4s;
 }
 
 .insideCont a:hover {
     cursor: pointer;
     filter: none;
-    border-radius: 1em;
+    /* border-radius: 1em; */
     transition: 0.4s ease-in-out;
 }
 
@@ -519,13 +540,54 @@ h3 {
     text-shadow: 0px 0px 15px var(--shadow-color);
 }
 
-.ProjectsCont {
-    justify-content: center;
+.pop {
+    width: 20em;
+    height: 20em;
+    border-radius: 10em;
+    position: absolute;
+    z-index: -1;
+    background: radial-gradient(circle at 50% 55%, rgba(240, 245, 255, .6), rgba(240, 245, 255, .6) 40%, rgba(225, 238, 255, .5) 60%, rgba(43, 241305, 255, .1));
 }
 
-.ProjectsCont a {
-    margin: 3em 2em 0;
+.pop::after {
+    content: "";
+    /* position: absolute; */
+    top: 5%;
+    left: 10%;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    filter: blur(3px);
+    z-index: 2;
+    -webkit-transform: rotateZ(-50deg);
+    transform: rotateZ(-50deg);
+    display: block;
+    background: radial-gradient(circle at 50% 80%, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 70%, white 84%, rgba(255, 255, 255, 0) 100%);
 }
+
+@keyframes pop {
+    from {
+        opacity: 1;
+        transform: translate(0px, 0px) scale(1, 1);
+    }
+
+    to {
+        opacity: 0;
+        transform: translate(0px, 0px) scale(1.25, 1.25);
+    }
+}
+
+.pop:hover {
+    animation: pop 1s cubic-bezier(0.16, 0.87, 0.48, 0.99) forwards;
+}
+
+/* .ProjectsCont {
+    justify-content: center;
+} */
+
+/* .ProjectsCont a {
+    margin: 3em 2em 0;
+} */
 
 
 /*-- STORIES --*/

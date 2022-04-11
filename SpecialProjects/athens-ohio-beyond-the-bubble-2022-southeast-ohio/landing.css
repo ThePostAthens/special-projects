@@ -524,7 +524,7 @@ a.to-tiktok:hover {
     background-position: center;
     background-size: cover;
     filter: grayscale(1);
-    border-radius: 10em;
+    border-radius: 100%;
     transition-duration: 0.4s;
 }
 
@@ -543,17 +543,18 @@ h3 {
 .pop {
     width: 20em;
     height: 20em;
-    border-radius: 10em;
+    border-radius: 100%;
     position: absolute;
     z-index: -1;
-    background: radial-gradient(circle at 50% 55%, rgba(240, 245, 255, .6), rgba(240, 245, 255, .6) 40%, rgba(225, 238, 255, .5) 60%, rgba(43, 241305, 255, .1));
+    background: radial-gradient(circle, rgba(255,255,255,0.5) 0%, rgba(224,224,224,1) 100%);
+    transition: all 0.4s ease-in-out;
 }
 
 .pop::after {
     content: "";
-    /* position: absolute; */
-    top: 5%;
-    left: 10%;
+    position: absolute;
+    top: 1vh;
+    left: 1vw;
     width: 100%;
     height: 100%;
     border-radius: 100%;
@@ -563,9 +564,16 @@ h3 {
     transform: rotateZ(-50deg);
     display: block;
     background: radial-gradient(circle at 50% 80%, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 70%, white 84%, rgba(255, 255, 255, 0) 100%);
+    transition: all 0.4s ease-in-out;
 }
 
-@keyframes pop {
+/* .pop:hover,
+.pop:active {
+    opacity: 0;
+    transform: translate(0px, 0px) scale(1.25, 1.25);
+} */
+
+ @keyframes pop {
     from {
         opacity: 1;
         transform: translate(0px, 0px) scale(1, 1);

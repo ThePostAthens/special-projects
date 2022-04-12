@@ -446,7 +446,9 @@ iframe.spotify {
     padding: 0;
 }
 
-.subhed {
+.subhed,
+.subhedDate,
+.subhedTimeline {
     font-family: var(--subhed-font);
     font-weight: 800;
     line-height: clamp(1rem, 10vw, 1.6rem);
@@ -454,6 +456,49 @@ iframe.spotify {
     width: 60%;
     padding: 0 20%;
 
+}
+
+.timelineCont {
+    width: 60%;
+    margin: 0 auto;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.timeline-section {
+    width: 100%;
+    padding: 1em;
+}
+
+.timeline-section > *:not(:first-child) {
+    /* background-color: greenyellow; */
+    border-left: solid 2px black;
+    margin: 0 0 0 10%;
+    padding: 1vh 5vw;
+}
+
+.timeline-section p {
+    /* background-color: #487ac4; */
+    width: 70%;
+    padding: 0 0 0 5%;
+    margin-left: 10%;
+}
+
+.subhedDate {
+    font-size: clamp(1.63rem, calc(1.52rem + 0.54vw), 2.00rem);
+    width: 90%;
+    padding: 0 5%;
+}
+
+.subhedTimeline {
+    width: 70%;
+    padding: 0 0 0 5%;
+    margin-left: 10%;
 }
 
 /*apply to wrapping span tag*/

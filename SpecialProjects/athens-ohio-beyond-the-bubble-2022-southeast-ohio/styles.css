@@ -5,7 +5,7 @@ Please contact at taylorfjohnston@gmail.com with questions.*/
 
 :root {
     --default-font: 'Montserrat', Arial, sans-serif;
-    --arthed-font: 'Montserrat', Arial, sans-serif;
+    --arthed-font: 'Spicy Rice', cursive;
     --headline-font: 'Montserrat', Arial, sans-serif;
     --subhed-font: 'Montserrat', Arial, sans-serif;
     --pq-font: 'Montserrat', Arial, sans-serif;
@@ -18,6 +18,11 @@ Please contact at taylorfjohnston@gmail.com with questions.*/
 
     --backButtonColor: #58d57d;
     --backButtonHover: #327646;
+
+    --artSize: clamp(2.50rem, calc(1.43rem + 5.36vw), 5.25rem);
+    /*44-90px*/
+    --dropSize: clamp(3.75rem, 3.57rem + 0.89vw, 4.38rem); /*60-70px*/
+    --hed-size: clamp(1.88rem, 1.73rem + 0.71vw, 2.38rem); /*28-40px*/
 
 }
 
@@ -33,12 +38,12 @@ i.share,
 .creditText a {
     color: var(--hyperlink-color);
     text-decoration: none;
-    /* background-color: #ffda378e; */
+    background-color: #ffda378e;
 }
 
 p:nth-of-type(7n) {
     color: #030406;
-    /* background-color: #0075008e; */
+    background-color: #0075008e;
 }
 
 a:hover {
@@ -182,13 +187,14 @@ h3 {
     bottom: 40%;
     padding: 0 10%;
     margin: 0;
-    font-size: clamp(2.5rem, 10vw, 5.6rem);
-    line-height: clamp(2.4rem, 10vw, 5.5rem);
+    font-size: var(--artSize);
+    line-height: var(--artSize);
     font-weight: 700;
     text-align: center;
     width: 80%;
     text-shadow: 3px 3px 10px #000;
-    -webkit-text-stroke: 3.5px var(--stroke-color);
+    -webkit-text-stroke: 0.5px var(--stroke-color);
+    letter-spacing: 2.5px;
 }
 
 /* HEADLINE STYLES */
@@ -229,8 +235,8 @@ h4 {
     text-align: left;
     font-family: var(--headline-font);
     color: var(--headline-color);
-    font-size: clamp(1.8rem, 5vw, 2.6rem);
-    line-height: clamp(2.6rem, 5vw, 2.8rem);
+    font-size: var(--hed-size);
+    line-height: var(--hed-size);
     margin-top: 40px;
     width: 60%;
     padding: 0 20%;
@@ -294,10 +300,10 @@ p.intro {
 }
 
 .intro::first-letter {
-    font-size: clamp(3rem, 5vw, 3.75rem);
+    font-size: var(--dropSize);
     font-weight: 700;
     float: left;
-    line-height: clamp(3rem, 5vw, 3.75rem);
+    line-height: 3.5rem;
     margin-right: 0.1em;
     color: var(--arthed-color);
 }
@@ -364,7 +370,7 @@ p.intro {
 }
 
 .creditText a {
-    font-family: var(--arthed-font);
+    font-family: var(--default-font);
     font-size: 1rem;
     letter-spacing: 0.5px;
     font-weight: 700;
@@ -392,6 +398,17 @@ iframe.spotify {
 .oneimg_center {
     width: 60%;
     padding: 0 20%;
+}
+
+.oneimg_split {
+    width: 80%;
+    padding: 0 10%;
+    display: flex;
+}
+
+.row_img {
+    margin: 0px 0.5em;
+    width: 100%;
 }
 
 /*Apply to a wrapping div*/
@@ -439,6 +456,7 @@ iframe.spotify {
     float: right;
     text-align: left;
     margin: 0;
+    margin-bottom: 1em;
     font-weight: 100;
     color: #808080;
     font-size: 0.75rem;
@@ -702,8 +720,8 @@ blockquote {
     }
 
     #arthed {
-        -webkit-text-stroke: 3px var(--stroke-color);
-        bottom: 40%;
+        -webkit-text-stroke: 0.5px var(--stroke-color);
+        /* bottom: 25%; */
     }
 
     .headline {

@@ -806,4 +806,17 @@ a.end:hover {
 
 }
 
+@media screen and (max-width: 425px) {
+    
+    .insideCont a {
+        width: 15em;
+        height: 15em;
+    }
+    
+    .pop {
+        width: 15em;
+        height: 15em;
+    }
+}
+
 

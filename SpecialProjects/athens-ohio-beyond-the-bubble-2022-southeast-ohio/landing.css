@@ -143,12 +143,11 @@ h3 {
 #heroimg {
     width: 100%;
     position: relative;
-    height: 20em;
-    background-color: var(--bubbleColor);
 }
 
 #heroimg img {
     width: 100%;
+    /* margin: 0 10%; */
 }
 
 #arthed {

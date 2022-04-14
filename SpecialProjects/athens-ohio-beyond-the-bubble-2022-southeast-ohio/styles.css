@@ -756,6 +756,10 @@ blockquote {
         margin: 0 10%;
     }
 
+    .timelineCont {
+        width: 80%;
+    }
+
     .oneimg_right,
     .oneimg_left,
     .oneimg_center {

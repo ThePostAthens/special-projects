@@ -38,12 +38,12 @@ i.share,
 .creditText a {
     color: var(--hyperlink-color);
     text-decoration: none;
-    background-color: #ffda378e;
+    /* background-color: #ffda378e; */
 }
 
 p:nth-of-type(7n) {
     color: #030406;
-    background-color: #0075008e;
+    /* background-color: #0075008e; */
 }
 
 a:hover {

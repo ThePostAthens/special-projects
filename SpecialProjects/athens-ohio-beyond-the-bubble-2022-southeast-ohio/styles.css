@@ -478,6 +478,7 @@ iframe.spotify {
 
 .timelineCont {
     width: 60%;
+    color: white;
     margin: 0 auto;
     /* background-color: rebeccapurple; */
     display: flex;
@@ -495,7 +496,7 @@ iframe.spotify {
 
 .timeline-section > *:not(:first-child) {
     /* background-color: greenyellow; */
-    border-left: solid 2px black;
+    border-left: solid 2px white;
     margin: 0 0 0 10%;
     padding: 1vh 5vw;
 }
@@ -511,6 +512,7 @@ iframe.spotify {
     font-size: clamp(1.63rem, calc(1.52rem + 0.54vw), 2.00rem);
     width: 90%;
     padding: 0 5%;
+    color: white;
 }
 
 .subhedTimeline {

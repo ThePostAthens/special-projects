@@ -5,19 +5,20 @@ Please contact at taylorfjohnston@gmail.com with questions.*/
 
 :root {
     --default-font: 'Montserrat', Arial, sans-serif;
-    --arthed-font: 'Spicy Rice', cursive;
-    --headline-font: 'Montserrat', Arial, sans-serif;
+    --font-1: 'Spicy Rice', cursive;
+    --font-2: 'Quicksand', sans-serif;
+    --font-3: 'Candal', sans-serif;
     --subhed-font: 'Montserrat', Arial, sans-serif;
     --pq-font: 'Montserrat', Arial, sans-serif;
     
-    --arthed-color: #000;
-    --stroke-color: #fff;
-    --headline-color: #000;
-    --hyperlink-color: #58d57d;
-    --pq-color: #487ac4;
+    --arthed-color: #2f512c;
+    --stroke-color: #dbeee9;
+    --headline-color: #2f512c;
+    --hyperlink-color: #3eb57e;
+    --pq-color: #2f512c;
 
-    --backButtonColor: #58d57d;
-    --backButtonHover: #327646;
+    --backButtonColor: #3eb57e;
+    --backButtonHover: #2f512c;
 
     --artSize: clamp(2.50rem, calc(1.43rem + 5.36vw), 5.25rem);
     /*44-90px*/
@@ -38,6 +39,7 @@ i.share,
 .creditText a {
     color: var(--hyperlink-color);
     text-decoration: none;
+    font-weight: 700;
     /* background-color: #ffda378e; */
 }
 
@@ -46,8 +48,10 @@ p:nth-of-type(7n) {
     /* background-color: #0075008e; */
 }
 
-a:hover {
+a:hover,
+a:active {
     filter:saturate(2);
+    text-decoration: underline;
 }
 
 
@@ -181,7 +185,7 @@ h3 {
 
 #arthed {
     color: var(--arthed-color);
-    font-family: var(--arthed-font);
+    font-family: var(--font-1);
     font-weight: 900;
     position: absolute;
     bottom: 40%;
@@ -208,7 +212,7 @@ h4 {
 .date p {
     text-transform: uppercase;
     color: var(--arthed-color);
-    font-family: var(--default-font);
+    font-family: var(--font-3);
     font-weight: 700;
     margin-top: 3em;
     margin-bottom: -2em;
@@ -233,7 +237,7 @@ h4 {
 .headline {
     display: flex;
     text-align: left;
-    font-family: var(--headline-font);
+    font-family: var(--font-3);
     color: var(--headline-color);
     font-size: var(--hed-size);
     line-height: var(--hed-size);
@@ -252,10 +256,15 @@ h4 {
 .byline-info p {
     color: #3d3d3d;
     display: inline-block;
-    font-family: var(--default-font);
+    font-family: var(--font-2);
+    font-weight: 500;
     /* font-family: "Playfair Display", Georgia, serif; */
     font-size: 1rem;
     text-align: left;
+}
+
+.byline-info p a{
+    font-weight: 700;
 }
 
 .byline-info p:last-of-type {
@@ -306,10 +315,11 @@ p.intro {
     line-height: 3.5rem;
     margin-right: 0.1em;
     color: var(--arthed-color);
+    font-family: var(--font-3);
 }
 
 /* .dropcap {
-    font-family: var(--arthed-font);
+    font-family: var(--font-1);
     color: var(--arthed-color);
     font-weight: 700;
     float: left;
@@ -325,7 +335,7 @@ p.intro {
     padding: 0 20%;
     margin: 40px 0px 30px 0px;
     color: #3d3d3d;
-    font-family: var(--headline-font);
+    font-family: var(--font-3);
     font-weight: 600;
 }
 
@@ -363,14 +373,14 @@ p.intro {
 
 .creditText {
     display: inline-block;
-    font-family: var(--headline-font);
+    font-family: var(--font-2);
     font-size: 1.1rem;
-    font-weight: 400;
+    font-weight: 500;
     margin: 0 1rem 0rem 0;
 }
 
 .creditText a {
-    font-family: var(--default-font);
+    font-family: var(--font-3);
     font-size: 1rem;
     letter-spacing: 0.5px;
     font-weight: 700;
@@ -464,10 +474,12 @@ iframe.spotify {
     padding: 0;
 }
 
+
+
 .subhed,
 .subhedDate,
 .subhedTimeline {
-    font-family: var(--subhed-font);
+    font-family: var(--font-3);
     font-weight: 800;
     line-height: clamp(1rem, 10vw, 1.6rem);
     color: var(--headline-color);
@@ -506,6 +518,7 @@ iframe.spotify {
     width: 70%;
     padding: 0 0 0 5%;
     margin-left: 10%;
+    font-weight: 500;
 }
 
 .subhedDate {
@@ -520,6 +533,10 @@ iframe.spotify {
     padding: 0 0 0 5%;
     margin-left: 10%;
     color: white;
+}
+
+.subhed {
+    color: var(--arthed-color);
 }
 
 /*apply to wrapping span tag*/

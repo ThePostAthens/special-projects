@@ -12,8 +12,9 @@ body {
 }
 
 a {
-    color: #fff;
-    text-decoration: none;
+    color: #00b65b;
+    font-weight: 600;
+    text-decoration: underline;
 }
 
 /* NAVIGATION BAR */
@@ -31,7 +32,6 @@ a {
 
 #nav_bar li {
     list-style: none;
-    display: inline-block;
     padding: 15px;
     float: right;
 }
@@ -239,7 +239,7 @@ p {
 
 .signature {
     font-size: 1.5rem;
-    margin: -0.6em auto 1.5em;
+    margin: 0.5em auto 1.5em;
     font-family: 'Lobster', cursive;
 }
 
@@ -528,7 +528,7 @@ div.flat-under.handle-div {
 
 iframe.yt-vid {
     width: 100%;
-    height: 100%;
+    height: 40vh;
 }
 
 .yt_center {

@@ -1,0 +1,798 @@
+/* Template.css
+This is a template for special projects at The Post.
+Template updated in 2022 by Brianna Lender, former Web Development Director at The Post.
+Please contact at bllender.00@gmail.com with questions.*/
+
+:root {
+    /* Change Fonts */ 
+    --art-font: 'Amaranth', sans-serif;
+    --hed-font: 'Anek Kannada', sans-serif;
+    --sub-font: 'Montserrat', Arial, sans-serif;
+    --pq-font: 'Anek Kannada', sans-serif;
+    --graf-font: 'Montserrat', Arial, sans-serif;
+    /* **DON'T FORGET** to 
+        add the <link> tags in index.html above closing</head>*/ 
+    
+    /* Change Text Colors */
+    --art-color: #5e6eaa;
+    --hed-color: #33434e;
+    --sub-color: #030406;
+    --hyperlink-color: #494ca1;
+    --pq-color: #40aa73b8;
+    
+/* --------------------------------------------------------- */
+    /**** FOR BRI ONLY ****/
+    /* arthed font-size */
+    --art-size--2: clamp(1.91rem, 1.77rem + 0.70vw, 2.40rem);
+    --art-size--1: clamp(2.29rem, 2.09rem + 1.01vw, 3.00rem);
+--art-size-0: clamp(2.75rem, 2.46rem + 1.43vw, 3.75rem);
+    --art-size-1: clamp(3.30rem, 2.90rem + 1.98vw, 4.69rem);
+    --art-size-2: clamp(3.96rem, 3.42rem + 2.71vw, 5.86rem);
+    --art-size-3: clamp(4.75rem, 4.02rem + 3.68vw, 7.32rem);
+    --art-size-4: clamp(5.70rem, 4.72rem + 4.93vw, 9.15rem);
+    --art-size-5: clamp(6.84rem, 5.53rem + 6.57vw, 11.44rem);
+
+/* headline font-size */
+    --hed-size--2: clamp(0.78rem, 0.73rem + 0.26vw, 0.96rem);
+    --hed-size--1: clamp(0.94rem, 0.86rem + 0.38vw, 1.20rem);
+--hed-size-0: clamp(1.13rem, 1.02rem + 0.54vw, 1.50rem);
+    --hed-size-1: clamp(1.35rem, 1.20rem + 0.75vw, 1.88rem);
+    --hed-size-2: clamp(1.62rem, 1.41rem + 1.03vw, 2.34rem);
+    --hed-size-3: clamp(1.94rem, 1.66rem + 1.41vw, 2.93rem);
+    --hed-size-4: clamp(2.33rem, 1.95rem + 1.90vw, 3.66rem);
+    --hed-size-5: clamp(2.80rem, 2.29rem + 2.54vw, 4.58rem);
+
+}
+
+
+/* GENERAL STYLES */
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    background-color: #FFF;
+    color: #030406;
+}
+
+a,
+i.share,
+.creditText a {
+    color: var(--hyperlink-color);
+    text-decoration: none;
+    /* background-color: #ffda378e; */
+}
+
+/* p:nth-of-type(7n) {
+    background-color: rgba(0, 117, 0, 0.555);
+} */
+
+a:hover {
+    filter: saturate(3);
+    /* text-decoration: underline; */
+}
+
+
+p {
+    width: 60%;
+    padding: 0 20%;
+}
+
+h2 {
+    padding: 0 15%;
+}
+
+h3 {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVIGATION BAR */
+#nav_bar {
+    background: #292929;
+    color: #FFF;
+    height: 52px;
+}
+
+#nav_bar img {
+    height: 30px;
+    padding: 10px;
+    float: left;
+}
+
+#nav_bar li {
+    list-style: none;
+    padding: 15px;
+    float: right;
+}
+
+#nav_bar ul {
+    margin: 0;
+}
+
+#nav_bar li #facebook {
+    color: #fff;
+}
+
+#nav_bar li #facebook:hover {
+    color: #337ab7;
+    opacity: 1;
+}
+
+#nav_bar li #twitter {
+    color: #fff;
+}
+
+#nav_bar li #twitter:hover {
+    color: #55ACEE;
+    opacity: 1;
+}
+
+#nav_bar li #instagram {
+    color: #fff;
+}
+
+#nav_bar li #instagram:hover {
+    color: #efc04a;
+    opacity: 1;
+}
+
+#logo {
+    z-index: 1;
+    position: absolute;
+    float: left;
+    height: 30px;
+    padding: 7px;
+}
+
+/* HERO IMAGE */
+.googleAD {
+    width: 60%;
+    margin: 0 20%;
+    background-color: rgb(233, 233, 233);
+}
+
+.adsbygoogle {
+    background: rgba(0, 89, 255, 0.164);
+    display:block;
+    width:100%;
+    height:5em; 
+    margin: 0;
+}
+
+.dateAD {
+    margin-top: 2.5em;
+}
+
+#heroimg {
+    width: 100%;
+    position: relative;
+}
+
+#heroimg img {
+    width: 100%;
+}
+
+
+/* HEADLINE STYLES */
+.date {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 75px auto -35px;
+    width: 60%;
+}
+
+/* Pick one font depending on design (or find another one) */
+.arthed {
+    text-align: center;
+    width: 90%;
+    padding: 0 5%;
+    color: var(--art-color);
+    font-size: var(--art-size-0);
+    line-height: var(--art-size-0);
+    font-family: var(--art-font);
+    text-transform: capitalize;
+    margin: 2.8rem 0px 10px 0px;
+}
+
+.cutline {
+    float: left;
+    text-align: left;
+    margin: 0;
+    color: #000;
+    font-size: 0.75rem;
+    width: 90%;
+    padding: 0;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+
+.headline {
+    text-align: center;
+    font-family: var(--hed-font);
+    color:var(--hed-color);
+    font-size: var(--hed-size-1);
+    line-height: var(--hed-size-2);
+    margin-top: 1.5px;
+    margin-bottom: 0;
+}
+
+/* BYLINE */
+.byline-info {
+    text-align: center;
+    display: block;
+}
+
+.byline-info p {
+    display: inline-block;
+    font-family: 'Montserrat', Arial, sans-serif;
+    /* font-family: "Playfair Display", Georgia, serif; */
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.byline-info p:last-of-type {
+    margin-right: 0;
+}
+
+/* SHARE BUTTONS */
+.share-container {
+    text-align: center;
+    margin-top: -20px;
+}
+
+ul.share-buttons {
+    list-style: none;
+    padding: 0;
+}
+
+ul.share-buttons li {
+    display: inline;
+}
+
+ul.share-buttons .sr-only {
+    position: absolute;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+ul.share-buttons img {
+    width: 32px;
+}
+
+
+/* CONTENT */
+p.intro {
+    font-size: 1.25rem;
+}
+
+.intro::first-letter {
+    font-weight: 700;
+    float: left;
+    font-family: var(--art-font);
+    font-size: var(--art-size-0);
+    line-height: 3.5rem;
+    margin-right: 0.1em;
+    color: var(--art-color);
+}
+
+/* .dropcap {
+    font-weight: 700;
+    float: left;
+    font-size: 2.9em;
+    line-height: .9em;
+    padding-right: 5px;
+} */
+
+
+/* CREDITS */
+.credits {
+    margin: 1rem auto 0;
+    width: 60%;
+    padding-bottom: 2.4rem;
+    text-align: left;
+    font-family: var(--art-font);
+    letter-spacing: 1px;
+}
+
+.creditText {
+    display: inline-block;
+    font-size: 1rem;
+    margin: 0 1rem 0rem 0;
+    text-transform: capitalize;
+}
+
+.creditText a {
+    font-weight: 700;
+    font-family: var(--graf-font);
+    /* font-size: ; */
+    cursor: pointer;
+}
+
+/* OTHER STUFF */
+/* IMAGE BLOCKS */
+.insta-embed {
+    width: 40%;
+    padding: 0 30%;
+}
+
+.oneimg_center {
+    width: 60%;
+    padding: 0 20%;
+}
+
+/*Apply to a wrapping div*/
+.oneimg_right {
+    width: 40%;
+    padding-right: 10%;
+    padding-left: 10px;
+    float: right;
+}
+
+/*Apply to a wrapping div*/
+.oneimg_left {
+    width: 40%;
+    padding-left: 10%;
+    padding-right: 20px;
+    float: left;
+}
+
+/*add to p tag, should be before the pcut p tag*/
+.oneimg_full p {
+    width: 60%;
+    padding: 0 20%;
+}
+
+/*side-by-side images*/
+.oneimg_split {
+    width: 80%;
+    padding: 0 10%;
+    display: flex;
+}
+
+.row_img {
+    margin: 0px 10px;
+}
+
+
+.oneimg_full img,
+.oneimg_center img,
+.oneimg_right img,
+.oneimg_left img {
+    width: 100%
+}
+
+.photog {
+    float: left;
+    text-align: left;
+    margin: 0;
+    font-weight: 800;
+    color: #000;
+    font-size: 0.75rem;
+    width: 100%;
+    padding: 0;
+    padding-top: 5px;
+}
+
+.pcut {
+    float: left;
+    text-align: left;
+    margin: 0;
+    margin-top: 5px;
+    font-weight: 100;
+    color: #808080;
+    font-size: 0.75rem;
+    width: 100%;
+    padding: 0;
+    padding-bottom: 5px;
+}
+
+.subhed {
+    font-family: var(--hed-font);
+    font-weight: 800;
+    color: var(--hed-color);
+    padding: 0 20%;
+}
+
+/*apply to wrapping span tag*/
+.title {
+    color: #606060;
+}
+
+/* PULL QUOTES */
+blockquote {
+    padding: 0;
+    margin: 5px;
+}
+
+/*add to wrapping div*/
+.pq_center {
+    width: 60%;
+    padding: 0 20%;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: var(--pq-font);
+    color: var(--pq-color);
+}
+
+/*add to wrapping div*/
+.pq_right {
+    width: 40%;
+    padding-right: 10%;
+    padding-left: 15px;
+    float: right;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: var(--pq-font);
+    color: var(--pq-color);
+}
+
+/*add to wrapping div*/
+.pq_left {
+    width: 40%;
+    padding-left: 10%;
+    padding-right: 0;
+    float: left;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: var(--pq-font);
+    color: var(--pq-color);
+}
+
+/* .insta-embed {
+    width: 40%;
+    padding: 0 30%;
+} */
+
+/* .twitter-tweet --> add tw-align-center class*/
+
+iframe.spotify {
+    width: 60%;
+    margin: 0 20%;
+}
+
+.instagram-media {
+    margin: 15px auto !important;
+}
+
+/*YOUTUBE EMBED*/
+iframe.yt-vid {
+    width: 100%;
+    height: 100%;
+}
+
+.yt_center {
+    width: 60%;
+    height: 515px;
+    padding: 0 20%;
+}
+
+.yt_right {
+    width: 40%;
+    margin-right: 10%;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    float: right;
+    height: 415px;
+}
+
+.yt_left {
+    width: 40%;
+    margin-left: 10%;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    float: left;
+    height: 415px;
+}
+
+/*add to wrapping div*/
+.attribution {
+    font-size: 1.25rem;
+    text-transform: none;
+    display: block;
+    text-align: right;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0 5%;
+    width: 90%;
+}
+
+/*-- TABS --*/
+/* Style the tab */
+.tab {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 10%;
+    overflow: hidden;
+    margin-bottom: -2em;
+}
+  
+  /* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+    padding: 1em;
+    transition: 0.3s;
+    font-weight: 700;
+    font-size: clamp(1.25rem, 1vw, 1.5rem);
+    width: 8em;
+    border-radius: 1em;
+    margin: 0.2em;
+}
+
+/* Change background color of buttons on hover */
+
+
+/* Create an active/current tablink class */
+.tab button.active {
+    color: #fff;
+}
+
+.English.active,
+.English:hover{
+    background-color: #38438b;
+}
+
+.Español.active,
+.Español:hover{
+    background-color: #39843fa9;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    width: 100%;
+    margin: 0 auto;
+    /* background-color: blanchedalmond; */
+    border: none;
+}
+
+.titleCont {
+    width: 100%;
+}
+
+.insideCont {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*----- Gallery Stuff -----*/
+.gallery_bot {
+    padding: 0;
+    width: 20%;
+    float: left;
+}
+
+.galleryPcut {
+    float: right;
+    text-align: left;
+    margin: 0;
+    font-weight: 100;
+    color: #808080;
+    font-size: 12px;
+    width: 100%;
+    padding: 0;
+    padding-bottom: 10px;
+}
+
+.w3-hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important
+}
+
+.mySlides {
+    display: none;
+}
+
+
+/* SPECIAL PROJECT FOOTER */
+.footer {
+    color: #FFF;
+    font-family: 'Playfair Display';
+    width: 100%;
+    height: 200px;
+    text-shadow: 2px 2px 5px #000;
+    background-color: #292929;
+    display: table;
+}
+
+.footer_inside {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.footer h2 {
+    font-size: 2.5rem;
+    width: 70%;
+    padding: 0 15%;
+    margin: 0;
+    line-height: 35px;
+}
+
+.footer p {
+    font-family: 'Montserrat', Arial, sans-serif;
+    margin: 0;
+    width: 70%;
+    padding: 10px 15% 0;
+}
+
+.copyright {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat', Arial, sans-serif;
+    width: 100%;
+    height: 20px;
+    text-shadow: 2px 2px 5px #000;
+    background-color: #171717;
+    display: table;
+}
+
+.copyright_inside {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.copyright p {
+    font-family: 'Montserrat', Arial, sans-serif;
+    margin: 0;
+    width: 70%;
+    padding: 13px 15% 15px 15%;
+}
+
+.btn-container {
+    margin-left: 20px;
+}
+
+a.end {
+    opacity: 1;
+}
+
+a.end:hover {
+    filter: none;
+}
+
+.projects,
+.join {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    transition-duration: .3s;
+}
+
+.projects:hover,
+.join:hover {
+    background-color: rgba(151, 151, 151, 0.2);
+    color: #fff;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1080px) {
+
+    .yt_center,
+    .yt_right,
+    .yt_left {
+        height: 315px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .column20center,
+    p {
+        width: 80%;
+        padding: 0 10%;
+    }
+
+    #logo {
+        height: 25px;
+    }
+
+    .googleAD {
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    iframe.spotify {
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    /* .date {
+        width: 80%;
+    } */
+
+    .headline {
+        width: 80%;
+        padding: 0% 10%;
+    }
+
+    .oneimg_right,
+    .oneimg_left,
+    .oneimg_center {
+        width: 80%;
+        padding: 0 10% 10px 10%;
+    }
+
+    .oneimg_full p {
+        width: 80%;
+        padding: 0 10%;
+    }
+
+    .pq_center,
+    .pq_right,
+    .pq_left {
+        padding: 0 10%;
+        width: 80%;
+    }
+
+    .subhed {
+        padding: 0 10%;
+    }
+
+    .yt_center {
+        width: 80%;
+        padding: 0 10%;
+    }
+
+    .yt_right {
+        height: 265px;
+    }
+
+    .credits {
+        width: 100%;
+        margin: 0 10%;
+        text-align: left;
+    }
+
+    .tab {
+        margin-top: 10vh;
+    }
+
+    .footer {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .yt_right {
+        height: 215px;
+    }
+
+    .yt_left {
+        height: 215px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .yt_right {
+        width: 80%;
+        padding: 0 10%;
+        margin: 0;
+        float: none;
+        height: 230px;
+    }
+
+    .yt_left {
+        width: 80%;
+        padding: 0 10%;
+        margin: 0;
+        float: none;
+        height: 230px;
+    }
+}

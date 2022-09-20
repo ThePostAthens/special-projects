@@ -547,6 +547,13 @@ iframe.yt-vid {
     color:rgb(233, 233, 233)
 }
 
+.Français.active,
+.Français:hover{
+    background-color: #ED2939;
+    color:#002654;
+    
+}
+
 .Norsk.active,
 .Norsk:hover{
     background-color: #BA0C2F;
@@ -557,13 +564,6 @@ iframe.yt-vid {
 .Deutsch:hover{
     background-color: #FFCE00;
     color:rgb(233, 233, 233)
-}
-
-.Français.active,
-.Français:hover{
-    background-color: #ED2939;
-    color:#002654;
-    
 }
 
 /* Style the tab content */

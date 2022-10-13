@@ -145,6 +145,7 @@ h3 {
 #heroimg {
     width: 100%;
     position: relative;
+    top: -1px;
 }
 
 #heroimg img {

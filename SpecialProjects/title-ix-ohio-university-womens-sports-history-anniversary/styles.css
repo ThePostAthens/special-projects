@@ -170,18 +170,20 @@ h3 {
 }
 
 #arthed {
+    font-family: var(--font-1);
     color: var(--artColor);
     position: absolute;
     bottom: 40%;
-    padding: 0 10%;
-    margin: 0;
+    padding: 0;
+    margin: 0 1.75%;
     font-size: var(--artSize);
     line-height: var(--artSize);
+    /* font-size: 5.6rem; */
     font-weight: 700;
     text-align: center;
-    width: 80%;
-    text-shadow: 1px 1px 10px var(--artShadow);
-    -webkit-text-stroke: 0.035em var(--artStroke);
+    width: 96%;
+    text-shadow: 2px 2px 3px var(--artShadow);
+    -webkit-text-stroke: 0.04em var(--artStroke);
 }
 
 /* HEADLINE STYLES */

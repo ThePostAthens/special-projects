@@ -169,14 +169,14 @@ h3 {
 }
 
 #arthed {
-    font-family: 'Bebas Neue',cursive;
+    font-family: 'Bebas Neue', cursive;
     color: var(--artColor);
     position: absolute;
     bottom: 40%;
     padding: 0 10%;
     margin: 0;
-    font-size: 16rem;
-    line-height: var(--artSize);
+    font-size: 12rem;
+    line-height: 1;
     font-weight: 800;
     text-align: center;
     width: 80%;

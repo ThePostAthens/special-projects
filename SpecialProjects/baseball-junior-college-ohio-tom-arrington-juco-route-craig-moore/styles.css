@@ -227,7 +227,7 @@ h4 {
     font-weight: 600;
     /* font-family: "Playfair Display", Georgia, serif; */
     font-size: 3rem;
-    line-height: var(--hed-size);
+    line-height: 1;
     margin-top: 70px;
     text-transform: uppercase;
     width: 60%;

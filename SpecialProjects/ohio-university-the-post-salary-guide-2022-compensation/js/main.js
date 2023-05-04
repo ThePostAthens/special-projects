@@ -156,7 +156,7 @@ var dataSet = [
         "GROUNDS SERVICES",
         "N/A",
         "GROUNDSKEEPER 1",
-        "$"],
+        "$12,084.29"],
         
         ["Adelsberger, Tamara L",
         "CENTRAL FOOD FACILITY",
@@ -7644,7 +7644,7 @@ var dataSet = [
     "MAJOR GIVING - DUBLIN",
     "N/A",
     "Associate Director of Philanthropy, Major Giving",
-    "$$48,941.00"],
+    "$48,941.00"],
     
     ["Driggs, Bridget ",
     "PAYROLL",
@@ -13350,7 +13350,7 @@ var dataSet = [
     "BIOLOGICAL SCIENCES",
     "Associate Professor",
     "N/A",
-    "$$95,451.00"],
+    "$95,451.00"],
     
     ["Johnson, Kenneth ",
     "EXECUTIVE DEAN",
@@ -13728,7 +13728,7 @@ var dataSet = [
     "EA ARTS & SCIENCES",
     "Associate Professor",
     "N/A",
-    "$$74,098.00"],
+    "$74,098.00"],
     
     ["Jung, Chulho ",
     "ECONOMICS",

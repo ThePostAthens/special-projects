@@ -11,12 +11,13 @@ body {
 }
 
 a {
-    color: #7fc448;
+    color: navy;
     text-decoration: none;
 }
 
 a:hover {
     opacity: .5;
+    color: #ff6e0d;
 }
 
 
@@ -143,9 +144,9 @@ h4 {
 /* Pick one font depending on design (or find another one) */
 .arthed {
     text-align: center;
-    color: #3d3d3d;
+    color: #ff6e0d;
     font-size: 60px;
-    font-family: 'Montserrat', Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
     /* font-family: "Playfair Display", Georgia, serif; */
 }
 
@@ -228,6 +229,7 @@ p.intro {
     font-size: 2.9em;
     line-height: .9em;
     padding-right: 5px;
+    color: #ff6e0d;
 }
 
 /* CREDITS */

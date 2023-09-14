@@ -15,16 +15,19 @@ Please contact at bllender.00@gmail.com with questions.*/
     --hedColor: #000;
     --hedStroke: #000;
 
-    --hyperlinkColor: #9b25d2;
+    --hyperlinkColor: #24005b;
 
     --buttonColor: #2dabff;
     --buttonHover: #0060a0;
 
     --pqColor: #008011;
-    
-    --artSize: clamp(2.88rem, 2.09rem + 3.93vw, 5.63rem); /*44-90px*/
-    --dropSize: clamp(3.75rem, 3.57rem + 0.89vw, 4.38rem); /*60-70px*/
-    --hed-size: clamp(1.88rem, 1.73rem + 0.71vw, 2.38rem); /*28-40px*/
+
+    --artSize: clamp(2.88rem, 2.09rem + 3.93vw, 5.63rem);
+    /*44-90px*/
+    --dropSize: clamp(3.75rem, 3.57rem + 0.89vw, 4.38rem);
+    /*60-70px*/
+    --hed-size: clamp(1.88rem, 1.73rem + 0.71vw, 2.38rem);
+    /*28-40px*/
 }
 
 /* GENERAL STYLES */

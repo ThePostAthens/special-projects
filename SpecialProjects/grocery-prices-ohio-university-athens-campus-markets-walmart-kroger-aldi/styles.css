@@ -691,9 +691,9 @@ blockquote {
     }
 }
 
-.infogram-embed {
+#chart {
     width: 60%;
-    padding-left: 20%;
+    padding: 0 20%;
 }
 
 .box {

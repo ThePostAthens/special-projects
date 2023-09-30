@@ -561,3 +561,18 @@ iframe {
     width: 60%;
     padding: 0 20%;
 }
+
+.top-ad {
+    width: 60%;
+    margin-top: 32px;
+    margin-bottom: 50px;
+}
+
+.bottom-ad {
+    width: 60%;
+    margin-bottom: 32px;
+}
+
+.middle-ad {
+    width: 60%;
+}

@@ -756,3 +756,18 @@ blockquote {
 #kaia-2 {
     padding-left: 9%;
 }
+
+.top-ad {
+    width: 60%;
+    margin-top: 32px;
+    margin-bottom: 50px;
+}
+
+.bottom-ad {
+    width: 60%;
+    margin-bottom: 32px;
+}
+
+.middle-ad {
+    width: 60%;
+}

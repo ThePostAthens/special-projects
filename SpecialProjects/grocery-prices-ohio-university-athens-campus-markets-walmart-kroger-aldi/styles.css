@@ -701,3 +701,12 @@ blockquote {
     font-size: 0.75rem;
     margin-left: 20%;
 }
+
+.top-ad {
+    margin-top: 32px;
+    margin-bottom: 50px;
+}
+
+.bottom-ad {
+    margin-bottom: 32px;
+}

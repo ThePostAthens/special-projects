@@ -563,19 +563,10 @@ iframe {
 }
 
 .top-ad {
-    width: 60%;
-    padding-left: 20%;
     margin-top: 32px;
     margin-bottom: 50px;
 }
 
 .bottom-ad {
-    width: 60%;
-    padding-left: 20%;
     margin-bottom: 32px;
-}
-
-.middle-ad {
-    width: 60%;
-    padding-left: 20%;
 }

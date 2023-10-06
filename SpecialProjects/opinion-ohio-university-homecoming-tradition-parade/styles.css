@@ -8,19 +8,19 @@ Please contact at bllender.00@gmail.com with questions.*/
     --font-1: 'Kanit', sans-serif;
     --font-2: Consolas;
 
-    --artColor: #2dabff;
+    --artColor: #A4D65E;
     --artShadow: #000;
-    --artStroke: #000;
+    --artStroke: #00694E;
 
     --hedColor: #000;
-    --hedStroke: #000;
+    --hedStroke: #00694E;
 
-    --hyperlinkColor: #d22525;
+    --hyperlinkColor: #A4D65E;
 
-    --buttonColor: #2dabff;
-    --buttonHover: #0060a0;
+    --buttonColor: #A4D65E;
+    --buttonHover: #00694E;
 
-    --pqColor: #008011;
+    --pqColor: #00694E;
     
     --artSize: clamp(2.88rem, 2.09rem + 3.93vw, 5.63rem); /*44-90px*/
     --dropSize: clamp(3.75rem, 3.57rem + 0.89vw, 4.38rem); /*60-70px*/
@@ -42,7 +42,7 @@ i.share,
 }
 
 a:hover {
-    filter: saturate(3);
+    color: #00694E;
 }
 
 
@@ -689,5 +689,5 @@ blockquote {
     margin-bottom: -10px;
     font-size: 50px;
     text-align: center;
-    color: rgb(64, 161, 245);
+    color: #A4D65E;
 }

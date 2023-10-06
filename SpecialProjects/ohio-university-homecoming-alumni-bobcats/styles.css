@@ -8,16 +8,16 @@ Please contact at bllender.00@gmail.com with questions.*/
     --font-1: 'Kanit', sans-serif;
     --font-2: Consolas;
 
-    --artColor: #A4D65E;
+    --artColor: #ffd464;
     --artShadow: #000;
     --artStroke: #00694E;
 
     --hedColor: #000;
     --hedStroke: #00694E;
 
-    --hyperlinkColor: #A4D65E;
+    --hyperlinkColor: #009570;
 
-    --buttonColor: #A4D65E;
+    --buttonColor: #ffd464;
     --buttonHover: #00694E;
 
     --pqColor: #00694E;
@@ -689,5 +689,5 @@ blockquote {
     margin-bottom: -10px;
     font-size: 50px;
     text-align: center;
-    color: #A4D65E;
+    color: #ffd464;
 }

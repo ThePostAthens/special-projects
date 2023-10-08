@@ -241,6 +241,7 @@ h4 {
 .share-container {
     text-align: center;
     margin-top: -20px;
+    margin-bottom: 25px;
     width: 60%;
     padding: 0 20%;
 }

@@ -691,4 +691,6 @@ blockquote {
     font-size: 50px;
     text-align: center;
     color: #ffd464;
+    -webkit-text-stroke: 0.05em var(--artStroke);
+    -webkit-text-stroke-color: #00694E;
 }

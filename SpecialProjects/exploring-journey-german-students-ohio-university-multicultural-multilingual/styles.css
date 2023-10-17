@@ -277,7 +277,7 @@ ul.share-buttons img {
 }
 
 /* CONTENT */
-/*
+
 p.intro {
     font-size: 1.25rem;
 }
@@ -291,7 +291,6 @@ p.intro {
     margin-right: 0.1em;
     color: var(--artColor);
 }
-*/
 
 .intro span {
     -webkit-text-stroke: 0.15em var(--artStroke);

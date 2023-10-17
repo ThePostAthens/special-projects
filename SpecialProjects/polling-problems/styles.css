@@ -570,3 +570,8 @@ iframe {
 .bottom-ad {
     margin-bottom: 32px;
 }
+
+.middle-ad {
+    width: 60%;
+    padding: 0 20%;
+}

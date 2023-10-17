@@ -749,3 +749,17 @@ blockquote {
     display: flex;
     flex-wrap: wrap;
 }
+
+.top-ad {
+    margin-top: 32px;
+    margin-bottom: 50px;
+}
+
+.bottom-ad {
+    margin-bottom: 32px;
+}
+
+.middle-ad {
+    width: 60%;
+    padding: 0 20%;
+}

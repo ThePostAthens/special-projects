@@ -694,3 +694,21 @@ blockquote {
     -webkit-text-stroke: 0.05em var(--artStroke);
     -webkit-text-stroke-color: #00694E;
 }
+
+.top-ad {
+    width: 60%;
+    padding: 0 20%;
+    margin-top: 32px;
+    margin-bottom: 50px;
+}
+
+.bottom-ad {
+    width: 60%;
+    padding: 0 20%;
+    margin-bottom: 32px;
+}
+
+.middle-ad {
+    width: 60%;
+    padding: 0 20%;
+}

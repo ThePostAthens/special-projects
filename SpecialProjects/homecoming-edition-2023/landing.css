@@ -8,9 +8,9 @@
      --font-1: montserrat, sans-serif;
      --font-2: montserrat, sans-serif;
 
-     --artColor: #A4D65E;
+     --artColor: #366ff1;
      --artShadow: #000;
-     --artStroke: #00694E;
+     --artStroke: #ea3e4a;
 
      --bubbleColor: #dbdbdb;
      --bubbleText: #000;
@@ -21,7 +21,7 @@
      --storyShadow: #000;
      --boxShadow: rgba(0, 0, 0, 0.438);
 
-     --hyperlinkColor: #A4D65E;
+     --hyperlinkColor: #366ff1;
 
      --artSize: clamp(2.88rem, 2.09rem + 3.93vw, 5.63rem); /*44-90px*/
      --bubbleSize: clamp(1.13rem, 0.91rem + 1.07vw, 1.88rem); /*18-30px*/
@@ -50,7 +50,7 @@
 
  a:hover,
  .creditText a:hover {
-     color: #00694E;
+     color: #366ff1;
      filter: saturate(3);
  }
 
@@ -155,7 +155,7 @@
 
  #arthed {
      font-family: var(--font-1);
-     color: var(--artColor);
+     color: white;
      position: absolute;
      bottom: 40%;
      padding: 0;
@@ -168,6 +168,7 @@
      width: 96%;
      text-shadow: 2px 2px 3px var(--artShadow);
      -webkit-text-stroke: 0.04em var(--artStroke);
+     -webkit-text-stroke-color: black;
  }
 
  /* HEADLINE STYLES */
@@ -205,6 +206,16 @@
      margin: 0 auto;
  }
 
+ #content-1{
+    color: #366ff1;
+ }
+
+ #content-2{
+    color: #ea3e4a;
+    -webkit-text-stroke: 0.04em var(--storyStroke);
+    -webkit-text-stroke-color: #ea3e4a;
+ }
+
  /* INTRO CONTAINER*/
  .intro-cont {
      font-family: var(--font-0);
@@ -235,7 +246,7 @@
 
  /* SOCIAL HANDLES*/
  .s-headline {
-     color: var(--bubbleText);
+     color: #ea3e4a;
      width: 80%;
      padding: 0 10%;
      margin: 0;

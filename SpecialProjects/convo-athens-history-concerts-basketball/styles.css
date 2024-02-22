@@ -1,0 +1,712 @@
+/* Template.css
+This is a template for special projects at The Post.
+Template updated 2022 by Brianna Lender, Web Development Director at The Post.
+Please contact at bllender.00@gmail.com with questions.*/
+
+:root {
+    --font-0: montserrat, sans-serif;
+    --font-1: 'Kanit', sans-serif;
+    --font-2: Consolas;
+
+    --artColor: #00694E;
+    --artShadow: #000;
+    --artStroke: #f4f7f6;
+
+    --hedColor: #000;
+    --hedStroke: #00694E;
+
+    --hyperlinkColor: #00694E;
+
+    --buttonColor: #00694E;
+    --buttonHover: #A4D65E;
+
+    --pqColor: #00694E;
+    
+    --artSize: clamp(2.88rem, 2.09rem + 3.93vw, 5.63rem); /*44-90px*/
+    --dropSize: clamp(3.75rem, 3.57rem + 0.89vw, 4.38rem); /*60-70px*/
+    --hed-size: clamp(1.88rem, 1.73rem + 0.71vw, 2.38rem); /*28-40px*/
+}
+
+/* GENERAL STYLES */
+body {
+    font-family: var(--font-0);
+    background-color: #FFF;
+    color: #030406;
+}
+
+a,
+i.share,
+.creditText a {
+    color: var(--hyperlinkColor);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00694E;
+}
+
+
+p {
+    width: 60%;
+    padding: 0 20%;
+}
+
+h2 {
+    padding: 0 15%;
+}
+
+h3 {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+/* COLUMNS */
+.column20center {
+    width: 60%;
+    padding: 0 20%;
+}
+
+/* .column10center {
+    width: 80%;
+    padding: 0 10%;
+}
+
+.column10left {
+    width: 40%;
+    padding-left: 10%;
+}
+
+.column10right {
+    width: 40%;
+    padding-right: 10%;
+} */
+
+/* NAVIGATION BAR */
+#nav_bar {
+    background: #292929;
+    color: #FFF;
+    height: 52px;
+}
+
+#nav_bar img {
+    height: 30px;
+    padding: 10px;
+    float: left;
+}
+
+#nav_bar li {
+    list-style: none;
+    padding: 15px;
+    float: right;
+}
+
+#nav_bar ul {
+    margin: 0;
+}
+
+#nav_bar li #facebook {
+    color: #fff;
+}
+
+#nav_bar li #facebook:hover {
+    color: #3b5998;
+    opacity: 1;
+}
+
+#nav_bar li #twitter {
+    color: #fff;
+}
+
+#nav_bar li #twitter:hover {
+    color: #00acee;
+    opacity: 1;
+}
+
+#nav_bar li #instagram {
+    color: #fff;
+}
+
+#nav_bar li #instagram:hover {
+    color: #efc04a;
+    opacity: 1;
+}
+
+#logo {
+    z-index: 1;
+    position: absolute;
+    float: left;
+    height: 30px;
+    padding: 7px;
+}
+
+/* HERO IMAGE */
+#heroimg {
+    width: 100%;
+    position: relative;
+}
+
+#heroimg img {
+    width: 100%;
+}
+
+#arthed {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: var(--artColor);
+    position: absolute;
+    bottom: 40%;
+    padding: 0 10%;
+    margin: 0;
+    font-size: var(--artSize);
+    line-height: var(--artSize);
+    font-weight: 700;
+    text-align: center;
+    width: 80%;
+    text-shadow: 1px 1px 10px var(--artShadow);
+    -webkit-text-stroke: 0.035em var(--artStroke);
+}
+
+/* HEADLINE STYLES */
+h1,
+h2,
+h3,
+h4 {
+    margin-bottom: 1.2px;
+}
+
+.date p {
+    font-family: var(--font-1);
+    color: black;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 75px;
+    margin-bottom: -35px;
+    width: 60%;
+    padding: 0 20%;
+    text-align: center;
+}
+
+
+/* Pick one font depending on design (or find another one) */
+.cutline {
+    float: left;
+    text-align: left;
+    margin: 0;
+    color: rgb(59, 59, 59);
+    font-size: 0.75rem;
+    width: 90%;
+    padding: 0;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+
+.headline {
+    text-align: center;
+    font-family: Visage, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: var(--hedColor);
+    font-weight: 600;
+    /* font-family: "Playfair Display", Georgia, serif; */
+    font-size: 25px;
+    line-height: var(--hed-size);
+    margin-top: 0px;
+    /* text-transform: uppercase; */
+    width: 60%;
+    padding: 0 20%;
+    letter-spacing: 0.8px;
+}
+
+/* BYLINE */
+.byline-info {
+    text-align: center;
+    display: block;
+    margin-top: -10px;
+}
+
+.byline-info p {
+    display: inline-block;
+    font-family: var(--font-1);
+    font-weight: 300;
+    /* font-family: "Playfair Display", Georgia, serif; */
+    font-size: 1rem;
+    text-align: center;
+}
+
+.byline-info p:last-of-type {
+    margin-right: 0;
+}
+
+/* SHARE BUTTONS */
+.share-container {
+    text-align: center;
+    margin-top: -20px;
+    width: 60%;
+    padding: 0 20%;
+}
+
+ul.share-buttons {
+    list-style: none;
+    padding: 0;
+}
+
+ul.share-buttons li {
+    display: inline;
+}
+
+ul.share-buttons .sr-only {
+    position: absolute;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+ul.share-buttons img {
+    width: 32px;
+}
+
+/* CONTENT */
+p.intro {
+    font-size: 1.25rem;
+}
+
+.intro::first-letter {
+    font-weight: 700;
+    float: left;
+    font-family: var(--font-1);
+    font-size: var(--dropSize);
+    line-height: 3.5rem;
+    margin-right: 0.1em;
+    color: var(--artColor);
+}
+
+.intro span {
+    -webkit-text-stroke: 0.15em var(--artStroke);
+}
+
+/* BACK BUTTON*/
+#back-button {
+    text-align: left;
+    width: 60%;
+    padding: 0 20%;
+    margin: 40px 0px 30px 0px;
+    color: #000;
+}
+
+#back-button a:hover {
+    opacity: 1;
+    filter: saturate(1);
+}
+
+.back-button {
+    padding: 10px 40px;
+    font-size: 1.25rem;
+    color: #dbf0de;
+    border: hidden;
+    border-radius: 20px;
+    background-color: var(--buttonHover);
+    letter-spacing: 1px;
+    box-shadow: inset 400px 0 0 0 var(--buttonColor);
+    -webkit-transition: .4s ease-out 0s;
+    transition: .4s ease-out 0s;
+}
+
+.slide-right:hover {
+    box-shadow: inset 0 0 0 0 var(--buttonColor);
+}
+
+
+/* CREDITS */
+.credits {
+    margin: 1rem auto 0;
+    max-width: 60%;
+    padding-bottom: 2.4rem;
+    text-align: left;
+    color: var(--hedColor);
+}
+
+.creditText {
+    display: inline-block;
+    font-family: Visage, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin: 0 1rem 0rem 0;
+    letter-spacing: 0.8px;
+}
+
+.creditText a {
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* OTHER STUFF */
+/* IMAGE BLOCKS */
+.insta-embed {
+    width: 40%;
+    padding: 0 30%;
+}
+
+.oneimg_center {
+    width: 60%;
+    padding: 0 20%;
+}
+
+/*Apply to a wrapping div*/
+.oneimg_right {
+    width: 40%;
+    padding-right: 10%;
+    padding-left: 10px;
+    float: right;
+}
+
+/*Apply to a wrapping div*/
+.oneimg_left {
+    width: 40%;
+    padding-left: 10%;
+    padding-right: 20px;
+    float: left;
+}
+
+/*add to p tag, should be before the pcut p tag*/
+.oneimg_full p {
+    width: 60%;
+    padding: 0 20%;
+}
+
+
+.oneimg_full img,
+.oneimg_center img,
+.oneimg_right img,
+.oneimg_left img {
+    width: 100%
+}
+
+.photog {
+    float: right;
+    text-align: right;
+    margin: 0;
+    font-weight: 800;
+    color: var(--hedColor);
+    font-size: 0.75rem;
+    width: 100%;
+    padding: 0;
+}
+
+.pcut {
+    float: right;
+    text-align: left;
+    margin: 0;
+    font-weight: 100;
+    color: #808080;
+    font-size: 0.75rem;
+    width: 100%;
+    padding: 0;
+}
+
+.subhed {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    line-height: clamp(1rem, 10vw, 1.6rem);
+    color: var(--hedColor);
+    width: 60%;
+    padding: 0 20%;
+
+}
+
+/*apply to wrapping span tag*/
+
+/* PULL QUOTES */
+blockquote {
+    padding: 0;
+    margin: 5px;
+}
+
+/*add to wrapping div*/
+.pq_center {
+    width: 60%;
+    padding: 0 20%;
+    margin: 0;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: var(--pqColor);
+    font-weight: 700;
+}
+
+/*add to wrapping div*/
+.pq_right {
+    width: 40%;
+    padding-right: 10%;
+    padding-left: 15px;
+    float: right;
+    margin: 0;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: var(--pqColor);
+}
+
+/*add to wrapping div*/
+.pq_left {
+    width: 40%;
+    padding-left: 10%;
+    padding-right: 0;
+    float: left;
+    margin: 0;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--pqColor);
+}
+
+.flourish-embed {
+    width: 60%;
+    margin: 0 20%;
+}
+
+/*add to wrapping div*/
+.attribution {
+    font-size: 1.25rem;
+    text-transform: none;
+    display: block;
+    text-align: right;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0 5%;
+    width: 90%;
+}
+
+/*----- Gallery Stuff -----*/
+.gallery_bot {
+    padding: 0;
+    width: 20%;
+    float: left;
+}
+
+.galleryPcut {
+    float: right;
+    text-align: left;
+    margin: 0;
+    font-weight: 100;
+    color: #808080;
+    font-size: 12px;
+    width: 100%;
+    padding: 0;
+    padding-bottom: 10px;
+}
+
+.w3-hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important
+}
+
+.mySlides {
+    display: none;
+}
+
+
+/* SPECIAL PROJECT FOOTER */
+.footer {
+    color: #FFF;
+    font-family: 'Playfair Display';
+    width: 100%;
+    height: 200px;
+    text-shadow: 2px 2px 5px #000;
+    background-color: #292929;
+    display: table;
+}
+
+.footer_inside {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.footer h2 {
+    font-size: 2.5rem;
+    width: 70%;
+    padding: 0 15%;
+    margin: 0;
+    line-height: 35px;
+}
+
+.footer p {
+    font-family: 'Montserrat';
+    margin: 0;
+    width: 70%;
+    padding: 10px 15% 0 15%;
+}
+
+.copyright {
+    color: #FFF;
+    font-family: 'Montserrat';
+    width: 100%;
+    height: 20px;
+    text-shadow: 2px 2px 5px #000;
+    background-color: #171717;
+    display: table;
+}
+
+.copyright_inside {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.copyright p {
+    font-family: 'Montserrat';
+    margin: 0;
+    width: 70%;
+    padding: 13px 15% 15px 15%;
+}
+
+.btn-container {
+    margin-left: 20px;
+}
+
+
+
+.projects {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.projects:hover {
+    background-color: rgba(151, 151, 151, 0.2);
+    color: #fff;
+}
+
+.join {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.join:hover {
+    background-color: rgba(151, 151, 151, 0.2);
+    color: #fff;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 768px) {
+
+    .column20center,
+    p {
+        width: 80%;
+        padding: 0 10%;
+    }
+
+    #logo {
+        height: 25px;
+    }
+
+    .date {
+        font-family: Visage, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        width: 80%;
+        padding: 0% 10%;
+        text-align: center;
+        letter-spacing: 0.7px;
+    }
+
+    #arthed {
+        bottom: 40%;
+    }
+
+    .headline {
+        width: 80%;
+        padding: 0% 10%;
+        text-align: center;
+    }
+
+    .byline-info p {
+        text-align: center;
+    }
+
+    .share-container {
+        text-align: center;
+    }
+
+    .subhed {
+        width: 80%;
+        padding: 0 10%;
+    }
+
+    .insta-embed {
+        width: 60%;
+        padding: 0 20%;
+    }
+
+    .oneimg_right,
+    .oneimg_left,
+    .oneimg_center {
+        width: 80%;
+        padding: 0 10% 10px 10%;
+    }
+
+    .oneimg_full p {
+        width: 80%;
+        padding: 0 10%;
+    }
+
+    .pq_center,
+    .pq_right,
+    .pq_left {
+        padding: 0 5%;
+        width: 90%;
+    }
+
+    .subhed {
+        padding: 0 10%;
+    }
+
+    #back-button {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .credits {
+        max-width: 100%;
+        text-align: left;
+        margin-left: 50px;
+    }
+
+    .footer {
+        height: 300px;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+}
+
+.title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    margin-top: 35px;
+    margin-bottom: -10px;
+    font-size: 50px;
+    text-align: center;
+    color: #00694E;
+}
+
+/* ADS */
+.top-ad {
+    width: 60%;
+    padding: 0 20%;
+    margin-top: 32px;
+    margin-bottom: 50px;
+}
+
+.bottom-ad {
+    width: 60%;
+    padding: 0 20%;
+    margin-bottom: 32px;
+}
+
+.middle-ad {
+    width: 60%;
+    padding: 0 20%;
+}

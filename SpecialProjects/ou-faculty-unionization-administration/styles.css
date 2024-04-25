@@ -8,19 +8,19 @@ Please contact at bllender.00@gmail.com with questions.*/
     --font-1: 'Kanit', sans-serif;
     --font-2: Consolas;
 
-    --artColor: #006928;
+    --artColor: #95001c;
     --artShadow: #000;
-    --artStroke: #006928;
+    --artStroke: #95001c;
 
     --hedColor: #000;
     --hedStroke: #006928;
 
-    --hyperlinkColor: #006928;
+    --hyperlinkColor: #ed762c;
 
-    --buttonColor: #006928;
-    --buttonHover: #006928;
+    --buttonColor: #ed762c;
+    --buttonHover: #ff967c;
 
-    --pqColor: #006928;
+    --pqColor: #95001c;
     
     --artSize: clamp(2.88rem, 2.09rem + 3.93vw, 5.63rem); /*44-90px*/
     --dropSize: clamp(3.75rem, 3.57rem + 0.89vw, 4.38rem); /*60-70px*/
@@ -42,8 +42,7 @@ i.share,
 }
 
 a:hover {
-    color: #006928;
-    text-decoration: underline;
+    color: #ff967c;
 }
 
 
@@ -152,7 +151,7 @@ h3 {
 }
 
 #arthed {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: "Sniglet", system-ui;
     color: var(--artColor);
     position: absolute;
     bottom: 40%;
@@ -160,11 +159,12 @@ h3 {
     margin: 0;
     font-size: var(--artSize);
     line-height: var(--artSize);
-    font-weight: 700;
+    font-weight: 200;
     text-align: center;
     width: 80%;
     text-shadow: 1px 1px 10px var(--artShadow);
-    -webkit-text-stroke: 0.035em var(--artStroke);
+    -webkit-text-stroke: 0.020em var(--artStroke);
+    -webkit-text-stroke-color: white;
 }
 
 /* HEADLINE STYLES */
@@ -282,11 +282,7 @@ p.intro {
     font-size: var(--dropSize);
     line-height: 3.5rem;
     margin-right: 0.1em;
-    color: var(--artColor);
-}
-
-.intro span {
-    -webkit-text-stroke: 0.15em var(--artStroke);
+    color: black;
 }
 
 /* BACK BUTTON*/
@@ -693,7 +689,7 @@ blockquote {
     font-size: 75px;
     text-align: left;
     padding: 0 20%;
-    color: #006928;
+    color: #95001c;
 }
 
 /* ADS */

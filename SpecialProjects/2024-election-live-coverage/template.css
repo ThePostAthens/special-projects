@@ -560,6 +560,23 @@ h3 {
 #twitter-button:hover {
     background-color: #0d95e8; /* Darker blue on hover */
 }
+/* Mobile Adjustments (Screens 600px and Smaller) */
+@media (max-width: 600px) {
+    .button-container {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center;
+    }
+    
+    #arthed {
+        font-size: 8vw; /* Larger font size for mobile readability */
+        margin-bottom: 10px;
+    }
+
+    #twitter-button, #ee-button {
+        font-size: 5vw; /* Adjust button font size for mobile */
+        width: 90%; /* Nearly full-width on smaller screens */
+    }
+}
 .credit {
     font-size: 16px;
     font-weight: 100;

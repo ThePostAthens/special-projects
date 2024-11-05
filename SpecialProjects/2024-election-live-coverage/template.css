@@ -577,6 +577,25 @@ h3 {
         width: 90%; /* Nearly full-width on smaller screens */
     }
 }
+/* Mobile Layout (600px or Smaller) */
+@media (max-width: 600px) {
+    .button-container {
+        flex-direction: column; /* Stack buttons vertically */
+        align-items: center;
+    }
+
+    #twitter-button {
+        order: 1; /* Twitter button appears first */
+        width: 90%; /* Full width on mobile */
+        max-width: 300px;
+    }
+
+    #ee-button {
+        order: 2; /* EE button appears below */
+        width: 90%;
+        max-width: 300px;
+    }
+}
 .credit {
     font-size: 16px;
     font-weight: 100;

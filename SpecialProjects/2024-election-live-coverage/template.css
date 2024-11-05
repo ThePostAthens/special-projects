@@ -563,7 +563,7 @@ h3 {
 /* Mobile Adjustments (Screens 600px and Smaller) */
 @media (max-width: 600px) {
     .button-container {
-        flex-direction: column; /* Stack elements vertically */
+        flex-direction: row; /* Stack elements vertically */
         align-items: center;
     }
     

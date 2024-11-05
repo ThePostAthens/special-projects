@@ -3,329 +3,6 @@ This is a template for special projects at The Post.
 Template originally coded by Seth Archer, digital managing editor at The Post.
 Please contact at SethPArcher@gmail.com with questions.*/
 
-/*GRID*/
-
-.grid {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto ;
-    margin: 0 auto; 
-    margin-right: 60px;
-    margin-left: 60px; 
-    color: white;
-    text-align: center;
-    font-weight: 400;
-    font-size: 12px;
-    
-    text-shadow: 2px 2px #3a3a3a;
-    font-family: 'Work Sans', sans-serif;
-}
-
-/*Hover*/
-
-.one:hover {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,.60);
-}
-
-.two:hover {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,.60);
-}
-
-.three:hover {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,.60);
-}
-.four:hover {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,.60);
-}
-
-.five:hover {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,.60);
-}
-
-.six:hover {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,.60);
-}
-
-.seven:hover {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,.60);
-}
-
-.eight:hover {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,.60);
-}
-
-.nine:hover {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,.60);
-}
-
-.ten:hover {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,.60);
-}
-
-.eleven:hover {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,.60);
-}
-
-.twelve:hover {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,.60);
-}
-
-.thirteen:hover {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,.60);
-}
-
-.fourteen:hover {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,.60);
-}
-
-.fifteen:hover {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,.60);
-}
-/*Landing Page Elements*/
-.one {
-    
-    border-radius: 10px;
-    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/ad3ac9fb-e21d-43fa-b2fa-228578862d93.sized-1000x1000.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-    width: 190px;
-    height: 190px;
-    padding: 10px 10px 10px 10px;
-    margin: 0 auto;
-    margin-top: 15px;
-    margin-bottom:15px;
-}
-
-.two {
-    
-    border-radius: 10px;
-    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/9c83ad28-57a1-4eb5-a4bf-a20b6fd53666.sized-1000x1000.jpg);
-    background-repeat: no-repeat;
-    background-size: 140%;
-    background-position: center;
-    transition: 0.3s;
-    width: 190px;
-    height: 190px;
-    padding: 10px 10px 10px 10px;
-    margin: 0 auto;
-    margin-top: 15px;
-    margin-bottom:15px;
-}
-
-.three {
-    
-    border-radius: 10px;
-    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/7b0cc0d4-f5c1-4a8f-9706-1e90e5db2af5.sized-1000x1000.jpg);
-    background-repeat: no-repeat;
-    background-size: 220%;
-    background-position: center;
-    transition: 0.3s;
-    width: 190px;
-    height: 190px;
-    padding: 10px 10px 10px 10px;
-    margin: 0 auto;
-    margin-top: 15px;
-    margin-bottom:15px;
-
-}
-
-
-.four {
-    
-   border-radius: 10px;
-    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/a3c36a2c-a21a-4187-aeb4-581521343020.sized-1000x1000.jpg);
-    background-repeat: no-repeat;
-    background-size: 150%;
-    background-position: center;
-    transition: 0.3s;
-    width: 190px;
-    height: 190px;
-    padding: 10px 10px 10px 10px;
-    margin: 0 auto;
-    margin-top: 15px;
-    margin-bottom:15px;
-   
-}
-
-
-.five {
-    
-   border-radius: 10px;
-    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/4a932ffe-7b9c-4c44-8c34-ffe58445d182.sized-1000x1000.JPG);
-    background-repeat: no-repeat;
-    background-size: 220%;
-    background-position: center;
-    transition: 0.3s;
-    width: 190px;
-    height: 190px;
-    padding: 10px 10px 10px 10px;
-    margin: 0 auto;
-    margin-top: 15px;
-    margin-bottom:15px;
-
-}
-
-
-.six {
-    
-    border-radius: 10px;
-    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/61a9ee38-f909-4bd3-9127-af586a307681.sized-1000x1000.jpg);
-    background-repeat: no-repeat;
-    background-size: 220%;
-    background-position: center;
-    transition: 0.3s;
-    width: 190px;
-    height: 190px;
-    padding: 10px 10px 10px 10px;
-    margin: 0 auto;
-    margin-top: 15px;
-    margin-bottom:15px;
-}
-
-.seven {
-    
-    border-radius: 10px;
-    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/40d0dff5-ad64-4784-a284-5e00b5529e32.sized-1000x1000.jpg);
-    background-repeat: no-repeat;
-    background-size: 220%;
-    background-position: center;
-    transition: 0.3s;
-    width: 190px;
-    height: 190px;
-    padding: 10px 10px 10px 10px;
-    margin: 0 auto;
-    margin-top: 15px;
-    margin-bottom:15px;
-}
-
-.eight {
-    
-    border-radius: 10px;
-    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/8f2209d7-50ba-415c-9bda-6abdcc9bce44.sized-1000x1000.jpg);
-    background-repeat: no-repeat;
-    background-size: 220%;
-    background-position: center;
-    transition: 0.3s;
-    width: 190px;
-    height: 190px;
-    padding: 10px 10px 10px 10px;
-    margin: 0 auto;
-    margin-top: 15px;
-    margin-bottom:15px;
-}
-
-.nine {
-    
-    border-radius: 10px;
-    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/8082e9ed-28c5-440d-bd02-c4cc7c3213fd.sized-1000x1000.jpg);
-    background-repeat: no-repeat;
-    background-size: 150%;
-    background-position: center;
-    transition: 0.3s;
-    width: 190px;
-    height: 190px;
-    padding: 10px 10px 10px 10px;
-    margin: 0 auto;
-    margin-top: 15px;
-    margin-bottom:15px;
-}
-
-.ten {
-    
-    border-radius: 10px;
-    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/047591bb-edaa-493a-840b-b06733a7bd66.sized-1000x1000.jpeg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-    transition: 0.3s;
-    width: 190px;
-    height: 190px;
-    padding: 10px 10px 10px 10px;
-    margin: 0 auto;
-    margin-top: 15px;
-    margin-bottom:15px;
-}
-
-.eleven {
-    
-    border-radius: 10px;
-    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/8c936b33-dded-4d79-b3c9-09c1c3669199.sized-1000x1000.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-    transition: 0.3s;
-    width: 190px;
-    height: 190px;
-    padding: 10px 10px 10px 10px;
-    margin: 0 auto;
-    margin-top: 15px;
-    margin-bottom:15px;
-}
-
-.twelve {
-    
-    border-radius: 10px;
-    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/d2a2fe25-468e-4cdd-b56c-e239daba6710.sized-1000x1000.jpg);
-    background-repeat: no-repeat;
-    background-size: 150%;
-    background-position: center;
-    transition: 0.3s;
-    width: 190px;
-    height: 190px;
-    padding: 10px 10px 10px 10px;
-    margin: 0 auto;
-    margin-top: 15px;
-    margin-bottom:15px;
-}
-
-.thirteen {
-    
-    border-radius: 10px;
-    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/0471bac5-b38b-401e-8ad0-6d4f0675a91a.sized-1000x1000.JPG);
-    background-repeat: no-repeat;
-    background-size: 150%;
-    background-position: center;
-    transition: 0.3s;
-    width: 190px;
-    height: 190px;
-    padding: 10px 10px 10px 10px;
-    margin: 0 auto;
-    margin-top: 15px;
-    margin-bottom:15px;
-}
-
-.fourteen {
-    
-    border-radius: 10px;
-    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/71eb01c2-cf75-4c07-99dd-6be03b4a9afa.sized-1000x1000.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: top;
-    transition: 0.3s;
-    width: 190px;
-    height: 190px;
-    padding: 10px 10px 10px 10px;
-    margin: 0 auto;
-    margin-top: 15px;
-    margin-bottom:15px;
-}
-
-.fifteen {
-    
-    border-radius: 10px;
-    background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/4c58347c-b7af-4784-ba1e-ec019f5d60e2.sized-1000x1000.JPG);
-    background-repeat: no-repeat;
-    background-size: 150%;
-    background-position: top;
-    transition: 0.3s;
-    width: 190px;
-    height: 190px;
-    padding: 10px 10px 10px 10px;
-    margin: 0 auto;
-    margin-top: 15px;
-    margin-bottom:15px;
-}
-/*Button*/
 
 button, .back-button {
     border-color: #2e97dd;
@@ -356,7 +33,7 @@ button:hover{
 
 body {
     font-family: 'montserrat', sans-serif;
-    background-color: #FFF;
+    background-color: white;
     color: #030406;
 }
 
@@ -444,7 +121,7 @@ h3 {
 
 #heroimg {
     width: 100%;
-    position: relative; background:#e5e5e5;
+    position: relative; background:#80caf5;
     color: white;
 }/*apply to wrapping div with an img tag within*/
 
@@ -478,13 +155,12 @@ h3 {
     animation-direction:normal;
     animation-fill-mode: none;
     animation-play-state:running;
-    
     margin: 0px;
     text-align: center;
     width: 100%;
     height:100%;
     padding-top: 12vw;
-    padding-bottom: vw;
+    padding-bottom: 1vw;
     margin: 0px;
     font-size: 8vw;
     line-height: 90%;
@@ -519,30 +195,30 @@ h3 {
 
 #twitter-button {
     display: inline-block;
-    padding: 10px; /* Adjust padding as needed */
-    font-size: 24px; /* Font size */
-    font-weight: bold; /* Make text bold */
-    color: white; /* Text color */
-    background-color: rgb(231, 47, 47);
+    padding: 15px 10px 10px 10px; /* Adjust padding as needed */
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+    background-image: url('https://s3.amazonaws.com/snwceomedia/ohi/0a60cebf-7a0f-4b2b-b866-01a4a29667e6.sized-1000x1000.jpg'); /* Add your image URL here */
     background-repeat: no-repeat;
-    background-size: cover; /* Change to cover to maintain the aspect ratio */
-    background-position: center; /* Center the background image */
-    border: none; /* Remove border */
-    border-radius: 10px; /* Rounded corners */
-    text-decoration: none; /* Remove underline */
-    transition: background-color 0.3s; /* Smooth transition */
-    width: 300px; /* Set width to match ee-button */
-    height: 300px; /* Set height to match ee-button */
-    margin: 0 auto; /* Center the button horizontally */
-    margin-top: 15px; /* Space above the button */
-    margin-bottom: 15px; /* Space below the button */
-    text-align: center; /* Center text within the button */
-    line-height: 300px;
-    
+    background-size: cover; /* Ensures the image covers the entire button */
+    background-position: center;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    line-height: normal; /* Center text vertically */
 }
 
 
 #ee-button{
+    display: inline-block;
     border-radius: 10px;
     background-image: url(https://s3.amazonaws.com/snwceomedia/ohi/ad3ac9fb-e21d-43fa-b2fa-228578862d93.sized-1000x1000.jpg);
     background-repeat: no-repeat;
@@ -556,14 +232,35 @@ h3 {
     margin-bottom:15px;
 
 }
-
+/*
 #twitter-button:hover {
-    background-color: #0d95e8; /* Darker blue on hover */
+    background-color: #0d95e8; 
 }
+    */
+.full-width-button {
+    display: block; /* Makes the link behave like a block element */
+    width: 100%; /* Full width of the screen */
+    padding: 18px; /* Padding for the button */
+    background-color: #6fbaec; /* Button background color */
+    color: white; /* Text color */
+    text-align: center; /* Center align the text */
+    font-size: 18px; /* Font size */
+    font-weight: bold; /* Make text bold */
+    text-decoration: none; /* Remove underline from link */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Add shadow */
+    margin-bottom: 50px;
+}
+
+.full-width-button:hover {
+    background-color: #ee0909; /* Darken the button on hover */
+}
+
 /* Mobile Adjustments (Screens 600px and Smaller) */
 @media (max-width: 600px) {
     .button-container {
-        flex-direction: row; /* Stack elements vertically */
+        flex-direction: column; /* Stack elements vertically */
         align-items: center;
     }
     
@@ -577,29 +274,10 @@ h3 {
         width: 90%; /* Nearly full-width on smaller screens */
     }
 }
-/* Mobile Layout (600px or Smaller) */
-@media (max-width: 600px) {
-    .button-container {
-        flex-direction: column; /* Stack buttons vertically */
-        align-items: center;
-    }
-
-    #twitter-button {
-        order: 1; /* Twitter button appears first */
-        width: 90%; /* Full width on mobile */
-        max-width: 300px;
-    }
-
-    #ee-button {
-        order: 2; /* EE button appears below */
-        width: 90%;
-        max-width: 300px;
-    }
-}
 .credit {
-    font-size: 16px;
-    font-weight: 100;
-    padding-bottom: 50px;
+    font-size: 11px;
+    font-weight: 00;
+    padding-bottom: 30px;
 }/*apply to h4 with developer's name and title*/
 
 .subhed {

@@ -69,40 +69,52 @@ h3 {
     padding: 15px;
     margin: 20px 0;
     background-color: #f9f9f9;
+    flex-wrap: wrap; /* Allow content to wrap on smaller screens */
   }
   
   .article-image {
-    width: 150px;  /* Set the width of the image */
-    height: auto;  /* Maintain aspect ratio */
-    margin-right: 20px; /* Add space between image and text */
+    width: 100%; /* Make the image responsive */
+    max-width: 150px; /* Set a maximum size for the image */
+    height: auto; /* Maintain the aspect ratio */
+    margin-right: 20px; /* Space between image and text */
   }
   
   .text-content {
-    flex: 1;  /* Makes the text block flexible */
+    flex: 1;
   }
   
   .custom-headline {
-    font-size: 18px;  /* Custom font size */
-    font-weight: 700;  /* Custom weight for bold text */
-    color: #333;  /* Custom color */
-    margin: 0 0 10px 0;  /* Adjust margin as needed */
-    line-height: 1.2;  /* Line height for readability */
+    font-size: 1.8em;
+    font-weight: 700;
+    color: #333;
+    margin: 0 0 10px 0;
+    line-height: 1.2;
+    text-decoration: none;
+  }
+  
+  .custom-headline:hover {
+    color: rgb(2, 63, 2);
+    text-decoration: underline;
   }
   
   .author, .time {
-    font-size: 12px;
+    font-size: 1em;
     color: #555;
     margin: 0;
-    font-weight: bold;
   }
-
-.date{
-    font-weight: 800;
-    color: #e5e5e5;
-    width: 60%;
-    padding: 0% 20% 0 20%;
-    margin: 0;
-}/*apply to p tag*/
+  
+  /* Media Query for Mobile Devices */
+  @media (max-width: 768px) {
+    .news-article {
+      flex-direction: column; /* Stack image and text on smaller screens */
+      align-items: flex-start; /* Align text and image to the left */
+    }
+  
+    .article-image {
+      margin-right: 0; /* Remove right margin */
+      margin-bottom: 15px; /* Add space below image */
+    }
+  }
 
 /*-----Column stuff-----*/
 

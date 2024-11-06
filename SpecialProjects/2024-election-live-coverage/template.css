@@ -361,7 +361,7 @@ h3 {
     background-color: #6fbaec;
     color: white;
     text-align: center;
-    font-size: 18px;
+    font-size: 40px;
     font-weight: bold;
     text-decoration: none;
     border-radius: 5px;
@@ -398,7 +398,7 @@ h3 {
     background-color: #6fbaec; /* Button background color */
     color: white; /* Text color */
     text-align: center; /* Center align the text */
-    font-size: 18px; /* Font size */
+    font-size: 40px; /* Font size */
     font-weight: bold; /* Make text bold */
     text-decoration: none; /* Remove underline from link */
     border-radius: 5px; /* Rounded corners */

@@ -82,6 +82,18 @@ h3 {
   .text-content {
     flex: 1;
   }
+  @media (max-width: 768px) {
+    .news-article {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+    }
+
+    .news-article img.article-image {
+        width: 100%;
+        max-width: 300px; /* Optional: limits image size */
+    }
+}
   
   .custom-headline {
     font-size: 1.8em;
